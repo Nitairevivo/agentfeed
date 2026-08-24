@@ -1,0 +1,65 @@
+# Announce every page, every time the site changes.
+#
+# Asking a console to index one page by hand does not scale past a handful.
+# IndexNow takes the whole list in one request, and every engine that
+# participates is notified at once — Bing above all, because ChatGPT's search
+# runs on it. Google does not participate; it reads the sitemap instead, which
+# is also bulk, and which now carries a date per url so a crawl can tell what
+# actually moved.
+#
+# No secret is needed. The key is a public file at the site root, and it
+# proves only that whoever submits these urls controls the site.
+name: Announce to search engines
+
+on:
+  push:
+    branches: [main]
+    paths: ['sitemap.xml', '**/index.html', 'api/stores.json']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The site has to be serving the new pages before an engine is told to
+      # fetch them, and Pages deploys from the same push.
+      - name: Let the deployment land
+        run: sleep 90
+
+      - name: Submit every url
+        run: |
+          python3 - <<'PY'
+          import json, re, urllib.error, urllib.parse, urllib.request
+          from pathlib import Path
+
+          KEY = "6207428dda82556a2a0a28d0e53ee533"
+          urls = re.findall(r"<loc>([^<]+)</loc>",
+                            Path("sitemap.xml").read_text(encoding="utf-8"))
+          if not urls:
+              print("no urls in sitemap"); raise SystemExit(0)
+          host = urllib.parse.urlparse(urls[0]).netloc
+          payload = json.dumps({"host": host, "key": KEY,
+                                "keyLocation": f"https://{host}/{KEY}.txt",
+                                "urlList": urls}).encode()
+          req = urllib.request.Request(
+              "https://api.indexnow.org/IndexNow", data=payload,
+              headers={"Content-Type": "application/json; charset=utf-8"})
+          try:
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  print(f"✓ {len(urls)} urls announced — {r.status}")
+          except urllib.error.HTTPError as e:
+              # A refusal from a search engine is news, not a broken build.
+              print(f"✗ {e.code}: {e.read().decode('utf-8','replace')[:200]}")
+          for u in urls:
+              print("   ", u)
+          PY
+
+      - name: Ping Google with the sitemap
+        run: |
+          curl -sS -o /dev/null -w "google sitemap ping: %{http_code}\n" \
+            "https://www.google.com/ping?sitemap=https://nitairevivo.github.io/agentfeed/sitemap.xml" || true
