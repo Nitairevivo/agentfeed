@@ -1,13 +1,19 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-08-24T08:35:57+00:00",
+  "updated": "2026-08-24T08:53:55+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
     "prices": "מחיר מופיע רק כאשר העסק פרסם אותו."
   },
   "categories": [
+    {
+      "slug": "pets",
+      "name": "חיות מחמד",
+      "url": "https://nitairevivo.github.io/agentfeed/c/pets/",
+      "businesses": 2
+    },
     {
       "slug": "beauty",
       "name": "טיפוח ויופי",
@@ -18,12 +24,6 @@
       "slug": "lodging",
       "name": "אירוח וצימרים",
       "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
-      "businesses": 1
-    },
-    {
-      "slug": "pets",
-      "name": "חיות מחמד",
-      "url": "https://nitairevivo.github.io/agentfeed/c/pets/",
       "businesses": 1
     }
   ],
@@ -40,6 +40,31 @@
       "products": "https://nitairevivo.github.io/agentfeed/store-09a406a81d/products.jsonl",
       "updated": "2026-08-23T07:17:26+00:00",
       "unknown": []
+    },
+    {
+      "slug": "store-2c8c8264da",
+      "name": "נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית",
+      "official_site": "https://www.facebook.com/share/1DPWUc5EMZ/",
+      "category": "חיות מחמד",
+      "category_slug": "pets",
+      "region": "",
+      "items": 3,
+      "page": "https://nitairevivo.github.io/agentfeed/store-2c8c8264da/",
+      "products": "https://nitairevivo.github.io/agentfeed/store-2c8c8264da/products.jsonl",
+      "updated": "2026-08-24T08:53:20+00:00",
+      "unknown": [
+        "מחירים — העסק לא פרסם אף מחיר לאף פריט",
+        "טווח מחירים לכל קטגוריה",
+        "מידות זמינות והתאמה לגזעים",
+        "האם יש התאמה אישית או הזמנה לפי מידה",
+        "האם המוצרים מיוצרים בעצמו או מיובאים",
+        "עלות משלוח וזמני אספקה — בארץ ובחו\"ל",
+        "מדיניות החזרות והחלפות",
+        "שעות מענה בוואטסאפ",
+        "כתובת פיזית או נקודת איסוף, אם קיימת",
+        "האם יש התמחות בגזעים מסוימים (סלוקי מופיע בשם המשתמש ב-Threads — לא אושר)",
+        "רשימת הפריטים המלאה — כאן שלוש קטגוריות בלבד, מחומר השיווק"
+      ]
     },
     {
       "slug": "store-9cf437de76",
