@@ -1,0 +1,78 @@
+{
+  "name": "AgentFeed",
+  "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
+  "updated": "2026-08-24T08:35:57+00:00",
+  "terms": {
+    "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
+    "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
+    "prices": "מחיר מופיע רק כאשר העסק פרסם אותו."
+  },
+  "categories": [
+    {
+      "slug": "beauty",
+      "name": "טיפוח ויופי",
+      "url": "https://nitairevivo.github.io/agentfeed/c/beauty/",
+      "businesses": 1
+    },
+    {
+      "slug": "lodging",
+      "name": "אירוח וצימרים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
+      "businesses": 1
+    },
+    {
+      "slug": "pets",
+      "name": "חיות מחמד",
+      "url": "https://nitairevivo.github.io/agentfeed/c/pets/",
+      "businesses": 1
+    }
+  ],
+  "businesses": [
+    {
+      "slug": "store-09a406a81d",
+      "name": "חנות חיות קרוב לטבע",
+      "official_site": "https://closetonature.co.il/",
+      "category": "חיות מחמד",
+      "category_slug": "pets",
+      "region": "",
+      "items": 2161,
+      "page": "https://nitairevivo.github.io/agentfeed/store-09a406a81d/",
+      "products": "https://nitairevivo.github.io/agentfeed/store-09a406a81d/products.jsonl",
+      "updated": "2026-08-23T07:17:26+00:00",
+      "unknown": []
+    },
+    {
+      "slug": "store-9cf437de76",
+      "name": "אירוח כפרי אצל תמי",
+      "official_site": "https://www.tamizimmer.com",
+      "category": "אירוח וצימרים",
+      "category_slug": "lodging",
+      "region": "רמת הגולן",
+      "items": 5,
+      "page": "https://nitairevivo.github.io/agentfeed/store-9cf437de76/",
+      "products": "https://nitairevivo.github.io/agentfeed/store-9cf437de76/products.jsonl",
+      "updated": "2026-08-24T07:50:19+00:00",
+      "unknown": [
+        "מחיר ללילה וטווח מחירים לפי עונה",
+        "כמה נפשות בכל יחידה ומה סידור המיטות (חדר ילדים נפרד? גלריה? ספה נפתחת?)",
+        "האם יש יחידות עם בריכה פרטית צמודה",
+        "האם המקום כשר",
+        "זמינות בתאריכים",
+        "האם יש עריסה/מיטת תינוק"
+      ]
+    },
+    {
+      "slug": "sunset-glow",
+      "name": "Sunset glow",
+      "official_site": "https://www.sunsetglow.co.il",
+      "category": "טיפוח ויופי",
+      "category_slug": "beauty",
+      "region": "",
+      "items": 5,
+      "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/",
+      "products": "https://nitairevivo.github.io/agentfeed/sunset-glow/products.jsonl",
+      "updated": "2026-08-23T17:56:29+00:00",
+      "unknown": []
+    }
+  ]
+}
