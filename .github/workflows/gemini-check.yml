@@ -17,6 +17,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -51,7 +52,10 @@ jobs:
           # from the repository secret and nothing else ever sees it.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ inputs.model }}
-        run: python3 tools/gemini_check.py
+        # -u so progress reaches the log as it happens. Buffered, a
+        # twenty-minute job shows nothing at all until it ends, which
+        # is indistinguishable from a hang.
+        run: python3 -u tools/gemini_check.py
 
       - name: Keep the report
         if: always()

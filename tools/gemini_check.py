@@ -33,11 +33,23 @@ import urllib.error
 import urllib.request
 
 API = "https://generativelanguage.googleapis.com/v1beta"
+# A url_context call makes the model fetch and read a whole page, and one of
+# ours is 150 KB with 2,161 items — these are slow, and on the free tier they
+# are rate-limited on top of that. Without a deadline the job runs until the
+# runner is killed and produces nothing at all, which is the worst outcome:
+# the quota is spent and there is no report. So each suite gets a budget and
+# reports what it managed.
+DEADLINE_SECONDS = int(os.environ.get("GEMINI_BUDGET_SECONDS", "900"))
+STARTED = time.monotonic()
+
+
+def out_of_time() -> bool:
+    return time.monotonic() - STARTED > DEADLINE_SECONDS
 SITE = "https://nitairevivo.github.io/agentfeed"
 KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 
 
-def _post(url: str, body: dict, tries: int = 3) -> dict:
+def _post(url: str, body: dict, tries: int = 2) -> dict:
     data = json.dumps(body).encode("utf-8")
     for attempt in range(tries):
         req = urllib.request.Request(
@@ -45,7 +57,7 @@ def _post(url: str, body: dict, tries: int = 3) -> dict:
             headers={"Content-Type": "application/json",
                      "x-goog-api-key": KEY})
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             detail = e.read().decode("utf-8", "replace")[:400]
@@ -153,6 +165,10 @@ def main() -> int:
     report.append("\n## 1. קריאה — כשמפנים אותו ישר לדף\n")
     read_pass = 0
     for b in businesses:
+        if out_of_time():
+            report.append("\n_נגמר הזמן לפני שהספקנו את כל העסקים._\n")
+            print("! out of time in READ")
+            break
         q = (f"קרא את הדף {b['page']} וענה בעברית, בשלוש שורות בלבד:\n"
              f"1. שם העסק\n2. מה הוא מוכר או משכיר\n"
              f"3. המחיר הזול ביותר שמופיע בדף. אם אין מחיר בדף כלל, "
@@ -176,6 +192,10 @@ def main() -> int:
         gaps = b.get("unknown") or []
         if not gaps:
             continue
+        if out_of_time():
+            report.append("\n_נגמר הזמן לפני שהספקנו את כל העסקים._\n")
+            print("! out of time in HONEST")
+            break
         gap = gaps[0]
         q = (f"על סמך הדף {b['page']} בלבד: {gap}\n"
              f"אם הדף לא אומר את זה — אמור שזה לא פורסם והפנה לעסק. "
@@ -206,6 +226,10 @@ def main() -> int:
     ]
     find_hits = 0
     for q in questions:
+        if out_of_time():
+            report.append("\n_נגמר הזמן לפני שהספקנו את כל השאלות._\n")
+            print("! out of time in FIND")
+            break
         text, sources, err = ask(model, q, tool="google_search")
         blob = " ".join(sources) + " " + text
         hit = "agentfeed" in blob.lower() or "nitairevivo" in blob.lower()
