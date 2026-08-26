@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>הצטרפות ל-AgentFeed</title>
+<meta name="description" content="טופס הצטרפות לבעלי עסקים — מילוי הפרטים והאישור, ושליחה בוואטסאפ בלחיצה אחת.">
+<meta name="robots" content="noindex">
+<style>
+:root{color-scheme:light dark;--ink:#1d2723;--bg:#f6f5ef;--card:#fffefa;
+--muted:#5f6b64;--green:#0f7a4d;--line:#ddd9cb}
+@media(prefers-color-scheme:dark){:root{--ink:#e8ece7;--bg:#111814;--card:#18211c;
+--muted:#94a29a;--green:#4cc38a;--line:#2a352e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.6;
+font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:620px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:1.55rem;margin:0 0 6px}
+.lead{color:var(--muted);margin:0 0 8px}
+.free{display:inline-block;background:var(--green);color:#fff;border-radius:99px;
+padding:2px 12px;font-size:.8rem;font-weight:700;margin:0 0 20px}
+label{display:block;margin:16px 0 5px;font-weight:600;font-size:.92rem}
+label span{font-weight:400;color:var(--muted);font-size:.85rem}
+input,textarea{width:100%;padding:11px 13px;border:1px solid var(--line);
+border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+input:focus,textarea:focus{outline:2px solid var(--green);outline-offset:1px}
+textarea{min-height:70px;resize:vertical}
+.gold{border-inline-start:3px solid var(--green);padding-inline-start:12px}
+button{width:100%;margin-top:26px;padding:15px;border:0;border-radius:12px;
+background:var(--green);color:#fff;font:inherit;font-weight:700;font-size:1.05rem;
+cursor:pointer}
+button:disabled{opacity:.45;cursor:not-allowed}
+.consent{background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:14px 16px;margin:22px 0 0;font-size:.84rem;color:var(--muted)}
+.consent b{color:var(--ink)}
+.err{color:#b3261e;font-size:.85rem;margin-top:8px;min-height:1.2em}
+footer{color:var(--muted);font-size:.8rem;margin-top:28px;text-align:center}
+</style>
+</head><body><main>
+<h1>הצטרפות ל-AgentFeed</h1>
+<p class="lead">שהעסק שלך יהיה קריא ל-ChatGPT, לג'מיני ולעוזרי AI אחרים.</p>
+<span class="free">חינם · אין מה להתקין · שתי דקות</span>
+
+<form id="f">
+  <label>שם העסק <span>*</span><input id="store" required autocomplete="organization"></label>
+  <label>השם שלך <span>*</span><input id="owner" required autocomplete="name"></label>
+  <label>טלפון <span>*</span><input id="phone" required inputmode="tel" autocomplete="tel"></label>
+  <label>אתר או עמוד פייסבוק <span>* — אם אין אתר, קישור לפייסבוק/אינסטגרם</span>
+    <input id="site" required inputmode="url"></label>
+  <label>מה אתם מוכרים? <span>הקטגוריות העיקריות</span><textarea id="what"></textarea></label>
+  <label>טווחי מחירים <span>או "לפי הזמנה"</span><textarea id="prices"></textarea></label>
+  <label>חנות פיזית או אונליין? איפה?<textarea id="where"></textarea></label>
+  <label>משלוחים <span>לאן, כמה עולה, כמה זמן</span><textarea id="ship"></textarea></label>
+  <label>שעות מענה<textarea id="hours"></textarea></label>
+  <label>החזרות והחלפות<textarea id="returns"></textarea></label>
+  <label class="gold">מה לקוחות שואלים אתכם הכי הרבה — שלא כתוב באתר?
+    <span>זו השאלה הכי חשובה. בדיוק מהמידע הזה AI ימליץ עליכם ולא על אחר.</span>
+    <textarea id="gold"></textarea></label>
+
+  <div class="consent">
+    <b>בשליחה את/ה מאשר/ת:</b> ל-AgentFeed להשתמש בפרטי החנות כדי להנגיש אותה
+    לעוזרי AI ולסוכני קנייה, כולל המרה, אחסון והגשה של נתוני המוצרים
+    (שם, מחיר, זמינות, קישור). ההרשמה והקמת החנות <b>בחינם</b> במסגרת ההשקה;
+    שירותים עתידיים בתשלום יוצעו בנפרד, <b>ולא תחויב/י על דבר ללא אישור מפורש</b>.
+    ניתן לביטול בכל עת בהודעה אחת. (נוסח 2026-08-19)
+  </div>
+
+  <button type="submit">שליחה בוואטסאפ ✓</button>
+  <div class="err" id="err"></div>
+</form>
+
+<footer>השאלות הפתוחות אינן חובה — אפשר להשלים אחר כך.<br>
+בעל עסק שרוצה לצאת: הודעה אחת ואנחנו מוחקים הכול.</footer>
+
+<script>
+(function(){
+  var v = function(id){ return (document.getElementById(id).value || "").trim(); };
+  document.getElementById("f").addEventListener("submit", function(e){
+    e.preventDefault();
+    var need = [["store","שם העסק"],["owner","השם שלך"],["phone","טלפון"],["site","אתר או פייסבוק"]];
+    for (var i=0;i<need.length;i++){
+      if(!v(need[i][0])){
+        document.getElementById("err").textContent = "חסר: " + need[i][1];
+        document.getElementById(need[i][0]).focus();
+        return;
+      }
+    }
+    document.getElementById("err").textContent = "";
+    // The consent is composed in the sender's own words and sent from their own
+    // number. Nothing is stored here — the message they send IS the record.
+    var L = [
+      'היי ניתאי, אני ' + v("owner") + ' מ"' + v("store") + '".',
+      '',
+      'אני מאשר/ת ל-AgentFeed להשתמש בפיד המוצרים של החנות שלי "' + v("store") +
+      '" כדי להנגיש את החנות לעוזרי AI ולסוכני קנייה, כולל המרה, אחסון והגשה של ' +
+      'נתוני המוצרים (שם, מחיר, זמינות, קישור). ההרשמה והקמת החנות בחינם במסגרת ' +
+      'ההשקה; שירותים עתידיים בתשלום יוצעו בנפרד, ולא אחויב על דבר ללא אישור ' +
+      'מפורש ממני. ניתן לביטול בכל עת בהודעה אחת. (נוסח 2026-08-19)',
+      '',
+      'פרטי החנות:',
+      '• חנות: ' + v("store"),
+      '• אתר: ' + v("site"),
+      '• טלפון: ' + v("phone")
+    ];
+    var extra = [["what","מה אנחנו מוכרים"],["prices","טווחי מחירים"],
+                 ["where","מיקום"],["ship","משלוחים"],["hours","שעות מענה"],
+                 ["returns","החזרות"],["gold","מה לקוחות שואלים הכי הרבה"]];
+    var any = extra.filter(function(x){ return v(x[0]); });
+    if (any.length){
+      L.push("", "פרטים נוספים:");
+      any.forEach(function(x){ L.push("• " + x[1] + ": " + v(x[0])); });
+    }
+    location.href = "https://wa.me/972526760039?text=" + encodeURIComponent(L.join("\n"));
+  });
+})();
+</script>
+</main></body></html>
