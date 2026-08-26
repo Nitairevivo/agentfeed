@@ -86,6 +86,22 @@ jobs:
                       # A single-page app often paints after the network goes
                       # quiet, so give the render a moment before reading.
                       page.wait_for_timeout(1200)
+                      # An FAQ is the most valuable page on a site like this
+                      # and the least visible: its answers sit collapsed until
+                      # someone clicks. Open everything that opens, then read.
+                      try:
+                          page.eval_on_selector_all(
+                              "details", "els => els.forEach(e => e.open = true)")
+                          for sel in ('[aria-expanded="false"]',
+                                      "summary", "[data-state='closed']"):
+                              for el in page.query_selector_all(sel)[:60]:
+                                  try:
+                                      el.click(timeout=1200)
+                                  except Exception:
+                                      pass
+                          page.wait_for_timeout(900)
+                      except Exception:
+                          pass
                       text = page.inner_text("body")
                       title = page.title()
                       hrefs = page.eval_on_selector_all(
