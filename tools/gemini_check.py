@@ -140,6 +140,19 @@ def ask(model: str, prompt: str, tool: str = "") -> tuple[str, list[str], str]:
     return text.strip(), [s for s in sources if s], ""
 
 
+def exhausted(err: str) -> bool:
+    """Did we run out of quota, as opposed to learning something?
+
+    The free tier allows twenty requests. Past that every call comes back 429,
+    and a run that marches on through fifteen more doomed calls and scores
+    them as failures has not measured our pages — it has measured Google's
+    rate limiter and then lied about what it measured. That is precisely the
+    mistake this whole project exists to avoid, so the suite stops and says
+    it stopped.
+    """
+    return "429" in err or "RESOURCE_EXHAUSTED" in err
+
+
 def load_site() -> dict:
     return json.loads(_get(f"{SITE}/api/stores.json").decode("utf-8"))
 
@@ -152,6 +165,12 @@ def main() -> int:
     model = pick_model(os.environ.get("GEMINI_MODEL", "").strip())
     site = load_site()
     businesses = site["businesses"]
+    # Twenty requests a day on the free tier, and this suite makes three per
+    # business plus the searches. Testing everything guarantees testing
+    # nothing, so a sample runs to completion instead.
+    sample = int(os.environ.get("GEMINI_SAMPLE", "3"))
+    if sample > 0:
+        businesses = businesses[:sample]
     print(f"model: {model}")
     print(f"site:  {len(businesses)} businesses, "
           f"{sum(b['items'] for b in businesses)} items\n")
@@ -163,7 +182,7 @@ def main() -> int:
 
     # ---------------- 1. READ ------------------------------------------
     report.append("\n## 1. קריאה — כשמפנים אותו ישר לדף\n")
-    read_pass = 0
+    read_pass = read_tried = 0
     for b in businesses:
         if out_of_time():
             report.append("\n_נגמר הזמן לפני שהספקנו את כל העסקים._\n")
@@ -174,6 +193,12 @@ def main() -> int:
              f"3. המחיר הזול ביותר שמופיע בדף. אם אין מחיר בדף כלל, "
              f"כתוב בדיוק: לא פורסם מחיר.")
         text, _, err = ask(model, q, tool="url_context")
+        if exhausted(err):
+            print("! quota exhausted during READ — stopping, not scoring")
+            report.append("\n_נגמרה המכסה היומית. מה שלא נבדק — לא נכשל, "
+                          "פשוט לא נשאל._\n")
+            break
+        read_tried += 1
         ok = bool(text) and (b["name"].split()[0] in text or b["slug"] in text.lower())
         read_pass += ok
         mark = "✅" if ok else "❌"
@@ -201,6 +226,10 @@ def main() -> int:
              f"אם הדף לא אומר את זה — אמור שזה לא פורסם והפנה לעסק. "
              f"אל תשער ואל תשלים מידע ממקום אחר.")
         text, _, err = ask(model, q, tool="url_context")
+        if exhausted(err):
+            print("! quota exhausted during HONEST — stopping, not scoring")
+            report.append("\n_נגמרה המכסה היומית לפני שהמבחן הזה נשאל._\n")
+            break
         honest_total += 1
         refused = any(w in text for w in ("לא פורסם", "לא מצוין", "לא צוין",
                                           "אין מידע", "לא מופיע", "לא נמסר",
@@ -224,13 +253,18 @@ def main() -> int:
         "צימר כפרי בצפון לזוג",
         "מה זה AgentFeed?",
     ]
-    find_hits = 0
+    find_hits = find_tried = 0
     for q in questions:
         if out_of_time():
             report.append("\n_נגמר הזמן לפני שהספקנו את כל השאלות._\n")
             print("! out of time in FIND")
             break
         text, sources, err = ask(model, q, tool="google_search")
+        if exhausted(err):
+            print("! quota exhausted during FIND — stopping, not scoring")
+            report.append("\n_נגמרה המכסה היומית לפני שהמבחן הזה נשאל._\n")
+            break
+        find_tried += 1
         blob = " ".join(sources) + " " + text
         hit = "agentfeed" in blob.lower() or "nitairevivo" in blob.lower()
         find_hits += hit
@@ -245,16 +279,24 @@ def main() -> int:
         time.sleep(1)
 
     # ---------------- verdict ------------------------------------------
-    n = len(businesses)
-    verdict = [
-        "\n## שורה תחתונה\n",
-        f"\n| מבחן | תוצאה | מה זה אומר |",
-        "\n|---|---|---|",
-        f"\n| קריאה | {read_pass}/{n} | האם הדפים שלנו קריאים בכלל |",
-        f"\n| יושר | {honest_pass}/{honest_total} | האם הצהרת הפערים עובדת |",
-        f"\n| מציאה | {find_hits}/{len(questions)} | האם גוגל כבר מאנדקס אותנו |",
-        "\n",
-    ]
+    # Denominators are what was actually asked, never what was planned. A
+    # score of 1/7 when six were never asked is a false statement about our
+    # pages, and the skipped ones are reported as skipped.
+    def line(label, hits, tried, planned, means):
+        skipped = planned - tried
+        note = f" _(לא נשאלו {skipped})_" if skipped > 0 else ""
+        got = f"{hits}/{tried}" if tried else "לא נמדד"
+        return f"\n| {label} | {got}{note} | {means} |"
+
+    verdict = ["\n## שורה תחתונה\n",
+               "\n| מבחן | תוצאה | מה זה אומר |", "\n|---|---|---|",
+               line("קריאה", read_pass, read_tried, len(businesses),
+                    "האם הדפים שלנו קריאים בכלל"),
+               line("יושר", honest_pass, honest_total, len(businesses),
+                    "האם הצהרת הפערים עובדת"),
+               line("מציאה", find_hits, find_tried, len(questions),
+                    "האם גוגל כבר מאנדקס אותנו"),
+               "\n"]
     report += verdict
     print("".join(x.replace("\n|", "\n |") for x in verdict))
 
