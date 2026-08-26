@@ -1,11 +1,18 @@
-# Save what a site says, so a listing can be written from its own words.
+# Read a site the way a person's browser reads it.
 #
-# Read-only and same-host. It runs here because the private repository is out
-# of Actions minutes and a public repository has them free — and because the
-# sandbox has no open network at all.
+# Plain HTTP fetching is enough for a server-rendered site and useless for a
+# modern one: djrent.co.il returned the same empty shell for all twenty of its
+# pages, because the content is built by JavaScript after the page loads. A
+# crawler that does not run JavaScript sees a meta description and nothing
+# else — which is exactly the gap this project exists to close.
 #
-# Output goes to the `scratch` branch, never to main: GitHub Pages serves main,
-# and a folder of scraped page text has no business being part of the site.
+# So this runs a real browser. It renders each page, waits for the content to
+# settle, and saves the text a visitor would actually see.
+#
+# Only for businesses that have given consent. Same host, capped, polite delay,
+# and the owner's own admin area is skipped rather than crawled. Output goes to
+# the `scratch` branch: Pages serves main, and captured page text is not part
+# of the site.
 name: Read a site
 
 on:
@@ -17,7 +24,7 @@ on:
       pages:
         description: 'How many pages at most'
         required: false
-        default: '25'
+        default: '40'
 
 permissions:
   contents: write
@@ -25,98 +32,98 @@ permissions:
 jobs:
   read:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Fetch and strip to readable text
+      - name: Install a browser
+        run: |
+          pip install --quiet playwright
+          playwright install --with-deps chromium
+
+      - name: Render every page and save what a visitor sees
         env:
           TARGET: ${{ inputs.url }}
           MAXPAGES: ${{ inputs.pages }}
         run: |
           mkdir -p out
           python3 - <<'PY'
-          import html, os, re, urllib.error, urllib.parse, urllib.request
+          import os, re, time
           from pathlib import Path
+          from urllib.parse import urljoin, urlparse
+          from playwright.sync_api import sync_playwright
 
           base = os.environ["TARGET"].strip()
           if not base.startswith("http"):
               base = "https://" + base
-          host = urllib.parse.urlparse(base).netloc
-          cap = int(os.environ.get("MAXPAGES") or 25)
-          UA = {"User-Agent": "AgentFeed/1.0 (+https://nitairevivo.github.io/agentfeed/)"}
-          DROP = re.compile(r"<(script|style|noscript|svg)[^>]*>.*?</\1>", re.S | re.I)
-          TAGS = re.compile(r"<[^>]+>")
+          host = urlparse(base).netloc
+          cap = int(os.environ.get("MAXPAGES") or 40)
 
-          def get(u):
-              try:
-                  req = urllib.request.Request(u, headers=UA)
-                  with urllib.request.urlopen(req, timeout=25) as r:
-                      raw = r.read(1_500_000)
-                  enc = "utf-8"
-                  m = re.search(rb'charset=["\']?([\w-]+)', raw[:4000], re.I)
-                  if m:
-                      enc = m.group(1).decode("ascii", "ignore")
-                  return raw.decode(enc, "replace")
-              except Exception as e:
-                  print(f"  ! {u}: {str(e)[:70]}")
-                  return ""
+          # The owner's own back office is not ours to walk through, and a
+          # file is not a page.
+          SKIP = re.compile(r"/(admin|wp-admin|login|cart|checkout|account)(/|$)", re.I)
+          FILE = re.compile(r"\.(jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|mp3|css|js|ico)$", re.I)
 
-          def text(raw):
-              t = DROP.sub(" ", raw)
-              # A block boundary is a line break for a reader; without this the
-              # whole page collapses into one unreadable run.
-              t = re.sub(r"</(p|div|li|tr|h\d|section|article|br)>", "\n", t, flags=re.I)
-              t = re.sub(r"<br\s*/?>", "\n", t, flags=re.I)
-              t = html.unescape(TAGS.sub(" ", t))
-              t = re.sub(r"[ \t\xa0]+", " ", t)
-              return re.sub(r"\n{3,}", "\n\n", t).strip()
+          seen, queue, pages = set(), [base], []
+          with sync_playwright() as pw:
+              browser = pw.chromium.launch()
+              ctx = browser.new_context(
+                  locale="he-IL",
+                  user_agent="Mozilla/5.0 (compatible; AgentFeed/1.0; "
+                             "+https://nitairevivo.github.io/agentfeed/)")
+              page = ctx.new_page()
 
-          def links(raw, base):
-              out, seen = [], set()
-              for href in re.findall(r'href=["\']([^"\']+)', raw):
-                  if href.startswith(("#", "mailto:", "tel:", "javascript:")):
+              while queue and len(pages) < cap:
+                  url = queue.pop(0)
+                  if url in seen or SKIP.search(url) or FILE.search(url):
                       continue
-                  u = urllib.parse.urljoin(base, href).split("#")[0]
-                  if urllib.parse.urlparse(u).netloc != host or u in seen:
+                  seen.add(url)
+                  try:
+                      page.goto(url, wait_until="networkidle", timeout=30000)
+                      # A single-page app often paints after the network goes
+                      # quiet, so give the render a moment before reading.
+                      page.wait_for_timeout(1200)
+                      text = page.inner_text("body")
+                      title = page.title()
+                      hrefs = page.eval_on_selector_all(
+                          "a[href]", "els => els.map(e => e.href)")
+                  except Exception as e:
+                      print(f"  ! {url}: {str(e)[:70]}")
                       continue
-                  if re.search(r"\.(jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|css|js)$", u, re.I):
+
+                  text = re.sub(r"[ \t\xa0]+", " ", text)
+                  text = re.sub(r"\n{3,}", "\n\n", text).strip()
+                  if len(text) < 60:
+                      print(f"  - {url}: empty after render")
                       continue
-                  seen.add(u); out.append(u)
-              return out
+                  pages.append((url, title, text[:20000]))
+                  print(f"  ok {url} ({len(text)} chars)")
 
-          home = get(base)
-          if not home:
-              Path(f"out/{host}.md").write_text(f"# {host}\n\nהאתר לא נטען.\n", encoding="utf-8")
-              raise SystemExit(0)
+                  for h in hrefs:
+                      h = urljoin(url, h).split("#")[0].rstrip("/")
+                      if urlparse(h).netloc == host and h not in seen:
+                          queue.append(h)
+                  time.sleep(0.6)
+              browser.close()
 
-          urls, chunks = [base] + links(home, base)[:cap - 1], []
-          print(f"reading {len(urls)} pages from {host}")
-          for u in urls:
-              raw = home if u == base else get(u)
-              if not raw:
-                  continue
-              body = text(raw)[:12000]
-              if len(body) < 40:
-                  continue
-              chunks.append(f"\n\n## {u}\n\n{body}")
-              print(f"  ok {u} ({len(body)} chars)")
-
+          body = "".join(f"\n\n## {u}\n### {t}\n\n{x}" for u, t, x in pages)
           Path(f"out/{host}.md").write_text(
-              f"# {host}\n\nטקסט הדפים כפי שגולש קורא אותם. נכתב כדי שאפשר יהיה\n"
-              f"לחבר ממנו רישום מדויק — לא כדי להמציא ממנו מחירים.\n"
-              + "".join(chunks) + "\n", encoding="utf-8")
-          print(f"wrote out/{host}.md")
+              f"# {host}\n\n{len(pages)} עמודים, כפי שדפדפן מציג אותם.\n"
+              f"נכתב כדי שאפשר יהיה לחבר מזה רישום מדויק — "
+              f"לא כדי להמציא ממנו מחירים.\n" + body + "\n", encoding="utf-8")
+          print(f"\nwrote out/{host}.md — {len(pages)} pages")
           PY
 
       - name: Commit to the scratch branch
         run: |
           git config user.name  "agentfeed-reader"
           git config user.email "actions@github.com"
-          git fetch origin scratch --depth=1 2>/dev/null || true
           git checkout -B scratch
-          # Nothing else from main belongs on this branch.
           git rm -r --cached . -q
           mkdir -p read && mv out/* read/ 2>/dev/null || true
           git add -f read
-          git commit -q -m "read: ${{ inputs.url }}" || echo "nothing to commit"
+          git commit -q -m "read: ${{ inputs.url }} (rendered)" || echo "nothing to commit"
           git push -f origin scratch
