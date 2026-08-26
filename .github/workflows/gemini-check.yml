@@ -24,6 +24,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Whether the secret arrived, without ever showing what it is. A
+      # missing secret and a mistyped one fail identically at the API, and
+      # guessing which costs a round trip every time.
+      - name: Is the secret wired
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          n=${#GEMINI_API_KEY}
+          if [ "$n" -eq 0 ]; then
+            echo "::error::GEMINI_API_KEY is empty in this job."
+            echo "Either the secret does not exist on THIS repository"
+            echo "(Nitairevivo/agentfeed), or it is saved under a different"
+            echo "name, or it was saved as a variable rather than a secret."
+            exit 1
+          fi
+          echo "GEMINI_API_KEY is present: $n characters."
+          case "$GEMINI_API_KEY" in
+            *[![:print:]]*) echo "::warning::it contains a newline or control character — re-paste it" ;;
+            " "*|*" ") echo "::warning::it has a leading or trailing space — re-paste it" ;;
+          esac
+
       - name: Ask Gemini
         env:
           # Never a literal, never in a url, never printed. The job reads it
