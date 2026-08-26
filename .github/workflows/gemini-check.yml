@@ -1,0 +1,41 @@
+name: Can Gemini read us
+
+# Run by hand. It spends the owner's Gemini quota, so it does not run on a
+# timer and it does not run on every push — the FIND result only moves on the
+# scale of weeks anyway, because it is really a measurement of Google's index.
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Gemini model (blank = pick the newest flash automatically)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ask Gemini
+        env:
+          # Never a literal, never in a url, never printed. The job reads it
+          # from the repository secret and nothing else ever sees it.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ inputs.model }}
+        run: python3 tools/gemini_check.py
+
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gemini-report
+          path: gemini-report.md
+          if-no-files-found: ignore
