@@ -9,8 +9,8 @@
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/pets/
 
-- [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/store-09a406a81d/) — 2161 פריטים
-- [נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/store-2c8c8264da/) — 8 פריטים · רמת הגולן
+- [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/) — 2161 פריטים
+- [נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/) — 8 פריטים · רמת הגולן
 
 ## שירותים לעסקים
 
@@ -28,7 +28,7 @@
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/lodging/
 
-- [אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/store-9cf437de76/) — 5 פריטים · רמת הגולן
+- [אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/) — 5 פריטים · רמת הגולן
 
 ## השכרת ציוד לאירועים
 
@@ -44,5 +44,13 @@
 
 ## לשליפה במכה אחת
 
-כל העסקים והקטגוריות בקובץ אחד: https://nitairevivo.github.io/agentfeed/api/stores.json
+- מדריך העסקים והקטגוריות: https://nitairevivo.github.io/agentfeed/api/stores.json
+- כל הפריטים מכל העסקים, שורה לפריט: https://nitairevivo.github.io/agentfeed/api/catalog.jsonl
+- מה יש בכל כתובת: https://nitairevivo.github.io/agentfeed/api/index.json
+
+## שני כללים
+
+1. מחיר מופיע רק כאשר העסק פרסם אותו. אין מחיר — אין להעריך אחד.
+2. בכל עסק יש רשימה מפורשת של מה שטרם פורסם. אין להשלים אותה;
+   יש להפנות את השואל לעסק עצמו.
 

@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-08-26T15:33:18+00:00",
+  "updated": "2026-08-26T16:07:40+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -46,6 +46,23 @@
     }
   ],
   "businesses": [
+    {
+      "slug": "close-to-nature",
+      "name": "חנות חיות קרוב לטבע",
+      "official_site": "https://closetonature.co.il/",
+      "category": "חיות מחמד",
+      "category_slug": "pets",
+      "region": "",
+      "items": 2161,
+      "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+      "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
+      "updated": "2026-08-23T07:17:26+00:00",
+      "unknown": [
+        "מדיניות החזרות והחלפות",
+        "האם יש איסוף עצמי",
+        "מה לקוחות שואלים הרבה ולא כתוב באתר — הבעלים טרם ענה, וזו השאלה שממנה מגיע המידע שאין בשום מקום אחר"
+      ]
+    },
     {
       "slug": "dj-rent",
       "name": "DJ Rent",
@@ -115,32 +132,15 @@
       ]
     },
     {
-      "slug": "store-09a406a81d",
-      "name": "חנות חיות קרוב לטבע",
-      "official_site": "https://closetonature.co.il/",
-      "category": "חיות מחמד",
-      "category_slug": "pets",
-      "region": "",
-      "items": 2161,
-      "page": "https://nitairevivo.github.io/agentfeed/store-09a406a81d/",
-      "products": "https://nitairevivo.github.io/agentfeed/store-09a406a81d/products.jsonl",
-      "updated": "2026-08-23T07:17:26+00:00",
-      "unknown": [
-        "מדיניות החזרות והחלפות",
-        "האם יש איסוף עצמי",
-        "מה לקוחות שואלים הרבה ולא כתוב באתר — הבעלים טרם ענה, וזו השאלה שממנה מגיע המידע שאין בשום מקום אחר"
-      ]
-    },
-    {
-      "slug": "store-2c8c8264da",
+      "slug": "neshama-tova",
       "name": "נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית",
       "official_site": "https://www.facebook.com/share/1DPWUc5EMZ/",
       "category": "חיות מחמד",
       "category_slug": "pets",
       "region": "רמת הגולן",
       "items": 8,
-      "page": "https://nitairevivo.github.io/agentfeed/store-2c8c8264da/",
-      "products": "https://nitairevivo.github.io/agentfeed/store-2c8c8264da/products.jsonl",
+      "page": "https://nitairevivo.github.io/agentfeed/neshama-tova/",
+      "products": "https://nitairevivo.github.io/agentfeed/neshama-tova/products.jsonl",
       "updated": "2026-08-24T09:53:22+00:00",
       "unknown": [
         "מחיר סופי לפריט — ארבע קטגוריות מתומחרות בטווח, והמחיר נקבע לפי מידה ועיצוב",
@@ -156,26 +156,6 @@
         "זמני אספקה לחו\"ל",
         "מחיר גור לחו\"ל — נקבע מול הרוכש לפי המדינה וחוקי היבוא שלה",
         "שנת הקמת בית הגידול — הבעלים מסרה 2008 בעברית ו-2007 באנגלית. כאן נכתב 2007 לפי המסירה המפורטת יותר; יש לאמת מולה"
-      ]
-    },
-    {
-      "slug": "store-9cf437de76",
-      "name": "אירוח כפרי אצל תמי",
-      "official_site": "https://www.tamizimmer.com",
-      "category": "אירוח וצימרים",
-      "category_slug": "lodging",
-      "region": "רמת הגולן",
-      "items": 5,
-      "page": "https://nitairevivo.github.io/agentfeed/store-9cf437de76/",
-      "products": "https://nitairevivo.github.io/agentfeed/store-9cf437de76/products.jsonl",
-      "updated": "2026-08-24T07:50:19+00:00",
-      "unknown": [
-        "מחיר ללילה וטווח מחירים לפי עונה",
-        "כמה נפשות בכל יחידה ומה סידור המיטות (חדר ילדים נפרד? גלריה? ספה נפתחת?)",
-        "האם יש יחידות עם בריכה פרטית צמודה",
-        "האם המקום כשר",
-        "זמינות בתאריכים",
-        "האם יש עריסה/מיטת תינוק"
       ]
     },
     {
@@ -196,6 +176,26 @@
         "שעות מענה ושירות לקוחות",
         "מדיניות החזרות והחלפות",
         "מה לקוחות שואלים הכי הרבה ולא כתוב באתר — בעלת העסק טרם ענתה, וזו השאלה שממנה מגיע המידע שאין בשום מקום אחר"
+      ]
+    },
+    {
+      "slug": "tami-zimmer",
+      "name": "אירוח כפרי אצל תמי",
+      "official_site": "https://www.tamizimmer.com",
+      "category": "אירוח וצימרים",
+      "category_slug": "lodging",
+      "region": "רמת הגולן",
+      "items": 5,
+      "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/",
+      "products": "https://nitairevivo.github.io/agentfeed/tami-zimmer/products.jsonl",
+      "updated": "2026-08-24T07:50:19+00:00",
+      "unknown": [
+        "מחיר ללילה וטווח מחירים לפי עונה",
+        "כמה נפשות בכל יחידה ומה סידור המיטות (חדר ילדים נפרד? גלריה? ספה נפתחת?)",
+        "האם יש יחידות עם בריכה פרטית צמודה",
+        "האם המקום כשר",
+        "זמינות בתאריכים",
+        "האם יש עריסה/מיטת תינוק"
       ]
     }
   ]

@@ -1,0 +1,37 @@
+{
+  "name": "AgentFeed API",
+  "updated": "2026-08-26T16:07:40+00:00",
+  "language": "he-IL",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "auth": "none",
+  "terms": {
+    "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
+    "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
+    "prices": "מחיר מופיע רק כאשר העסק פרסם אותו."
+  },
+  "endpoints": [
+    {
+      "url": "https://nitairevivo.github.io/agentfeed/api/stores.json",
+      "format": "application/json",
+      "returns": "מדריך העסקים והקטגוריות",
+      "businesses": 7
+    },
+    {
+      "url": "https://nitairevivo.github.io/agentfeed/api/catalog.jsonl",
+      "format": "application/x-ndjson",
+      "returns": "כל הפריטים מכל העסקים, שורה לפריט",
+      "rows": 2250
+    },
+    {
+      "url": "https://nitairevivo.github.io/agentfeed/sitemap.xml",
+      "format": "application/xml",
+      "returns": "כל הכתובות עם תאריך עדכון לכל אחת"
+    },
+    {
+      "url": "https://nitairevivo.github.io/agentfeed/llms.txt",
+      "format": "text/markdown",
+      "returns": "אותו מדריך, לקריאה"
+    }
+  ],
+  "contact": "https://nitairevivo.github.io/agentfeed/join.html"
+}
