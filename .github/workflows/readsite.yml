@@ -1,0 +1,122 @@
+# Save what a site says, so a listing can be written from its own words.
+#
+# Read-only and same-host. It runs here because the private repository is out
+# of Actions minutes and a public repository has them free — and because the
+# sandbox has no open network at all.
+#
+# Output goes to the `scratch` branch, never to main: GitHub Pages serves main,
+# and a folder of scraped page text has no business being part of the site.
+name: Read a site
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'Site to read (e.g. djrent.co.il)'
+        required: true
+      pages:
+        description: 'How many pages at most'
+        required: false
+        default: '25'
+
+permissions:
+  contents: write
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and strip to readable text
+        env:
+          TARGET: ${{ inputs.url }}
+          MAXPAGES: ${{ inputs.pages }}
+        run: |
+          mkdir -p out
+          python3 - <<'PY'
+          import html, os, re, urllib.error, urllib.parse, urllib.request
+          from pathlib import Path
+
+          base = os.environ["TARGET"].strip()
+          if not base.startswith("http"):
+              base = "https://" + base
+          host = urllib.parse.urlparse(base).netloc
+          cap = int(os.environ.get("MAXPAGES") or 25)
+          UA = {"User-Agent": "AgentFeed/1.0 (+https://nitairevivo.github.io/agentfeed/)"}
+          DROP = re.compile(r"<(script|style|noscript|svg)[^>]*>.*?</\1>", re.S | re.I)
+          TAGS = re.compile(r"<[^>]+>")
+
+          def get(u):
+              try:
+                  req = urllib.request.Request(u, headers=UA)
+                  with urllib.request.urlopen(req, timeout=25) as r:
+                      raw = r.read(1_500_000)
+                  enc = "utf-8"
+                  m = re.search(rb'charset=["\']?([\w-]+)', raw[:4000], re.I)
+                  if m:
+                      enc = m.group(1).decode("ascii", "ignore")
+                  return raw.decode(enc, "replace")
+              except Exception as e:
+                  print(f"  ! {u}: {str(e)[:70]}")
+                  return ""
+
+          def text(raw):
+              t = DROP.sub(" ", raw)
+              # A block boundary is a line break for a reader; without this the
+              # whole page collapses into one unreadable run.
+              t = re.sub(r"</(p|div|li|tr|h\d|section|article|br)>", "\n", t, flags=re.I)
+              t = re.sub(r"<br\s*/?>", "\n", t, flags=re.I)
+              t = html.unescape(TAGS.sub(" ", t))
+              t = re.sub(r"[ \t\xa0]+", " ", t)
+              return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+          def links(raw, base):
+              out, seen = [], set()
+              for href in re.findall(r'href=["\']([^"\']+)', raw):
+                  if href.startswith(("#", "mailto:", "tel:", "javascript:")):
+                      continue
+                  u = urllib.parse.urljoin(base, href).split("#")[0]
+                  if urllib.parse.urlparse(u).netloc != host or u in seen:
+                      continue
+                  if re.search(r"\.(jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|css|js)$", u, re.I):
+                      continue
+                  seen.add(u); out.append(u)
+              return out
+
+          home = get(base)
+          if not home:
+              Path(f"out/{host}.md").write_text(f"# {host}\n\nהאתר לא נטען.\n", encoding="utf-8")
+              raise SystemExit(0)
+
+          urls, chunks = [base] + links(home, base)[:cap - 1], []
+          print(f"reading {len(urls)} pages from {host}")
+          for u in urls:
+              raw = home if u == base else get(u)
+              if not raw:
+                  continue
+              body = text(raw)[:12000]
+              if len(body) < 40:
+                  continue
+              chunks.append(f"\n\n## {u}\n\n{body}")
+              print(f"  ok {u} ({len(body)} chars)")
+
+          Path(f"out/{host}.md").write_text(
+              f"# {host}\n\nטקסט הדפים כפי שגולש קורא אותם. נכתב כדי שאפשר יהיה\n"
+              f"לחבר ממנו רישום מדויק — לא כדי להמציא ממנו מחירים.\n"
+              + "".join(chunks) + "\n", encoding="utf-8")
+          print(f"wrote out/{host}.md")
+          PY
+
+      - name: Commit to the scratch branch
+        run: |
+          git config user.name  "agentfeed-reader"
+          git config user.email "actions@github.com"
+          git fetch origin scratch --depth=1 2>/dev/null || true
+          git checkout -B scratch
+          # Nothing else from main belongs on this branch.
+          git rm -r --cached . -q
+          mkdir -p read && mv out/* read/ 2>/dev/null || true
+          git add -f read
+          git commit -q -m "read: ${{ inputs.url }}" || echo "nothing to commit"
+          git push -f origin scratch
