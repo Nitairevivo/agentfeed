@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-08-24T14:27:31+00:00",
+  "updated": "2026-08-26T12:05:04+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -25,9 +25,37 @@
       "name": "אירוח וצימרים",
       "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
       "businesses": 1
+    },
+    {
+      "slug": "rental",
+      "name": "השכרת ציוד לאירועים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/rental/",
+      "businesses": 1
     }
   ],
   "businesses": [
+    {
+      "slug": "dj-rent",
+      "name": "DJ Rent",
+      "official_site": "https://djrent.co.il",
+      "category": "השכרת ציוד לאירועים",
+      "category_slug": "rental",
+      "region": "חיפה",
+      "items": 4,
+      "page": "https://nitairevivo.github.io/agentfeed/dj-rent/",
+      "products": "https://nitairevivo.github.io/agentfeed/dj-rent/products.jsonl",
+      "updated": "2026-08-26T12:04:48+00:00",
+      "unknown": [
+        "מחיר לפריט — העסק פרסם טווח כולל בלבד (250–6,000 ש\"ח), ולא מחיר לכל פריט. זו גם השאלה שלקוחות שואלים הכי הרבה",
+        "זמינות לתאריך מסוים — בהשכרה הזמינות תלויה ביומן ואינה קבועה",
+        "הרשימה המלאה של הציוד — כאן ארבע קטגוריות שמסר הבעלים",
+        "האם נדרש פיקדון או דמי ביטול",
+        "עלות נפרדת להרכבה ולהובלה לפי אזור",
+        "משך ההשכרה הסטנדרטי — ליום, לאירוע או לשעה",
+        "האם יש טכנאי שנשאר באירוע",
+        "כתובת מדויקת לאיסוף עצמי בחיפה"
+      ]
+    },
     {
       "slug": "store-09a406a81d",
       "name": "חנות חיות קרוב לטבע",
