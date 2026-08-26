@@ -39,6 +39,24 @@ padding:14px 16px;margin:0 0 10px}
 .live b{color:var(--green)}
 .live p{margin:5px 0 0;font-size:.86rem;color:var(--muted)}
 .live a{color:var(--green-ink)}
+.stats{display:flex;gap:8px;margin:0 0 18px}
+.stat{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:11px 8px;text-align:center}
+.stat b{display:block;font-size:1.35rem;color:var(--green);line-height:1.2;
+font-variant-numeric:tabular-nums}
+.stat span{font-size:.74rem;color:var(--muted)}
+.nosite{background:var(--wash);border:1px solid var(--green);border-radius:12px;
+padding:14px 16px;margin:0 0 6px}
+.nosite b{color:var(--green-ink)}
+.nosite p{margin:5px 0 0;font-size:.87rem;color:var(--muted)}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:12px 15px;margin:0 0 8px}
+details summary{cursor:pointer;font-weight:600;font-size:.94rem;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"＋";float:left;color:var(--green);font-weight:700}
+details[open] summary::after{content:"−"}
+details p{margin:9px 0 0;font-size:.88rem;color:var(--muted)}
+details p b{color:var(--ink)}
 label{display:block;margin:17px 0 5px;font-weight:600;font-size:.93rem}
 label span{font-weight:400;color:var(--muted);font-size:.85rem}
 input,textarea{width:100%;padding:11px 13px;border:1px solid var(--line);
@@ -67,6 +85,12 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 המנוע עונה רק לפי מה שהוא מצליח <b>לקרוא</b> — ורוב העסקים בישראל פשוט לא
 קריאים לו. <b>אנחנו בונים לעסק שלך בדיוק את החלק הזה.</b></p>
 
+<div class="stats">
+  <div class="stat"><b>4</b><span>עסקים חיים</span></div>
+  <div class="stat"><b>2,179</b><span>פריטים</span></div>
+  <div class="stat"><b>₪0</b><span>עלות</span></div>
+</div>
+
 <a class="wa" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%20%D7%A0%D7%99%D7%AA%D7%90%D7%99%2C%20%D7%99%D7%A9%20%D7%9C%D7%99%20%D7%A9%D7%90%D7%9C%D7%94%20%D7%A2%D7%9C%20AgentFeed">💬 יש שאלה? דברו איתי בוואטסאפ</a>
 
 <h2>איך זה עובד — שלושה שלבים</h2>
@@ -79,6 +103,11 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 <p>כל שינוי מחיר או מלאי אצלך מתעדכן אצלנו לבד. <b>אין לך שום תחזוקה, ולא נוגעים
 לך באתר.</b></p></div></div>
 
+<div class="nosite"><b>אין לך אתר? זה דווקא הכי מתאים.</b>
+<p>בלי אתר, מנועי AI לא יודעים עליך <b>שום דבר</b> — אין להם מה לקרוא.
+עסק עם אתר לפחות נסרק חלקית. אנחנו בונים לך בדיוק את החלק הזה,
+ולא צריך אתר בשבילנו.</p></div>
+
 <h2>עסקים שכבר בפנים</h2>
 <div class="live"><b>אירוח כפרי אצל תמי</b> · רמת הגולן
 <p>15 צימרים. הדף אומר גם מה שאין באתר שלה — שהבריכה מגודרת, שאין מציל, ומה
@@ -89,6 +118,34 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 <div class="live"><b>חנות חיות קרוב לטבע</b> · אונליין
 <p>2,161 מוצרים, מסונכרנים אוטומטית מהחנות.</p></div>
 <p class="lead"><a href="./" style="color:var(--green-ink)">לראות את כל העסקים ←</a></p>
+
+<h2>שאלות שאנשים שואלים</h2>
+<details><summary>כמה זה עולה?</summary>
+<p><b>אפס.</b> ההצטרפות והקמת הדף בחינם במסגרת ההשקה, ואין כרטיס אשראי בשום שלב.
+בעתיד יהיו שירותים בתשלום למי שירצה — <b>ולא תחויב/י על כלום בלי שתאמר/י כן
+במפורש.</b></p></details>
+
+<details><summary>מה אתם עושים עם המידע שלי?</summary>
+<p>מפרסמים אותו בדף ציבורי שסוכני AI יכולים לקרוא — <b>בדיוק מה שביקשת שנעשה.</b>
+לא מוכרים אותו לאף אחד, לא שולחים לך פרסומות, ולא מעבירים את הטלפון שלך הלאה.
+הרכישה נשארת אצלך: אנחנו לא נכנסים בין הלקוח לעסק.</p></details>
+
+<details><summary>אני צריך לשנות משהו באתר שלי?</summary>
+<p><b>לא. שום דבר.</b> אנחנו לא מתקינים, לא נוגעים בקוד ולא מבקשים סיסמאות.
+אם יש לך חנות אונליין — אנחנו קוראים את הקטלוג הציבורי שכבר קיים,
+ומתעדכנים לבד בכל שינוי שאתה עושה.</p></details>
+
+<details><summary>כמה זמן זה לוקח לי?</summary>
+<p>שתי דקות למלא את הטופס. <b>זהו.</b> אם יש שאלה נחזור אליך בוואטסאפ.</p></details>
+
+<details><summary>ואם המחיר שלי משתנה? או שמשהו לא מדויק?</summary>
+<p>חנות עם קטלוג מסתנכרנת אוטומטית. בכל מקרה אחר — הודעה אחת ואנחנו מתקנים.
+<b>ואנחנו אף פעם לא ממציאים מחיר שלא פרסמת:</b> כל דף אומר במפורש מה העסק
+<b>טרם פרסם</b>, כדי שאף סוכן לא ינחש במקומך.</p></details>
+
+<details><summary>אני רוצה לצאת. מה קורה?</summary>
+<p>הודעה אחת ואנחנו מוחקים הכול. <b>בלי התחייבות, בלי תקופת מינימום,
+בלי לשאול שאלות.</b></p></details>
 
 <h2>הפרטים שלך</h2>
 <form id="f">
