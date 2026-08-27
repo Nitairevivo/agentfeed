@@ -1,6 +1,6 @@
 {
   "name": "AgentFeed API",
-  "updated": "2026-08-27T16:17:41+00:00",
+  "updated": "2026-08-27T17:22:45+00:00",
   "language": "he-IL",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "auth": "none",
@@ -20,7 +20,7 @@
       "url": "https://nitairevivo.github.io/agentfeed/api/catalog.jsonl",
       "format": "application/x-ndjson",
       "returns": "כל הפריטים מכל העסקים, שורה לפריט",
-      "rows": 2260
+      "rows": 2264
     },
     {
       "url": "https://nitairevivo.github.io/agentfeed/sitemap.xml",
