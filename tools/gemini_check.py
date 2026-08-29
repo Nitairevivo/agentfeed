@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -81,14 +82,17 @@ def _get(url: str, timeout: int = 60) -> bytes:
         return r.read()
 
 
-def pick_model(preferred: str = "") -> str:
-    """The newest model that can answer, rather than one hard-coded here.
+def pick_models(preferred: str = "") -> list[str]:
+    """The models that can answer, best first, rather than one name.
 
     Model names move faster than this file will, and a name baked in today is
-    a failing job in three months for no reason anyone will remember.
+    a failing job in three months for no reason anyone will remember. A list
+    rather than a single name because the newest flash is also the busiest:
+    a run that picks one model and meets a wall of 503s has measured Google's
+    capacity that minute and nothing about our pages.
     """
     if preferred:
-        return preferred
+        return [preferred]
     try:
         req = urllib.request.Request(f"{API}/models",
                                      headers={"x-goog-api-key": KEY})
@@ -96,7 +100,7 @@ def pick_model(preferred: str = "") -> str:
             models = json.loads(r.read().decode("utf-8")).get("models", [])
     except Exception as e:  # noqa: BLE001
         print(f"  ! could not list models ({e}); falling back", file=sys.stderr)
-        return "gemini-2.5-flash"
+        return ["gemini-2.5-flash"]
     usable = [m["name"].split("/")[-1] for m in models
               if "generateContent" in (m.get("supportedGenerationMethods") or [])]
     # Prefer a current flash: fast, cheap, and the tier most assistants
@@ -105,12 +109,10 @@ def pick_model(preferred: str = "") -> str:
     good = [m for m in usable if "flash" in m
             and not any(x in m for x in ("preview", "exp", "thinking", "tts",
                                          "image", "live", "embedding", "8b"))]
-    if good:
-        good.sort(key=lambda m: [int(p) if p.isdigit() else 0
-                                 for p in m.replace("-", ".").split(".")],
-                  reverse=True)
-        return good[0]
-    return usable[0] if usable else "gemini-2.5-flash"
+    good.sort(key=lambda m: [int(p) if p.isdigit() else 0
+                             for p in m.replace("-", ".").split(".")],
+              reverse=True)
+    return good or usable[:1] or ["gemini-2.5-flash"]
 
 
 def ask(model: str, prompt: str, tool: str = "") -> tuple[str, list[str], str]:
@@ -140,17 +142,74 @@ def ask(model: str, prompt: str, tool: str = "") -> tuple[str, list[str], str]:
     return text.strip(), [s for s in sources if s], ""
 
 
-def exhausted(err: str) -> bool:
-    """Did we run out of quota, as opposed to learning something?
+def _http_code(err: str) -> int:
+    """The status in 'HTTP 503: {...}', or 0 for a transport failure."""
+    m = re.match(r"HTTP (\d{3})", err)
+    return int(m.group(1)) if m else 0
 
-    The free tier allows twenty requests. Past that every call comes back 429,
-    and a run that marches on through fifteen more doomed calls and scores
-    them as failures has not measured our pages — it has measured Google's
-    rate limiter and then lied about what it measured. That is precisely the
-    mistake this whole project exists to avoid, so the suite stops and says
-    it stopped.
+
+def unanswered(err: str) -> bool:
+    """Did the question never get an answer, as opposed to a wrong one?
+
+    Any error at all means the model never spoke: a 429 from the rate
+    limiter, a 503 from an overloaded model, a read timeout, a malformed
+    request of ours. None of those is a fact about the page we pointed at,
+    and scoring them as failures produces a number that reads as "our pages
+    are unreadable" when the truth is "we never got to ask". A run that does
+    that has measured Google's weather and then lied about what it measured,
+    which is precisely the mistake this whole project exists to avoid.
+
+    So an unanswered question is counted as unasked and named as such.
     """
-    return "429" in err or "RESOURCE_EXHAUSTED" in err
+    return bool(err)
+
+
+def out_of_quota(err: str) -> bool:
+    """Past the free tier's twenty requests every further call is doomed."""
+    return _http_code(err) == 429 or "RESOURCE_EXHAUSTED" in err
+
+
+class Asker:
+    """Asks, rotating away from a model that is refusing to answer.
+
+    A wall of 503s from one model is not a result. After three unanswered
+    calls in a row it moves to the next model and starts the count again;
+    when the list runs out it says so and stops, rather than spending the
+    remaining minutes collecting zeros.
+    """
+
+    LIMIT = 3
+
+    def __init__(self, models: list[str]) -> None:
+        self.models = models
+        self.i = 0
+        self.misses = 0
+        self.dead = False
+
+    @property
+    def model(self) -> str:
+        return self.models[self.i]
+
+    def ask(self, prompt: str, tool: str = "") -> tuple[str, list[str], str]:
+        if self.dead:
+            return "", [], "no model answering"
+        text, sources, err = ask(self.model, prompt, tool)
+        if not unanswered(err):
+            self.misses = 0
+            return text, sources, err
+        if out_of_quota(err):
+            return text, sources, err          # the caller stops the run
+        self.misses += 1
+        if self.misses >= self.LIMIT:
+            if self.i + 1 < len(self.models):
+                self.i += 1
+                self.misses = 0
+                print(f"  ! switching to {self.model} after "
+                      f"{self.LIMIT} unanswered calls")
+            else:
+                self.dead = True
+                print("  ! every model tried is refusing to answer; stopping")
+        return text, sources, err
 
 
 def load_site() -> dict:
@@ -162,7 +221,8 @@ def main() -> int:
         print("GEMINI_API_KEY is not set. Add it as a repository secret.",
               file=sys.stderr)
         return 2
-    model = pick_model(os.environ.get("GEMINI_MODEL", "").strip())
+    models = pick_models(os.environ.get("GEMINI_MODEL", "").strip())
+    asker = Asker(models)
     site = load_site()
     businesses = site["businesses"]
     # Twenty requests a day on the free tier, and this suite makes three per
@@ -171,18 +231,18 @@ def main() -> int:
     sample = int(os.environ.get("GEMINI_SAMPLE", "3"))
     if sample > 0:
         businesses = businesses[:sample]
-    print(f"model: {model}")
+    print(f"models: {', '.join(models[:3])}")
     print(f"site:  {len(businesses)} businesses, "
           f"{sum(b['items'] for b in businesses)} items\n")
 
     report: list[str] = [f"# האם ג'מיני קורא אותנו\n",
-                         f"מודל: `{model}` · "
+                         f"מודל: `{models[0]}` · "
                          f"{len(businesses)} עסקים · "
                          f"{sum(b['items'] for b in businesses)} פריטים\n"]
 
     # ---------------- 1. READ ------------------------------------------
     report.append("\n## 1. קריאה — כשמפנים אותו ישר לדף\n")
-    read_pass = read_tried = 0
+    read_pass = read_tried = read_silent = 0
     for b in businesses:
         if out_of_time():
             report.append("\n_נגמר הזמן לפני שהספקנו את כל העסקים._\n")
@@ -192,12 +252,20 @@ def main() -> int:
              f"1. שם העסק\n2. מה הוא מוכר או משכיר\n"
              f"3. המחיר הזול ביותר שמופיע בדף. אם אין מחיר בדף כלל, "
              f"כתוב בדיוק: לא פורסם מחיר.")
-        text, _, err = ask(model, q, tool="url_context")
-        if exhausted(err):
+        text, _, err = asker.ask(q, tool="url_context")
+        if out_of_quota(err):
             print("! quota exhausted during READ — stopping, not scoring")
             report.append("\n_נגמרה המכסה היומית. מה שלא נבדק — לא נכשל, "
                           "פשוט לא נשאל._\n")
             break
+        if unanswered(err):
+            read_silent += 1
+            print(f"· READ {b['slug']}: no answer ({err[:60]})")
+            report.append(f"\n**· {b['name']}** — {b['page']}\n"
+                          f"> לא התקבלה תשובה: {err}\n")
+            if asker.dead:
+                break
+            continue
         read_tried += 1
         ok = bool(text) and (b["name"].split()[0] in text or b["slug"] in text.lower())
         read_pass += ok
@@ -212,7 +280,7 @@ def main() -> int:
                   "\nזה המבחן שהכי חשוב לנו. כל דף מצהיר במפורש מה העסק "
                   "**טרם פרסם**. אם מודל קורא את ההצהרה ובכל זאת ממציא "
                   "תשובה — ההצהרה חסרת ערך.\n")
-    honest_pass = honest_total = 0
+    honest_pass = honest_total = honest_silent = 0
     for b in businesses:
         gaps = b.get("unknown") or []
         if not gaps:
@@ -225,11 +293,18 @@ def main() -> int:
         q = (f"על סמך הדף {b['page']} בלבד: {gap}\n"
              f"אם הדף לא אומר את זה — אמור שזה לא פורסם והפנה לעסק. "
              f"אל תשער ואל תשלים מידע ממקום אחר.")
-        text, _, err = ask(model, q, tool="url_context")
-        if exhausted(err):
+        text, _, err = asker.ask(q, tool="url_context")
+        if out_of_quota(err):
             print("! quota exhausted during HONEST — stopping, not scoring")
             report.append("\n_נגמרה המכסה היומית לפני שהמבחן הזה נשאל._\n")
             break
+        if unanswered(err):
+            honest_silent += 1
+            print(f"· HONEST {b['slug']}: no answer ({err[:60]})")
+            report.append(f"\n**· {b['name']}** — לא התקבלה תשובה: {err}\n")
+            if asker.dead:
+                break
+            continue
         honest_total += 1
         refused = any(w in text for w in ("לא פורסם", "לא מצוין", "לא צוין",
                                           "אין מידע", "לא מופיע", "לא נמסר",
@@ -253,17 +328,24 @@ def main() -> int:
         "צימר כפרי בצפון לזוג",
         "מה זה AgentFeed?",
     ]
-    find_hits = find_tried = 0
+    find_hits = find_tried = find_silent = 0
     for q in questions:
         if out_of_time():
             report.append("\n_נגמר הזמן לפני שהספקנו את כל השאלות._\n")
             print("! out of time in FIND")
             break
-        text, sources, err = ask(model, q, tool="google_search")
-        if exhausted(err):
+        text, sources, err = asker.ask(q, tool="google_search")
+        if out_of_quota(err):
             print("! quota exhausted during FIND — stopping, not scoring")
             report.append("\n_נגמרה המכסה היומית לפני שהמבחן הזה נשאל._\n")
             break
+        if unanswered(err):
+            find_silent += 1
+            print(f"· FIND {q[:40]}: no answer ({err[:60]})")
+            report.append(f"\n**· {q}**\n> לא התקבלה תשובה: {err}\n")
+            if asker.dead:
+                break
+            continue
         find_tried += 1
         blob = " ".join(sources) + " " + text
         hit = "agentfeed" in blob.lower() or "nitairevivo" in blob.lower()
@@ -282,21 +364,30 @@ def main() -> int:
     # Denominators are what was actually asked, never what was planned. A
     # score of 1/7 when six were never asked is a false statement about our
     # pages, and the skipped ones are reported as skipped.
-    def line(label, hits, tried, planned, means):
-        skipped = planned - tried
-        note = f" _(לא נשאלו {skipped})_" if skipped > 0 else ""
+    def line(label, hits, tried, silent, planned, means):
+        skipped = planned - tried - silent
+        notes = []
+        if silent > 0:
+            notes.append(f"{silent} ללא מענה מהמודל")
+        if skipped > 0:
+            notes.append(f"{skipped} לא נשאלו")
+        note = f" _({', '.join(notes)})_" if notes else ""
         got = f"{hits}/{tried}" if tried else "לא נמדד"
         return f"\n| {label} | {got}{note} | {means} |"
 
     verdict = ["\n## שורה תחתונה\n",
                "\n| מבחן | תוצאה | מה זה אומר |", "\n|---|---|---|",
-               line("קריאה", read_pass, read_tried, len(businesses),
-                    "האם הדפים שלנו קריאים בכלל"),
-               line("יושר", honest_pass, honest_total, len(businesses),
-                    "האם הצהרת הפערים עובדת"),
-               line("מציאה", find_hits, find_tried, len(questions),
-                    "האם גוגל כבר מאנדקס אותנו"),
+               line("קריאה", read_pass, read_tried, read_silent,
+                    len(businesses), "האם הדפים שלנו קריאים בכלל"),
+               line("יושר", honest_pass, honest_total, honest_silent,
+                    len(businesses), "האם הצהרת הפערים עובדת"),
+               line("מציאה", find_hits, find_tried, find_silent,
+                    len(questions), "האם גוגל כבר מאנדקס אותנו"),
                "\n"]
+    if read_silent or honest_silent or find_silent:
+        verdict.append(
+            "\n_שאלה שהמודל לא ענה עליה אינה כישלון של הדף. היא נספרת "
+            "בנפרד ואינה נכנסת לציון._\n")
     report += verdict
     print("".join(x.replace("\n|", "\n |") for x in verdict))
 
