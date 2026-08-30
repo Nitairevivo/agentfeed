@@ -14,6 +14,12 @@ on:
         description: "How many businesses to test (free tier allows 20 calls/day)"
         required: false
         default: "4"
+      only:
+        description: "Which suite: all, read, honest or find. FIND never
+          survives a full run — twenty calls a day are gone before it is
+          reached — so measuring the index means asking for it alone."
+        required: false
+        default: "all"
 
 permissions:
   contents: read
@@ -57,6 +63,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ inputs.model }}
           GEMINI_SAMPLE: ${{ inputs.sample }}
+          GEMINI_ONLY: ${{ inputs.only }}
         # -u so progress reaches the log as it happens. Buffered, a
         # twenty-minute job shows nothing at all until it ends, which
         # is indistinguishable from a hang.

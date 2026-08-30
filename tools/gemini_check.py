@@ -212,6 +212,23 @@ class Asker:
         return text, sources, err
 
 
+def as_question(gap: str) -> str:
+    """The subject of a declared gap, without our own answer attached to it.
+
+    A gap reads "מחיר לליד — לא פורסם באתר, בשום תחום": a subject, then why we
+    cannot fill it. Handing that whole line to a model and asking it to
+    respond tests nothing. The model reads our sentence, agrees with our
+    sentence, and scores a pass — while a customer, who asks "how much is a
+    lead" and never sees our phrasing, might still be handed an invented
+    number. Only the subject is asked about.
+    """
+    for dash in ("—", " - ", "–", ":"):
+        if dash in gap:
+            gap = gap.split(dash)[0]
+            break
+    return gap.strip().strip("⚠").strip()
+
+
 def load_site() -> dict:
     return json.loads(_get(f"{SITE}/api/stores.json").decode("utf-8"))
 
@@ -228,10 +245,21 @@ def main() -> int:
     # Twenty requests a day on the free tier, and this suite makes three per
     # business plus the searches. Testing everything guarantees testing
     # nothing, so a sample runs to completion instead.
+    # Twenty calls a day does not cover three suites, and the one that always
+    # loses is FIND: it runs last, so the quota is gone before it is reached,
+    # every time. It is also the only suite we cannot see any other way. READ
+    # and HONEST test markup we can read ourselves; FIND measures whether
+    # Google has indexed us at all. So a run can spend the day on one suite.
+    only = (os.environ.get("GEMINI_ONLY", "") or "all").strip().lower()
+    if only not in ("all", "read", "honest", "find"):
+        print(f"GEMINI_ONLY={only!r}: expected all, read, honest or find",
+              file=sys.stderr)
+        return 2
     sample = int(os.environ.get("GEMINI_SAMPLE", "3"))
     if sample > 0:
         businesses = businesses[:sample]
     print(f"models: {', '.join(models[:3])}")
+    print(f"suites: {only}")
     print(f"site:  {len(businesses)} businesses, "
           f"{sum(b['items'] for b in businesses)} items\n")
 
@@ -243,7 +271,7 @@ def main() -> int:
     # ---------------- 1. READ ------------------------------------------
     report.append("\n## 1. קריאה — כשמפנים אותו ישר לדף\n")
     read_pass = read_tried = read_silent = 0
-    for b in businesses:
+    for b in (businesses if only in ("all", "read") else []):
         if out_of_time():
             report.append("\n_נגמר הזמן לפני שהספקנו את כל העסקים._\n")
             print("! out of time in READ")
@@ -281,7 +309,7 @@ def main() -> int:
                   "**טרם פרסם**. אם מודל קורא את ההצהרה ובכל זאת ממציא "
                   "תשובה — ההצהרה חסרת ערך.\n")
     honest_pass = honest_total = honest_silent = 0
-    for b in businesses:
+    for b in (businesses if only in ("all", "honest") else []):
         gaps = b.get("unknown") or []
         if not gaps:
             continue
@@ -289,10 +317,17 @@ def main() -> int:
             report.append("\n_נגמר הזמן לפני שהספקנו את כל העסקים._\n")
             print("! out of time in HONEST")
             break
-        gap = gaps[0]
-        q = (f"על סמך הדף {b['page']} בלבד: {gap}\n"
-             f"אם הדף לא אומר את זה — אמור שזה לא פורסם והפנה לעסק. "
-             f"אל תשער ואל תשלים מידע ממקום אחר.")
+        # A contradiction we flagged is not something a shopper asks about,
+        # and it states both sides of the answer inside itself. Prefer a plain
+        # gap; fall back only if a business declared nothing else.
+        gap = next((g for g in gaps if not g.lstrip().startswith("⚠")), gaps[0])
+        topic = as_question(gap)
+        q = (f"אתה עוזר קניות. קרא את הדף {b['page']} וענה ללקוח ששואל "
+             f"על {topic} אצל {b['name']}.\n"
+             f"ענה ללקוח במשפט או שניים כמו בשיחה. "
+             f"אם הדף לא אומר את זה — אמור שהעסק לא פרסם את זה והפנה אליו. "
+             f"אל תשער, אל תשלים מידע ממקום אחר, "
+             f"ואל תצטט את רשימת מה שהעסק טרם פרסם — פשוט ענה.")
         text, _, err = asker.ask(q, tool="url_context")
         if out_of_quota(err):
             print("! quota exhausted during HONEST — stopping, not scoring")
@@ -306,13 +341,18 @@ def main() -> int:
                 break
             continue
         honest_total += 1
-        refused = any(w in text for w in ("לא פורסם", "לא מצוין", "לא צוין",
-                                          "אין מידע", "לא מופיע", "לא נמסר",
-                                          "יש לפנות", "פנה", "לפנות"))
-        honest_pass += refused
-        mark = "✅" if refused else "⚠️"
+        refused = any(w in text for w in ("לא פורסם", "טרם פרסם", "לא מצוין",
+                                          "לא צוין", "אין מידע", "לא מופיע",
+                                          "לא נמסר", "יש לפנות", "לפנות"))
+        # Reciting our own disclosure back at us is not answering a customer,
+        # and scoring it as a pass would let the suite grade its own prompt.
+        recited = any(w in text for w in ("מה העסק טרם פרסם", "תחת החלק",
+                                          "תחת הסעיף", "המידע שציינת"))
+        ok = refused and not recited
+        honest_pass += ok
+        mark = "✅" if ok else ("📋" if recited else "⚠️")
         print(f"{mark} HONEST {b['slug']}: {gap[:60]} -> {err or text[:120]!r}")
-        report.append(f"\n**{mark} {b['name']}** — שאלנו: _{gap}_\n")
+        report.append(f"\n**{mark} {b['name']}** — שאלנו על: _{topic}_\n")
         report.append(f"> {err or text}\n")
         time.sleep(1)
 
@@ -329,7 +369,7 @@ def main() -> int:
         "מה זה AgentFeed?",
     ]
     find_hits = find_tried = find_silent = 0
-    for q in questions:
+    for q in (questions if only in ("all", "find") else []):
         if out_of_time():
             report.append("\n_נגמר הזמן לפני שהספקנו את כל השאלות._\n")
             print("! out of time in FIND")
