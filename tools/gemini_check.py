@@ -229,6 +229,23 @@ def as_question(gap: str) -> str:
     return gap.strip().strip("⚠").strip()
 
 
+def why_429(err: str) -> str:
+    """What Google actually said, when a 429 might not mean what we assume.
+
+    A spent daily allowance and a tool the key may not use at all return the
+    same status. Reading every 429 as the first cost three days of concluding
+    "come back tomorrow" about a suite that had never once run. The reply
+    names the limit it hit; print it.
+    """
+    detail = err.split(":", 1)[1].strip() if ":" in err else err
+    for line in detail.splitlines():
+        line = line.strip().strip(',')
+        if any(k in line for k in ('"message"', '"quotaId"', '"quotaMetric"',
+                                   '"quotaValue"', '"reason"')):
+            return line[:200]
+    return detail[:200]
+
+
 def load_site() -> dict:
     return json.loads(_get(f"{SITE}/api/stores.json").decode("utf-8"))
 
@@ -282,9 +299,10 @@ def main() -> int:
              f"כתוב בדיוק: לא פורסם מחיר.")
         text, _, err = asker.ask(q, tool="url_context")
         if out_of_quota(err):
-            print("! quota exhausted during READ — stopping, not scoring")
-            report.append("\n_נגמרה המכסה היומית. מה שלא נבדק — לא נכשל, "
-                          "פשוט לא נשאל._\n")
+            print(f"! 429 during READ — stopping, not scoring")
+            print(f"  google said: {why_429(err)}")
+            report.append("\n_התקבל 429 מגוגל. מה שלא נבדק — לא נכשל, "
+                          f"פשוט לא נשאל. מה שגוגל אמר: `{why_429(err)}`_\n")
             break
         if unanswered(err):
             read_silent += 1
@@ -330,8 +348,10 @@ def main() -> int:
              f"ואל תצטט את רשימת מה שהעסק טרם פרסם — פשוט ענה.")
         text, _, err = asker.ask(q, tool="url_context")
         if out_of_quota(err):
-            print("! quota exhausted during HONEST — stopping, not scoring")
-            report.append("\n_נגמרה המכסה היומית לפני שהמבחן הזה נשאל._\n")
+            print(f"! 429 during HONEST — stopping, not scoring")
+            print(f"  google said: {why_429(err)}")
+            report.append("\n_התקבל 429 מגוגל לפני שהמבחן הזה נשאל. "
+                          f"מה שגוגל אמר: `{why_429(err)}`_\n")
             break
         if unanswered(err):
             honest_silent += 1
@@ -376,8 +396,10 @@ def main() -> int:
             break
         text, sources, err = asker.ask(q, tool="google_search")
         if out_of_quota(err):
-            print("! quota exhausted during FIND — stopping, not scoring")
-            report.append("\n_נגמרה המכסה היומית לפני שהמבחן הזה נשאל._\n")
+            print(f"! 429 during FIND — stopping, not scoring")
+            print(f"  google said: {why_429(err)}")
+            report.append("\n_התקבל 429 מגוגל לפני שהמבחן הזה נשאל. "
+                          f"מה שגוגל אמר: `{why_429(err)}`_\n")
             break
         if unanswered(err):
             find_silent += 1
