@@ -398,6 +398,22 @@ def main() -> int:
         if out_of_quota(err):
             print(f"! 429 during FIND — stopping, not scoring")
             print(f"  google said: {why_429(err)}")
+            # A 429 on the very first grounded question, when ungrounded
+            # questions in the same run went through, is not a spent
+            # allowance. Live search grounding carries its own entitlement and
+            # a free key may not have it at all — the two are indistinguishable
+            # by status code, and reading it as the daily quota costs a day
+            # every time, because tomorrow it says the same thing.
+            if find_tried == 0:
+                print("  first grounded call of the run. Live search "
+                      "grounding has its own entitlement, and a key without "
+                      "it answers exactly like this — every day. Measure FIND "
+                      "by hand in the Gemini app until the key has it.")
+                report.append(
+                    "\n_מבחן זה נכשל על הקריאה הראשונה, לפני שנשאלה שאלה "
+                    "אחת. חיפוש חי דרך ה-API הוא הרשאה נפרדת, ומפתח שאין לו "
+                    "אותה עונה בדיוק כך בכל יום. עד שתהיה הרשאה — המדידה "
+                    "נעשית ידנית באפליקציית Gemini._\n")
             report.append("\n_התקבל 429 מגוגל לפני שהמבחן הזה נשאל. "
                           f"מה שגוגל אמר: `{why_429(err)}`_\n")
             break
