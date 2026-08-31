@@ -1,0 +1,41 @@
+# Which shops are worth a message, before anyone writes one.
+#
+# One public request per site answers whether its catalogue can be read at
+# all. A shop that can be connected in an afternoon is worth a personal
+# message today; a shop that cannot is worth one later, and the message is a
+# different message. Knowing which is which before writing is the whole point.
+#
+# This reads catalogues, never contact details. Bulk unsolicited messaging is
+# illegal here and would undo the only thing this project has going for it.
+name: Which shops can we connect
+
+on:
+  workflow_dispatch:
+    inputs:
+      domains:
+        description: 'Domains to check — comma, space or newline separated.
+          Leave blank to use tools/leads.txt'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ask each shop whether its catalogue is readable
+        env:
+          QUALIFY_DOMAINS: ${{ inputs.domains }}
+        run: python3 -u tools/qualify.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: qualify-report
+          path: qualify-report.md
+          if-no-files-found: ignore
