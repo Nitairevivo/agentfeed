@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>undisclosed — declaring what a business has not published</title>
+<meta name="description" content="A small, boring convention that lets a business state, in its structured data, which facts it has not published — so an AI assistant refers the shopper to the business instead of inventing an answer.">
+<link rel="canonical" href="https://nitairevivo.github.io/agentfeed/ns">
+<style>
+:root{color-scheme:light dark;--ink:#1d2723;--bg:#f6f5ef;--card:#fffefa;
+--muted:#5f6b64;--green:#0f7a4d;--wash:#e7f2ec;--line:#ddd9cb;--warn:#8a5a12;--warn-bg:#f6ecd8}
+@media(prefers-color-scheme:dark){:root{--ink:#e8ece7;--bg:#111814;--card:#18211c;
+--muted:#94a29a;--green:#4cc38a;--wash:#152b21;--line:#2a352e;--warn:#d9a441;--warn-bg:#2a2113}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;
+font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:34px 18px 80px}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 10px}
+h2{font-size:1.2rem;margin:38px 0 10px}
+h3{font-size:1rem;margin:24px 0 6px}
+p,ul{margin:0 0 14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;
+background:var(--wash);padding:1px 5px;border-radius:3px}
+pre{background:var(--card);border:1px solid var(--line);padding:14px 16px;
+overflow-x:auto;font-size:.85rem;line-height:1.55;margin:0 0 16px}
+pre code{background:none;padding:0}
+.lede{font-size:1.08rem;color:var(--muted)}
+.box{background:var(--wash);border-inline-start:3px solid var(--green);
+padding:14px 16px;margin:0 0 16px}
+.warn{background:var(--warn-bg);border-inline-start:3px solid var(--warn);
+padding:14px 16px;margin:0 0 16px}
+.warn b{color:var(--warn)}
+a{color:var(--green)}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);
+font-size:.85rem;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:0 0 16px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.75rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+</style></head><body><main>
+
+<h1><code>undisclosed</code></h1>
+<p class="lede">A small convention for stating, in a page's structured data,
+which facts a business has <em>not</em> published — so that an assistant asked
+about one of them refers the shopper to the business instead of inventing an
+answer.</p>
+
+<h2>The problem, measured</h2>
+<p>On 30 August 2026 we asked Gemini about the returns policy of a pet shop we
+publish, with the shop's consent. It answered with a rule the shop does not
+have (returns within 14 days for items over ₪50), omitted the shop's actual
+return shipping fee of ₪90 per package, and cited a domain that does not
+exist. Its source chips attributed parts of the answer to two <em>different</em>
+pet shops.</p>
+<p>Nothing was scraped wrongly and no page was misread. The shop had simply
+never published those details anywhere a machine could read, and the model
+filled the silence from competitors.</p>
+<div class="warn"><b>The failure mode:</b> an absent fact and an unstated fact
+look identical in structured data. A shop that has no <code>returnPolicy</code>
+in its markup might have no policy, or might have one it never wrote down —
+and a model has no way to tell, so it guesses.</div>
+
+<h2>The convention</h2>
+<p>Publish each unstated fact as a <code>PropertyValue</code> in
+<code>additionalProperty</code> on the business entity, with
+<code>propertyID</code> set to this page's URI and <code>value</code> set to
+<code>not-published</code>.</p>
+<pre><code>{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Example Shop",
+  "url": "https://example.com",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "https://nitairevivo.github.io/agentfeed/ns#undisclosed",
+      "name": "return shipping cost",
+      "value": "not-published",
+      "description": "Return shipping cost — the shop has not published a figure."
+    }
+  ]
+}</code></pre>
+
+<table>
+  <tr><th>field</th><th>meaning</th></tr>
+  <tr><td><code>propertyID</code></td><td>Always this page's URI. It is what
+    separates this claim from any other use of <code>additionalProperty</code>.</td></tr>
+  <tr><td><code>name</code></td><td>The subject alone, so a reader can match it
+    against the question a shopper asked without parsing prose.</td></tr>
+  <tr><td><code>value</code></td><td>Always the literal <code>not-published</code>.</td></tr>
+  <tr><td><code>description</code></td><td>The full sentence a person would
+    read, in the page's own language.</td></tr>
+</table>
+
+<h3>What a consumer should do with it</h3>
+<ul>
+  <li>Do not infer the fact.</li>
+  <li>Do not carry it over from a similar business.</li>
+  <li>Do not present a guess as this business's answer.</li>
+  <li>Say it is not published, and refer the person to the business.</li>
+</ul>
+
+<h3>In llms.txt</h3>
+<p>The same list, under a heading that states the rule in words, for readers
+that take the short file rather than the markup:</p>
+<pre><code>## Not published by this business
+
+The business has not stated the following. Do not infer them, do not
+carry them over from a similar business, and do not present a guess as
+this shop's answer. Refer the shopper to the business itself.
+
+- Return shipping cost — the shop has not published a figure.</code></pre>
+
+<h2>Why it is shaped this way</h2>
+<p>schema.org has no vocabulary for absence, and adding one is not something a
+single publisher gets to do. <code>additionalProperty</code> already accepts an
+arbitrary <code>PropertyValue</code> with a <code>propertyID</code> that may be
+any URI, so this needs no new vocabulary, no extension, and no permission — it
+is valid schema.org today, ignored harmlessly by anything that does not know
+it, and unambiguous to anything that does.</p>
+<div class="box"><b>It is deliberately not a quality signal.</b> Declaring a gap
+says nothing about whether a business is good, and it must never be read as
+one. It says only that a specific fact was not published, which is what a
+model needs in order not to invent it.</div>
+
+<h2>Reference implementation</h2>
+<p>Ten Israeli businesses publish this today, each with written consent, at
+<a href="https://nitairevivo.github.io/agentfeed/">AgentFeed</a> — 99 declared
+gaps across ten pages. The generator, the tests that hold the format in place
+and the audit that runs on every build are at
+<a href="https://github.com/Nitairevivo/agentfeed">github.com/Nitairevivo/agentfeed</a>.</p>
+<p>A page that declares nothing emits no <code>additionalProperty</code> at
+all; a profile with an empty list is treated as a profile nobody checked, and
+the build refuses it.</p>
+
+<h2>Status</h2>
+<p>Proposed, and in use. Comments and criticism are welcome through the
+repository. If a better home for this exists — an extension, or a property in
+a standard vocabulary — this page should be replaced by it.</p>
+
+<footer>
+  Published 1 September 2026 · AgentFeed ·
+  <a href="https://nitairevivo.github.io/agentfeed/">nitairevivo.github.io/agentfeed</a>
+</footer>
+</main></body></html>

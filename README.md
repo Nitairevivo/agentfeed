@@ -1,5 +1,13 @@
 # AgentFeed
 
+> Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
+
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 10 businesses, 86 declared gaps.
+
+Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
+
+---
+
 עסקים ישראליים בפורמט שסוכני AI קוראים — מוצרים, מחירים,
 זמינות ופרטי העסק.
 
