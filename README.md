@@ -8,11 +8,11 @@
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-10 עסקים · 2273 פריטים
+10 עסקים · 2287 פריטים
 
 ## חיות מחמד
 
-- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2161 פריטים  
+- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2176 פריטים  
   חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
   אתר העסק: https://closetonature.co.il/
 - **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  
@@ -42,7 +42,7 @@
 
 ## טיפוח ויופי
 
-- **[Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/)** — 5 פריטים  
+- **[Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/)** — 4 פריטים  
   חנות מקוונת למוצרי טיפוח ונוחות לשיער, כולל מוצרי סטיילינג, מכשירים ומוצרים לצמיחת השיער  
   אתר העסק: https://www.sunsetglow.co.il
 

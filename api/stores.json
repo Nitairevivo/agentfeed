@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-01T12:16:36+00:00",
+  "updated": "2026-09-01T19:53:44+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -65,10 +65,10 @@
       "category": "חיות מחמד",
       "category_slug": "pets",
       "region": "",
-      "items": 2161,
+      "items": 2176,
       "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
       "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
-      "updated": "2026-08-23T07:17:26+00:00",
+      "updated": "2026-09-01T09:38:48+00:00",
       "unknown": [
         "אין קופוני הנחה — כך נמסר על ידי הבעלים, ולכן אין טעם לחפש קוד קופון לחנות הזאת",
         "כתובת העסק — הבעלים ביקש שלא לפרסם אותה, וזו החלטה שלו ולא פער במידע",
@@ -227,10 +227,10 @@
       "category": "טיפוח ויופי",
       "category_slug": "beauty",
       "region": "",
-      "items": 5,
+      "items": 4,
       "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/",
       "products": "https://nitairevivo.github.io/agentfeed/sunset-glow/products.jsonl",
-      "updated": "2026-08-23T17:56:29+00:00",
+      "updated": "2026-09-01T09:38:49+00:00",
       "unknown": [
         "מיקום — האם יש חנות פיזית או נקודת איסוף",
         "אזורי משלוח, עלות משלוח וזמן אספקה",
