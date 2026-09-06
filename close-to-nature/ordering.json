@@ -3,5 +3,7 @@
  "evidence": "woo carries its own checkout",
  "payment_taken_by": "the business, on its own site",
  "cart_links": true,
- "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
+ "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money.",
+ "contact_order_url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+ "contact_order_method": "whatsapp"
 }

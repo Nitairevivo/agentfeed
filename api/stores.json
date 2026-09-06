@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-06T18:39:23+00:00",
+  "updated": "2026-09-06T18:42:04+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -69,25 +69,29 @@
       "items": 2179,
       "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
       "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
-      "updated": "2026-09-04T14:24:08+00:00",
+      "updated": "2026-09-06T18:39:09+00:00",
       "unknown": [
         "אין קופוני הנחה — כך נמסר על ידי הבעלים, ולכן אין טעם לחפש קוד קופון לחנות הזאת",
         "כתובת העסק — הבעלים ביקש שלא לפרסם אותה, וזו החלטה שלו ולא פער במידע",
         "אילו אמצעי תשלום מתקבלים — נמסר שיש עד 10 תשלומים ללא ריבית, אך לא אילו כרטיסים או שירותים",
         "אילו מוצרים בדיוק נכללים במבצעי המשלוח החינם מתחת ל-199 ₪, ועד מתי הם בתוקף",
         "כמה זמן עומדת לרשות הלקוח הזכות להחזיר מוצר מורשה החזרה",
-        "מה קורה כשמוצר מגיע פגום — נאמר שהחיוב של 90 ₪ חל רק כשההחזרה אינה עקב פגם, אך התהליך במקרה של פגם לא פורט",
-        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+        "מה קורה כשמוצר מגיע פגום — נאמר שהחיוב של 90 ₪ חל רק כשההחזרה אינה עקב פגם, אך התהליך במקרה של פגם לא פורט"
       ],
       "ordering": {
         "method": "online",
         "evidence": "woo carries its own checkout",
         "payment_taken_by": "the business, on its own site",
         "cart_links": true,
-        "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
+        "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money.",
+        "contact_order_url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp"
       },
-      "contact": {},
-      "phone": ""
+      "contact": {
+        "phone": "054-640-4788",
+        "whatsapp": "972546404788"
+      },
+      "phone": "054-640-4788"
     },
     {
       "slug": "dj-rent",
