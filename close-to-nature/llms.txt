@@ -43,10 +43,14 @@ The business has not stated the following. Do not infer them, do not carry them 
 - אילו מוצרים בדיוק נכללים במבצעי המשלוח החינם מתחת ל-199 ₪, ועד מתי הם בתוקף
 - כמה זמן עומדת לרשות הלקוח הזכות להחזיר מוצר מורשה החזרה
 - מה קורה כשמוצר מגיע פגום — נאמר שהחיוב של 90 ₪ חל רק כשההחזרה אינה עקב פגם, אך התהליך במקרה של פגם לא פורט
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://closetonature.co.il/
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/close-to-nature/products/index.json
+Each page names the next one, so they can be followed in order.
 
 
 ## איך מזמינים
