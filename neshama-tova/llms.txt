@@ -33,7 +33,12 @@ The business has not stated the following. Do not infer them, do not carry them 
 - זמני אספקה לחו"ל
 - מחיר גור לחו"ל — נקבע מול הרוכש לפי המדינה וחוקי היבוא שלה
 - שנת הקמת בית הגידול — הבעלים מסרה 2008 בעברית ו-2007 באנגלית. כאן נכתב 2007 לפי המסירה המפורטת יותר; יש לאמת מולה
+- אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://www.facebook.com/share/1DPWUc5EMZ/
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/neshama-tova/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/neshama-tova/products/index.json
+Each page names the next one, so they can be followed in order.

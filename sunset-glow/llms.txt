@@ -21,7 +21,11 @@ The business has not stated the following. Do not infer them, do not carry them 
 - שעות מענה ושירות לקוחות
 - מדיניות החזרות והחלפות
 - מה לקוחות שואלים הכי הרבה ולא כתוב באתר — בעלת העסק טרם ענתה, וזו השאלה שממנה מגיע המידע שאין בשום מקום אחר
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://www.sunsetglow.co.il
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/sunset-glow/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/sunset-glow/products/index.json
+Each page names the next one, so they can be followed in order.

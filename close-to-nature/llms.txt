@@ -1,11 +1,14 @@
 # חנות חיות קרוב לטבע
 
-> Online store. 2176 products in this feed. Prices in ILS.
+> Online store. 2179 products in this feed. Prices in ILS.
 
 Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפריקה - Simparica, ערבה - Arava, פיטמין פור לייף - Fitmin For life
 
 ## Products
 
+- [🍄 אקווריום פטרייה שולחני מעוצב 2.5 ליטר Mushroom Aquarium](https://closetonature.co.il/product/mushroom-desktop-aquarium-2-5l/?utm_source=agentfeed&utm_medium=ai) — 289.00 ILS
+- [🐾 דרמטו וט מגבוני אצבע טיפוליים לאוזניים ולעור 50 יח’ DermatoVet Keto Tris FingerFit](https://closetonature.co.il/product/dermatovet-keto-tris-fingerfit-ear-and-skin-wipes-50-count/?utm_source=agentfeed&utm_medium=ai) — 109.00 ILS
+- [🦷 דרמטו וט מגבוני אצבע לניקוי שיניים לכלבים 50 יח’ DermatoVet OroCare FingerFit](https://closetonature.co.il/product/dermatovet-orocare-fingerfit-dental-wipes-dogs-50-count/?utm_source=agentfeed&utm_medium=ai) — 123.00 ILS
 - [🦴 קארניס רגל טלה מיובשת לכלב 70-100 גרם Carnis](https://closetonature.co.il/product/carnis-dried-lamb-foot-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS
 - [🦴 קארניס קנה נשימה בקר לכלב 80-85 גרם Carnis](https://closetonature.co.il/product/carnis-dried-beef-trachea-dog-chews-85g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS
 - [🦴 קארניס לב בקר מיובש לכלב 70 גרם Carnis](https://closetonature.co.il/product/carnis-dried-beef-heart-dog-treats-70g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS
@@ -28,10 +31,7 @@ Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפרי�
 - [🐱 חול לחתולים אייקט מתגבש 10 ק”ג ללא ריח – משלוח חינם – iCat Super Premium Cat Litter](https://closetonature.co.il/product/icat-clumping-cat-litter-10l/?utm_source=agentfeed&utm_medium=ai) — 99.00 ILS
 - [🐕 שמפו נגד פרעושים וקרציות עוצמה מרבית 591 מ”ל טרופיקלין TropiClean Flea + Tick Max Strength](https://closetonature.co.il/product/tropiclean-natural-flea-tick-max-strength-shampoo-591ml/?utm_source=agentfeed&utm_medium=ai) — 59.00 ILS
 - [🐕 שמפו נגד פרעושים וקרציות להרגעת העור 591 מ”ל טרופיקלין TropiClean Flea + Tick Soothing](https://closetonature.co.il/product/tropiclean-natural-flea-tick-soothing-shampoo-591ml/?utm_source=agentfeed&utm_medium=ai) — 59.00 ILS
-- [🐱 מזון רפואי הילס מטבוליק לחתול 8 ק”ג עוף Hill’s Prescription Diet Metabolic](https://closetonature.co.il/product/hills-prescription-diet-metabolic-cat-8kg/?utm_source=agentfeed&utm_medium=ai) — 448.00 ILS
-- [🧴 שמפו היפואלרגני אוקסימד טרופיקלין TropiClean OxyMed לטיפול בעור רגיש ולהרגעת גירויים 354 מ”ל / 592 מ”ל](https://closetonature.co.il/product/tropiclean-oxymed-hypoallergenic-oatmeal-shampoo/?utm_source=agentfeed&utm_medium=ai) — 58.00 ILS
-- [💧 מזרקת מים לחתולים ולכלבים 3 ליטר AFP Purr Flow Faucet Pet Fountain פתרון שתייה מתקדם בציפוי ברז זורם 3 ליטר](https://closetonature.co.il/product/afp-purr-flow-faucet-pet-fountain-3l/?utm_source=agentfeed&utm_medium=ai) — 189.00 ILS
-- …and 2151 more, not listed here. Every one of the 2176 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
+- …and 2154 more, not listed here. Every one of the 2179 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
 
 ## Not published by this business
 
@@ -43,7 +43,11 @@ The business has not stated the following. Do not infer them, do not carry them 
 - אילו מוצרים בדיוק נכללים במבצעי המשלוח החינם מתחת ל-199 ₪, ועד מתי הם בתוקף
 - כמה זמן עומדת לרשות הלקוח הזכות להחזיר מוצר מורשה החזרה
 - מה קורה כשמוצר מגיע פגום — נאמר שהחיוב של 90 ₪ חל רק כשההחזרה אינה עקב פגם, אך התהליך במקרה של פגם לא פורט
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://closetonature.co.il/
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/close-to-nature/products/index.json
+Each page names the next one, so they can be followed in order.

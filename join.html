@@ -10,11 +10,104 @@
 <meta property="og:description" content="חינם במסגרת ההשקה. שתי דקות, בלי להתקין כלום, בלי לשנות שום דבר באתר שלך.">
 <meta property="og:url" content="https://nitairevivo.github.io/agentfeed/join.html">
 <meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap">
 <style>
-:root{color-scheme:light dark;--ink:#1d2723;--bg:#f6f5ef;--card:#fffefa;
---muted:#5f6b64;--green:#0f7a4d;--green-ink:#0c5c3b;--wash:#e7f2ec;--line:#ddd9cb}
-@media(prefers-color-scheme:dark){:root{--ink:#e8ece7;--bg:#111814;--card:#18211c;
---muted:#94a29a;--green:#4cc38a;--green-ink:#7bd3a8;--wash:#1c2b23;--line:#2a352e}}
+:root{color-scheme:light dark;
+--ink:#131c2a;--ink-soft:#33405a;--bg:#f2f4f8;--card:#fff;--card-2:#f8fafc;
+--muted:#4d5871;--faint:#78849c;
+--brand:#8a5a12;--brand-ink:#6f480e;--brand-bg:#f7efdd;
+--ok:#0f7a4d;--ok-bg:#e6f4ec;
+--line:#dde2ea;--line-soft:#e9edf3;
+--shadow:0 1px 2px rgba(19,28,42,.05),0 6px 20px -10px rgba(19,28,42,.16);
+--shadow-lift:0 2px 4px rgba(19,28,42,.06),0 14px 34px -14px rgba(19,28,42,.28);
+--radius:14px;
+/* The hand-written pages — join, terms, privacy, 404, ns — were styled
+   against the old green palette and use its names throughout. Aliasing the
+   names onto the new tokens converts them without touching a rule in them,
+   which is the difference between one edit here and five pages that drift
+   apart again the next time a colour changes. */
+--green:var(--brand);--green-ink:var(--brand-ink);--wash:var(--brand-bg)}
+@media(prefers-color-scheme:dark){:root{
+--ink:#e9edf5;--ink-soft:#c2cbdb;--bg:#0b111c;--card:#151d2b;--card-2:#1a2333;
+--muted:#a4afc4;--faint:#7c889f;
+--brand:#d9a445;--brand-ink:#e9c07a;--brand-bg:#2b2417;
+--ok:#4cc38a;--ok-bg:#16281f;
+--line:#28324481;--line-soft:#222b3a;
+--shadow:0 1px 2px rgba(0,0,0,.4),0 6px 20px -10px rgba(0,0,0,.6);
+--shadow-lift:0 2px 4px rgba(0,0,0,.5),0 14px 34px -14px rgba(0,0,0,.75)}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.65;
+font-family:"Assistant","Noto Sans Hebrew",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility}
+main{max-width:860px;margin:0 auto;padding:0 20px 80px}
+a{color:var(--brand-ink);text-underline-offset:2px}
+
+/* Header. Same four places on every page, so nothing is more than one click
+   from anything, for a reader and for a crawler alike. */
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line-soft)}
+.topin{max-width:860px;margin:0 auto;padding:11px 20px;display:flex;
+align-items:center;gap:18px;flex-wrap:wrap}
+.wordmark{font-weight:800;letter-spacing:-.03em;font-size:1.06rem;
+text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:7px}
+.wordmark i{width:9px;height:9px;border-radius:2px;background:var(--brand);
+display:inline-block;font-style:normal}
+.nav{display:flex;gap:16px;margin-inline-start:auto;flex-wrap:wrap}
+.nav a{font-size:.87rem;text-decoration:none;color:var(--muted);font-weight:600}
+.nav a:hover{color:var(--brand-ink)}
+.nav a[aria-current]{color:var(--ink)}
+
+h1{font-size:clamp(1.9rem,5.5vw,2.85rem);line-height:1.08;margin:44px 0 12px;
+letter-spacing:-.035em;font-weight:800}
+h2{font-size:1.2rem;margin:40px 0 12px;letter-spacing:-.02em;font-weight:700}
+h2 .c{font-weight:400;color:var(--faint);font-size:.8rem;letter-spacing:0}
+h2 .c a{color:var(--brand-ink)}
+p{margin:0 0 10px}
+.lead{color:var(--muted);margin:0 0 16px;max-width:68ch;font-size:1.02rem}
+.lead b{color:var(--ink);font-weight:600}
+
+/* Numbers get to be the only thing that looks like a number. */
+.band{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;
+background:var(--line);border:1px solid var(--line);border-radius:var(--radius);
+overflow:hidden;margin:26px 0 30px;box-shadow:var(--shadow)}
+@media(min-width:660px){.band{grid-template-columns:repeat(4,1fr)}}
+.band div{background:var(--card);padding:16px 18px}
+.band .n{display:block;font-size:1.75rem;font-weight:800;line-height:1.05;
+font-variant-numeric:tabular-nums;letter-spacing:-.04em}
+.band .l{display:block;font-size:.78rem;color:var(--faint);margin-top:3px;
+font-weight:600}
+
+.card{display:block;background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:16px 18px;margin:0 0 10px;
+text-decoration:none;color:inherit;box-shadow:var(--shadow);
+transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}
+.card:hover{border-color:var(--brand);transform:translateY(-1px);
+box-shadow:var(--shadow-lift)}
+.card b{color:var(--ink);font-size:1.06rem;font-weight:700;letter-spacing:-.015em}
+.card p{margin:5px 0 4px;font-size:.91rem;color:var(--muted)}
+
+.tag{font-size:.74rem;background:var(--brand-bg);color:var(--brand-ink);
+border-radius:99px;padding:2px 10px;margin-inline-start:8px;
+vertical-align:middle;font-weight:600}
+.n{font-size:.8rem;color:var(--faint)}
+.up{display:inline-block;margin:24px 0 8px;color:var(--brand-ink);
+font-size:.86rem;text-decoration:none;font-weight:600}
+.up:hover{text-decoration:underline}
+.roll{background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:15px 17px;margin:0 0 8px;font-size:.94rem;
+box-shadow:var(--shadow)}
+.roll a{color:var(--brand-ink);text-decoration:none}
+.roll a:hover{text-decoration:underline}
+code{background:var(--brand-bg);color:var(--brand-ink);border-radius:4px;
+padding:1px 6px;direction:ltr;display:inline-block;font-size:.85rem;
+font-family:ui-monospace,Menlo,Consolas,monospace}
+footer{color:var(--faint);font-size:.83rem;margin-top:48px;
+border-top:1px solid var(--line);padding-top:18px}
+footer a{color:var(--faint)}
+
+
+
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);line-height:1.6;
 font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -77,7 +170,7 @@ padding:14px 16px;margin:22px 0 0;font-size:.83rem;color:var(--muted)}
 border-inline-start:3px solid var(--line);padding-inline-start:13px}
 footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 </style>
-</head><body><main>
+</head><body><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html" aria-current="page">הצטרפות</a></nav></div></header><main>
 
 <span class="badge">מבצע השקה · ההרשמה בחינם</span>
 <h1>שהעסק שלך יופיע כשאנשים שואלים AI איפה לקנות</h1>
@@ -87,7 +180,7 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 
 <div class="stats">
   <div class="stat"><b>10</b><span>עסקים חיים</span></div>
-  <div class="stat"><b>2,287</b><span>פריטים</span></div>
+  <div class="stat"><b>2,290</b><span>פריטים</span></div>
   <div class="stat"><b>₪0</b><span>עלות</span></div>
 </div>
 
@@ -109,27 +202,27 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 ולא צריך אתר בשבילנו.</p></div>
 
 <h2>עסקים שכבר בפנים</h2>
-<div class="live"><b><a href="./close-to-nature/" style="color:inherit">חנות חיות קרוב לטבע</a></b> · חיות מחמד
-<p>2,176 פריטים, כולם עם מחיר. ועוד 6 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./leadon/" style="color:inherit">LeadOn</a></b> · שירותים לעסקים
-<p>32 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 9 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./dj-rent/" style="color:inherit">DJ Rent</a></b> · השכרת ציוד לאירועים
-<p>31 פריטים, 22 מהם עם מחיר. ועוד 8 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./oriel-dov-swisa/" style="color:inherit">אוריאל דב סויסה</a></b> · אמנות ועיצוב לבית
-<p>13 פריטים, 12 מהם עם מחיר. ועוד 9 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./getrecover/" style="color:inherit">GetRecover</a></b> · שירותים דיגיטליים
-<p>8 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 9 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./neshama-tova/" style="color:inherit">נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית</a></b> · חיות מחמד
-<p>8 פריטים, כולם עם מחיר. ועוד 14 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./ziv-misgarot/" style="color:inherit">זיו מסגרות</a></b> · בעלי מקצוע לבית
-<p>6 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./tami-zimmer/" style="color:inherit">אירוח כפרי אצל תמי</a></b> · אירוח וצימרים
-<p>5 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 6 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./itamar-pergola/" style="color:inherit">איתמר פרגולה</a></b> · בעלי מקצוע לבית
-<p>4 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 9 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="./sunset-glow/" style="color:inherit">Sunset glow</a></b> · טיפוח ויופי
-<p>4 פריטים, כולם עם מחיר. ועוד 6 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<p class="lead"><a href="./" style="color:var(--green-ink)">לראות את כל העסקים ←</a></p>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/close-to-nature/" style="color:inherit">חנות חיות קרוב לטבע</a></b> · חיות מחמד
+<p>2,179 פריטים, כולם עם מחיר. ועוד 7 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/leadon/" style="color:inherit">LeadOn</a></b> · שירותים לעסקים
+<p>32 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/dj-rent/" style="color:inherit">DJ Rent</a></b> · השכרת ציוד לאירועים
+<p>31 פריטים, 22 מהם עם מחיר. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/" style="color:inherit">אוריאל דב סויסה</a></b> · אמנות ועיצוב לבית
+<p>13 פריטים, 12 מהם עם מחיר. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/getrecover/" style="color:inherit">GetRecover</a></b> · שירותים דיגיטליים
+<p>8 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/neshama-tova/" style="color:inherit">נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית</a></b> · חיות מחמד
+<p>8 פריטים, כולם עם מחיר. ועוד 16 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/ziv-misgarot/" style="color:inherit">זיו מסגרות</a></b> · בעלי מקצוע לבית
+<p>6 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/tami-zimmer/" style="color:inherit">אירוח כפרי אצל תמי</a></b> · אירוח וצימרים
+<p>5 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 8 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/itamar-pergola/" style="color:inherit">איתמר פרגולה</a></b> · בעלי מקצוע לבית
+<p>4 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/sunset-glow/" style="color:inherit">Sunset glow</a></b> · טיפוח ויופי
+<p>4 פריטים, כולם עם מחיר. ועוד 7 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<p class="lead"><a href="https://nitairevivo.github.io/agentfeed/" style="color:var(--green-ink)">לראות את כל העסקים ←</a></p>
 
 <h2>שאלות שאנשים שואלים</h2>
 <details><summary>כמה זה עולה?</summary>

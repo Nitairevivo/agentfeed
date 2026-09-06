@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>תנאי שימוש — AgentFeed</title>
+<meta name="description" content="מה AgentFeed מתחייב לעשות, ומה הוא לא עושה.">
+<link rel="canonical" href="https://nitairevivo.github.io/agentfeed/terms.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap">
+<style>
+:root{color-scheme:light dark;
+--ink:#131c2a;--ink-soft:#33405a;--bg:#f2f4f8;--card:#fff;--card-2:#f8fafc;
+--muted:#4d5871;--faint:#78849c;
+--brand:#8a5a12;--brand-ink:#6f480e;--brand-bg:#f7efdd;
+--ok:#0f7a4d;--ok-bg:#e6f4ec;
+--line:#dde2ea;--line-soft:#e9edf3;
+--shadow:0 1px 2px rgba(19,28,42,.05),0 6px 20px -10px rgba(19,28,42,.16);
+--shadow-lift:0 2px 4px rgba(19,28,42,.06),0 14px 34px -14px rgba(19,28,42,.28);
+--radius:14px;
+/* The hand-written pages — join, terms, privacy, 404, ns — were styled
+   against the old green palette and use its names throughout. Aliasing the
+   names onto the new tokens converts them without touching a rule in them,
+   which is the difference between one edit here and five pages that drift
+   apart again the next time a colour changes. */
+--green:var(--brand);--green-ink:var(--brand-ink);--wash:var(--brand-bg)}
+@media(prefers-color-scheme:dark){:root{
+--ink:#e9edf5;--ink-soft:#c2cbdb;--bg:#0b111c;--card:#151d2b;--card-2:#1a2333;
+--muted:#a4afc4;--faint:#7c889f;
+--brand:#d9a445;--brand-ink:#e9c07a;--brand-bg:#2b2417;
+--ok:#4cc38a;--ok-bg:#16281f;
+--line:#28324481;--line-soft:#222b3a;
+--shadow:0 1px 2px rgba(0,0,0,.4),0 6px 20px -10px rgba(0,0,0,.6);
+--shadow-lift:0 2px 4px rgba(0,0,0,.5),0 14px 34px -14px rgba(0,0,0,.75)}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.65;
+font-family:"Assistant","Noto Sans Hebrew",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility}
+main{max-width:860px;margin:0 auto;padding:0 20px 80px}
+a{color:var(--brand-ink);text-underline-offset:2px}
+
+/* Header. Same four places on every page, so nothing is more than one click
+   from anything, for a reader and for a crawler alike. */
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line-soft)}
+.topin{max-width:860px;margin:0 auto;padding:11px 20px;display:flex;
+align-items:center;gap:18px;flex-wrap:wrap}
+.wordmark{font-weight:800;letter-spacing:-.03em;font-size:1.06rem;
+text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:7px}
+.wordmark i{width:9px;height:9px;border-radius:2px;background:var(--brand);
+display:inline-block;font-style:normal}
+.nav{display:flex;gap:16px;margin-inline-start:auto;flex-wrap:wrap}
+.nav a{font-size:.87rem;text-decoration:none;color:var(--muted);font-weight:600}
+.nav a:hover{color:var(--brand-ink)}
+.nav a[aria-current]{color:var(--ink)}
+
+h1{font-size:clamp(1.9rem,5.5vw,2.85rem);line-height:1.08;margin:44px 0 12px;
+letter-spacing:-.035em;font-weight:800}
+h2{font-size:1.2rem;margin:40px 0 12px;letter-spacing:-.02em;font-weight:700}
+h2 .c{font-weight:400;color:var(--faint);font-size:.8rem;letter-spacing:0}
+h2 .c a{color:var(--brand-ink)}
+p{margin:0 0 10px}
+.lead{color:var(--muted);margin:0 0 16px;max-width:68ch;font-size:1.02rem}
+.lead b{color:var(--ink);font-weight:600}
+
+/* Numbers get to be the only thing that looks like a number. */
+.band{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;
+background:var(--line);border:1px solid var(--line);border-radius:var(--radius);
+overflow:hidden;margin:26px 0 30px;box-shadow:var(--shadow)}
+@media(min-width:660px){.band{grid-template-columns:repeat(4,1fr)}}
+.band div{background:var(--card);padding:16px 18px}
+.band .n{display:block;font-size:1.75rem;font-weight:800;line-height:1.05;
+font-variant-numeric:tabular-nums;letter-spacing:-.04em}
+.band .l{display:block;font-size:.78rem;color:var(--faint);margin-top:3px;
+font-weight:600}
+
+.card{display:block;background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:16px 18px;margin:0 0 10px;
+text-decoration:none;color:inherit;box-shadow:var(--shadow);
+transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}
+.card:hover{border-color:var(--brand);transform:translateY(-1px);
+box-shadow:var(--shadow-lift)}
+.card b{color:var(--ink);font-size:1.06rem;font-weight:700;letter-spacing:-.015em}
+.card p{margin:5px 0 4px;font-size:.91rem;color:var(--muted)}
+
+.tag{font-size:.74rem;background:var(--brand-bg);color:var(--brand-ink);
+border-radius:99px;padding:2px 10px;margin-inline-start:8px;
+vertical-align:middle;font-weight:600}
+.n{font-size:.8rem;color:var(--faint)}
+.up{display:inline-block;margin:24px 0 8px;color:var(--brand-ink);
+font-size:.86rem;text-decoration:none;font-weight:600}
+.up:hover{text-decoration:underline}
+.roll{background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:15px 17px;margin:0 0 8px;font-size:.94rem;
+box-shadow:var(--shadow)}
+.roll a{color:var(--brand-ink);text-decoration:none}
+.roll a:hover{text-decoration:underline}
+code{background:var(--brand-bg);color:var(--brand-ink);border-radius:4px;
+padding:1px 6px;direction:ltr;display:inline-block;font-size:.85rem;
+font-family:ui-monospace,Menlo,Consolas,monospace}
+footer{color:var(--faint);font-size:.83rem;margin-top:48px;
+border-top:1px solid var(--line);padding-top:18px}
+footer a{color:var(--faint)}
+
+
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;
+font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:28px 18px 64px}
+h1{font-size:1.7rem;margin:0 0 4px}
+.upd{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+h2{font-size:1.08rem;color:var(--green);margin:28px 0 8px}
+p,li{margin:0 0 12px}
+ul{padding-inline-start:1.2em}
+.up{display:inline-block;margin:0 0 18px;color:var(--green);font-size:.85rem}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;
+padding:14px 16px;margin:16px 0}
+footer{color:var(--muted);font-size:.82rem;margin-top:30px;
+border-top:1px solid var(--line);padding-top:14px}
+a{color:var(--green)}
+code{background:var(--bg);border:1px solid var(--line);border-radius:4px;
+padding:1px 5px;direction:ltr;display:inline-block;font-size:.85rem}
+</style>
+</head><body><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main>
+<a class="up" href="https://nitairevivo.github.io/agentfeed/">← כל העסקים</a>
+<h1>תנאי שימוש</h1>
+<p class="upd">עודכן 06.09.2026</p>
+
+<h2>מה השירות עושה</h2>
+<p>AgentFeed מפרסם עמוד לכל עסק שהצטרף, בפורמט שעוזרי AI ומנועי חיפוש יודעים לקרוא. המידע מגיע מבעל העסק או ממה שהוא כבר פרסם בעצמו.</p>
+
+<h2>מה שאנחנו מתחייבים עליו</h2>
+<div class="box">
+<ul>
+<li><b>אין פרסום בלי אישור.</b> עסק מתפרסם רק אחרי שביקש, והאישור נשמר.</li>
+<li><b>לא ממציאים פרט.</b> מה שהעסק לא מסר — נכתב במפורש שלא נמסר, ולא מושלם בהערכה.</li>
+<li><b>לא מוכרים מיקום ולא דירוג.</b> אי אפשר לשלם כדי להופיע ראשון. מה שאפשר לקנות זו עבודה — תרגום, צילום, כתיבת קטלוג — ולא מקום ברשימה.</li>
+<li><b>הסרה מיידית.</b> בעל עסק מבקש, אנחנו מסירים, בלי לשאול למה.</li>
+</ul>
+</div>
+
+<h2>מה השירות לא עושה</h2>
+<ul>
+<li><b>איננו צד לעסקה.</b> הקנייה נעשית מול בעל העסק, באתר שלו ובתנאים שלו.</li>
+<li><b>איננו גובים תשלום מקונים</b> ואיננו מחזיקים כספים.</li>
+<li><b>איננו אחראים למוצר, לאספקה, לאחריות או להחזרים.</b> אלה מול העסק.</li>
+<li><b>איננו מבטיחים חשיפה או תנועה.</b> אנחנו מפרסמים בפורמט קריא — מה שמנוע יעשה עם זה נתון לו.</li>
+</ul>
+
+<h2>דיוק המידע</h2>
+<p>מחירים וזמינות משתנים. אנחנו מרעננים את הקטלוגים אוטומטית, <b>ובכל זאת המקור הקובע הוא תמיד האתר של העסק.</b> נמצאה אי-דיוק — כתבו לנו ונתקן.</p>
+
+<h2>שימוש בתוכן על ידי מערכות אוטומטיות</h2>
+<p>העמודים וה-API פתוחים לקריאה, בלי מפתח ובלי הרשמה. <b>אנחנו מבקשים דבר אחד: לכבד את הצהרות החוסר.</b> פרט שסומן כלא פורסם — אין להשלים אותו בניחוש ואין להציג אותו כתשובת העסק. יש להפנות את השואל לעסק עצמו.</p>
+
+<h2>עסקים</h2>
+<ul>
+<li>ההצטרפות וההקמה <b>חינם במסגרת ההשקה</b>, ובלי התחייבות.</li>
+<li>כשיהיה מודל בתשלום — הוא יוצג מראש, ולא יחול רטרואקטיבית.</li>
+<li>בעל העסק אחראי לכך שהמידע שמסר נכון ושמותר לו לפרסם אותו.</li>
+</ul>
+
+<h2>יצירת קשר</h2>
+<p>כל בקשה — תיקון, הסרה, שאלה — דרך <a href="https://nitairevivo.github.io/agentfeed/join.html">טופס ההצטרפות</a>.</p>
+
+<footer>AgentFeed · <a href="https://nitairevivo.github.io/agentfeed/privacy.html">מדיניות פרטיות</a> · <a href="https://nitairevivo.github.io/agentfeed/">כל העסקים</a></footer>
+</main></body></html>

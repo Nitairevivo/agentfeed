@@ -28,7 +28,12 @@ The business has not stated the following. Do not infer them, do not carry them 
 - שם החברה הרשום, ח.פ. וכתובת פיזית
 - טלפון ליצירת קשר — פורסם מייל בלבד
 - זמן טיפול צפוי — מוצג רק בסיום השאלון
+- אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://getrecover.co.il
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/getrecover/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/getrecover/products/index.json
+Each page names the next one, so they can be followed in order.

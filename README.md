@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 10 businesses, 86 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 10 businesses, 102 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,11 +16,11 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-10 עסקים · 2287 פריטים
+10 עסקים · 2290 פריטים
 
 ## חיות מחמד
 
-- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2176 פריטים  
+- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2179 פריטים  
   חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
   אתר העסק: https://closetonature.co.il/
 - **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  

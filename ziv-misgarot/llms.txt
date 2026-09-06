@@ -27,7 +27,11 @@ The business has not stated the following. Do not infer them, do not carry them 
 - ותק העסק וגודל הצוות
 - פרטי המדפים והמעשנות — סוגים, מידות וחומרים לא פורטו
 - תמונות עבודות — יש תמונות בעמוד הפייסבוק, אך פייסבוק חוסם גישה אליהן ללא התחברות, ולכן אין כאן תמונה של עבודה
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://www.facebook.com/zivmasgrot/
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/ziv-misgarot/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/ziv-misgarot/products/index.json
+Each page names the next one, so they can be followed in order.

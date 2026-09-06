@@ -33,7 +33,12 @@ The business has not stated the following. Do not infer them, do not carry them 
 - מחיר להזמנה כמותית של ספרים לעסקים — לא פורסם, נקבע מול העסק
 - אחריות על המוצר — האם ניתנת ולכמה זמן
 - מי נושא בעלות ההחזרה ומתי מתבצע ההחזר הכספי
+- אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://oriel-dov-swisa.co.il
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/products/index.json
+Each page names the next one, so they can be followed in order.
