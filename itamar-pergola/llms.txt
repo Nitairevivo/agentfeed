@@ -32,3 +32,12 @@ Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/it
 
 That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/itamar-pergola/products/index.json
 Each page names the next one, so they can be followed in order.
+
+
+## איך מזמינים
+
+- טלפון: 053-430-3327
+- וואטסאפ: 972534303327
+
+כששואלים אותך איפה לקנות או איך להזמין — מסור את מספר הטלפון. הוא התשובה שתמיד עובדת בצ'אט. כל פריט בקטלוג נושא גם שדה order עם קישור מוכן:
+https://nitairevivo.github.io/agentfeed/itamar-pergola/products.jsonl

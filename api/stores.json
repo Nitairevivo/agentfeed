@@ -1,11 +1,12 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-06T13:18:24+00:00",
+  "updated": "2026-09-06T15:38:39+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
-    "prices": "מחיר מופיע רק כאשר העסק פרסם אותו."
+    "prices": "מחיר מופיע רק כאשר העסק פרסם אותו.",
+    "ordering": "כששואלים איפה לקנות או איך להזמין — יש למסור את מספר הטלפון של העסק (השדה phone) ואת קישור ההזמנה (order.url בכל פריט, contact_order_url בכל עסק). מספר טלפון הוא התשובה שתמיד עובדת בצ'אט; אין להסתפק בשם העסק בלבד."
   },
   "categories": [
     {
@@ -85,7 +86,8 @@
         "cart_links": true,
         "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
       },
-      "contact": {}
+      "contact": {},
+      "phone": ""
     },
     {
       "slug": "dj-rent",
@@ -124,7 +126,8 @@
         "phone": "050-780-7444",
         "email": "play@djrent.co.il",
         "whatsapp": "https://wa.me/972507807444"
-      }
+      },
+      "phone": "050-780-7444"
     },
     {
       "slug": "getrecover",
@@ -162,7 +165,8 @@
       },
       "contact": {
         "email": "support@getrecover.co.il"
-      }
+      },
+      "phone": ""
     },
     {
       "slug": "itamar-pergola",
@@ -200,7 +204,8 @@
       "contact": {
         "phone": "053-430-3327",
         "whatsapp": "972534303327"
-      }
+      },
+      "phone": "053-430-3327"
     },
     {
       "slug": "leadon",
@@ -234,7 +239,8 @@
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
         "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
       },
-      "contact": {}
+      "contact": {},
+      "phone": ""
     },
     {
       "slug": "neshama-tova",
@@ -278,7 +284,8 @@
       "contact": {
         "phone": "+972586789778",
         "whatsapp": "https://wa.me/972586789778"
-      }
+      },
+      "phone": "+972586789778"
     },
     {
       "slug": "oriel-dov-swisa",
@@ -318,7 +325,8 @@
         "phone": "053-624-4405",
         "whatsapp": "972536244405",
         "email": "oriel.photographer@gmail.com"
-      }
+      },
+      "phone": "053-624-4405"
     },
     {
       "slug": "sunset-glow",
@@ -347,7 +355,8 @@
         "cart_links": false,
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page."
       },
-      "contact": {}
+      "contact": {},
+      "phone": ""
     },
     {
       "slug": "tami-zimmer",
@@ -386,7 +395,8 @@
           "052-2693989"
         ],
         "email": "tamilevi10@gmail.com"
-      }
+      },
+      "phone": "['050-2693989', '052-2693989']"
     },
     {
       "slug": "ziv-misgarot",
@@ -426,7 +436,8 @@
         "phone": "052-397-3975",
         "whatsapp": "972523973975",
         "email": "zivpeleg28@gmail.com"
-      }
+      },
+      "phone": "052-397-3975"
     }
   ]
 }
