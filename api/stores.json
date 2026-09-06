@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-06T13:14:44+00:00",
+  "updated": "2026-09-06T13:18:24+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -80,9 +80,12 @@
       ],
       "ordering": {
         "method": "online",
-        "url": "https://closetonature.co.il/",
-        "note": "הזמנה מתבצעת באתר של העסק עצמו."
-      }
+        "evidence": "woo carries its own checkout",
+        "payment_taken_by": "the business, on its own site",
+        "cart_links": true,
+        "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
+      },
+      "contact": {}
     },
     {
       "slug": "dj-rent",
@@ -109,8 +112,18 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://djrent.co.il",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972507807444?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "050-780-7444",
+        "email": "play@djrent.co.il",
+        "whatsapp": "https://wa.me/972507807444"
       }
     },
     {
@@ -139,8 +152,16 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://getrecover.co.il",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "mailto:support@getrecover.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed",
+        "contact_order_method": "email",
+        "how_to_order": "The business takes orders by email. contact_order_url opens a message to it."
+      },
+      "contact": {
+        "email": "support@getrecover.co.il"
       }
     },
     {
@@ -168,8 +189,17 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://wa.me/972534303327",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972534303327?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "053-430-3327",
+        "whatsapp": "972534303327"
       }
     },
     {
@@ -198,9 +228,13 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://leadon.co.il",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
-      }
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "not established",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+      },
+      "contact": {}
     },
     {
       "slug": "neshama-tova",
@@ -233,8 +267,17 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://www.facebook.com/share/1DPWUc5EMZ/",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972586789778?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "+972586789778",
+        "whatsapp": "https://wa.me/972586789778"
       }
     },
     {
@@ -262,9 +305,19 @@
         "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
-        "method": "online",
-        "url": "https://oriel-dov-swisa.co.il",
-        "note": "הזמנה מתבצעת באתר של העסק עצמו."
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "053-624-4405",
+        "whatsapp": "972536244405",
+        "email": "oriel.photographer@gmail.com"
       }
     },
     {
@@ -289,9 +342,12 @@
       ],
       "ordering": {
         "method": "online",
-        "url": "https://www.sunsetglow.co.il",
-        "note": "הזמנה מתבצעת באתר של העסק עצמו."
-      }
+        "evidence": "shopify carries its own checkout",
+        "payment_taken_by": "the business, on its own site",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page."
+      },
+      "contact": {}
     },
     {
       "slug": "tami-zimmer",
@@ -316,8 +372,20 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://www.tamizimmer.com",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "tel:+05026939890522693989",
+        "contact_order_method": "phone",
+        "how_to_order": "The business takes orders by phone. contact_order_url is that number as a dialable link."
+      },
+      "contact": {
+        "phone": [
+          "050-2693989",
+          "052-2693989"
+        ],
+        "email": "tamilevi10@gmail.com"
       }
     },
     {
@@ -346,8 +414,18 @@
       ],
       "ordering": {
         "method": "unknown",
-        "url": "https://www.facebook.com/zivmasgrot/",
-        "note": "לא נמסר אם אפשר להזמין אונליין. הדרך הידועה ליצור הזמנה היא פנייה ישירה לעסק, ואין להסיק מכך שאין לו חנות מקוונת."
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "052-397-3975",
+        "whatsapp": "972523973975",
+        "email": "zivpeleg28@gmail.com"
       }
     }
   ]
