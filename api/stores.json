@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-06T18:15:57+00:00",
+  "updated": "2026-09-06T18:21:59+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -385,7 +385,7 @@
         "payment_taken_by": "arranged directly with the business — no online checkout",
         "cart_links": false,
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
-        "contact_order_url": "tel:+05026939890522693989",
+        "contact_order_url": "tel:0502693989",
         "contact_order_method": "phone",
         "how_to_order": "The business takes orders by phone. contact_order_url is that number as a dialable link."
       },
@@ -396,7 +396,7 @@
         ],
         "email": "tamilevi10@gmail.com"
       },
-      "phone": "['050-2693989', '052-2693989']"
+      "phone": "050-2693989"
     },
     {
       "slug": "ziv-misgarot",

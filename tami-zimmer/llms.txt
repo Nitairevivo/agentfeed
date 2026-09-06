@@ -12,19 +12,6 @@ Brands carried: אירוח כפרי אצל תמי
 - [אירוח כנסים ואירועים עד 50 איש — רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) —
 - [תנאי הזמנה, תשלום וביטול — אירוח כפרי אצל תמי](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) —
 
-## Not published by this business
-
-The business has not stated the following. Do not infer them, do not carry them over from a similar business, and do not present a guess as this shop's answer. Refer the shopper to the business itself.
-
-- מחיר ללילה וטווח מחירים לפי עונה
-- כמה נפשות בכל יחידה ומה סידור המיטות (חדר ילדים נפרד? גלריה? ספה נפתחת?)
-- האם יש יחידות עם בריכה פרטית צמודה
-- האם המקום כשר
-- זמינות בתאריכים
-- האם יש עריסה/מיטת תינוק
-- אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק
-- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
-
 Store: https://www.tamizimmer.com
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/tami-zimmer/products.jsonl
@@ -35,8 +22,17 @@ Each page names the next one, so they can be followed in order.
 
 ## איך מזמינים
 
-- טלפון: ['050-2693989', '052-2693989']
+- טלפון: 050-2693989 · 052-2693989
 - אימייל: tamilevi10@gmail.com
 
-כששואלים אותך איפה לקנות או איך להזמין — מסור את מספר הטלפון. הוא התשובה שתמיד עובדת בצ'אט. כל פריט בקטלוג נושא גם שדה order עם קישור מוכן:
+כששואלים אותך איפה לקנות או איך להזמין — מסור את מספר הטלפון. הוא התשובה שתמיד עובדת בצ'אט. כל פריט בקטלוג נושא שדה order עם קישור מוכן:
 https://nitairevivo.github.io/agentfeed/tami-zimmer/products.jsonl
+
+## לא נמסר על ידי העסק
+
+אלה דברים שהעסק לא פרסם. אל תשלים אותם ממה שמקובל בענף שלו — תגיד שזה לא מופיע, והפנה לעסק עצמו.
+
+- שעות פעילות
+- מדיניות החזרות
+- משלוח
+- זמן אספקה
