@@ -6,35 +6,6 @@
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-28.json",
  "products": [
   {
-   "id": "23337",
-   "title": "חטיף דונאטס באפלו לכלב עטוף ברווז",
-   "description": "פטס פרוג’קט-Pets Project",
-   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%93%d7%95%d7%a0%d7%90%d7%98%d7%a1-%d7%91%d7%90%d7%a4%d7%9c%d7%95-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a2%d7%98%d7%95%d7%a3-%d7%91%d7%a8%d7%95%d7%95%d7%96/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/10/%D7%97%D7%98%D7%99%D7%A3-%D7%93%D7%95%D7%A0%D7%90%D7%98%D7%A1-%D7%91%D7%90%D7%A4%D7%9C%D7%95-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A2%D7%98%D7%95%D7%A3-%D7%91%D7%A8%D7%95%D7%95%D7%96.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "19.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://closetonature.co.il/?add-to-cart=23337&utm_source=agentfeed&utm_medium=ai",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/13/#23337",
-   "order": {
-    "method": "cart",
-    "url": "https://closetonature.co.il/?add-to-cart=23337&utm_source=agentfeed&utm_medium=ai",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://closetonature.co.il/?add-to-cart=23337&utm_source=agentfeed&utm_medium=ai",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     }
-    ]
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
    "id": "23336",
    "title": "חטיף רך לכלבים בצורת סטיקים המכיל כ-70% בשר 192 גרם",
    "description": "מיוצרים עם הנוסחה המסורתית של חטיפי סראנו, אצבעות הסראנו של חברת מדיטרניאן הספרדית עטופים בואקום בנפרד וארוזים בגלילים של 16 יחידות (12 גרם ליחידה). את הסטיקים ניתן לקרוע בקלות ולהפריד ליחידות, והפתיחה הקלה שלהם הופכת אותם לחטיף האידיאלי לטיול היומי, לפינוק ולחינוך. \nהסטיקים מכילים חומרי גלם נטולי גלוטן, ללא חומרי צבע מלאכותיים, ללא GMO (הנדסה גנטית) וללא חומצות שומן טראנס ומהווים מקור טבעי לחומצה אולאית. \n סרנו מקלות רכים ואטרקטיביים מאוד עבור הכלב מספקים חלבונים בעלי ערך ביולוגי גבוה וספיגה קלה במיוחד.",
@@ -664,6 +635,35 @@
      {
       "method": "cart",
       "url": "https://closetonature.co.il/?add-to-cart=21770&utm_source=agentfeed&utm_medium=ai",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     }
+    ]
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "21374",
+   "title": "חמאת בוטנים לכלבים 340 גרם Nutty",
+   "description": "חמאת בוטנים לכלבים 100 אחוז טבעי \n ** ללא תוספת סוכר, מלח או קסילטול ** \n תכולה: 340 גרם \n מצוין למריחה על  צעצועים לכלבים  |  קונג לכלב",
+   "link": "https://closetonature.co.il/product/%d7%97%d7%9e%d7%90%d7%aa-%d7%91%d7%95%d7%98%d7%a0%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-340-%d7%92%d7%a8%d7%9d-nutty/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/07/%D7%97%D7%9E%D7%90%D7%AA-%D7%91%D7%95%D7%98%D7%A0%D7%99%D7%9D-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-340-%D7%92%D7%A8%D7%9D-1.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "48.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://closetonature.co.il/?add-to-cart=21374&utm_source=agentfeed&utm_medium=ai",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/13/#21374",
+   "order": {
+    "method": "cart",
+    "url": "https://closetonature.co.il/?add-to-cart=21374&utm_source=agentfeed&utm_medium=ai",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://closetonature.co.il/?add-to-cart=21374&utm_source=agentfeed&utm_medium=ai",
       "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      }
     ]

@@ -6,36 +6,6 @@
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-26.json",
  "products": [
   {
-   "id": "35395",
-   "title": "מתקן גירוד לחתול פרמיום קולהקט 3 קומות 60x40x92 ס”מ",
-   "description": "מתקן גירוד לחתול  \n \n \n חזק ומורכב בקלות \n  מעודד התנהגות טבעית של חתולים  \n  במקום הרהיטים שלך.  \n מידות: 60x40x92 ס”מ",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%aa%d7%a7%d7%9f-%d7%92%d7%99%d7%a8%d7%95%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a4%d7%a8%d7%9e%d7%99%d7%95%d7%9d-%d7%a7%d7%95%d7%9c%d7%94%d7%a7%d7%98-3-%d7%a7%d7%95%d7%9e%d7%95%d7%aa-60x40x/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/12/%D7%9E%D7%AA%D7%A7%D7%9F-%D7%92%D7%99%D7%A8%D7%95%D7%93-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%A4%D7%A8%D7%9E%D7%99%D7%95%D7%9D-%D7%A7%D7%95%D7%9C%D7%94%D7%A7%D7%98-3-%D7%A7%D7%95%D7%9E%D7%95%D7%AA-60x40x92-%D7%A1%D7%9E.jpg?fit=600%2C600&ssl=1",
-   "gtin": "6010202778700-1-2",
-   "condition": "new",
-   "price": "309.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://closetonature.co.il/?add-to-cart=35395&utm_source=agentfeed&utm_medium=ai",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/12/#35395",
-   "order": {
-    "method": "cart",
-    "url": "https://closetonature.co.il/?add-to-cart=35395&utm_source=agentfeed&utm_medium=ai",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://closetonature.co.il/?add-to-cart=35395&utm_source=agentfeed&utm_medium=ai",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     }
-    ]
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
    "id": "34284",
    "title": "מי פה לחתולים Arm & Hammer Complete Care",
    "description": "מי פה לחתול Arm & Hammer Complete Care תוסף מים דנטליים טריים לחתולים \n פתרון טיפול שיניים לחתולים לריח רע מהפה, \n כולל משחת שיניים לחתול פעולה אנזימטית, \n אידיאלית עבור ציוד לטיפוח חתולים",
@@ -1447,6 +1417,35 @@
      {
       "method": "cart",
       "url": "https://closetonature.co.il/?add-to-cart=27743&utm_source=agentfeed&utm_medium=ai",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     }
+    ]
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "27721",
+   "title": "חטיף נגיסי בקר משויישים 300 גרם לכלב – Wanpy",
+   "description": "חטיף לכלב – מזון משלים לכלבים \n חטיף בעל טעימות גבוהה, אידאלי לטיולים ולאימונים, כתגמול או בין ארוחות \n  כמות:  300 גרם",
+   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%a0%d7%92%d7%99%d7%a1%d7%99-%d7%91%d7%a7%d7%a8-%d7%9e%d7%a9%d7%95%d7%99%d7%99%d7%a9%d7%99%d7%9d-300-%d7%92%d7%a8%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-wanpy/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/03/%D7%97%D7%98%D7%99%D7%A3-%D7%A0%D7%92%D7%99%D7%A1%D7%99-%D7%91%D7%A7%D7%A8-%D7%9E%D7%A9%D7%95%D7%99%D7%99%D7%A9%D7%99%D7%9D-300-%D7%92%D7%A8%D7%9D-%D7%9C%D7%9B%D7%9C%D7%91-Wanpy.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://closetonature.co.il/?add-to-cart=27721&utm_source=agentfeed&utm_medium=ai",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/12/#27721",
+   "order": {
+    "method": "cart",
+    "url": "https://closetonature.co.il/?add-to-cart=27721&utm_source=agentfeed&utm_medium=ai",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://closetonature.co.il/?add-to-cart=27721&utm_source=agentfeed&utm_medium=ai",
       "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      }
     ]
