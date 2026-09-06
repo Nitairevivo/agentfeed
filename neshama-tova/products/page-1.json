@@ -16,7 +16,8 @@
    "price": "150.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-collars"
   },
   {
    "id": "neshama-seatbelt-collars",
@@ -29,7 +30,8 @@
    "price": "150.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-seatbelt-collars"
   },
   {
    "id": "neshama-muzzles",
@@ -42,7 +44,8 @@
    "price": "155.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-muzzles"
   },
   {
    "id": "neshama-coats",
@@ -55,7 +58,8 @@
    "price": "350.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-coats"
   },
   {
    "id": "neshama-medical",
@@ -68,7 +72,8 @@
    "price": "350.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-medical"
   },
   {
    "id": "neshama-underwear",
@@ -81,7 +86,8 @@
    "price": "150.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-underwear"
   },
   {
    "id": "neshama-kennel",
@@ -94,7 +100,8 @@
    "price": "7000.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-kennel"
   },
   {
    "id": "neshama-consult",
@@ -107,7 +114,8 @@
    "price": "250.00",
    "currency": "ILS",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/neshama-tova/#neshama-consult"
   }
  ]
 }

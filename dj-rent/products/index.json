@@ -2,7 +2,6 @@
  "total": 31,
  "pages": 1,
  "per_page": 50,
- "note": "Each page is small enough to be read in one fetch. The whole catalogue in one file is at ../products.jsonl, which may be too large for a fetcher to read completely.",
  "page_urls": [
   "https://nitairevivo.github.io/agentfeed/dj-rent/products/page-1.json"
  ]

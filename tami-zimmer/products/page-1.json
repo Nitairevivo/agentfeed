@@ -14,7 +14,8 @@
    "product_type": "צימר > אירוח > רמת הגולן > נאות גולן > צפון > ג'קוזי פרטי > מטבח מאובזר > מדשאה > פינות מנגל > גן שעשועים > אינטרנט אלחוטי > משפחות > זוגות > בית כנסת > ביליארד > טניס שולחן > חופשה משפחתית > בריכה מקורה > בריכה מחוממת > בריכה נפרדת > בריכה בהזמנה מראש > בריכה מגודרת > שער בטיחות אוטומטי > בטיחות ילדים > מלתחות ושירותים בבריכה > אווירה כפרית > דשאים > עצים > צמחי תבלין",
    "condition": "new",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-zimmer"
   },
   {
    "id": "tami-accessible",
@@ -25,7 +26,8 @@
    "product_type": "צימר > אירוח > נגישות > חדר נגיש > רמת הגולן > צפון > בריכת שחייה > מטבח מאובזר > בריכה מגודרת > שער בטיחות אוטומטי > בטיחות ילדים > מלתחות ושירותים בבריכה",
    "condition": "new",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-accessible"
   },
   {
    "id": "tami-meals",
@@ -36,7 +38,8 @@
    "product_type": "ארוחות > ארוחה עם שף > ארוחת ערב > שף פרטי > אירוח > רמת הגולן",
    "condition": "new",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-meals"
   },
   {
    "id": "tami-events",
@@ -47,7 +50,8 @@
    "product_type": "אירועים > כנסים > חדר אוכל > אירוע משפחתי > רמת הגולן > צפון > עד 50 איש > מתחם לאירוע",
    "condition": "new",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-events"
   },
   {
    "id": "tami-terms",
@@ -58,7 +62,8 @@
    "product_type": "תנאי ביטול > דמי ביטול > מדיניות ביטול > תשלום > מקדמה > ביט > פייבוקס > העברה בנקאית > שעת כניסה > שעת יציאה > כלבים בתיאום מראש > בעלי חיים > כללי המתחם > בטיחות בבריכה",
    "condition": "new",
    "availability": "in_stock",
-   "kind": "listing"
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-terms"
   }
  ]
 }
