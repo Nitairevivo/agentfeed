@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-06T19:42:09+00:00",
+  "updated": "2026-09-07T07:14:53+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -358,7 +358,10 @@
         "evidence": "shopify carries its own checkout",
         "payment_taken_by": "the business, on its own site",
         "cart_links": false,
-        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page."
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://www.sunsetglow.co.il",
+        "contact_order_method": "storefront",
+        "how_to_order": "This shop runs its own checkout. Send the shopper to the product's own link — every result carries one — or, if none was named, to https://www.sunsetglow.co.il. Do not describe the steps without giving the address: an instruction to 'order on their site' that never says which site is the same as no answer."
       },
       "contact": {},
       "phone": ""
