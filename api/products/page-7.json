@@ -1,10 +1,50 @@
 {
  "page": 7,
  "pages": 46,
- "total": 2290,
+ "total": 2291,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-8.json",
  "products": [
+  {
+   "id": "41322",
+   "title": "🐟 פרימורדיאל אוכל לכלבים בוגרים פורל וברווז ללא דגנים 12 ק”ג | Primordial Adult Trout & Duck",
+   "description": "רוצים להעניק לכלב שלכם את התזונה הכי קרובה לטבע שיש? פרימורדיאל מציג מתכון פרימיום הוליסטי בשק של 12 ק”ג המבוסס על פורל וברווז. זהו  אוכל לכלבים ללא גלוטן  (Grain Free) המיוצר באיטליה ומורכב מ-70% רכיבים מן החי באיכות הגבוהה ביותר, בשילוב ירקות, פירות וצמחי מרפא התומכים במערכת העיכול, בשמירה על המשקל וברמת אנרגיה גבוהה במיוחד. \n \n ✨ 70% חלבון מהחי: בשר ברווז ודג פורל עשיר באומגה 3. \n 🌾 100% ללא גלוטן: מונע אלרגיות ומתאים לקיבה רגישה. \n 🧪 היפואלרגני וקל לעיכול: רכיבים טבעיים השומרים על המעיים. \n 🍏 תוספת סופר-פוד: מועשר בצמחי מרפא לחיזוק החיסון. \n 🐾 פרווה מבריקה: חומצות שומן המזינות את העור והפרווה.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%92%d7%9c%d7%95%d7%98%d7%9f-%d7%91%d7%98%d7%a2%d7%9d-%d7%a4%d7%95%d7%a8%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/05/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%92%D7%9C%D7%95%D7%98%D7%9F-%D7%91%D7%98%D7%A2%D7%9D-%D7%A4%D7%95%D7%A8%D7%9C-%D7%95%D7%91%D7%A8%D7%95%D7%95%D7%96-Primordial-.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "298.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://closetonature.co.il/?add-to-cart=41322&utm_source=agentfeed&utm_medium=ai",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/3/#41322",
+   "order": {
+    "method": "cart",
+    "url": "https://closetonature.co.il/?add-to-cart=41322&utm_source=agentfeed&utm_medium=ai",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://closetonature.co.il/?add-to-cart=41322&utm_source=agentfeed&utm_medium=ai",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%9F%20%D7%A4%D7%A8%D7%99%D7%9E%D7%95%D7%A8%D7%93%D7%99%D7%90%D7%9C%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%A4%D7%95%D7%A8%D7%9C%20%D7%95%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%2012%20%D7%A7%E2%80%9D%D7%92%20%7C%20Primordial%20Adult%20Trout%20%26%20Duck%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "40387",
    "title": "הילס מטבוליק אוכל רפואי לכלבים | Hills Metabolic",
@@ -1954,46 +1994,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A1%D7%A4%D7%99%D7%A8%D7%9C%20%D7%91%D7%A7%D7%A8%20%D7%95%D7%93%D7%92%20%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%203%20%D7%99%D7%97%E2%80%99%20Native%20Way%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "37191",
-   "title": "חטיף לכלב סיגר ברווז עם תפוח אדמה ותירס 2 יח’ PetsProject",
-   "description": "חטיף לכלב סיגר ברווז עם תפוח אדמה ותירס PetsProject \n האכילו בחטיף זה את כלבכם כפרס או אילוף על התנהגות טובה רצויה כחלק מתזונה מאוזנת. \n*לא מתאים לגורים מתחת לגיל 4 חודשיים. \n*יש לספק תמיד מים טריים וזמינים. \n*לא מומלץ להאכיל בחטיף זה על שטיחים או על מצע מתלכלך. \n*יש לאחסן במקום קריר ויבש.",
-   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a1%d7%99%d7%92%d7%a8-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%a2%d7%9d-%d7%aa%d7%a4%d7%95%d7%97-%d7%90%d7%93%d7%9e%d7%94-%d7%95%d7%aa%d7%99%d7%a8%d7%a1/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/01/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A1%D7%99%D7%92%D7%A8-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%A2%D7%9D-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%95%D7%AA%D7%99%D7%A8%D7%A1-PetsProject.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "25.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://closetonature.co.il/?add-to-cart=37191&utm_source=agentfeed&utm_medium=ai",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/3/#37191",
-   "order": {
-    "method": "cart",
-    "url": "https://closetonature.co.il/?add-to-cart=37191&utm_source=agentfeed&utm_medium=ai",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://closetonature.co.il/?add-to-cart=37191&utm_source=agentfeed&utm_medium=ai",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A1%D7%99%D7%92%D7%A8%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%A2%D7%9D%20%D7%AA%D7%A4%D7%95%D7%97%20%D7%90%D7%93%D7%9E%D7%94%20%D7%95%D7%AA%D7%99%D7%A8%D7%A1%202%20%D7%99%D7%97%E2%80%99%20PetsProject%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

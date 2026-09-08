@@ -1,10 +1,50 @@
 {
  "page": 44,
  "pages": 46,
- "total": 2290,
+ "total": 2291,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-45.json",
  "products": [
+  {
+   "id": "2746",
+   "title": "אוכל לגורי חתולים אקווליבריו – Equilibrio קיטן 1.5 ק”ג",
+   "description": "אוכל לגורי חתולים   אקווליבריו קיטן . מתכון משופר בפרוביוטיקה לפלורת מעיים תקינה ותהליך עיכול נוח. בתוספת תמצית יוקה להפחתה משמעותית בריח הצואה ועשיר בחומצות שומן חיוניות אשר הכרחיות לתהליכי ההתפתחות הקוגניטיבית של גור החתולים. מזון חתולים סופר פרימיום תוצרת אקווליבריו ברזיל. Equilíbrio Kitten.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%90%d7%a7%d7%95%d7%95%d7%9c%d7%99%d7%91%d7%a8%d7%99%d7%95-equilibrio-%d7%a7%d7%99%d7%98%d7%9f-1-5/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%90%D7%A7%D7%95%D7%95%D7%9C%D7%99%D7%91%D7%A8%D7%99%D7%95-Equilibrio-%D7%A7%D7%99%D7%98%D7%9F-1.5-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://closetonature.co.il/?add-to-cart=2746&utm_source=agentfeed&utm_medium=ai",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#2746",
+   "order": {
+    "method": "cart",
+    "url": "https://closetonature.co.il/?add-to-cart=2746&utm_source=agentfeed&utm_medium=ai",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://closetonature.co.il/?add-to-cart=2746&utm_source=agentfeed&utm_medium=ai",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%90%D7%A7%D7%95%D7%95%D7%9C%D7%99%D7%91%D7%A8%D7%99%D7%95%20%E2%80%93%20Equilibrio%20%D7%A7%D7%99%D7%98%D7%9F%201.5%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "2745",
    "title": "אוכל לגורי חתולים אקווליבריו – Equilibrio קיטן 15 ק”ג",
@@ -1993,46 +2033,6 @@
      {
       "method": "email",
       "url": "mailto:play@djrent.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%A2%D7%9E%D7%93%D7%AA%20%D7%93%D7%99%D7%92%27%D7%99%D7%99%20%D7%A2%D7%9D%20%D7%AA%D7%90%D7%95%D7%A8%D7%AA%20%D7%9C%D7%93%20%D7%9E%D7%95%D7%91%D7%A0%D7%99%D7%AA%20%E2%80%94%20%D7%94%D7%A9%D7%9B%D7%A8%D7%94%20%D7%99%D7%95%D7%9E%D7%99%D7%AA",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "DJ Rent",
-   "business_slug": "dj-rent",
-   "business_site": "https://djrent.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/dj-rent/"
-  },
-  {
-   "id": "djrent-premium-designed-booth",
-   "title": "השכרת עמדת דיג'יי פרימיום מעוצבת — עמדות קונספט להשכרה",
-   "description": "עמדות קונספט מיוחדות ומעוצבות בהתאמה אישית לאירוע. מחיר לפי דגם ומורכבות ההפקה, בתיאום מראש. העסק לא פרסם מחיר לפריט זה. המחיר הוא לאיסוף עצמי והחזרה מטירת הכרמל; הובלה והתקנה בתיאום מראש ובתוספת תשלום, לפי מרחק ותנאי גישה. כלול בהשכרה: עיצוב בהתאמה אישית · לאירועי קונספט והפקות · כולל התקנה · מחיר לפי דגם · בדיקה מלאה לפני כל מסירה · תמיכה טלפונית ביום האירוע. השכרה בטלפון או בוואטסאפ 050-780-7444.",
-   "link": "https://djrent.co.il/rent/gear/premium-designed-booth?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a70793b6d1bf0c7e46922f8/732acba26_generated_image.png/v1/fill/w_474,h_474,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/732acba26_generated_image.webp",
-   "brand": "DJ Rent",
-   "product_type": "DJ > booth > אירוע > בוט > דוכן > די ג'יי > דיג'יי > השכרה > השכרה יומית > חיפה > חתונה > טירת הכרמל > להשכרה > מסיבה > מרכז > עמדה > עמדות > ציוד לאירועים > צפון",
-   "condition": "new",
-   "availability": "in_stock",
-   "kind": "listing",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/dj-rent/#djrent-premium-designed-booth",
-   "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972507807444?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%A2%D7%9E%D7%93%D7%AA%20%D7%93%D7%99%D7%92%27%D7%99%D7%99%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D%20%D7%9E%D7%A2%D7%95%D7%A6%D7%91%D7%AA%20%E2%80%94%20%D7%A2%D7%9E%D7%93%D7%95%D7%AA%20%D7%A7%D7%95%D7%A0%D7%A1%D7%A4%D7%98%20%D7%9C%D7%94%D7%A9%D7%9B%D7%A8%D7%94%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972507807444?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%A2%D7%9E%D7%93%D7%AA%20%D7%93%D7%99%D7%92%27%D7%99%D7%99%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D%20%D7%9E%D7%A2%D7%95%D7%A6%D7%91%D7%AA%20%E2%80%94%20%D7%A2%D7%9E%D7%93%D7%95%D7%AA%20%D7%A7%D7%95%D7%A0%D7%A1%D7%A4%D7%98%20%D7%9C%D7%94%D7%A9%D7%9B%D7%A8%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0507807444",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:play@djrent.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%A2%D7%9E%D7%93%D7%AA%20%D7%93%D7%99%D7%92%27%D7%99%D7%99%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D%20%D7%9E%D7%A2%D7%95%D7%A6%D7%91%D7%AA%20%E2%80%94%20%D7%A2%D7%9E%D7%93%D7%95%D7%AA%20%D7%A7%D7%95%D7%A0%D7%A1%D7%A4%D7%98%20%D7%9C%D7%94%D7%A9%D7%9B%D7%A8%D7%94",
       "note": "העסק מקבל פניות במייל."
      }
     ],

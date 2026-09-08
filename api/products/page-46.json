@@ -1,10 +1,32 @@
 {
  "page": 46,
  "pages": 46,
- "total": 2290,
- "count": 40,
+ "total": 2291,
+ "count": 41,
  "next": null,
  "products": [
+  {
+   "id": "leadon-cat-education",
+   "title": "לידים בקטגוריית לימודים והכשרה — LeadOn",
+   "description": "קטגוריית לימודים והכשרה בפלטפורמת LeadOn — מאגר תחומים שבהם ניתן לרכוש לידים מאומתים. המחיר לליד לא פורסם באתר ונקבע מול העסק.",
+   "link": "https://leadon.co.il/category/education?utm_source=agentfeed&utm_medium=ai",
+   "brand": "LeadOn",
+   "product_type": "LeadOn > הכשרה > ליד > ליד און > לידים > לידים בלעדיים > לידים חמים > לידים לעסק > לימודים > לקוחות חדשים > פניות > קורס > קניית לידים",
+   "condition": "new",
+   "availability": "in_stock",
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/leadon/#leadon-cat-education",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "LeadOn",
+   "business_slug": "leadon",
+   "business_site": "https://leadon.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/leadon/"
+  },
   {
    "id": "leadon-cat-finance",
    "title": "לידים בקטגוריית פיננסים וביטוח — LeadOn",

@@ -16,11 +16,11 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-10 עסקים · 2290 פריטים
+10 עסקים · 2291 פריטים
 
 ## חיות מחמד
 
-- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2179 פריטים  
+- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2180 פריטים  
   חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
   אתר העסק: https://closetonature.co.il/
 - **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  

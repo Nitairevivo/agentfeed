@@ -1,10 +1,50 @@
 {
  "page": 40,
  "pages": 46,
- "total": 2290,
+ "total": 2291,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-41.json",
  "products": [
+  {
+   "id": "3704",
+   "title": "אוונט – OWNAT אולטרה טלה ואורז מלא לכלבים בוגרים 14 ק”ג",
+   "description": "OWANT MEDIUM LAMB & RICE. מזון לכלבים בוגרים מעל גיל 12 חודשים שסובלים מרגישות לעוף או לכלבים שמעדיפים טעם של כבש. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ45% אחוזי בשר שמקורם בבשר טלה.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%98%d7%9c%d7%94-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9e%d7%9c%d7%90-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-OWNAT-%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94-%D7%98%D7%9C%D7%94-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%9E%D7%9C%D7%90-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://closetonature.co.il/?add-to-cart=3704&utm_source=agentfeed&utm_medium=ai",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3704",
+   "order": {
+    "method": "cart",
+    "url": "https://closetonature.co.il/?add-to-cart=3704&utm_source=agentfeed&utm_medium=ai",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://closetonature.co.il/?add-to-cart=3704&utm_source=agentfeed&utm_medium=ai",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20OWNAT%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%98%D7%9C%D7%94%20%D7%95%D7%90%D7%95%D7%A8%D7%96%20%D7%9E%D7%9C%D7%90%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "3703",
    "title": "אוונט קלאסיק אנרג’י עוף אוכל לכלב פעיל 20 ק”ג",
@@ -1950,46 +1990,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%95%20%D7%A4%D7%9C%D7%90%D7%9F%20Pro%20Plan%20%E2%80%93%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%287%2B%29%20%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96%20%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%203%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "3624",
-   "title": "פרו פלאן Pro Plan – לחתול בוגר בטעם סלמון 3 ק”ג",
-   "description": "פרו פלאן   Pro Plan   \n על מנת להעניק את התזונה הטובה ביותר לחתול, חברת  פורינה  פרו פלאן עם צוות המדענים, וטרינרים ותזונאים הביאו למצוי הידע והחידושים בתחום התזונה של  חתולים .",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-purina-%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-pro-plan-%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-3-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94-Purina-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-3-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "145.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://closetonature.co.il/?add-to-cart=3624&utm_source=agentfeed&utm_medium=ai",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3624",
-   "order": {
-    "method": "cart",
-    "url": "https://closetonature.co.il/?add-to-cart=3624&utm_source=agentfeed&utm_medium=ai",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://closetonature.co.il/?add-to-cart=3624&utm_source=agentfeed&utm_medium=ai",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%95%20%D7%A4%D7%9C%D7%90%D7%9F%20Pro%20Plan%20%E2%80%93%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%203%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {
