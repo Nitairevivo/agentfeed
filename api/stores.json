@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-08T19:48:20+00:00",
+  "updated": "2026-09-08T19:48:51+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -69,7 +69,7 @@
       "items": 2180,
       "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
       "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
-      "updated": "2026-09-08T15:56:52+00:00",
+      "updated": "2026-09-08T14:14:42+00:00",
       "unknown": [
         "אין קופוני הנחה — כך נמסר על ידי הבעלים, ולכן אין טעם לחפש קוד קופון לחנות הזאת",
         "כתובת העסק — הבעלים ביקש שלא לפרסם אותה, וזו החלטה שלו ולא פער במידע",
@@ -202,7 +202,7 @@
         "payment_taken_by": "arranged directly with the business — no online checkout",
         "cart_links": false,
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
-        "contact_order_url": "https://wa.me/972534303327?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_url": "https://agentfeed-plum.vercel.app/go/itamar-pergola?to=https%3A%2F%2Fwa.me%2F972534303327%3Ftext%3D%25D7%2594%25D7%2599%25D7%2599%252C%2520%25D7%2594%25D7%2592%25D7%25A2%25D7%25AA%25D7%2599%2520%25D7%2593%25D7%25A8%25D7%259A%2520agentfeed.",
         "contact_order_method": "whatsapp",
         "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
       },
