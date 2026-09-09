@@ -1,5 +1,5 @@
 {
- "total": 2291,
+ "total": 2297,
  "pages": 46,
  "per_page": 50,
  "note": "Every item from every business, as JSON, in pages small enough to read in one request. The same corpus as one newline-delimited stream is at ../catalog.jsonl, which is larger and is served as an octet stream by most hosts.",

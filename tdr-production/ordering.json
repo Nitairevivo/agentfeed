@@ -1,0 +1,10 @@
+{
+ "method": "unknown",
+ "evidence": "the business has not said how an order is placed",
+ "payment_taken_by": "arranged directly with the business — no online checkout",
+ "cart_links": false,
+ "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+ "contact_order_url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+ "contact_order_method": "whatsapp",
+ "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+}

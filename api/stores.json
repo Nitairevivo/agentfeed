@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-09T10:30:57+00:00",
+  "updated": "2026-09-09T11:57:57+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -43,6 +43,12 @@
       "slug": "lodging",
       "name": "אירוח וצימרים",
       "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
+      "businesses": 1
+    },
+    {
+      "slug": "music",
+      "name": "אולפן הקלטות והפקה מוזיקלית",
+      "url": "https://nitairevivo.github.io/agentfeed/c/music/",
       "businesses": 1
     },
     {
@@ -405,6 +411,47 @@
         "email": "tamilevi10@gmail.com"
       },
       "phone": "050-2693989"
+    },
+    {
+      "slug": "tdr-production",
+      "name": "תדר הפקות TDR Production",
+      "official_site": "https://www.instagram.com/_shayaharoni_",
+      "category": "אולפן הקלטות והפקה מוזיקלית",
+      "category_slug": "music",
+      "region": "עמק הירדן",
+      "items": 6,
+      "page": "https://nitairevivo.github.io/agentfeed/tdr-production/",
+      "products": "https://nitairevivo.github.io/agentfeed/tdr-production/products.jsonl",
+      "updated": "2026-09-09T11:56:18+00:00",
+      "unknown": [
+        "מחירים — נמסר 'לפי הזמנה'. לא פורסם מחיר ולא טווח מחירים לאף אחד מהשירותים: לא לשעת אולפן, לא לשיר, לא לערב הופעה. זו השאלה הראשונה שלקוח שואל, והתשובה נמסרת רק בפנייה ישירה",
+        "איך התהליך מתנהל — לפי בעל העסק זו אחת השאלות שלקוחות שואלים אותו הכי הרבה, והתשובה טרם פורסמה",
+        "כמה סשיינים כלולים — נשאלת הרבה לפי בעל העסק, ולא פורסמה תשובה. נמסר רק שחבילה כוללת בדרך כלל שני תיקוני סשן, וזה לא אותו דבר",
+        "באילו סגנונות מוזיקליים העסק עובד — נשאלת הרבה לפי בעל העסק, ולא פורסמה תשובה",
+        "זמן אספקה — כמה זמן עובר מתחילת עבודה ועד מסירה, לאף אחד מהשירותים",
+        "אמצעי תשלום — לא נמסר אילו אמצעים מתקבלים והאם נדרשת מקדמה",
+        "אזורי שירות להופעות — האולפן במנחמיה, ולאן העסק מגיע לתפעול סאונד והגברה לא נמסר",
+        "ימי הפעילות — נמסרו שעות מענה 09:00–19:30, ולא באילו ימים",
+        "מדיניות ביטול והחזר כספי — לא נמסרה",
+        "ציוד האולפן — לא נמסר אילו חדרים, מיקרופונים או תוכנות יש בו",
+        "תמונות — בעל העסק מסר שישלח בהמשך, המקום בשיפוצים. אין כרגע תמונה של האולפן",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "052-645-4838",
+        "whatsapp": "972526454838"
+      },
+      "phone": "052-645-4838"
     },
     {
       "slug": "ziv-misgarot",

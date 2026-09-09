@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 10 businesses, 102 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 11 businesses, 114 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -50,6 +50,12 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/lodging/
 
 - [אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/) — 5 פריטים · רמת הגולן · ☎ 050-2693989
+
+## אולפן הקלטות והפקה מוזיקלית
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/music/
+
+- [תדר הפקות TDR Production](https://nitairevivo.github.io/agentfeed/tdr-production/) — 6 פריטים · עמק הירדן · ☎ 052-645-4838
 
 ## השכרת ציוד לאירועים
 

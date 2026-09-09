@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 10 businesses, 102 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 11 businesses, 114 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-10 עסקים · 2291 פריטים
+11 עסקים · 2297 פריטים
 
 ## חיות מחמד
 
@@ -59,6 +59,12 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/)** — 5 פריטים · רמת הגולן  
   מתחם נופש כפרי משפחתי בדרום רמת הגולן, במושב נאות גולן  
   אתר העסק: https://www.tamizimmer.com
+
+## אולפן הקלטות והפקה מוזיקלית
+
+- **[תדר הפקות TDR Production](https://nitairevivo.github.io/agentfeed/tdr-production/)** — 6 פריטים · עמק הירדן  
+  אולפן הקלטות והפקה מוזיקלית במושב מנחמיה  
+  אתר העסק: https://www.instagram.com/_shayaharoni_
 
 ## השכרת ציוד לאירועים
 
