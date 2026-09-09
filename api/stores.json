@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-09T16:34:32+00:00",
+  "updated": "2026-09-09T19:16:27+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -20,6 +20,12 @@
       "name": "בעלי מקצוע לבית",
       "url": "https://nitairevivo.github.io/agentfeed/c/trades/",
       "businesses": 2
+    },
+    {
+      "slug": "architecture",
+      "name": "אדריכלות והנדסה",
+      "url": "https://nitairevivo.github.io/agentfeed/c/architecture/",
+      "businesses": 1
     },
     {
       "slug": "art",
@@ -252,6 +258,44 @@
       },
       "contact": {},
       "phone": ""
+    },
+    {
+      "slug": "maan-arch",
+      "name": "מען אדריכלים ומהנדסים",
+      "official_site": "https://maanarch.com",
+      "category": "אדריכלות והנדסה",
+      "category_slug": "architecture",
+      "region": "רמת הגולן",
+      "items": 6,
+      "page": "https://nitairevivo.github.io/agentfeed/maan-arch/",
+      "products": "https://nitairevivo.github.io/agentfeed/maan-arch/products.jsonl",
+      "updated": "2026-09-09T19:10:40+00:00",
+      "unknown": [
+        "אזורי שירות — זו לפי בעל העסק השאלה שלקוחות שואלים אותו הכי הרבה: אם הוא עובד בגולן, בקצרין, בקריית שמונה, בגליל העליון, בצפון ובאצבע הגליל. הוא מסר את השאלה ולא את התשובה. הידוע היחיד הוא שהמשרד בקצרין, ואין להסיק מכך לאילו אזורים הוא מגיע",
+        "מחירים — נמסר 'הצעת מחיר פרטנית לפי כל פרויקט'. לא פורסם מחיר ולא טווח מחירים לאף שירות: לא לתכנון, לא לרישוי, לא לפיקוח ולא לתעודת גמר",
+        "מה כולל 'בנייה' — בעל העסק מנה בנייה בין שירותיו. אם הכוונה לביצוע בפועל, לניהול הביצוע או לליווי שלב הבנייה לא נמסר, ואלה שלושה דברים שונים",
+        "הסמכות ורישוי מקצועי — לא נמסר מי במשרד אדריכל רשוי ומי מהנדס רשוי, ולא מספרי רישיון. שם העסק כולל את המילה 'מהנדסים', וזה שם ולא אישור",
+        "זמן אספקה — כמה זמן לוקח תכנון, כמה לוקח הליך רישוי עד היתר, וכמה עד תעודת גמר",
+        "מול אילו רשויות ועדות המשרד מגיש — לא נמסר באילו רשויות מקומיות או ועדות תכנון הוא מטפל",
+        "אמצעי תשלום — לא נמסר אילו אמצעים מתקבלים, והאם נדרשת מקדמה",
+        "האם המספר מקבל וואטסאפ — נמסר מספר טלפון בלבד, ולא נמסר אם אפשר לכתוב אליו בוואטסאפ",
+        "תמונות — בעל העסק הפנה לאתר שלו ולעמוד האינסטגרם. לא נלקחה מהם תמונה, והרישום הזה לא כולל תמונות",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "tel:0527570064",
+        "contact_order_method": "phone",
+        "how_to_order": "The business takes orders by phone. contact_order_url is that number as a dialable link."
+      },
+      "contact": {
+        "phone": "052-757-0064"
+      },
+      "phone": "052-757-0064"
     },
     {
       "slug": "neshama-tova",

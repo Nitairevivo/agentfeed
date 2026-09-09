@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 11 businesses, 114 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 12 businesses, 124 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -26,6 +26,12 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [איתמר פרגולה](https://nitairevivo.github.io/agentfeed/itamar-pergola/) — 4 פריטים · ☎ 053-430-3327
 - [זיו מסגרות](https://nitairevivo.github.io/agentfeed/ziv-misgarot/) — 6 פריטים · רמת הגולן · ☎ 052-397-3975
+
+## אדריכלות והנדסה
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/architecture/
+
+- [מען אדריכלים ומהנדסים](https://nitairevivo.github.io/agentfeed/maan-arch/) — 6 פריטים · רמת הגולן · ☎ 052-757-0064
 
 ## אמנות ועיצוב לבית
 
@@ -73,7 +79,7 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 מי שמחפש עסק ליד מקום מסוים. המיקום הוא מה שהעסק מסר על עצמו — עסק שלא מסר אזור אינו מופיע כאן ולא הוצב באחד בניחוש.
 
-- [רמת הגולן](https://nitairevivo.github.io/agentfeed/a/golan/) — נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, זיו מסגרות
+- [רמת הגולן](https://nitairevivo.github.io/agentfeed/a/golan/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, זיו מסגרות
 
 ## לשליפה במכה אחת
 
