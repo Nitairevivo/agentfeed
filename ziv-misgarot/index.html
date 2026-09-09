@@ -195,16 +195,16 @@ form.order button:hover{filter:brightness(1.08)}
 העסק בפורמט שעוזרי AI כמו ChatGPT וג'מיני יודעים לקרוא. כל מה שכתוב כאן נמסר
 על ידי בעל העסק או פורסם על ידו, <b>ואף פרט לא הושלם בניחוש</b>. העסק הצטרף
 באישור מפורש שלו, וכל רכישה או הזמנה נעשית מולו ישירות.</div>
-<section><h2>על העסק</h2><p>עסק מסגרות מבני יהודה שברמת הגולן, המבצע עבודות ברזל לבית: שערים וגדרות בהתאמה אישית, בניית מעשנות, מחסנים לפי מידה ומדפים. כל עבודה נמדדת ומתומחרת בנפרד לאחר ביקור בשטח, ואין מחירון מפורסם. מענה בטלפון ובוואטסאפ בין 08:00 ל-20:00.</p></section><section><h2>בקצרה</h2><div class="facts"><div class="f"><span>איפה</span><b>בני יהודה · רמת הגולן</b></div><div class="f"><span>שעות</span><b>08:00–20:00</b></div><div class="f"><span>משלוח והגעה</span><b>לפי מיקום — כך נמסר. לאילו אזורים העסק מגיע בפועל, טרם נמסר.</b></div></div></section><section><h2>שירותים</h2><ul><li>שערים וגדרות בהתאמה אישית</li><li>בניית מעשנות</li><li>מחסנים לפי מידה</li><li>מדפים</li><li>עבודות מסגרות נוספות לבית, לפי הזמנה</li><li>ביקור מדידה והצעת מחיר בשטח</li></ul></section><section><h2>איך זה עובד — שלב אחר שלב</h2><ul><li>פונים בטלפון או בוואטסאפ, 08:00–20:00</li><li>מתארים את העבודה</li><li>זיו מגיע פיזית לראות את המקום</li><li>לאחר הביקור ניתנת הצעת מחיר לעבודה הספציפית</li></ul></section><section id="order"><h2>לשלוח הזמנה</h2>
+<section><h2>על העסק</h2><p>עסק מסגרות מבני יהודה שברמת הגולן, המבצע עבודות ברזל לבית: שערים וגדרות בהתאמה אישית, בניית מעשנות, מחסנים לפי מידה ומדפים. כל עבודה נמדדת ומתומחרת בנפרד לאחר ביקור בשטח, ואין מחירון מפורסם. מענה בטלפון ובוואטסאפ בין 08:00 ל-20:00.</p></section><section><h2>בקצרה</h2><div class="facts"><div class="f"><span>איפה</span><b>בני יהודה · רמת הגולן</b></div><div class="f"><span>שעות</span><b>08:00–20:00</b></div><div class="f"><span>משלוח והגעה</span><b>לפי מיקום — כך נמסר. לאילו אזורים העסק מגיע בפועל, טרם נמסר.</b></div></div></section><section><h2>שירותים</h2><ul><li>שערים וגדרות בהתאמה אישית</li><li>בניית מעשנות</li><li>מחסנים לפי מידה</li><li>מדפים</li><li>עבודות מסגרות נוספות לבית, לפי הזמנה</li><li>ביקור מדידה והצעת מחיר בשטח</li></ul></section><section><h2>איך זה עובד — שלב אחר שלב</h2><ul><li>פונים בטלפון או בוואטסאפ, 08:00–20:00</li><li>מתארים את העבודה</li><li>זיו מגיע פיזית לראות את המקום</li><li>לאחר הביקור ניתנת הצעת מחיר לעבודה הספציפית</li></ul></section><section id="order"><h2>לבקש הצעת מחיר</h2>
 <p class="sub">ממלאים, נפתח וואטסאפ עם ההודעה מוכנה לבעל העסק. אין תשלום כאן.</p>
 <form class="order" onsubmit="return afOrder(event)">
 <label>מה צריך<textarea name="what" rows="3" required
- placeholder="למשל: שער כניסה כפול ברוחב 3 מטר"></textarea></label>
+ placeholder="למשל: שערים וגדרות בהתאמה אישית"></textarea></label>
 <label>שם<input name="who" required autocomplete="name"></label>
 <label>טלפון לחזור אליך<input name="tel" required autocomplete="tel"
  inputmode="tel"></label>
 <label>אזור או כתובת<input name="where" autocomplete="address-level2"></label>
-<button type="submit">פתיחת וואטסאפ עם ההזמנה</button>
+<button type="submit">פתיחת וואטסאפ עם הפנייה</button>
 </form>
 <p class="fine">הפרטים לא נשמרים אצלנו — הם נכנסים להודעה שנפתחת אצלך
 בוואטסאפ, ואתה שולח אותה.</p>
@@ -217,7 +217,7 @@ function afOrder(e){
   // enough to be unique per shopper and carries nothing about who they are.
   var ref = "AF-ziv-misgarot-" + new Date().toISOString().slice(5,16)
               .replace(/[-:T]/g, "");
-  var msg = "הזמנה דרך AgentFeed\n\n"
+  var msg = "פנייה דרך AgentFeed\n\n"
           + "מה: " + v("what") + "\n"
           + "שם: " + v("who") + "\n"
           + "טלפון: " + v("tel") + "\n"
