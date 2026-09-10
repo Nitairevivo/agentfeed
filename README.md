@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 12 businesses, 124 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 12 businesses, 122 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-12 עסקים · 2303 פריטים
+12 עסקים · 2307 פריטים
 
 ## חיות מחמד
 
@@ -38,8 +38,8 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 
 ## אדריכלות והנדסה
 
-- **[מען אדריכלים ומהנדסים](https://nitairevivo.github.io/agentfeed/maan-arch/)** — 6 פריטים · רמת הגולן  
-  משרד אדריכלות והנדסה בקצרין  
+- **[מען אדריכלים ומהנדסים](https://nitairevivo.github.io/agentfeed/maan-arch/)** — 10 פריטים · רמת הגולן  
+  משרד אדריכלות והנדסה ברחוב האומנים 5 בקצרין, פועל לפי האתר מאז 1991  
   אתר העסק: https://maanarch.com
 
 ## אמנות ועיצוב לבית

@@ -1,17 +1,18 @@
 {
  "page": 1,
  "pages": 1,
- "total": 6,
- "count": 6,
+ "total": 10,
+ "count": 10,
  "next": null,
  "products": [
   {
    "id": "maan-arch-design",
    "title": "תכנון אדריכלי",
-   "description": "תכנון אדריכלי במשרד מען אדריכלים ומהנדסים, האומנים 5 בקצרין. סוגי המבנים שנמסרו: בתים פרטיים, וילות, מבנים ציבוריים ומבני תעשייה. המחיר הוא הצעת מחיר פרטנית לכל פרויקט — לא פורסם מחיר ולא טווח מחירים. באילו אזורים המשרד עובד לא נמסר, וזו לפי בעל העסק השאלה שלקוחות שואלים אותו הכי הרבה: יש לברר אותה מולו. פנייה בטלפון 052-757-0064, כל יום 09:00–17:00, לא כולל שבת.",
-   "link": "https://maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "description": "תכנון אדריכלי במשרד מען אדריכלים ומהנדסים, האומנים 5 בקצרין. לפי האתר: תכנון בנייה פרטית — בתים, מבנים רבי קומות, וילות, בריכות פרטיות, חדרי אירוח וחנויות — וליווי מהרעיון ועד קבלת ההיתר; המשרד מלווה פרויקטים בקצרין, ביישובי הגולן, באצבע הגליל, בגליל העליון ובקריית שמונה, ופועל מאז 1991. המחיר בהצעת מחיר פרטנית לכל פרויקט. פנייה בטלפון 052-757-0064, כל יום 09:00–17:00, לא כולל שבת.",
+   "link": "https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/ff6dd9_25d53d2a5d174c6787cccaf7d908a2e4~mv2.jpg/v1/fill/w_890,h_500,q_90,enc_avif,quality_auto/ff6dd9_25d53d2a5d174c6787cccaf7d908a2e4~mv2.jpg",
    "brand": "מען אדריכלים ומהנדסים",
-   "product_type": "אדריכל > אדריכלות > תכנון אדריכלי > בית פרטי > וילה > מבנה ציבורי > מבנה תעשייה > קצרין > רמת הגולן",
+   "product_type": "אדריכל > אדריכלות > תכנון אדריכלי > בית פרטי > וילה > מבנה ציבורי > מבנה תעשייה > קצרין > רמת הגולן > אצבע הגליל > הגליל העליון > קריית שמונה > יישובי הגולן",
    "condition": "new",
    "availability": "in_stock",
    "kind": "listing",
@@ -25,17 +26,24 @@
       "method": "phone",
       "url": "tel:0527570064",
       "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%9B%D7%A0%D7%95%D7%9F%20%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%99",
+      "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
    }
   },
   {
    "id": "maan-arch-permit",
    "title": "רישוי והיתר בנייה",
-   "description": "רישוי והוצאת היתר בנייה, שני שירותים שבעל העסק מנה בטופס. מול אילו רשויות מקומיות או ועדות תכנון המשרד מגיש לא נמסר, וגם לא כמה זמן לוקח ההליך עד קבלת ההיתר — אין להשלים את שניהם. המחיר בהצעת מחיר פרטנית לכל פרויקט. פנייה בטלפון 052-757-0064.",
-   "link": "https://maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "description": "רישוי והוצאת היתר בנייה. לפי האתר המשרד מגיש בקשות בוועדה המקומית קצרין, בוועדה המרחבית גולן, בוועדה המיוחדת גולן ובוועדות הגליל, דרך רישוי זמין, ומלווה עד קבלת ההיתר. האתר כותב 'היתרי בנייה בזמן שיא' בלי לנקוב בזמן — משך ההליך לא פורסם. המחיר בהצעת מחיר פרטנית לכל פרויקט. פנייה בטלפון 052-757-0064.",
+   "link": "https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_6d2752e4da9941208b304484d5aa3ce7~mv2.jpg/v1/fill/w_584,h_413,q_90,enc_avif,quality_auto/4911ae_6d2752e4da9941208b304484d5aa3ce7~mv2.jpg",
    "brand": "מען אדריכלים ומהנדסים",
-   "product_type": "רישוי > רישוי בנייה > היתר בנייה > קצרין > רמת הגולן",
+   "product_type": "רישוי > רישוי בנייה > היתר בנייה > קצרין > רמת הגולן > ועדה מקומית קצרין > ועדה מרחבית גולן > רישוי זמין > אצבע הגליל > קריית שמונה",
    "condition": "new",
    "availability": "in_stock",
    "kind": "listing",
@@ -49,15 +57,22 @@
       "method": "phone",
       "url": "tel:0527570064",
       "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A8%D7%99%D7%A9%D7%95%D7%99%20%D7%95%D7%94%D7%99%D7%AA%D7%A8%20%D7%91%D7%A0%D7%99%D7%99%D7%94",
+      "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
    }
   },
   {
    "id": "maan-arch-structural",
    "title": "תכנון קונסטרוקציה",
-   "description": "קונסטרוקציה, כפי שנמסר ברשימת השירותים. מי במשרד מהנדס רשוי ומה מספר הרישיון לא נמסר, ואין להשלים — שם העסק כולל את המילה 'מהנדסים', וזה שם ולא אישור. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
-   "link": "https://maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "description": "קונסטרוקציה. לפי האתר, הקונסטרוקטור והאדריכל עובדים במשרד יחד מהרגע הראשון, ומייסד המשרד מוצג באתר כאדריכל רשוי וקונסטרוקטור; מספרי רישיון לא מפורסמים. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_6c106a86d99341eb94db7f62f0f2ebda~mv2.jpg/v1/fill/w_890,h_500,q_90,enc_avif,quality_auto/4911ae_6c106a86d99341eb94db7f62f0f2ebda~mv2.jpg",
    "brand": "מען אדריכלים ומהנדסים",
    "product_type": "קונסטרוקציה > תכנון קונסטרוקציה > קצרין",
    "condition": "new",
@@ -73,17 +88,24 @@
       "method": "phone",
       "url": "tel:0527570064",
       "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%9B%D7%A0%D7%95%D7%9F%20%D7%A7%D7%95%D7%A0%D7%A1%D7%98%D7%A8%D7%95%D7%A7%D7%A6%D7%99%D7%94",
+      "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
    }
   },
   {
    "id": "maan-arch-supervision",
    "title": "פיקוח בנייה",
-   "description": "פיקוח, כפי שנמסר ברשימת השירותים. באילו אזורים המשרד מגיע לפיקוח לא נמסר — המשרד בקצרין, ומעבר לכך אין להסיק. תדירות הביקורים באתר ומה כלול בפיקוח לא נמסרו. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
-   "link": "https://maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "description": "פיקוח, כפי שנמסר ברשימת השירותים. האתר כותב שאדריכל טוב 'ידאג לכם לבנות את הבית בדיוק לפי התכנון בלי טעויות' ויעזור להגיע לתעודת גמר. תדירות הביקורים באתר ומה כלול בפיקוח לא פורסמו. אזורי הפעילות לפי האתר: קצרין, יישובי הגולן, אצבע הגליל, הגליל העליון וקריית שמונה. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/ff6dd9_6bc247e522254f4091a4e3b571c56577~mv2.jpg/v1/fill/w_890,h_500,q_90,enc_avif,quality_auto/ff6dd9_6bc247e522254f4091a4e3b571c56577~mv2.jpg",
    "brand": "מען אדריכלים ומהנדסים",
-   "product_type": "פיקוח > פיקוח בנייה > קצרין > רמת הגולן",
+   "product_type": "פיקוח > פיקוח בנייה > קצרין > רמת הגולן > אצבע הגליל > הגליל העליון",
    "condition": "new",
    "availability": "in_stock",
    "kind": "listing",
@@ -97,15 +119,22 @@
       "method": "phone",
       "url": "tel:0527570064",
       "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%99%D7%A7%D7%95%D7%97%20%D7%91%D7%A0%D7%99%D7%99%D7%94",
+      "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
    }
   },
   {
    "id": "maan-arch-construction",
    "title": "בנייה",
-   "description": "בעל העסק מנה בנייה בין השירותים שהוא מציע. מה השירות כולל בפועל לא נמסר: ביצוע בעצמו, ניהול הביצוע או ליווי שלב הבנייה הם שלושה דברים שונים, והתשובה לא פורסמה. המחיר בהצעת מחיר פרטנית לכל פרויקט. יש לברר את היקף השירות מול המשרד, בטלפון 052-757-0064.",
-   "link": "https://maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "description": "בעל העסק מנה בנייה בין השירותים שהוא מציע. האתר שלו מדבר על תכנון, היתרים, ליווי הבנייה 'בדיוק לפי התכנון' ותעודת גמר, ולא מציג את המשרד כקבלן מבצע — אם המשרד בונה בעצמו לא נאמר, לא בטופס ולא באתר, ויש לברר מולו בטלפון 052-757-0064. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_36a8411b1ea54da8894dee107f38425e~mv2.jpg/v1/fill/w_890,h_500,q_90,enc_avif,quality_auto/4911ae_36a8411b1ea54da8894dee107f38425e~mv2.jpg",
    "brand": "מען אדריכלים ומהנדסים",
    "product_type": "בנייה > בניית בית > וילה > מבנה תעשייה > קצרין",
    "condition": "new",
@@ -121,17 +150,24 @@
       "method": "phone",
       "url": "tel:0527570064",
       "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%91%D7%A0%D7%99%D7%99%D7%94",
+      "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
    }
   },
   {
    "id": "maan-arch-completion",
    "title": "תעודת גמר",
-   "description": "טיפול בתעודת גמר, שירות שבעל העסק מנה בטופס. כמה זמן לוקח ההליך ומול אילו רשויות הוא מתנהל לא נמסרו. המחיר בהצעת מחיר פרטנית לכל פרויקט. פנייה בטלפון 052-757-0064, כל יום 09:00–17:00, לא כולל שבת.",
-   "link": "https://maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "description": "טיפול בתעודת גמר. לפי האתר, המשרד מקדם היתרים של בנייה פרטית, מבני תעשייה ומבני ציבור 'עד תעודת גמר', והאתר מזכיר גם טופס 4. כמה זמן לוקח ההליך לא פורסם. המחיר בהצעת מחיר פרטנית לכל פרויקט. פנייה בטלפון 052-757-0064, כל יום 09:00–17:00, לא כולל שבת.",
+   "link": "https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_332a286c4dad4d8cb09ac0e3828077f6~mv2.jpg/v1/fill/w_890,h_500,q_90,enc_avif,quality_auto/4911ae_332a286c4dad4d8cb09ac0e3828077f6~mv2.jpg",
    "brand": "מען אדריכלים ומהנדסים",
-   "product_type": "תעודת גמר > סיום בנייה > קצרין",
+   "product_type": "תעודת גמר > סיום בנייה > קצרין > טופס 4",
    "condition": "new",
    "availability": "in_stock",
    "kind": "listing",
@@ -145,8 +181,138 @@
       "method": "phone",
       "url": "tel:0527570064",
       "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%A2%D7%95%D7%93%D7%AA%20%D7%92%D7%9E%D7%A8",
+      "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   }
+  },
+  {
+   "id": "maan-arch-additions",
+   "title": "תוספות בנייה ושינויים בבתים קיימים",
+   "description": "לפי האתר: תכנון תוספות בנייה, שינויים והתאמות לבתים קיימים, 'תוך בחינת זכויות הבנייה, הוראות התב\"ע והתנאים החלים על המגרש'. האתר מונה במפורש את הרובעים נווה, אפק, בתרא, גמלא, קדמה ופארק קצרין העתיקה, ותכנון בתים חדשים ברובע 10 וברובע 11 בקצרין. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_7daf7509a0384e7db97a43f25baaabcb~mv2.jpg/v1/fill/w_292,h_413,q_90,enc_avif,quality_auto/4911ae_7daf7509a0384e7db97a43f25baaabcb~mv2.jpg",
+   "brand": "מען אדריכלים ומהנדסים",
+   "product_type": "תוספת בנייה > הרחבת בית > שינויים בבית קיים > קצרין > רובע נווה > רובע אפק > רובע בתרא > רובע גמלא > רובע קדמה",
+   "condition": "new",
+   "availability": "in_stock",
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/maan-arch/#maan-arch-additions",
+   "order": {
+    "method": "phone",
+    "url": "tel:0527570064",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0527570064",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%91%D7%A0%D7%99%D7%99%D7%94%20%D7%95%D7%A9%D7%99%D7%A0%D7%95%D7%99%D7%99%D7%9D%20%D7%91%D7%91%D7%AA%D7%99%D7%9D%20%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   }
+  },
+  {
+   "id": "maan-arch-pool",
+   "title": "תכנון בריכות שחייה",
+   "description": "לפי האתר: תכנון בריכות שחייה לבתים קיימים בקצרין 'בהתאם להוראות התב\"ע החדשה', כולל בחינת זכויות הבנייה, קווי הבניין ומיקום הבריכה במגרש לצורך הרישוי. בריכות פרטיות מופיעות גם ברשימת תחומי המשרד בעמוד 'אודותינו'. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/ff6dd9_4d7b9626019744448abcbc414752e577~mv2.jpg/v1/fill/w_890,h_502,q_90,enc_avif,quality_auto/ff6dd9_4d7b9626019744448abcbc414752e577~mv2.jpg",
+   "brand": "מען אדריכלים ומהנדסים",
+   "product_type": "בריכת שחייה > בריכה פרטית > היתר לבריכה > קצרין > רמת הגולן",
+   "condition": "new",
+   "availability": "in_stock",
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/maan-arch/#maan-arch-pool",
+   "order": {
+    "method": "phone",
+    "url": "tel:0527570064",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0527570064",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%9B%D7%A0%D7%95%D7%9F%20%D7%91%D7%A8%D7%99%D7%9B%D7%95%D7%AA%20%D7%A9%D7%97%D7%99%D7%99%D7%94",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   }
+  },
+  {
+   "id": "maan-arch-landuse",
+   "title": "שינוי ייעוד קרקע, הקלות והסדרת חריגות",
+   "description": "בלשון האתר: 'שינוי יעודי קרקעות, הקלות בנייה, הסדרת חריגות, והסדרת קרקעות'. האתר מזכיר גם התמחות בהרחבות בקיבוצים ובתוספות בנייה מורכבות. מול אילו ועדות ומה משך ההליך — לא פורסם לשירות הזה. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_f1703fd944cc4281a0b657fc087b395e~mv2.jpg/v1/fill/w_890,h_631,q_90,enc_avif,quality_auto/4911ae_f1703fd944cc4281a0b657fc087b395e~mv2.jpg",
+   "brand": "מען אדריכלים ומהנדסים",
+   "product_type": "שינוי ייעוד > הקלות בנייה > הסדרת חריגות בנייה > הרחבה בקיבוץ > תב\"ע > רמת הגולן",
+   "condition": "new",
+   "availability": "in_stock",
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/maan-arch/#maan-arch-landuse",
+   "order": {
+    "method": "phone",
+    "url": "tel:0527570064",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0527570064",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A9%D7%99%D7%A0%D7%95%D7%99%20%D7%99%D7%99%D7%A2%D7%95%D7%93%20%D7%A7%D7%A8%D7%A7%D7%A2%2C%20%D7%94%D7%A7%D7%9C%D7%95%D7%AA%20%D7%95%D7%94%D7%A1%D7%93%D7%A8%D7%AA%20%D7%97%D7%A8%D7%99%D7%92%D7%95%D7%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   }
+  },
+  {
+   "id": "maan-arch-public",
+   "title": "תכנון מבני ציבור",
+   "description": "בלשון האתר: 'תב\"ע, תכנון בתי מלון, אולמי ספורט, בתי ספר, מתנסי\"ם, בריכות עירוניות, ומוסדות ציבוריים, יעוץ נגישות ובטיחות אש'. באתר מוצגים בין השאר אולם ספורט ומגרש כדורגל בעין קניה, בית ספר בבוקעאתא וצרכנייה בקלע אלון. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+   "link": "https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://static.wixstatic.com/media/4911ae_8baf954154aa408097dc14448a7c4a78~mv2.jpg/v1/fill/w_890,h_500,q_90,enc_avif,quality_auto/4911ae_8baf954154aa408097dc14448a7c4a78~mv2.jpg",
+   "brand": "מען אדריכלים ומהנדסים",
+   "product_type": "מבנה ציבור > בית ספר > אולם ספורט > מתנ\"ס > בית מלון > נגישות > בטיחות אש > רמת הגולן",
+   "condition": "new",
+   "availability": "in_stock",
+   "kind": "listing",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/maan-arch/#maan-arch-public",
+   "order": {
+    "method": "phone",
+    "url": "tel:0527570064",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0527570064",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@MaanArch.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%9B%D7%A0%D7%95%D7%9F%20%D7%9E%D7%91%D7%A0%D7%99%20%D7%A6%D7%99%D7%91%D7%95%D7%A8",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
    }
   }
  ]
