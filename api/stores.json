@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-10T09:09:58+00:00",
+  "updated": "2026-09-11T14:06:18+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -70,6 +70,20 @@
       "businesses": 1
     }
   ],
+  "areas": [
+    {
+      "slug": "golan",
+      "name": "רמת הגולן",
+      "url": "https://nitairevivo.github.io/agentfeed/a/golan/",
+      "businesses": 5
+    },
+    {
+      "slug": "north",
+      "name": "הצפון",
+      "url": "https://nitairevivo.github.io/agentfeed/a/north/",
+      "businesses": 7
+    }
+  ],
   "businesses": [
     {
       "slug": "close-to-nature",
@@ -78,6 +92,7 @@
       "category": "חיות מחמד",
       "category_slug": "pets",
       "region": "",
+      "areas": [],
       "items": 2180,
       "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
       "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
@@ -113,6 +128,13 @@
       "category": "השכרת ציוד לאירועים",
       "category_slug": "rental",
       "region": "טירת הכרמל",
+      "areas": [
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 31,
       "page": "https://nitairevivo.github.io/agentfeed/dj-rent/",
       "products": "https://nitairevivo.github.io/agentfeed/dj-rent/products.jsonl",
@@ -153,6 +175,7 @@
       "category": "שירותים דיגיטליים",
       "category_slug": "services",
       "region": "",
+      "areas": [],
       "items": 8,
       "page": "https://nitairevivo.github.io/agentfeed/getrecover/",
       "products": "https://nitairevivo.github.io/agentfeed/getrecover/products.jsonl",
@@ -192,6 +215,7 @@
       "category": "בעלי מקצוע לבית",
       "category_slug": "trades",
       "region": "",
+      "areas": [],
       "items": 4,
       "page": "https://nitairevivo.github.io/agentfeed/itamar-pergola/",
       "products": "https://nitairevivo.github.io/agentfeed/itamar-pergola/products.jsonl",
@@ -231,6 +255,7 @@
       "category": "שירותים לעסקים",
       "category_slug": "b2b",
       "region": "",
+      "areas": [],
       "items": 32,
       "page": "https://nitairevivo.github.io/agentfeed/leadon/",
       "products": "https://nitairevivo.github.io/agentfeed/leadon/products.jsonl",
@@ -266,6 +291,18 @@
       "category": "אדריכלות והנדסה",
       "category_slug": "architecture",
       "region": "רמת הגולן",
+      "areas": [
+        {
+          "slug": "golan",
+          "name": "רמת הגולן",
+          "url": "https://nitairevivo.github.io/agentfeed/a/golan/"
+        },
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 10,
       "page": "https://nitairevivo.github.io/agentfeed/maan-arch/",
       "products": "https://nitairevivo.github.io/agentfeed/maan-arch/products.jsonl",
@@ -303,6 +340,18 @@
       "category": "חיות מחמד",
       "category_slug": "pets",
       "region": "רמת הגולן",
+      "areas": [
+        {
+          "slug": "golan",
+          "name": "רמת הגולן",
+          "url": "https://nitairevivo.github.io/agentfeed/a/golan/"
+        },
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 8,
       "page": "https://nitairevivo.github.io/agentfeed/neshama-tova/",
       "products": "https://nitairevivo.github.io/agentfeed/neshama-tova/products.jsonl",
@@ -348,6 +397,18 @@
       "category": "אמנות ועיצוב לבית",
       "category_slug": "art",
       "region": "רמת הגולן",
+      "areas": [
+        {
+          "slug": "golan",
+          "name": "רמת הגולן",
+          "url": "https://nitairevivo.github.io/agentfeed/a/golan/"
+        },
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 13,
       "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/",
       "products": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/products.jsonl",
@@ -389,6 +450,7 @@
       "category": "טיפוח ויופי",
       "category_slug": "beauty",
       "region": "",
+      "areas": [],
       "items": 4,
       "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/",
       "products": "https://nitairevivo.github.io/agentfeed/sunset-glow/products.jsonl",
@@ -422,6 +484,18 @@
       "category": "אירוח וצימרים",
       "category_slug": "lodging",
       "region": "רמת הגולן",
+      "areas": [
+        {
+          "slug": "golan",
+          "name": "רמת הגולן",
+          "url": "https://nitairevivo.github.io/agentfeed/a/golan/"
+        },
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 5,
       "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/",
       "products": "https://nitairevivo.github.io/agentfeed/tami-zimmer/products.jsonl",
@@ -462,6 +536,13 @@
       "category": "אולפן הקלטות והפקה מוזיקלית",
       "category_slug": "music",
       "region": "עמק הירדן",
+      "areas": [
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 6,
       "page": "https://nitairevivo.github.io/agentfeed/tdr-production/",
       "products": "https://nitairevivo.github.io/agentfeed/tdr-production/products.jsonl",
@@ -503,6 +584,18 @@
       "category": "בעלי מקצוע לבית",
       "category_slug": "trades",
       "region": "רמת הגולן",
+      "areas": [
+        {
+          "slug": "golan",
+          "name": "רמת הגולן",
+          "url": "https://nitairevivo.github.io/agentfeed/a/golan/"
+        },
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
       "items": 6,
       "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/",
       "products": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/products.jsonl",
