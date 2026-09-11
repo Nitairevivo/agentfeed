@@ -47,15 +47,10 @@ The business has not stated the following. Do not infer them, do not carry them 
 - מחיר להשכרה של יותר מיום אחד — לא פורסם תמחור מדורג
 - זמינות לתאריך מסוים — תלויה ביומן ואינה קבועה
 - תשובות ה-FAQ באתר — 15 השאלות מוצגות, אך התשובות נפתחות רק בלחיצה ואינן נקראות על ידי מכונה. חלקן נענות כאן ממקורות אחרים באתר, והשאר טעונות השלמה מהעסק
-- אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק
-- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://djrent.co.il
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/dj-rent/products.jsonl
-
-That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/dj-rent/products/index.json
-Each page names the next one, so they can be followed in order.
 
 
 ## איך מזמינים
@@ -66,3 +61,9 @@ Each page names the next one, so they can be followed in order.
 
 כששואלים אותך איפה לקנות או איך להזמין — מסור את מספר הטלפון. הוא התשובה שתמיד עובדת בצ'אט. כל פריט בקטלוג נושא שדה order עם קישור מוכן:
 https://nitairevivo.github.io/agentfeed/dj-rent/products.jsonl
+
+## לא נמסר על ידי העסק
+
+אלה דברים שהעסק לא פרסם. אל תשלים אותם ממה שמקובל בענף שלו — תגיד שזה לא מופיע, והפנה לעסק עצמו.
+
+- אמצעי תשלום

@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 12 businesses, 122 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 12 businesses, 120 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -81,6 +81,59 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [הצפון](https://nitairevivo.github.io/agentfeed/a/north/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, זיו מסגרות, DJ Rent, תדר הפקות TDR Production
 - [רמת הגולן](https://nitairevivo.github.io/agentfeed/a/golan/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, זיו מסגרות
+
+## השוואות מחיר בין העסקים
+
+https://nitairevivo.github.io/agentfeed/compare/
+
+השאלה שאף חנות לא יכולה לענות עליה לבד — מי מוכר את זה ובכמה. כל עמוד מרכז קטגוריה אחת מכל העסקים שפרסמו מחיר, מהזול ליקר.
+
+- [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/) — 172 פריטים מעסק אחד
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/) — 141 פריטים מ-2 עסקים
+- [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/) — 130 פריטים מעסק אחד
+- [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/) — 116 פריטים מעסק אחד
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/) — 114 פריטים מ-2 עסקים
+- [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/150-300/) — 89 פריטים מעסק אחד
+- [חטיפים ומעדנים לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-treats/) — 79 פריטים מעסק אחד
+- [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/50-150/) — 72 פריטים מעסק אחד
+- [חטיפים ומעדנים לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-treats/under-50/) — 70 פריטים מעסק אחד
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/50-150/) — 66 פריטים מעסק אחד
+- [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/50-150/) — 59 פריטים מעסק אחד
+- [מזון רטוב ושימורים](https://nitairevivo.github.io/agentfeed/compare/wet-food/) — 58 פריטים מעסק אחד
+- [כלובים, מנשאים וכלוב הובלה](https://nitairevivo.github.io/agentfeed/compare/cages/) — 56 פריטים מעסק אחד
+- [מזון רטוב ושימורים](https://nitairevivo.github.io/agentfeed/compare/wet-food/under-50/) — 56 פריטים מעסק אחד
+- [אקווריומים וציוד לדגים](https://nitairevivo.github.io/agentfeed/compare/aquarium/) — 50 פריטים מעסק אחד
+- [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/150-300/) — 50 פריטים מעסק אחד
+- [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/50-150/) — 49 פריטים מעסק אחד
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/under-50/) — 45 פריטים מעסק אחד
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/over-300/) — 45 פריטים מ-2 עסקים
+- [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/) — 44 פריטים מ-2 עסקים
+- [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/under-50/) — 42 פריטים מעסק אחד
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/50-150/) — 41 פריטים מעסק אחד
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/150-300/) — 32 פריטים מעסק אחד
+- [מיטות, מזרנים ומשטחים](https://nitairevivo.github.io/agentfeed/compare/beds/) — 30 פריטים מעסק אחד
+- [כלובים, מנשאים וכלוב הובלה](https://nitairevivo.github.io/agentfeed/compare/cages/over-300/) — 30 פריטים מעסק אחד
+- [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/over-300/) — 30 פריטים מעסק אחד
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/under-50/) — 23 פריטים מעסק אחד
+- [מיטות, מזרנים ומשטחים](https://nitairevivo.github.io/agentfeed/compare/beds/150-300/) — 20 פריטים מעסק אחד
+- [חטיפים ומעדנים לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-treats/) — 19 פריטים מעסק אחד
+- [הגברה ותאורה לאירועים](https://nitairevivo.github.io/agentfeed/compare/audio-lighting/) — 18 פריטים מעסק אחד
+- [חול וארגזי חול](https://nitairevivo.github.io/agentfeed/compare/litter/) — 18 פריטים מעסק אחד
+- [אקווריומים וציוד לדגים](https://nitairevivo.github.io/agentfeed/compare/aquarium/50-150/) — 17 פריטים מעסק אחד
+- [כלובים, מנשאים וכלוב הובלה](https://nitairevivo.github.io/agentfeed/compare/cages/150-300/) — 17 פריטים מעסק אחד
+- [קערות ומתקני מים](https://nitairevivo.github.io/agentfeed/compare/bowls/) — 15 פריטים מעסק אחד
+- [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/over-300/) — 15 פריטים מעסק אחד
+- [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/under-50/) — 14 פריטים מעסק אחד
+- [אקווריומים וציוד לדגים](https://nitairevivo.github.io/agentfeed/compare/aquarium/over-300/) — 13 פריטים מעסק אחד
+- [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/50-150/) — 13 פריטים מעסק אחד
+- [אקווריומים וציוד לדגים](https://nitairevivo.github.io/agentfeed/compare/aquarium/under-50/) — 12 פריטים מעסק אחד
+- [כלובים, מנשאים וכלוב הובלה](https://nitairevivo.github.io/agentfeed/compare/cages/50-150/) — 9 פריטים מעסק אחד
+- [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/150-300/) — 9 פריטים מ-2 עסקים
+- [אקווריומים וציוד לדגים](https://nitairevivo.github.io/agentfeed/compare/aquarium/150-300/) — 8 פריטים מעסק אחד
+- [חטיפים ומעדנים לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-treats/50-150/) — 8 פריטים מעסק אחד
+- [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/over-300/) — 8 פריטים מעסק אחד
+- [מיטות, מזרנים ומשטחים](https://nitairevivo.github.io/agentfeed/compare/beds/50-150/) — 6 פריטים מעסק אחד
+- [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/under-50/) — 6 פריטים מעסק אחד
 
 ## לשליפה במכה אחת
 
