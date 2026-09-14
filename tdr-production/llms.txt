@@ -33,6 +33,9 @@ Store: https://www.instagram.com/_shayaharoni_
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/tdr-production/products.jsonl
 
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/tdr-production/products/index.json
+Each page names the next one, so they can be followed in order.
+
 
 ## איך מזמינים
 
