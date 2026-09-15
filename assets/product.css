@@ -151,6 +151,17 @@ border-top:1px solid var(--line);padding-top:16px}
 border-radius:5px;padding:1px 6px;direction:ltr;display:inline-block}
 .rep{margin:8px 0 0;font-size:.9rem;color:var(--muted)}
 .rep a{color:var(--muted)}
+.revs{margin-top:34px}
+.revs .revhead{font-size:.87rem;color:var(--muted);margin:0 0 12px}
+.revlist{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:13px 16px;box-shadow:var(--shadow)}
+.rev blockquote{margin:0 0 8px;font-size:.95rem;line-height:1.55}
+.rev .who{font-size:.82rem;color:var(--faint);display:flex;flex-wrap:wrap;
+gap:4px 10px;align-items:baseline}
+.rev .who b{color:var(--muted);font-weight:700}
+.rev .stars{color:var(--brand-ink);font-weight:700;direction:ltr}
+.rev .who a{color:var(--faint)}
 .alsosec{margin-top:34px}
 .also{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
 .near{display:block;background:var(--card);border:1px solid var(--line);

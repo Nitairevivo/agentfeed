@@ -10,6 +10,51 @@
 <meta property="og:description" content="חינם במסגרת ההשקה. שתי דקות, בלי להתקין כלום, בלי לשנות שום דבר באתר שלך.">
 <meta property="og:url" content="https://nitairevivo.github.io/agentfeed/join.html">
 <meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://nitairevivo.github.io/agentfeed/join.html">
+<!-- The questions on this page, in the field that means "these are questions
+     and these are their answers". Every one of them is a question a business
+     owner actually asked, and every answer is the answer rendered below it —
+     nothing here exists only in the markup. An assistant asked "how does a
+     business join AgentFeed, and what does it cost" reads this and can answer
+     without opening the page. Until now the page said all of it to a human
+     reader and nothing at all to a machine, which is a strange thing for this
+     project of all projects to ship. -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage",
+ "inLanguage":"he","mainEntity":[
+  {"@type":"Question","name":"כמה עולה להצטרף ל-AgentFeed?",
+   "acceptedAnswer":{"@type":"Answer","text":"אפס. ההצטרפות והקמת הדף בחינם במסגרת ההשקה, ואין כרטיס אשראי בשום שלב. בעתיד יוצעו שירותים בתשלום בנפרד, ואף עסק לא יחויב בלי אישור מפורש שלו."}},
+  {"@type":"Question","name":"מה AgentFeed עושה עם המידע של העסק?",
+   "acceptedAnswer":{"@type":"Answer","text":"מפרסם אותו בדף ציבורי שסוכני AI יכולים לקרוא — בדיוק מה שבעל העסק ביקש. המידע לא נמכר, לא נשלחות פרסומות, והטלפון לא מועבר הלאה. הרכישה נשארת מול העסק עצמו."}},
+  {"@type":"Question","name":"צריך לשנות משהו באתר של העסק?",
+   "acceptedAnswer":{"@type":"Answer","text":"לא. אין התקנה, אין נגיעה בקוד ואין בקשה לסיסמאות. לחנות אונליין נקרא הקטלוג הציבורי שכבר קיים, והוא מתעדכן לבד בכל שינוי."}},
+  {"@type":"Question","name":"כמה זמן לוקח להצטרף?",
+   "acceptedAnswer":{"@type":"Answer","text":"כשתי דקות למילוי הטופס. אם חסר פרט, חוזרים לבעל העסק בוואטסאפ."}},
+  {"@type":"Question","name":"מה קורה אם מחיר משתנה, או אם פרט לא מדויק?",
+   "acceptedAnswer":{"@type":"Answer","text":"חנות עם קטלוג מסתנכרנת אוטומטית. בכל מקרה אחר, הודעה אחת והפרט מתוקן. AgentFeed לעולם לא ממציא מחיר שלא פורסם: כל דף אומר במפורש מה העסק טרם פרסם, כדי שאף סוכן לא ינחש במקומו."}},
+  {"@type":"Question","name":"אפשר לצאת? מה קורה אז?",
+   "acceptedAnswer":{"@type":"Answer","text":"הודעה אחת והכול נמחק. בלי התחייבות, בלי תקופת מינימום ובלי שאלות."}},
+  {"@type":"Question","name":"אין לעסק אתר. אפשר בכל זאת?",
+   "acceptedAnswer":{"@type":"Answer","text":"כן, וזה המקרה שהכי מתאים. בלי אתר אין למנועי AI מה לקרוא על העסק בכלל. AgentFeed בונה בדיוק את החלק הזה, ואין צורך באתר קיים."}}]}
+</script>
+<!-- And who is asking. A page that describes a service without naming the
+     thing that provides it leaves a reader to work out from the prose what
+     the entity is; this says it once, in one place. -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage",
+ "name":"הצטרפות ל-AgentFeed","inLanguage":"he",
+ "url":"https://nitairevivo.github.io/agentfeed/join.html",
+ "description":"טופס ההצטרפות של עסקים ל-AgentFeed. ההצטרפות בחינם במסגרת ההשקה ומחייבת אישור מפורש של בעל העסק, שנשלח ממספר הטלפון שלו.",
+ "isPartOf":{"@type":"WebSite","name":"AgentFeed",
+   "url":"https://nitairevivo.github.io/agentfeed/"},
+ "about":{"@type":"Organization","name":"AgentFeed",
+   "url":"https://nitairevivo.github.io/agentfeed/",
+   "description":"עסקים ישראליים שהצטרפו באישור מפורש, בפורמט שעוזרי AI יודעים לקרוא.",
+   "areaServed":"IL"},
+ "potentialAction":{"@type":"RegisterAction",
+   "name":"הצטרפות עסק ל-AgentFeed",
+   "target":"https://nitairevivo.github.io/agentfeed/join.html#form"}}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap">
 <style>
 /* Photographs an owner sent us. One row that wraps on a phone,
@@ -172,6 +217,26 @@ cursor:pointer}
 padding:14px 16px;margin:22px 0 0;font-size:.83rem;color:var(--muted)}
 .consent b{color:var(--ink)}
 .err{color:#b3261e;font-size:.87rem;margin-top:9px;min-height:1.2em;font-weight:600}
+fieldset{border:1px solid var(--line);border-radius:12px;padding:4px 15px 16px;
+margin:20px 0 0;background:var(--card)}
+legend{font-weight:700;font-size:.95rem;padding:0 7px}
+legend .opt{font-weight:400;color:var(--muted);font-size:.82rem}
+.req{background:var(--wash);color:var(--green-ink);border-radius:99px;
+padding:1px 8px;font-size:.72rem;font-weight:700;margin-inline-start:6px}
+.hint{display:block;font-weight:400;color:var(--muted);font-size:.82rem;
+margin-top:2px;line-height:1.45}
+.hint b{color:var(--ink)}
+.grid2{display:grid;gap:0 14px}
+@media(min-width:560px){.grid2{grid-template-columns:1fr 1fr}}
+/* Off-screen rather than display:none — a bot reading the DOM fills what it
+   can see in the markup, and a field that is display:none is the one some of
+   them know to skip. */
+.hp{position:absolute;inset-inline-start:-9999px;width:1px;height:1px;
+overflow:hidden}
+input:user-invalid{border-color:#b3261e}
+.after{font-size:.82rem;color:var(--muted);margin:10px 0 0;text-align:center}
+.after b{color:var(--ink)}
+button[disabled]{opacity:.65;cursor:default}
 .honest{font-size:.84rem;color:var(--muted);margin-top:22px;
 border-inline-start:3px solid var(--line);padding-inline-start:13px}
 footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
@@ -268,28 +333,82 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 <p>הודעה אחת ואנחנו מוחקים הכול. <b>בלי התחייבות, בלי תקופת מינימום,
 בלי לשאול שאלות.</b></p></details>
 
-<h2>הפרטים שלך</h2>
-<form id="f">
-  <label>שם העסק <span>*</span><input id="store" required autocomplete="organization"></label>
-  <label>השם שלך <span>*</span><input id="owner" required autocomplete="name"></label>
-  <label>טלפון <span>*</span><input id="phone" required inputmode="tel" autocomplete="tel"></label>
-  <label>אתר או עמוד פייסבוק <span>* — אם אין אתר, קישור לפייסבוק או לאינסטגרם</span>
-    <input id="site" required inputmode="url" placeholder="example.co.il"></label>
+<h2 id="form">הפרטים שלך</h2>
+<form id="f" novalidate>
+  <fieldset>
+    <legend>ארבעה פרטים, וזה כל מה שחייבים</legend>
+    <div class="grid2">
+      <label for="store">שם העסק <span class="req">חובה</span>
+        <input id="store" name="store" required autocomplete="organization"
+               aria-required="true"></label>
+      <label for="owner">השם שלך <span class="req">חובה</span>
+        <input id="owner" name="owner" required autocomplete="name"
+               aria-required="true"></label>
+    </div>
+    <label for="phone">טלפון <span class="req">חובה</span>
+      <span class="hint">לשם נחזור אם חסר פרט. לא מופיע בשום מקום בלי אישורך.</span>
+      <input id="phone" name="phone" required type="tel" inputmode="tel"
+             autocomplete="tel" placeholder="050-0000000" aria-required="true"></label>
+    <label for="site">אתר, עמוד פייסבוק או אינסטגרם <span class="req">חובה</span>
+      <span class="hint">אין אתר? קישור לעמוד העסקי מספיק בהחלט.</span>
+      <input id="site" name="site" required type="text" inputmode="url"
+             autocomplete="url" placeholder="example.co.il" aria-required="true"></label>
+  </fieldset>
 
-  <label>מה אתם מוכרים? <span>הקטגוריות העיקריות</span><textarea id="what"></textarea></label>
-  <label>טווחי מחירים <span>או "לפי הזמנה"</span><textarea id="prices"></textarea></label>
-  <label>חנות פיזית או אונליין? איפה?<textarea id="where"></textarea></label>
-  <label>משלוחים <span>לאן, כמה עולה, כמה זמן</span><textarea id="ship"></textarea></label>
-  <label>שעות מענה<textarea id="hours"></textarea></label>
-  <label>תמונות <span>קישור לאלבום, לאינסטגרם, או פשוט שלחו לי אותן בוואטסאפ אחרי השליחה</span>
-    <textarea id="photos"></textarea></label>
-  <label>החזרות והחלפות<textarea id="returns"></textarea></label>
+  <!-- The single highest-value line a business can give us, and until today
+       there was no box to put it in. It is how an engine works out that the
+       page here and that Google listing are one business — so the reviews the
+       owner earned there count towards this page without one word of them
+       being copied across. Nine businesses' own sites were read this week and
+       not one published a review; their reputation is all on Google and
+       Facebook, and this link is the whole of our access to it. -->
+  <div class="gold">
+    <label for="profile_url">⭐ קישור לעמוד הגוגל או הפייסבוק של העסק
+      <span class="hint">זה מה שמחבר בין הדף שלך כאן לביקורות שכבר יש לך שם.
+      אנחנו <b>לא מעתיקים</b> ביקורות — הן נשארות אצלך, והקישור הוא מה שגורם
+      למנוע להבין שמדובר באותו עסק. אם יש לך דירוג בגוגל, זה השדה שהכי כדאי
+      למלא.</span>
+      <input id="profile_url" name="profile_url" type="text" inputmode="url"
+             placeholder="https://g.page/... או קישור מגוגל מפות"></label>
+  </div>
+
+  <fieldset>
+    <legend>מה שעוזר לדף לצאת טוב <span class="opt">אפשר להשלים אחר כך</span></legend>
+    <label for="what">מה אתם מוכרים? <span class="hint">הקטגוריות העיקריות</span>
+      <textarea id="what" name="what"></textarea></label>
+    <div class="grid2">
+      <label for="prices">טווחי מחירים <span class="hint">או "לפי הזמנה"</span>
+        <textarea id="prices" name="prices"></textarea></label>
+      <label for="where">חנות פיזית או אונליין? איפה?
+        <textarea id="where" name="where"></textarea></label>
+    </div>
+    <div class="grid2">
+      <label for="ship">משלוחים <span class="hint">לאן, כמה עולה, כמה זמן</span>
+        <textarea id="ship" name="ship"></textarea></label>
+      <label for="hours">שעות מענה
+        <textarea id="hours" name="hours"></textarea></label>
+    </div>
+    <div class="grid2">
+      <label for="returns">החזרות והחלפות
+        <textarea id="returns" name="returns"></textarea></label>
+      <label for="photos">תמונות <span class="hint">קישור לאלבום או לאינסטגרם — או פשוט שלחו בוואטסאפ</span>
+        <textarea id="photos" name="photos"></textarea></label>
+    </div>
+  </fieldset>
 
   <div class="gold">
-    <label>⭐ מה לקוחות שואלים אתכם הכי הרבה — שלא כתוב באתר?
-      <span>זו השאלה הכי חשובה כאן. בדיוק מהמידע הזה AI ימליץ עליכם ולא על
-      עסק אחר, כי אף מתחרה לא יכול להעתיק אותו מהאינטרנט.</span>
-      <textarea id="gold"></textarea></label>
+    <label for="gold">⭐ מה לקוחות שואלים אתכם הכי הרבה — שלא כתוב באתר?
+      <span class="hint">זו השאלה הכי חשובה כאן. בדיוק מהמידע הזה AI ימליץ
+      עליכם ולא על עסק אחר, כי אף מתחרה לא יכול להעתיק אותו מהאינטרנט.</span>
+      <textarea id="gold" name="gold"></textarea></label>
+  </div>
+
+  <!-- Hidden from every person and from every screen reader; a script that
+       fills every input fills this one. The server answers it with the same
+       200 a real sign-up gets and stores nothing. -->
+  <div class="hp" aria-hidden="true">
+    <label for="hp">אל תמלאו את השדה הזה</label>
+    <input id="hp" name="hp" type="text" tabindex="-1" autocomplete="off">
   </div>
 
   <div class="consent">
@@ -300,8 +419,10 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
     ממך</b>. ניתן לביטול בכל עת בהודעה אחת. (נוסח 2026-08-19)
   </div>
 
-  <button type="submit">שליחה בוואטסאפ ✓</button>
-  <div class="err" id="err"></div>
+  <button type="submit" id="go">שליחה בוואטסאפ ✓</button>
+  <p class="after">הכפתור פותח וואטסאפ עם ההודעה כתובה מראש. <b>ההודעה נשלחת
+  ממך</b> — זה מה שמוכיח שבעל העסק ביקש, ובלעדיה שום דבר לא מתפרסם.</p>
+  <div class="err" id="err" role="alert" aria-live="polite"></div>
 </form>
 
 <div class="nosite"><b>ומשהו שקרה השבוע.</b>
@@ -352,6 +473,7 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
       '• אתר: ' + v("site"),
       '• טלפון: ' + v("phone")
     ];
+    if (v("profile_url")) { L.push('• עמוד גוגל/פייסבוק: ' + v("profile_url")); }
     var extra = [["what","מה אנחנו מוכרים"],["prices","טווחי מחירים"],
                  ["where","מיקום"],["ship","משלוחים"],["hours","שעות מענה"],
                  ["returns","החזרות"],["photos","תמונות"],
@@ -387,10 +509,19 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
           store: v("store"), owner: v("owner"), phone: v("phone"),
           site: v("site"), what: v("what"), prices: v("prices"),
           where: v("where"), ship: v("ship"), hours: v("hours"),
-          returns: v("returns"), photos: v("photos"), gold: v("gold")
+          returns: v("returns"), photos: v("photos"), gold: v("gold"),
+          profile_url: v("profile_url"), hp: v("hp")
         })
       }).catch(function(){});
     } catch (e) {}
+
+    // The button says what is happening. On a phone WhatsApp takes a second
+    // or two to come up, and a button that still reads "send" invites a second
+    // press — which opens a second chat and looks, from the other side, like
+    // the same business applying twice.
+    var b = document.getElementById("go");
+    b.textContent = "פותח וואטסאפ…";
+    b.disabled = true;
 
     location.href = "https://wa.me/972526760039?text=" + encodeURIComponent(L.join("\n"));
   });
