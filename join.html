@@ -237,6 +237,38 @@ input:user-invalid{border-color:#b3261e}
 .after{font-size:.82rem;color:var(--muted);margin:10px 0 0;text-align:center}
 .after b{color:var(--ink)}
 button[disabled]{opacity:.65;cursor:default}
+/* The action, directly under the numbers. Everything below it is for a reader
+   who is not yet convinced; this is for the one who already is. */
+.cta{display:block;text-align:center;background:var(--brand);color:#fff;
+border-radius:var(--radius);padding:15px;text-decoration:none;font-weight:800;
+font-size:1.06rem;margin:22px 0 6px;box-shadow:var(--shadow-lift);
+transition:transform .12s ease}
+.cta:hover{transform:translateY(-1px)}
+.ctasub{text-align:center;font-size:.83rem;color:var(--muted);margin:0 0 6px}
+#form{scroll-margin-top:72px}
+.opt{font-size:.83rem;color:var(--muted);margin:2px 0 0}
+label input[dir="ltr"],label textarea[dir="ltr"]{text-align:start}
+/* Follows the reader up the page and gets out of the way once the form is on
+   screen. A button that says "go to the form" while the form fills the screen
+   makes the page feel broken. */
+.sticky{position:fixed;inset-inline:14px;bottom:14px;z-index:30;display:none;
+text-align:center;background:var(--brand);color:#fff;border-radius:99px;
+padding:13px;text-decoration:none;font-weight:800;box-shadow:var(--shadow-lift)}
+@media(max-width:700px){.sticky.on{display:block}}
+/* The businesses already in, as a grid a reader scans rather than reads.
+   Fourteen paragraphs was most of the height of this page, and a shop owner
+   deciding whether to join does not read fourteen descriptions of somebody
+   else's shop first. */
+.livegrid{display:grid;gap:9px;grid-template-columns:1fr}
+@media(min-width:560px){.livegrid{grid-template-columns:1fr 1fr}}
+.livegrid a{display:block;background:var(--card);border:1px solid var(--line);
+border-radius:12px;padding:11px 14px;text-decoration:none;color:var(--ink);
+box-shadow:var(--shadow);transition:border-color .14s ease,transform .14s ease}
+.livegrid a:hover{border-color:var(--brand);transform:translateY(-1px)}
+.livegrid b{display:block;font-size:.95rem;font-weight:700;line-height:1.35}
+.livegrid span{display:block;color:var(--faint);font-size:.78rem;margin-top:2px;
+font-variant-numeric:tabular-nums}
+.morebiz{margin:12px 0 0;font-size:.89rem}
 .honest{font-size:.84rem;color:var(--muted);margin-top:22px;
 border-inline-start:3px solid var(--line);padding-inline-start:13px}
 footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
@@ -255,7 +287,11 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
   <div class="stat"><b>₪0</b><span>עלות</span></div>
 </div>
 
+<a class="cta" href="#form">למילוי הטופס ←</a>
+<p class="ctasub">שתי דקות · בלי כרטיס אשראי · אפשר לצאת בהודעה אחת</p>
+
 <a class="wa" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%20%D7%A0%D7%99%D7%AA%D7%90%D7%99%2C%20%D7%99%D7%A9%20%D7%9C%D7%99%20%D7%A9%D7%90%D7%9C%D7%94%20%D7%A2%D7%9C%20AgentFeed">💬 יש שאלה? דברו איתי בוואטסאפ</a>
+
 
 
 
@@ -274,65 +310,6 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 עסק עם אתר לפחות נסרק חלקית. אנחנו בונים לך בדיוק את החלק הזה,
 ולא צריך אתר בשבילנו.</p></div>
 
-<h2>עסקים שכבר בפנים</h2>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/close-to-nature/" style="color:inherit">חנות חיות קרוב לטבע</a></b> · חיות מחמד
-<p>2,180 פריטים, כולם עם מחיר. ועוד 7 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/judaicail/" style="color:inherit">יודאיקה ישראל</a></b> · יודאיקה ותשמישי קדושה
-<p>201 פריטים, כולם עם מחיר. ועוד 12 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/leadon/" style="color:inherit">LeadOn</a></b> · שירותים לעסקים
-<p>32 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/dj-rent/" style="color:inherit">DJ Rent</a></b> · השכרת ציוד לאירועים
-<p>31 פריטים, 22 מהם עם מחיר. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/" style="color:inherit">אוריאל דב סויסה</a></b> · אמנות ועיצוב לבית
-<p>13 פריטים, 12 מהם עם מחיר. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/maan-arch/" style="color:inherit">מען אדריכלים ומהנדסים</a></b> · אדריכלות והנדסה
-<p>10 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 8 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/getrecover/" style="color:inherit">GetRecover</a></b> · שירותים דיגיטליים
-<p>8 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/neshama-tova/" style="color:inherit">נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית</a></b> · חיות מחמד
-<p>8 פריטים, כולם עם מחיר. ועוד 16 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/tdr-production/" style="color:inherit">תדר הפקות TDR Production</a></b> · אולפן הקלטות והפקה מוזיקלית
-<p>6 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 9 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/ziv-misgarot/" style="color:inherit">זיו מסגרות</a></b> · בעלי מקצוע לבית
-<p>6 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/tami-zimmer/" style="color:inherit">אירוח כפרי אצל תמי</a></b> · אירוח וצימרים
-<p>5 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 8 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/itamar-pergola/" style="color:inherit">איתמר פרגולה</a></b> · בעלי מקצוע לבית
-<p>4 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/sunset-glow/" style="color:inherit">Sunset glow</a></b> · טיפוח ויופי
-<p>4 פריטים, כולם עם מחיר. ועוד 7 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/tsukia/" style="color:inherit">צוקייה</a></b> · אירוח וצימרים
-<p>1 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 13 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
-<p class="lead"><a href="https://nitairevivo.github.io/agentfeed/" style="color:var(--green-ink)">לראות את כל העסקים ←</a></p>
-
-<h2>שאלות שאנשים שואלים</h2>
-<details><summary>כמה זה עולה?</summary>
-<p><b>אפס.</b> ההצטרפות והקמת הדף בחינם במסגרת ההשקה, ואין כרטיס אשראי בשום שלב.
-בעתיד יהיו שירותים בתשלום למי שירצה — <b>ולא תחויב/י על כלום בלי שתאמר/י כן
-במפורש.</b></p></details>
-
-<details><summary>מה אתם עושים עם המידע שלי?</summary>
-<p>מפרסמים אותו בדף ציבורי שסוכני AI יכולים לקרוא — <b>בדיוק מה שביקשת שנעשה.</b>
-לא מוכרים אותו לאף אחד, לא שולחים לך פרסומות, ולא מעבירים את הטלפון שלך הלאה.
-הרכישה נשארת אצלך: אנחנו לא נכנסים בין הלקוח לעסק.</p></details>
-
-<details><summary>אני צריך לשנות משהו באתר שלי?</summary>
-<p><b>לא. שום דבר.</b> אנחנו לא מתקינים, לא נוגעים בקוד ולא מבקשים סיסמאות.
-אם יש לך חנות אונליין — אנחנו קוראים את הקטלוג הציבורי שכבר קיים,
-ומתעדכנים לבד בכל שינוי שאתה עושה.</p></details>
-
-<details><summary>כמה זמן זה לוקח לי?</summary>
-<p>שתי דקות למלא את הטופס. <b>זהו.</b> אם יש שאלה נחזור אליך בוואטסאפ.</p></details>
-
-<details><summary>ואם המחיר שלי משתנה? או שמשהו לא מדויק?</summary>
-<p>חנות עם קטלוג מסתנכרנת אוטומטית. בכל מקרה אחר — הודעה אחת ואנחנו מתקנים.
-<b>ואנחנו אף פעם לא ממציאים מחיר שלא פרסמת:</b> כל דף אומר במפורש מה העסק
-<b>טרם פרסם</b>, כדי שאף סוכן לא ינחש במקומך.</p></details>
-
-<details><summary>אני רוצה לצאת. מה קורה?</summary>
-<p>הודעה אחת ואנחנו מוחקים הכול. <b>בלי התחייבות, בלי תקופת מינימום,
-בלי לשאול שאלות.</b></p></details>
-
 <h2 id="form">הפרטים שלך</h2>
 <form id="f" novalidate>
   <fieldset>
@@ -347,11 +324,11 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
     </div>
     <label for="phone">טלפון <span class="req">חובה</span>
       <span class="hint">לשם נחזור אם חסר פרט. לא מופיע בשום מקום בלי אישורך.</span>
-      <input id="phone" name="phone" required type="tel" inputmode="tel"
+      <input dir="ltr" id="phone" name="phone" required type="tel" inputmode="tel"
              autocomplete="tel" placeholder="050-0000000" aria-required="true"></label>
     <label for="site">אתר, עמוד פייסבוק או אינסטגרם <span class="req">חובה</span>
       <span class="hint">אין אתר? קישור לעמוד העסקי מספיק בהחלט.</span>
-      <input id="site" name="site" required type="text" inputmode="url"
+      <input dir="ltr" id="site" name="site" required type="text" inputmode="url"
              autocomplete="url" placeholder="example.co.il" aria-required="true"></label>
   </fieldset>
 
@@ -368,12 +345,13 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
       אנחנו <b>לא מעתיקים</b> ביקורות — הן נשארות אצלך, והקישור הוא מה שגורם
       למנוע להבין שמדובר באותו עסק. אם יש לך דירוג בגוגל, זה השדה שהכי כדאי
       למלא.</span>
-      <input id="profile_url" name="profile_url" type="text" inputmode="url"
+      <input dir="ltr" id="profile_url" name="profile_url" type="text" inputmode="url"
              placeholder="https://g.page/... או קישור מגוגל מפות"></label>
   </div>
 
   <fieldset>
-    <legend>מה שעוזר לדף לצאת טוב <span class="opt">אפשר להשלים אחר כך</span></legend>
+    <legend>מה שעוזר לדף לצאת טוב</legend>
+    <p class="opt">אפשר להשלים אחר כך — כלום כאן אינו חובה.</p>
     <label for="what">מה אתם מוכרים? <span class="hint">הקטגוריות העיקריות</span>
       <textarea id="what" name="what"></textarea></label>
     <div class="grid2">
@@ -425,6 +403,43 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
   <div class="err" id="err" role="alert" aria-live="polite"></div>
 </form>
 
+<h2>עסקים שכבר בפנים</h2>
+
+<div class="livegrid"><a href="https://nitairevivo.github.io/agentfeed/close-to-nature/" title="2,180 פריטים, כולם עם מחיר. ועוד 7 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש."><b>חנות חיות קרוב לטבע</b><span>2,180 פריטים · חיות מחמד</span></a>
+<a href="https://nitairevivo.github.io/agentfeed/judaicail/" title="201 פריטים, כולם עם מחיר. ועוד 12 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש."><b>יודאיקה ישראל</b><span>201 פריטים · יודאיקה ותשמישי קדושה</span></a>
+<a href="https://nitairevivo.github.io/agentfeed/leadon/" title="32 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש."><b>LeadOn</b><span>32 פריטים · שירותים לעסקים</span></a>
+<a href="https://nitairevivo.github.io/agentfeed/dj-rent/" title="31 פריטים, 22 מהם עם מחיר. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש."><b>DJ Rent</b><span>31 פריטים · השכרת ציוד לאירועים</span></a>
+<a href="https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/" title="13 פריטים, 12 מהם עם מחיר. ועוד 11 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש."><b>אוריאל דב סויסה</b><span>13 פריטים · אמנות ועיצוב לבית</span></a>
+<a href="https://nitairevivo.github.io/agentfeed/maan-arch/" title="10 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 8 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש."><b>מען אדריכלים ומהנדסים</b><span>10 פריטים · אדריכלות והנדסה</span></a></div><p class="morebiz"><a href="https://nitairevivo.github.io/agentfeed/">ועוד 8 עסקים — לרשימה המלאה ←</a></p>
+
+<h2>שאלות שאנשים שואלים</h2>
+<details><summary>כמה זה עולה?</summary>
+<p><b>אפס.</b> ההצטרפות והקמת הדף בחינם במסגרת ההשקה, ואין כרטיס אשראי בשום שלב.
+בעתיד יהיו שירותים בתשלום למי שירצה — <b>ולא תחויב/י על כלום בלי שתאמר/י כן
+במפורש.</b></p></details>
+
+<details><summary>מה אתם עושים עם המידע שלי?</summary>
+<p>מפרסמים אותו בדף ציבורי שסוכני AI יכולים לקרוא — <b>בדיוק מה שביקשת שנעשה.</b>
+לא מוכרים אותו לאף אחד, לא שולחים לך פרסומות, ולא מעבירים את הטלפון שלך הלאה.
+הרכישה נשארת אצלך: אנחנו לא נכנסים בין הלקוח לעסק.</p></details>
+
+<details><summary>אני צריך לשנות משהו באתר שלי?</summary>
+<p><b>לא. שום דבר.</b> אנחנו לא מתקינים, לא נוגעים בקוד ולא מבקשים סיסמאות.
+אם יש לך חנות אונליין — אנחנו קוראים את הקטלוג הציבורי שכבר קיים,
+ומתעדכנים לבד בכל שינוי שאתה עושה.</p></details>
+
+<details><summary>כמה זמן זה לוקח לי?</summary>
+<p>שתי דקות למלא את הטופס. <b>זהו.</b> אם יש שאלה נחזור אליך בוואטסאפ.</p></details>
+
+<details><summary>ואם המחיר שלי משתנה? או שמשהו לא מדויק?</summary>
+<p>חנות עם קטלוג מסתנכרנת אוטומטית. בכל מקרה אחר — הודעה אחת ואנחנו מתקנים.
+<b>ואנחנו אף פעם לא ממציאים מחיר שלא פרסמת:</b> כל דף אומר במפורש מה העסק
+<b>טרם פרסם</b>, כדי שאף סוכן לא ינחש במקומך.</p></details>
+
+<details><summary>אני רוצה לצאת. מה קורה?</summary>
+<p>הודעה אחת ואנחנו מוחקים הכול. <b>בלי התחייבות, בלי תקופת מינימום,
+בלי לשאול שאלות.</b></p></details>
+
 <div class="nosite"><b>ומשהו שקרה השבוע.</b>
 <p>שאלתי את ג׳מיני על מדיניות ההחזרות של חנות שאנחנו עובדים איתה. הוא ענה כלל
 שלא קיים אצלה, לא הזכיר את דמי ההחזרה האמיתיים, ושלח אותי לכתובת אתר שלא קיימת —
@@ -442,9 +457,33 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 <footer>השאלות הפתוחות אינן חובה — אפשר להשלים אחר כך.<br>
 בעל עסק שרוצה לצאת: הודעה אחת ואנחנו מוחקים הכול.</footer>
 
+<a class="sticky" href="#form" id="stick">למילוי הטופס ←</a>
+
 <script>
 (function(){
   var v = function(id){ return (document.getElementById(id).value || "").trim(); };
+
+  // Show the floating button only while the form is off screen. IntersectionObserver
+  // rather than a scroll handler: it fires when the state actually changes
+  // instead of on every pixel, and a browser without it simply never shows the
+  // button, which is the harmless failure.
+  // The floating button appears only when neither the button at the top of the
+  // page nor the form itself is on screen. Watching the form alone put two
+  // identical buttons on the first paint; watching the top button alone left
+  // the floating one hanging over the form it points at.
+  var stick = document.getElementById("stick");
+  var watch = [document.querySelector(".cta"), document.getElementById("f")]
+    .filter(Boolean);
+  if (stick && watch.length && "IntersectionObserver" in window) {
+    var onScreen = new WeakMap();
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ onScreen.set(e.target, e.isIntersecting); });
+      stick.classList.toggle("on", !watch.some(function(el){
+        return onScreen.get(el);
+      }));
+    });
+    watch.forEach(function(el){ io.observe(el); });
+  }
   document.getElementById("f").addEventListener("submit", function(e){
     e.preventDefault();
     var need = [["store","שם העסק"],["owner","השם שלך"],["phone","טלפון"],
