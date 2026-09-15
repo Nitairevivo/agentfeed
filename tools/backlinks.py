@@ -49,6 +49,11 @@ MAX_BYTES = 900_000
 # did not check.
 THIN = 5
 
+# How many pages inside a site to look at beyond the home page. Enough to
+# reach an "about", a "contact" and a links page; small enough that checking
+# fourteen businesses stays one short run and never looks like a crawl.
+INNER = 6
+
 
 def links(html: str) -> list[tuple[str, str]]:
     out = []
@@ -78,6 +83,32 @@ def classify(html: str, page_url: str) -> dict:
     if near:
         return {"state": "wrong-url", "href": near[0]}
     return {"state": "missing", "href": ""}
+
+
+def inner_pages(html: str, site: str) -> list[str]:
+    """A few of the site's own pages, the ones a hand-added link lands on.
+
+    Ordered by how likely they are to carry it — a links or about page first —
+    so that the six we look at are the six worth looking at.
+    """
+    from urllib.parse import urljoin, urlparse
+    host = urlparse(site).netloc
+    seen, out = set(), []
+    for href, _rel in links(html):
+        if href.startswith(("mailto:", "tel:", "javascript:", "#")):
+            continue
+        full = urljoin(site, href.split("#")[0])
+        if urlparse(full).netloc != host or full.rstrip("/") == site.rstrip("/"):
+            continue
+        if full in seen:
+            continue
+        seen.add(full)
+        out.append(full)
+    likely = ("link", "about", "contact", "אודות", "קישור", "צור-קשר",
+              "info", "more", "partner")
+    out.sort(key=lambda u: (0 if any(w in u.lower() for w in likely) else 1,
+                            len(u)))
+    return out
 
 
 def fetch(url: str) -> tuple[str, str]:
@@ -114,9 +145,30 @@ def main() -> int:
             rows.append({"name": name, "state": "unreadable",
                          "why": f"{len(links(html))} links — drawn by script"})
             continue
+
+        # The home page, and then a few pages inside it. The first version
+        # read the home page alone and reported seven businesses as having no
+        # link; the owner said several had added one and had sent him
+        # photographs of it. A footer is usually on every page, but a link
+        # added by hand often lands on "about", "contact" or a links page and
+        # nowhere else — and reporting that as "no link" is reporting our own
+        # shortcut as the business's failure.
         hit = classify(html, page)
-        rows.append({"name": name, **hit})
-        print(f"  {hit['state']:12} {name}")
+        found_on = site
+        if hit["state"] == "missing":
+            for inner in inner_pages(html, site)[:INNER]:
+                more, ierr = fetch(inner)
+                if ierr:
+                    continue
+                deeper = classify(more, page)
+                if deeper["state"] != "missing":
+                    hit, found_on = deeper, inner
+                    break
+        rows.append({"name": name, **hit,
+                     "found_on": found_on if hit["state"] != "missing" else "",
+                     "pages": 1 + (0 if hit["state"] != "missing" else INNER)})
+        where = "" if found_on == site or hit["state"] == "missing" else f"  ({found_on})"
+        print(f"  {hit['state']:12} {name}{where}")
 
     read = [r for r in rows if r["state"] in
             ("linked", "nofollow", "wrong-url", "missing")]
@@ -135,9 +187,14 @@ def main() -> int:
         if not sel:
             continue
         out += [f"## {title}", ""]
-        out += [f'- {r["name"]}' + (f' — {r.get("why") or r.get("href","")}'
-                                    if r.get("why") or r.get("href") else "")
-                for r in sel]
+        for r in sel:
+            tail = r.get("why") or r.get("href", "")
+            # Where it was found, when it was not the home page. A person has
+            # to be able to open the page and see the link for themselves.
+            if r.get("found_on"):
+                tail = f'{tail}  ·  נמצא ב: {r["found_on"]}' if tail else \
+                       f'נמצא ב: {r["found_on"]}'
+            out.append(f'- {r["name"]}' + (f" — {tail}" if tail else ""))
         out.append("")
     Path("backlinks-report.md").write_text("\n".join(out) + "\n", encoding="utf-8")
     print("\n" + "\n".join(out[:4]))
