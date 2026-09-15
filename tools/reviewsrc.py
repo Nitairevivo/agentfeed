@@ -27,7 +27,7 @@ import re
 import urllib.error
 import urllib.request
 from html.parser import HTMLParser
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import quote, urlsplit, urlunsplit
 
 UA = ("Mozilla/5.0 (compatible; AgentFeedBot/1.0; "
       "+https://nitairevivo.github.io/agentfeed/)")
@@ -39,6 +39,16 @@ MAX_BYTES = 1_500_000
 
 def get(url: str, timeout: int = TIMEOUT) -> str:
     """Read a page, or return "". A site that is down is not a site with no reviews."""
+    # A Hebrew path has to be percent-encoded before it goes near urllib, which
+    # encodes the request line as ASCII. Unencoded, /ביקורות raised
+    # UnicodeEncodeError, which is a ValueError, which this function catches —
+    # so the two paths most likely to hold Hebrew testimonials were reported as
+    # "nothing there" and nobody would ever have seen why.
+    parts = urlsplit(url)
+    if not parts.path.isascii():
+        url = urlunsplit((parts.scheme, parts.netloc,
+                          quote(parts.path, safe="/"), parts.query,
+                          parts.fragment))
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
         "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
