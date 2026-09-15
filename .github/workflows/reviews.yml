@@ -1,0 +1,40 @@
+# What customers wrote, from the pages the businesses published it on.
+#
+# The private repository has no outbound network, so it cannot read a single
+# business's website. Here the network is open and the minutes are free.
+#
+# This only reads: api/stores.json from this repository, and each business's
+# own site. It needs no secrets, writes nothing to the site, and publishes
+# nothing — the candidates come out as an artifact, and the private repository
+# validates and publishes them.
+name: What customers wrote
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monthly. A shop does not collect reviews faster than that, and a fetch
+    # that runs more often than the thing it measures is a crawl with a
+    # timestamp on it.
+    - cron: "0 6 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  reviews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read each business's own site
+        run: python3 -u tools/harvest_reviews.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reviews-harvest
+          path: |
+            reviews-harvest.json
+            reviews-report.md
+          if-no-files-found: ignore
