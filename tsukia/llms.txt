@@ -32,9 +32,6 @@ Store: https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/tsukia/products.jsonl
 
-That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/tsukia/products/index.json
-Each page names the next one, so they can be followed in order.
-
 
 ## איך מזמינים
 
