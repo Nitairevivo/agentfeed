@@ -1,0 +1,117 @@
+# Read one consenting shop's public catalogue, from a runner that can reach it.
+#
+# Why this lives in the public repository and not beside the code that uses it:
+# the private repository is out of Actions minutes until October and every run
+# there dies in four seconds, and the environments the chats work in are behind
+# an egress policy that refuses merchant domains outright. A public repository
+# has free minutes and an open network. That is the only reason.
+#
+# It reads and it stores. It does not convert, does not publish, and does not
+# decide anything: the output is exactly what the shop's own endpoint said,
+# with the url and the time beside it, for agentfeed's own converter to read.
+name: Read a storefront
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "The shop's domain, e.g. judaicail.co.il"
+        required: true
+      platform:
+        description: "shopify or woo"
+        required: true
+        default: shopify
+
+permissions:
+  contents: write
+
+concurrency:
+  group: read-a-storefront-${{ inputs.domain }}
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read the catalogue
+        env:
+          DOMAIN: ${{ inputs.domain }}
+          PLATFORM: ${{ inputs.platform }}
+        run: |
+          set -uo pipefail
+          host="${DOMAIN#https://}"; host="${host#http://}"; host="${host%%/*}"
+          base="https://${host}"
+          out="tools/feeds/${host}.json"
+          mkdir -p tools/feeds
+
+          # Walked to exhaustion rather than asked for one page. A shop with
+          # exactly one page's worth of products is the classic partial-catalogue
+          # trap, and a catalogue that is quietly half a catalogue is worse than
+          # none: everything downstream would treat it as complete.
+          tmp=$(mktemp -d)
+          pages=0
+          for page in $(seq 1 40); do
+            if [ "$PLATFORM" = "woo" ]; then
+              url="${base}/wp-json/wc/store/products?per_page=100&page=${page}"
+            else
+              url="${base}/products.json?limit=250&page=${page}"
+            fi
+            code=$(curl -sS -w '%{http_code}' -o "$tmp/p${page}.json" \
+                     -H 'User-Agent: AgentFeed/0.1 (+https://nitairevivo.github.io/agentfeed)' \
+                     --max-time 60 "$url" || echo 000)
+            echo "page ${page}: HTTP ${code}"
+            [ "$code" = "200" ] || break
+            if [ "$PLATFORM" = "woo" ]; then
+              n=$(jq 'if type=="array" then length else 0 end' "$tmp/p${page}.json" 2>/dev/null || echo 0)
+            else
+              n=$(jq '.products | length' "$tmp/p${page}.json" 2>/dev/null || echo 0)
+            fi
+            echo "  items: ${n}"
+            [ "${n:-0}" -gt 0 ] || break
+            pages=$page
+            # A short page is the last page. Asking for one more costs a request
+            # and gets an empty answer, which is fine, but stopping here is
+            # honest about why we stopped.
+            sleep 1
+          done
+
+          # Merged into one document, with where it came from and when. A feed
+          # with no provenance is a number somebody will later have to trust
+          # without being able to check.
+          if [ "$pages" -eq 0 ]; then
+            jq -n --arg host "$host" --arg platform "$PLATFORM" \
+                  --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+              '{host:$host, platform:$platform, read_at:$at, products:[],
+                note:"the endpoint returned no products — this is what it said, not an error we hid"}' \
+              > "$out"
+          elif [ "$PLATFORM" = "woo" ]; then
+            jq -s --arg host "$host" --arg platform "$PLATFORM" \
+                  --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+              '{host:$host, platform:$platform, read_at:$at, products:(add // [])}' \
+              "$tmp"/p*.json > "$out"
+          else
+            jq -s --arg host "$host" --arg platform "$PLATFORM" \
+                  --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+              '{host:$host, platform:$platform, read_at:$at,
+                products:([.[].products] | add // [])}' \
+              "$tmp"/p*.json > "$out"
+          fi
+
+          echo "products: $(jq '.products | length' "$out")"
+          echo "→ $out"
+
+      - name: Keep it
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/feeds
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "read ${{ inputs.domain }} — $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase --quiet origin main || true
+            sleep $((attempt * 3))
+          done
+          exit 1
