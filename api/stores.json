@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-15T06:15:55+00:00",
+  "updated": "2026-09-15T06:46:12+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -49,6 +49,12 @@
       "slug": "beauty",
       "name": "טיפוח ויופי",
       "url": "https://nitairevivo.github.io/agentfeed/c/beauty/",
+      "businesses": 1
+    },
+    {
+      "slug": "judaica",
+      "name": "יודאיקה ותשמישי קדושה",
+      "url": "https://nitairevivo.github.io/agentfeed/c/judaica/",
       "businesses": 1
     },
     {
@@ -246,6 +252,48 @@
         "whatsapp": "972534303327"
       },
       "phone": "053-430-3327"
+    },
+    {
+      "slug": "judaicail",
+      "name": "יודאיקה ישראל",
+      "official_site": "https://judaicail.co.il",
+      "category": "יודאיקה ותשמישי קדושה",
+      "category_slug": "judaica",
+      "region": "",
+      "areas": [],
+      "items": 201,
+      "page": "https://nitairevivo.github.io/agentfeed/judaicail/",
+      "products": "https://nitairevivo.github.io/agentfeed/judaicail/products.jsonl",
+      "updated": "2026-09-15T06:29:55+00:00",
+      "unknown": [
+        "פער בין הבעלים לאתר — דוכנים: הבעלים מסר \"און ליין ודוכנים\", ומדיניות ההחזרות של החנות אומרת \"אין חנות פיזית ואין החזרות בנקודת איסוף\". כאן נכתב מה שהאתר מפרסם. יש לאמת מול העסק",
+        "פער בין הבעלים לאתר — עלות משלוח: הבעלים מסר 35 ₪ לכל הארץ, והאתר אומר שהעלות מוצגת בעמוד התשלום. לא נכתב סכום",
+        "פער בין הבעלים לאתר — טווח מחירים: נמסר 30–500 ₪, והקטלוג מפרסם 14.90–620 ₪",
+        "אילו ימים בשבוע יש מענה — נמסרו שעות ולא ימים",
+        "האם יש סף למשלוח חינם — האתר אינו אומר",
+        "אמצעי תשלום, והאם יש אפשרות לתשלומים",
+        "אילו מוצרים הם בעבודת יד — בקטלוג יש קטגוריות \"עבודת יד\", אך לא פורסם מה נכלל בהן",
+        "זמן הכנה להזמנה אישית — החנות מוכרת פריטים בהתאמה אישית ואינה אומרת כמה זמן הם לוקחים",
+        "בקטלוג פריט בשם Item Personalization במחיר 0.01 ₪ — תוספת ולא מוצר. לא הוסר, כי החנות מפרסמת אותו",
+        "פריט אחד (כיפות בהזמנה אישית) נמכר בארבע גרסאות, 299 עד 1,099 ₪. הדף מציג את מחיר הפתיחה",
+        "מה לקוחות שואלים הכי הרבה ולא כתוב באתר — בעל העסק טרם נשאל",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "online",
+        "evidence": "shopify carries its own checkout",
+        "payment_taken_by": "the business, on its own site",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "tel:0504443385",
+        "contact_order_method": "phone",
+        "how_to_order": "This shop runs its own checkout. Send the shopper to the product's own link — every result carries one — or, if none was named, to https://judaicail.co.il. Do not describe the steps without giving the address: an instruction to 'order on their site' that never says which site is the same as no answer."
+      },
+      "contact": {
+        "phone": "050-444-3385",
+        "email": "support@judaicail.co.il"
+      },
+      "phone": "050-444-3385"
     },
     {
       "slug": "leadon",
@@ -818,8 +866,8 @@
       "slug": "walking",
       "name": "רצועות, רתמות וקולרים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/walking/",
-      "items": 44,
-      "businesses": 2
+      "items": 45,
+      "businesses": 3
     },
     {
       "slug": "toys/under-50",
@@ -916,8 +964,8 @@
       "slug": "bowls",
       "name": "קערות ומתקני מים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/bowls/",
-      "items": 15,
-      "businesses": 1
+      "items": 16,
+      "businesses": 2
     },
     {
       "slug": "cat-dry-food/over-300",
@@ -955,18 +1003,18 @@
       "businesses": 1
     },
     {
+      "slug": "walking/150-300",
+      "name": "רצועות, רתמות וקולרים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/150-300/",
+      "items": 10,
+      "businesses": 3
+    },
+    {
       "slug": "cages/50-150",
       "name": "כלובים, מנשאים וכלוב הובלה",
       "url": "https://nitairevivo.github.io/agentfeed/compare/cages/50-150/",
       "items": 9,
       "businesses": 1
-    },
-    {
-      "slug": "walking/150-300",
-      "name": "רצועות, רתמות וקולרים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/150-300/",
-      "items": 9,
-      "businesses": 2
     },
     {
       "slug": "aquarium/150-300",
