@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 12 businesses, 117 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 13 businesses, 130 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,16 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-12 עסקים · 2307 פריטים
+13 עסקים · 2308 פריטים
+
+## אירוח וצימרים
+
+- **[אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/)** — 5 פריטים · רמת הגולן  
+  מתחם נופש כפרי משפחתי בדרום רמת הגולן, במושב נאות גולן  
+  אתר העסק: https://www.tamizimmer.com
+- **[צוקייה](https://nitairevivo.github.io/agentfeed/tsukia/)** — 1 פריטים · רמת הגולן  
+  דירת אירוח בחד נס שברמת הגולן  
+  אתר העסק: https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86
 
 ## חיות מחמד
 
@@ -59,12 +68,6 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/)** — 4 פריטים  
   חנות מקוונת למוצרי טיפוח ונוחות לשיער, כולל מוצרי סטיילינג, מכשירים ומוצרים לצמיחת השיער  
   אתר העסק: https://www.sunsetglow.co.il
-
-## אירוח וצימרים
-
-- **[אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/)** — 5 פריטים · רמת הגולן  
-  מתחם נופש כפרי משפחתי בדרום רמת הגולן, במושב נאות גולן  
-  אתר העסק: https://www.tamizimmer.com
 
 ## אולפן הקלטות והפקה מוזיקלית
 

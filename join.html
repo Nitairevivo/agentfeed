@@ -179,8 +179,8 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 קריאים לו. <b>אנחנו בונים לעסק שלך בדיוק את החלק הזה.</b></p>
 
 <div class="stats">
-  <div class="stat"><b>12</b><span>עסקים חיים</span></div>
-  <div class="stat"><b>2,307</b><span>פריטים</span></div>
+  <div class="stat"><b>13</b><span>עסקים חיים</span></div>
+  <div class="stat"><b>2,308</b><span>פריטים</span></div>
   <div class="stat"><b>₪0</b><span>עלות</span></div>
 </div>
 
@@ -228,6 +228,8 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 <p>4 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 10 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
 <div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/sunset-glow/" style="color:inherit">Sunset glow</a></b> · טיפוח ויופי
 <p>4 פריטים, כולם עם מחיר. ועוד 6 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
+<div class="live"><b><a href="https://nitairevivo.github.io/agentfeed/tsukia/" style="color:inherit">צוקייה</a></b> · אירוח וצימרים
+<p>1 פריטים, בלי מחירים — העסק לא פרסם אף אחד, וכך כתוב בדף. ועוד 13 דברים שהעסק טרם פרסם, כתובים במפורש כדי שאף סוכן לא ינחש.</p></div>
 <p class="lead"><a href="https://nitairevivo.github.io/agentfeed/" style="color:var(--green-ink)">לראות את כל העסקים ←</a></p>
 
 <h2>שאלות שאנשים שואלים</h2>
@@ -351,6 +353,37 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
       L.push("", "פרטים נוספים:");
       any.forEach(function(x){ L.push("• " + x[1] + ": " + v(x[0])); });
     }
+    // Two things happen, and the order matters.
+    //
+    // The submission is kept by our own endpoint, so that adding a business
+    // stops meaning "read a WhatsApp conversation and retype it", and so that
+    // somebody who fills this in and never presses send is a row we can
+    // follow up rather than a person who disappeared.
+    //
+    // And then WhatsApp opens, exactly as before, because the message sent
+    // from the owner's own number is what proves the owner asked. The stored
+    // row is marked unverified until it arrives; nothing is published on the
+    // strength of a web form, which anyone can type anything into.
+    //
+    // keepalive, because the navigation on the next line would otherwise
+    // cancel the request. And no await and no error branch: if our endpoint
+    // is slow, down, or blocked by an extension, the business still gets to
+    // WhatsApp. Our convenience must never stand between a person and the
+    // thing they came here to do.
+    try {
+      fetch("https://agentfeed-plum.vercel.app/api/join", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        keepalive: true,
+        body: JSON.stringify({
+          store: v("store"), owner: v("owner"), phone: v("phone"),
+          site: v("site"), what: v("what"), prices: v("prices"),
+          where: v("where"), ship: v("ship"), hours: v("hours"),
+          returns: v("returns"), photos: v("photos"), gold: v("gold")
+        })
+      }).catch(function(){});
+    } catch (e) {}
+
     location.href = "https://wa.me/972526760039?text=" + encodeURIComponent(L.join("\n"));
   });
 })();

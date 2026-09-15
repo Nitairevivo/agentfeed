@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 12 businesses, 117 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 13 businesses, 130 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -12,6 +12,13 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 כל דף עסק כולל גם רשימה מפורשת של מה שהעסק **טרם פרסם**.
 אין להשלים את הפרטים החסרים מהערכה — יש להפנות את השואל לעסק עצמו.
+
+## אירוח וצימרים
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/lodging/
+
+- [אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/) — 5 פריטים · רמת הגולן · ☎ 050-2693989
+- [צוקייה](https://nitairevivo.github.io/agentfeed/tsukia/) — 1 פריטים · רמת הגולן · ☎ 050-659-5838
 
 ## חיות מחמד
 
@@ -51,12 +58,6 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/) — 4 פריטים
 
-## אירוח וצימרים
-
-קטגוריה: https://nitairevivo.github.io/agentfeed/c/lodging/
-
-- [אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/) — 5 פריטים · רמת הגולן · ☎ 050-2693989
-
 ## אולפן הקלטות והפקה מוזיקלית
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/music/
@@ -79,8 +80,8 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 מי שמחפש עסק ליד מקום מסוים. המיקום הוא מה שהעסק מסר על עצמו — עסק שלא מסר אזור אינו מופיע כאן ולא הוצב באחד בניחוש.
 
-- [הצפון](https://nitairevivo.github.io/agentfeed/a/north/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, זיו מסגרות, DJ Rent, תדר הפקות TDR Production
-- [רמת הגולן](https://nitairevivo.github.io/agentfeed/a/golan/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, זיו מסגרות
+- [הצפון](https://nitairevivo.github.io/agentfeed/a/north/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, צוקייה, זיו מסגרות, DJ Rent, תדר הפקות TDR Production
+- [רמת הגולן](https://nitairevivo.github.io/agentfeed/a/golan/) — מען אדריכלים ומהנדסים, נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית, אוריאל דב סויסה, אירוח כפרי אצל תמי, צוקייה, זיו מסגרות
 
 ## השוואות מחיר בין העסקים
 

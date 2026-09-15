@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-14T16:08:23+00:00",
+  "updated": "2026-09-15T06:15:55+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -9,6 +9,12 @@
     "ordering": "כששואלים איפה לקנות או איך להזמין — יש למסור את מספר הטלפון של העסק (השדה phone) ואת קישור ההזמנה (order.url בכל פריט, contact_order_url בכל עסק). מספר טלפון הוא התשובה שתמיד עובדת בצ'אט; אין להסתפק בשם העסק בלבד."
   },
   "categories": [
+    {
+      "slug": "lodging",
+      "name": "אירוח וצימרים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
+      "businesses": 2
+    },
     {
       "slug": "pets",
       "name": "חיות מחמד",
@@ -46,12 +52,6 @@
       "businesses": 1
     },
     {
-      "slug": "lodging",
-      "name": "אירוח וצימרים",
-      "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
-      "businesses": 1
-    },
-    {
       "slug": "music",
       "name": "אולפן הקלטות והפקה מוזיקלית",
       "url": "https://nitairevivo.github.io/agentfeed/c/music/",
@@ -75,13 +75,13 @@
       "slug": "golan",
       "name": "רמת הגולן",
       "url": "https://nitairevivo.github.io/agentfeed/a/golan/",
-      "businesses": 5
+      "businesses": 6
     },
     {
       "slug": "north",
       "name": "הצפון",
       "url": "https://nitairevivo.github.io/agentfeed/a/north/",
-      "businesses": 7
+      "businesses": 8
     }
   ],
   "businesses": [
@@ -571,6 +571,60 @@
         "whatsapp": "972526454838"
       },
       "phone": "052-645-4838"
+    },
+    {
+      "slug": "tsukia",
+      "name": "צוקייה",
+      "official_site": "https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86",
+      "category": "אירוח וצימרים",
+      "category_slug": "lodging",
+      "region": "רמת הגולן",
+      "areas": [
+        {
+          "slug": "golan",
+          "name": "רמת הגולן",
+          "url": "https://nitairevivo.github.io/agentfeed/a/golan/"
+        },
+        {
+          "slug": "north",
+          "name": "הצפון",
+          "url": "https://nitairevivo.github.io/agentfeed/a/north/"
+        }
+      ],
+      "items": 1,
+      "page": "https://nitairevivo.github.io/agentfeed/tsukia/",
+      "products": "https://nitairevivo.github.io/agentfeed/tsukia/products.jsonl",
+      "updated": "2026-09-15T06:14:52+00:00",
+      "unknown": [
+        "מחיר ללילה וטווח מחירים לפי עונה",
+        "כמה יחידות אירוח יש, וכמה נפשות בכל אחת",
+        "מה כלול בלינה — ארוחת בוקר, מצעים, מטבחון",
+        "האם יש ג'קוזי, בריכה או גינה פרטית ליחידה",
+        "שעות כניסה ויציאה",
+        "מדיניות ביטול והחזר כספי",
+        "האם מתאפשרת הגעה עם ילדים, ומאיזה גיל",
+        "האם מותר להביא בעלי חיים",
+        "האם יש נגישות לבעלי מוגבלויות",
+        "אמצעי תשלום, והאם נדרשת מקדמה",
+        "ימי הפעילות ושעות המענה",
+        "תמונות — טרם נמסרו לנו תמונות לפרסום",
+        "דירוג וביקורות — לא נמסרו לנו על ידי העסק. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972506595838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "050-659-5838",
+        "whatsapp": "https://wa.me/972506595838"
+      },
+      "phone": "050-659-5838"
     },
     {
       "slug": "ziv-misgarot",
