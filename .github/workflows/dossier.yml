@@ -1,0 +1,35 @@
+# What is in a shop's catalogue, so that a message to its owner can say so.
+#
+# qualify.yml answers "can this shop be connected". This answers the question
+# that decides whether a cold message gets read: what does this shop actually
+# sell, at what prices, in what shape. One request per shop, sixty items.
+#
+# It reads catalogues. **It reads no contact details and sends nothing.**
+# Bulk unsolicited commercial messaging is illegal here and would undo the only
+# thing this project has going for it. What comes out of this is material for
+# one person to write one message, by hand, to one shop.
+name: What is in a shop's catalogue
+
+on:
+  workflow_dispatch:
+    inputs:
+      domains:
+        description: 'Domains — comma, space or newline separated'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  dossier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read each shop's public catalogue
+        env:
+          DOSSIER_DOMAINS: ${{ inputs.domains }}
+        run: python3 -u tools/dossier.py
