@@ -1,0 +1,93 @@
+# The pages a shop writes about itself, fetched and kept exactly as served.
+#
+# Sibling to read-a-storefront.yml and here for the same reason: this is the
+# one machine in the arrangement with both an open network and free minutes.
+#
+# It fetches and stores. It does not interpret. What a shop's shipping page
+# means is a judgement, and a judgement made inside a workflow step is one
+# nobody can review later — so the HTML lands in the repository and the
+# reading happens where it can be read back.
+name: Read the pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "The shop's domain, e.g. judaicail.co.il"
+        required: true
+      paths:
+        description: "Comma-separated paths. Blank uses the Shopify defaults."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: read-the-pages-${{ inputs.domain }}
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the pages
+        env:
+          DOMAIN: ${{ inputs.domain }}
+          PATHS: ${{ inputs.paths }}
+        run: |
+          set -uo pipefail
+          host="${DOMAIN#https://}"; host="${host#http://}"; host="${host%%/*}"
+          base="https://${host}"
+          dir="tools/pages/${host}"
+          mkdir -p "$dir"
+
+          # Shopify gives every shop the same addresses for its policies, and
+          # a shop that never wrote one simply 404s — which is itself an answer
+          # worth having, and is recorded as one rather than skipped.
+          if [ -z "$PATHS" ]; then
+            PATHS="/,/policies/shipping-policy,/policies/refund-policy,/policies/terms-of-service,/policies/privacy-policy,/pages/contact,/pages/about-us,/pages/faq"
+          fi
+
+          index="$dir/index.json"
+          echo '{"host":"'"$host"'","read_at":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'","pages":[' > "$index"
+          first=1
+          IFS=','
+          for path in $PATHS; do
+            path=$(echo "$path" | xargs)
+            [ -n "$path" ] || continue
+            name=$(echo "$path" | sed 's#^/##; s#/#_#g')
+            [ -n "$name" ] || name="home"
+            code=$(curl -sSL -w '%{http_code}' -o "$dir/${name}.html" \
+                     -H 'User-Agent: AgentFeed/0.1 (+https://nitairevivo.github.io/agentfeed)' \
+                     --max-time 45 "${base}${path}" || echo 000)
+            bytes=$(wc -c < "$dir/${name}.html" 2>/dev/null || echo 0)
+            echo "${path} → HTTP ${code} (${bytes} bytes)"
+            # A page that did not answer leaves no file pretending it did.
+            if [ "$code" != "200" ]; then rm -f "$dir/${name}.html"; fi
+            [ $first -eq 1 ] || echo ',' >> "$index"
+            first=0
+            printf '{"path":"%s","file":"%s.html","status":%s,"bytes":%s}' \
+              "$path" "$name" "${code:-0}" "${bytes:-0}" >> "$index"
+            sleep 1
+          done
+          unset IFS
+          echo ']}' >> "$index"
+          jq . "$index" > "$index.tmp" && mv "$index.tmp" "$index"
+          cat "$index"
+
+      - name: Keep them
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/pages
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "read the pages of ${{ inputs.domain }} — $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase --quiet origin main || true
+            sleep $((attempt * 3))
+          done
+          exit 1
