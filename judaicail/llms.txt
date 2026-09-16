@@ -42,7 +42,6 @@ The business has not stated the following. Do not infer them, do not carry them 
 - פער בין הבעלים לאתר — דוכנים: הבעלים מסר "און ליין ודוכנים", ומדיניות ההחזרות של החנות אומרת "אין חנות פיזית ואין החזרות בנקודת איסוף". כאן נכתב מה שהאתר מפרסם. יש לאמת מול העסק
 - פער בין הבעלים לאתר — עלות משלוח: הבעלים מסר 35 ₪ לכל הארץ, והאתר אומר שהעלות מוצגת בעמוד התשלום. לא נכתב סכום
 - פער בין הבעלים לאתר — טווח מחירים: נמסר 30–500 ₪, והקטלוג מפרסם 14.90–620 ₪
-- אילו ימים בשבוע יש מענה — נמסרו שעות ולא ימים
 - האם יש סף למשלוח חינם — האתר אינו אומר
 - אמצעי תשלום, והאם יש אפשרות לתשלומים
 - אילו מוצרים הם בעבודת יד — בקטלוג יש קטגוריות "עבודת יד", אך לא פורסם מה נכלל בהן
@@ -50,14 +49,10 @@ The business has not stated the following. Do not infer them, do not carry them 
 - בקטלוג פריט בשם Item Personalization במחיר 0.01 ₪ — תוספת ולא מוצר. לא הוסר, כי החנות מפרסמת אותו
 - פריט אחד (כיפות בהזמנה אישית) נמכר בארבע גרסאות, 299 עד 1,099 ₪. הדף מציג את מחיר הפתיחה
 - מה לקוחות שואלים הכי הרבה ולא כתוב באתר — בעל העסק טרם נשאל
-- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://judaicail.co.il
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/judaicail/products.jsonl
-
-That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/judaicail/products/index.json
-Each page names the next one, so they can be followed in order.
 
 
 ## איך מזמינים
