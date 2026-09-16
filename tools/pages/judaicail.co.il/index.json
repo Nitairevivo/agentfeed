@@ -1,54 +1,30 @@
 {
   "host": "judaicail.co.il",
-  "read_at": "2026-09-15T06:27:44Z",
+  "read_at": "2026-09-16T07:21:07Z",
   "pages": [
-    {
-      "path": "/",
-      "file": "home.html",
-      "status": 200,
-      "bytes": 669596
-    },
-    {
-      "path": "/policies/shipping-policy",
-      "file": "policies_shipping-policy.html",
-      "status": 200,
-      "bytes": 379459
-    },
-    {
-      "path": "/policies/refund-policy",
-      "file": "policies_refund-policy.html",
-      "status": 200,
-      "bytes": 381160
-    },
-    {
-      "path": "/policies/terms-of-service",
-      "file": "policies_terms-of-service.html",
-      "status": 200,
-      "bytes": 382873
-    },
-    {
-      "path": "/policies/privacy-policy",
-      "file": "policies_privacy-policy.html",
-      "status": 200,
-      "bytes": 383540
-    },
     {
       "path": "/pages/contact",
       "file": "pages_contact.html",
       "status": 200,
-      "bytes": 456391
+      "bytes": 456355
     },
     {
-      "path": "/pages/about-us",
-      "file": "pages_about-us.html",
+      "path": "/pages/contact-us",
+      "file": "pages_contact-us.html",
       "status": 404,
-      "bytes": 408870
+      "bytes": 408834
     },
     {
-      "path": "/pages/faq",
-      "file": "pages_faq.html",
+      "path": "/pages/יצירת-קשר",
+      "file": "pages_יצירת-קשר.html",
       "status": 404,
-      "bytes": 408870
+      "bytes": 408834
+    },
+    {
+      "path": "/",
+      "file": "home.html",
+      "status": 200,
+      "bytes": 669560
     }
   ]
 }
