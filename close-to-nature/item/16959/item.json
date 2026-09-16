@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "גוף חימום לאקווריום Tetra HT 50",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16959/",
+ "description": "Tetra HT 50    – תרמוסטט אוטומטי לאקווריומים 25-60 ליטר.   \n מחמם אקווריום חזק עם בקר טמפרטורה מיוחד. \n \n ווסת נוח להגדרת טמפרטורת המים בטווח שבין 19°C ל-31°C בשלבים של 0.5°C \n הודות למארז והכיסוי עמיד למים, ניתן לטבול את המחמם לחלוטין במים \n מחוון נורית בקרה \n זכוכית Bоrosilikat עבה במיוחד 2 מ”מ עמידה בחום \n גוף חימום קרמי כפול לפיזור חום אחיד \n חיבור מאובטח עם שתי כוסות יניקה \n  כבל ארוך 1.6 מטר להתקנה קלה באקווריום  \n קריאות תנור חימום קלות לקריאה \n  תעודות בקרת איכות TÜV / GS, תעודת איכות CE",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/11/%D7%92%D7%95%D7%A3-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%9C%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%99%D7%95%D7%9D-Tetra-HT-50.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%92%d7%95%d7%a3-%d7%97%d7%99%d7%9e%d7%95%d7%9d-%d7%9c%d7%90%d7%a7%d7%95%d7%95%d7%a8%d7%99%d7%95%d7%9d-tetra-ht-50/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "149.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "16959",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16959%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16959",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

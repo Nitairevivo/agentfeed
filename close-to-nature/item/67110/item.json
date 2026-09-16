@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🩺 פורביד אבקה נגד אכילת צואה 50 גרם Forbid Candioli",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/67110/",
+ "description": "חברת Candioli האיטלקית מייצרת תוסף תזונה מתקדם ויעיל בצורת אבקה. האריזה מכילה 50 גרם של מוצר מנצח. התוסף מונע ומפסיק לחלוטין תופעות של אכילת צואה (קופרופגיה) בכלבים ובחתולים. רכיבים ייחודיים באבקה הופכים את טעם הצואה לבלתי משיך עבור בעל החיים. פתרון וטרינרי מקצועי השומר על הגיינת חיית המחמד ומגן על בריאות המשפחה בקלות. 🐶 🐱 \n \n \n ⚖️  תכולת מוצר:  אריזת אבקה במשקל 50 גרם המתאימה לכלבים ולחתולים בכל הגילאים. \n \n \n 🧪  מניעת קופרופגיה:  נוסחה מדעית המשנה את טעם הפרשות הגוף ומפסיקה אכילת צואה. \n \n \n 🌿  הגנה על המעיים:  רכיבי המוצר מפחיתים את הסיכון להידבקות בטפילים ובחיידקים מסוכנים. \n \n \n 🥣  הגשה נוחה:  אבקה נטולת ריח חריף המתערבבת בקלות עם המזון היומי הקבוע. \n \n \n 🇮🇹  איכות אירופאית:  ייצור באיטליה תחת בקרת איכות וטרינרית קפדנית ביותר.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/05/forbid-coprophagia-powder-dogs-cats-50g-candioli.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/forbid-coprophagia-powder-dogs-cats-50g/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "79.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "67110",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D67110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=67110",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

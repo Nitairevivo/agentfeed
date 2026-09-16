@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "הפקה מוזיקלית",
+ "url": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/",
+ "description": "הפקה מוזיקלית בתדר הפקות, ברחוב החקלאי 21 במושב מנחמיה. הסגנון: מוסיקה אקוסטית ישראלית, עם שילוב של מוסיקה אתנית, בדגש על מוסיקה ערבית, ופלמנקו. היקף: הפקה נעה בין 8 ל-10 סשיינים, ועוד 2 סשיינים לתיקונים ושינויים. כל סשן אורך בין 4 ל-5 שעות. בתחילת התהליך נעשה אפיון של היצירה ושל הסגנון המוזיקלי, וכן כמה ובאיזה אופן האומן רואה את עצמו חלק מתהליך היצירה. לאחר מכן נקבעים תאריכים והסכם. התשלום על ההפקה מחולק לשניים — חלק בתחילת העבודה והחצי השני בסיום. המחיר משתנה לפי היקף היצירה ואורכה. פנייה בטלפון או בוואטסאפ, 052-645-4838.",
+ "brand": {
+  "@type": "Brand",
+  "name": "תדר הפקות TDR Production"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://wa.me/972526454838",
+  "seller": {
+   "@type": "Organization",
+   "name": "תדר הפקות TDR Production",
+   "url": "https://www.instagram.com/_shayaharoni_"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "tdr-production-music",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tdr-production/",
+  "name": "תדר הפקות TDR Production"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A4%D7%A7%D7%94%20%D7%9E%D7%95%D7%96%D7%99%D7%A7%D7%9C%D7%99%D7%AA%D7%B4.",
+  "name": "whatsapp"
+ },
+ "seller_phone": "052-645-4838",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

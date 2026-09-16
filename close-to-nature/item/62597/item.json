@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מונג’ גריל (Monge Grill) – נתחי בשר עסיסיים בצליה על הגריל! 🥩",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62597/",
+ "description": "מונג’ גריל לכלב – חגיגת בשרים איטלקית בכל ארוחה  פנקו את הכלב שלכם בסדרת  Monge Grill , מעדני פרימיום המבוססים על נתחי בשר איכותיים שנצלו בתנור (Oven Baked) לשמירה על טעם עמוק וערכים תזונתיים מקסימליים. כל פאוץ’ מציע נוסחה ללא דגנים (Grain Free), המועשרת בוויטמינים ובתוספי מפרקים, ומהווה פתרון מושלם לכלבים בררנים או כתוספת משדרגת למזון היבש. \n \n \n  סוג מוצר:  מזון רטוב מלא לכלבים (100 גרם ליחידה). \n \n \n  6 טעמים עסיסיים לבחירה:  עוף והודו (אדולט), סלמון, דג בקלה (Cod Fish), חזיר, בקר, וכבש עם ירקות. \n \n \n  איכות פרימיום:  פורמולה ללא דגנים (Grain Free), ללא צבעי מאכל וללא חומרים משמרים מלאכותיים. \n \n \n  תמיכה בריאותית:  מועשר בגלוקוזאמין וכונדרואיטין לשמירה על חוזק המפרקים והסחוס. \n \n \n   קראו עוד: מידע מורחב ופרטים נוספים ↓",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/02/monge-grill-food-deal.jpg?fit=750%2C750&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/monge-grill-dog-pouch-grain-free-100g/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "4.50",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "62597",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62597%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62597",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

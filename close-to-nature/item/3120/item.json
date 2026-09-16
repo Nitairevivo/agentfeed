@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אקאנה acana הריטג’ כלב סניור 11.4 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3120/",
+ "description": "אקאנה acana  הריטג’ כלב סניור 11.4 ק”ג \n אקנה סניור מזון יבש לכלבים מבוגרים (מגיל 7 ומעלה). כלבים בוגרים מגיל 7 ומעלה זקוקים לתזונה עשירה בחלבוני בשר למלחמה נגד הידלדלות מסת השריר ודלה בפחמימות העלולות לגרום להשמנת יתר וסוכרת. זו הסיבה שאקאנה סניור עשיר בחלבון בשר מעוף מגידול חופש וביצי קן שלמות מחוות מקומיות דג סנדל שנידוג מהאי ונקובר ופירות וירקות מעמק אוקנגאן – כולם מסופקים טריים מדי יום אקאנה סניור דל בפחמימות ומכיל סוג אחד בלבד של דגנים – שיבולת שועל גרוסה בעלת ערך גליקמי נמוך מגידול מקומי. מזון המיוצר מהרכיבים הטובים והטריים ביותר בקנדה במטבחינו עטורי הפרסים הוא הדרך הטעימה ביותר להבטיח שכלבכם יהיה בריא מאושר וחזק. רשימת הרכיבים תגרום גם לכם לחייך בסיפוק! בשרים עשירים ומגוונים: מזון אולטימטיבי זה מחקה את התזונה שאימא טבע ייעדה לכלב הסניור שלכם! המזון המכיל 60% עוף דגים וביצים כך לכלבי סניור הותאם במיוחד בהתאם להסתגלות האבולוציונית של כלבכם לתזונה עשירה בבשר ובחלבונים. המבחר העשיר ש",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%A7%D7%90%D7%A0%D7%94-%D7%94%D7%A8%D7%99%D7%98%D7%92-%D7%9B%D7%9C%D7%91-%D7%A1%D7%A0%D7%99%D7%95%D7%A8.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%90%d7%a7%d7%90%d7%a0%d7%94-%d7%94%d7%a8%d7%99%d7%98%d7%92-%d7%9b%d7%9c%d7%91-%d7%a1%d7%a0%d7%99%d7%95%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "299.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "3120",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3120%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3120",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

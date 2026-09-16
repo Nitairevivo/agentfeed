@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🦴 חטיף אילוף לכלבים אנדי בטעם בקר ENDI Chews Beef Flavor 100g",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70151/",
+ "description": "חטיף אילוף לכלבים אנדי בטעם בקר  הוא חטיף איכותי מבית Endi המשלב בשר אמיתי וטעימות גבוהה. המוצר מציע גודל ומרקם מושלמים לתגמול מהיר ואפקטיבי במהלך אימונים, ומסייע בחיזוק התנהגות חיובית, רעננות הנשימה ושמירה על הבריאות. פתרון מושלם לאילוף יומיומי בריא וטעים לכלב. \n \n \n 📦  תכולה מדויקת:  100 גרם בשקית. \n \n \n 🛠️  מינון יומי מהיר:  1-2 חטיפים ביום במהלך אילוף או כפינוק בהתאם לגודל הכלב. \n \n \n 🌿  רכיבים פעילים:  בשר בקר אמיתי בנעכלות גבוהה וספיגה מיטבית. \n \n \n 🎯  יתרון מרכזי:   חטיף אילוף לכלבים אנדי בטעם בקר  מעניק תגמול מהיר ומדרבן את הכלב ללמידה בכיף. \n \n \n 🩺  התוויה רפואית:  מסייע בשמירה על היגיינת הפה, רעננות הנשימה וחיזוק הלסת בזמן הלעיסה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/07/endi-chews-beef-flavor-100g-dog-treats-with-peeking-spaniel.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/endi-training-chews-beef-flavor-100g/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "15.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "70151",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70151%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70151",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

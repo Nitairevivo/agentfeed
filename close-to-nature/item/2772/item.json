@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "טייסט אוף דה ווילד אוכל לחתולים צבי וסלמון 2 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2772/",
+ "description": "Taste of the Wild  \n  אוכל לחתולים  ללא דגנים עם 42 אחוז חלבון לדימוי תזונה של חתול פרא. מיוצר מבשר קלוי אמיתי ותערובת מקורות חלבון היוצרים אוכל איכותי טעים. ירקות ופירות כמו בטטה ואפונה כמקור לאנרגיה בתוספת נוגדי החמצון לתמיכה בסגנון חיים בריא. פחמימות מורכבת עשירות בסיבים תזונתיים מסייעות לשמירה על המשקל, יציאות קלות והבריאות הכללית. מכיל פרוביוטיקה פרי פיתוח של שנות מחקר לחיזוק מערכת החיסון וחיידקי העיכול. מכיל כמויות גבוהות של אומגה 3 ו 6 להזנת תאי הגוף, שמירה על חדות המחשבה וטיפוח הפרווה ועור החתול. מזון לחתול סופר פרימיום תוצרת ארה”ב.Rocky Mountain Feline Recipe with Roasted Venison & Smoked Salmon",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%99%D7%99%D7%A1%D7%98-%D7%90%D7%95%D7%A3-%D7%93%D7%94-%D7%95%D7%95%D7%99%D7%9C%D7%93-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A6%D7%91%D7%99-%D7%95%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a6%d7%91%d7%99-%d7%95%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-2/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "125.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "2772",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2772%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2772",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

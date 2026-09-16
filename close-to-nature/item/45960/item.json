@@ -1,0 +1,33 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "רצועת שרשרת הולכה מתכת לכלבים עובי 5 מ״מ",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/45960/",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/10/images-5.jpeg?fit=240%2C210&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a8%d7%a6%d7%95%d7%a2%d7%aa-%d7%a9%d7%a8%d7%a9%d7%a8%d7%aa-%d7%94%d7%95%d7%9c%d7%9b%d7%94-%d7%9e%d7%aa%d7%9b%d7%aa-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a2%d7%95%d7%91%d7%99-5-%d7%9e%d7%b4%d7%9e/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "40.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "45960",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D45960%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=45960",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

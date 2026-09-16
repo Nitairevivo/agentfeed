@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כלי אוכל ושתייה סאביק 3 ליטר Savic Loop",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16242/",
+ "description": "מכשירי מים מודרניים, באיכות גבוהה  \n מתאים לבעלי חיים קטנים, חתולים וכלבים \n עם שפה משולבת גומי נגד החלקה, ליציבות וחסינות נוספת \n מיכל שקוף מאפשר בדיקה קלה של מפלס המים \n קל לנקות \n \n \n \n \n \n \n \n   21  ס”מ \n   14  ס”מ \n   18  ס”מ",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/11/%D7%9E%D7%AA%D7%A7%D7%9F-%D7%9E%D7%99%D7%9D-Savic-Loop-%D7%9B%D7%97%D7%95%D7%9C.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%aa%d7%a7%d7%9f-%d7%9e%d7%99%d7%9d-savic-loop/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "75.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "16242",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16242%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16242",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

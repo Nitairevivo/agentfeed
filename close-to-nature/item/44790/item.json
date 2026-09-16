@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "סונוטיקס sonotix – תמיסה לניקוי אוזניים לכלבים ולחתולים",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/44790/",
+ "description": "תמיסה לניקוי אוזניים לכלבים ולחתולים לא למאכל אדם. לשימוש בבעלי חיים בלבד. יש להרחיק מהישג ידם וטווח ראייתם של ילדים. לשימוש חיצוני בלבד. עלול לגרום לגירוי חמור בעיניים. אין להשתמש במקלות לניקוי אוזניים. תמיסה להסרת שעוות אוזניים. פועלת באופן מהיר ואפקטיבי בזכות שילוב של חומרים לריכוך והמסה של השעווה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/09/Untitled-design-14.png?fit=500%2C500&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a1%d7%95%d7%a0%d7%95%d7%98%d7%99%d7%a7%d7%a1-sonotix-%d7%aa%d7%9e%d7%99%d7%a1%d7%94-%d7%9c%d7%a0%d7%99%d7%a7%d7%95%d7%99-%d7%90%d7%95%d7%96%d7%a0%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91%d7%99/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "89.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "44790",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D44790%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=44790",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

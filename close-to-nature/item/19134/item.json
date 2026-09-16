@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מדף עץ למכרסמים מבית פלמינגו 22x22x1.8 ס”מ",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/19134/",
+ "description": "פינת המושב של פלמינגו עשויה לחלוטין מחומר טבעי. ניתן לנקות בקלות, מתאים לישיבה וכולל חיבור להרכבה.   \n  מידות הן:  \n   22 ס”מ על 22 ס”מ על 1.8 ס”מ.  \n \n    עשוי מעץ טבעי    \n   מתאים למכרסמים.   \n   ניתן להשתמש בכלובים. (הרכבה קלה)   \n   אזור ישיבה",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/02/%D7%9E%D7%93%D7%A3-%D7%A2%D7%A5-%D7%9C%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D-%D7%9E%D7%91%D7%99%D7%AA-%D7%A4%D7%9C%D7%9E%D7%99%D7%A0%D7%92%D7%95-22x22x1.8-%D7%A1%D7%9E.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%91%d7%99%d7%aa-%d7%a2%d7%a5-%d7%9c%d7%90%d7%95%d7%92%d7%a8-%d7%95%d7%9e%d7%9b%d7%a8%d7%a1%d7%9e%d7%99%d7%9d-%d7%a0%d7%95%d7%a1%d7%a4%d7%99%d7%9d-azur-s/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "89.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "19134",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D19134%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=19134",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

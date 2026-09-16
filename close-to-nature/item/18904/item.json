@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כלוב לתוכי BC-10",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18904/",
+ "description": "כלוב לתוכי גדול / בינוני \n כולל: \n \n 2 כלי אוכל מנירוסטה \n מקל עץ לעמידה. \n מגירה נשלפת לניקוי קל \n נייד על גלגלים מידות: \n 46X46 ס”מ גובה 156 ס”מ \n צבע: כסוף \n \n התמונה להמחשה בלבד",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/02/%D7%9B%D7%9C%D7%95-%D7%9C%D7%AA%D7%95%D7%9B%D7%99-BC-10.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9b%d7%9c%d7%95%d7%91-%d7%9c%d7%aa%d7%95%d7%9b%d7%99-bc-10/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "890.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "18904",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18904%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18904",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

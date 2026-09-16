@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐠 תכשיר בקטריה חיה לאקווריום 100 מ”ל / 250 מ”ל JBL Denitrol Aquarium-Starter",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/71357/",
+ "description": "בקטריה חיה לאקווריום  מסדרת  JBL Denitrol  מעניקה פתרון ביולוגי מתקדם להקמה ותחזוקת אקווריומים. התכשיר מפרק ביולוגית אמוניה וניטריט רעילים ומאפשר אכלוס דגים בטוח ומהיר במים מתוקים ומלוחים. \n \n \n 📦  תכולה מדויקת:  100 מ”ל (מתאים ל-3,000 ליטר) / 250 מ”ל (מתאים ל-7,500 ליטר) \n \n \n 🌿  רכיבים / מאפיינים פעילים:  תרכיז בקטריות חיוביות חיות מרוכזות (8 סוגי בקטריות פעילות) ואנזימים מזרזי פירוק \n \n \n 🎯  יתרון מרכזי:  יצירת איזון ביולוגי מיידי, מניעת “תסמונת האקווריום החדש” והגנה על הדגים מפני רעלים \n \n \n 🩺  התוויה / ייעוד:  מיועד לאקווריום מים מתוקים ומלוחים – בהקמה חדשה, החלפות מים או לאחר טיפול תרופתי",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/jbl-denitrol-aquarium-starter-bacteria-100ml-and-250ml.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/jbl-denitrol-aquarium-live-bacteria-starter/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "69.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "71357",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D71357%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=71357",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

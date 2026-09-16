@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אוכל לכלב בוגר בונאסיבו – BonaCibo היפואלרגני עוף ואנשובי 4 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15009/",
+ "description": "לכלבים בוגרים מכל הגזעים    4 ק”ג  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  BonaCibo Adult Dog High Energy  מכיל רמות מוגברות של חלבון ושומן לתמיכה ברמות פעילות גבוהות ופעילות גופנית מתמשכת. \n \n \n \n \n \n \n \n \n⇐ באימונים ⇐ במפרקים ⇐ ביצועים גבוהים",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/10/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%90%D7%A0%D7%A8%D7%92%D7%98%D7%99-%D7%91%D7%9E%D7%99%D7%95%D7%97%D7%93-%D7%91%D7%95%D7%A0%D7%90%D7%A1%D7%99%D7%91%D7%95-BonaCibo-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%A2%D7%95%D7%A3-%D7%95%D7%90%D7%A0%D7%A9%D7%95%D7%91%D7%99-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%90%d7%a0%d7%a8%d7%92%d7%98%d7%99-%d7%91%d7%9e%d7%99%d7%95%d7%97%d7%93-%d7%91%d7%95%d7%a0%d7%90%d7%a1%d7%99%d7%91%d7%95/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "99.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "15009",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15009%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15009",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

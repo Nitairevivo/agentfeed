@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "טטרה משאבת אוויר Tetra APS – מספר גדלים",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47208/",
+ "description": "משאבות אוויר APS בעלות אפקטיביות גבוהה מאוד ופעולה שקטה במיוחד  \n טכנולוגיה חדשנית, יציבות המשאבה, משענת גומי למניעת ריטוט. איכות ואמינות ברמה גבוהה מאוד. אספקת חמצן שוטפת הודות לממברנה חזקה ועמידה לאורך זמן. ווסת אוויר להתאמת עוצמת זרימת אוויר. נוחה בשימוש. בעלת תו תקן TÜV/GS, אישור CE. \n \n מפרט טכני: \n נפח אקווריום: 250 עד 600 ליטר \n תפוקה מקסימאלית: 400 ליטר בשעה \n הספק חשמלי: 4.5 ואט \n מספר יציאות: 2 \n כמות ווסתי אוויר: 2",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/11/118126.jpg?fit=450%2C448&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%98%d7%98%d7%a8%d7%94-%d7%9e%d7%a9%d7%90%d7%91%d7%aa-%d7%90%d7%95%d7%95%d7%99%d7%a8-tetra-aps-%d7%9e%d7%a1%d7%a4%d7%a8-%d7%92%d7%93%d7%9c%d7%99%d7%9d/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "110.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "47208",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47208%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47208",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

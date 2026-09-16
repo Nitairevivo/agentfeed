@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "תוסף פחמן EasyLife EasyCarbo",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15110/",
+ "description": "פחמן חיוני לצמיחה טובה של צמחים  \n  EasyCarbo הוא מקור פחמן חזק ויעיל במיוחד לצמחי אקווריום.  \n  פחמן (בצורת CO2 מומס במים) הוא אחד ממרכיבי התזונה החשובים ביותר לצמיחה מיטבית של צמחים.  אם יש מחסור בפחמן, הצמחים אינם מסוגלים להיטמע ולצמוח בצורה מיטבית. כתוצאה ממחסור זה, צמחים מפסיקים לצמוח ואינם מתחרים עוד באצות על חומרי ההזנה. אם מחסור זה בפחמן נמשך זמן רב מדי, אז הצמחים מתחילים לדלוף סוכרים וחומרים מזינים אחרים המושכים אצות. כתוצאה מכך, עלים מתכסים באצות ונראים לא מושכים. EasyCarbo היא הפתרון לבעיה זו. לאחר כשבועיים של שימוש ב-EasyCarbo, הצמחים גדלים באופן ניכר ונראים טוב יותר. הדבר נכון במיוחד לגבי צמחי ביצות (Cryptocoryne sp., Echinodorus sp., וכו’). כתוצאה מהתחרות המוגברת על חומרי הזנה, האצות מתקשות מאוד לשרוד וברוב המקרים הן נעלמות כליל. \n  השימוש ב- ProFito  ו-EasyCarbo הוא השילוב הנכון.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/10/%D7%AA%D7%95%D7%A1%D7%A3-%D7%A4%D7%97%D7%9E%D7%9F-EasyLife-Easy-Carbo.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%aa%d7%95%d7%a1%d7%a3-%d7%a4%d7%97%d7%9e%d7%9f-easylife-easycarbo/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "45.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "15110",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15110",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

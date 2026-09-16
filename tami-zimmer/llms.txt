@@ -6,13 +6,13 @@ Brands carried: אירוח כפרי אצל תמי
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [צימר עם ג'קוזי פרטי — אירוח כפרי אצל תמי, נאות גולן, רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-zimmer/
-- [צימר נגיש לבעלי מוגבלויות — אירוח כפרי אצל תמי, רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-accessible/
-- [ארוחות בתיאום עם שף — בוקר או ערב, אירוח כפרי אצל תמי](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-meals/
-- [אירוח כנסים ואירועים עד 50 איש — רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-events/
-- [תנאי הזמנה, תשלום וביטול — אירוח כפרי אצל תמי](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-terms/
+- [צימר עם ג'קוזי פרטי — אירוח כפרי אצל תמי, נאות גולן, רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-zimmer/ · json: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-zimmer/item.json
+- [צימר נגיש לבעלי מוגבלויות — אירוח כפרי אצל תמי, רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-accessible/ · json: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-accessible/item.json
+- [ארוחות בתיאום עם שף — בוקר או ערב, אירוח כפרי אצל תמי](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-meals/ · json: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-meals/item.json
+- [אירוח כנסים ואירועים עד 50 איש — רמת הגולן](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-events/ · json: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-events/item.json
+- [תנאי הזמנה, תשלום וביטול — אירוח כפרי אצל תמי](https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-terms/ · json: https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-terms/item.json
 
 ## Not published by this business
 

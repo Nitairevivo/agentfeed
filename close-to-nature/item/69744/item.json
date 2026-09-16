@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🦴 מקלות מצופים עוף לכלב Yummiz Chicken Wrap Rawhide Stick חטיף לעיסה מפנק 300 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69744/",
+ "description": "חטיף לעיסה משובח המשלב מקלות עור בקר איכותיים העטופים בשכבת בשר עוף אמיתי ועסיסי  . החטיף מעניק לכלב חווית לעיסה ממושכת וטעימה, המפיגה שעמום ומסייעת בשמירה על היגיינת הפה  .  \n \n  📦  תכולה מדויקת:  300 גרם בשקית  .  \n  🛠️  מינון יומי מהיר:  1-2 מקלות ביום, בהתאם לגודל הכלב  .  \n  🌿  רכיבים פעילים:  עור בקר טבעי ונקי, בשר עוף טרי  .  \n  🎯  יתרון מרכזי:  תעסוקה ממושכת לצד טעימות בשרית מטורפת שכלבים אוהבים  .  \n  🩺  התוויה רפואית:  מסייע בניקוי אבנית, הסרת רובד חיידקים וחיזוק הלסת  .  \n  🛡️  בקרת איכות:  מיוצר בסטנדרטים בינלאומיים תחת פיקוח מלא  .  \n  🚀  שיקום מהיר:  מפיג שעמום, פורק אנרגיה ומספק לכלב פינוק שמשרה רוגע  .",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/07/yummiz-chicken-wrap-rawhide-stick-300g.jpg?fit=750%2C750&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/yummiz-chicken-wrap-rawhide-stick-300g/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "45.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "69744",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69744%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69744",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

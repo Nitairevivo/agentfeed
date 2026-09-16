@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כלוב לאוגר מטרו גן עדן, גדול במיוחד SAVIC",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17967/",
+ "description": "כלוב לאוגרים  גדול במיוחד,  בכלוב הזה יש כל מה שאוגר יכול לאחל לו. משטח הבסיס הגדול מבטיח הרבה השתובבות וכיף מנהור. הכלוב מגיע עם שתי במות מוגבהות, שני בתים, שתי קערות האכלה, בקבוק שתייה, גלגל רץ, מנהרה חיצונית עם חורי אוורור ושירותים לאוגרים. על גבי הכלוב יש מה שאפשר לכנות פנטהאוז שמציע לאוגר שלכם נקודת תצפית נפלאה. \n \n \n \nהידיות משני הצדדים הופכות את הזזת הכלוב למשימה קלה. \n  כדי להאכיל או ללטף את האוגר שלך, הדלת הגדולה מעניקה לך גישה נוחה לאוגר שלך. \n \n \n \n מידות: \n \n 80 ס”מ \n 50 ס”מ \n 50 ס”מ",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/01/%D7%9B%D7%9C%D7%95%D7%91-%D7%9C%D7%90%D7%95%D7%92%D7%A8-%D7%9E%D7%98%D7%A8%D7%95-%D7%92%D7%95-%D7%A2%D7%93%D7%9F-%D7%92%D7%93%D7%95%D7%9C-%D7%91%D7%9E%D7%99%D7%95%D7%97%D7%93-SAVIC.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9b%d7%9c%d7%95%d7%91-%d7%9c%d7%90%d7%95%d7%92%d7%a8-%d7%9e%d7%98%d7%a8%d7%95-%d7%92%d7%9f-%d7%a2%d7%93%d7%9f-%d7%92%d7%93%d7%95%d7%9c-%d7%91%d7%9e%d7%99%d7%95%d7%97%d7%93-savic/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "759.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "17967",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17967%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17967",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

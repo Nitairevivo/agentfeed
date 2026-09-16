@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "המסרק החכם שמדלל ומעצב שיער תוך שניות כי \"רק קצוות\" לא אמור להפוך לחצי מהשיער שלך- Luma",
+ "url": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/15050526261613/",
+ "description": "כמה פעמים יצאת מהספרית ואמרת לעצמך:   \"רק קצוות...\"   ואז הסתכלת במראה וגילית שהשיער שלך קצר יותר ממה שרצית?  \n  התחושה הזאת מוכרת מדי.  \n  את משקיעה חודשים בגידול השיער, מטפחת אותו באהבה, מחכה שיגיע לאורך שאת אוהבת – ואז ביקור אחד במספרה מוחק חודשים של סבלנות.  \n  Luma נוצר בדיוק בשביל הרגע הזה.  \n  עכשיו אפשר לטפל בקצוות בבית, בזמן שלך, בקצב שלך, ועם שליטה מלאה על השיער שאת כל כך אוהבת.",
+ "image": "https://cdn.shopify.com/s/files/1/0980/2648/8173/files/ChatGPT_Image_Aug_29_2026_12_31_13_PM.png?v=1787995891",
+ "brand": {
+  "@type": "Brand",
+  "name": "sunset glow"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://www.sunsetglow.co.il/products/המסרק-החכם-שמדלל-ומעצב-שיער-תוך-שניות-lumea?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "Sunset glow",
+   "url": "https://www.sunsetglow.co.il"
+  },
+  "price": "169.99",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "15050526261613",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/sunset-glow/",
+  "name": "Sunset glow"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2F%D7%94%D7%9E%D7%A1%D7%A8%D7%A7-%D7%94%D7%97%D7%9B%D7%9D-%D7%A9%D7%9E%D7%93%D7%9C%D7%9C-%D7%95%D7%9E%D7%A2%D7%A6%D7%91-%D7%A9%D7%99%D7%A2%D7%A8-%D7%AA%D7%95%D7%9A-%D7%A9%D7%A0%D7%99%D7%95%D7%AA-lumea%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=15050526261613",
+  "name": "product_page"
+ },
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

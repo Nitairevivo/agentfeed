@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "עוגיות לכלב דוגסי ג’יגה-בייטס בטעם גזר 300 גרם Dogsee Gigabites",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/64761/",
+ "description": "🥕 חטיף בריאות עוצמתי לחיזוק הכלב! \nהעניקו לכלב שלכם הגנה טבעית בכל נגיסה. עוגיות Dogsee Gigabites בטעם גזר פותחו במיוחד כ-“Immunity Booster” – תוספת בריאה המסייעת לחיזוק המערכת החיסונית של הכלב בזכות ריכוז גבוה של בטא-קרוטן וויטמינים חיוניים הנמצאים בגזר טרי. \n העוגיות נאפות בתנור למרקם פריך במיוחד, מה שמסייע גם בניקוי השיניים תוך כדי לעיסה. \n 🛡️ Immunity Booster: מסייע בחיזוק ההגנה הטבעית של הגוף. \n🦷 מרקם פריך (Oven Baked): תורם להיגיינת הפה והשיניים. \n🚫 ללא גלוטן: אינו מכיל דגנים המעוררים רגישות. \n🌟 פרימיום קוואליטי: איכות ללא פשרות עם רכיבים שנבחרו בקפידה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A2%D7%95%D7%92%D7%99%D7%95%D7%AA-%D7%9C%D7%9B%D7%9C%D7%91-%D7%93%D7%95%D7%92%D7%A1%D7%99-%D7%92%D7%99%D7%92%D7%94-%D7%91%D7%99%D7%99%D7%98%D7%A1-%D7%91%D7%98%D7%A2%D7%9D-%D7%92%D7%96%D7%A8-300-%D7%92%D7%A8%D7%9D-Dogsee-Gigabites.jpg?fit=1100%2C1100&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/dogsee-gigabites-carrot-immunity-booster-dog-cookies/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "25.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "64761",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D64761%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=64761",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

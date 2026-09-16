@@ -6,12 +6,12 @@ Brands carried: My Store, sunset glow
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [🌸 מגבת המיקרופייבר ששומרת על השיער שלך](https://www.sunsetglow.co.il/products/🌸-מגבת-המיקרופייבר-ששומרת-על-השיער-שלך?utm_source=agentfeed&utm_medium=ai) — 79.99 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/15068627173741/
-- [המסרק החכם שמדלל ומעצב שיער תוך שניות כי "רק קצוות" לא אמור להפוך לחצי מהשיער שלך- Luma](https://www.sunsetglow.co.il/products/המסרק-החכם-שמדלל-ומעצב-שיער-תוך-שניות-lumea?utm_source=agentfeed&utm_medium=ai) — 169.99 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/15050526261613/
-- [HairBloom – מסרק טיפוח לקרקפת עם LED אדום, עיסוי ופיזור סרום](https://www.sunsetglow.co.il/products/scalpflow-pro-המסרק-שמחזיר-לחיים-את-הקרקפת-שלך-ומעיר-את-השיער-מבפנים?utm_source=agentfeed&utm_medium=ai) — 159.95 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/14958907228525/
-- [המיני מחליק האלחוטי – שיער מסודר בכל מקום](https://www.sunsetglow.co.il/products/minipro-2026?utm_source=agentfeed&utm_medium=ai) — 129.95 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/14902505308525/
+- [🌸 מגבת המיקרופייבר ששומרת על השיער שלך](https://www.sunsetglow.co.il/products/🌸-מגבת-המיקרופייבר-ששומרת-על-השיער-שלך?utm_source=agentfeed&utm_medium=ai) — 79.99 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/15068627173741/ · json: https://nitairevivo.github.io/agentfeed/sunset-glow/item/15068627173741/item.json
+- [המסרק החכם שמדלל ומעצב שיער תוך שניות כי "רק קצוות" לא אמור להפוך לחצי מהשיער שלך- Luma](https://www.sunsetglow.co.il/products/המסרק-החכם-שמדלל-ומעצב-שיער-תוך-שניות-lumea?utm_source=agentfeed&utm_medium=ai) — 169.99 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/15050526261613/ · json: https://nitairevivo.github.io/agentfeed/sunset-glow/item/15050526261613/item.json
+- [HairBloom – מסרק טיפוח לקרקפת עם LED אדום, עיסוי ופיזור סרום](https://www.sunsetglow.co.il/products/scalpflow-pro-המסרק-שמחזיר-לחיים-את-הקרקפת-שלך-ומעיר-את-השיער-מבפנים?utm_source=agentfeed&utm_medium=ai) — 159.95 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/14958907228525/ · json: https://nitairevivo.github.io/agentfeed/sunset-glow/item/14958907228525/item.json
+- [המיני מחליק האלחוטי – שיער מסודר בכל מקום](https://www.sunsetglow.co.il/products/minipro-2026?utm_source=agentfeed&utm_medium=ai) — 129.95 ILS · page: https://nitairevivo.github.io/agentfeed/sunset-glow/item/14902505308525/ · json: https://nitairevivo.github.io/agentfeed/sunset-glow/item/14902505308525/item.json
 
 ## Not published by this business
 

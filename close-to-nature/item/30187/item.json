@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מסנן למזרקת מים פיקסי לחתולים וכלבים CatIt PIXI",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/30187/",
+ "description": "מסנן מים בעל ביצועים גבוהים עבור  מזרקת מים Catit PIXI  \nרק אחד בודד ממסנני המזרקות של PIXI בגודל כיס יעזור לשמור על טריות מי השתייה של החתול שלך למשך חודש שלם, ואף מפחית את הסיכון למחלות בדרכי השתן. \n \n מתאים לכל מזרקת שתייה Catit PIXI \n מידות: 8.5×8.5×0.9 ס”מ",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/06/%D7%9E%D7%A1%D7%A0%D7%A0%D7%99-%D7%9E%D7%96%D7%A8%D7%A7%D7%AA-%D7%9E%D7%99%D7%9D-%D7%A4%D7%99%D7%A7%D7%A1%D7%99-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%9B%D7%9C%D7%91%D7%99%D7%9D-CatIt-PIXI.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%a1%d7%a0%d7%9f-%d7%9c%d7%9e%d7%96%d7%a8%d7%a7%d7%aa-%d7%9e%d7%99%d7%9d-%d7%a4%d7%99%d7%a7%d7%a1%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%95%d7%9b%d7%9c%d7%91%d7%99%d7%9d-catit-pi/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "38.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "30187",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D30187%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30187",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

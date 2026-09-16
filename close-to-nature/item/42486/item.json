@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "ווסבי – שמפו רפואי לכלב ולחתול 250 מ”ל – Vetsbi",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/42486/",
+ "description": "ווסבי – שמפו רפואי לכלב ולחתול – Vetsbi \nA – היפרסנסיב  \n  שמפו רפואי עדין במיוחד המועשר באלוורה ובתמצית שיבולת שועל המסייע בהפחתת גירוד.      \nאנטי דלקתי המתקן רקמות, מפחית גירוד של עור פגום ומחזק את הלחות העור אשר עושה אותו רך וגמיש יותר. \nבעל תכונות מרגיעות לעור הכלב ולחתול. \nתכולה: 250 מ”ל. מבית GOSBI.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/06/%D7%95%D7%95%D7%A1%D7%91%D7%99-%D7%A9%D7%9E%D7%A4%D7%95-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%95%D7%9C%D7%97%D7%AA%D7%95%D7%9C-Vetsbi.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%95%d7%95%d7%a1%d7%91%d7%99-%d7%a9%d7%9e%d7%a4%d7%95-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%95%d7%9c%d7%97%d7%aa%d7%95%d7%9c-250-%d7%9e%d7%9c-vetsbi/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "119.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "42486",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D42486%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=42486",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

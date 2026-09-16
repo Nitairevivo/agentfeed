@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐾 חול טופו מתגבש לחתולים אומן ג’י במגוון ניחוחות 6 ליטר ליח’ / קרטון 6 יחידות OMEN G Tofu Cat Litter",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/67865/",
+ "description": "חול טופו מתגבש ואיכותי לחתולים העשוי מרכיבים טבעיים בלבד, מציע התגבשות סופר מהירה, נטרול ריחות עוצמתי ושמירה מלאה על היגיינת הבית ונוחות כפות הרגליים של החתול. \n \n \n 🌱  100% רכיבים טבעיים : מבוסס על אבקת אפונה אורגנית ועמילן בטוח וידידותי לחתול. \n \n \n ⏳  התגבשות מהירה (Fast Clumping) : יוצר גושים מוצקים ברגע המגע עם נוזל לפינוי קל ומהיר. \n \n \n 🔇  נטרול ריחות יעיל (Efficient Odor Removal) : לוכד ומנטרל ריחות רעים בארגז הצרכים לאורך זמן. \n \n \n 🐾  נוחות מירבית (Foot Comfort) : מרקם עדין ונעים למגע המותאם לחתולים בכל הגילאים.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/06/omen-g-tofu-cat-litter-6l.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/omen-g-tofu-cat-litter-6l-case/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "42.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "67865",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D67865%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=67865",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

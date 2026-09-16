@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "נאו NOW אוכל לכלבים בוגרים ללא דגנים – שק 2.72 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3336/",
+ "description": "אוכל לכלבים NOW FRESH לכלב בוגר ללא דגנים עשוי 100% בשר הודו, ברווז וסלמון טרי. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס או סויה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A0%D7%90%D7%95-NOW-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%93%D7%92%D7%A0%D7%99%D7%9D-%D7%A9%D7%A7-2.72-%D7%A7%D7%92-%D7%A0%D7%90%D7%95-NOW.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a0%d7%90%d7%95-now-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%a9%d7%a7-2-72/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "139.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "3336",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3336",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

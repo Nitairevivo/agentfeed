@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מונג’ סטרטר מדיום 15 ק”ג שק מגדלים – תזונה מקצועית לגורים",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/61795/",
+ "description": "מונג’ סטרטר מדיום – הזנה מקצועית לצמיחה מאוזנת של גורי גזע בינוני \n השלב הראשון בחיי הגור הוא הקריטי ביותר.  Monge Starter Medium  מספק את כל אבות המזון הנדרשים לגדילה בריאה ומאוזנת של גורים מגזע בינוני. הפורמולה העשירה מתאימה גם לאמהות בתקופת ההיריון וההנקה, ומבטיחה התפתחות תקינה ורמות אנרגיה גבוהות. \n \n   משקל: 15 ק”ג",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/01/%D7%9E%D7%95%D7%A0%D7%92-%D7%A1%D7%98%D7%A8%D7%98%D7%A8-%D7%9E%D7%93%D7%99%D7%95%D7%9D-15-%D7%A7%D7%92-%D7%A9%D7%A7-%D7%9E%D7%92%D7%93%D7%9C%D7%99%D7%9D-%E2%80%93-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%AA-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%a1%d7%98%d7%a8%d7%98%d7%a8-%d7%9e%d7%93%d7%99%d7%95%d7%9d-15-%d7%a7%d7%92-%d7%a9%d7%a7-%d7%9e%d7%92%d7%93%d7%9c%d7%99%d7%9d-%d7%aa%d7%96%d7%95%d7%a0%d7%94/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "299.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "61795",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61795%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61795",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

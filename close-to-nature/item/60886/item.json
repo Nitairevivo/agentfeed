@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🦴 חטיפי Bully (בולי) לכלבים – חוויית לעיסה טבעית ומפנקת 15 יח’",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/60886/",
+ "description": "הפינוק המושלם לכלב שלך במגוון טעמים משכרים!  \n סדרת חטיפי  Bully  מציעה לכלב שלכם הרבה יותר מסתם חטיף. מדובר בחוויה קולינרית המשלבת רכיבים איכותיים, מרקם לעיס ומהנה ושלל טעמים שכלבים פשוט לא יכולים לעמוד בפניהם. החטיפים מעוצבים לשמירה על בריאות השן, סיפוק יצר הלעיסה הטבעי והענקת רגע של אושר במהלך היום. \n  מערבבים, טועמים וחוסכים: 15 יחידות ב-99 ₪ בלבד!",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/12/%D7%97%D7%98%D7%99%D7%A4%D7%99-Bully-%D7%91%D7%95%D7%9C%D7%99-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%E2%80%93-%D7%97%D7%95%D7%95%D7%99%D7%99%D7%AA-%D7%9C%D7%A2%D7%99%D7%A1%D7%94-%D7%98%D7%91%D7%A2%D7%99%D7%AA-%D7%95%D7%9E%D7%A4%D7%A0%D7%A7%D7%AA.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%f0%9f%a6%b4-%d7%97%d7%98%d7%99%d7%a4%d7%99-bully-%d7%91%d7%95%d7%9c%d7%99-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%97%d7%95%d7%95%d7%99%d7%99%d7%aa-%d7%9c%d7%a2%d7%99%d7%a1%d7%94-%d7%98/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "99.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "60886",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D60886%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=60886",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

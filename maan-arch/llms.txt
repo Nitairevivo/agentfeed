@@ -6,18 +6,18 @@ Brands carried: מען אדריכלים ומהנדסים
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [תכנון אדריכלי](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-design/
-- [רישוי והיתר בנייה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-permit/
-- [תכנון קונסטרוקציה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-structural/
-- [פיקוח בנייה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-supervision/
-- [בנייה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-construction/
-- [תעודת גמר](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-completion/
-- [תוספות בנייה ושינויים בבתים קיימים](https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-additions/
-- [תכנון בריכות שחייה](https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-pool/
-- [שינוי ייעוד קרקע, הקלות והסדרת חריגות](https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-landuse/
-- [תכנון מבני ציבור](https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-public/
+- [תכנון אדריכלי](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-design/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-design/item.json
+- [רישוי והיתר בנייה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-permit/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-permit/item.json
+- [תכנון קונסטרוקציה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-structural/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-structural/item.json
+- [פיקוח בנייה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-supervision/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-supervision/item.json
+- [בנייה](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-construction/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-construction/item.json
+- [תעודת גמר](https://www.maanarch.com?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-completion/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-completion/item.json
+- [תוספות בנייה ושינויים בבתים קיימים](https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-additions/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-additions/item.json
+- [תכנון בריכות שחייה](https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-pool/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-pool/item.json
+- [שינוי ייעוד קרקע, הקלות והסדרת חריגות](https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-landuse/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-landuse/item.json
+- [תכנון מבני ציבור](https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-public/ · json: https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-public/item.json
 
 ## Not published by this business
 

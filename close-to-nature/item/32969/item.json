@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חטיף סטיק פרמיום לחתול 6 יח’ במארז TOMI",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/32969/",
+ "description": "מקלות TOMI – מכילים 95% בשר. פינוק נהדר לאושר הקטן שלך אבל מעל הכל הוא בריא ותזונתי. זה בהחלט פינוק מספר אחד לכל החתולים. עשוי מחתיכות הבשר המשובחות, מה שמבטיח טעם, ריח וערך תזונתי גבוה.  בשל האריזה שלו, פינוק זה אידיאלי לנסיעות, מכיוון שהוא תמיד נשאר טרי ורך.  זה גם פרס אידיאלי באימון או פשוט כפינוק בין הארוחות. ארוחה זו ללא תוספת סוכר, צבע או טעם מלאכותי והכי חשוב היא ללא GMO.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/08/%D7%97%D7%98%D7%99%D7%A3-%D7%A1%D7%98%D7%99%D7%A7-%D7%A4%D7%A8%D7%9E%D7%99%D7%95%D7%9D-6-%D7%99%D7%97-%D7%91%D7%9E%D7%90%D7%A8%D7%96-TOMI.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%a1%d7%98%d7%99%d7%a7-%d7%a4%d7%a8%d7%9e%d7%99%d7%95%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-6-%d7%99%d7%97-%d7%91%d7%9e%d7%90%d7%a8%d7%96-tomi/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "19.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "32969",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D32969%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32969",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

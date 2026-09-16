@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מאמינט אוכל לכלבים בטעם כבש 20 ק״ג MAMYNAT",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41318/",
+ "description": "מאמינט אוכל לכלבים בטעם כבש 20 ק״ג MAMYNAT  \n מזון מלא באנרגיות לכלבים בוגרים. \n   הרכב: דגנים, בשר ונגזרות (32%), שמנים    , תוצרים ממקור צמחי (עיסה של     סלק מיובש 1.5%), חומרים מינרלים.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/05/%D7%9E%D7%90%D7%9E%D7%99%D7%A0%D7%98-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%98%D7%A2%D7%9D-%D7%9B%D7%91%D7%A9-20-%D7%A7%D7%B4%D7%92-MAMYNAT.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%90%d7%9e%d7%99%d7%a0%d7%98-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%98%d7%a2%d7%9d-%d7%9b%d7%91%d7%a9-20-%d7%a7%d7%b4%d7%92-mamynat/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "289.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "41318",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41318%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41318",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

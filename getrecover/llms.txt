@@ -6,16 +6,16 @@ Brands carried: GetRecover
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [שחזור חשבון אינסטגרם שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-instagram/
-- [שחזור חשבון פייסבוק שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-facebook/
-- [שחזור חשבון טיקטוק שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-tiktok/
-- [שחזור חשבון טלגרם שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-telegram/
-- [שחזור חשבון גימייל שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-gmail/
-- [שחזור חשבון טוויטר שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-twitter/
-- [שחזור חשבון לינקדאין שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-linkedin/
-- [הצעת מחיר לשחזור חשבון — שאלון ותמחור לפי מורכבות](https://getrecover.co.il/Questionnaire?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-quote/
+- [שחזור חשבון אינסטגרם שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-instagram/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-instagram/item.json
+- [שחזור חשבון פייסבוק שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-facebook/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-facebook/item.json
+- [שחזור חשבון טיקטוק שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-tiktok/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-tiktok/item.json
+- [שחזור חשבון טלגרם שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-telegram/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-telegram/item.json
+- [שחזור חשבון גימייל שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-gmail/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-gmail/item.json
+- [שחזור חשבון טוויטר שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-twitter/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-twitter/item.json
+- [שחזור חשבון לינקדאין שנפרץ, נחסם או ננעל — GetRecover](https://getrecover.co.il?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-linkedin/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-linkedin/item.json
+- [הצעת מחיר לשחזור חשבון — שאלון ותמחור לפי מורכבות](https://getrecover.co.il/Questionnaire?utm_source=agentfeed&utm_medium=ai) — · page: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-quote/ · json: https://nitairevivo.github.io/agentfeed/getrecover/item/getrecover-quote/item.json
 
 ## Not published by this business
 

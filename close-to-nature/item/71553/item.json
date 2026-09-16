@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🦴 קארניס לשון בקר מיובשת לכלב 60 גרם Carnis",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/71553/",
+ "description": "חטיף פרימיום טבעי מבית  Carnis , העשוי מ- 100% לשון בקר איכותית  שעברה ייבוש איטי ומבוקר. מעניק מענה איכותי לקטגוריית  חטיפי בקר טבעיים לכלבים , עשיר בטעם בשרי עמוק ומתאים כצ’ופר יוקרתי או  חטיף אילוף מומלץ לכלבים . \n \n \n 📦  תכולה מדויקת:  60 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% לשון בקר מיובשת, ללא דגנים, ללא סוכר וללא חומרים משמרים \n \n \n 🎯  יתרון מרכזי:  עשיר בחלבון איכותי, שומן בריא וברזל, בעל ארומה טבעית חזקה המפתה גם כלבים בררנים",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-beef-udder-jerky-dog-treats.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/carnis-dried-beef-tongue-dog-treats-60g/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "12.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "71553",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D71553%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=71553",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,42 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "השכרת עמדת דיג'יי פרימיום מעוצבת — עמדות קונספט להשכרה",
+ "url": "https://nitairevivo.github.io/agentfeed/dj-rent/item/djrent-premium-designed-booth/",
+ "description": "עמדות קונספט מיוחדות ומעוצבות בהתאמה אישית לאירוע. מחיר לפי דגם ומורכבות ההפקה, בתיאום מראש. העסק לא פרסם מחיר לפריט זה. המחיר הוא לאיסוף עצמי והחזרה מטירת הכרמל; הובלה והתקנה בתיאום מראש ובתוספת תשלום, לפי מרחק ותנאי גישה. כלול בהשכרה: עיצוב בהתאמה אישית · לאירועי קונספט והפקות · כולל התקנה · מחיר לפי דגם · בדיקה מלאה לפני כל מסירה · תמיכה טלפונית ביום האירוע. השכרה בטלפון או בוואטסאפ 050-780-7444.",
+ "image": "https://media.base44.com/images/public/6a70793b6d1bf0c7e46922f8/732acba26_generated_image.png/v1/fill/w_474,h_474,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/732acba26_generated_image.webp",
+ "brand": {
+  "@type": "Brand",
+  "name": "DJ Rent"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://djrent.co.il/rent/gear/premium-designed-booth?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "DJ Rent",
+   "url": "https://djrent.co.il"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "djrent-premium-designed-booth",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/dj-rent/",
+  "name": "DJ Rent"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://wa.me/972507807444?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%A2%D7%9E%D7%93%D7%AA%20%D7%93%D7%99%D7%92%27%D7%99%D7%99%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D%20%D7%9E%D7%A2%D7%95%D7%A6%D7%91%D7%AA%20%E2%80%94%20%D7%A2%D7%9E%D7%93%D7%95%D7%AA%20%D7%A7%D7%95%D7%A0%D7%A1%D7%A4%D7%98%20%D7%9C%D7%94%D7%A9%D7%9B%D7%A8%D7%94%D7%B4.",
+  "name": "whatsapp"
+ },
+ "seller_phone": "050-780-7444",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "שימורים לחתולים קרני אושן סלמון וסרדינים 80 גר’",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5226/",
+ "description": "Adult salmon + youngardine Carny Ocean 80 G. מזון רטוב לחתולים, עשוי מנתחים מובחרים של דגים. מתאים במיוחד לחתולים בוגרים ומספק את התזונה ברמה הגבוהה ביותר. חברת אנימונדה הגרמנית השקיעה רבות בפיתוח אוכל לחתולים, מתוך רצון לשלב טעימות ואיכות חסרת פשרות וכל זה תוך הימנעות מוחלטת בשימוש בחומרי טעם מלאכותיים וחומרי שימור.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A7%D7%A8%D7%A0%D7%99-%D7%90%D7%95%D7%A9%D7%9F-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%95%D7%A1%D7%A8%D7%93%D7%99%D7%A0%D7%99%D7%9D-80-%D7%92%D7%A8.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a7%d7%a8%d7%a0%d7%99-%d7%90%d7%95%d7%a9%d7%9f-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%95%d7%a1%d7%a8%d7%93%d7%99/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "8.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "5226",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5226%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5226",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

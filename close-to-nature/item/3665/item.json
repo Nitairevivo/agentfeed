@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "וט לייף – Vet Life – מזון רפואי לכלב בוגר ומסורס במשקל 10 ק”ג ומעלה למניעת מחלות עקב השמנה – 2 ק”ג פארמינה Farmina",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3665/",
+ "description": "מזון רפואי מלא לכלב בוגר ומסורס במשקל 10 ק”ג ומעלה, הסובל מבעיות משקל. מזון ייעודי להקטנת הסיכון לסוכרת ואבנים בכליות. מגיע בשקים של 2 ו-10 ק”ג. NEUTERED +10KG CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%95%D7%9E%D7%A1%D7%95%D7%A8%D7%A1-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%95%D7%9E%D7%A2%D7%9C%D7%94-%D7%9C%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%9E%D7%97%D7%9C%D7%95%D7%AA-%D7%A2%D7%A7%D7%91-%D7%94%D7%A9%D7%9E%D7%A0%D7%94-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%95%d7%9e%d7%a1%d7%95%d7%a8%d7%a1-%d7%91/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "109.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "3665",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3665%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3665",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

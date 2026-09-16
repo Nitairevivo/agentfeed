@@ -6,9 +6,9 @@ Brands carried: צוקייה
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [לינה בדירת אירוח — צוקייה, חד נס, רמת הגולן](https://wa.me/972506595838) — · page: https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/
+- [לינה בדירת אירוח — צוקייה, חד נס, רמת הגולן](https://wa.me/972506595838) — · page: https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/ · json: https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/item.json
 
 ## Not published by this business
 

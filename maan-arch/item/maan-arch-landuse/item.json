@@ -1,0 +1,47 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "שינוי ייעוד קרקע, הקלות והסדרת חריגות",
+ "url": "https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-landuse/",
+ "description": "בלשון האתר: 'שינוי יעודי קרקעות, הקלות בנייה, הסדרת חריגות, והסדרת קרקעות'. האתר מזכיר גם התמחות בהרחבות בקיבוצים ובתוספות בנייה מורכבות. מול אילו ועדות ומה משך ההליך — לא פורסם לשירות הזה. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+ "image": "https://static.wixstatic.com/media/4911ae_f1703fd944cc4281a0b657fc087b395e~mv2.jpg/v1/fill/w_890,h_631,q_90,enc_avif,quality_auto/4911ae_f1703fd944cc4281a0b657fc087b395e~mv2.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "מען אדריכלים ומהנדסים"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://www.maanarch.com/about?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מען אדריכלים ומהנדסים",
+   "url": "https://maanarch.com"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "maan-arch-landuse",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/maan-arch/",
+  "name": "מען אדריכלים ומהנדסים"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "tel:0527570064",
+  "name": "phone"
+ },
+ "seller_phone": "052-757-0064",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

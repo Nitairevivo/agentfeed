@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מולטיסול תוסף תזונה לציפורים Bio PetActive",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/23613/",
+ "description": "תוסף תזונה מולטיסול מבית Bio PetActive מסייע במתן צרכי ויטמין יומיומיים של כנריות, פינקים ותוכים. \n \n \n  ויטמין E  \n  מונע מחלות הנובעות ממחסור בוויטמינים ומגבירים את עמידותם.   \n  תמיכה במהלך טיפול במחלות בהן צריכת חומרים מזינים וויטמינים מוגבלת.   \n  להשיג השפעה טובה יותר מהאוכל.   \n  הגן מפני השפעות שליליות של גורמי לחץ.   \n  הגדל את הביצועים בעונות ההזדווגות; והקל על מעבר תקופות החלפת נוצות.  \n \n  מגיע במארז של 30 מ”ל",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/10/%D7%9E%D7%95%D7%9C%D7%98%D7%99%D7%A1%D7%95%D7%9C-%D7%AA%D7%95%D7%A1%D7%A3-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%9C%D7%A6%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D-Bio-PetActive.png?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%9c%d7%98%d7%99%d7%a1%d7%95%d7%9c-%d7%aa%d7%95%d7%a1%d7%a3-%d7%aa%d7%96%d7%95%d7%a0%d7%94-%d7%9c%d7%a6%d7%99%d7%a4%d7%95%d7%a8%d7%99%d7%9d-bio-petactive/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "35.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "23613",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D23613%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=23613",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

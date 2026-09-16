@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🥩 מזון יבש סופר פרימיום לחתולים בוגרים פראמי קרניבור Pramy Carnivore – אריזת 7 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69819/",
+ "description": "סדרת Pramy Carnivore מציגה תפיסה תזונתית מתקדמת המבוססת על תזונה עשירה בחלבון מן החי (מינימום 30% חלבון) המותאמת בדיוק לצרכים הביולוגיים של החתול שלכם. השוס הגדול של האריזה: השק מחולק פנימית ל-7 שקיות הרמטיות נפרדות של 1 ק”ג כל אחת! אין יותר אוכל שעומד פתוח, מתייבש ומאבד ארומה – כל שבוע פותחים שקית חדשה ונהנים מטריות מוחלטת וטעימות מטורפת. \n 💰  מחיר משתלם במיוחד:  שק בודד ב-169 ש”ח | מבצע זוגות מטורף: 2 שקים ב-289 ש”ח בלבד! \n 📦  אריזת טריות מוגנת:  7 ק”ג המחולקים פנימית ל-7 שקיות נפרדות של 1 ק”ג לשמירת הארומה. \n 🩺  בריאות אופטימלית:  עשיר בטאורין לראייה וללב, אומגה 3 ו-6 לפרווה מבריקה, וסיבים למניעת כדורי שיער.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/07/pramy-carnivore-adult-dry-cat-food-all-flavors-main-image.jpg?fit=750%2C750&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/pramy-carnivore-adult-cat-dry-food-7kg/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "169.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "69819",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69819%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69819",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

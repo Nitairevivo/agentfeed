@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "פיור לייף מזון יבש לכלב בוגר גזע קטן – אדולט מיני – שק 2 ק”ג Pure Life",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4103/",
+ "description": "העניקו לחברכם הפרוותי הקטן תזונה מדויקת ומפנקת עם  Flatazor Pure Life Adult Mini  – מזון יבש מלא ואיכותי במיוחד מבית  Flatazor  הצרפתי. פורמולה ייחודית זו פותחה בקפידה עבור  כלבים בוגרים מגזע קטן (במשקל 10 ק”ג ומטה) , כדי לספק מענה מדויק לצרכיהם האנרגטיים והתזונתיים הייחודיים. \n  פיור לייף אדולט מיני  בולט בזכות הרכבו המתקדם: \n \n  100% ללא דגנים | 100% ללא גלוטן:  פורמולה היפואלרגנית, אידיאלית לכלבים רגישים או כאלה הסובלים מאלרגיות למזון, ומבטיחה עיכול קל ונוחות מרבית. \n  85% מהחלבונים ממקור חי:  עשיר בחלבונים איכותיים ממקורות נבחרים כמו  ברווז ודג לבן  (יחד עם עוף, הודו וחזיר). חלבונים אלה חיוניים לשמירה על מסת שריר אופטימלית ואספקת אנרגיה יומיומית. \n  עם ברווז ודג לבן:  שילוב טעים ומזין של מקורות חלבון מובחרים, כאשר הברווז מוסיף טעם עשיר, והדגים תורמים חומצות שומן חיוניות מסוג אומגה 3, התומכות בבריאות העור והפרווה המבריקה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-%E2%80%93-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%9E%D7%99%D7%A0%D7%99-%E2%80%93-%D7%A9%D7%A7-2-%D7%A7%D7%92-Pure-Life.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%90%d7%93%d7%95/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "149.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "4103",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

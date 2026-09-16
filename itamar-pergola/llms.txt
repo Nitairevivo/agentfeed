@@ -6,12 +6,12 @@ Brands carried: איתמר פרגולה
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [בניית פרגולת אלומיניום בהתאמה אישית](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-aluminium/
-- [בניית פרגולת עץ בהתאמה אישית](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-wood/
-- [פרגולת אלומיניום כשרה לסוכה — פאטנט הלכתי ייחודי](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-sukkah-kosher/
-- [הגעה לבית הלקוח לייעוץ ותכנון — ללא עלות](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-home-consultation/
+- [בניית פרגולת אלומיניום בהתאמה אישית](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-aluminium/ · json: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-aluminium/item.json
+- [בניית פרגולת עץ בהתאמה אישית](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-wood/ · json: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-wood/item.json
+- [פרגולת אלומיניום כשרה לסוכה — פאטנט הלכתי ייחודי](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-sukkah-kosher/ · json: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-sukkah-kosher/item.json
+- [הגעה לבית הלקוח לייעוץ ותכנון — ללא עלות](https://wa.me/972534303327) — · page: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-home-consultation/ · json: https://nitairevivo.github.io/agentfeed/itamar-pergola/item/itamar-pergola-home-consultation/item.json
 
 ## Not published by this business
 

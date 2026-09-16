@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "וירבק נוטרי פלוס ג׳ל – תוסף מזון לכלבים וחתולים במרקם פסטה",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41837/",
+ "description": "וירבק מולטי ויטמין פסטה לכלבים וחתולים (120 גרם)  \n תוסף אנרגיה ומולטי-ויטמין חיוני במרקם פסטה טעים, מבית Virbac. תומך בחיות מחמד במצבי מאמץ פיזי, גדילה, הריון או הנקה, ומסייע גם לבעלי תיאבון ירוד. מעניק בוסט של אנרגיה ורכיבים חיוניים לעיכול קל ובריאות אופטימלית. \n    תוקף המוצר: 09/26",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/06/Untitled-design-32.png?fit=500%2C500&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a8%d7%91%d7%a7-%d7%aa%d7%95%d7%a1%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%95%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%9e%d7%a8%d7%a7%d7%9d-%d7%a4/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "69.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "41837",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41837%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41837",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

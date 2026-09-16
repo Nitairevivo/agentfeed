@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "טייסט אוף דה ווילד גורים סלמון 2 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2754/",
+ "description": "טייסט אוף דה ווילד  \n  אוכל לגורי כלבים  ללא דגנים המספק אנרגיה קלה לעיכול על בסיס סלמון ודגי אוקינוס. רכיבים איכותיים אלו מסייעים בשלב ההתפתחות הגופנית והקוגניטיבית ומדמים תזונת ציידים ממש כמו פעם. בנוסף, תערובת הדגים גורמת לרמת טעימות גבוהה, ולכן מתאימה לגורי בררנים במיוחד. עשיר במרכיבים תזונתיים איכותיים. מקור חלבון יחיד מדגים בלבד ומסיבה זו מתאים לגורים אשר אלרגיים למקורות חלבון אחרים כמו עוף או גלוטן. ירקות כמקור לנוגדי חמצון טבעי לתמיכה בסגנון חיים בריא וחיזוק מערכת החיסון. מזון לגורי כלבים ברמת סופר פרימיום תוצרת ארה”ב.  Taste Of The Wild  Pacific Stream PUPPY Formula with Smoked Salmon \n    דיל משתלם 3 שקים ב-  219 ₪",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%99%D7%99%D7%A1%D7%98-%D7%90%D7%95%D7%A3-%D7%93%D7%94-%D7%95%D7%95%D7%99%D7%9C%D7%93-%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "89.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "2754",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2754%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2754",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

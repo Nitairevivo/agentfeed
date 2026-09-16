@@ -1,0 +1,51 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מחסנים לפי מידה",
+ "url": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-storage-sheds/",
+ "description": "מחסנים לפי מידה — כלומר המחסן נבנה למידות המקום ולא נמכר בגודל קבוע. חומרים, גדלים ומחירים לא פורסמו. התמחור נעשה אחרי ביקור בשטח.",
+ "brand": {
+  "@type": "Brand",
+  "name": "זיו מסגרות"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://wa.me/972523973975",
+  "seller": {
+   "@type": "Organization",
+   "name": "זיו מסגרות",
+   "url": "https://www.facebook.com/zivmasgrot/"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "ziv-storage-sheds",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/",
+  "name": "זיו מסגרות"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%97%D7%A1%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A4%D7%99%20%D7%9E%D7%99%D7%93%D7%94%D7%B4.",
+  "name": "whatsapp"
+ },
+ "seller_phone": "052-397-3975",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

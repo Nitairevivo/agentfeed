@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "JACK PREMIUM חטיף לכלב סנסטיב 7 יח’",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18489/",
+ "description": "חטיף טבעי ללעיסה בין הארוחות. פיתחנו חומרי ניקוי שיניים Jack Sensitive עבור כלבים מבוגרים. צורת ה-Y היא פיתוח חדשני משלנו, שכאשר נשבר מבטיח ניקוי יעיל של השיניים, והדבר מתאפשר בפחות מאמץ הודות למבנה הבועות הרך שלו. \n מסייע בשמירה על בריאות שיניים וחניכיים \nשימוש יומיומי מפחית משמעותית את התפתחות הפלאק \nויטמין A מסייע בשמירה על ראייה בריאה \nויטמין D3 תורם לחילוף החומרים של סידן, צמיחת העצמות והשיניים \nויטמין E מעודד צמיחה \n \n \n  \n \nדיל 9 יח’ כולל משלוח \n העתק/י קוד קופון:   Free_Shipping",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/01/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%9B%D7%9C%D7%91-JACK-PREMIUM-%D7%92%D7%A7-%D7%A1%D7%A0%D7%A1%D7%98%D7%99%D7%91.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/jack-premium-%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a1%d7%a0%d7%a1%d7%98%d7%99%d7%91-7-%d7%99%d7%97/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "10.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "18489",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18489%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18489",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

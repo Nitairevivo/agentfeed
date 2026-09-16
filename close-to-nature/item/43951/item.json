@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "משחת שיניים לכלבים אנזימטית בטעם עוף 67.5 גרם ARM & HAMMER",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/43951/",
+ "description": "שמור על בריאות הכלב שלך על המסלול עם  משחת שיניים לכלבים  בטעם  וניל גי’נגר \n \n משחת שיניים אנזימטית \n עשוי מחומרים טבעיים \n טעם בקר \n מרגיע חניכיים \n \n  למה אנחנו אוהבים את זה:  \n \n השם Arm & Hammer אמין כבר למעלה מ-100 שנים לניקוי עדין אך יעיל. Arm & Hammer Oral Care for Pets מביא את אותן שיטות ניקוי לבעלי החיים שלנו, מה שמקל על הורים לחיות מחמד לספק פתרונות בריאות שיניים שעובדים. משחת השיניים האנזימטית לכלבים תוכננה במיוחד כדי להסיר ולמנוע הצטברות פלאק. סודה לשתייה מנקה ומסירה ריח בעוד אנזימים נלחמים באבנית. משחת השיניים לטיפול המתקדם שלנו מלבינה שיניים, נלחמת בהצטברות אבנית ומבטלת ריח רע מהכלב, שומרת על השיניים של הכלב שלך בצורה מעולה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/08/1000079349.jpg?fit=1500%2C1500&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%aa-%d7%a9%d7%99%d7%a0%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%90%d7%a0%d7%96%d7%99%d7%9e%d7%98%d7%99%d7%aa-%d7%91%d7%98%d7%a2%d7%9d-%d7%a2%d7%95%d7%a3-67-5/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "43.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "43951",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D43951%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=43951",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

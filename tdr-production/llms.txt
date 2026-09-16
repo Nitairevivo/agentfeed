@@ -6,14 +6,14 @@ Brands carried: תדר הפקות TDR Production
 
 ## Products
 
-Each line carries two addresses: the merchant's own product page, and `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for.
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
-- [הקלטות באולפן](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/
-- [הפקה מוזיקלית](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/
-- [מיקס ומאסטרינג](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/
-- [עריכה ויצירת פסקול לסרטים](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/
-- [תפעול סאונד להופעות לייב](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-live-sound/
-- [הגברה להופעות קטנות](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-small-pa/
+- [הקלטות באולפן](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/ · json: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/item.json
+- [הפקה מוזיקלית](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/ · json: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/item.json
+- [מיקס ומאסטרינג](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/ · json: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/item.json
+- [עריכה ויצירת פסקול לסרטים](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/ · json: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/item.json
+- [תפעול סאונד להופעות לייב](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-live-sound/ · json: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-live-sound/item.json
+- [הגברה להופעות קטנות](https://wa.me/972526454838) — · page: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-small-pa/ · json: https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-small-pa/item.json
 
 ## Not published by this business
 

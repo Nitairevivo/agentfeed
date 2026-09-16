@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "שמפו לכלבים לניקוי עמוק 250 מ”ל Animology",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/32282/",
+ "description": "מסיר ריחות רעים  עם נוסחת ‘שטיפה קלה’. \nשמפו לניקוי עמוק ,עטור פרסים, המסיר ריח צואה עיקש וריחות רעים אחרים \nמועשר בפרו ויטמין B5 ומרככים. \nבניחוח ‘החייחודי’ שלנו. \n100% טבעוני \nללא פרבנים \n \n 0% SLES \n 0% סולפטים \n 100% אריזה למחזור \n 250 מ”ל",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/08/%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9C%D7%A0%D7%99%D7%A7%D7%95%D7%99-%D7%A2%D7%9E%D7%95%D7%A7-250-%D7%9E%D7%9C-Animology.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9c%d7%a0%d7%99%d7%a7%d7%95%d7%99-%d7%a2%d7%9e%d7%95%d7%a7-250-%d7%9e%d7%9c-animology/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "49.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "32282",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D32282%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32282",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

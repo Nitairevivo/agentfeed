@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חול לחתולים 8 שקיות קריסטל גרוס 3.6 ליטר",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/11152/",
+ "description": "חול לחתולים  קריסטלי גרוס",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/02/8-%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C-%D7%92%D7%A8%D7%95%D7%A1-3.6-%D7%9C%D7%99%D7%98%D7%A8.jpg?fit=1080%2C1080&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/8-%d7%a7%d7%a8%d7%99%d7%a1%d7%98%d7%9c-%d7%92%d7%a8%d7%95%d7%a1-3-6-%d7%9c%d7%99%d7%98%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "329.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "11152",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D11152%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=11152",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

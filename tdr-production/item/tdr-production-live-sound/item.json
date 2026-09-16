@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "תפעול סאונד להופעות לייב",
+ "url": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-live-sound/",
+ "description": "תפעול סאונד בהופעות לייב. לאילו אזורים העסק מגיע לא נמסר — האולפן במנחמיה, ומעבר לכך אין להסיק. המחיר לפי הזמנה, ולא פורסם מחיר לערב או להופעה. פנייה בטלפון או בוואטסאפ, 052-645-4838.",
+ "brand": {
+  "@type": "Brand",
+  "name": "תדר הפקות TDR Production"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://wa.me/972526454838",
+  "seller": {
+   "@type": "Organization",
+   "name": "תדר הפקות TDR Production",
+   "url": "https://www.instagram.com/_shayaharoni_"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "tdr-production-live-sound",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tdr-production/",
+  "name": "תדר הפקות TDR Production"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%AA%D7%A4%D7%A2%D7%95%D7%9C%20%D7%A1%D7%90%D7%95%D7%A0%D7%93%20%D7%9C%D7%94%D7%95%D7%A4%D7%A2%D7%95%D7%AA%20%D7%9C%D7%99%D7%99%D7%91%D7%B4.",
+  "name": "whatsapp"
+ },
+ "seller_phone": "052-645-4838",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

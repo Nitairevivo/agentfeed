@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🍐 שמפו ומרכך 2 ב-1 בניחוח אגס ומלפפון לכלב נפח 710 מ”ל עם פומפה | Arm & Hammer Ultra Fresh 2-in-1",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69800/",
+ "description": "מוצר חדש המשלב שמפו לניקוי יסודי ומרכך להתרת קשרים אינטנסיבית  בבקבוק פומפה  נוח במיוחד  . הפורמולה מכילה סודה לשתייה לנטרול ריחות, לצד תמציות מלפפון ואגס קוצני המעניקות פרווה רכה, מבריקה וניחוח רענן שנשאר לאורך ימים  .  \n  📦  תכולה מדויקת:  710 מ”ל בבקבוק פומפה משודרג ויוקרתי לחווית רחצה קלה  .  \n  🛠️  מינון יומי מהיר:  לשימוש חיצוני בעת הרחצה, מתאים במיוחד לפרווה ארוכה או נוטה לקשרים  .  \n  🌿  רכיבים פעילים:  סודה לשתייה לנטרול ריח, תמצית מלפפון ותמצית אגס קוצני לריכוך מושלם  .  \n  🎯  יתרון מרכזי:  פעולה כפולה וחוסכת זמן – מנקה ביסודיות ובמקביל מתיר קשרים קשים בלחיצה אחת קלה  .  \n  🩺  התוויה רפואית:  שומר על מאזן הלחות הטבעי של העור ומונע קשרים מושכים וכואבים  .  \n  🛡️  בקרת איכות:  מיוצר בארה”ב על ידי המותג המוביל Arm & Hammer בסטנדרטים הגבוהים ביותר  .  \n  🚀  שיקום מהיר:  הופך את סירוק הפרווה שלאחר הרחצה לחלק ללא כאבים, ומותיר את הכלב רך ונקי  .",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/07/arm-hammer-ultra-fresh-2-in-1-detangling-cucumber-prickly-pear-shampoo-710ml.jpg?fit=750%2C750&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/arm-hammer-ultra-fresh-2in1-detangling-cucumber-pears-shampoo-710ml/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "79.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "69800",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69800%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69800",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

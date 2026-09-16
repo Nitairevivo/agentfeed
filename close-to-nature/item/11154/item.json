@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חול קריסטל 8 שקיות 3.6 ליטר ב- 189 ₪ כולל משלוח",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/11154/",
+ "description": "חול לחתולים  \n  חול קריסטלי  3.6 ליטר \n 8 יח’ \n \n  העתקת קופון משלוח חינם:  \n CAT_FREE  \n הועתק! 🐾",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/02/%D7%97%D7%95%D7%9C-%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C-8-%D7%A9%D7%A7%D7%99%D7%95%D7%AA-%D7%91-189-%E2%82%AA-%D7%9B%D7%95%D7%9C%D7%9C-%D7%9E%D7%A9%D7%9C%D7%95%D7%97.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/10-%d7%a7%d7%a8%d7%99%d7%a1%d7%98%d7%9c-%d7%a8%d7%92%d7%99%d7%9c-3-6-%d7%9c%d7%99%d7%98%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "189.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "11154",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D11154%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=11154",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

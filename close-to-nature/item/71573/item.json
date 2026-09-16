@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🦴 קארניס רול בקר מעושן לכלב 80-85 גרם Carnis",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/71573/",
+ "description": "גליל לעיסה טבעי ואיכותי מבית  Carnis , העשוי מ- 100% עור בקר מגולגל ומעושן בעדינות . המוצר המוביל בקטגוריית  חטיפי לעיסה ממושכת לכלבים , שנועד לספק מענה עמיד ליצר הלעיסה ולשמור על  חניכיים חזקות ושיניים נקיות . \n \n \n 📦  תכולה מדויקת:  80-85 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% עור בקר טבעי מגולגל, עישון עדין טבעי, ללא חומרי הלבנה או כימיקלים \n \n \n 🎯  יתרון מרכזי:  מבנה קשיח ודחוס המעניק זמן לעיסה ממושך במיוחד, משחרר מתחים ומנקה אבנית ביעילות",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-pork-sinew-dog-chews.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/carnis-smoked-beef-skin-roll-dog-chews-85g/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "20.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "71573",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D71573%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=71573",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

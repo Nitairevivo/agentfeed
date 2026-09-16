@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "שמפו לגורי כלבים בניחוח קוקוס ARM & HAMMER",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/39354/",
+ "description": "שמפו לגורי כלבים בניחוח קוקוס ARM & HAMMER \n  \n תכולה: 591 מ”ל. \n הפורמולה לניקוי עדין לשמפו גורים  ללא דמעות של Arm & Hammer , שמפו שמותיר לגור שלך ריח רענן ונקי ללא סיכון לגירוי עיניים. \nעשוי עם מרכיבים באיכות הגבוהה ביותר – שמפו זה לגורים עשוי עם כל המרכיבים הטבעיים, וכתוצאה מכך הפורמולה עדינה אך יעילה, שהגור שלך יאהב ותוכל לסמוך עליו \n100% בטוח – נוסחה זו של השמפו לכלבים מאוזנת במיוחד עבור כלבים. \nהשמפו לגורים נהדר עבור חיות מחמד עם עור רגיש, והוא נטול פרבנים, סולפטים והיפואלרגני.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2024/03/%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%A0%D7%99%D7%97%D7%95%D7%97-%D7%A7%D7%95%D7%A7%D7%95%D7%A1-ARM-HAMMER-2.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%a0%d7%99%d7%97%d7%95%d7%97-%d7%a7%d7%95%d7%a7%d7%95%d7%a1-arm-hammer/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "59.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "39354",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D39354%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=39354",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

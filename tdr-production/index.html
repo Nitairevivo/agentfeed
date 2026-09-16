@@ -169,6 +169,17 @@ border-top:1px solid var(--line);padding-top:16px}
 border-radius:5px;padding:1px 6px;direction:ltr;display:inline-block}
 .rep{margin:8px 0 0;font-size:.9rem;color:var(--muted)}
 .rep a{color:var(--muted)}
+.revs{margin-top:34px}
+.revs .revhead{font-size:.87rem;color:var(--muted);margin:0 0 12px}
+.revlist{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:13px 16px;box-shadow:var(--shadow)}
+.rev blockquote{margin:0 0 8px;font-size:.95rem;line-height:1.55}
+.rev .who{font-size:.82rem;color:var(--faint);display:flex;flex-wrap:wrap;
+gap:4px 10px;align-items:baseline}
+.rev .who b{color:var(--muted);font-weight:700}
+.rev .stars{color:var(--brand-ink);font-weight:700;direction:ltr}
+.rev .who a{color:var(--faint)}
 .alsosec{margin-top:34px}
 .also{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
 .near{display:block;background:var(--card);border:1px solid var(--line);
@@ -234,19 +245,20 @@ function afOrder(e){
   return false;
 }
 </script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://wa.me/972526454838">💬 וואטסאפ</a><a class="btn" href="tel:0526454838">📞 052-645-4838</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>מחיר — כך נמסר: המחיר משתנה לפי היקף היצירה ואורכה ונקבע מול הלקוח. לא פורסם מחיר או טווח מחירים לשעת אולפן, לשיר או לערב הופעה</li><li>זמן אספקה — כמה זמן עובר מתחילת עבודה ועד מסירה, לאף אחד מהשירותים</li><li>אמצעי תשלום — תנאי התשלום נמסרו (מחולק לשניים, חלק בתחילת העבודה והחצי השני בסיום), אך לא נמסר אילו אמצעי תשלום מתקבלים</li><li>אזורי שירות להופעות — האולפן במנחמיה, ולאן העסק מגיע לתפעול סאונד והגברה לא נמסר</li><li>ימי הפעילות — נמסרו שעות מענה 09:00–19:30, ולא באילו ימים</li><li>מדיניות ביטול והחזר כספי — לא נמסרה</li><li>ציוד האולפן — לא נמסר אילו חדרים, מיקרופונים או תוכנות יש בו</li><li>תמונות — בעל העסק מסר שישלח בהמשך, המקום בשיפוצים. אין כרגע תמונה של האולפן</li><li>דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק</li></ul></section>
-<section><h2>מה יש</h2><ul><li class="item" id="tdr-production-recording"><div><a href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/">הקלטות באולפן</a></div></li>
-<li class="item" id="tdr-production-music"><div><a href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/">הפקה מוזיקלית</a></div></li>
-<li class="item" id="tdr-production-mix-master"><div><a href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/">מיקס ומאסטרינג</a></div></li>
-<li class="item" id="tdr-production-film-score"><div><a href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/">עריכה ויצירת פסקול לסרטים</a></div></li>
-<li class="item" id="tdr-production-live-sound"><div><a href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-live-sound/">תפעול סאונד להופעות לייב</a></div></li>
-<li class="item" id="tdr-production-small-pa"><div><a href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-small-pa/">הגברה להופעות קטנות</a></div></li></ul></section>
+<section><h2>מה יש</h2><ul><li class="item" itemscope itemtype="https://schema.org/Product" id="tdr-production-recording"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/"><span itemprop="name">הקלטות באולפן</span></a></div></li>
+<li class="item" itemscope itemtype="https://schema.org/Product" id="tdr-production-music"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/"><span itemprop="name">הפקה מוזיקלית</span></a></div></li>
+<li class="item" itemscope itemtype="https://schema.org/Product" id="tdr-production-mix-master"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/"><span itemprop="name">מיקס ומאסטרינג</span></a></div></li>
+<li class="item" itemscope itemtype="https://schema.org/Product" id="tdr-production-film-score"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/"><span itemprop="name">עריכה ויצירת פסקול לסרטים</span></a></div></li>
+<li class="item" itemscope itemtype="https://schema.org/Product" id="tdr-production-live-sound"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-live-sound/"><span itemprop="name">תפעול סאונד להופעות לייב</span></a></div></li>
+<li class="item" itemscope itemtype="https://schema.org/Product" id="tdr-production-small-pa"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-small-pa/"><span itemprop="name">הגברה להופעות קטנות</span></a></div></li></ul></section>
+
 <div class="machine">הדף הזה נכתב גם למכונות. אותו מידע זמין כאן:
 <a href="https://nitairevivo.github.io/agentfeed/tdr-production/products.jsonl"><code>products.jsonl</code></a> —
 הקטלוג המלא, שורה לפריט ·
 <a href="https://nitairevivo.github.io/agentfeed/tdr-production/llms.txt"><code>llms.txt</code></a> — סיכום קריא למודל ·
 ובתוך הדף עצמו סימון <code>schema.org</code> מובנה.</div>
 <footer>הדף נבנה מהמידע שהעסק פרסם ומתשובותיו, ומתעדכן אוטומטית.
-עודכן: 2026-09-15 ·
+עודכן: 2026-09-16 ·
 <a href="https://nitairevivo.github.io/agentfeed/">AgentFeed</a> ·
 <a href="https://nitairevivo.github.io/agentfeed/terms.html">תנאי שימוש</a> ·
 <a href="https://nitairevivo.github.io/agentfeed/privacy.html">פרטיות</a></footer>

@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "משחק קונג לכלב וובלר Wobbler (2 גדלים)",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17347/",
+ "description": "ה- KONG Wobbler ™ הוא צעצוע עתיר פעולה המהווה מתקן מזון מעורר נפשית. הצעצוע בצורת KONG יושב זקוף עד שהוא נדחף בכפו או באף של הכלב, מחלק פרסים טעימים כשהוא מתנודד, מסתובב ומתגלגל. התנועה הבלתי צפויה מעוררת אינסטינקטים טבעיים ושומרת על תיגר אפילו על המשתמשים המנוסים ביותר. ה-KONG Wobbler™ יכול לשמש גם כחלופה לקערת הכלב כדי לעזור להאריך את זמן הארוחה תוך מתן פעילות גופנית לכלב שלך. מנסה לגרום לכלב שלך להוריד כמה קילוגרמים לא רצויים? ה-KONG Wobbler™ הוא דרך מצוינת לשמור על תנועה של כלבים תוך כדי שהוא גורם להם לעבוד בשביל האוכל שלהם. מתירים למילוי וניקוי קלים. השתמש ב-Wobbler™ הגדול עבור כלבים בגודל בינוני עד גדול",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/12/%D7%9E%D7%A9%D7%97%D7%A7-%D7%A7%D7%95%D7%A0%D7%92-%D7%9C%D7%9B%D7%9C%D7%91-%D7%95%D7%95%D7%91%D7%9C%D7%A8-Wobbler.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%a7-%d7%a7%d7%95%d7%a0%d7%92-%d7%9c%d7%9b%d7%9c%d7%91-%d7%95%d7%95%d7%91%d7%9c%d7%a8-wobbler-2-%d7%92%d7%93%d7%9c%d7%99%d7%9d/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "70.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "17347",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17347%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17347",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

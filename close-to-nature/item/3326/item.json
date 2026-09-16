@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐟 אוכל לכלב בוגר גזע קטן נאו פרש דגים 10 ק”ג Now Fresh Adult Small Breed Fish – ללא דגנים",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3326/",
+ "description": "אוכל לכלבים  NOW FRESH  לכלב בוגר מגזע קטן עשוי 100% בשר כבש, חזיר ובשר בקרי. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס \n מזון יבש סופר פרימיום מבית  נאו פרש  (Now Fresh) המותאם במיוחד לכלבים בוגרים מגזע קטן. הפורמולה מבוססת על דגי שמיר, סלמון ופורל מובחרים כמקור חלבון איכותי וקליל, והיא נקייה לחלוטין מדגנים (Grain Free). פתרון היפואלרגני מושלם לשמירה על עיכול שקט, חיוניות גבוהה ומניעת רגישויות בעור או בקיבה. \n \n \n 📦 משקל ואריזה: שק חיסכון במשקל מדויק של 10 ק”ג. \n \n \n 🐟 פרווה ועור בריאים: עשיר באומגה 3 ו-6 המעניקים פרווה מבריקה ועור בריא. \n \n \n 🌾 100% ללא דגנים: היפואלרגני, קל לעיכול ומונע אי-נוחות בבטן. \n \n \n 🦷 כופתיות מותאמות: גודל כופתית ייחודי המותאם ללסת קטנה ומסייע בשמירה על שיניים נקיות מאבנית.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/now-fresh-adult-small-breed-dog-food-fish-10kg.jpg?fit=500%2C500&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/now-fresh-adult-small-breed-fish-10kg/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "349.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "3326",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3326%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3326",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

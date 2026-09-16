@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חטיף לחתול גנאולרס קראנצ’י אנד טנדר בטעם טונה – Gnawlers Crunchy & Tender Tuna",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/64636/",
+ "description": "😋 הפינוק המושלם לחתול: פריך מבחוץ, רך מבפנים! \nהכירו את חטיף הכריות שמשגע את החתולים – Gnawlers Crunchy & Tender בטעם טונה עשיר. החטיף מעניק חוויה כפולה של מרקמים: מעטפת קראנצ’ית ששומרת על בריאות השיניים, ומילוי נימוח וטעים במיוחד שגורם לכל חתול לבקש עוד. \n החטיף אידיאלי לפינוק יומיומי, כפרס בזמן משחק או סתם כשרוצים להראות אהבה. הוא דל בקלוריות, כך שתוכלו לצ’פר את החתול בראש שקט. \n 🐟 טעם דגים עמוק: מבוסס על טעם טונה שחתולים מעדיפים. \n✨ בריאות וטעם: מועשר בוויטמינים ומינרלים חיוניים. \n🌿 קל לעיכול: מכיל פרביוטיקה לתמיכה במערכת העיכול. \n⚖️ שמירה על המשקל: דל קלוריות (פחות מ-2 קלוריות ליחידה).",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%A0%D7%90%D7%95%D7%9C%D7%A8%D7%A1-%D7%A7%D7%A8%D7%90%D7%A0%D7%A6%D7%99-%D7%90%D7%A0%D7%93-%D7%98%D7%A0%D7%93%D7%A8-%D7%91%D7%98%D7%A2%D7%9D-%D7%98%D7%95%D7%A0%D7%94-Gnawlers-Crunchy-Tender-Tuna.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/gnawlers-crunchy-tender-tuna-cat-treats/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "12.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "64636",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D64636%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=64636",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

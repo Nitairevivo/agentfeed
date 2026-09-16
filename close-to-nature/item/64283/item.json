@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🍖 חטיפי גוסביטס סטיקס (Gosbits Sticks) – חווית טעם ובריאות בכל נגיסה",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/64283/",
+ "description": "העניקו לכלב שלכם את הטוב ביותר עם סדרת חטיפי הפרמיום Gosbits Sticks מבית Gosbi. החטיפים מיוצרים בשיטה הייחודית של כבישה קרה (Cold Pressed), השומרת על רכיבי העל ועל הטעם המקורי של חומרי הגלם. עם 70% בשר ודגים טריים שנבחרו בקפידה, חטיפי הסטיקס הם הבחירה המושלמת למי שלא מתפשר על איכות התזונה של הכלב שלו – גם כשמדובר בצ’ופר.  \n  הסדרה מציעה מגוון טעמים פונקציונליים:  \n \n \n 🐑  Gosbits Lamb (כבש):  פתרון היפואלרגני מצוין לכלבים עם רגישויות. \n \n \n 🍗  Gosbits Chicken (עוף):  קלאסיקה אהובה, עשירה בחלבון וקלה לעיכול. \n \n \n 🐟  Gosbits Salmon (סלמון):  פצצת אומגה 3 ו-6 לעור בריא ופרווה מבריקה. \n \n \n 🦴  Gosbits Dental (דנטל):  חטיף ייעודי המסייע בניקוי שיניים ומניעת ריח רע מהפה. \n \n \n 🦌  Gosbits Wild (צבי/ציד):  טעם פראי ועשיר לחוויית לעיסה מרגשת. \n \n \n  משקל נקי:  300 גרם במארז דלי איכותי השומר על הטריות לאורך זמן.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%97%D7%98%D7%99%D7%A4%D7%99-%D7%92%D7%95%D7%A1%D7%91%D7%99%D7%98%D7%A1-%D7%A1%D7%98%D7%99%D7%A7%D7%A1-Gosbits-Sticks-70-%D7%91%D7%A9%D7%A8-%D7%98%D7%A8%D7%99-300-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/gosbits-sticks-fresh-meat-grain-free-dog-treats/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "44.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "64283",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D64283%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=64283",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

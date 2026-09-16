@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מתקן גירוד לחתול מקרטון שניתן להחלפה Catit Senses",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18077/",
+ "description": "מתקן גירוד לחתול  – Catit Senses 2.0 Scratcher עוזר לחתולים לספק את צורכי הגירוד האינסטינקטיביים שלהם.  \n \n  עוזר לשמור על הרהיטים שלך מפני ציפורני החתול שלך  \n  מעודד התנהגות אינסטינקטיבית  \n הפוך, סובב וערימה מחדש \n  מתחדש לחלוטין  \n   תואם לצעצועים אחרים של Senses 2.0   \n \n  הסקראצ’ר מורכב מבורג עליון עמיד, גוף ובסיס רחב יציב במיוחד עם 8 דיסקים בודדים מקרטון גלי.  \n לכל חתול יש העדפות שונות, במיוחד כשזה מגיע לגרד.  ניתן להגדיר מחדש את ה-Senses 2.0 Scratcher לאינספור הגדרות שונות על ידי היפוך, סיבוב וערימה מחדש של דיסקי הקרטון הבודדים.  \n כל דיסק ירוק בצד אחד ולבן בצד השני, מה שמאפשר לך לשחק עם הצורה והצבע הכללי של הסקראצ’ר. פנקו את החתול שלכם בסט-אפ אחר כל כמה ימים כדי לשמור על החוויה רעננה ומרגשת.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/01/%D7%9E%D7%AA%D7%A7%D7%9F-%D7%92%D7%99%D7%A8%D7%95%D7%93-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9E%D7%A7%D7%A8%D7%98%D7%95%D7%9F-%D7%A9%D7%A0%D7%99%D7%AA%D7%9F-%D7%9C%D7%94%D7%97%D7%9C%D7%A4%D7%94-Catit-Senses.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%aa%d7%a7%d7%9f-%d7%92%d7%99%d7%a8%d7%95%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%a7%d7%a8%d7%98%d7%95%d7%9f-%d7%a9%d7%a0%d7%99%d7%aa%d7%9f-%d7%9c%d7%94%d7%97%d7%9c%d7%a4%d7%94-catit-se/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "180.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "18077",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18077%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18077",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

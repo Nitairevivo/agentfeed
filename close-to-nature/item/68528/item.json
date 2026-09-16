@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐶 הילס סיינס פלאן לגורי כלבים מגזע קטן וזעיר עוף 6 ק”ג | Hill’s Science Plan Puppy Small & Mini Chicken",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/68528/",
+ "description": "מזון יבש סופר פרימיום מלא ומאוזן של חברת  הילס (Hill’s Science Plan)  לגורי כלבים מגזע קטן וזעיר באריזת  6 ק”ג  מקורית. הפורמולה פותחה במיוחד כדי להבטיח קבלת מוצר מותאם אישית לתקופת הצמיחה הקריטית מהגמילה ועד גיל שנה, המעניק את כל האנרגיה, הויטמינים והרכיבים התזונתיים המובילים להתפתחות בריאה, חיוניות מקסימלית ומבנה גוף חזק. \n \n \n 🍗  100% תזונה מאוזנת  המבוססת על בשר עוף משובח כרכיב מרכזי לטעימות מעולה ובניית מסת שריר. \n \n \n 🛡️ שילוב נוגדי חמצון מוכחים קלינית וויטמינים חיוניים לשמירה על מערכת החיסון של הגור. \n \n \n 🌱 טכנולוגיית ActivBiome+ עם תערובת פרה-ביוטיקה ייחודית לעיכול קל וליציאות תקינות. \n \n \n 🚫 מיוצר ללא חומרים משמרים סינתטיים, ללא צבעי מאכל וללא חומרי טעם מלאכותיים.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/06/hills-science-plan-puppy-small-mini-chicken-6kg.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/hills-science-plan-puppy-small-mini-chicken-6kg/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "169.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "68528",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D68528%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=68528",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

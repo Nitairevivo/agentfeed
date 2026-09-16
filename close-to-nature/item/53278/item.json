@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "קאנל סלקט חטיף קוביות ריאות בקר 80 גרם KENNEL SELECT",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/53278/",
+ "description": "קאנל סלקט – קוביות ריאות בקר 100% טבעי – פינוק בריא וטעים לכלב שלך! \n פנקו את הכלב שלכם עם קוביות ריאות בקר טבעיות וטעימות במיוחד מבית קאנל סלקט! עשויות מ-100% ריאות בקר מיובשות וחתוכות לקוביות נוחות. עשיר בחלבון ודל שומן, מושלם כחטיף לאילוף, פרס קטן או פינוק מהיר בין הארוחות. אריזת 80 גרם. \n  למה לבחור בקוביות ריאות בקר של קאנל סלקט?  \n \n 100% טבעי – עשוי מריאות בקר בלבד. \n חתוך לקוביות קטנות ונוחות. \n עשיר בחלבון – תומך בבריאות השרירים. \n דל שומן – מתאים לכלבים בשמירה על משקל. \n טעים וקל ללעיסה – פינוק מושלם לאימון ולכיף. \n איכות מבית קאנל סלקט – מותג מוכר ואמין. \n \n  אל תפספסו את הפינוק הטבעי והמהנה ביותר עבור הכלב שלכם!",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/05/%D7%A7%D7%90%D7%A0%D7%9C-%D7%A1%D7%9C%D7%A7%D7%98-%D7%97%D7%98%D7%99%D7%A3-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%91%D7%A7%D7%A8.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a7%d7%90%d7%a0%d7%9c-%d7%a1%d7%9c%d7%a7%d7%98-%d7%97%d7%98%d7%99%d7%a3-%d7%a7%d7%95%d7%91%d7%99%d7%95%d7%aa-%d7%a8%d7%99%d7%90%d7%95%d7%aa-%d7%91%d7%a7%d7%a8-80-%d7%92%d7%a8%d7%9d-kennel-select/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "39.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "53278",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D53278%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=53278",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

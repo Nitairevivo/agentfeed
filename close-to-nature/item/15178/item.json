@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מלונה לכלב קני 7 של פרפלסט",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15178/",
+ "description": "מלונה חיצונית מפלסטיק KENNY 7   \n מידה: 112x80x80  ס”מ \n  קני היא מלונה חיצונית מפלסטיק שנראית כמו איגלו ומספקת בידוד מעולה בטמפרטורות גבוהות ונמוכות כאחד.  קני בנוי מפלסטיק קשיח ועמיד בפני זעזועים וכולל מערכת אוורור שימושית המבטיחה אוורור פנימי מרבי, כמו גם מערכת ניקוז להבטחת סביבה יבשה וללא חיידקים. יש לו כניסה גדולה, המאפשרת לכלבכם גישה נוחה והוא מצויד גם בבסיס בעל צורה מסוימת, ובכך מבטיח בידוד מושלם מהקרקע",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/10/%D7%9E%D7%9C%D7%95%D7%A0%D7%94-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A7%D7%A0%D7%99-%D7%A9%D7%9C-%D7%A4%D7%A8%D7%A4%D7%9C%D7%A1%D7%98.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%9c%d7%95%d7%a0%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a7%d7%a0%d7%997-%d7%a9%d7%9c-%d7%a4%d7%a8%d7%a4%d7%9c%d7%a1%d7%98/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "589.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "15178",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15178%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15178",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "הילס i/d לגורי כלבים 4 ק”ג | מזון רפואי לתמיכה במערכת העיכול",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/60351/",
+ "description": "הפתרון המומלץ ע”י וטרינרים לגורים עם רגישות בבטן!  \n מזון  Hill’s Prescription Diet i/d Digestive Care Puppy  הוא דיאטה וטרינרית מלאה ומאוזנת שנוסחה במיוחד כדי לעזור בטיפול בגורים הסובלים מבעיות עיכול שונות, כגון שלשול, הקאות או רגישות בקיבה. הנוסחה מועשרת בטכנולוגיית  ActivBiome+  המוגנת בפטנט, המסייעת לתמוך במיקרוביום המעיים הבריא.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/12/%D7%94%D7%99%D7%9C%D7%A1-id-%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-i-d-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%9b%d7%9c%d7%91%d7%99%d7%9d-4-%d7%a7%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%aa%d7%9e%d7%99%d7%9b/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "249.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "60351",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D60351%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=60351",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

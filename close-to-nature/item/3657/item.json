@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אוכל לכלב פרוטקט דרמטו DERMATO לרגישות בעור 2 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3657/",
+ "description": "משלוח חינם!  \n פרוטקט דרמטו Protect Dermato הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בתפקוד העור במקרה של דרמטוזיס ואובדן יתר של שיער”. “הפחתת אי סבילות למרכיבים ולרכיבים תזונתיים”. מזון זה מתאים גם כתמיכה ל”שיקום תזונתי, הבראה”. \n   משקל : 2 ק”ג    \n \n  \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%93%D7%A8%D7%9E%D7%98%D7%95-DERMATO-%D7%9C%D7%A8%D7%92%D7%99%D7%A9%D7%95%D7%AA-%D7%91%D7%A2%D7%95%D7%A8-2-%D7%A7%D7%92-1.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%93%d7%a8%d7%9e%d7%98%d7%95-dermato-%d7%9c%d7%a8%d7%92%d7%99%d7%a9%d7%95%d7%aa-%d7%91-2/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "149.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "3657",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3657%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3657",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

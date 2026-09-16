@@ -1,0 +1,47 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "תכנון בריכות שחייה",
+ "url": "https://nitairevivo.github.io/agentfeed/maan-arch/item/maan-arch-pool/",
+ "description": "לפי האתר: תכנון בריכות שחייה לבתים קיימים בקצרין 'בהתאם להוראות התב\"ע החדשה', כולל בחינת זכויות הבנייה, קווי הבניין ומיקום הבריכה במגרש לצורך הרישוי. בריכות פרטיות מופיעות גם ברשימת תחומי המשרד בעמוד 'אודותינו'. המחיר בהצעת מחיר פרטנית לכל פרויקט.",
+ "image": "https://static.wixstatic.com/media/ff6dd9_4d7b9626019744448abcbc414752e577~mv2.jpg/v1/fill/w_890,h_502,q_90,enc_avif,quality_auto/ff6dd9_4d7b9626019744448abcbc414752e577~mv2.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "מען אדריכלים ומהנדסים"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://www.maanarch.com/adrichal-katzrin?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מען אדריכלים ומהנדסים",
+   "url": "https://maanarch.com"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "maan-arch-pool",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/maan-arch/",
+  "name": "מען אדריכלים ומהנדסים"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "tel:0527570064",
+  "name": "phone"
+ },
+ "seller_phone": "052-757-0064",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

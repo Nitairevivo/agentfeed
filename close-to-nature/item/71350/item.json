@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐹 מנטרל ריחות למצע אוגרים ומכרסמים מארז 3 יח’ Little Hamster Odor Blaster",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/71350/",
+ "description": "מנטרל ריחות לכלוב אוגרים  ומכרסמים מבית  Little Hamster  מיוצר בארה”ב ומציע פתרון מהפכני לספיגת ריחות רעים ושמירה על מצע רענן. המארז מכיל 3 שפופרות/שקיות אבקה פנימיות המספקות הגנה רציפה לעד 15 שבועות בניחוח קמומיל ולבנדר מרגיע. \n \n \n 📦  תכולה מדויקת:  מארז 3 שקיות פנימיות (מספיק לעד 15 שבועות שימוש – 5 שבועות לכל שקית) \n \n \n 🌿  רכיבים / מאפיינים פעילים:  ציפוי הידרופובי בטכנולוגיית שחרור איטי (Slow-Release), אבקה טבעית בטוחה לשימוש בניחוח קמומיל ולבנדר עדין \n \n \n 🎯  יתרון מרכזי:  נטרול יעיל וטבעי של ריחות שתן לאורך זמן, בטוח למגע ישיר של החיות וללא כימיקלים מזיקים \n \n \n 🩺  התוויה / ייעוד:  מיועד לאוגרים, ארנבים, שרקנים וכל סוגי המכרסמים על גבי נסורת, שבבי עץ ומצעי נייר",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/little-hamster-odor-blaster-bedding-deodorizer-on-wood-shavings.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/little-hamster-odor-blaster-bedding-deodorizer-3pack/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "85.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "71350",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D71350%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=71350",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

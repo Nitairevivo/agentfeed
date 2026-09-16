@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כופתיות מזון בסיסיות למכרסמים מדיוניקס 20 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5473/",
+ "description": "שק חסכוני של מזון בסיסי למכרסמים תוצרת מדיוניקס ישראל. מתאים לכאלו שמגדלים מספר גדול של מכרסמים ולפינות חי. המזון מכיל 17% חלבון ולכן מתאים לאוגרים, שרקנים, ארנבות, עכברים, גרבילים ועוד. מומלץ לשלב עם תוספת של ירקות טריים ואספסת.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9B%D7%95%D7%A4%D7%AA%D7%99%D7%95%D7%AA-%D7%9E%D7%96%D7%95%D7%9F-%D7%91%D7%A1%D7%99%D7%A1%D7%99%D7%95%D7%AA-%D7%9C%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D-%D7%9E%D7%93%D7%99%D7%95%D7%A0%D7%99%D7%A7%D7%A1-20-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9b%d7%95%d7%a4%d7%aa%d7%99%d7%95%d7%aa-%d7%9e%d7%96%d7%95%d7%9f-%d7%91%d7%a1%d7%99%d7%a1%d7%99%d7%95%d7%aa-%d7%9c%d7%9e%d7%9b%d7%a8%d7%a1%d7%9e%d7%99%d7%9d-%d7%9e%d7%93%d7%99%d7%95%d7%a0%d7%99/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "110.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "5473",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5473%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5473",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

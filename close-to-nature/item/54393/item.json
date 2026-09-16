@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "פיור לייף ג’וניור מקסי | מזון לגורים וכלבים צעירים 12 ק”ג Pure Life",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54393/",
+ "description": "העניקו לגורכם הגדול את ההתחלה הטובה ביותר בחיים עם  פיור לייף ג’וניור מקסי (Flatazor Pure Life Junior Maxi)  – מזון יבש מלא ואיכותי במיוחד מבית  Flatazor  הצרפתי. פורמולה זו פותחה בקפידה עבור  גורים וכלבים צעירים מגזע גדול , כדי לספק את כל הצרכים התזונתיים הייחודיים שלהם בתקופת הגדילה הקריטית, ולתמוך בהתפתחות תקינה של עצמות, שרירים ומערכות הגוף. \n  פיור לייף ג’וניור מקסי  בולט בזכות הרכבו המתקדם: \n \n  100% ללא דגנים | 100% ללא גלוטן:  פורמולה היפואלרגנית, אידיאלית לגורים רגישים או כאלה הסובלים מאלרגיות למזון, ומבטיחה עיכול קל ונוחות מרבית. \n  85% מהחלבונים ממקור חי:  עשיר בחלבונים איכותיים ממקורות נבחרים כמו  סרדינים , עוף, הודו וחזיר. חלבונים אלה חיוניים לבנייה ופיתוח תקין של מסת שריר רזה במהלך הגדילה המהירה. \n  עם סרדינים:  תוספת הסרדינים מספקת חומצות שומן חיוניות מסוג  אומגה 3  (EPA+DHA), התומכות בהתפתחות מוחית וקוגניטיבית, בריאות העור והפרווה, ומערכת חיסון חזקה.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/06/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%92%D7%95%D7%A0%D7%99%D7%95%D7%A8-%D7%9E%D7%A7%D7%A1%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%95%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D-12-%D7%A7%D7%92-Pure-Life.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8-%d7%9c%d7%99%d7%99%d7%a3-%d7%92%d7%95%d7%a0%d7%99%d7%95%d7%a8-%d7%9e%d7%a7%d7%a1%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%95%d7%9b%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "359.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "54393",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54393%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54393",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

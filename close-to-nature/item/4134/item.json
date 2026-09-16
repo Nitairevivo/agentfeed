@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "Junior – עוף ודג – שק 15 ק”ג בווידוג BewiDog",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4134/",
+ "description": "תכולה מבוקרת של חלבון וקלוריות, Junior Croc מיועד עבור האחלת כלבים צעירים של זנים גדולים. קל לעיכול, רכיבים באיכות מעולה עם איכות חלבון אופטימלית מאפשרת צמיחה יציבה ומבוקרת. תוספת של רכיבי שמרים מיוחדים (בטה גלוקן) מעוררים את המערכת החיסונית של הגור עצמו. דבר זה עוזר להקטין את הסיכון בהדבקות במחלות בשלב המוקדם של החיים. תוספת המינרלים והויטמינים המאוזנת בזהירות כמו גם לסיטין ושמרי שיכר הינם מרכיבים נוספים של DOG® Vital Complex היחודית. תוספת מזון נבונה לכלבים צעירים אשר נותנת הרבה מעבר למזון כלבים רגיל. עצמות חזקות, שרירים חזקים וחיוניות הינם התוצאות של האכלת כלבך ב- Junior Croc.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D-%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-Junior-%D7%A2%D7%95%D7%A3-%D7%95%D7%93%D7%92-%D7%A9%D7%A7-15-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a6%d7%a2%d7%99%d7%a8%d7%99%d7%9d-%d7%95%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9e-2/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "244.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "4134",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4134%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4134",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

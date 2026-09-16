@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "בושם לכלבים וחתולים (שמן) במגוון ריחות – ANIMAUX",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/29295/",
+ "description": "שמן בושם ארומטי בעל ניחוח נפלא לטיפוח מושלם מבית אגו פט \nוניחוח שמחזיק לאורך זמן כ – 3 ימים לקוחות מספרים אף יותר \nאינו רעיל ועל בסיס שמנים אתרים. מומלץ ונמצא בשימוש ע״י ספרי כלבים.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/05/%D7%91%D7%95%D7%A9%D7%9D-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%95%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9E%D7%9F-%D7%91%D7%9E%D7%92%D7%95%D7%95%D7%9F-%D7%A8%D7%99%D7%97%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA-ANIMAUX.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%91%d7%95%d7%a9%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%95%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a9%d7%9e%d7%9f-%d7%91%d7%9e%d7%92%d7%95%d7%95%d7%9f-%d7%a8%d7%99%d7%97%d7%95%d7%aa-%d7%97/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "39.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "29295",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D29295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29295",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "פרונטליין Frontline – ספריי הדברה לכלב ולחתול נגד פרעושים וקרציות – 250 מ”ל",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4578/",
+ "description": "פרונטליין תרסיס לכלבים וחתולים 250 מ”ל \nספריי להדברה ומניעת פרעושים, קרציות וכינים על גוף הכלב ובסביבתו. תרסיס  פרונטליין  מיועד לכלבים וחתולים מגיל יומיים. מעניק הגנה נגד הדבקה בפרעושים של עד שלושה חודשים בכלבים וחודשיים בחתולים. הגנה בפני קרציות למשך חודש ימים. תכשירי  פרונטליין  יעילים נגד קשת רחבה של טפילים. \n   תוקף: 08/26",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%93%D7%91%D7%A8%D7%94.jpg?fit=1080%2C1080&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%a0%d7%98%d7%9c%d7%99%d7%99%d7%9f-frontline-%d7%a1%d7%a4%d7%a8%d7%99%d7%99-%d7%94%d7%93%d7%91%d7%a8%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%95%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a0/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "139.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "4578",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4578%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4578",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

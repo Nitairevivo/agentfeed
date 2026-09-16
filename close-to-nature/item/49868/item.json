@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "תרסיס להקלת גירוד אוקסימד 236 מ”ל טרופיקלין Tropiclean",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/49868/",
+ "description": "תרסיס זה הוא פתרון מרגיע מיידי עבור חיות מחמד בעלות עור רגיש. נוסחה במיוחד כדי לסייע בהפחתת נפיחות, אדמומיות וקשקשים, תוך מתן הזנה והקלה על גירוד. טוב לשימוש גם לגורים.  \n הקלה מהירה – ספריי מרגיע מספק הקלה מהירה עבור חיות מחמד עם אלרגיות ועור רגיש. \n טיפול נקודתי – ספריי פותח במיוחד כדי לעזור להפחית בעדינות נפיחות, אדמומיות וקשקשים, תוך הקלה מיידית בגירוד ואלרגיות. \n שיבולת שועל מועשרת – מכילה שיבולת שועל קולואידלית כדי לעזור להרגיע עור מגורה ומודלק. \n הקלה מרגיעה במיוחד – לתוצאות הטובות ביותר, השתמש עם שמפו שיבולת שועל היפואלרגני של OxyMed. \n לחיות מחמד שמלקקות – עדין מספיק לשימוש בנקודות חמות ואזורים אחרים שחיית המחמד שלך מלקקת, מגרדת ונושכת לעתים קרובות.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/02/Untitled-design-42.png?fit=500%2C500&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%aa%d7%a8%d7%a1%d7%99%d7%a1-%d7%9c%d7%94%d7%a7%d7%9c%d7%aa-%d7%92%d7%99%d7%a8%d7%95%d7%93-%d7%90%d7%95%d7%a7%d7%a1%d7%99%d7%9e%d7%93-236-%d7%9e%d7%9c-%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "75.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "49868",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D49868%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=49868",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

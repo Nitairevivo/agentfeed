@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אפוקוול 5.4 מ״ג להקלה על גירודים ואלרגיות עור לכלב | 100 טבליות | Apoquel",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66532/",
+ "description": "הפתרון המהיר והמומלץ ביותר לעצירת גירודים אצל כלבים! אפוקוול (Apoquel) מעניק הקלה משמעותית תוך 4-24 שעות בלבד מרגע המתן. \n ⚠️  לתשומת לבכם: מוצר זה מחייב מרשם וטרינרי בתוקף.  כדי להשלים את הרכישה, יש לצרף את צילום המרשם באמצעות הכפתור  “לחץ להעלאת מרשם וטרינרי”  המופיע כאן בעמוד. (ניתן גם לשלוח את המרשם לוואטסאפ של האתר לאחר ההזמנה). \n \n \n 🛡️  עצירת גרד מהירה:  תוצאות נראות לעין תוך שעות ספורות. \n \n \n ✨  בטוח לשימוש:  אינו סטרואיד ואינו גורם לתופעות לוואי קשות. \n \n \n 💊  טעימות מעולה:  בגרסת הלעיסה (Chewable) הכלב יקבל זאת כצ’ופר טעים.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/07/apoquel-5.4-mg-anti-itch-tablets-for-dogs-with-tablets-and-watermark.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/apoquel-5-4-mg-dog-allergy-itch-relief/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "799.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "66532",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66532%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66532",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

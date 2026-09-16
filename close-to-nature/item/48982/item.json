@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "משגר כדורים מיני AFP",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/48982/",
+ "description": "משגר כדורים אוטומטי למשחק ואימון כלבים \n גלו את המהפכה בעולם המשחק והאימון של כלבים עם משגר הכדורים ! \n האם אתם מחפשים דרך להעסיק את כלבכם ולשמור על כושרו, גם כשאתם עסוקים? הנה הפתרון המושלם עבורכם! \n המשגר מאפשר לכם לספק לכלבכם שעות של הנאה ופעילות גופנית, \n בלי שתצטרכו להקדיש לכך את כל זמנכם. \n תוכלו להתאים את המשחק בדיוק לצרכים ולאנרגיה של כלבכם.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/01/shopping-600%C3%97600-01-17-2025_03_24_PM.png?fit=596%2C596&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%92%d7%a8-%d7%9b%d7%93%d7%95%d7%a8%d7%99%d7%9d-%d7%9e%d7%99%d7%a0%d7%99-afp/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "399.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "48982",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D48982%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=48982",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

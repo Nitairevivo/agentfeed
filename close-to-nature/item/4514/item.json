@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חטיף רך פילה ברווז היפולרגני 100 גרם Premio",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4514/",
+ "description": "מארז חטיפים פילה ברווז רכים PREMIO לכלב.מתאים כלבים רגישים מכיל בשר ברווז בלבד. חטיפים רכים, עסיסיים ומתאימים כצ’ופר על התנהגות טובה, כמתנת תודה על ביצוע פקודות באילוף הכלב וסתם כפינוק. \n חזה ברווז, עמילן תפוח אדמה, גליצרין, מלח.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%A8%D7%9A-%D7%A4%D7%99%D7%9C%D7%94-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%94%D7%99%D7%A4%D7%95%D7%9C%D7%A8%D7%92%D7%A0%D7%99-100-%D7%92%D7%A8%D7%9D-Premio.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%a8%d7%9a-%d7%a4%d7%99%d7%9c%d7%94-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%94%d7%99%d7%a4%d7%95%d7%9c%d7%a8%d7%92%d7%a0%d7%99-100-%d7%92%d7%a8%d7%9d-premio/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "19.90",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/OutOfStock"
+ },
+ "identifier": "4514",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4514%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4514",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

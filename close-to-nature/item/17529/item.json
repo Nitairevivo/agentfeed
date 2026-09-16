@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🍖 מונג’ גורים וג’וניור כבש ואורז (Monge All Breeds Puppy & Junior Lamb with Rice) | שק 12 ק”ג",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17529/",
+ "description": "מזון יבש מלא ומאוזן ברמת סופר-פרימיום מבית מונג’ ( Monge ), המיועד לגורי כלבים מכל הגזעים בשלב הצמיחה וההתפתחות. הנוסחה הייחודית מבוססת על בשר כבש איכותי כרכיב ראשון, בשילוב אורז קל לעיכול, ומספקת לגור שלכם את כל האנרגיה והרכיבים התזונתיים הדרושים לגדילה בריאה, תקינה ורציפה. \n \n \n 🔹  רכיב ראשון בשר כבש:  מקור חלבון מעולה, היפואלרגני וטעים במיוחד, המסייע בבניית מסת שריר חזקה. \n \n \n 🔹  הגנה על מערכת העיכול:  מועשר בפרה-ביוטיקה טבעית (X.O.S) השומרת על מאזן החיידקים הטובים במעיים ומקילה על העיכול. \n \n \n 🔹  פיתוח מפרקים ושלד:  מכיל סידן, זרחן, כונדרואיטין וגלוקוזאמין ביחס אופטימלי לתמיכה בסחוסים ובעצמות הגדלות. \n \n \n 🔹  פרווה מבריקה ועור בריא:  עשיר בחומצות שומן אומגה 3 ואומגה 6 המונעות גירויים ומעניקות מראה פרווה זוהר.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/12/%D7%9E%D7%95%D7%A0%D7%92-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%9E%D7%9B%D7%9C-%D7%94%D7%92%D7%96%D7%A2%D7%99%D7%9D-12-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9b%d7%91%d7%a9-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9e%d7%9b%d7%9c-%d7%94%d7%92%d7%96%d7%a2%d7%99%d7%9d-12/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "279.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "17529",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17529%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17529",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐟 מזון מקלות לדגי קוי ובריכה 10 ק”ג SISO Koi Sticks",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/71403/",
+ "description": "אוכל לדגי קוי  מובחר בצורת מקלות צפים, המספק  תזונה מלאה לדגי בריכה  ומעודד צמיחה בריאה, חיזוק פיגמנטים ושמירה על  מים צלולים . \n 📦 תכולה מדויקת: 10 ק”ג. \n 🌿 רכיבים / מאפיינים פעילים:  42% חלבון דגים איכותי , ספירולינה טבעית (5%) ופרוביוטיקה. \n 🎯 יתרון מרכזי:  הדגשת צבעי הדגים  וחיזוק המערכת החיסונית ללא צבעי מאכל מלאכותיים. \n 🩺 התוויה / ייעוד: מיועד להזנה יומיומית של  דגי קוי ודגי זהב  בבריכות נוי.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/siso-koi-sticks-bucket-10kg.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/siso-koi-sticks-10kg/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "269.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "71403",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D71403%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=71403",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,56 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "לינה בדירת אירוח — צוקייה, חד נס, רמת הגולן",
+ "url": "https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/",
+ "description": "דירת אירוח בחופים 27, חד נס שברמת הגולן. זו הקטגוריה והכתובת שהעסק פרסם בעצמו ברישום הציבורי שלו בגוגל מפות. מחיר ללילה, מספר היחידות, כמה נפשות בכל אחת, מה כלול בלינה, שעות כניסה ויציאה ומדיניות הביטול — טרם נמסרו, ואין להשלים אותם מהערכה. לבירור ולהזמנה: 050-659-5838, בטלפון או בוואטסאפ.",
+ "brand": {
+  "@type": "Brand",
+  "name": "צוקייה"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://wa.me/972506595838",
+  "seller": {
+   "@type": "Organization",
+   "name": "צוקייה",
+   "url": "https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "tsukia-lodging",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tsukia/",
+  "name": "צוקייה"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://wa.me/972506595838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9C%D7%99%D7%A0%D7%94%20%D7%91%D7%93%D7%99%D7%A8%D7%AA%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%E2%80%94%20%D7%A6%D7%95%D7%A7%D7%99%D7%99%D7%94%2C%20%D7%97%D7%93%20%D7%A0%D7%A1%2C%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%92%D7%95%D7%9C%D7%9F%D7%B4.",
+  "name": "whatsapp"
+ },
+ "seller_phone": "050-659-5838",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

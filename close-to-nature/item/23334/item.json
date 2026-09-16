@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מזרקת מים לכלבים וחתולים 3.8L נירוסטה 360 PetSafe",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/23334/",
+ "description": "מזרקת חיות המחמד של Drinkwell® 360 נירוסטה מספקת 3.8 ליטר מים טריים ומסוננים לחיית המחמד שלך. מפתים את חיית המחמד שלך לשתות יותר ומאוורר ללא הרף את המים עם חמצן בריא. מסנן פחם מסיר טעמים וריחות רעים, נותן לחיית המחמד שלך את הדרך הטובה ביותר לשמור על לחות. הזרמים המרובים של המזרקה והעיצוב העגול מאפשר לחיות מחמד לשתות מכל זווית, פלדת אל-חלד היא החומר מספר 1 המומלץ על ידי וטרינרים לכלי המחמד ההיגייניים ביותר.",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2022/10/%D7%9E%D7%96%D7%A8%D7%A7%D7%AA-%D7%9E%D7%99%D7%9D-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%95%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-3.8L-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-360-PetSafe.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%a8%d7%a7%d7%aa-%d7%9e%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%95%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-3-8l-%d7%a0%d7%99%d7%a8%d7%95%d7%a1%d7%98%d7%94-360-petsafe/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "669.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "23334",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D23334%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=23334",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-09-16",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}
