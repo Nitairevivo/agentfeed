@@ -1,30 +1,18 @@
 {
   "host": "judaicail.co.il",
-  "read_at": "2026-09-16T07:21:07Z",
+  "read_at": "2026-09-16T07:36:29Z",
   "pages": [
-    {
-      "path": "/pages/contact",
-      "file": "pages_contact.html",
-      "status": 200,
-      "bytes": 456355
-    },
-    {
-      "path": "/pages/contact-us",
-      "file": "pages_contact-us.html",
-      "status": 404,
-      "bytes": 408834
-    },
-    {
-      "path": "/pages/יצירת-קשר",
-      "file": "pages_יצירת-קשר.html",
-      "status": 404,
-      "bytes": 408834
-    },
     {
       "path": "/",
       "file": "home.html",
       "status": 200,
-      "bytes": 669560
+      "bytes": 669824
+    },
+    {
+      "path": "/pages/contact",
+      "file": "pages_contact.html",
+      "status": 200,
+      "bytes": 456619
     }
   ]
 }
