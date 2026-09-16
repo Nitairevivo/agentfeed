@@ -441,6 +441,12 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
     <input id="hp" name="hp" type="text" tabindex="-1" autocomplete="off">
   </div>
 
+  <!-- Who sent them here, carried in the address a partner forwards
+       (…/join.html?via=name). Not shown and not asked: it is the same kind of
+       thing as a utm tag, it changes nothing about what the business agrees
+       to, and it is the only reason a partner can ever be paid his share. -->
+  <input id="via" name="via" type="hidden" value="">
+
   <div class="consent">
     <b>בשליחה את/ה מאשר/ת:</b> ל-AgentFeed להשתמש בפרטי החנות כדי להנגיש אותה
     לעוזרי AI ולסוכני קנייה, כולל המרה, אחסון והגשה של נתוני המוצרים
@@ -545,6 +551,21 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
   });
   progress();
 
+  // The referral, from the address, and remembered. A business owner often
+  // opens the link, closes it, and comes back an hour later from their own
+  // history — by which point the ?via= is gone and the partner who sent them
+  // has vanished from the record.
+  try {
+    var q = new URLSearchParams(location.search).get("via") || "";
+    if (/^[a-z0-9][a-z0-9-]{0,39}$/.test(q)) {
+      try { localStorage.setItem("af_via", q); } catch (e) {}
+    } else {
+      try { q = localStorage.getItem("af_via") || ""; } catch (e) { q = ""; }
+    }
+    var viaEl = document.getElementById("via");
+    if (viaEl) { viaEl.value = q; }
+  } catch (e) {}
+
   var stick = document.getElementById("stick");
   var watch = [document.querySelector(".cta"), document.getElementById("f")]
     .filter(Boolean);
@@ -587,6 +608,10 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
       '• טלפון: ' + v("phone")
     ];
     if (v("profile_url")) { L.push('• עמוד גוגל/פייסבוק: ' + v("profile_url")); }
+    // Also in the message the owner sends. Our endpoint can be down, blocked
+    // by an extension, or simply never reached — and the WhatsApp message is
+    // the one record that always arrives.
+    if (v("via")) { L.push('• הגיע דרך: ' + v("via")); }
     var extra = [["what","מה אנחנו מוכרים"],["prices","טווחי מחירים"],
                  ["where","מיקום"],["ship","משלוחים"],["hours","שעות מענה"],
                  ["returns","החזרות"],["photos","תמונות"],
@@ -623,7 +648,7 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
           site: v("site"), what: v("what"), prices: v("prices"),
           where: v("where"), ship: v("ship"), hours: v("hours"),
           returns: v("returns"), photos: v("photos"), gold: v("gold"),
-          profile_url: v("profile_url"), hp: v("hp")
+          profile_url: v("profile_url"), hp: v("hp"), via: v("via")
         })
       }).catch(function(){});
     } catch (e) {}
