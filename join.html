@@ -237,6 +237,44 @@ input:user-invalid{border-color:#b3261e}
 .after{font-size:.82rem;color:var(--muted);margin:10px 0 0;text-align:center}
 .after b{color:var(--ink)}
 button[disabled]{opacity:.65;cursor:default}
+/* The two views. Everything else on this page explains what an AI-readable
+   version of a business is; this shows it, with a real business and its real
+   file. On a phone the two stack and the machine side reads underneath. */
+.twoview{display:grid;gap:10px;margin:22px 0 6px}
+@media(min-width:620px){.twoview{grid-template-columns:1fr 1fr;align-items:stretch}}
+.tv{display:flex;flex-direction:column;gap:7px;min-width:0}
+.tv-h{font-size:.74rem;font-weight:700;letter-spacing:.04em;color:var(--faint);
+text-transform:none}
+.tv-card{flex:1;background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+.tv-card>b{display:block;font-size:1.02rem;line-height:1.3}
+.tv-cat{display:block;color:var(--faint);font-size:.78rem;margin-top:1px}
+.tv-item{display:flex;gap:10px;align-items:baseline;justify-content:space-between;
+margin-top:11px;padding-top:11px;border-top:1px solid var(--line-soft);
+font-size:.86rem;color:var(--muted)}
+.tv-price{color:var(--brand-ink);white-space:nowrap;font-variant-numeric:tabular-nums}
+/* Left to right, monospaced, and dark in both themes — this is a file, and it
+   should look like one next to the card that looks like a shop. */
+.tv-code{flex:1;margin:0;background:#131c2a;color:#e9edf5;border-radius:var(--radius);
+padding:13px 15px;direction:ltr;text-align:left;overflow-x:auto;
+font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+font-size:.73rem;line-height:1.6;box-shadow:var(--shadow)}
+.tv-code code{white-space:pre;background:none;border:0;padding:0;
+color:inherit;display:inline;border-radius:0;font-size:inherit}
+.tv-note{font-size:.79rem;color:var(--faint);margin:2px 0 0}
+.tv-note a{color:var(--muted)}
+/* How much of the form is done. Four required fields is not a lot, and saying
+   so while somebody fills them in is the difference between "this is quick"
+   as a claim and as something they can see. */
+.prog{position:sticky;top:52px;z-index:10;display:flex;align-items:center;gap:10px;
+background:var(--card);border:1px solid var(--line);border-radius:99px;
+padding:7px 14px;margin:0 0 4px;font-size:.82rem;font-weight:600;
+color:var(--muted);box-shadow:var(--shadow)}
+.prog .bar{flex:1;height:5px;border-radius:99px;background:var(--line-soft);
+overflow:hidden}
+.prog .bar i{display:block;height:100%;width:0;background:var(--brand);
+border-radius:99px;transition:width .25s ease}
+.prog.done{color:var(--brand-ink);border-color:var(--brand)}
 /* The action, directly under the numbers. Everything below it is for a reader
    who is not yet convinced; this is for the one who already is. */
 .cta{display:block;text-align:center;background:var(--brand);color:#fff;
@@ -281,6 +319,15 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 המנוע עונה רק לפי מה שהוא מצליח <b>לקרוא</b> — ורוב העסקים בישראל פשוט לא
 קריאים לו. <b>אנחנו בונים לעסק שלך בדיוק את החלק הזה.</b></p>
 
+<div class="twoview"><div class="tv"><span class="tv-h">מה שאדם רואה</span><div class="tv-card"><b>חנות חיות קרוב לטבע</b><span class="tv-cat">חיות מחמד</span><div class="tv-item"><span>ביוניק עצם</span><b class="tv-price">45.00 ILS</b></div></div></div><div class="tv"><span class="tv-h">מה ש-AI קורא</span><pre class="tv-code"><code>&quot;@type&quot;: &quot;Product&quot;,
+&quot;name&quot;: &quot;ביוניק עצם&quot;,
+&quot;offers&quot;: {
+  &quot;price&quot;: &quot;45.00&quot;,
+  &quot;priceCurrency&quot;: &quot;ILS&quot;,
+  &quot;seller&quot;: &quot;חנות חיות קרוב לטבע&quot;
+},
+&quot;potentialAction&quot;: &quot;OrderAction&quot;</code></pre></div></div><p class="tv-note">זה לא המחשה. שני הצדדים הם <a href="https://nitairevivo.github.io/agentfeed/close-to-nature/">חנות חיות קרוב לטבע</a>, עסק אמיתי במאגר — והקוד נלקח מהקובץ שמתפרסם אצלנו לפריט הזה ברגע זה.</p>
+
 <div class="stats">
   <div class="stat"><b>14</b><span>עסקים חיים</span></div>
   <div class="stat"><b>2,509</b><span>פריטים</span></div>
@@ -312,6 +359,11 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
 
 <h2 id="form">הפרטים שלך</h2>
 <form id="f" novalidate>
+  <div class="prog" id="prog" aria-live="polite">
+    <span id="progtext">0 מתוך 4 שדות חובה</span>
+    <span class="bar"><i id="progbar"></i></span>
+  </div>
+
   <fieldset>
     <legend>ארבעה פרטים, וזה כל מה שחייבים</legend>
     <div class="grid2">
@@ -471,6 +523,28 @@ footer{color:var(--muted);font-size:.8rem;margin-top:26px;text-align:center}
   // page nor the form itself is on screen. Watching the form alone put two
   // identical buttons on the first paint; watching the top button alone left
   // the floating one hanging over the form it points at.
+  // Four required fields, counted as they are filled. The page claims the
+  // whole thing takes two minutes; this is the claim made visible while
+  // somebody is in the middle of testing it.
+  var need4 = ["store", "owner", "phone", "site"];
+  function progress(){
+    var done = need4.filter(function(id){ return v(id); }).length;
+    var el = document.getElementById("progtext");
+    var bar = document.getElementById("progbar");
+    var box = document.getElementById("prog");
+    if (!el || !bar || !box) { return; }
+    bar.style.width = (done / need4.length * 100) + "%";
+    el.textContent = done === need4.length
+      ? "כל שדות החובה מולאו ✓"
+      : done + " מתוך " + need4.length + " שדות חובה";
+    box.classList.toggle("done", done === need4.length);
+  }
+  need4.forEach(function(id){
+    var el = document.getElementById(id);
+    if (el) { el.addEventListener("input", progress); }
+  });
+  progress();
+
   var stick = document.getElementById("stick");
   var watch = [document.querySelector(".cta"), document.getElementById("f")]
     .filter(Boolean);
