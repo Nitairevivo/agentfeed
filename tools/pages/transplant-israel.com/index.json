@@ -1,0 +1,42 @@
+{
+  "host": "transplant-israel.com",
+  "read_at": "2026-09-17T10:50:59Z",
+  "pages": [
+    {
+      "path": "/",
+      "file": "home.html",
+      "status": 200,
+      "bytes": 14837
+    },
+    {
+      "path": "/about",
+      "file": "about.html",
+      "status": 200,
+      "bytes": 15288
+    },
+    {
+      "path": "/contact",
+      "file": "contact.html",
+      "status": 200,
+      "bytes": 15260
+    },
+    {
+      "path": "/services",
+      "file": "services.html",
+      "status": 200,
+      "bytes": 14937
+    },
+    {
+      "path": "/he",
+      "file": "he.html",
+      "status": 200,
+      "bytes": 14919
+    },
+    {
+      "path": "/faq",
+      "file": "faq.html",
+      "status": 200,
+      "bytes": 14922
+    }
+  ]
+}
