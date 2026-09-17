@@ -1,0 +1,42 @@
+{
+  "host": "lawinisrael.com",
+  "read_at": "2026-09-17T10:52:40Z",
+  "pages": [
+    {
+      "path": "/",
+      "file": "home.html",
+      "status": 200,
+      "bytes": 15171
+    },
+    {
+      "path": "/about",
+      "file": "about.html",
+      "status": 200,
+      "bytes": 15773
+    },
+    {
+      "path": "/contact",
+      "file": "contact.html",
+      "status": 200,
+      "bytes": 15799
+    },
+    {
+      "path": "/services",
+      "file": "services.html",
+      "status": 200,
+      "bytes": 15271
+    },
+    {
+      "path": "/he",
+      "file": "he.html",
+      "status": 200,
+      "bytes": 15253
+    },
+    {
+      "path": "/faq",
+      "file": "faq.html",
+      "status": 200,
+      "bytes": 15256
+    }
+  ]
+}
