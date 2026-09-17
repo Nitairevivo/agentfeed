@@ -1,0 +1,42 @@
+{
+  "host": "tgil.co.il",
+  "read_at": "2026-09-17T10:54:02Z",
+  "pages": [
+    {
+      "path": "/",
+      "file": "home.html",
+      "status": 200,
+      "bytes": 11676
+    },
+    {
+      "path": "/about",
+      "file": "about.html",
+      "status": 200,
+      "bytes": 11797
+    },
+    {
+      "path": "/contact",
+      "file": "contact.html",
+      "status": 200,
+      "bytes": 11773
+    },
+    {
+      "path": "/services",
+      "file": "services.html",
+      "status": 200,
+      "bytes": 11776
+    },
+    {
+      "path": "/he",
+      "file": "he.html",
+      "status": 200,
+      "bytes": 11758
+    },
+    {
+      "path": "/faq",
+      "file": "faq.html",
+      "status": 200,
+      "bytes": 11761
+    }
+  ]
+}
