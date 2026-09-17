@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+ <head>
+  <script>
+   (function () {
+  var proto = XMLHttpRequest.prototype;
+  var open = proto.open, setRequestHeader = proto.setRequestHeader, send = proto.send;
+  var TOKEN_KEY = 'base44_access_token';
+  var storedTokenHeader = function () {
+    try { return 'Bearer ' + localStorage.getItem(TOKEN_KEY); } catch (e) { return null; }
+  };
+  var forgetStoredToken = function () {
+    try { localStorage.removeItem(TOKEN_KEY); localStorage.removeItem('token'); } catch (e) {}
+  };
+
+  proto.open = function (method, url) {
+    this.__b44IsAuthCheck = /\/entities\/User\/me(\?|$)/.test(url);
+    return open.apply(this, arguments);
+  };
+
+  proto.setRequestHeader = function (name, value) {
+    if (this.__b44IsAuthCheck && name.toLowerCase() === 'authorization' && value === storedTokenHeader()) {
+      this.__b44SentToken = value;
+    }
+    return setRequestHeader.call(this, name, value);
+  };
+
+  proto.send = function () {
+    this.addEventListener('loadend', function () {
+      var rejectedTokenStillStored = this.status === 401 && this.__b44SentToken === storedTokenHeader();
+      if (rejectedTokenStillStored) forgetStoredToken();
+    });
+    return send.apply(this, arguments);
+  };
+})();
+  </script>
+  <meta charset="utf-8"/>
+  <link href="https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png" rel="icon" type="image/svg+xml"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="/manifest.json" rel="manifest"/>
+  <title>
+   משכנתא אונליין - מגזין המשכנתאות של ישראל
+  </title>
+  <meta content="כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע האמין והמדויק ביותר שיעזור לכם להבין יותר בעולם המשכנתאות" name="description"/>
+  <meta content="index, follow, max-image-preview:large, max-snippet:-1" name="robots"/>
+  <meta content="#2D5A27" name="theme-color"/>
+  <meta content="website" property="og:type"/>
+  <meta content="משכנתא אונליין - מגזין המשכנתאות של ישראל" property="og:site_name"/>
+  <meta content="he_IL" property="og:locale"/>
+  <meta content="משכנתא אונליין - מגזין המשכנתאות של ישראל" property="og:title"/>
+  <meta content="כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע האמין והמדויק ביותר שיעזור לכם להבין יותר בעולם המשכנתאות" property="og:description"/>
+  <meta content="https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700;900&amp;family=Heebo:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <script crossorigin="" src="/assets/index-DBBWpUU1.js" type="module">
+  </script>
+  <link crossorigin="" href="/assets/index-hlD_w3HR.css" rel="stylesheet"/>
+  <script type="module">
+   if (window.self === window.top) {
+  let lastPath = "";
+  function getPageNameFromPath(path) {
+    const segments = path.split("/").filter(Boolean);
+    return segments[0] || null;
+  }
+  function trackPageView() {
+    const path = window.location.pathname;
+    if (path === lastPath) return;
+    lastPath = path;
+    const pageName = getPageNameFromPath(path) || "home";
+    const appId = "6a7466e569ab016210a0cfbc";
+    if (!appId) return;
+    fetch(`/api/app-logs/${appId}/log-user-in-app/${pageName}`, {
+      method: "POST",
+    }).catch(() => {});
+  }
+  const originalPushState = history.pushState.bind(history);
+  history.pushState = function (...args) {
+    originalPushState(...args);
+    trackPageView();
+  };
+  const originalReplaceState = history.replaceState.bind(history);
+  history.replaceState = function (...args) {
+    originalReplaceState(...args);
+    trackPageView();
+  };
+  window.addEventListener("popstate", trackPageView);
+  trackPageView();
+}
+  </script>
+  <meta content="https://mashkanta.online/services" property="og:url"/>
+  <meta content="משכנתא אונליין - מגזין המשכנתאות של ישראל" name="twitter:title"/>
+  <meta content="כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע האמין והמדויק ביותר שיעזור לכם להבין יותר בעולם המשכנתאות" name="twitter:description"/>
+  <meta content="https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png" name="twitter:image"/>
+  <meta content="https://mashkanta.online/services" name="twitter:url"/>
+  <script>
+   (function () {
+  var titles = {"/lp/loan-against-property": "lp/Loan Against Property | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea", "/lp/mortgage-advice": "lp/Mortgage Advice | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8", "/admin": "admin/Admin Dashboard | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc", "/admin/articles": "admin/Admin Articles | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9", "/admin/settings": "admin/Admin Settings | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9", "/": "\u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/calculator": "Calculator | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/rates/prime-today": "Prime Today | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/rates/boi-rate": "Boi Rate | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/rates/average": "Average Rates | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/knowledge/glossary": "Glossary | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/about": "About | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/team": "Team | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/contact": "Contact | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/terms": "Terms | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/privacy": "Privacy | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/thank-you": "Thank You | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/rates": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/banks": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/process": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/refinance": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/reverse": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/insurance": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/knowledge": "Pillar Page | \u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc", "/home": "\u05de\u05e9\u05db\u05e0\u05ea\u05d0 \u05d0\u05d5\u05e0\u05dc\u05d9\u05d9\u05df - \u05de\u05d2\u05d6\u05d9\u05df \u05d4\u05de\u05e9\u05db\u05e0\u05ea\u05d0\u05d5\u05ea \u05e9\u05dc \u05d9\u05e9\u05e8\u05d0\u05dc"};
+  // PascalCase boundaries -> "-", mirroring _PASCAL_BOUNDARY_RE without lookbehind
+  // (old Safari fails to PARSE a lookbehind, taking the whole script down).
+  var dashed = function (s) {
+    return s.replace(/([a-z0-9])([A-Z])/g, "$1-$2").replace(/([A-Z])([A-Z][a-z])/g, "$1-$2");
+  };
+  var decode = function (s) {
+    // A %2F inside ONE segment must not become a structural separator: /blog/foo%2Fbar is a
+    // dynamic slug, and letting it split would match a static /blog/foo/bar and write ITS title.
+    try { var d = decodeURIComponent(s); return d.indexOf("/") < 0 ? d : s; } catch (e) { return s; }
+  };
+  var segments = function (path) { return path.split("/").filter(Boolean).map(decode); };
+  var norm = function (path) {
+    var parts = segments(path).map(function (s) { return dashed(s).toLowerCase(); });
+    return parts.length ? "/" + parts.join("/") : "/";
+  };
+  var lastPath = location.pathname, written = document.title, on = true;
+  var sync = function () {
+    // Path only: a hash/query change is the same page, and the SDK strips its own auth
+    // params with replaceState -- neither must clobber a server-rendered title in place.
+    if (!on || location.pathname === lastPath) return;
+    lastPath = location.pathname;
+    if (document.title !== written) { on = false; return; }
+    // Write ONLY a title the map proves. An unmapped path is a dynamic route (/blog/:slug) the
+    // map cannot carry, and writing a placeholder there is destructive, not merely vague: the
+    // prerender worker runs no setUserAgent, so its capture browser reads as human and executes
+    // this script, and coordinator.js's settle wait explicitly tolerates a full navigation --
+    // a redirect landing on an unmapped path would bake the placeholder into the stored
+    // snapshot. Leaving the title alone degrades to today's behavior instead.
+    // Exact lookup only. A dash-stripped retry here would let a genuinely different /set-up
+    // claim /setup: the map carries a dash-free key only where a PascalCase boundary put the
+    // dashes there, and the client cannot tell the two apart. The map emits every reachable
+    // shape per segment instead (_client_url_variants).
+    var title = titles[norm(location.pathname)];
+    if (title === undefined) return;
+    document.title = title;
+    // Re-read: the setter stores verbatim but the getter strips and collapses whitespace, so
+    // keeping the assigned string would make the next sync() read our own write as the app's.
+    written = document.title;
+  };
+  var wrap = function (fn) {
+    // The history entry is already pushed by the time sync() runs, so a throw here would
+    // surface inside the host app's router and break navigation. This is injected into apps
+    // we cannot test, so it swallows rather than trusting the trace.
+    return function () {
+      var r = fn.apply(this, arguments);
+      try { sync(); } catch (e) {}
+      return r;
+    };
+  };
+  history.pushState = wrap(history.pushState);
+  history.replaceState = wrap(history.replaceState);
+  window.addEventListener("popstate", sync);
+})();
+  </script>
+  <meta content="yes" name="mobile-web-app-capable"/>
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="משכנתא אונליין - מגזין המשכנתאות של ישראל" name="apple-mobile-web-app-title"/>
+  <link href="https://mashkanta.online/services" rel="canonical"/>
+  <script data-seo-source="builder" type="application/ld+json">
+   {"name": "משכנתא אונליין - מגזין המשכנתאות של ישראל", "@context": "https://schema.org", "@type": "WebSite", "url": "https://mashkanta.online"}
+  </script>
+  <script data-seo-source="builder" type="application/ld+json">
+   {"name": "משכנתא אונליין - מגזין המשכנתאות של ישראל", "logo": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png", "@context": "https://schema.org", "@type": "Organization", "url": "https://mashkanta.online"}
+  </script>
+ </head>
+ <body>
+  <div id="root">
+   <div data-seo-source="builder" id="seo-snapshot" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
+    <main>
+     <header>
+      <h1>
+       משכנתא אונליין - מגזין המשכנתאות של ישראל
+      </h1>
+      <p>
+       כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע האמין והמדויק ביותר שיעזור לכם להבין יותר בעולם המשכנתאות
+      </p>
+     </header>
+     <nav aria-label="Pages">
+      <h2>
+       Pages
+      </h2>
+      <ul>
+       <li>
+        <a href="/">
+         Home
+        </a>
+       </li>
+       <li>
+        <a href="/lp/loan-against-property">
+         Loan Against Property
+        </a>
+        — lp/Loan Against Property on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/lp/mortgage-advice">
+         Mortgage Advice
+        </a>
+        — lp/Mortgage Advice on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/admin">
+         Admin Dashboard
+        </a>
+        — admin/Admin Dashboard on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/admin/articles">
+         Admin Articles
+        </a>
+        — admin/Admin Articles on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/admin/settings">
+         Admin Settings
+        </a>
+        — admin/Admin Settings on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/calculator">
+         Calculator
+        </a>
+        — Calculator on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/rates/prime-today">
+         Prime Today
+        </a>
+        — Prime Today on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/rates/boi-rate">
+         Boi Rate
+        </a>
+        — Boi Rate on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/rates/average">
+         Average Rates
+        </a>
+        — Average Rates on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/knowledge/glossary">
+         Glossary
+        </a>
+        — Glossary on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/about">
+         About
+        </a>
+        — About on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/team">
+         Team
+        </a>
+        — Team on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/contact">
+         Contact
+        </a>
+        — Contact on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/terms">
+         Terms
+        </a>
+        — Terms on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/privacy">
+         Privacy
+        </a>
+        — Privacy on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/thank-you">
+         Thank You
+        </a>
+        — Thank You on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+       <li>
+        <a href="/rates">
+         Pillar Page
+        </a>
+        — Pillar Page on משכנתא אונליין - מגזין המשכנתאות של ישראל. כל מה שרציתם לדעת על עולם המשכנתאות בישראל באתר אחד, אנחנו מביאים לכם את המידע ה.
+       </li>
+      </ul>
+     </nav>
+    </main>
+   </div>
+  </div>
+ </body>
+</html>
