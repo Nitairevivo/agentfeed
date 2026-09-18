@@ -1,0 +1,57 @@
+# Read any business from any site, by every route there is.
+#
+# readany.yml knocks on the doors and reports which one opened. This one walks
+# through and comes back with the items — normalised, each carrying the route
+# that produced it, from whichever route the site actually supports.
+#
+# The order is not arbitrary: a catalogue API states its prices, and a rendered
+# page has to be interpreted. Interpretation is where invented facts come from,
+# so the highest route that works is the one taken.
+#
+# Reading only. Nothing is written to any site, no contact details are
+# collected, and consent is still required before a page is published.
+name: Read everything
+
+on:
+  workflow_dispatch:
+    inputs:
+      hosts:
+        description: 'Domains — comma, space or newline separated'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readall
+  cancel-in-progress: false
+
+jobs:
+  readall:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Walk the cascade
+        env:
+          READALL_HOSTS: ${{ inputs.hosts }}
+        run: python3 -u tools/readall.py
+
+      # The memory of which route worked for which host. It is the difference
+      # between five probes per site and one, and it is worth keeping.
+      - name: Keep what was learned
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/platforms.json 2>/dev/null || true
+          git diff --cached --quiet && echo "nothing new learned" && exit 0
+          git commit -m "readall: remembered which route works for $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase --quiet origin main || true
+            sleep $((attempt * 3))
+          done
+          exit 1
