@@ -44,7 +44,12 @@ TIMEOUT = 25
 MAX = 2_000_000
 # Below this a page is a shell that a script fills in later. Saying "no
 # content" about that is saying something we did not check.
-THIN = 120
+#
+# Four hundred and not one hundred, because a hundred was measured wrong in
+# practice: transplant-israel returns 299 words to a fetch and 15,680 to a
+# browser, and a threshold of 120 called that "server-rendered" — the one
+# verdict that would have sent us past the site that needs us most.
+THIN = 400
 
 
 def get(url: str, timeout: int = TIMEOUT) -> tuple[int, str]:
@@ -212,8 +217,17 @@ def read(host: str) -> dict:
         out["verdict"] = "catalogue — convert it, no owner effort at all"
     elif "feed" in out:
         out["verdict"] = "product feed — convert it"
-    elif out["words"] >= THIN and "sitemap" in out:
+    elif (out["words"] >= THIN and "sitemap" in out
+            and set(out["schema"]) - {"WebSite", "Organization"}):
         out["verdict"] = "server-rendered with a sitemap — read page by page"
+    elif "sitemap" in out and not (set(out["schema"]) - {"WebSite", "Organization"}):
+        # A site that declares only its own name, and nothing about anything on
+        # it, is a shell however many words the shell happens to contain. The
+        # four sites read yesterday all looked like this and all of them turned
+        # out to hold thousands of words a crawler never sees.
+        out["verdict"] = ("declares only its own name and nothing about its "
+                          "content — almost certainly a shell. Send it to the "
+                          "browser reader before deciding")
     elif "sitemap" in out:
         out["verdict"] = ("thin to a plain fetch but has a sitemap — needs the "
                           "browser reader, and this is the case worth the most "
