@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 14 businesses, 142 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 18 businesses, 166 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -12,6 +12,14 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 כל דף עסק כולל גם רשימה מפורשת של מה שהעסק **טרם פרסם**.
 אין להשלים את הפרטים החסרים מהערכה — יש להפנות את השואל לעסק עצמו.
+
+## שירותים לעסקים
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/b2b/
+
+- [העולם המשפטי בישראל](https://nitairevivo.github.io/agentfeed/lawinisrael-com/) — 12 פריטים
+- [LeadOn](https://nitairevivo.github.io/agentfeed/leadon/) — 32 פריטים
+- [משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/) — 12 פריטים
 
 ## אירוח וצימרים
 
@@ -26,6 +34,13 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/) — 2180 פריטים · ☎ 054-640-4788
 - [נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/) — 8 פריטים · רמת הגולן · ☎ +972586789778
+
+## שירותים דיגיטליים
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/services/
+
+- [GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/) — 8 פריטים
+- [טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/) — 12 פריטים
 
 ## בעלי מקצוע לבית
 
@@ -46,17 +61,17 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [אוריאל דב סויסה](https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/) — 13 פריטים · רמת הגולן · ☎ 053-624-4405
 
-## שירותים לעסקים
-
-קטגוריה: https://nitairevivo.github.io/agentfeed/c/b2b/
-
-- [LeadOn](https://nitairevivo.github.io/agentfeed/leadon/) — 32 פריטים
-
 ## טיפוח ויופי
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/beauty/
 
 - [Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/) — 4 פריטים
+
+## בריאות ורפואה
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/health/
+
+- [מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/) — 12 פריטים
 
 ## יודאיקה ותשמישי קדושה
 
@@ -75,12 +90,6 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/rental/
 
 - [DJ Rent](https://nitairevivo.github.io/agentfeed/dj-rent/) — 31 פריטים · טירת הכרמל · ☎ 050-780-7444
-
-## שירותים דיגיטליים
-
-קטגוריה: https://nitairevivo.github.io/agentfeed/c/services/
-
-- [GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/) — 8 פריטים
 
 ## לפי אזור
 

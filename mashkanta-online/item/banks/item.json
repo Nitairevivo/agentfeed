@@ -1,0 +1,50 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "משכנתא מול הבנקים — מדריכים, נתונים וכלים | mashkanta.online",
+ "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/banks/",
+ "description": "אשכול תוכן משכנתא מול הבנקים מדריכים מעשיים לעבודה מול כל בנק: הגשה, תהליך, מסלולים ומשא ומתן. עובדות ותהליכים, לא ביקורות. 8 מדריכים זמינים לקריאה דף הבית משכנתא מול הבנקים מומלץ להתחיל כאן משכנתא בבנק לאומי: המדריך המעשי ללווה משכנתא בלאומי: איך מגישים בקשה לאישור עקרוני, המסלולים המוצעים, המחשבון, תהליך העבודה מול…",
+ "brand": {
+  "@type": "Brand",
+  "name": "משכנתא אונליין"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://mashkanta.online/banks?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "משכנתא אונליין",
+   "url": "https://mashkanta.online"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "banks",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
+  "name": "משכנתא אונליין"
+ },
+ "retrieved": "2026-09-19",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

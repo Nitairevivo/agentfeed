@@ -1,10 +1,914 @@
 {
  "page": 51,
- "pages": 51,
- "total": 2509,
- "count": 9,
- "next": null,
+ "pages": 52,
+ "total": 2557,
+ "count": 50,
+ "next": "https://nitairevivo.github.io/agentfeed/api/products/page-52.json",
  "products": [
+  {
+   "id": "oriel-glass-20x30",
+   "title": "הדפסה על זכוכית 20×30 ס\"מ — תמונת נוף ישראלי, 300 ₪",
+   "description": "הדפסה על זכוכית מחוסמת, מראה עמוק ומודרני, מגיעה עם ברגים לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "זכוכית > הדפסה על זכוכית > זכוכית מחוסמת > 20x30 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "300.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-20x30/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-20x30/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-glass-20x30",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2020%C3%9730%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20300%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2020%C3%9730%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20300%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2020%C3%9730%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20300%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-canvas-30x45",
+   "title": "הדפסה על קנבס 30×45 ס\"מ — תמונת נוף ישראלי, 250 ₪",
+   "description": "הדפסה על בד קנבס מתוח על מסגרת עץ פנימית, מגיעה מוכנה לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "קנבס > הדפסה על קנבס > 30x45 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "250.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-30x45/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-30x45/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-canvas-30x45",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2030%C3%9745%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20250%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2030%C3%9745%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20250%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2030%C3%9745%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20250%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-glass-30x45",
+   "title": "הדפסה על זכוכית 30×45 ס\"מ — תמונת נוף ישראלי, 400 ₪",
+   "description": "הדפסה על זכוכית מחוסמת, מראה עמוק ומודרני, מגיעה עם ברגים לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "זכוכית > הדפסה על זכוכית > זכוכית מחוסמת > 30x45 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "400.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-30x45/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-30x45/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-glass-30x45",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2030%C3%9745%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20400%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2030%C3%9745%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20400%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2030%C3%9745%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20400%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-canvas-40x60",
+   "title": "הדפסה על קנבס 40×60 ס\"מ — תמונת נוף ישראלי, 350 ₪",
+   "description": "הדפסה על בד קנבס מתוח על מסגרת עץ פנימית, מגיעה מוכנה לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "קנבס > הדפסה על קנבס > 40x60 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "350.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-40x60/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-40x60/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-canvas-40x60",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2040%C3%9760%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20350%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2040%C3%9760%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20350%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2040%C3%9760%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20350%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-glass-40x60",
+   "title": "הדפסה על זכוכית 40×60 ס\"מ — תמונת נוף ישראלי, 500 ₪",
+   "description": "הדפסה על זכוכית מחוסמת, מראה עמוק ומודרני, מגיעה עם ברגים לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "זכוכית > הדפסה על זכוכית > זכוכית מחוסמת > 40x60 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "500.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-40x60/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-40x60/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-glass-40x60",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2040%C3%9760%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20500%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2040%C3%9760%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20500%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2040%C3%9760%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20500%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-canvas-50x70",
+   "title": "הדפסה על קנבס 50×70 ס\"מ — תמונת נוף ישראלי, 400 ₪",
+   "description": "הדפסה על בד קנבס מתוח על מסגרת עץ פנימית, מגיעה מוכנה לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "קנבס > הדפסה על קנבס > 50x70 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "400.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-50x70/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-50x70/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-canvas-50x70",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2050%C3%9770%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20400%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2050%C3%9770%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20400%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2050%C3%9770%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20400%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-glass-50x70",
+   "title": "הדפסה על זכוכית 50×70 ס\"מ — תמונת נוף ישראלי, 600 ₪",
+   "description": "הדפסה על זכוכית מחוסמת, מראה עמוק ומודרני, מגיעה עם ברגים לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "זכוכית > הדפסה על זכוכית > זכוכית מחוסמת > 50x70 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "600.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-50x70/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-50x70/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-glass-50x70",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2050%C3%9770%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20600%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2050%C3%9770%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20600%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2050%C3%9770%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20600%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-canvas-60x80",
+   "title": "הדפסה על קנבס 60×80 ס\"מ — תמונת נוף ישראלי, 500 ₪",
+   "description": "הדפסה על בד קנבס מתוח על מסגרת עץ פנימית, מגיעה מוכנה לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "קנבס > הדפסה על קנבס > 60x80 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "500.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-60x80/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-60x80/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-canvas-60x80",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2060%C3%9780%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20500%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2060%C3%9780%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20500%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2060%C3%9780%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20500%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-canvas-70x100",
+   "title": "הדפסה על קנבס 70×100 ס\"מ — תמונת נוף ישראלי, 600 ₪",
+   "description": "הדפסה על בד קנבס מתוח על מסגרת עץ פנימית, מגיעה מוכנה לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "קנבס > הדפסה על קנבס > 70x100 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "600.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-70x100/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-canvas-70x100/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-canvas-70x100",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2070%C3%97100%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20600%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2070%C3%97100%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20600%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%A7%D7%A0%D7%91%D7%A1%2070%C3%97100%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%20600%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-glass-70x100",
+   "title": "הדפסה על זכוכית 70×100 ס\"מ — תמונת נוף ישראלי, 1500 ₪",
+   "description": "הדפסה על זכוכית מחוסמת, מראה עמוק ומודרני, מגיעה עם ברגים לתלייה. התמונה נבחרת מתוך גלריה של 60 צילומים מקוריים שצילם בעל העסק ברחבי ישראל. המחיר כולל מע\"מ. ההדפס מיוצר לפי הזמנה, אספקה עד 14 ימי עסקים. משלוח 28 ₪, חינם בהזמנה מעל 300 ₪, ואיסוף עצמי מקצרין ללא עלות. הדפסה בהתאמה אישית אינה ניתנת להחזרה. מחיר הזכוכית בגודל הזה הוא להזמנה מיוחדת, כפי שמצוין במחירון.",
+   "link": "https://oriel-dov-swisa.co.il/gallery?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "זכוכית > הדפסה על זכוכית > זכוכית מחוסמת > 70x100 > נוף ישראלי > תמונת קיר > עיצוב הבית > תמונה לסלון > רמת הגולן > קצרין",
+   "condition": "new",
+   "price": "1500.00",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-70x100/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-glass-70x100/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-glass-70x100",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2070%C3%97100%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%201500%20%E2%82%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2070%C3%97100%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%201500%20%E2%82%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%94%D7%93%D7%A4%D7%A1%D7%94%20%D7%A2%D7%9C%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2070%C3%97100%20%D7%A1%22%D7%9E%20%E2%80%94%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%A0%D7%95%D7%A3%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%2C%201500%20%E2%82%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "oriel-business-gift",
+   "title": "מארזי מתנה לעובדים וללקוחות — הספר בהזמנה כמותית",
+   "description": "הצעה למנהלי משאבי אנוש, מנהלי רווחה ובעלי עסקים: הספר \"ארץ; נוף.\" כמתנה לעובדים, ללקוחות ולשותפים. כולל אפשרות להוספת לוגו החברה על עטיפת הספר, דף הקדשה אישי ממנכ\"ל או ממנהל משאבי אנוש, ומשלוח מאורגן ישירות לכתובת העסק. בהזמנה של 50 ספרים ומעלה מצורפת מתנה: תמונת קנבס בגודל 50×70 ס\"מ עם נוף לבחירה מהגלריה, לקישוט המשרד. מחיר לכמות לא פורסם באתר ונקבע מול העסק.",
+   "link": "https://oriel-dov-swisa.co.il/business?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://oriel-dov-swisa.co.il/assets/book-stack-DBPKVMHh.png",
+   "brand": "אוריאל דב סויסה",
+   "product_type": "מתנות לעובדים > מתנה לחג > מתנות לעסקים > משאבי אנוש > מתנה ללקוחות > כמות > לוגו > מיתוג > ספר",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-business-gift/",
+   "json": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/item/oriel-business-gift/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/#oriel-business-gift",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%90%D7%A8%D7%96%D7%99%20%D7%9E%D7%AA%D7%A0%D7%94%20%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%9C%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA%20%E2%80%94%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%91%D7%94%D7%96%D7%9E%D7%A0%D7%94%20%D7%9B%D7%9E%D7%95%D7%AA%D7%99%D7%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972536244405?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%90%D7%A8%D7%96%D7%99%20%D7%9E%D7%AA%D7%A0%D7%94%20%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%9C%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA%20%E2%80%94%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%91%D7%94%D7%96%D7%9E%D7%A0%D7%94%20%D7%9B%D7%9E%D7%95%D7%AA%D7%99%D7%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0536244405",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:oriel.photographer@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%90%D7%A8%D7%96%D7%99%20%D7%9E%D7%AA%D7%A0%D7%94%20%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D%20%D7%95%D7%9C%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA%20%E2%80%94%20%D7%94%D7%A1%D7%A4%D7%A8%20%D7%91%D7%94%D7%96%D7%9E%D7%A0%D7%94%20%D7%9B%D7%9E%D7%95%D7%AA%D7%99%D7%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "אוריאל דב סויסה",
+   "business_slug": "oriel-dov-swisa",
+   "business_site": "https://oriel-dov-swisa.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/"
+  },
+  {
+   "id": "15068627173741",
+   "title": "🌸 מגבת המיקרופייבר ששומרת על השיער שלך",
+   "description": "כמה פעמים יצאת מהמקלחת והשיער שלך הפך לנפוח מסובך וקשה לסידור  \n  מגבות רגילות יוצרות חיכוך שמכביד על השיער ועלולות לגרום לשבירה ופריז  \n  HairCloud™ עשויה ממיקרופייבר רך במיוחד שסופג כמות גדולה של מים במהירות ובעדינות כך שהשיער מתייבש מהר יותר תוך שמירה על המראה הטבעי שלו",
+   "link": "https://www.sunsetglow.co.il/products/🌸-מגבת-המיקרופייבר-ששומרת-על-השיער-שלך?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0980/2648/8173/files/ChatGPT_Image_Aug_23_2026_02_01_59_PM.png?v=1787482963",
+   "brand": "sunset glow",
+   "product_type": "hair > מוצרי נוחות לשיער > מגבת שיער > ייבוש שיער",
+   "condition": "new",
+   "price": "79.99",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/15068627173741/",
+   "json": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/15068627173741/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/sunset-glow/#15068627173741",
+   "order": {
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2F%F0%9F%8C%B8-%D7%9E%D7%92%D7%91%D7%AA-%D7%94%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%A4%D7%99%D7%99%D7%91%D7%A8-%D7%A9%D7%A9%D7%95%D7%9E%D7%A8%D7%AA-%D7%A2%D7%9C-%D7%94%D7%A9%D7%99%D7%A2%D7%A8-%D7%A9%D7%9C%D7%9A%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=15068627173741",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2F%F0%9F%8C%B8-%D7%9E%D7%92%D7%91%D7%AA-%D7%94%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%A4%D7%99%D7%99%D7%91%D7%A8-%D7%A9%D7%A9%D7%95%D7%9E%D7%A8%D7%AA-%D7%A2%D7%9C-%D7%94%D7%A9%D7%99%D7%A2%D7%A8-%D7%A9%D7%9C%D7%9A%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=15068627173741",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     }
+    ]
+   },
+   "business": "Sunset glow",
+   "business_slug": "sunset-glow",
+   "business_site": "https://www.sunsetglow.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/sunset-glow/"
+  },
+  {
+   "id": "15050526261613",
+   "title": "המסרק החכם שמדלל ומעצב שיער תוך שניות כי \"רק קצוות\" לא אמור להפוך לחצי מהשיער שלך- Luma",
+   "description": "כמה פעמים יצאת מהספרית ואמרת לעצמך:   \"רק קצוות...\"   ואז הסתכלת במראה וגילית שהשיער שלך קצר יותר ממה שרצית?  \n  התחושה הזאת מוכרת מדי.  \n  את משקיעה חודשים בגידול השיער, מטפחת אותו באהבה, מחכה שיגיע לאורך שאת אוהבת – ואז ביקור אחד במספרה מוחק חודשים של סבלנות.  \n  Luma נוצר בדיוק בשביל הרגע הזה.  \n  עכשיו אפשר לטפל בקצוות בבית, בזמן שלך, בקצב שלך, ועם שליטה מלאה על השיער שאת כל כך אוהבת.",
+   "link": "https://www.sunsetglow.co.il/products/המסרק-החכם-שמדלל-ומעצב-שיער-תוך-שניות-lumea?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0980/2648/8173/files/ChatGPT_Image_Aug_29_2026_12_31_13_PM.png?v=1787995891",
+   "brand": "sunset glow",
+   "condition": "new",
+   "price": "169.99",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "product_type": "מוצרי סטיילינג > מוצרי נוחות לשיער > עיצוב שיער > דילול שיער",
+   "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/15050526261613/",
+   "json": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/15050526261613/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/sunset-glow/#15050526261613",
+   "order": {
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2F%D7%94%D7%9E%D7%A1%D7%A8%D7%A7-%D7%94%D7%97%D7%9B%D7%9D-%D7%A9%D7%9E%D7%93%D7%9C%D7%9C-%D7%95%D7%9E%D7%A2%D7%A6%D7%91-%D7%A9%D7%99%D7%A2%D7%A8-%D7%AA%D7%95%D7%9A-%D7%A9%D7%A0%D7%99%D7%95%D7%AA-lumea%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=15050526261613",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2F%D7%94%D7%9E%D7%A1%D7%A8%D7%A7-%D7%94%D7%97%D7%9B%D7%9D-%D7%A9%D7%9E%D7%93%D7%9C%D7%9C-%D7%95%D7%9E%D7%A2%D7%A6%D7%91-%D7%A9%D7%99%D7%A2%D7%A8-%D7%AA%D7%95%D7%9A-%D7%A9%D7%A0%D7%99%D7%95%D7%AA-lumea%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=15050526261613",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     }
+    ]
+   },
+   "business": "Sunset glow",
+   "business_slug": "sunset-glow",
+   "business_site": "https://www.sunsetglow.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/sunset-glow/"
+  },
+  {
+   "id": "14958907228525",
+   "title": "HairBloom – מסרק טיפוח לקרקפת עם LED אדום, עיסוי ופיזור סרום",
+   "description": "נמאס לך להרגיש שהשיער שלך מאבד חיים, נושר, או פשוט לא נראה כמו פעם?   את מסתכלת במראה ורואה פחות נפח, פחות ברק, פחות ביטחון אבל האמת? זה בכלל לא השיער –     זו הקרקפת שלך שזועקת לטיפול",
+   "link": "https://www.sunsetglow.co.il/products/scalpflow-pro-המסרק-שמחזיר-לחיים-את-הקרקפת-שלך-ומעיר-את-השיער-מבפנים?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0980/2648/8173/files/ChatGPT_Image_Aug_23_2026_04_05_33_PM.png?v=1787490365",
+   "brand": "My Store",
+   "condition": "new",
+   "price": "159.95",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "product_type": "מוצרים דיגיטליים לצמיחת השיער > צמיחת שיער > טיפוח קרקפת > מכשיר LED > עיסוי קרקפת",
+   "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/14958907228525/",
+   "json": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/14958907228525/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/sunset-glow/#14958907228525",
+   "order": {
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2Fscalpflow-pro-%D7%94%D7%9E%D7%A1%D7%A8%D7%A7-%D7%A9%D7%9E%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%97%D7%99%D7%99%D7%9D-%D7%90%D7%AA-%D7%94%D7%A7%D7%A8%D7%A7%D7%A4%D7%AA-%D7%A9%D7%9C%D7%9A-%D7%95%D7%9E%D7%A2%D7%99%D7%A8-%D7%90%D7%AA-%D7%94%D7%A9%D7%99%D7%A2%D7%A8-%D7%9E%D7%91%D7%A4%D7%A0%D7%99%D7%9D%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=14958907228525",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2Fscalpflow-pro-%D7%94%D7%9E%D7%A1%D7%A8%D7%A7-%D7%A9%D7%9E%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%97%D7%99%D7%99%D7%9D-%D7%90%D7%AA-%D7%94%D7%A7%D7%A8%D7%A7%D7%A4%D7%AA-%D7%A9%D7%9C%D7%9A-%D7%95%D7%9E%D7%A2%D7%99%D7%A8-%D7%90%D7%AA-%D7%94%D7%A9%D7%99%D7%A2%D7%A8-%D7%9E%D7%91%D7%A4%D7%A0%D7%99%D7%9D%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=14958907228525",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     }
+    ]
+   },
+   "business": "Sunset glow",
+   "business_slug": "sunset-glow",
+   "business_site": "https://www.sunsetglow.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/sunset-glow/"
+  },
+  {
+   "id": "14902505308525",
+   "title": "המיני מחליק האלחוטי – שיער מסודר בכל מקום",
+   "description": "MiniPro משלב בין פעולת סירוק לבין חימום ממוקד. לאחר הפעלתו והתחממותו, מעבירים אותו בעדינות לאורך שיער יבש. החום מסייע לסדר את השיער, להפחית מראה נפוח ופריז ולהעניק לו מראה חלק, טבעי ומטופח יותר.   \n בזכות המבנה הקטן והאלחוטי, ניתן לשאת אותו בתיק ולהשתמש בו בבית, בעבודה, בחופשה או לפני יציאה. המעטפת החיצונית בנויה להפחית מגע ישיר עם אזור החימום, בעוד שהחום מרוכז בחלק הפנימי שבא במגע עם השיער. \n טקסט מוכן להוספה למוצר \n  שיער מסודר ומטופח — בכל מקום  \n MiniPro הוא המיני מחליק האלחוטי של Sunset Glow, שנועד לעזור לך לסדר את השיער במהירות גם כשאין לידך שקע. המכשיר הקומפקטי מתחמם בתוך מספר דקות ומשלב סירוק עם חום ממוקד, כדי להפחית פריז ונפח, להחליק אזורים לא מסודרים ולהעניק לשיער מראה חלק וטבעי יותר. פשוט טוענים באמצעות USB, מפעילים ומעבירים בעדינות על שיער יבש. בזכות העיצוב הקל והנייד, MiniPro נכנס בקלות לתיק ומתאים לעבודה, לנסיעות, לחופשות ולתיקונים מהירים במהלך היום. \n יתרונות מרכזיים \n \n אלחוטי ונטען באמצעות USB. \n מפחית פריז ומסייע לסדר נפח. \n מתאים לתיקונים מהירים במהלך היום. \n קטן, קל ונוח לנשיאה בתיק. \n מתחמם בתוך כ־3–5 דקות. \n מעטפת חיצונית המפחיתה מגע ישיר עם אזור החימום. \n עד כ־30 דקות שימוש לאחר טעינה מלאה. \n מתאים לשיער יבש בלבד.",
+   "link": "https://www.sunsetglow.co.il/products/minipro-2026?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0980/2648/8173/files/ChatGPT_Image_Aug_22_2026_10_59_48_PM.png?v=1787428942",
+   "brand": "My Store",
+   "condition": "new",
+   "price": "129.95",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "product_type": "מיני מחליק אלחוטי > מוצרי סטיילינג > מחליק שיער > מוצרי נוחות לשיער > אלחוטי",
+   "page": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/14902505308525/",
+   "json": "https://nitairevivo.github.io/agentfeed/sunset-glow/item/14902505308525/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/sunset-glow/#14902505308525",
+   "order": {
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2Fminipro-2026%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=14902505308525",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/sunset-glow?to=https%3A%2F%2Fwww.sunsetglow.co.il%2Fproducts%2Fminipro-2026%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=14902505308525",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     }
+    ]
+   },
+   "business": "Sunset glow",
+   "business_slug": "sunset-glow",
+   "business_site": "https://www.sunsetglow.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/sunset-glow/"
+  },
+  {
+   "id": "tami-zimmer",
+   "title": "צימר עם ג'קוזי פרטי — אירוח כפרי אצל תמי, נאות גולן, רמת הגולן",
+   "description": "מתחם נופש משפחתי בדרום רמת הגולן, במושב נאות גולן. 15 צימרים על פני כ-3.5 דונם, מותאמים לזוגות ולמשפחות עם ילדים. בכל צימר ג'קוזי פרטי בחדר, מטבח מאובזר ומסך טלוויזיה LCD. במתחם בריכת שחייה מקורה, מחוממת ונפרדת — מגודרת, עם שער שנסגר אוטומטית. נפתחת בהזמנה מראש למינימום 6 משפחות. צמוד לבריכה חדר מלתחה עם שירותים. המתחם באווירה כפרית — דשאים, עצים וצמחי תבלין. בנוסף מדשאות, פינות מנגל, שלוש פינות בישול, גן שעשועים לילדים, מתקן נינג'ה, ביליארד, כדורגל שולחן וטניס שולחן. אינטרנט אלחוטי ללא עלות בשטחים הציבוריים. שירות חדרים 08:00–22:00. קבלת חדרים: 15:00 בימי חול, 18:00 בשבתות וחגים, 16:00 ביולי-אוגוסט. עזיבה: 11:00 בימי חול, 14:00 בשבתות וחגים, 10:30 ביולי-אוגוסט. בית כנסת במושב במרחק 200 מטר הליכה. באזור: ספא ומסאז'ים 5 דקות, חמת גדר כ-20 דקות נסיעה, שמורת מג'רסה ונחל דליות כ-25 דקות, מעיינות סלוקיה כחצי שעה, קטיף פירות במטעי הגולן כרבע שעה. עסק משפחתי בניהול משפחת לוי מאז 1990. מחירים וזמינות לתאריכים — בטלפון 050-2693989.",
+   "link": "https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אירוח כפרי אצל תמי",
+   "product_type": "צימר > אירוח > רמת הגולן > נאות גולן > צפון > ג'קוזי פרטי > מטבח מאובזר > מדשאה > פינות מנגל > גן שעשועים > אינטרנט אלחוטי > משפחות > זוגות > בית כנסת > ביליארד > טניס שולחן > חופשה משפחתית > בריכה מקורה > בריכה מחוממת > בריכה נפרדת > בריכה בהזמנה מראש > בריכה מגודרת > שער בטיחות אוטומטי > בטיחות ילדים > מלתחות ושירותים בבריכה > אווירה כפרית > דשאים > עצים > צמחי תבלין",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-zimmer/",
+   "json": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-zimmer/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-zimmer",
+   "order": {
+    "method": "phone",
+    "url": "tel:0502693989",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0502693989",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:tamilevi10@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A6%D7%99%D7%9E%D7%A8%20%D7%A2%D7%9D%20%D7%92%27%D7%A7%D7%95%D7%96%D7%99%20%D7%A4%D7%A8%D7%98%D7%99%20%E2%80%94%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%D7%9B%D7%A4%D7%A8%D7%99%20%D7%90%D7%A6%D7%9C%20%D7%AA%D7%9E%D7%99%2C%20%D7%A0%D7%90%D7%95%D7%AA%20%D7%92%D7%95%D7%9C%D7%9F%2C%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%92%D7%95%D7%9C%D7%9F",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   },
+   "business": "אירוח כפרי אצל תמי",
+   "business_slug": "tami-zimmer",
+   "business_site": "https://www.tamizimmer.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/"
+  },
+  {
+   "id": "tami-accessible",
+   "title": "צימר נגיש לבעלי מוגבלויות — אירוח כפרי אצל תמי, רמת הגולן",
+   "description": "במתחם יש חדרים נגישים. חובה להזמין מראש ולקבל אישור מהקבלה. שאר שירותי המתחם — חדר אוכל, מדשאות ופינות מנגל — זמינים לכל האורחים. בריכת שחייה מקורה, מחוממת ונפרדת — מגודרת, עם שער שנסגר אוטומטית. נפתחת בהזמנה מראש למינימום 6 משפחות. צמוד לבריכה חדר מלתחה עם שירותים. מחירים וזמינות בטלפון 050-2693989.",
+   "link": "https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אירוח כפרי אצל תמי",
+   "product_type": "צימר > אירוח > נגישות > חדר נגיש > רמת הגולן > צפון > בריכת שחייה > מטבח מאובזר > בריכה מגודרת > שער בטיחות אוטומטי > בטיחות ילדים > מלתחות ושירותים בבריכה",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-accessible/",
+   "json": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-accessible/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-accessible",
+   "order": {
+    "method": "phone",
+    "url": "tel:0502693989",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0502693989",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:tamilevi10@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A6%D7%99%D7%9E%D7%A8%20%D7%A0%D7%92%D7%99%D7%A9%20%D7%9C%D7%91%D7%A2%D7%9C%D7%99%20%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%99%D7%95%D7%AA%20%E2%80%94%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%D7%9B%D7%A4%D7%A8%D7%99%20%D7%90%D7%A6%D7%9C%20%D7%AA%D7%9E%D7%99%2C%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%92%D7%95%D7%9C%D7%9F",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   },
+   "business": "אירוח כפרי אצל תמי",
+   "business_slug": "tami-zimmer",
+   "business_site": "https://www.tamizimmer.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/"
+  },
+  {
+   "id": "tami-meals",
+   "title": "ארוחות בתיאום עם שף — בוקר או ערב, אירוח כפרי אצל תמי",
+   "description": "המתחם אינו מגיש ארוחות בוקר. ניתן לתאם ארוחות עם שף, לבוקר או לערב, בתיאום מראש. פרטים ומחירים בטלפון 050-2693989.",
+   "link": "https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אירוח כפרי אצל תמי",
+   "product_type": "ארוחות > ארוחה עם שף > ארוחת ערב > שף פרטי > אירוח > רמת הגולן",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-meals/",
+   "json": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-meals/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-meals",
+   "order": {
+    "method": "phone",
+    "url": "tel:0502693989",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0502693989",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:tamilevi10@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%91%D7%AA%D7%99%D7%90%D7%95%D7%9D%20%D7%A2%D7%9D%20%D7%A9%D7%A3%20%E2%80%94%20%D7%91%D7%95%D7%A7%D7%A8%20%D7%90%D7%95%20%D7%A2%D7%A8%D7%91%2C%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%D7%9B%D7%A4%D7%A8%D7%99%20%D7%90%D7%A6%D7%9C%20%D7%AA%D7%9E%D7%99",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   },
+   "business": "אירוח כפרי אצל תמי",
+   "business_slug": "tami-zimmer",
+   "business_site": "https://www.tamizimmer.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/"
+  },
+  {
+   "id": "tami-events",
+   "title": "אירוח כנסים ואירועים עד 50 איש — רמת הגולן",
+   "description": "בחצר המתחם חדר אוכל המתאים לאירוח כנסים ואירועים עד 50 איש. ניתן לארגן את הצימר או את המתחם כולו לאירוע מיוחד, בתיאום מראש בעת ההזמנה. מיקום: מושב נאות גולן, דרום רמת הגולן. פרטים ומחירים בטלפון 050-2693989.",
+   "link": "https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אירוח כפרי אצל תמי",
+   "product_type": "אירועים > כנסים > חדר אוכל > אירוע משפחתי > רמת הגולן > צפון > עד 50 איש > מתחם לאירוע",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-events/",
+   "json": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-events/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-events",
+   "order": {
+    "method": "phone",
+    "url": "tel:0502693989",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0502693989",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:tamilevi10@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%D7%9B%D7%A0%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A8%D7%95%D7%A2%D7%99%D7%9D%20%D7%A2%D7%93%2050%20%D7%90%D7%99%D7%A9%20%E2%80%94%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%92%D7%95%D7%9C%D7%9F",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   },
+   "business": "אירוח כפרי אצל תמי",
+   "business_slug": "tami-zimmer",
+   "business_site": "https://www.tamizimmer.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/"
+  },
+  {
+   "id": "tami-terms",
+   "title": "תנאי הזמנה, תשלום וביטול — אירוח כפרי אצל תמי",
+   "description": "ביטול עד חודש לפני האירוח — 100 ש\"ח. חודש לפני — 20%. שבועיים מיום ההזמנה — 50%. שבוע לפני — 100%. אם לא ניתן להגיע בשל המצב הביטחוני ולפי הנחיות פיקוד העורף, לא ייגבו דמי ביטול. תשלום במקום: מזומן, ביט, פייבוקס או העברה בנקאית. במועד ההזמנה נמסר כרטיס אשראי לביטחון או העברה בנקאית של 30% מגובה ההזמנה, ואישור הזמנה חתום מוחזר למייל. כניסה מ-15:00 (באוגוסט מ-16:00), יציאה עד 11:00, בשבת עד 14:00, באוגוסט עד 10:00 — כל שעה נוספת 100 ש\"ח. אין להביא בעלי חיים אלא בתיאום מראש. אין לבשל בתוך הצימרים; הבישול בפינות הבישול שבמתחם. אין מוזיקה או קריוקי. אין מציל בבריכה והרחצה באחריות המתרחצים בלבד. החלפת מגבות כל יומיים. התנאים המחייבים הם אלה שבאישור ההזמנה החתום — לפרטים 050-2693989.",
+   "link": "https://www.tamizimmer.com?utm_source=agentfeed&utm_medium=ai",
+   "brand": "אירוח כפרי אצל תמי",
+   "product_type": "תנאי ביטול > דמי ביטול > מדיניות ביטול > תשלום > מקדמה > ביט > פייבוקס > העברה בנקאית > שעת כניסה > שעת יציאה > כלבים בתיאום מראש > בעלי חיים > כללי המתחם > בטיחות בבריכה",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-terms/",
+   "json": "https://nitairevivo.github.io/agentfeed/tami-zimmer/item/tami-terms/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tami-zimmer/#tami-terms",
+   "order": {
+    "method": "phone",
+    "url": "tel:0502693989",
+    "note": "העסק מקבל הזמנות ופניות בטלפון.",
+    "routes": [
+     {
+      "method": "phone",
+      "url": "tel:0502693989",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:tamilevi10@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%AA%D7%A0%D7%90%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%2C%20%D7%AA%D7%A9%D7%9C%D7%95%D7%9D%20%D7%95%D7%91%D7%99%D7%98%D7%95%D7%9C%20%E2%80%94%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%D7%9B%D7%A4%D7%A8%D7%99%20%D7%90%D7%A6%D7%9C%20%D7%AA%D7%9E%D7%99",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — טלפון, מייל."
+   },
+   "business": "אירוח כפרי אצל תמי",
+   "business_slug": "tami-zimmer",
+   "business_site": "https://www.tamizimmer.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/"
+  },
+  {
+   "id": "tdr-production-recording",
+   "title": "הקלטות באולפן",
+   "description": "הקלטות באולפן של תדר הפקות, ברחוב החקלאי 21 במושב מנחמיה. שעות המענה שנמסרו הן 09:00–19:30. הסגנון המוזיקלי: מוסיקה אקוסטית ישראלית, עם שילוב של מוסיקה אתנית, בדגש על מוסיקה ערבית, ופלמנקו. היקף הפקה: הפקה נעה בין 8 ל-10 סשיינים, ועוד 2 סשיינים לתיקונים ושינויים. כל סשן אורך בין 4 ל-5 שעות. בתחילת התהליך נעשה אפיון של היצירה ושל הסגנון המוזיקלי, וכן כמה ובאיזה אופן האומן רואה את עצמו חלק מתהליך היצירה. לאחר מכן נקבעים תאריכים והסכם. התשלום על ההפקה מחולק לשניים — חלק בתחילת העבודה והחצי השני בסיום. המחיר לפי הזמנה ומשתנה לפי היקף היצירה ואורכה. פנייה בטלפון או בוואטסאפ, 052-645-4838.",
+   "link": "https://wa.me/972526454838",
+   "brand": "תדר הפקות TDR Production",
+   "product_type": "אולפן הקלטות > הקלטה > אולפן > מנחמיה > עמק הירדן > צפון > זמרים > שירים",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/",
+   "json": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tdr-production/#tdr-production-recording",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A7%D7%9C%D7%98%D7%95%D7%AA%20%D7%91%D7%90%D7%95%D7%9C%D7%A4%D7%9F%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A7%D7%9C%D7%98%D7%95%D7%AA%20%D7%91%D7%90%D7%95%D7%9C%D7%A4%D7%9F%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526454838",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "תדר הפקות TDR Production",
+   "business_slug": "tdr-production",
+   "business_site": "https://www.instagram.com/_shayaharoni_",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tdr-production/"
+  },
+  {
+   "id": "tdr-production-music",
+   "title": "הפקה מוזיקלית",
+   "description": "הפקה מוזיקלית בתדר הפקות, ברחוב החקלאי 21 במושב מנחמיה. הסגנון: מוסיקה אקוסטית ישראלית, עם שילוב של מוסיקה אתנית, בדגש על מוסיקה ערבית, ופלמנקו. היקף: הפקה נעה בין 8 ל-10 סשיינים, ועוד 2 סשיינים לתיקונים ושינויים. כל סשן אורך בין 4 ל-5 שעות. בתחילת התהליך נעשה אפיון של היצירה ושל הסגנון המוזיקלי, וכן כמה ובאיזה אופן האומן רואה את עצמו חלק מתהליך היצירה. לאחר מכן נקבעים תאריכים והסכם. התשלום על ההפקה מחולק לשניים — חלק בתחילת העבודה והחצי השני בסיום. המחיר משתנה לפי היקף היצירה ואורכה. פנייה בטלפון או בוואטסאפ, 052-645-4838.",
+   "link": "https://wa.me/972526454838",
+   "brand": "תדר הפקות TDR Production",
+   "product_type": "הפקה מוזיקלית > הפקת שירים > מפיק מוזיקלי > אולפן > מנחמיה",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/",
+   "json": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-music/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tdr-production/#tdr-production-music",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A4%D7%A7%D7%94%20%D7%9E%D7%95%D7%96%D7%99%D7%A7%D7%9C%D7%99%D7%AA%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A4%D7%A7%D7%94%20%D7%9E%D7%95%D7%96%D7%99%D7%A7%D7%9C%D7%99%D7%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526454838",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "תדר הפקות TDR Production",
+   "business_slug": "tdr-production",
+   "business_site": "https://www.instagram.com/_shayaharoni_",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tdr-production/"
+  },
+  {
+   "id": "tdr-production-mix-master",
+   "title": "מיקס ומאסטרינג",
+   "description": "מיקס ומאסטרינג, שני שירותים שבעל העסק מנה בטופס. המחיר לפי הזמנה — לא פורסם מחיר לשיר ולא לאלבום. כמה סבבי תיקונים כלולים לא פורסם; מה שנמסר הוא שחבילה כוללת בדרך כלל שני תיקוני סשן. זמן האספקה לא פורסם.",
+   "link": "https://wa.me/972526454838",
+   "brand": "תדר הפקות TDR Production",
+   "product_type": "מיקס > מאסטרינג > עיבוד סאונד > אולפן > שיר > אלבום",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/",
+   "json": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-mix-master/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tdr-production/#tdr-production-mix-master",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%A7%D7%A1%20%D7%95%D7%9E%D7%90%D7%A1%D7%98%D7%A8%D7%99%D7%A0%D7%92%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%A7%D7%A1%20%D7%95%D7%9E%D7%90%D7%A1%D7%98%D7%A8%D7%99%D7%A0%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526454838",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "תדר הפקות TDR Production",
+   "business_slug": "tdr-production",
+   "business_site": "https://www.instagram.com/_shayaharoni_",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tdr-production/"
+  },
+  {
+   "id": "tdr-production-film-score",
+   "title": "עריכה ויצירת פסקול לסרטים",
+   "description": "עריכה ויצירת פסקול לסרטים, כפי שנמסר בטופס. לאילו סוגי הפקות — סרט עלילתי, תדמית, קליפ — לא פורסם, ואין להשלים. המחיר לפי הזמנה, וזמן האספקה לא פורסם.",
+   "link": "https://wa.me/972526454838",
+   "brand": "תדר הפקות TDR Production",
+   "product_type": "פסקול > מוזיקה לסרטים > עריכת סאונד > סאונד לסרט > סרטים > וידאו",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/",
+   "json": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-film-score/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tdr-production/#tdr-production-film-score",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%A8%D7%99%D7%9B%D7%94%20%D7%95%D7%99%D7%A6%D7%99%D7%A8%D7%AA%20%D7%A4%D7%A1%D7%A7%D7%95%D7%9C%20%D7%9C%D7%A1%D7%A8%D7%98%D7%99%D7%9D%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%A8%D7%99%D7%9B%D7%94%20%D7%95%D7%99%D7%A6%D7%99%D7%A8%D7%AA%20%D7%A4%D7%A1%D7%A7%D7%95%D7%9C%20%D7%9C%D7%A1%D7%A8%D7%98%D7%99%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526454838",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "תדר הפקות TDR Production",
+   "business_slug": "tdr-production",
+   "business_site": "https://www.instagram.com/_shayaharoni_",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tdr-production/"
+  },
   {
    "id": "tdr-production-live-sound",
    "title": "תפעול סאונד להופעות לייב",
@@ -76,279 +980,532 @@
    "business_page": "https://nitairevivo.github.io/agentfeed/tdr-production/"
   },
   {
-   "id": "tsukia-lodging",
-   "title": "לינה בדירת אירוח — צוקייה, חד נס, רמת הגולן",
-   "description": "דירת אירוח בחופים 27, חד נס שברמת הגולן. זו הקטגוריה והכתובת שהעסק פרסם בעצמו ברישום הציבורי שלו בגוגל מפות. מחיר ללילה, מספר היחידות, כמה נפשות בכל אחת, מה כלול בלינה, שעות כניסה ויציאה ומדיניות הביטול — טרם נמסרו, ואין להשלים אותם מהערכה. לבירור ולהזמנה: 050-659-5838, בטלפון או בוואטסאפ.",
-   "link": "https://wa.me/972506595838",
-   "brand": "צוקייה",
-   "product_type": "דירת אירוח > אירוח > חד נס > רמת הגולן > צפון > לינה",
+   "id": "home",
+   "title": "ערוצי טלגרם ישראל | אינדקס 500+ ערוצים",
+   "description": "ראשי חיפוש בלוג אודות PRO האינדקס הגדול ביותר לטלגרם ישראלי מצא ערוצים וקבוצות טלגרם ישראליים האינדקס הגדול ביותר לערוצים וקבוצות טלגרם בישראל — חפש, גלה והצטרף חפש 500+ ערוצים ישראליים 16 קטגוריות +1M מנויים כולל קטגוריות גלה ערוצים לפי נושא 📰 חדשות עדכונים וחדשות שוטפות ⚽ ספורט כדורגל, כדורסל ועוד 💻 טכנולוגיה הייטק,…",
+   "link": "https://tgil.co.il?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/",
-   "json": "https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/tsukia/#tsukia-lodging",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/home/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/home/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#home",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972506595838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9C%D7%99%D7%A0%D7%94%20%D7%91%D7%93%D7%99%D7%A8%D7%AA%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%E2%80%94%20%D7%A6%D7%95%D7%A7%D7%99%D7%99%D7%94%2C%20%D7%97%D7%93%20%D7%A0%D7%A1%2C%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%92%D7%95%D7%9C%D7%9F%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972506595838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9C%D7%99%D7%A0%D7%94%20%D7%91%D7%93%D7%99%D7%A8%D7%AA%20%D7%90%D7%99%D7%A8%D7%95%D7%97%20%E2%80%94%20%D7%A6%D7%95%D7%A7%D7%99%D7%99%D7%94%2C%20%D7%97%D7%93%20%D7%A0%D7%A1%2C%20%D7%A8%D7%9E%D7%AA%20%D7%94%D7%92%D7%95%D7%9C%D7%9F%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0506595838",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "צוקייה",
-   "business_slug": "tsukia",
-   "business_site": "https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86",
-   "business_page": "https://nitairevivo.github.io/agentfeed/tsukia/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
   },
   {
-   "id": "ziv-gates-fences",
-   "title": "שערים וגדרות בהתאמה אישית",
-   "description": "שערים וגדרות בהתאמה אישית — בלשון העסק בעמוד הפייסבוק שלו. כל עבודה נמדדת ומתומחרת בנפרד: זיו מגיע פיזית לראות את המקום ונותן הצעת מחיר. לא פורסם מחירון. פנייה בטלפון או בוואטסאפ, 052-397-3975, בין 08:00 ל-20:00.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "שערים > שער > גדרות > גדר > מסגרות > ברזל > בהתאמה אישית > לפי מידה > רמת הגולן > בני יהודה",
+   "id": "search",
+   "title": "חיפוש ערוצים וקבוצות טלגרם ישראלי | טלגרם ישראל",
+   "description": "ראשי חיפוש בלוג אודות PRO חיפוש ערוצים וקבוצות טלגרם ישראלי סינון 180 תוצאות תוצאות מהאינדקס שלנו 180 חדשות 100שטח @yediotnews25 ערוץ חדשות מהשטח בטלגרם | קבוצת החדשות בטלגרם הגדולה בישראל 653.8K מנויים 🌐 עברית דניאל עמרם ללא צנזורה @danielamram3 ערוץ חדשות דניאל עמרם ללא צנזורה בטלגרםדניאל עמרם ללא צנזורהלפניותוואצפ:…",
+   "link": "https://tgil.co.il/search?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-gates-fences/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-gates-fences/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-gates-fences",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/search/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/search/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#search",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%A2%D7%A8%D7%99%D7%9D%20%D7%95%D7%92%D7%93%D7%A8%D7%95%D7%AA%20%D7%91%D7%94%D7%AA%D7%90%D7%9E%D7%94%20%D7%90%D7%99%D7%A9%D7%99%D7%AA%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%A2%D7%A8%D7%99%D7%9D%20%D7%95%D7%92%D7%93%D7%A8%D7%95%D7%AA%20%D7%91%D7%94%D7%AA%D7%90%D7%9E%D7%94%20%D7%90%D7%99%D7%A9%D7%99%D7%AA%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A9%D7%A2%D7%A8%D7%99%D7%9D%20%D7%95%D7%92%D7%93%D7%A8%D7%95%D7%AA%20%D7%91%D7%94%D7%AA%D7%90%D7%9E%D7%94%20%D7%90%D7%99%D7%A9%D7%99%D7%AA",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
   },
   {
-   "id": "ziv-smokers",
-   "title": "בניית מעשנות",
-   "description": "בניית מעשנות — אחד השירותים שהעסק מציין ראשון במקטע 'בקצרה' בעמוד שלו. גדלים, סוגים ומחירים לא פורסמו, ונקבעים מול הלקוח. פנייה בטלפון או בוואטסאפ, 052-397-3975.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מעשנה > מעשנות > בניית מעשנות > עישון > בשר > מסגרות > ברזל > רמת הגולן",
+   "id": "blog",
+   "title": "בלוג טלגרם ישראל — מדריכים, טיפים ותובנות",
+   "description": "ראשי חיפוש בלוג אודות PRO בלוג טלגרם ישראל מדריכים, טיפים ותובנות כל מה שצריך לדעת על ערוצים וקבוצות טלגרם ישראליים — מדריכים מקצועיים ועדכונים שוטפים הכל טכנולוגיה חדשות ספורט כלכלה קהילות טכנולוגיה חנונים של טכנולוגיה? ערוצי הייטק בטלגרם שאתם חייבים לדעת 2026 מתכנתים, אנשי הייטק, וחובבי טכנולוגיה — כולם חיים בטלגרם.…",
+   "link": "https://tgil.co.il/blog?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-smokers/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-smokers/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-smokers",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/blog/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/blog/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#blog",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%A0%D7%99%D7%99%D7%AA%20%D7%9E%D7%A2%D7%A9%D7%A0%D7%95%D7%AA%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%A0%D7%99%D7%99%D7%AA%20%D7%9E%D7%A2%D7%A9%D7%A0%D7%95%D7%AA%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%91%D7%A0%D7%99%D7%99%D7%AA%20%D7%9E%D7%A2%D7%A9%D7%A0%D7%95%D7%AA",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
   },
   {
-   "id": "ziv-storage-sheds",
-   "title": "מחסנים לפי מידה",
-   "description": "מחסנים לפי מידה — כלומר המחסן נבנה למידות המקום ולא נמכר בגודל קבוע. חומרים, גדלים ומחירים לא פורסמו. התמחור נעשה אחרי ביקור בשטח.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מחסן > מחסנים > לפי מידה > אחסון > מסגרות > ברזל > חצר > רמת הגולן",
+   "id": "about",
+   "title": "אודות טלגרם ישראל — האינדקס הגדול לערוצים ישראליים",
+   "description": "ראשי חיפוש בלוג אודות PRO פלטפורמת הגילוי המובילה לטלגרם ישראלי אודות טלגרם ישראל המשימה שלנו פשוטה: לעזור לכל אחד בישראל למצוא את הקהילות, הערוצים והמידע שהוא מחפש בטלגרם — בקלות, במהירות ובחינם. 500+ ערוצים ישראלים 1M+ מנויים כולל 16 קטגוריות יומי עדכון מדדים מי אנחנו? טלגרם ישראל הוא האינדקס הישראלי הגדול והמקיף…",
+   "link": "https://tgil.co.il/about?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-storage-sheds/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-storage-sheds/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-storage-sheds",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/about/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/about/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#about",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%97%D7%A1%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A4%D7%99%20%D7%9E%D7%99%D7%93%D7%94%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%97%D7%A1%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A4%D7%99%20%D7%9E%D7%99%D7%93%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%97%D7%A1%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A4%D7%99%20%D7%9E%D7%99%D7%93%D7%94",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
   },
   {
-   "id": "ziv-shelves",
-   "title": "מדפים",
-   "description": "מדפים — שירות שהעסק מציין במקטע 'בקצרה' בעמוד שלו. אם מדובר במדפי ברזל לבית, למחסן או לעסק, ובאילו מידות — לא פורט, ואין לשער. התמחור לפי עבודה.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מדפים > מדף > מדפי ברזל > אחסון > מסגרות > ברזל > רמת הגולן",
+   "id": "pricing",
+   "title": "מינוי PRO | גישה מלאה לערוצים ישראליים | טלגרם ישראל",
+   "description": "ראשי חיפוש בלוג אודות PRO מינוי PRO גישה מלאה לכל הערוצים בישראל שדרג ל-PRO וקבל גישה בלתי מוגבלת לאינדקס הגדול ביותר של ערוצים וקבוצות טלגרם ישראליות חינמי ₪0 לתמיד עד 6 ערוצים לעמוד עד 10 צפיות ביום חיפוש בסיסי ❌ ערוצים פרטיות ❌ גישה מלאה לאינדקס גרסה נוכחית שלך מומלץ PRO ₪5 לחודש מחיר מיוחד למנויים בקומץ מראשית…",
+   "link": "https://tgil.co.il/pricing?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-shelves/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-shelves/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-shelves",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/pricing/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/pricing/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#pricing",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%93%D7%A4%D7%99%D7%9D%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%93%D7%A4%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%93%D7%A4%D7%99%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
   },
   {
-   "id": "ziv-metalwork-custom",
-   "title": "עבודות מסגרות נוספות לבית — לפי הזמנה",
-   "description": "מעבר לשערים, לגדרות, למעשנות, למחסנים ולמדפים — בעל העסק מגדיר את התחום כ'כל עבודות הברזל ועוד לבית', ובעמוד שלו כתוב 'כל העבודות המסגרות במקום אחד'. אילו עבודות נוספות נכללות בפועל לא פורט, ואין להשלים מהערכה. הדרך לברר היא לתאר את העבודה בוואטסאפ.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מסגרות > מסגר > עבודות ברזל > ברזל > לפי הזמנה > בהתאמה אישית > רמת הגולן > בני יהודה",
+   "id": "news",
+   "title": "ערוצי חדשות בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / חדשות 📰 ערוצי חדשות בטלגרם ערוצי חדשות ועדכונים שוטפים בטלגרם 70 ערוצים 5.0M מנויים כולל ערוצי החדשות בטלגרם הם המקור המהיר ביותר לעדכונים שוטפים בישראל. מערוצי חדשות כלליות ועד ערוצים ממוקדים בחדשות ביטחוניות, כלכליות ומקומיות — תמצא כאן את כל מה שחשוב לדעת בזמן אמת. חדשות טלגרם ערוצי…",
+   "link": "https://tgil.co.il/category/%D7%97%D7%93%D7%A9%D7%95%D7%AA?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-metalwork-custom/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-metalwork-custom/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-metalwork-custom",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/news/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/news/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#news",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA%20%D7%9E%D7%A1%D7%92%D7%A8%D7%95%D7%AA%20%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%9C%D7%91%D7%99%D7%AA%20%E2%80%94%20%D7%9C%D7%A4%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA%20%D7%9E%D7%A1%D7%92%D7%A8%D7%95%D7%AA%20%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%9C%D7%91%D7%99%D7%AA%20%E2%80%94%20%D7%9C%D7%A4%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA%20%D7%9E%D7%A1%D7%92%D7%A8%D7%95%D7%AA%20%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%9C%D7%91%D7%99%D7%AA%20%E2%80%94%20%D7%9C%D7%A4%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
   },
   {
-   "id": "ziv-site-visit-quote",
-   "title": "ביקור מדידה בשטח והצעת מחיר",
-   "description": "לפי בעל העסק: 'פיזית אני מגיע לראות כל עבודה ונותן הצעת מחיר'. התמחור נעשה אחרי ראיית העבודה במקום, לא בטלפון. האם הביקור כרוך בתשלום, ולאילו אזורים הוא מגיע — טרם נמסר.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "הצעת מחיר > ביקור בשטח > מדידה > תמחור > ייעוץ > רמת הגולן",
+   "id": "sport",
+   "title": "ערוצי ספורט בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / ספורט ⚽ ערוצי ספורט בטלגרם ערוצי ספורט ישראלי בטלגרם — כדורגל, כדורסל ועוד 18 ערוצים 202.6K מנויים כולל אוהד ספורט? ערוצי הספורט בטלגרם מכסים את כל האירועים הספורטיביים בישראל ובעולם. מליגת העל ועד NBA, מכדורסל ועד טניס — הצטרף לערוצים שידכנו אותך בכל תוצאה ועדכון. ספורט טלגרם כדורגל…",
+   "link": "https://tgil.co.il/category/%D7%A1%D7%A4%D7%95%D7%A8%D7%98?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
    "condition": "new",
    "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-site-visit-quote/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-site-visit-quote/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-site-visit-quote",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/sport/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/sport/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#sport",
    "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%D7%91%D7%A9%D7%98%D7%97%20%D7%95%D7%94%D7%A6%D7%A2%D7%AA%20%D7%9E%D7%97%D7%99%D7%A8%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%D7%91%D7%A9%D7%98%D7%97%20%D7%95%D7%94%D7%A6%D7%A2%D7%AA%20%D7%9E%D7%97%D7%99%D7%A8%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%D7%91%D7%A9%D7%98%D7%97%20%D7%95%D7%94%D7%A6%D7%A2%D7%AA%20%D7%9E%D7%97%D7%99%D7%A8",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
    },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "tech",
+   "title": "ערוצי טכנולוגיה בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / טכנולוגיה 💻 ערוצי טכנולוגיה בטלגרם ערוצי טכנולוגיה, הייטק ו-AI בטלגרם 7 ערוצים 36.0K מנויים כולל עולם הטכנולוגיה הישראלי פורח בטלגרם. מקבוצות הייטק של מפתחים ועד ערוצי AI, סייבר וסטארטאפים — תמצא כאן את הקהילות המובילות בתחום הטכנולוגיה. טכנולוגיה טלגרם הייטק ישראל AI טלגרם פיתוח תוכנה…",
+   "link": "https://tgil.co.il/category/%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/tech/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/tech/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#tech",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "business",
+   "title": "ערוצי עסקים וכלכלה בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / עסקים וכלכלה 📈 ערוצי עסקים וכלכלה בטלגרם ערוצי עסקים, כלכלה ושוק ההון בטלגרם 4 ערוצים 18.8K מנויים כולל ערוצי העסקים והכלכלה בטלגרם מספקים ניתוחים פיננסיים, עדכוני שוק ההון, מניות, קריפטו והזדמנויות עסקיות. מושלם למשקיעים, יזמים ואנשי עסקים. עסקים טלגרם שוק ההון השקעות טלגרם כלכלה…",
+   "link": "https://tgil.co.il/category/%D7%A2%D7%A1%D7%A7%D7%99%D7%9D%20%D7%95%D7%9B%D7%9C%D7%9B%D7%9C%D7%94?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/business/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/business/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#business",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "realestate",
+   "title": "ערוצי נדל\"ן בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / נדל\"ן 🏠 ערוצי נדל\"ן בטלגרם ערוצי נדל\"ן ישראלי בטלגרם — דירות, השקעות ומחירים 7 ערוצים 145 מנויים כולל שוק הנדל\"ן הישראלי בטלגרם — ערוצים המציגים עסקאות, מחירים, דירות למכירה ולהשכרה, טיפים להשקעה ועדכונים על שוק הדיור. נדל\"ן טלגרם דירות ישראל השקעות נדל\"ן שוק הדיור דירות למכירה הכל…",
+   "link": "https://tgil.co.il/category/%D7%A0%D7%93%D7%9C%22%D7%9F?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/realestate/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/realestate/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#realestate",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "entertainment",
+   "title": "ערוצי בידור ובמה בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / בידור ובמה 🎬 ערוצי בידור ובמה בטלגרם ערוצי בידור, סרטים, מוזיקה ותרבות בטלגרם 0 ערוצים — מנויים כולל עולם הבידור הישראלי בטלגרם — מסרטים ישראליים ועד מוזיקה, סדרות, פודקאסטים וערוצי שעשועים. הצטרף לקהילות הבידור הגדולות. בידור טלגרם סרטים טלגרם מוזיקה ישראלית סדרות טלגרם הכל ערוצים…",
+   "link": "https://tgil.co.il/category/%D7%91%D7%99%D7%93%D7%95%D7%A8%20%D7%95%D7%91%D7%9E%D7%94?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/entertainment/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/entertainment/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#entertainment",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "health",
+   "title": "ערוצי בריאות בטלגרם ישראל | אינדקס טלגרם",
+   "description": "ראשי חיפוש בלוג אודות PRO ראשי / בריאות 💊 ערוצי בריאות בטלגרם ערוצי בריאות, רפואה ואורח חיים בריא בטלגרם 0 ערוצים — מנויים כולל ערוצי הבריאות בטלגרם מכסים תזונה, פעילות גופנית, רפואה טבעית, עדכונים רפואיים ועצות לאורח חיים בריא. מיועדים לכל מי שמעוניין לשפר את איכות חייו. בריאות טלגרם תזונה ישראל רפואה טלגרם אורח חיים…",
+   "link": "https://tgil.co.il/category/%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA?utm_source=agentfeed&utm_medium=ai",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/health/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/health/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#health",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "home",
+   "title": "מגזין ההשתלות של ישראל | TRANSPLANT ISRAEL",
+   "description": "מגזין ההשתלות של ישראל המידע שמרפאות לא ממהרות לספר לכם מחירים אמיתיים בשקלים, השוואות כנות בין שיטות, צירי החלמה מפורטים והשאלות שחייבים לשאול לפני שחותמים. הכל מבוסס מקורות, הכל מותאם לישראל. השתלות שיער השתלות שיניים תחומי התוכן ארבעה עולמות ידע, מאות תשובות. בחרו מאיפה להתחיל. השתלות שיער שיטות, מחירים אמיתיים,…",
+   "link": "https://transplant-israel.com?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/home/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/home/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#home",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "hair",
+   "title": "השתלת שיער בישראל: המדריך המלא 2026 | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות שיער השתלת שיער בישראל: המדריך המלא לשנת 2026 חושבים על השתלת שיער? המדריך המלא ל-2026: מחירים, שיטות (FUE/DHI), החלמה, סיכונים והשוואה בין טיפול בישראל לטורקיה. כל המידע הרפואי שחשוב לדעת. המדריך המרכזי רכישת לידים להשתלות שיער ושיניים: המדריך המלא למרפאות שרוצות לגדול איך רוכשים לידים איכותיים להשתלות…",
+   "link": "https://transplant-israel.com/hair?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/hair/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/hair/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#hair",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "dental",
+   "title": "השתלת שיניים בישראל: המדריך המלא 2026 | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות שיניים השתלת שיניים בישראל: המדריך שיחסוך לכם אלפי שקלים מדריך מקיף להשתלת שיניים בישראל: מחירי שתלים, תהליך הכירורגיה, סיכונים וזכויות בקופות החולים. כל מה שצריך לדעת כדי לקבל החלטה מושכלת בבטחה. המדריך המרכזי טשטוש והרדמה בהשתלות שיניים: מה מתאים למי חוששים מהשתלת שיניים? מדריך מקיף על טשטוש והרדמה…",
+   "link": "https://transplant-israel.com/dental?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/dental/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/dental/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#dental",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "aesthetics",
+   "title": "אסתטיקה רפואית בישראל: המדריך המלא 2026 | TRANSPLANT ISRAEL",
+   "description": "ראשי אסתטיקה רפואית אסתטיקה רפואית בישראל: מחירים, טיפולים ומה חשוב לבדוק מדריך מקיף לאסתטיקה רפואית בישראל: כל מה שצריך לדעת על מחירון טיפולים, בטיחות, רגולציה של משרד הבריאות, ובחירת הרופא המטפל הנכון עבורכם. המדריך המרכזי מילוי תחת העיניים: הטיפול שדורש את המזריק הכי מנוסה מדריך רפואי מקיף על מילוי שקעים תחת…",
+   "link": "https://transplant-israel.com/aesthetics?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/aesthetics/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/aesthetics/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#aesthetics",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "organs",
+   "title": "השתלות איברים בישראל: המדריך המלא | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות איברים השתלות איברים בישראל: החוק, התהליך והמספרים מדריך מקיף על השתלות איברים בישראל: חוק השתלות איברים, תהליך ההקצאה של המרכז הלאומי להשתלות, משמעות כרטיס אדי ותרומת איברים מן החי והמת. המדריך המרכזי תרומת איברים והלכה: מה אומרות הגישות הדתיות בישראל מדריך מקיף על תרומת איברים והלכה: גלו את עמדות הרבנות,…",
+   "link": "https://transplant-israel.com/organs?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/organs/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/organs/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#organs",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "about",
+   "title": "אודות | TRANSPLANT ISRAEL",
+   "description": "ראשי אודות אודות מה זה TRANSPLANT ISRAEL TRANSPLANT ISRAEL הוא מגזין תוכן עצמאי בעברית שעוסק בעולם ההשתלות: השתלות שיער, השתלות שיניים, אסתטיקה רפואית והשתלות איברים. המטרה שלנו פשוטה: לתת לכם את המידע שמרפאות לא תמיד ממהרות לספר. מחירים אמיתיים, סיכונים, שאלות שכדאי לשאול ואיך מזהים הצעה בעייתית. איך אנחנו עובדים כל…",
+   "link": "https://transplant-israel.com/about?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/about/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/about/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#about",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "contact",
+   "title": "צור קשר | TRANSPLANT ISRAEL",
+   "description": "ראשי צור קשר צור קשר מצאתם טעות במאמר? רוצים לבקש מחיקת פרטים? יש לכם שאלה על התוכן? השאירו פרטים ונחזור אליכם. פניות בנושא תיקון עובדתי מטופלות בתוך 72 שעות. נשמח לשמוע מכם השאירו פרטים ונחזור אליכם בהקדם · בחרו את סוג הטיפול ונתאים לכם ייעוץ מקצועי שם מלא טלפון עיר מגורים באיזה טיפול אתם מעוניינים לקבל ייעוץ? השתלת…",
+   "link": "https://transplant-israel.com/contact?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/contact/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/contact/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#contact",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "search",
+   "title": "חיפוש באתר | TRANSPLANT ISRAEL",
+   "description": "ראשי חיפוש חיפוש באתר חיפוש מגזין תוכן ישראלי בנושא השתלות: שיער, שיניים, אסתטיקה רפואית והשתלות איברים. מידע מבוסס מקורות, מותאם לשוק הישראלי ולקופות החולים. תחומי תוכן השתלות שיער השתלות שיניים אסתטיקה רפואית השתלות איברים מידע ומדיניות אודות מדיניות עריכה הבהרה רפואית מדיניות פרטיות הצהרת נגישות תנאי שימוש צור קשר…",
+   "link": "https://transplant-israel.com/search?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/search/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/search/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#search",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "buying-leads-hair-transplant-clinics",
+   "title": "רכישת לידים להשתלות שיער ושיניים (2026) — המדריך המלא למרפאות | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות שיער רכישת לידים להשתלות שיער ושיניים: המדריך המלא למרפאות שרוצות לגדול רכישת לידים להשתלות שיער ושיניים: המדריך המלא למרפאות שרוצות לגדול נכתב על ידי מערכת Transplant Israel עודכן לאחרונה: 16 באוגוסט 2026 זמן קריאה: 12 דקות בקצרה ליד איכותי להשתלות שיער עולה בין 80 ל-250 ש״ח לפנייה, תלוי בבלעדיות ובפילוח…",
+   "link": "https://transplant-israel.com/hair/buying-leads-hair-transplant-clinics?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/buying-leads-hair-transplant-clinics/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/buying-leads-hair-transplant-clinics/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#buying-leads-hair-transplant-clinics",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "bruxism-implants",
+   "title": "חריקת שיניים ושתלים דנטליים — סיכונים והגנה | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות שיניים חריקת שיניים ושתלים: איך ברוקסיזם מסכן את ההשקעה שלכם חריקת שיניים ושתלים: איך ברוקסיזם מסכן את ההשקעה שלכם נכתב על ידי מערכת השתלות ישראל עודכן לאחרונה: 9 באוגוסט 2026 זמן קריאה: 8 דקות בקצרה ברוקסיזם מפעיל לחצים קיצוניים המאיימים על השתל ללא מנגנון בלימה טבעי. היעדר הקרום הפריודונטלי הופך את השתל…",
+   "link": "https://transplant-israel.com/dental/bruxism-implants?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/bruxism-implants/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/bruxism-implants/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#bruxism-implants",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "religion-donation",
+   "title": "תרומת איברים והלכה — עמדות דתיות ומענה לחששות | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות איברים תרומת איברים והלכה: מה אומרות הגישות הדתיות בישראל תרומת איברים והלכה: מה אומרות הגישות הדתיות בישראל נכתב על ידי מערכת השתלות ישראל עודכן לאחרונה: 9 באוגוסט 2026 זמן קריאה: 12 דקות בקצרה ההלכה רואה בהצלת חיים ערך עליון שדוחה לעיתים איסורים אחרים. קיימת מחלוקת הלכתית מרכזית סביב הגדרת רגע המוות…",
+   "link": "https://transplant-israel.com/organs/religion-donation?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/religion-donation/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/religion-donation/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#religion-donation",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "transplant-risks",
+   "title": "סיכונים בהשתלת שיער — סיבוכים אפשריים ואיך למנוע | TRANSPLANT ISRAEL",
+   "description": "ראשי השתלות שיער סיכונים וסיבוכים בהשתלת שיער: מה באמת יכול להשתבש סיכונים וסיבוכים בהשתלת שיער: מה באמת יכול להשתבש נכתב על ידי מערכת השתלות ישראל עודכן לאחרונה: 9 באוגוסט 2026 זמן קריאה: 12 דקות בקצרה השתלת שיער היא הליך כירורגי לכל דבר הדורש ידע רפואי. הסיבוך האסתטי החמור ביותר הוא פגיעה בלתי הפיכה באזור התורם.…",
+   "link": "https://transplant-israel.com/hair/transplant-risks?utm_source=agentfeed&utm_medium=ai",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/transplant-risks/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/transplant-risks/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#transplant-risks",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
   }
  ]
 }

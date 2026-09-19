@@ -1,0 +1,50 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מחשבון משכנתא: חישוב החזר חודשי, ריבית כוללת ולוח סילוקין | mashkanta.online",
+ "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/calculator/",
+ "description": "דף הבית מחשבון משכנתא מחשבון משכנתא חישוב החזר חודשי, סך ריבית ולוח סילוקין מלא — עם תמהיל של עד ארבעה מסלולים במקביל. המחשבון עובד במלואו בלי הרשמה ובלי השארת פרטים. קבועה לא צמודה קבועה צמודה פריים משתנה כל 5 סכום ₪1,000,000 תקופה 25 שנים ריבית שנתית 5.00% החזר חודשי במסלול ₪5,846 הוספת מסלול לתמהיל החזר חודשי…",
+ "brand": {
+  "@type": "Brand",
+  "name": "משכנתא אונליין"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://mashkanta.online/calculator?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "משכנתא אונליין",
+   "url": "https://mashkanta.online"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "calculator",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
+  "name": "משכנתא אונליין"
+ },
+ "retrieved": "2026-09-19",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

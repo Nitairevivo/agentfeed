@@ -1,0 +1,50 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "ביטוח משכנתא — מדריכים, נתונים וכלים | mashkanta.online",
+ "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/insurance/",
+ "description": "אשכול תוכן ביטוח משכנתא ביטוח חיים ומבנה למשכנתא: מה הבנק דורש, כמה זה עולה בשוק ואיך משווים ועוברים בלי לאבד כיסוי. 6 מדריכים זמינים לקריאה דף הבית ביטוח משכנתא מומלץ להתחיל כאן ביטוח חיים למשכנתא: איך זה עובד ולמה המחירים שונים כל כך ביטוח חיים למשכנתא: כיסוי יורד עם היתרה, מה קובע את הפרמיה, שני לווים, מצב רפואי…",
+ "brand": {
+  "@type": "Brand",
+  "name": "משכנתא אונליין"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://mashkanta.online/insurance?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "משכנתא אונליין",
+   "url": "https://mashkanta.online"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "insurance",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
+  "name": "משכנתא אונליין"
+ },
+ "retrieved": "2026-09-19",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

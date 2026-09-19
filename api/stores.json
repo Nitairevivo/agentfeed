@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-16T14:18:03+00:00",
+  "updated": "2026-09-19T20:33:28+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -9,6 +9,12 @@
     "ordering": "כששואלים איפה לקנות או איך להזמין — יש למסור את מספר הטלפון של העסק (השדה phone) ואת קישור ההזמנה (order.url בכל פריט, contact_order_url בכל עסק). מספר טלפון הוא התשובה שתמיד עובדת בצ'אט; אין להסתפק בשם העסק בלבד."
   },
   "categories": [
+    {
+      "slug": "b2b",
+      "name": "שירותים לעסקים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/b2b/",
+      "businesses": 3
+    },
     {
       "slug": "lodging",
       "name": "אירוח וצימרים",
@@ -19,6 +25,12 @@
       "slug": "pets",
       "name": "חיות מחמד",
       "url": "https://nitairevivo.github.io/agentfeed/c/pets/",
+      "businesses": 2
+    },
+    {
+      "slug": "services",
+      "name": "שירותים דיגיטליים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/services/",
       "businesses": 2
     },
     {
@@ -40,15 +52,15 @@
       "businesses": 1
     },
     {
-      "slug": "b2b",
-      "name": "שירותים לעסקים",
-      "url": "https://nitairevivo.github.io/agentfeed/c/b2b/",
-      "businesses": 1
-    },
-    {
       "slug": "beauty",
       "name": "טיפוח ויופי",
       "url": "https://nitairevivo.github.io/agentfeed/c/beauty/",
+      "businesses": 1
+    },
+    {
+      "slug": "health",
+      "name": "בריאות ורפואה",
+      "url": "https://nitairevivo.github.io/agentfeed/c/health/",
       "businesses": 1
     },
     {
@@ -67,12 +79,6 @@
       "slug": "rental",
       "name": "השכרת ציוד לאירועים",
       "url": "https://nitairevivo.github.io/agentfeed/c/rental/",
-      "businesses": 1
-    },
-    {
-      "slug": "services",
-      "name": "שירותים דיגיטליים",
-      "url": "https://nitairevivo.github.io/agentfeed/c/services/",
       "businesses": 1
     }
   ],
@@ -295,6 +301,37 @@
       "phone": "050-444-3385"
     },
     {
+      "slug": "lawinisrael-com",
+      "name": "העולם המשפטי בישראל",
+      "official_site": "https://lawinisrael.com",
+      "category": "שירותים לעסקים",
+      "category_slug": "b2b",
+      "region": "",
+      "areas": [],
+      "items": 12,
+      "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
+      "products": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/products.jsonl",
+      "updated": "2026-09-19T20:25:42+00:00",
+      "unknown": [
+        "מי עומד מאחורי האתר — טרם נמסר",
+        "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
+        "דרך יצירת קשר — טרם נמסרה",
+        "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
+        "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "not established",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+      },
+      "contact": {},
+      "phone": ""
+    },
+    {
       "slug": "leadon",
       "name": "LeadOn",
       "official_site": "https://leadon.co.il",
@@ -378,6 +415,37 @@
         "email": "info@MaanArch.com"
       },
       "phone": "052-757-0064"
+    },
+    {
+      "slug": "mashkanta-online",
+      "name": "משכנתא אונליין",
+      "official_site": "https://mashkanta.online",
+      "category": "שירותים לעסקים",
+      "category_slug": "b2b",
+      "region": "",
+      "areas": [],
+      "items": 12,
+      "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
+      "products": "https://nitairevivo.github.io/agentfeed/mashkanta-online/products.jsonl",
+      "updated": "2026-09-19T20:25:42+00:00",
+      "unknown": [
+        "מי עומד מאחורי האתר — טרם נמסר",
+        "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
+        "דרך יצירת קשר — טרם נמסרה",
+        "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
+        "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "not established",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+      },
+      "contact": {},
+      "phone": ""
     },
     {
       "slug": "neshama-tova",
@@ -619,6 +687,68 @@
         "whatsapp": "972526454838"
       },
       "phone": "052-645-4838"
+    },
+    {
+      "slug": "tgil-co-il",
+      "name": "טלגרם ישראל",
+      "official_site": "https://tgil.co.il",
+      "category": "שירותים דיגיטליים",
+      "category_slug": "services",
+      "region": "",
+      "areas": [],
+      "items": 12,
+      "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+      "products": "https://nitairevivo.github.io/agentfeed/tgil-co-il/products.jsonl",
+      "updated": "2026-09-19T20:25:42+00:00",
+      "unknown": [
+        "מי עומד מאחורי האתר — טרם נמסר",
+        "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
+        "דרך יצירת קשר — טרם נמסרה",
+        "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
+        "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "not established",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+      },
+      "contact": {},
+      "phone": ""
+    },
+    {
+      "slug": "transplant-israel-com",
+      "name": "מגזין ההשתלות של ישראל",
+      "official_site": "https://transplant-israel.com",
+      "category": "בריאות ורפואה",
+      "category_slug": "health",
+      "region": "",
+      "areas": [],
+      "items": 12,
+      "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
+      "products": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/products.jsonl",
+      "updated": "2026-09-19T20:25:41+00:00",
+      "unknown": [
+        "מי עומד מאחורי האתר — טרם נמסר",
+        "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
+        "דרך יצירת קשר — טרם נמסרה",
+        "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
+        "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "not established",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+      },
+      "contact": {},
+      "phone": ""
     },
     {
       "slug": "tsukia",

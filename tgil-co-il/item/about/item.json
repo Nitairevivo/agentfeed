@@ -1,0 +1,50 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אודות טלגרם ישראל — האינדקס הגדול לערוצים ישראליים",
+ "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/about/",
+ "description": "ראשי חיפוש בלוג אודות PRO פלטפורמת הגילוי המובילה לטלגרם ישראלי אודות טלגרם ישראל המשימה שלנו פשוטה: לעזור לכל אחד בישראל למצוא את הקהילות, הערוצים והמידע שהוא מחפש בטלגרם — בקלות, במהירות ובחינם. 500+ ערוצים ישראלים 1M+ מנויים כולל 16 קטגוריות יומי עדכון מדדים מי אנחנו? טלגרם ישראל הוא האינדקס הישראלי הגדול והמקיף…",
+ "brand": {
+  "@type": "Brand",
+  "name": "טלגרם ישראל"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://tgil.co.il/about?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "טלגרם ישראל",
+   "url": "https://tgil.co.il"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "about",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+  "name": "טלגרם ישראל"
+ },
+ "retrieved": "2026-09-19",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

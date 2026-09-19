@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 14 businesses, 142 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 18 businesses, 166 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,19 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-14 עסקים · 2509 פריטים
+18 עסקים · 2557 פריטים
+
+## שירותים לעסקים
+
+- **[העולם המשפטי בישראל](https://nitairevivo.github.io/agentfeed/lawinisrael-com/)** — 12 פריטים  
+  פורטל תוכן משפטי  
+  אתר העסק: https://lawinisrael.com
+- **[LeadOn](https://nitairevivo.github.io/agentfeed/leadon/)** — 32 פריטים  
+  פלטפורמה לרכישת לידים לעסקים בישראל  
+  אתר העסק: https://leadon.co.il
+- **[משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/)** — 12 פריטים  
+  מגזין משכנתאות עם מחשבון  
+  אתר העסק: https://mashkanta.online
 
 ## אירוח וצימרים
 
@@ -35,6 +47,15 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  
   בוטיק ישראלי לאקססוריז ואופנה לכלבים ולחתולים, בתפירה ובעיצוב אישיים, לצד בית גידול לסאלוקי הפעיל מ-2008 באליע  
   אתר העסק: https://www.facebook.com/share/1DPWUc5EMZ/
+
+## שירותים דיגיטליים
+
+- **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
+  שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
+  אתר העסק: https://getrecover.co.il
+- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 12 פריטים  
+  אינדקס ערוצי וקבוצות טלגרם ישראליים  
+  אתר העסק: https://tgil.co.il
 
 ## בעלי מקצוע לבית
 
@@ -57,17 +78,17 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
   החנות המקוונת של אוריאל דב סויסה, צלם נוף, אמן וכותב מקצרין שברמת הגולן  
   אתר העסק: https://oriel-dov-swisa.co.il
 
-## שירותים לעסקים
-
-- **[LeadOn](https://nitairevivo.github.io/agentfeed/leadon/)** — 32 פריטים  
-  פלטפורמה לרכישת לידים לעסקים בישראל  
-  אתר העסק: https://leadon.co.il
-
 ## טיפוח ויופי
 
 - **[Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/)** — 4 פריטים  
   חנות מקוונת למוצרי טיפוח ונוחות לשיער, כולל מוצרי סטיילינג, מכשירים ומוצרים לצמיחת השיער  
   אתר העסק: https://www.sunsetglow.co.il
+
+## בריאות ורפואה
+
+- **[מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/)** — 12 פריטים  
+  מגזין תוכן על השתלות שיער, השתלות שיניים, אסתטיקה רפואית והשתלות איברים בישראל  
+  אתר העסק: https://transplant-israel.com
 
 ## יודאיקה ותשמישי קדושה
 
@@ -86,12 +107,6 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[DJ Rent](https://nitairevivo.github.io/agentfeed/dj-rent/)** — 31 פריטים · טירת הכרמל  
   השכרת ציוד דיג'יי והגברה לאירועים — זוג נגני Pioneer CDJ-3000 עם מיקסר DJM-A9 או DJM-900NXS2, אותו סטנדרט שעומ  
   אתר העסק: https://djrent.co.il
-
-## שירותים דיגיטליים
-
-- **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
-  שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
-  אתר העסק: https://getrecover.co.il
 
 ## לשליפה במכה אחת
 

@@ -1,0 +1,50 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "ערוצי ספורט בטלגרם ישראל | אינדקס טלגרם",
+ "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/sport/",
+ "description": "ראשי חיפוש בלוג אודות PRO ראשי / ספורט ⚽ ערוצי ספורט בטלגרם ערוצי ספורט ישראלי בטלגרם — כדורגל, כדורסל ועוד 18 ערוצים 202.6K מנויים כולל אוהד ספורט? ערוצי הספורט בטלגרם מכסים את כל האירועים הספורטיביים בישראל ובעולם. מליגת העל ועד NBA, מכדורסל ועד טניס — הצטרף לערוצים שידכנו אותך בכל תוצאה ועדכון. ספורט טלגרם כדורגל…",
+ "brand": {
+  "@type": "Brand",
+  "name": "טלגרם ישראל"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://tgil.co.il/category/%D7%A1%D7%A4%D7%95%D7%A8%D7%98?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "טלגרם ישראל",
+   "url": "https://tgil.co.il"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "sport",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+  "name": "טלגרם ישראל"
+ },
+ "retrieved": "2026-09-19",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}
