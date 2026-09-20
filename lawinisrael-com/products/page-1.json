@@ -17,10 +17,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/home/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#home",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=home",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=home",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -35,10 +41,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/articles/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#articles",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=articles",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=articles",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -53,10 +65,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/legal-terms/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#legal-terms",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=legal-terms",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=legal-terms",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -71,10 +89,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/about/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#about",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=about",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=about",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -89,10 +113,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/contact/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#contact",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=contact",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=contact",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -107,10 +137,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/family-law/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#family-law",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=family-law",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=family-law",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -125,10 +161,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/torts-accidents/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#torts-accidents",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=torts-accidents",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=torts-accidents",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -143,10 +185,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/medical-malpractice/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#medical-malpractice",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=medical-malpractice",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=medical-malpractice",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -161,10 +209,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/criminal-law/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#criminal-law",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=criminal-law",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=criminal-law",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -179,10 +233,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/traffic-law/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#traffic-law",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=traffic-law",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=traffic-law",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -197,10 +257,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/labor-law/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#labor-law",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=labor-law",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=labor-law",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -215,10 +281,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/real-estate/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#real-estate",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=real-estate",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=real-estate",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   }
  ]

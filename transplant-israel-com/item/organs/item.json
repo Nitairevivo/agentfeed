@@ -45,6 +45,11 @@
   "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
   "name": "מגזין ההשתלות של ישראל"
  },
- "retrieved": "2026-09-19",
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=organs",
+  "name": "form"
+ },
+ "retrieved": "2026-09-20",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

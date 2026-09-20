@@ -45,6 +45,11 @@
   "url": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
   "name": "העולם המשפטי בישראל"
  },
- "retrieved": "2026-09-19",
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=traffic-law",
+  "name": "form"
+ },
+ "retrieved": "2026-09-20",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

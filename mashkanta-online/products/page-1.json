@@ -17,10 +17,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/home/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#home",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=home",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=home",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -35,10 +41,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/calculator/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#calculator",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=calculator",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=calculator",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -53,10 +65,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/rates/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#rates",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=rates",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=rates",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -71,10 +89,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/banks/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#banks",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=banks",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=banks",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -89,10 +113,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/process/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#process",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=process",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=process",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -107,10 +137,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/refinance/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#refinance",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=refinance",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=refinance",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -125,10 +161,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/reverse/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#reverse",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=reverse",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=reverse",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -143,10 +185,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/insurance/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#insurance",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=insurance",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=insurance",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -161,10 +209,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/knowledge/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#knowledge",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=knowledge",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=knowledge",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -179,10 +233,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/prime-today/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#prime-today",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=prime-today",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=prime-today",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -197,10 +257,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/boi-rate/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#boi-rate",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=boi-rate",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=boi-rate",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   },
   {
@@ -215,10 +281,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/leumi/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#leumi",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=leumi",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=leumi",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    }
   }
  ]

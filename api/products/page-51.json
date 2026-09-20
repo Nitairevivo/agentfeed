@@ -1255,10 +1255,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/home/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#home",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=home",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=home",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1277,10 +1283,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/hair/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#hair",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=hair",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=hair",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1299,10 +1311,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/dental/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#dental",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=dental",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=dental",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1321,10 +1339,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/aesthetics/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#aesthetics",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=aesthetics",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=aesthetics",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1343,10 +1367,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/organs/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#organs",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=organs",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=organs",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1365,10 +1395,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/about/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#about",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=about",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=about",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1387,10 +1423,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/contact/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#contact",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=contact",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=contact",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1409,10 +1451,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/search/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#search",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=search",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=search",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1431,10 +1479,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/buying-leads-hair-transplant-clinics/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#buying-leads-hair-transplant-clinics",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=buying-leads-hair-transplant-clinics",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=buying-leads-hair-transplant-clinics",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1453,10 +1507,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/bruxism-implants/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#bruxism-implants",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=bruxism-implants",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=bruxism-implants",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1475,10 +1535,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/religion-donation/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#religion-donation",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=religion-donation",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=religion-donation",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",
@@ -1497,10 +1563,16 @@
    "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/transplant-risks/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#transplant-risks",
    "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=transplant-risks",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=transplant-risks",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
    },
    "business": "מגזין ההשתלות של ישראל",
    "business_slug": "transplant-israel-com",

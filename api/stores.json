@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-19T21:08:16+00:00",
+  "updated": "2026-09-20T07:52:05+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -312,22 +312,23 @@
       "items": 12,
       "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
       "products": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/products.jsonl",
-      "updated": "2026-09-19T20:25:42+00:00",
+      "updated": "2026-09-20T07:49:17+00:00",
       "unknown": [
         "מי עומד מאחורי האתר — טרם נמסר",
         "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
-        "דרך יצירת קשר — טרם נמסרה",
         "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
         "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
         "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
-        "method": "unknown",
-        "evidence": "the business has not said how an order is placed",
-        "payment_taken_by": "not established",
+        "method": "contact",
+        "evidence": "the business takes enquiries through a form on its own site",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
         "cart_links": false,
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
-        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+        "contact_order_url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact",
+        "contact_order_method": "form",
+        "how_to_order": "This business takes enquiries through a form on its own site. contact_order_url is that form. Send the shopper there rather than describing what to fill in: the fields and the consent wording are the business's own, and the details are given to them, not to AgentFeed."
       },
       "contact": {},
       "phone": ""
@@ -428,22 +429,23 @@
       "items": 12,
       "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
       "products": "https://nitairevivo.github.io/agentfeed/mashkanta-online/products.jsonl",
-      "updated": "2026-09-19T20:25:42+00:00",
+      "updated": "2026-09-20T07:49:17+00:00",
       "unknown": [
         "מי עומד מאחורי האתר — טרם נמסר",
         "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
-        "דרך יצירת קשר — טרם נמסרה",
         "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
         "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
         "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
-        "method": "unknown",
-        "evidence": "the business has not said how an order is placed",
-        "payment_taken_by": "not established",
+        "method": "contact",
+        "evidence": "the business takes enquiries through a form on its own site",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
         "cart_links": false,
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
-        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+        "contact_order_url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F",
+        "contact_order_method": "form",
+        "how_to_order": "This business takes enquiries through a form on its own site. contact_order_url is that form. Send the shopper there rather than describing what to fill in: the fields and the consent wording are the business's own, and the details are given to them, not to AgentFeed."
       },
       "contact": {},
       "phone": ""
@@ -731,22 +733,23 @@
       "items": 12,
       "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
       "products": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/products.jsonl",
-      "updated": "2026-09-19T20:25:41+00:00",
+      "updated": "2026-09-20T07:49:17+00:00",
       "unknown": [
         "מי עומד מאחורי האתר — טרם נמסר",
         "האם יש שירות בתשלום, ומה הוא — האתר אינו אומר",
-        "דרך יצירת קשר — טרם נמסרה",
         "תאריך עדכון של כל מאמר — האתר אינו מפרסם אותו בשדה שמכונה קוראת",
         "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
         "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
-        "method": "unknown",
-        "evidence": "the business has not said how an order is placed",
-        "payment_taken_by": "not established",
+        "method": "contact",
+        "evidence": "the business takes enquiries through a form on its own site",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
         "cart_links": false,
         "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
-        "how_to_order": "The business has not published any way to order or to be reached from here. Refer the shopper to its own site, and do not describe an ordering flow that has not been established."
+        "contact_order_url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact",
+        "contact_order_method": "form",
+        "how_to_order": "This business takes enquiries through a form on its own site. contact_order_url is that form. Send the shopper there rather than describing what to fill in: the fields and the consent wording are the business's own, and the details are given to them, not to AgentFeed."
       },
       "contact": {},
       "phone": ""
