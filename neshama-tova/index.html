@@ -208,7 +208,7 @@ form.order button:hover{filter:brightness(1.08)}
 .fine{font-size:.83rem;color:var(--muted);margin:2px 0 0}
 #order .sub{font-size:.92rem;color:var(--muted);margin:0 0 6px}
 </style>
-</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main class="store">
+</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';var S='af_seen_neshama-tova';if(!sessionStorage.getItem(S)){sessionStorage.setItem(S,'1');var i=new Image();i.referrerPolicy='no-referrer';i.src='https://agentfeed-plum.vercel.app/view?b=neshama-tova'+(f?'&from='+encodeURIComponent(f):'')+(own?'&own=1':'');}document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main class="store">
 <div class="head"><div><h1>נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית</h1>
 <p class="sub"><a href="https://www.facebook.com/share/1DPWUc5EMZ/?utm_source=agentfeed&amp;utm_medium=ai">לעמוד העסק ←</a></p></div></div>
 <div class="tags"><span class="tag">8 פריטים</span><span class="tag">רמת הגולן</span><span class="tag">16 פרטים שהעסק טרם פרסם</span></div>
@@ -227,8 +227,7 @@ form.order button:hover{filter:brightness(1.08)}
 <label>אזור או כתובת<input name="where" autocomplete="address-level2"></label>
 <button type="submit">פתיחת וואטסאפ עם ההזמנה</button>
 </form>
-<p class="fine">הפרטים לא נשמרים אצלנו — הם נכנסים להודעה שנפתחת אצלך
-בוואטסאפ, ואתה שולח אותה.</p>
+<p class="fine">השם והטלפון נכנסים להודעה שנפתחת אצלך ולא נשמרים אצלנו. מה שנספר כאן הוא שנפתחה פנייה, מאיזה עסק ובאיזו דרך.</p>
 </section>
 <script>
 function afOrder(e){
@@ -244,11 +243,53 @@ function afOrder(e){
           + "טלפון: " + v("tel") + "\n"
           + (v("where") ? "אזור: " + v("where") + "\n" : "")
           + "\nסימוכין: " + ref;
-  window.open("https://wa.me/972586789778?text=" + encodeURIComponent(msg), "_blank",
-              "noopener");
+  // That an order was started, and nothing about who started it. This is the
+  // one record in the project that accumulates: not the shop count, not the
+  // item count and not the clicks — how many orders were begun, from which
+  // business, by which route. The name and the phone stay in the reader's
+  // own message and are never sent here.
+  try {
+    // No counter configured in this build, no beacon. An empty address here
+    // would fetch the page itself, which is how a build without the counter
+    // set would have quietly pinged every business page instead of nothing.
+    var b = "https://agentfeed-plum.vercel.app/intent?b=neshama-tova&how=whatsapp" && "https://agentfeed-plum.vercel.app/intent?b=neshama-tova&how=whatsapp&ref=" + encodeURIComponent(ref)
+          + (v("where") ? "&area=" + encodeURIComponent(v("where").slice(0,40)) : "")
+          + (localStorage.getItem("af_me") ? "&own=1" : "");
+    if (navigator.sendBeacon) { navigator.sendBeacon(b); }
+    else { var i = new Image(); i.referrerPolicy = "no-referrer"; i.src = b; }
+  } catch (err) {}
+  var how = "whatsapp", dest = "https://wa.me/972586789778", go = "https://agentfeed-plum.vercel.app/go/neshama-tova?to=";
+  var mine = localStorage.getItem("af_me") ? "&own=1" : "";
+  if (how === "email") {
+    // Never counted: a mail client is not a page, and there is nothing to
+    // redirect through.
+    window.location.href = "mailto:" + dest
+      + "?subject=" + encodeURIComponent("הזמנה דרך AgentFeed")
+      + "&body=" + encodeURIComponent(msg);
+    return false;
+  }
+  // The message travels inside the counted target, not after it. v=1 says
+  // this came from a page a browser drew, which is true by construction here:
+  // a crawler does not fill in a form.
+  var out = how === "whatsapp" ? dest + "?text=" + encodeURIComponent(msg) : dest;
+  if (go) {
+    out = go + encodeURIComponent(out) + "&v=1"
+        + (how === "form" ? "&k=enquiry" : "") + mine;
+  }
+  if (how === "form") {
+    // Somebody else's form cannot be filled from here, and typing into it
+    // would be guessing at its fields. The message goes to the clipboard and
+    // their page opens — the reader pastes one block into one field.
+    var open = function () { window.open(out, "_blank", "noopener"); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(msg).then(open, open);
+    } else { open(); }
+  } else {
+    window.open(out, "_blank", "noopener");
+  }
   return false;
 }
-</script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://wa.me/972586789778">💬 וואטסאפ</a><a class="btn" href="tel:+972586789778">📞 +972586789778</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>שם בעלת העסק אינו מתפרסם כאן. היא מסרה את כל המידע בעצמה, אך לא נרשם אישור מפורש לפרסם את שמה הפרטי, ובלי אישור כזה שם של אדם לא מתפרסם. אם תאשר — השם יוחזר, כי אצל בית גידול שם המגדל הוא חלק מהאמינות</li><li>מחיר סופי לפריט — ארבע קטגוריות מתומחרות בטווח, והמחיר נקבע לפי מידה ועיצוב</li><li>מדיניות החזרות והחלפות</li><li>אילו מידות וגזעים מתאימים לכל פריט</li><li>האם יש קטלוג עיצובים או בדים לבחירה</li><li>האם יש כתובת פיזית או נקודת איסוף</li><li>מהי המתנה שניתנת על כל הזמנה</li><li>האם הפריטים מיוצרים בעצמה בלבד או שחלקם מיובאים</li><li>זמינות גורים ומועד המלטה צפוי</li><li>מעמד &quot;בית גידול מצטיין ומומלץ&quot; — נמסר על ידי הבעלים ולא אומת מול ההתאחדות הישראלית לכלבנות</li><li>זמינות גורים והמלטה צפויה</li><li>זמני אספקה לחו&quot;ל</li><li>מחיר גור לחו&quot;ל — נקבע מול הרוכש לפי המדינה וחוקי היבוא שלה</li><li>שנת הקמת בית הגידול — הבעלים מסרה 2008 בעברית ו-2007 באנגלית. כאן נכתב 2007 לפי המסירה המפורטת יותר; יש לאמת מולה</li><li>אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק</li><li>דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק</li></ul></section>
+</script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://agentfeed-plum.vercel.app/go/neshama-tova?to=https%3A%2F%2Fwa.me%2F972586789778">💬 וואטסאפ</a><a class="btn" href="tel:+972586789778">📞 +972586789778</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>שם בעלת העסק אינו מתפרסם כאן. היא מסרה את כל המידע בעצמה, אך לא נרשם אישור מפורש לפרסם את שמה הפרטי, ובלי אישור כזה שם של אדם לא מתפרסם. אם תאשר — השם יוחזר, כי אצל בית גידול שם המגדל הוא חלק מהאמינות</li><li>מחיר סופי לפריט — ארבע קטגוריות מתומחרות בטווח, והמחיר נקבע לפי מידה ועיצוב</li><li>מדיניות החזרות והחלפות</li><li>אילו מידות וגזעים מתאימים לכל פריט</li><li>האם יש קטלוג עיצובים או בדים לבחירה</li><li>האם יש כתובת פיזית או נקודת איסוף</li><li>מהי המתנה שניתנת על כל הזמנה</li><li>האם הפריטים מיוצרים בעצמה בלבד או שחלקם מיובאים</li><li>זמינות גורים ומועד המלטה צפוי</li><li>מעמד &quot;בית גידול מצטיין ומומלץ&quot; — נמסר על ידי הבעלים ולא אומת מול ההתאחדות הישראלית לכלבנות</li><li>זמינות גורים והמלטה צפויה</li><li>זמני אספקה לחו&quot;ל</li><li>מחיר גור לחו&quot;ל — נקבע מול הרוכש לפי המדינה וחוקי היבוא שלה</li><li>שנת הקמת בית הגידול — הבעלים מסרה 2008 בעברית ו-2007 באנגלית. כאן נכתב 2007 לפי המסירה המפורטת יותר; יש לאמת מולה</li><li>אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק</li><li>דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק</li></ul></section>
 <section><h2>מה יש</h2><ul><li class="item" itemscope itemtype="https://schema.org/Product" id="neshama-collars"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/neshama-tova/item/neshama-collars/"><span itemprop="name">קולרי בטיחות בסגנון חצי־חנק לכלבים — החל מ-150 ₪, נשמה טובה</span></a><br><b>150.00 ILS</b><span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="price" content="150.00"><meta itemprop="priceCurrency" content="ILS"><link itemprop="url" href="https://wa.me/972586789778?text=%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20AgentFeed%20%D7%95%D7%A8%D7%A6%D7%99%D7%AA%D7%99%20%D7%9C%D7%A9%D7%90%D7%95%D7%9C%20%D7%A2%D7%9C%20%D7%A7%D7%95%D7%9C%D7%A8%D7%99%D7%9D"></span></div></li>
 <li class="item" itemscope itemtype="https://schema.org/Product" id="neshama-seatbelt-collars"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/neshama-tova/item/neshama-seatbelt-collars/"><span itemprop="name">קולרים ורצועות מבד חגורות בטיחות — מוצר ייחודי, נשמה טובה</span></a><br><b>150.00 ILS</b><span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="price" content="150.00"><meta itemprop="priceCurrency" content="ILS"><link itemprop="url" href="https://wa.me/972586789778?text=%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20AgentFeed%20%D7%95%D7%A8%D7%A6%D7%99%D7%AA%D7%99%20%D7%9C%D7%A9%D7%90%D7%95%D7%9C%20%D7%A2%D7%9C%20%D7%94%D7%A7%D7%95%D7%9C%D7%A8%D7%99%D7%9D%20%D7%95%D7%94%D7%A8%D7%A6%D7%95%D7%A2%D7%95%D7%AA%20%D7%9E%D7%91%D7%93%20%D7%97%D7%92%D7%95%D7%A8%D7%95%D7%AA%20%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA"></span></div></li>
 <li class="item" itemscope itemtype="https://schema.org/Product" id="neshama-muzzles"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/neshama-tova/item/neshama-muzzles/"><span itemprop="name">מחסומים ייעודיים לפעילות לכלבים בינוניים וגדולים — 155 ₪, נשמה טובה</span></a><br><b>155.00 ILS</b><span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="price" content="155.00"><meta itemprop="priceCurrency" content="ILS"><link itemprop="url" href="https://wa.me/972586789778?text=%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20AgentFeed%20%D7%95%D7%A8%D7%A6%D7%99%D7%AA%D7%99%20%D7%9C%D7%A9%D7%90%D7%95%D7%9C%20%D7%A2%D7%9C%20%D7%94%D7%9E%D7%97%D7%A1%D7%95%D7%9E%D7%99%D7%9D"></span></div></li>

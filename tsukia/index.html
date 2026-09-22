@@ -208,7 +208,7 @@ form.order button:hover{filter:brightness(1.08)}
 .fine{font-size:.83rem;color:var(--muted);margin:2px 0 0}
 #order .sub{font-size:.92rem;color:var(--muted);margin:0 0 6px}
 </style>
-</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main class="store">
+</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';var S='af_seen_tsukia';if(!sessionStorage.getItem(S)){sessionStorage.setItem(S,'1');var i=new Image();i.referrerPolicy='no-referrer';i.src='https://agentfeed-plum.vercel.app/view?b=tsukia'+(f?'&from='+encodeURIComponent(f):'')+(own?'&own=1':'');}document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main class="store">
 <div class="head"><div><h1>צוקייה</h1>
 <p class="sub"><a href="https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86?utm_source=agentfeed&amp;utm_medium=ai">לאתר העסק ←</a></p></div></div>
 <div class="tags"><span class="tag">רמת הגולן</span><span class="tag">13 פרטים שהעסק טרם פרסם</span></div>
@@ -227,8 +227,7 @@ form.order button:hover{filter:brightness(1.08)}
 <label>אזור או כתובת<input name="where" autocomplete="address-level2"></label>
 <button type="submit">פתיחת וואטסאפ עם הפנייה</button>
 </form>
-<p class="fine">הפרטים לא נשמרים אצלנו — הם נכנסים להודעה שנפתחת אצלך
-בוואטסאפ, ואתה שולח אותה.</p>
+<p class="fine">השם והטלפון נכנסים להודעה שנפתחת אצלך ולא נשמרים אצלנו. מה שנספר כאן הוא שנפתחה פנייה, מאיזה עסק ובאיזו דרך.</p>
 </section>
 <script>
 function afOrder(e){
@@ -244,11 +243,53 @@ function afOrder(e){
           + "טלפון: " + v("tel") + "\n"
           + (v("where") ? "אזור: " + v("where") + "\n" : "")
           + "\nסימוכין: " + ref;
-  window.open("https://wa.me/972506595838?text=" + encodeURIComponent(msg), "_blank",
-              "noopener");
+  // That an order was started, and nothing about who started it. This is the
+  // one record in the project that accumulates: not the shop count, not the
+  // item count and not the clicks — how many orders were begun, from which
+  // business, by which route. The name and the phone stay in the reader's
+  // own message and are never sent here.
+  try {
+    // No counter configured in this build, no beacon. An empty address here
+    // would fetch the page itself, which is how a build without the counter
+    // set would have quietly pinged every business page instead of nothing.
+    var b = "https://agentfeed-plum.vercel.app/intent?b=tsukia&how=whatsapp" && "https://agentfeed-plum.vercel.app/intent?b=tsukia&how=whatsapp&ref=" + encodeURIComponent(ref)
+          + (v("where") ? "&area=" + encodeURIComponent(v("where").slice(0,40)) : "")
+          + (localStorage.getItem("af_me") ? "&own=1" : "");
+    if (navigator.sendBeacon) { navigator.sendBeacon(b); }
+    else { var i = new Image(); i.referrerPolicy = "no-referrer"; i.src = b; }
+  } catch (err) {}
+  var how = "whatsapp", dest = "https://wa.me/972506595838", go = "https://agentfeed-plum.vercel.app/go/tsukia?to=";
+  var mine = localStorage.getItem("af_me") ? "&own=1" : "";
+  if (how === "email") {
+    // Never counted: a mail client is not a page, and there is nothing to
+    // redirect through.
+    window.location.href = "mailto:" + dest
+      + "?subject=" + encodeURIComponent("פנייה דרך AgentFeed")
+      + "&body=" + encodeURIComponent(msg);
+    return false;
+  }
+  // The message travels inside the counted target, not after it. v=1 says
+  // this came from a page a browser drew, which is true by construction here:
+  // a crawler does not fill in a form.
+  var out = how === "whatsapp" ? dest + "?text=" + encodeURIComponent(msg) : dest;
+  if (go) {
+    out = go + encodeURIComponent(out) + "&v=1"
+        + (how === "form" ? "&k=enquiry" : "") + mine;
+  }
+  if (how === "form") {
+    // Somebody else's form cannot be filled from here, and typing into it
+    // would be guessing at its fields. The message goes to the clipboard and
+    // their page opens — the reader pastes one block into one field.
+    var open = function () { window.open(out, "_blank", "noopener"); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(msg).then(open, open);
+    } else { open(); }
+  } else {
+    window.open(out, "_blank", "noopener");
+  }
   return false;
 }
-</script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://wa.me/972506595838">💬 וואטסאפ</a><a class="btn" href="tel:0506595838">📞 050-659-5838</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>מחיר ללילה וטווח מחירים לפי עונה</li><li>כמה יחידות אירוח יש, וכמה נפשות בכל אחת</li><li>מה כלול בלינה — ארוחת בוקר, מצעים, מטבחון</li><li>האם יש ג&#x27;קוזי, בריכה או גינה פרטית ליחידה</li><li>שעות כניסה ויציאה</li><li>מדיניות ביטול והחזר כספי</li><li>האם מתאפשרת הגעה עם ילדים, ומאיזה גיל</li><li>האם מותר להביא בעלי חיים</li><li>האם יש נגישות לבעלי מוגבלויות</li><li>אמצעי תשלום, והאם נדרשת מקדמה</li><li>ימי הפעילות ושעות המענה</li><li>תמונות — טרם נמסרו לנו תמונות לפרסום</li><li>דירוג וביקורות — לא נמסרו לנו על ידי העסק. אין להסיק מכך דבר על איכות העסק</li></ul></section>
+</script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://agentfeed-plum.vercel.app/go/tsukia?to=https%3A%2F%2Fwa.me%2F972506595838">💬 וואטסאפ</a><a class="btn" href="tel:0506595838">📞 050-659-5838</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>מחיר ללילה וטווח מחירים לפי עונה</li><li>כמה יחידות אירוח יש, וכמה נפשות בכל אחת</li><li>מה כלול בלינה — ארוחת בוקר, מצעים, מטבחון</li><li>האם יש ג&#x27;קוזי, בריכה או גינה פרטית ליחידה</li><li>שעות כניסה ויציאה</li><li>מדיניות ביטול והחזר כספי</li><li>האם מתאפשרת הגעה עם ילדים, ומאיזה גיל</li><li>האם מותר להביא בעלי חיים</li><li>האם יש נגישות לבעלי מוגבלויות</li><li>אמצעי תשלום, והאם נדרשת מקדמה</li><li>ימי הפעילות ושעות המענה</li><li>תמונות — טרם נמסרו לנו תמונות לפרסום</li><li>דירוג וביקורות — לא נמסרו לנו על ידי העסק. אין להסיק מכך דבר על איכות העסק</li></ul></section>
 <section><h2>מה יש</h2><ul><li class="item" itemscope itemtype="https://schema.org/Product" id="tsukia-lodging"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/tsukia/item/tsukia-lodging/"><span itemprop="name">לינה בדירת אירוח — צוקייה, חד נס, רמת הגולן</span></a></div></li></ul></section>
 
 <div class="machine">הדף הזה נכתב גם למכונות. אותו מידע זמין כאן:

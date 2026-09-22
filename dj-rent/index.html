@@ -210,7 +210,7 @@ form.order button:hover{filter:brightness(1.08)}
 .fine{font-size:.83rem;color:var(--muted);margin:2px 0 0}
 #order .sub{font-size:.92rem;color:var(--muted);margin:0 0 6px}
 </style>
-</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main class="store">
+</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';var S='af_seen_dj-rent';if(!sessionStorage.getItem(S)){sessionStorage.setItem(S,'1');var i=new Image();i.referrerPolicy='no-referrer';i.src='https://agentfeed-plum.vercel.app/view?b=dj-rent'+(f?'&from='+encodeURIComponent(f):'')+(own?'&own=1':'');}document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main class="store">
 <div class="head"><img class="logo" src="https://media.base44.com/images/public/user_68618ccf3fe5f7716e144ffc/f1cb5f596_Gemini_Generated_Image_uk85g5uk85g5uk85-Photoroom1.png" alt="DJ Rent" loading="lazy"><div><h1>DJ Rent</h1>
 <p class="sub"><a href="https://djrent.co.il?utm_source=agentfeed&amp;utm_medium=ai">לאתר העסק ←</a></p></div></div>
 <div class="tags"><span class="tag">להשכרה, לא למכירה</span><span class="tag">31 פריטים</span><span class="tag">טירת הכרמל</span><span class="tag">10 פרטים שהעסק טרם פרסם</span></div>
@@ -229,8 +229,7 @@ form.order button:hover{filter:brightness(1.08)}
 <label>אזור או כתובת<input name="where" autocomplete="address-level2"></label>
 <button type="submit">פתיחת וואטסאפ עם ההזמנה</button>
 </form>
-<p class="fine">הפרטים לא נשמרים אצלנו — הם נכנסים להודעה שנפתחת אצלך
-בוואטסאפ, ואתה שולח אותה.</p>
+<p class="fine">השם והטלפון נכנסים להודעה שנפתחת אצלך ולא נשמרים אצלנו. מה שנספר כאן הוא שנפתחה פנייה, מאיזה עסק ובאיזו דרך.</p>
 </section>
 <script>
 function afOrder(e){
@@ -246,11 +245,53 @@ function afOrder(e){
           + "טלפון: " + v("tel") + "\n"
           + (v("where") ? "אזור: " + v("where") + "\n" : "")
           + "\nסימוכין: " + ref;
-  window.open("https://wa.me/972507807444?text=" + encodeURIComponent(msg), "_blank",
-              "noopener");
+  // That an order was started, and nothing about who started it. This is the
+  // one record in the project that accumulates: not the shop count, not the
+  // item count and not the clicks — how many orders were begun, from which
+  // business, by which route. The name and the phone stay in the reader's
+  // own message and are never sent here.
+  try {
+    // No counter configured in this build, no beacon. An empty address here
+    // would fetch the page itself, which is how a build without the counter
+    // set would have quietly pinged every business page instead of nothing.
+    var b = "https://agentfeed-plum.vercel.app/intent?b=dj-rent&how=whatsapp" && "https://agentfeed-plum.vercel.app/intent?b=dj-rent&how=whatsapp&ref=" + encodeURIComponent(ref)
+          + (v("where") ? "&area=" + encodeURIComponent(v("where").slice(0,40)) : "")
+          + (localStorage.getItem("af_me") ? "&own=1" : "");
+    if (navigator.sendBeacon) { navigator.sendBeacon(b); }
+    else { var i = new Image(); i.referrerPolicy = "no-referrer"; i.src = b; }
+  } catch (err) {}
+  var how = "whatsapp", dest = "https://wa.me/972507807444", go = "https://agentfeed-plum.vercel.app/go/dj-rent?to=";
+  var mine = localStorage.getItem("af_me") ? "&own=1" : "";
+  if (how === "email") {
+    // Never counted: a mail client is not a page, and there is nothing to
+    // redirect through.
+    window.location.href = "mailto:" + dest
+      + "?subject=" + encodeURIComponent("הזמנה דרך AgentFeed")
+      + "&body=" + encodeURIComponent(msg);
+    return false;
+  }
+  // The message travels inside the counted target, not after it. v=1 says
+  // this came from a page a browser drew, which is true by construction here:
+  // a crawler does not fill in a form.
+  var out = how === "whatsapp" ? dest + "?text=" + encodeURIComponent(msg) : dest;
+  if (go) {
+    out = go + encodeURIComponent(out) + "&v=1"
+        + (how === "form" ? "&k=enquiry" : "") + mine;
+  }
+  if (how === "form") {
+    // Somebody else's form cannot be filled from here, and typing into it
+    // would be guessing at its fields. The message goes to the clipboard and
+    // their page opens — the reader pastes one block into one field.
+    var open = function () { window.open(out, "_blank", "noopener"); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(msg).then(open, open);
+    } else { open(); }
+  } else {
+    window.open(out, "_blank", "noopener");
+  }
   return false;
 }
-</script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://wa.me/972507807444">💬 וואטסאפ</a><a class="btn" href="tel:0507807444">📞 050-780-7444</a><a class="btn" href="mailto:play@djrent.co.il">✉️ play@djrent.co.il</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>פער בין הבעלים לאתר — אזור שירות: הבעלים מסר &quot;כל אזורי הארץ&quot;, והאתר מפרסם &quot;הצפון והמרכז, מראש הנקרה ועד גדרה&quot;. כאן נכתב מה שהאתר מפרסם. יש לאמת מול העסק</li><li>פער בין הבעלים לאתר — נקודת איסוף: הבעלים מסר &quot;חיפה&quot;, והאתר מפרסם טירת הכרמל, הכלניות 20. יש לאמת מול העסק</li><li>עלות ההובלה וההתקנה — נקבעת לפי מרחק ותנאי גישה ומופיעה רק בהצעת מחיר אישית</li><li>סכום הפיקדון — מפורט בהצעת המחיר ולא פורסם מראש</li><li>מחיר לשני פריטים — RCF EVOX 8 ועמדת דיג&#x27;יי פרימיום מעוצבת</li><li>מחיר להשכרה של יותר מיום אחד — לא פורסם תמחור מדורג</li><li>זמינות לתאריך מסוים — תלויה ביומן ואינה קבועה</li><li>תשובות ה-FAQ באתר — 15 השאלות מוצגות, אך התשובות נפתחות רק בלחיצה ואינן נקראות על ידי מכונה. חלקן נענות כאן ממקורות אחרים באתר, והשאר טעונות השלמה מהעסק</li><li>אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק</li><li>דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק</li></ul></section>
+</script><section><h2>יצירת קשר</h2><div class="btns"><a class="btn" href="https://agentfeed-plum.vercel.app/go/dj-rent?to=https%3A%2F%2Fwa.me%2F972507807444">💬 וואטסאפ</a><a class="btn" href="tel:0507807444">📞 050-780-7444</a><a class="btn" href="mailto:play@djrent.co.il">✉️ play@djrent.co.il</a></div></section><section class="gap"><h2>מה העסק טרם פרסם</h2><p class="note">הרשימה הזאת נמצאת כאן בכוונה. סוכן AI שאינו רואה מה חסר ממלא את החסר בניחוש — וזה בדיוק מה שגורם לתשובות שגויות על עסקים. כאן כתוב במפורש מה לא ידוע, כדי שיפנו בשאלה לעסק עצמו.</p><ul><li>פער בין הבעלים לאתר — אזור שירות: הבעלים מסר &quot;כל אזורי הארץ&quot;, והאתר מפרסם &quot;הצפון והמרכז, מראש הנקרה ועד גדרה&quot;. כאן נכתב מה שהאתר מפרסם. יש לאמת מול העסק</li><li>פער בין הבעלים לאתר — נקודת איסוף: הבעלים מסר &quot;חיפה&quot;, והאתר מפרסם טירת הכרמל, הכלניות 20. יש לאמת מול העסק</li><li>עלות ההובלה וההתקנה — נקבעת לפי מרחק ותנאי גישה ומופיעה רק בהצעת מחיר אישית</li><li>סכום הפיקדון — מפורט בהצעת המחיר ולא פורסם מראש</li><li>מחיר לשני פריטים — RCF EVOX 8 ועמדת דיג&#x27;יי פרימיום מעוצבת</li><li>מחיר להשכרה של יותר מיום אחד — לא פורסם תמחור מדורג</li><li>זמינות לתאריך מסוים — תלויה ביומן ואינה קבועה</li><li>תשובות ה-FAQ באתר — 15 השאלות מוצגות, אך התשובות נפתחות רק בלחיצה ואינן נקראות על ידי מכונה. חלקן נענות כאן ממקורות אחרים באתר, והשאר טעונות השלמה מהעסק</li><li>אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק</li><li>דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק</li></ul></section>
 <section><h2>מה יש להשכרה</h2><ul><li class="item" itemscope itemtype="https://schema.org/Product" id="djrent-cdj-3000-djm-a9"><img itemprop="image" src="https://media.base44.com/images/public/6a70793b6d1bf0c7e46922f8/63da53f17_5cb751da2_generated_3dd857ca1.png/v1/fill/w_474,h_355,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/63da53f17_5cb751da2_generated_3dd857ca1.webp" alt="השכרת זוג CDJ-3000 עם מיקסר DJM-A9" loading="lazy"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/dj-rent/item/djrent-cdj-3000-djm-a9/"><span itemprop="name">השכרת זוג CDJ-3000 עם מיקסר DJM-A9</span></a><br><b>1200.00 ILS</b><span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="price" content="1200.00"><meta itemprop="priceCurrency" content="ILS"><link itemprop="url" href="https://djrent.co.il/rent/cdj-3000-djm-a9?utm_source=agentfeed&amp;utm_medium=ai"></span></div></li>
 <li class="item" itemscope itemtype="https://schema.org/Product" id="djrent-cdj-3000-djm-900nxs2"><img itemprop="image" src="https://media.base44.com/images/public/6a70793b6d1bf0c7e46922f8/a7c0e041d_6d3ba91d3_generated_fe4a71711.png/v1/fill/w_474,h_355,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a7c0e041d_6d3ba91d3_generated_fe4a71711.webp" alt="השכרת זוג CDJ-3000 עם מיקסר DJM-900NXS2" loading="lazy"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/dj-rent/item/djrent-cdj-3000-djm-900nxs2/"><span itemprop="name">השכרת זוג CDJ-3000 עם מיקסר DJM-900NXS2</span></a><br><b>1000.00 ILS</b><span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="price" content="1000.00"><meta itemprop="priceCurrency" content="ILS"><link itemprop="url" href="https://djrent.co.il/rent/cdj-3000-djm-900nxs2?utm_source=agentfeed&amp;utm_medium=ai"></span></div></li>
 <li class="item" itemscope itemtype="https://schema.org/Product" id="djrent-pioneer-xdj-rx3"><img itemprop="image" src="https://media.base44.com/images/public/6a70793b6d1bf0c7e46922f8/ec85cbdf0_generated_image.png/v1/fill/w_474,h_474,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/ec85cbdf0_generated_image.webp" alt="השכרת Pioneer XDJ-RX3 — עמדת All-in-One להשכרה יומית" loading="lazy"><div><a itemprop="url" href="https://nitairevivo.github.io/agentfeed/dj-rent/item/djrent-pioneer-xdj-rx3/"><span itemprop="name">השכרת Pioneer XDJ-RX3 — עמדת All-in-One להשכרה יומית</span></a><br><b>500.00 ILS</b><span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="price" content="500.00"><meta itemprop="priceCurrency" content="ILS"><link itemprop="url" href="https://djrent.co.il/rent/gear/pioneer-xdj-rx3?utm_source=agentfeed&amp;utm_medium=ai"></span></div></li>
