@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "תהליך לקיחת משכנתא — מדריכים, נתונים וכלים | mashkanta.online",
+ "name": "תהליך לקיחת משכנתא — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/process/",
- "description": "אשכול תוכן תהליך לקיחת משכנתא מהאישור העקרוני ועד רישום בטאבו: כל שלב, כל מסמך וכל לוח זמנים — בשפה פשוטה ובסדר הנכון. 9 מדריכים זמינים לקריאה דף הבית תהליך לקיחת משכנתא מומלץ להתחיל כאן אישור עקרוני למשכנתא: מה זה, איך מקבלים וכמה זמן הוא תקף אישור עקרוני למשכנתא: המסמכים הנדרשים, כמה זמן לוקח, תוקף האישור, האם הוא…",
+ "description": "מהאישור העקרוני ועד רישום בטאבו: כל שלב, כל מסמך וכל לוח זמנים — בשפה פשוטה ובסדר הנכון.",
+ "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "משכנתא אונליין"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=process",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

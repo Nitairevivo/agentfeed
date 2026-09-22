@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "ריביות ומסלולים — מדריכים, נתונים וכלים | mashkanta.online",
+ "name": "ריביות ומסלולים — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/rates/",
- "description": "אשכול תוכן ריביות ומסלולים ריבית הפריים וריבית בנק ישראל מעודכנות, המסלולים המרכזיים ואיך בונים תמהיל שמתאים לכם. 10 מדריכים זמינים לקריאה דף הבית ריביות ומסלולים מומלץ להתחיל כאן ריבית בנק ישראל: השיעור העדכני, הטבלה ההיסטורית והצפי ריבית בנק ישראל העדכנית, טבלת השינויים ההיסטורית, גרף רב שנתי, מועדי ההחלטות הבאים…",
+ "description": "ריבית הפריים וריבית בנק ישראל מעודכנות, המסלולים המרכזיים ואיך בונים תמהיל שמתאים לכם.",
+ "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "משכנתא אונליין"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=rates",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

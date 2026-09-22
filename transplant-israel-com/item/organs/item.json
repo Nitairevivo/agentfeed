@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "השתלות איברים בישראל: המדריך המלא | TRANSPLANT ISRAEL",
+ "name": "השתלות איברים בישראל: המדריך המלא",
  "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/organs/",
- "description": "ראשי השתלות איברים השתלות איברים בישראל: החוק, התהליך והמספרים מדריך מקיף על השתלות איברים בישראל: חוק השתלות איברים, תהליך ההקצאה של המרכז הלאומי להשתלות, משמעות כרטיס אדי ותרומת איברים מן החי והמת. המדריך המרכזי תרומת איברים והלכה: מה אומרות הגישות הדתיות בישראל מדריך מקיף על תרומת איברים והלכה: גלו את עמדות הרבנות,…",
+ "description": "מדריך מקיף על השתלות איברים בישראל: חוק השתלות איברים, תהליך ההקצאה של המרכז הלאומי להשתלות, משמעות כרטיס אדי ותרומת איברים מן החי והמת.",
+ "image": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/98b00d708_generated_d625f033.png",
  "brand": {
   "@type": "Brand",
   "name": "מגזין ההשתלות של ישראל"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=organs",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

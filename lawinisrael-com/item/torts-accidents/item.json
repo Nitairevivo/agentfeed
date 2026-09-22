@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "נזיקין ותאונות | העולם המשפטי בישראל",
+ "name": "נזיקין ותאונות",
  "url": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/torts-accidents/",
- "description": "דף הבית נזיקין ותאונות נזיקין ותאונות תאונות דרכים, תאונות עבודה ונזקי גוף – הזכויות, הפיצויים והדרך לממש אותם. הכתבה המובילה התקף לב או אירוע מוחי בעבודה: מתי זה מוכר כתאונת עבודה האם התקף לב או אירוע מוחי בעבודה מוכרים כפגיעה בעבודה? מדריך מקיף על תנאי הסף, חשיבות האירוע החריג והדרכים להגשת תביעה מוצלחת לביטוח…",
+ "description": "תאונות דרכים, תאונות עבודה ונזקי גוף – הזכויות, הפיצויים והדרך לממש אותם.",
+ "image": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "העולם המשפטי בישראל"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=torts-accidents",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

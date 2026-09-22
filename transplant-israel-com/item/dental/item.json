@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "השתלת שיניים בישראל: המדריך המלא 2026 | TRANSPLANT ISRAEL",
+ "name": "השתלת שיניים בישראל: המדריך המלא 2026",
  "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/dental/",
- "description": "ראשי השתלות שיניים השתלת שיניים בישראל: המדריך שיחסוך לכם אלפי שקלים מדריך מקיף להשתלת שיניים בישראל: מחירי שתלים, תהליך הכירורגיה, סיכונים וזכויות בקופות החולים. כל מה שצריך לדעת כדי לקבל החלטה מושכלת בבטחה. המדריך המרכזי טשטוש והרדמה בהשתלות שיניים: מה מתאים למי חוששים מהשתלת שיניים? מדריך מקיף על טשטוש והרדמה…",
+ "description": "מדריך מקיף להשתלת שיניים בישראל: מחירי שתלים, תהליך הכירורגיה, סיכונים וזכויות בקופות החולים. כל מה שצריך לדעת כדי לקבל החלטה מושכלת בבטחה.",
+ "image": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/87301f4e3_generated_bf3061b9.png",
  "brand": {
   "@type": "Brand",
   "name": "מגזין ההשתלות של ישראל"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=dental",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

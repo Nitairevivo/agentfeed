@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "משפט פלילי | העולם המשפטי בישראל",
+ "name": "משפט פלילי",
  "url": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/criminal-law/",
- "description": "דף הבית משפט פלילי משפט פלילי חקירות, מעצרים, כתבי אישום וזכויות החשוד והנאשם בהליך הפלילי. הכתבה המובילה כשסכסוך שכנים הופך לתיק פלילי: הטרדה מאיימת ותקיפה סכסוך שכנים פלילי יכול להוביל לאישומים חמורים ולצווי הרחקה. גלו מתי ויכוח לגיטימי הופך לעבירה פלילית ומהן ההשלכות המשפטיות המיידיות שעליכם להכיר כדי להתגונן. 7…",
+ "description": "חקירות, מעצרים, כתבי אישום וזכויות החשוד והנאשם בהליך הפלילי.",
+ "image": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "העולם המשפטי בישראל"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=criminal-law",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

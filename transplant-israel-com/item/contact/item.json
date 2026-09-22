@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "צור קשר | TRANSPLANT ISRAEL",
+ "name": "צור קשר",
  "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/contact/",
- "description": "ראשי צור קשר צור קשר מצאתם טעות במאמר? רוצים לבקש מחיקת פרטים? יש לכם שאלה על התוכן? השאירו פרטים ונחזור אליכם. פניות בנושא תיקון עובדתי מטופלות בתוך 72 שעות. נשמח לשמוע מכם השאירו פרטים ונחזור אליכם בהקדם · בחרו את סוג הטיפול ונתאים לכם ייעוץ מקצועי שם מלא טלפון עיר מגורים באיזה טיפול אתם מעוניינים לקבל ייעוץ? השתלת…",
+ "description": "מצאתם טעות במאמר? רוצים לבקש מחיקת פרטים? יש לכם שאלה על התוכן? השאירו פרטים ונחזור אליכם. פניות בנושא תיקון עובדתי מטופלות בתוך 72 שעות.",
+ "image": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
  "brand": {
   "@type": "Brand",
   "name": "מגזין ההשתלות של ישראל"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=contact",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "ריבית הפריים היום: השיעור העדכני ואיך הוא נקבע | mashkanta.online",
+ "name": "ריבית הפריים היום: השיעור העדכני ואיך הוא נקבע",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/prime-today/",
- "description": "דף הבית ריביות ומסלולים ריבית הפריים היום ריבית הפריים היום ריבית הפריים בישראל עומדת היום על 4.75%, נכון ל1 בספטמבר 2026 (מקור: בנק ישראל). 4.75% נכון ל1 בספטמבר 2026 · מקור: בנק ישראל (חישוב: ריבית + 1.5) הנתון מתעדכן אוטומטית בכל החלטת ריבית של בנק ישראל הנוסחה: ריבית בנק ישראל ועוד אחוז וחצי ריבית הפריים אינה…",
+ "description": "ריבית הפריים בישראל עומדת היום על 4.75%, נכון ל1 בספטמבר 2026 (מקור: בנק ישראל).",
+ "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "משכנתא אונליין"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=prime-today",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

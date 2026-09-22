@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "ביטוח משכנתא — מדריכים, נתונים וכלים | mashkanta.online",
+ "name": "ביטוח משכנתא — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/insurance/",
- "description": "אשכול תוכן ביטוח משכנתא ביטוח חיים ומבנה למשכנתא: מה הבנק דורש, כמה זה עולה בשוק ואיך משווים ועוברים בלי לאבד כיסוי. 6 מדריכים זמינים לקריאה דף הבית ביטוח משכנתא מומלץ להתחיל כאן ביטוח חיים למשכנתא: איך זה עובד ולמה המחירים שונים כל כך ביטוח חיים למשכנתא: כיסוי יורד עם היתרה, מה קובע את הפרמיה, שני לווים, מצב רפואי…",
+ "description": "ביטוח חיים ומבנה למשכנתא: מה הבנק דורש, כמה זה עולה בשוק ואיך משווים ועוברים בלי לאבד כיסוי.",
+ "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "משכנתא אונליין"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=insurance",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

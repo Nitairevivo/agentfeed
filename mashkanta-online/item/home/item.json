@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "מחשבון משכנתא, ריביות ומדריכים | mashkanta.online",
+ "name": "מחשבון משכנתא, ריביות ומדריכים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/home/",
- "description": "נתונים חיים ריבית הפריים: 4.75% ריבית בנק ישראל: 3.25% עודכן 1 בספטמבר 2026 · מקור: בנק ישראל MASHKANTA.ONLINE הבית שלכם, מחושב עד הפרט האחרון מחשבון תמהיל אמיתי עם לוח סילוקין, נתוני ריבית חיים ממקורות בנק ישראל, ו־76 מדריכים שמסבירים כל מספר — בלי הבטחות ובלי אותיות קטנות. ללא הרשמה, ללא פרטים נתונים לפי בנק ישראל,…",
+ "description": "מחשבון תמהיל אמיתי עם לוח סילוקין, נתוני ריבית חיים ממקורות בנק ישראל, ו־76 מדריכים שמסבירים כל מספר — בלי הבטחות ובלי אותיות קטנות.",
+ "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "משכנתא אונליין"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=home",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

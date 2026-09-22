@@ -1,9 +1,10 @@
 {
  "@context": "https://schema.org",
  "@type": "Product",
- "name": "מדריך משכנתא — מדריכים, נתונים וכלים | mashkanta.online",
+ "name": "מדריך משכנתא — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/knowledge/",
- "description": "אשכול תוכן מדריך משכנתא הון עצמי, אחוזי מימון, כושר החזר, יועצי משכנתאות ומילון המונחים המלא — הבסיס לכל החלטה. 17 מדריכים זמינים לקריאה דף הבית מדריך משכנתא מומלץ להתחיל כאן יועץ משכנתאות: מה הוא באמת עושה ומתי הוא מחזיר את עצמו מה יועץ משכנתאות עושה בפועל: תמהיל, מכרז ריביות, ליווי מול הבנק. מתי העלות מחזירה את עצמה…",
+ "description": "הון עצמי, אחוזי מימון, כושר החזר, יועצי משכנתאות ומילון המונחים המלא — הבסיס לכל החלטה.",
+ "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
  "brand": {
   "@type": "Brand",
   "name": "משכנתא אונליין"
@@ -50,6 +51,6 @@
   "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=knowledge",
   "name": "form"
  },
- "retrieved": "2026-09-20",
+ "retrieved": "2026-09-22",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }
