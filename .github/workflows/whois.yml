@@ -1,0 +1,70 @@
+# Is this domain ours, and is it even registered?
+#
+# "agentfeed.co.il נקנה" has been written in DECISIONS.md since 21 September,
+# and a WHOIS lookup says the name is not held by us. One of those two is
+# wrong, and the difference decides whether a migration is a morning's work or
+# a purchase that never happened. Neither the private chat's environment nor
+# its egress can reach a registry, so the question is answered here.
+#
+# Reading only: a WHOIS query and a DNS lookup. Nothing is bought, changed or
+# registered by this workflow.
+name: Who holds this domain
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: 'Domain, e.g. agentfeed.co.il'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  whois:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ask the registry and the DNS
+        env:
+          DOMAIN: ${{ inputs.domain }}
+          # Israel's registry is ISOC-IL; RDAP is the modern, machine-readable
+          # form of WHOIS and is what gives a definite answer about whether a
+          # name is registered at all.
+        run: |
+          set -uo pipefail
+          d="${DOMAIN,,}"
+          echo "=== domain: $d"
+
+          echo "--- DNS: NS records"
+          dig +short NS "$d" || true
+          echo "--- DNS: A records"
+          dig +short A "$d" || true
+
+          echo "--- RDAP (registry)"
+          code=$(curl -s -o /tmp/rdap.json -w '%{http_code}' \
+                 "https://rdap.isoc.org.il/rdap/domain/$d" || echo 000)
+          echo "rdap http: $code"
+          if [ "$code" = "200" ]; then
+            python3 - <<'PY'
+          import json
+          d = json.load(open("/tmp/rdap.json"))
+          print("handle:", d.get("handle"))
+          print("status:", d.get("status"))
+          for e in d.get("events") or []:
+              print("event:", e.get("eventAction"), e.get("eventDate"))
+          for e in d.get("entities") or []:
+              roles = ",".join(e.get("roles") or [])
+              va = (e.get("vcardArray") or [None, []])[1]
+              name = next((x[3] for x in va if x and x[0] == "fn"), "")
+              print("entity:", roles, "|", name)
+          for n in d.get("nameservers") or []:
+              print("ns:", n.get("ldhName"))
+          PY
+          else
+            echo "(no RDAP answer — falling back to whois)"
+          fi
+
+          echo "--- whois"
+          sudo apt-get install -y -qq whois >/dev/null 2>&1 || true
+          whois "$d" 2>/dev/null | head -40 || echo "(whois unavailable)"
