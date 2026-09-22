@@ -201,10 +201,16 @@ function draw(d) {
     .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k || "ללא מקור", v]);
   const clients = Object.entries(d.clients || {})
     .sort((a, b) => b[1] - a[1])
-    .map(([k, v]) => [({ "browser-headers": "עם כותרות של דפדפן",
-                         "lang-only": "עם שפה בלבד",
-                         bare: "בלי כותרות של דפדפן" }[k.split(":")[1]] || k)
-                      + " · " + k.split(":")[0], v]);
+    .map(([k, v]) => {
+      // browser · language · header shape. Older rows carry two parts only.
+      const p = k.split(":");
+      const shape = { "browser-headers": "כותרות של דפדפן",
+                      "lang-only": "שפה בלבד",
+                      bare: "בלי כותרות" }[p[p.length - 1]] || p[p.length - 1];
+      const lang = { he: "מבקש עברית", "other-lang": "שפה אחרת",
+                     "no-lang": "בלי שפה" }[p[1]] || "";
+      return [[p[0], lang, shape].filter(Boolean).join(" · "), v];
+    });
   const who = Object.entries(d.agents?.names || {})
     .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, v]);
   const where = Object.entries(d.agents?.surfaces || {})
