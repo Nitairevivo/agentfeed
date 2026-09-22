@@ -168,11 +168,17 @@ def main() -> int:
         # nobody clicked.
         print("  clients: " + json.dumps(data.get("clients") or {},
                                          ensure_ascii=False))
+        # The plainest answer to "where do they come from", and the one the
+        # referrer could never give.
+        print("  countries: " + json.dumps(data.get("countries") or {},
+                                           ensure_ascii=False))
         arr = data.get("arrivals") or {}
         print("  arrivals.views: " + json.dumps(arr.get("views") or {},
                                                 ensure_ascii=False))
         print("  arrivals.sources: " + json.dumps(arr.get("sources") or {},
                                                   ensure_ascii=False))
+        print("  arrivals.countries: " + json.dumps(arr.get("countries") or {},
+                                                    ensure_ascii=False))
         print("  arrivals.days: " + json.dumps(arr.get("days") or {},
                                                ensure_ascii=False))
         ag = data.get("agents") or {}
