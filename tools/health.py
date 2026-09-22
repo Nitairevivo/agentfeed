@@ -130,7 +130,49 @@ def main() -> int:
         except ValueError:
             data = {}
             bad.append("the click counter answered something that is not JSON")
-        print("clicks:", json.dumps(data, ensure_ascii=False)[:900])
+        # Printed in full, and in the shape the question is asked in.
+        #
+        # 900 characters of raw JSON was fine while the counter held three
+        # numbers. It now holds five shelves, and the one question worth
+        # asking of it — are these clicks people, a crawler, or an assistant —
+        # is answered by the tables that were being cut off: who the clicks
+        # came from, who read us by name, and whether arrivals moved on the
+        # same days the clicks did. This is the only place in the project that
+        # can reach the counter at all, so it is where that has to be legible.
+        biz = data.get("businesses") or {}
+        tot = lambda k: sum((b.get(k) or 0) for b in biz.values())
+        print("\nCOUNTER")
+        print(f"  clicks {tot('clicks')} · rendered {tot('rendered')} · "
+              f"on_item {tot('on_item')} · carts {tot('carts')} · "
+              f"enquiries {tot('enquiries')}")
+        for slug, b in sorted(biz.items(), key=lambda kv: -(kv[1].get("clicks") or 0)):
+            print(f"    {slug}: " + " ".join(
+                f"{k}={b.get(k) or 0}" for k in
+                ("clicks", "rendered", "on_item", "carts", "enquiries", "coded")))
+        print("  sources: " + json.dumps(data.get("sources") or {},
+                                         ensure_ascii=False))
+        print("  coverage: " + json.dumps(data.get("source_coverage") or {},
+                                          ensure_ascii=False))
+        arr = data.get("arrivals") or {}
+        print("  arrivals.views: " + json.dumps(arr.get("views") or {},
+                                                ensure_ascii=False))
+        print("  arrivals.sources: " + json.dumps(arr.get("sources") or {},
+                                                  ensure_ascii=False))
+        print("  arrivals.days: " + json.dumps(arr.get("days") or {},
+                                               ensure_ascii=False))
+        ag = data.get("agents") or {}
+        print("  agents.names: " + json.dumps(ag.get("names") or {},
+                                              ensure_ascii=False))
+        print("  agents.surfaces: " + json.dumps(ag.get("surfaces") or {},
+                                                 ensure_ascii=False))
+        print("  agents.tools: " + json.dumps(ag.get("tools") or {},
+                                              ensure_ascii=False))
+        print("  agents.days: " + json.dumps(ag.get("days") or {},
+                                             ensure_ascii=False))
+        # Distinct visitors per business per day: the clearest picture of
+        # whether a spike is many people or one thing coming back.
+        print("  visitors.days: " + json.dumps(data.get("days") or {},
+                                               ensure_ascii=False))
 
     for n in note:
         print(f"  · {n}")
