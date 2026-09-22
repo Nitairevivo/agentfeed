@@ -148,6 +148,20 @@ def main() -> int:
         # came from, who read us by name, and whether arrivals moved on the
         # same days the clicks did. This is the only place in the project that
         # can reach the counter at all, so it is where that has to be legible.
+        # Which fields the *deployed* counter actually returns.
+        #
+        # A field added here and never deployed is indistinguishable from a
+        # field that is deployed and empty: both print {}. That gap already
+        # cost a day once, when every arrival ping 404ed and the report looked
+        # healthy. Presence is printed separately from contents, so "is the
+        # code I wrote the code that is running" has an answer.
+        top = ("businesses", "sources", "clients", "countries", "ours",
+               "source_coverage", "intents")
+        arr = data.get("arrivals") or {}
+        print("  fields: " + " ".join(
+            f"{k}={'yes' if k in data else 'MISSING'}" for k in top)
+            + " | arrivals.countries="
+            + ("yes" if "countries" in arr else "MISSING"))
         biz = data.get("businesses") or {}
         tot = lambda k: sum((b.get(k) or 0) for b in biz.values())
         print("\nCOUNTER")
