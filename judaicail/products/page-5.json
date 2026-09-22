@@ -14,20 +14,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "פקקים לבקבוקי יין עבודת יד > Judaica > גאדג'ט ליין > יין וקידוש > מתנה לחג > מתנה ליוקרה > עיצוב אלגנטי > עיצוב ישראלי > פקק אפוקסי > פקק יוקרתי > פקק יין > פקק יין בעבודת יד > פקק יין ייחודי > פקק כחול לבן > פקק לבקבוק יין > פקק עם זהב",
    "condition": "new",
+   "variant": "49870943420773",
    "price": "69.90",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49870943420773%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9609443934565",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9609443934565/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9609443934565/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/p/2/#9609443934565",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A4%D7%A7%D7%A7-%D7%99%D7%99%D7%9F-%D7%A2%D7%A5-%D7%98%D7%91%D7%A2%D7%99-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%90%D7%9C%D7%92%D7%A0%D7%98%D7%99-%D7%91%D7%A2%D7%91%D7%95%D7%93%D7%AA-%D7%99%D7%93%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9609443934565",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49870943420773%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9609443934565",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A4%D7%A7%D7%A7-%D7%99%D7%99%D7%9F-%D7%A2%D7%A5-%D7%98%D7%91%D7%A2%D7%99-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%90%D7%9C%D7%92%D7%A0%D7%98%D7%99-%D7%91%D7%A2%D7%91%D7%95%D7%93%D7%AA-%D7%99%D7%93%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9609443934565",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49870943420773%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9609443934565",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -40,7 +42,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    }
   }
  ]

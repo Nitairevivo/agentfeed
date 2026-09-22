@@ -843,20 +843,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "כיסוי חלה",
    "condition": "new",
+   "variant": "50343141605733",
    "price": "48.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50343141605733%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9744009101669",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9744009101669/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9744009101669/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9744009101669",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%A1%D7%95-%D7%90%D7%AA-%D7%94%D7%97%D7%9C%D7%94-%D7%91%D7%A1%D7%98%D7%99%D7%99%D7%9C-%D7%A2%D7%9D-%D7%9B%D7%99%D7%A1%D7%95%D7%99-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-%D7%95%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%96%D7%94-%D7%91%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%9E%D7%A8%D7%94%D7%99%D7%91%D7%94-%D7%A9%D7%9C-%D7%93%D7%95%D7%92%D7%9E%D7%AA-%D7%A9%D7%99%D7%A9-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%D7%AA-%D7%91%D7%92%D7%95%D7%95%D7%A0%D7%99-%D7%AA%D7%9B%D7%9C%D7%AA-%D7%96%D7%94%D7%91-%D7%95%D7%9C%D7%91%D7%9F-%D7%95%D7%A2%D7%9D-%D7%94%D7%9B%D7%99%D7%AA%D7%95%D7%91-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-%D7%A9%D7%99%D7%91%D7%9C%D7%99%D7%98-%D7%90%D7%AA-%D7%99%D7%95%D7%A4%D7%99%D7%95-%D7%9E%D7%99%D7%93%D7%95%D7%AA%D7%99%D7%95-42x52-%D7%A1%D7%9E-%D7%9E%D7%95%D7%A9%D7%9C%D7%9D-%D7%9C%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%94%D7%A9%D7%91%D7%AA-%D7%A9%D7%9C%D7%9B%D7%9D%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9744009101669",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50343141605733%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9744009101669",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%A1%D7%95-%D7%90%D7%AA-%D7%94%D7%97%D7%9C%D7%94-%D7%91%D7%A1%D7%98%D7%99%D7%99%D7%9C-%D7%A2%D7%9D-%D7%9B%D7%99%D7%A1%D7%95%D7%99-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-%D7%95%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%96%D7%94-%D7%91%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%9E%D7%A8%D7%94%D7%99%D7%91%D7%94-%D7%A9%D7%9C-%D7%93%D7%95%D7%92%D7%9E%D7%AA-%D7%A9%D7%99%D7%A9-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%D7%AA-%D7%91%D7%92%D7%95%D7%95%D7%A0%D7%99-%D7%AA%D7%9B%D7%9C%D7%AA-%D7%96%D7%94%D7%91-%D7%95%D7%9C%D7%91%D7%9F-%D7%95%D7%A2%D7%9D-%D7%94%D7%9B%D7%99%D7%AA%D7%95%D7%91-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-%D7%A9%D7%99%D7%91%D7%9C%D7%99%D7%98-%D7%90%D7%AA-%D7%99%D7%95%D7%A4%D7%99%D7%95-%D7%9E%D7%99%D7%93%D7%95%D7%AA%D7%99%D7%95-42x52-%D7%A1%D7%9E-%D7%9E%D7%95%D7%A9%D7%9C%D7%9D-%D7%9C%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%94%D7%A9%D7%91%D7%AA-%D7%A9%D7%9C%D7%9B%D7%9D%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9744009101669",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50343141605733%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9744009101669",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -869,7 +871,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -885,20 +887,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "ברכות > UK82863 > אקססוריז לבית > ברכה ממוסגרת > ברכה שולחנית > ברכת הבית > ברכת הבית 20X25 > ברכת הבית זכוכית > ברכת הבית מהודרת > יודאיקה > יודאיקה לבית > יודאיקה מודרנית > מסגרת זכוכית ברכת הבית > מסגרת נצנצים > מתנה לבית חדש > מתנה לחג > מתנה לחנוכת בית > מתנה למארחים > מתנה לשבת > עיצוב הבית > תמונה עומדת לבית > תמונת ברכה > תמונת ברכת הבית > תמונת נצנצים",
    "condition": "new",
+   "variant": "50321662607717",
    "price": "55.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321662607717%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153390949",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153390949/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153390949/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733153390949",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A1%D7%92%D7%A8%D7%AA-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA-%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%91%D7%99%D7%AA-20x25-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153390949",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321662607717%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153390949",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A1%D7%92%D7%A8%D7%AA-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA-%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%91%D7%99%D7%AA-20x25-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153390949",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321662607717%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153390949",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -911,7 +915,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -927,20 +931,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "ברכות > UK82874 > אקססוריז לבית > ברכה לבית > ברכה ממוסגרת > ברכה שולחנית > יודאיקה > יודאיקה לבית > יודאיקה מודרנית > מזמור לתודה זכוכית > מזמור לתודה קווים > מסגרת מזמור לתודה > מסגרת נצנצים > מתנה לבית חדש > מתנה לחג > מתנה למארחים > מתנה לשבת > עיצוב הבית > תגיות מופרדות בפסיקים (להעתקה והדבקה)  מזמור לתודה > תמונה 22 סמ > תמונה לבית > תמונה עומדת > תמונת ברכה > תמונת זכוכית מזמור לתודה > תמונת מזמור לתודה > תמונת נצנצים",
    "condition": "new",
+   "variant": "50321662574949",
    "price": "45.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321662574949%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153358181",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153358181/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153358181/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733153358181",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A1%D7%92%D7%A8%D7%AA-%D7%A0%D7%A6%D7%A0%D7%A6%D7%99%D7%9D-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A7%D7%95%D7%95%D7%99%D7%9D-%D7%9E%D7%96%D7%9E%D7%95%D7%A8-%D7%9C%D7%AA%D7%95%D7%93%D7%94-22x%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153358181",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321662574949%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153358181",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A1%D7%92%D7%A8%D7%AA-%D7%A0%D7%A6%D7%A0%D7%A6%D7%99%D7%9D-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A7%D7%95%D7%95%D7%99%D7%9D-%D7%9E%D7%96%D7%9E%D7%95%D7%A8-%D7%9C%D7%AA%D7%95%D7%93%D7%94-22x%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153358181",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321662574949%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153358181",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -953,7 +959,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -969,20 +975,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "סכין לשבת ויום טוב > UK81350 > אקססוריז לשולחן שבת > חיתוך חלה > יודאיקה > יודאיקה לבית > כלי הגשה לשבת > מתנה לבית חדש > מתנה לחג > מתנה למארחים > מתנה לשבת > סכין חלה מעוצבת > סכין חלה שיש > סכין לחג > סכין לחלה > סכין לחלה 34 סמ > סכין לחלה יוקרתית > סכין לחלה לבנה > סכין לחם משוננת > סכין ליום טוב > סכין משוננת לחלה > סכין עם הדפסה > סכין שבת > סכין שבת ויום טוב",
    "condition": "new",
+   "variant": "50321661919589",
    "price": "50.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661919589%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153292645",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153292645/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153292645/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733153292645",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%9B%D7%99%D7%9F-%D7%A2%D7%9D-%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-34-%D7%A1%D7%9E-1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153292645",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661919589%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153292645",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%9B%D7%99%D7%9F-%D7%A2%D7%9D-%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-34-%D7%A1%D7%9E-1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153292645",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661919589%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153292645",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -995,7 +1003,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1011,20 +1019,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "ראש השנה > UK81537 > אקססוריז לשולחן החג > דבשיה > דבשיה לראש השנה > דבשיה עם מכסה עץ > דבשיה שיש סגול > דבשייה > דבשייה מעוצבת > חג ראש השנה > יודאיקה > יודאיקה לראש השנה > כלי הגשה לראש השנה > כלי לדבש > כלי לדבש 6.5 סמ > כלי לדבש מלמין > כלי לדבש עם כפית > כלי לדבש שיש > כלי מלמין > מתנה לחג > מתנה למארחים > מתנה לראש השנה > עיצוב שולחן החג > ראש השנה > שנה טובה",
    "condition": "new",
+   "variant": "50321661821285",
    "price": "25.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661821285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153227109",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153227109/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153227109/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733153227109",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%9C%D7%99-%D7%9C%D7%93%D7%91%D7%A9-%D7%9E%D7%9C%D7%9E%D7%99%D7%9F-%D7%A9%D7%A0%D7%94-%D7%98%D7%95%D7%91%D7%94%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153227109",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661821285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153227109",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%9C%D7%99-%D7%9C%D7%93%D7%91%D7%A9-%D7%9E%D7%9C%D7%9E%D7%99%D7%9F-%D7%A9%D7%A0%D7%94-%D7%98%D7%95%D7%91%D7%94%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153227109",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661821285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153227109",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1037,7 +1047,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1053,20 +1063,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "ראש השנה > UK83547 > אקססוריז לשולחן החג > דבשיה לראש השנה > דבשייה > זכוכית בלתי שבירה > זכוכית מחוסמת > חג ראש השנה > יודאיקה > יודאיקה לראש השנה > כלי הגשה לראש השנה > כלי הגשה מעוצבים > כלי זכוכית לחג > מקל דבש > מתנה לחג > מתנה למארחים > מתנה לראש השנה > סט דבש שקוף וכחול > סט להגשת תפוח בדבש > סט תפוח בדבש > סט תפוח בדבש כחול > עירוכי שולחן לחג > צלחת זכוכית 19 סמ > צלחת לראש השנה > קערית דבש > ראש השנה > שנה טובה > תפוח בדבש",
    "condition": "new",
+   "variant": "50321661133157",
    "price": "40.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661133157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153128805/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153128805/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733153128805",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%98-%D7%9C%D7%94%D7%92%D7%A9%D7%AA-%D7%AA%D7%A4%D7%95%D7%97-%D7%91%D7%93%D7%91%D7%A9-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%91%D7%9C%D7%AA%D7%99-%D7%A9%D7%91%D7%99%D7%A8%D7%94-19-%D7%A1%D7%9E-%D7%9B%D7%97%D7%95%D7%9C%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661133157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%98-%D7%9C%D7%94%D7%92%D7%A9%D7%AA-%D7%AA%D7%A4%D7%95%D7%97-%D7%91%D7%93%D7%91%D7%A9-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%91%D7%9C%D7%AA%D7%99-%D7%A9%D7%91%D7%99%D7%A8%D7%94-19-%D7%A1%D7%9E-%D7%9B%D7%97%D7%95%D7%9C%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661133157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1079,7 +1091,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1095,20 +1107,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "נטלות > אקססוריז לבית > יודאיקה > יודאיקה לבית > יודאיקה מודרנית > כלי לנטילת ידיים > מתנה לבית > מתנה לבית חדש > מתנה לחג > מתנה למארחים > מתנה לשבת > נטילת ידיים > נטלה > נטלה 13 סמ > נטלה UK42477 > נטלה אקריליק > נטלה אקרילית > נטלה לכיור > נטלה מהודרת > נטלה מעוטרת > נטלה מעוצבת > נטלה עם אותיות בולטות > נטלה עם זהב > נטלה עם שתי ידיות > נטלה עמידה > נטלה פרחים > נטלה שקוף וזהב > נטלה שקופה > תשמישי קדושה",
    "condition": "new",
+   "variant": "50321659789669",
    "price": "100.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321659789669%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733151785317/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733151785317/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733151785317",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A0%D7%98%D7%9C%D7%94-%D7%A4%D7%A8%D7%A1%D7%A4%D7%A7%D7%A1-%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA-%D7%A9%D7%A7%D7%95%D7%A4%D7%94-%D7%A2%D7%9D-%D7%90%D7%95%D7%AA%D7%99%D7%95%D7%AA-%D7%91%D7%95%D7%9C%D7%98%D7%95%D7%AA%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321659789669%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A0%D7%98%D7%9C%D7%94-%D7%A4%D7%A8%D7%A1%D7%A4%D7%A7%D7%A1-%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA-%D7%A9%D7%A7%D7%95%D7%A4%D7%94-%D7%A2%D7%9D-%D7%90%D7%95%D7%AA%D7%99%D7%95%D7%AA-%D7%91%D7%95%D7%9C%D7%98%D7%95%D7%AA%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321659789669%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1121,7 +1135,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1137,20 +1151,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "נטלות > **תגיות מופרדות בפסיקים (להעתקה והדבקה)**  נטלה > אקססוריז לבית > ברכת נטילת ידיים > יודאיקה > יודאיקה לבית > יודאיקה מודרנית > כלי לנטילת ידיים > מתנה לבית > מתנה לבית חדש > מתנה לחג > מתנה למארחים > מתנה לשבת > נטילת ידיים > נטלה 14 סמ > נטלה זהב > נטלה יוקרתית > נטלה לא שבירה > נטלה לבן וזהב > נטלה לבנה > נטלה לכיור > נטלה לנטילת ידיים > נטלה מהודרת > נטלה מעוצבת > נטלה מפולימר > נטלה עם ברכה > נטלה עם כיתוב > נטלה עם שתי ידיות > נטלה עמידה > נטלה פולימר 14 סמ > תשמישי קדושה",
    "condition": "new",
+   "variant": "50321657004389",
    "price": "145.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321657004389%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151621477",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733151621477/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733151621477/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733151621477",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A0%D7%98%D7%9C%D7%94-%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA-%D7%A4%D7%95%D7%AA%D7%97-%D7%90%D7%AA-%D7%99%D7%93%D7%99%D7%9A%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151621477",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321657004389%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151621477",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A0%D7%98%D7%9C%D7%94-%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA-%D7%A4%D7%95%D7%AA%D7%97-%D7%90%D7%AA-%D7%99%D7%93%D7%99%D7%9A%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151621477",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321657004389%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151621477",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1163,7 +1179,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1179,20 +1195,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "סכין לשבת ויום טוב > אקססוריז לשבת > כלי בית לשבת > מוצרי שבת > מתנה לחגים > מתנה למארחים לשבת > מתנה לשבת > סכין בעיצוב שיש > סכין חלה מוזהבת > סכין חלה מעוצבת > סכין חלה שיש אפור > סכין חלה שיש לבן > סכין לחלה > סכין לחלה 34 ס\"מ > סכין לחם > סכין ללחם וחלה. > סכין משוריינת לחלה > סכין שבת > סכין שבת ויום טוב > עריכת שולחן שבת > תשמישי קדושה",
    "condition": "new",
+   "variant": "50303831933285",
    "price": "50.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303831933285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909959013",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9725909959013/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9725909959013/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9725909959013",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%9B%D7%99%D7%9F-%D7%A2%D7%9D-%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A1%D7%92%D7%A0%D7%95%D7%9F-%D7%A9%D7%99%D7%A9-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-34-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909959013",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303831933285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909959013",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%9B%D7%99%D7%9F-%D7%A2%D7%9D-%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A1%D7%92%D7%A0%D7%95%D7%9F-%D7%A9%D7%99%D7%A9-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-34-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909959013",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303831933285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909959013",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1205,7 +1223,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1221,20 +1239,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "סכין לשבת ויום טוב > אקססוריז לשבת > כין לחלה > כלי בית לשבת > מוצרי שבת > מתנה לחגים > מתנה למארחים לשבת > מתנה לשבת > סכין בעיצוב שיש > סכין חלה טורקיז > סכין חלה מוזהבת > סכין חלה מעוצבת > סכין לחלה 34 ס\"מ > סכין לחם > סכין ללחם וחלה. > סכין משוריינת לחלה > סכין שבת > סכין שבת ויום טוב > עריכת שולחן שבת > תשמישי קדושה",
    "condition": "new",
+   "variant": "50303829868901",
    "price": "50.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303829868901%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909860709",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9725909860709/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9725909860709/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9725909860709",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%9B%D7%99%D7%9F-%D7%A2%D7%9D-%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-34-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909860709",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303829868901%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909860709",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A1%D7%9B%D7%99%D7%9F-%D7%A2%D7%9D-%D7%94%D7%93%D7%A4%D7%A1%D7%94-%D7%A9%D7%91%D7%AA-%D7%95%D7%99%D7%95%D7%9D-%D7%98%D7%95%D7%91-34-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909860709",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303829868901%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725909860709",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1247,7 +1267,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1263,20 +1283,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "ברכות > אמנות יהודית > יודאיקה > מזמור לתודה > מזמור לתודה 21X21 > מזמור לתודה אקריליק > מזמור לתודה הכותל > מזמור לתודה זהב > מזמור לתודה ירושלים > מזמור לתודה עם שרשרת > מזמור לתודה תלוי > מתנה לבית חדש > מתנה לחגים > מתנה לחנוכת בית > מתנה למעבר דירה > עיצוב הבית > קישוט לקיר > שלט מזמור לתודה > תהילים מזמור ק > תמונה באקריליק > תמונות יודאיקה לבית > תמונת אקריליק לבית > תמונת מזמור לתודה > תשמישי קדושה",
    "condition": "new",
+   "variant": "50303457689957",
    "price": "100.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303457689957%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725768499557",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9725768499557/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9725768499557/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9725768499557",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%96%D7%9E%D7%95%D7%A8-%D7%9C%D7%AA%D7%95%D7%93%D7%94-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-21x21-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725768499557",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303457689957%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725768499557",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%96%D7%9E%D7%95%D7%A8-%D7%9C%D7%AA%D7%95%D7%93%D7%94-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-21x21-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725768499557",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50303457689957%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9725768499557",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1289,7 +1311,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1305,20 +1327,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "ברכות > אמנות יהודית > ברכת הבית > ברכת הבית 21X21 > ברכת הבית אקריליק > ברכת הבית הכותל > ברכת הבית זהב > ברכת הבית ירושלים > ברכת הבית ירושלים אקריליק > ברכת הבית עם שרשרת > ברכת הבית תלויה > יודאיקה > מתנה לבית חדש > מתנה לחגים > מתנה לחנוכת בית > מתנה למעבר דירה > עיצוב הבית > קישוט לקיר > שלט ברכת הבית > תמונה באקריליק > תמונת אקריליק לבית > תמונת ברכת הבית > תשמישי קדושה",
    "condition": "new",
+   "variant": "50289057202533",
    "price": "100.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289057202533%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218826597",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721218826597/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721218826597/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721218826597",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%91%D7%99%D7%AA-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-21x21-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218826597",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289057202533%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218826597",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%91%D7%99%D7%AA-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-21x21-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218826597",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289057202533%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218826597",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1331,7 +1355,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1347,20 +1371,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "גביעי קידוש > גביע לשבת",
    "condition": "new",
+   "variant": "50289032692069",
    "price": "145.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289032692069%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218367845",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721218367845/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721218367845/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721218367845",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%95%D7%A1-%D7%A7%D7%99%D7%93%D7%95%D7%A9-%D7%9C%D7%9C%D7%90-%D7%A8%D7%92%D7%9C-%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C-%D7%96%D7%94%D7%91-%D7%94%D7%90%D7%A9-%D7%A9%D7%9C%D7%99%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218367845",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289032692069%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218367845",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%95%D7%A1-%D7%A7%D7%99%D7%93%D7%95%D7%A9-%D7%9C%D7%9C%D7%90-%D7%A8%D7%92%D7%9C-%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C-%D7%96%D7%94%D7%91-%D7%94%D7%90%D7%A9-%D7%A9%D7%9C%D7%99%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218367845",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289032692069%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218367845",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1373,7 +1399,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1389,20 +1415,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "מגש לחלת שבת",
    "condition": "new",
+   "variant": "50289016242533",
    "price": "150.00",
    "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289016242533%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218007397",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721218007397/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721218007397/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721218007397",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%92%D7%A9-%D7%97%D7%9C%D7%94-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A2%D7%9D-%D7%9E%D7%9C%D7%97%D7%99%D7%99%D7%94-45x30-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218007397",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289016242533%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218007397",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%92%D7%A9-%D7%97%D7%9C%D7%94-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A2%D7%9D-%D7%9E%D7%9C%D7%97%D7%99%D7%99%D7%94-45x30-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218007397",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289016242533%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721218007397",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1415,7 +1443,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1431,20 +1459,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "גביעי קידוש > ברסלב > גביע 16 סמ > גביע האש שלי > גביע לשבת > גביע עם תחתית > גביע קידוש > גביע קידוש 16 סמ > גביע קידוש מהודר > גביע קידוש קריסטל > גביע קריסטל > גביע קריסטל מעוצב > האש שלי > האש שלי תוקד > יודאיקה > יודאיקה יוקרתית > כלי קודש > מתנה יוקרתית > מתנה לבית חדש > מתנה לבר מצווה > מתנה לגבר > מתנה לחג > מתנה לחתן > מתנה לראש השנה > מתנה לשבת > מתנות יודאיקה > סט קידוש קריסטל > עיטורי זהב > רבי נחמן > תשמישי קדושה",
    "condition": "new",
+   "variant": "50289010671973",
    "price": "150.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289010671973%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721217352037",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721217352037/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721217352037/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721217352037",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%92%D7%91%D7%99%D7%A2-%D7%A7%D7%99%D7%93%D7%95%D7%A9-%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%94%D7%90%D7%A9-%D7%A9%D7%9C%D7%99-16-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721217352037",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289010671973%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721217352037",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%92%D7%91%D7%99%D7%A2-%D7%A7%D7%99%D7%93%D7%95%D7%A9-%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%94%D7%90%D7%A9-%D7%A9%D7%9C%D7%99-16-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721217352037",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50289010671973%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721217352037",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1457,7 +1487,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1473,20 +1503,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "קופות צדקה",
    "condition": "new",
+   "variant": "50288992452965",
    "price": "65.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992452965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210372453/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210372453/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721210372453",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A7%D7%95%D7%A4%D7%AA-%D7%A6%D7%93%D7%A7%D7%94-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7-%D7%A2%D7%9D-%D7%A4%D7%9C%D7%A7%D7%98%D7%94-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-11x8-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992452965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A7%D7%95%D7%A4%D7%AA-%D7%A6%D7%93%D7%A7%D7%94-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7-%D7%A2%D7%9D-%D7%A4%D7%9C%D7%A7%D7%98%D7%94-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D-11x8-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992452965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1499,7 +1531,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1515,20 +1547,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "כיפות פריק > יודאיקה > כיפה > כיפה 24 סמ > כיפה גדולה > כיפה לבנה > כיפה לבר מצווה > כיפה לחג > כיפה לחתן > כיפה לשבת > כיפה מאווררת > כיפה סרוגה > כיפה סרוגה לבנה > כיפה עם חורים > כיפה פריק > כיפות סרוגות > כיפת פריק > כיפת פריק לבנה > תשמישי קדושה",
    "condition": "new",
+   "variant": "50288992321893",
    "price": "20.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992321893%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210274149",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210274149/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210274149/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721210274149",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A4%D7%94-%D7%A4%D7%A8%D7%99%D7%A7-%D7%9C%D7%91%D7%A0%D7%94-%D7%95%D7%90%D7%99%D7%9B%D7%95%D7%AA%D7%99%D7%AA-%D7%91%D7%A7%D7%95%D7%98%D7%A8-22-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210274149",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992321893%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210274149",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A4%D7%94-%D7%A4%D7%A8%D7%99%D7%A7-%D7%9C%D7%91%D7%A0%D7%94-%D7%95%D7%90%D7%99%D7%9B%D7%95%D7%AA%D7%99%D7%AA-%D7%91%D7%A7%D7%95%D7%98%D7%A8-22-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210274149",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992321893%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210274149",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1541,7 +1575,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1557,20 +1591,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "כיפות מעוצבות > יודאיקה > כיפה > כיפה 22 סמ > כיפה גדולה > כיפה ליום חול > כיפה לשבת > כיפה מאווררת > כיפה סרוגה > כיפה סרוגה שחורה > כיפה עם חורים > כיפה פריק > כיפה שחורה > כיפות סרוגות > כיפת פריק > כיפת פריק שחורה > תשמישי קדושה",
    "condition": "new",
+   "variant": "50288992125285",
    "price": "20.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992125285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210143077",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210143077/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210143077/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721210143077",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A4%D7%94-%D7%A4%D7%A8%D7%99%D7%A7-%D7%A9%D7%97%D7%95%D7%A8-%D7%A2%D7%9D-%D7%97%D7%95%D7%A8%D7%99%D7%9D-22-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210143077",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992125285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210143077",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A4%D7%94-%D7%A4%D7%A8%D7%99%D7%A7-%D7%A9%D7%97%D7%95%D7%A8-%D7%A2%D7%9D-%D7%97%D7%95%D7%A8%D7%99%D7%9D-22-%D7%A1%D7%9E%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210143077",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992125285%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210143077",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1583,7 +1619,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1599,20 +1635,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "בתי מזוזה > בית מזוזה > בית מזוזה יוקרתי > בית מזוזה לבן > בית מזוזה לבן זהב > בית מזוזה מעוצב > יודאיקה > יודאיקה מודרנית > מזוזה > מזוזה 20 סמ > מזוזה בטון > מזוזה ברכת הבית > מזוזה מודרנית > מזוזה פולימר בטון > מתנה לבית חדש > מתנה לחנוכת בית > עיצוב הבית > תשמישי קדושה",
    "condition": "new",
+   "variant": "50274386346341",
    "price": "120.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274386346341%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717485306213",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717485306213/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717485306213/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717485306213",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%91%D7%99%D7%AA-%D7%9E%D7%96%D7%95%D7%96%D7%94-%D7%92%D7%93%D7%95%D7%9C-%D7%93%D7%9E%D7%95%D7%99-%D7%91%D7%98%D7%95%D7%9F-%D7%9C%D7%91%D7%9F-%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%91%D7%99%D7%AA-%D7%91%D7%92%D7%99%D7%9E%D7%95%D7%A8-%D7%9C%D7%91%D7%9F-%D7%A4%D7%A0%D7%99%D7%A0%D7%94-%D7%95%D7%97%D7%A8%D7%99%D7%98%D7%AA-%D7%96%D7%94%D7%91%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717485306213",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274386346341%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717485306213",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%91%D7%99%D7%AA-%D7%9E%D7%96%D7%95%D7%96%D7%94-%D7%92%D7%93%D7%95%D7%9C-%D7%93%D7%9E%D7%95%D7%99-%D7%91%D7%98%D7%95%D7%9F-%D7%9C%D7%91%D7%9F-%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%91%D7%99%D7%AA-%D7%91%D7%92%D7%99%D7%9E%D7%95%D7%A8-%D7%9C%D7%91%D7%9F-%D7%A4%D7%A0%D7%99%D7%A0%D7%94-%D7%95%D7%97%D7%A8%D7%99%D7%98%D7%AA-%D7%96%D7%94%D7%91%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717485306213",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274386346341%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717485306213",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1625,7 +1663,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1641,20 +1679,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "כיסוי חלה > יודאיקה מודרנית > כיסוי חלה לשבת > כיסוי חלה מעוצב > כיסוי חלה צבעוני > כיסוי לחלה > מפת חלה > מתנה לחג > מתנה לחנוכת בית > מתנה למארחים. > מתנה לשבת > עיצוב שולחן שבת > עיצוב שיש > שבת ויום טוב > שיש טורקיז וזהב",
    "condition": "new",
+   "variant": "50274375532901",
    "price": "48.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274375532901%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481800037",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717481800037/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717481800037/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717481800037",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A1%D7%95%D7%99-%D7%97%D7%9C%D7%94-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%95%D7%96%D7%94%D7%91%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481800037",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274375532901%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481800037",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A1%D7%95%D7%99-%D7%97%D7%9C%D7%94-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%95%D7%96%D7%94%D7%91%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481800037",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274375532901%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481800037",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1667,7 +1707,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1683,20 +1723,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "כיסויי חלה",
    "condition": "new",
+   "variant": "50274374582629",
    "price": "45.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274374582629%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481374053",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717481374053/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717481374053/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717481374053",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A1%D7%95%D7%99-%D7%97%D7%9C%D7%94-%D7%9C%D7%91%D7%9F-%D7%95%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%A2%D7%9D-%D7%A8%D7%A7%D7%9E%D7%AA-%D7%9B%D7%A1%D7%A3-%D7%94%D7%90%D7%A9-%D7%A9%D7%9C%D7%99%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481374053",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274374582629%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481374053",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9B%D7%99%D7%A1%D7%95%D7%99-%D7%97%D7%9C%D7%94-%D7%9C%D7%91%D7%9F-%D7%95%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%A2%D7%9D-%D7%A8%D7%A7%D7%9E%D7%AA-%D7%9B%D7%A1%D7%A3-%D7%94%D7%90%D7%A9-%D7%A9%D7%9C%D7%99%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481374053",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274374582629%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717481374053",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1709,7 +1751,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1725,20 +1767,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "פמוטים > ברכת הדלקת נרות > יודאיקה מודרנית > יודאיקה מעוצבת > מגש מראה לנרות > מעמד להדלקת נרות > מתנה לאישה > מתנה לאמא > מתנה לחנוכת בית > מתנה לכלה > עיצוב שיש כחול > פמוטי זכוכית > פמוטים יוקרתיים. > פמוטים לשבת > פמוטים מודרניים > פמוטים עם תפילה > שבת קודש > שיש כחול וזהב > תפילת הדלקת נרות",
    "condition": "new",
+   "variant": "50274341978469",
    "price": "110.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341978469%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457387877",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457387877/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457387877/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717457387877",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A2%D7%9E%D7%93-%D7%A4%D7%9E%D7%95%D7%98%D7%99%D7%9D-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%A2%D7%9D-%D7%AA%D7%A4%D7%99%D7%9C%D7%AA-%D7%94%D7%93%D7%9C%D7%A7%D7%AA-%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%9B%D7%97%D7%95%D7%9C-%D7%95%D7%96%D7%94%D7%91%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457387877",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341978469%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457387877",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A2%D7%9E%D7%93-%D7%A4%D7%9E%D7%95%D7%98%D7%99%D7%9D-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%A2%D7%9D-%D7%AA%D7%A4%D7%99%D7%9C%D7%AA-%D7%94%D7%93%D7%9C%D7%A7%D7%AA-%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%9B%D7%97%D7%95%D7%9C-%D7%95%D7%96%D7%94%D7%91%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457387877",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341978469%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457387877",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1751,7 +1795,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1767,20 +1811,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "פמוטים > ברכת הדלקת נרות > יודאיקה מעוצבת > מגש מראה לנרות > מעמד להדלקת נרות > מתנה לאישה > מתנה לאמא > מתנה לחנוכת בית > מתנה לכלה > עיצוב הבית. > עיצוב שיש > פמוטי זכוכית > פמוטים יוקרתיים > פמוטים לשבת > פמוטים מודרניים > פמוטים עם תפילה > שבת קודש > תפילת הדלקת נרות",
    "condition": "new",
+   "variant": "50274341683557",
    "price": "110.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341683557%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457256805",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457256805/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457256805/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717457256805",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A2%D7%9E%D7%93-%D7%A4%D7%9E%D7%95%D7%98%D7%99%D7%9D-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A2%D7%9D-%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%93%D7%9C%D7%A7%D7%AA-%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457256805",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341683557%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457256805",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A2%D7%9E%D7%93-%D7%A4%D7%9E%D7%95%D7%98%D7%99%D7%9D-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A2%D7%9D-%D7%91%D7%A8%D7%9B%D7%AA-%D7%94%D7%93%D7%9C%D7%A7%D7%AA-%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457256805",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341683557%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457256805",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1793,7 +1839,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1809,20 +1855,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "פמוטים > הדלקת נרות > יודאיקה מודרנית > יודאיקה מעוצבת > כלי זכוכית לשבת > כסף ותכלת > מגש זכוכית לנרות > מגש פמוטים > מסורת יהודית > מתנה לאישה > מתנה לחנוכת בית > מתנה לכלה > מתנה מרגשת לחג > נרות שבת > עיצוב הבית > עיצוב שולחן שבת > עיצוב שיש תכלת > פמוטי זכוכית > פמוטים כסופים > פמוטים לשבת > פמוטים מודרניים > שבת ויום טוב > שבת קודש",
    "condition": "new",
+   "variant": "50274341060965",
    "price": "50.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341060965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457125733",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457125733/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457125733/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717457125733",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A4%D7%A0%D7%99%D7%A0%D7%AA-%D7%94%D7%A9%D7%91%D7%AA-%D7%9E%D7%A2%D7%9E%D7%93-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9C%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%AA%D7%9B%D7%9C%D7%AA-%D7%95%D7%9B%D7%A1%D7%A3%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457125733",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341060965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457125733",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A4%D7%A0%D7%99%D7%A0%D7%AA-%D7%94%D7%A9%D7%91%D7%AA-%D7%9E%D7%A2%D7%9E%D7%93-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9C%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%AA%D7%9B%D7%9C%D7%AA-%D7%95%D7%9B%D7%A1%D7%A3%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457125733",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274341060965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457125733",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1835,7 +1883,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1851,20 +1899,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "פמוטים > הדלקת נרות > יודאיקה מודרנית > יודאיקה מעוצבת > כלי זכוכית לשבת > מגש זכוכית לנרות. > מגש פמוטים > מתנה לאישה > מתנה לחנוכת בית > מתנה לכלה > מתנה מרגשת לחג > נרות שבת > עיצוב שולחן שבת > עיצוב שיש פסטלי > פמוטי זכוכית > פמוטים לשבת > פמוטים מודרניים > פסטל וזהב > שבת ויום טוב > שבת קודש",
    "condition": "new",
+   "variant": "50274340798821",
    "price": "50.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274340798821%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457027429",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457027429/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717457027429/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717457027429",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A4%D7%9E%D7%95%D7%98-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9C%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%A4%D7%A1%D7%98%D7%9C%D7%99%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457027429",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274340798821%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457027429",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%A4%D7%9E%D7%95%D7%98-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9C%D7%A0%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A9%D7%99%D7%A9-%D7%A4%D7%A1%D7%98%D7%9C%D7%99%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457027429",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274340798821%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717457027429",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1877,7 +1927,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1893,20 +1943,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "פמוטים > הדלקת נרות > יודאיקה > יודאיקה מודרנית > כלי זכוכית לשבת > מגש זכוכית לנרות > מגש פמוטים > מסורת יהודית. > מעמד לנרות > מתנה לאישה > מתנה לחג > מתנה לחנוכת בית > מתנה לכלה > מתנות לחגים > נרות שבת > עיצוב הבית > עיצוב שולחן שבת > עיצוב שיש > פמוטי זכוכית > פמוטים לשבת > פמוטים מודרניים > פמוטים מעוצבים > שבת ויום טוב > שבת קודש",
    "condition": "new",
+   "variant": "50274339127653",
    "price": "50.00",
    "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274339127653%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717456634213",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717456634213/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9717456634213/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9717456634213",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A2%D7%9E%D7%93-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%9C%D7%A0%D7%A8%D7%95%D7%AA-%D7%A9%D7%91%D7%AA%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717456634213",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274339127653%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717456634213",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%9E%D7%A2%D7%9E%D7%93-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9E%D7%94%D7%95%D7%93%D7%A8-%D7%9C%D7%A0%D7%A8%D7%95%D7%AA-%D7%A9%D7%91%D7%AA%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717456634213",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50274339127653%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9717456634213",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1919,7 +1971,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
@@ -1935,20 +1987,22 @@
    "brand": "יודאיקה ישראל",
    "product_type": "בתי מזוזה ארץ ישראל עבודת יד > אות שין מוזהבת > בית מזוזה > בית מזוזה אמנותי > בית מזוזה ארץ ישראל > בית מזוזה בעבודת יד > בית מזוזה בעיצוב מיוחד > בית מזוזה דקורטיבי > בית מזוזה ייחודי > בית מזוזה מפה > יודאיקה ישראלית > מזוזה בעבודת אמן > מזוזה בעבודת יד > מזוזה בעיצוב ארץ ישראל > מזוזה בעיצוב מפה > מזוזה בעיצוב שיש > מזוזה לבית יהודי > מזוזה לחובבי ישראל > מזוזה למתנה > מזוזה מקורית > מזוזה צבע חום > מזוזת ארץ ישראל > מפת ארץ ישראל > מתנה יהודית מקורית > עבודת יד ישראלית",
    "condition": "new",
+   "variant": "50179858170213",
    "price": "220.00",
    "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50179858170213%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9679978004837",
    "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9679978004837/",
    "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9679978004837/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9679978004837",
    "order": {
-    "method": "product_page",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%91%D7%99%D7%AA-%D7%9E%D7%96%D7%95%D7%96%D7%94-%D7%91%D7%A2%D7%91%D7%95%D7%93%D7%AA-%D7%99%D7%93-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%9E%D7%A4%D7%AA-%D7%90%D7%A8%D7%A5-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%91%D7%92%D7%95%D7%95%D7%9F-%D7%A9%D7%99%D7%A9-%D7%98%D7%91%D7%A2%D7%99-copy%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9679978004837",
-    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50179858170213%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9679978004837",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
     "routes": [
      {
-      "method": "product_page",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fproducts%2F%D7%91%D7%99%D7%AA-%D7%9E%D7%96%D7%95%D7%96%D7%94-%D7%91%D7%A2%D7%91%D7%95%D7%93%D7%AA-%D7%99%D7%93-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%9E%D7%A4%D7%AA-%D7%90%D7%A8%D7%A5-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%91%D7%92%D7%95%D7%95%D7%9F-%D7%A9%D7%99%D7%A9-%D7%98%D7%91%D7%A2%D7%99-copy%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9679978004837",
-      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50179858170213%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9679978004837",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
      },
      {
       "method": "phone",
@@ -1961,7 +2015,7 @@
       "note": "העסק מקבל פניות במייל."
      }
     ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, טלפון, מייל."
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
    },
    "business": "יודאיקה ישראל",
    "business_slug": "judaicail",
