@@ -36,7 +36,14 @@ permissions:
 jobs:
   read:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    # Four sites at 120 pages each is 480 renders, and a render is a real
+    # browser waiting for a real page: about six seconds with the pause that
+    # keeps the crawl polite. Fifty-five minutes cut that off at roughly page
+    # four hundred — and because the commit came last, the four hundred were
+    # lost rather than saved short. The step below now commits whatever was
+    # written even when the job is cut off, and the ceiling here is high
+    # enough that it usually is not.
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -186,6 +193,11 @@ jobs:
           PY
 
       - name: Commit to the scratch branch
+        # Even if the render above ran out of time or fell over. Each site is
+        # written to out/ the moment it finishes, so a run that read three of
+        # four sites holds three readings — and dropping them because the
+        # fourth timed out is throwing away an hour of work that succeeded.
+        if: always()
         run: |
           git config user.name  "agentfeed-reader"
           git config user.email "actions@github.com"
