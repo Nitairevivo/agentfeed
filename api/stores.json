@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-22T12:38:21+00:00",
+  "updated": "2026-09-22T13:11:30+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -14,6 +14,12 @@
       "name": "שירותים לעסקים",
       "url": "https://nitairevivo.github.io/agentfeed/c/b2b/",
       "businesses": 3
+    },
+    {
+      "slug": "health",
+      "name": "בריאות ורפואה",
+      "url": "https://nitairevivo.github.io/agentfeed/c/health/",
+      "businesses": 2
     },
     {
       "slug": "lodging",
@@ -55,12 +61,6 @@
       "slug": "beauty",
       "name": "טיפוח ויופי",
       "url": "https://nitairevivo.github.io/agentfeed/c/beauty/",
-      "businesses": 1
-    },
-    {
-      "slug": "health",
-      "name": "בריאות ורפואה",
-      "url": "https://nitairevivo.github.io/agentfeed/c/health/",
       "businesses": 1
     },
     {
@@ -447,6 +447,41 @@
         "how_to_order": "This business takes enquiries through a form on its own site. contact_order_url is that form. Send the shopper there rather than describing what to fill in: the fields and the consent wording are the business's own, and the details are given to them, not to AgentFeed."
       },
       "contact": {},
+      "phone": ""
+    },
+    {
+      "slug": "mybambook",
+      "name": "MyBambook",
+      "official_site": "https://mybambook.com",
+      "category": "בריאות ורפואה",
+      "category_slug": "health",
+      "region": "",
+      "areas": [],
+      "items": 4,
+      "page": "https://nitairevivo.github.io/agentfeed/mybambook/",
+      "products": "https://nitairevivo.github.io/agentfeed/mybambook/products.jsonl",
+      "updated": "2026-09-22T13:09:38+00:00",
+      "unknown": [
+        "אמצעי תשלום — האתר אינו מפרסם אילו אמצעי תשלום מתקבלים. יש לברר מול העסק",
+        "מדריך המידות — האתר מציג מידות S, M ו-L ומדריך התאמה, אך מידות כף היד שמתאימות לכל אחת לא נקראו מהעמוד. יש לבדוק במדריך המידות באתר לפני הזמנה",
+        "מי נושא בעלות משלוח ההחזרה — האתר פותח את המשפט ולא ראינו את סופו. יש לברר מול העסק",
+        "האם המשלוח חינם בכל הזמנה — בעל העסק מסר שכן; עמוד המשלוחים באתר אינו אומר זאת, ולכן זה נרשם כמסירה שלו ולא כפרט שפורסם",
+        "הדירוג שהאתר מציג — 4.8 מתוך 71 ביקורות ו-1,520+ לקוחות הן אמירות של העסק על עצמו. לא אומתו, ואין להסיק מהן דבר",
+        "תשובות השאלות הנפוצות — העמוד מונה תשע שאלות, והתשובות מקופלות ולא נקראו"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed",
+        "contact_order_method": "email",
+        "how_to_order": "The business takes orders by email. contact_order_url opens a message to it."
+      },
+      "contact": {
+        "email": "support@mybambook.com"
+      },
       "phone": ""
     },
     {
@@ -884,18 +919,18 @@
       "businesses": 1
     },
     {
+      "slug": "grooming",
+      "name": "שמפו וטיפוח",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/",
+      "items": 117,
+      "businesses": 3
+    },
+    {
       "slug": "toys",
       "name": "משחקים וצעצועים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/toys/",
       "items": 116,
       "businesses": 1
-    },
-    {
-      "slug": "grooming",
-      "name": "שמפו וטיפוח",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/",
-      "items": 114,
-      "businesses": 2
     },
     {
       "slug": "dog-dry-food/150-300",
@@ -1183,6 +1218,13 @@
       "url": "https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/under-50/",
       "items": 6,
       "businesses": 1
+    },
+    {
+      "slug": "grooming/150-300",
+      "name": "שמפו וטיפוח",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/150-300/",
+      "items": 5,
+      "businesses": 3
     }
   ]
 }

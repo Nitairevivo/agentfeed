@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 18 businesses, 164 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 19 businesses, 170 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-18 עסקים · 2749 פריטים
+19 עסקים · 2753 פריטים
 
 ## שירותים לעסקים
 
@@ -29,6 +29,15 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/)** — 60 פריטים  
   מגזין משכנתאות עם מחשבון  
   אתר העסק: https://mashkanta.online
+
+## בריאות ורפואה
+
+- **[MyBambook](https://nitairevivo.github.io/agentfeed/mybambook/)** — 4 פריטים  
+  חנות של מוצר אחד: כפפות לחץ (קומפרסיה) עשויות במבוק, פתוחות בקצות האצבעות, ללבישה ביום ובלילה  
+  אתר העסק: https://mybambook.com
+- **[מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/)** — 60 פריטים  
+  מגזין תוכן על השתלות שיער, השתלות שיניים, אסתטיקה רפואית והשתלות איברים בישראל  
+  אתר העסק: https://transplant-israel.com
 
 ## אירוח וצימרים
 
@@ -83,12 +92,6 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/)** — 4 פריטים  
   חנות מקוונת למוצרי טיפוח ונוחות לשיער, כולל מוצרי סטיילינג, מכשירים ומוצרים לצמיחת השיער  
   אתר העסק: https://www.sunsetglow.co.il
-
-## בריאות ורפואה
-
-- **[מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/)** — 60 פריטים  
-  מגזין תוכן על השתלות שיער, השתלות שיניים, אסתטיקה רפואית והשתלות איברים בישראל  
-  אתר העסק: https://transplant-israel.com
 
 ## יודאיקה ותשמישי קדושה
 

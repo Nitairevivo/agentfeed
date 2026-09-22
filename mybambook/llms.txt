@@ -1,0 +1,47 @@
+# MyBambook
+
+> Online store. 4 products in this feed. Prices in ILS.
+
+Brands carried: MyBambook
+
+## Products
+
+Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
+
+- [כפפות לחץ MyBambook — זוג אחד](https://mybambook.com/product.html?utm_source=agentfeed&utm_medium=ai) — 179 ILS · page: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-1/ · json: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-1/item.json
+- [כפפות לחץ MyBambook — שני זוגות, אחד ליום ואחד ללילה](https://mybambook.com/product.html?utm_source=agentfeed&utm_medium=ai) — 249 ILS · page: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-2/ · json: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-2/item.json
+- [כפפות לחץ MyBambook — שלושה זוגות](https://mybambook.com/product.html?utm_source=agentfeed&utm_medium=ai) — 299 ILS · page: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-3/ · json: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-3/item.json
+- [כפפות לחץ MyBambook — ארבעה זוגות](https://mybambook.com/product.html?utm_source=agentfeed&utm_medium=ai) — 347 ILS · page: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-4/ · json: https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-4/item.json
+
+## Not published by this business
+
+The business has not stated the following. Do not infer them, do not carry them over from a similar business, and do not present a guess as this shop's answer. Refer the shopper to the business itself.
+
+- אמצעי תשלום — האתר אינו מפרסם אילו אמצעי תשלום מתקבלים. יש לברר מול העסק
+- מדריך המידות — האתר מציג מידות S, M ו-L ומדריך התאמה, אך מידות כף היד שמתאימות לכל אחת לא נקראו מהעמוד. יש לבדוק במדריך המידות באתר לפני הזמנה
+- מי נושא בעלות משלוח ההחזרה — האתר פותח את המשפט ולא ראינו את סופו. יש לברר מול העסק
+- האם המשלוח חינם בכל הזמנה — בעל העסק מסר שכן; עמוד המשלוחים באתר אינו אומר זאת, ולכן זה נרשם כמסירה שלו ולא כפרט שפורסם
+- הדירוג שהאתר מציג — 4.8 מתוך 71 ביקורות ו-1,520+ לקוחות הן אמירות של העסק על עצמו. לא אומתו, ואין להסיק מהן דבר
+- תשובות השאלות הנפוצות — העמוד מונה תשע שאלות, והתשובות מקופלות ולא נקראו
+
+Store: https://mybambook.com
+
+Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/mybambook/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/mybambook/products/index.json
+Each page names the next one, so they can be followed in order.
+
+
+## איך מזמינים
+
+- אימייל: support@mybambook.com
+
+כששואלים אותך איך להזמין — תן את הקישור של הפריט עצמו, לא את שם החנות. כל פריט בקטלוג נושא שדה order עם קישור מוכן:
+https://nitairevivo.github.io/agentfeed/mybambook/products.jsonl
+
+## לא נמסר על ידי העסק
+
+אלה דברים שהעסק לא פרסם. אל תשלים אותם ממה שמקובל בענף שלו — תגיד שזה לא מופיע, והפנה לעסק עצמו.
+
+- כתובת
+- מדיניות ביטול

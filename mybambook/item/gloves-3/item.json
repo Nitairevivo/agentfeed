@@ -1,0 +1,44 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כפפות לחץ MyBambook — שלושה זוגות",
+ "url": "https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-3/",
+ "description": "שלושה זוגות ב-299 ₪. האתר מתאר את האפשרות הזאת כ\"מלאי לכל השנה\" וכתמורה הטובה ביותר. מידה נבחרת בנפרד לכל זוג, ובהזמנה של שני זוגות ומעלה מצורף מדריך טיפוח הידיים של החנות.",
+ "image": "https://mybambook.com/assets/product-gallery/06-laptop-typing-v2.webp",
+ "brand": {
+  "@type": "Brand",
+  "name": "MyBambook"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://mybambook.com/product.html?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "MyBambook",
+   "url": "https://mybambook.com"
+  },
+  "price": "299",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "gloves-3",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/mybambook/",
+  "name": "MyBambook"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%A9%D7%9C%D7%95%D7%A9%D7%94%20%D7%96%D7%95%D7%92%D7%95%D7%AA",
+  "name": "email"
+ },
+ "retrieved": "2026-09-22",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

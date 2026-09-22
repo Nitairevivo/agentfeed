@@ -1,10 +1,138 @@
 {
  "page": 55,
- "pages": 55,
- "total": 2749,
- "count": 49,
- "next": null,
+ "pages": 56,
+ "total": 2753,
+ "count": 50,
+ "next": "https://nitairevivo.github.io/agentfeed/api/products/page-56.json",
  "products": [
+  {
+   "id": "editorial-policy",
+   "title": "מדיניות עריכה ובקרה רפואית",
+   "description": "מאמרים רפואיים עוברים בדיקה של בודק רפואי מוסמך לפני פרסום. כאשר מאמר נבדק, שם הבודק ותוארו מופיעים בראש המאמר. אם מאמר טרם עבר בדיקה רפואית, השדה אינו מוצג. אנחנו לא מציגים שמות בדויים.",
+   "link": "https://transplant-israel.com/editorial-policy?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "words": 180,
+   "quote": "מאמרים רפואיים עוברים בדיקה של בודק רפואי מוסמך לפני פרסום. כאשר מאמר נבדק, שם הבודק ותוארו מופיעים בראש המאמר. אם מאמר טרם עבר בדיקה רפואית, השדה אינו מוצג. אנחנו לא מציגים שמות בדויים.\n\nמאמרי מחירים נבדקים אחת לרבעון לפחות. מאמרים רפואיים נבדקים אחת לשנה או בכל שינוי רגולטורי רלוונטי. תאריך העדכון האחרון מופיע בכל מאמר.\n\nהמקורות המרכזיים שלנו: משרד הבריאות, המרכז הלאומי להשתלות, ההסתדרות הרפואית בישראל, וכתבי עת רפואיים בינלאומיים מבוקרי עמיתים.",
+   "image_alt": "מדיניות עריכה ובקרה רפואית",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/editorial-policy/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/editorial-policy/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#editorial-policy",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=editorial-policy",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=editorial-policy",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "medical-disclaimer",
+   "title": "הבהרה רפואית",
+   "description": "המידע באתר נכתב בהתבסס על מקורות פומביים ועדכניים למועד הכתיבה, אך רפואה היא תחום משתנה. ייתכנו פערים בין המידע באתר לבין המצב העדכני.",
+   "link": "https://transplant-israel.com/medical-disclaimer?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "words": 96,
+   "quote": "המידע באתר נכתב בהתבסס על מקורות פומביים ועדכניים למועד הכתיבה, אך רפואה היא תחום משתנה. ייתכנו פערים בין המידע באתר לבין המצב העדכני.",
+   "image_alt": "הבהרה רפואית",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/medical-disclaimer/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/medical-disclaimer/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#medical-disclaimer",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=medical-disclaimer",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=medical-disclaimer",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "privacy",
+   "title": "מדיניות פרטיות",
+   "description": "בעת מילוי טופס יצירת קשר באתר נאספים הפרטים הבאים: שם מלא, מספר טלפון ועיר מגורים. בנוסף נשמרים נתוני הקשר של הפנייה: העמוד שממנו נשלחה, מקור ההגעה לאתר וסוג המכשיר.",
+   "link": "https://transplant-israel.com/privacy?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "words": 162,
+   "quote": "בעת מילוי טופס יצירת קשר באתר נאספים הפרטים הבאים: שם מלא, מספר טלפון ועיר מגורים. בנוסף נשמרים נתוני הקשר של הפנייה: העמוד שממנו נשלחה, מקור ההגעה לאתר וסוג המכשיר.\n\nהפרטים משמשים ליצירת קשר חוזר בנוגע לפנייה שלכם. הם עשויים להיות מועברים לספקי שירות רלוונטיים בתחום הפנייה (לדוגמה, מרפאות בתחום השתלות שיער) לצורך מתן מענה.\n\nשליחת טופס מתבצעת רק לאחר סימון פעיל של תיבת ההסכמה. ניתן לבקש הסרה ומחיקת פרטים בכל עת דרך עמוד צור קשר, והמחיקה תבוצע בתוך 30 יום.",
+   "image_alt": "מדיניות פרטיות",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/privacy/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/privacy/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#privacy",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=privacy",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=privacy",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
+  {
+   "id": "accessibility",
+   "title": "הצהרת נגישות",
+   "description": "אנחנו פועלים להנגשת האתר לאנשים עם מוגבלות בהתאם לתקן הישראלי 5568 ברמת AA ולחוק שוויון זכויות לאנשים עם מוגבלות משנת 1998.",
+   "link": "https://transplant-israel.com/accessibility?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "words": 140,
+   "quote": "אנחנו פועלים להנגשת האתר לאנשים עם מוגבלות בהתאם לתקן הישראלי 5568 ברמת AA ולחוק שוויון זכויות לאנשים עם מוגבלות משנת 1998.\n\nהאתר תומך בניווט מלא במקלדת, כולל טבעות פוקוס בולטות. כל התמונות כוללות טקסט חלופי בעברית. הניגודיות בין טקסט לרקע עומדת ביחס 4.5 ל-1 לפחות. גודל הטקסט הבסיסי הוא 17 פיקסל ומעלה וניתן להגדלה בדפדפן עד 200 אחוז ללא פגיעה בתוכן. אזורי המגע בכל האלמנטים הלחיצים הם 44 על 44 פיקסל לפחות.\n\nנתקלתם בבעיית נגישות? נשמח לתקן. פנו אלינו דרך עמוד צור קשר וציינו את העמוד ואת הבעיה. אנחנו מתחייבים למענה בתוך 14 ימי עסקים.",
+   "image_alt": "הצהרת נגישות",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/accessibility/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/accessibility/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#accessibility",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=accessibility",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=accessibility",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
+  },
   {
    "id": "terms",
    "title": "תנאי שימוש",
@@ -2734,126 +2862,6 @@
      {
       "method": "email",
       "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%97%D7%A1%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A4%D7%99%20%D7%9E%D7%99%D7%93%D7%94",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
-  },
-  {
-   "id": "ziv-shelves",
-   "title": "מדפים",
-   "description": "מדפים — שירות שהעסק מציין במקטע 'בקצרה' בעמוד שלו. אם מדובר במדפי ברזל לבית, למחסן או לעסק, ובאילו מידות — לא פורט, ואין לשער. התמחור לפי עבודה.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מדפים > מדף > מדפי ברזל > אחסון > מסגרות > ברזל > רמת הגולן",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-shelves/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-shelves/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-shelves",
-   "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%93%D7%A4%D7%99%D7%9D%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%93%D7%A4%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%93%D7%A4%D7%99%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
-  },
-  {
-   "id": "ziv-metalwork-custom",
-   "title": "עבודות מסגרות נוספות לבית — לפי הזמנה",
-   "description": "מעבר לשערים, לגדרות, למעשנות, למחסנים ולמדפים — בעל העסק מגדיר את התחום כ'כל עבודות הברזל ועוד לבית', ובעמוד שלו כתוב 'כל העבודות המסגרות במקום אחד'. אילו עבודות נוספות נכללות בפועל לא פורט, ואין להשלים מהערכה. הדרך לברר היא לתאר את העבודה בוואטסאפ.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מסגרות > מסגר > עבודות ברזל > ברזל > לפי הזמנה > בהתאמה אישית > רמת הגולן > בני יהודה",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-metalwork-custom/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-metalwork-custom/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-metalwork-custom",
-   "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA%20%D7%9E%D7%A1%D7%92%D7%A8%D7%95%D7%AA%20%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%9C%D7%91%D7%99%D7%AA%20%E2%80%94%20%D7%9C%D7%A4%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA%20%D7%9E%D7%A1%D7%92%D7%A8%D7%95%D7%AA%20%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%9C%D7%91%D7%99%D7%AA%20%E2%80%94%20%D7%9C%D7%A4%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA%20%D7%9E%D7%A1%D7%92%D7%A8%D7%95%D7%AA%20%D7%A0%D7%95%D7%A1%D7%A4%D7%95%D7%AA%20%D7%9C%D7%91%D7%99%D7%AA%20%E2%80%94%20%D7%9C%D7%A4%D7%99%20%D7%94%D7%96%D7%9E%D7%A0%D7%94",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/"
-  },
-  {
-   "id": "ziv-site-visit-quote",
-   "title": "ביקור מדידה בשטח והצעת מחיר",
-   "description": "לפי בעל העסק: 'פיזית אני מגיע לראות כל עבודה ונותן הצעת מחיר'. התמחור נעשה אחרי ראיית העבודה במקום, לא בטלפון. האם הביקור כרוך בתשלום, ולאילו אזורים הוא מגיע — טרם נמסר.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "הצעת מחיר > ביקור בשטח > מדידה > תמחור > ייעוץ > רמת הגולן",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-site-visit-quote/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-site-visit-quote/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-site-visit-quote",
-   "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%D7%91%D7%A9%D7%98%D7%97%20%D7%95%D7%94%D7%A6%D7%A2%D7%AA%20%D7%9E%D7%97%D7%99%D7%A8%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%D7%91%D7%A9%D7%98%D7%97%20%D7%95%D7%94%D7%A6%D7%A2%D7%AA%20%D7%9E%D7%97%D7%99%D7%A8%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%D7%91%D7%A9%D7%98%D7%97%20%D7%95%D7%94%D7%A6%D7%A2%D7%AA%20%D7%9E%D7%97%D7%99%D7%A8",
       "note": "העסק מקבל פניות במייל."
      }
     ],

@@ -1,0 +1,44 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כפפות לחץ MyBambook — זוג אחד",
+ "url": "https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-1/",
+ "description": "כפפות לחץ עשויות במבוק, פתוחות בקצות האצבעות כדי להמשיך לפתוח, לאחוז, להקליד ולסרוג כרגיל. לפי האתר: לחיצה ממוקדת ועדינה לאורך היום וגם בשינה, גזרה גמישה ללא אצבעות, ומידות S, M ו-L. המחיר לזוג אחד הוא 179 ₪, והאתר מציג 279 ₪ כמחיר לפני הנחה. כל הזמנה מגובה באחריות החזר כספי מלא ל-60 יום.",
+ "image": "https://mybambook.com/assets/product-gallery/01-daily-actions-1080w.webp",
+ "brand": {
+  "@type": "Brand",
+  "name": "MyBambook"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://mybambook.com/product.html?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "MyBambook",
+   "url": "https://mybambook.com"
+  },
+  "price": "179",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "gloves-1",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/mybambook/",
+  "name": "MyBambook"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%96%D7%95%D7%92%20%D7%90%D7%97%D7%93",
+  "name": "email"
+ },
+ "retrieved": "2026-09-22",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

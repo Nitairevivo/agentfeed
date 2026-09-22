@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 18 businesses, 164 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 19 businesses, 170 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -20,6 +20,13 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 - [העולם המשפטי בישראל](https://nitairevivo.github.io/agentfeed/lawinisrael-com/) — 60 פריטים
 - [LeadOn](https://nitairevivo.github.io/agentfeed/leadon/) — 32 פריטים
 - [משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/) — 60 פריטים
+
+## בריאות ורפואה
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/health/
+
+- [MyBambook](https://nitairevivo.github.io/agentfeed/mybambook/) — 4 פריטים
+- [מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/) — 60 פריטים
 
 ## אירוח וצימרים
 
@@ -67,12 +74,6 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [Sunset glow](https://nitairevivo.github.io/agentfeed/sunset-glow/) — 4 פריטים
 
-## בריאות ורפואה
-
-קטגוריה: https://nitairevivo.github.io/agentfeed/c/health/
-
-- [מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/) — 60 פריטים
-
 ## יודאיקה ותשמישי קדושה
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/judaica/
@@ -107,8 +108,8 @@ https://nitairevivo.github.io/agentfeed/compare/
 - [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/) — 172 פריטים מעסק אחד
 - [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/) — 141 פריטים מ-2 עסקים
 - [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/) — 130 פריטים מעסק אחד
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/) — 117 פריטים מ-3 עסקים
 - [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/) — 116 פריטים מעסק אחד
-- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/) — 114 פריטים מ-2 עסקים
 - [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/150-300/) — 89 פריטים מעסק אחד
 - [חטיפים ומעדנים לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-treats/) — 79 פריטים מעסק אחד
 - [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/50-150/) — 72 פריטים מעסק אחד
@@ -150,6 +151,7 @@ https://nitairevivo.github.io/agentfeed/compare/
 - [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/over-300/) — 8 פריטים מעסק אחד
 - [מיטות, מזרנים ומשטחים](https://nitairevivo.github.io/agentfeed/compare/beds/50-150/) — 6 פריטים מעסק אחד
 - [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/under-50/) — 6 פריטים מעסק אחד
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/150-300/) — 5 פריטים מ-3 עסקים
 
 ## לשליפה במכה אחת
 
