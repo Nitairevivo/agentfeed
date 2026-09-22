@@ -232,6 +232,17 @@ form.order button:hover{filter:brightness(1.08)}
 <p class="fine">השם והטלפון נכנסים להודעה שנפתחת אצלך ולא נשמרים אצלנו. מה שנספר כאן הוא שנפתחה פנייה, מאיזה עסק ובאיזו דרך.</p>
 </section>
 <script>
+// An assistant that has already been told what the buyer needs passes it in
+// the address, so the person does not type the same sentence twice. Read as
+// text and written with textContent — never as HTML.
+(function(){
+  try {
+    var want = new URLSearchParams(location.search).get("what");
+    if (!want) return;
+    var box = document.querySelector('#order textarea[name="what"]');
+    if (box && !box.value) { box.value = want.slice(0, 300); }
+  } catch (err) {}
+})();
 function afOrder(e){
   e.preventDefault();
   var f = e.target, v = function(n){ return (f[n].value || "").trim(); };
