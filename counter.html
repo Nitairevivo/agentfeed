@@ -194,6 +194,12 @@ function draw(d) {
   const cover = d.source_coverage || {};
   const src = Object.entries(d.sources || {})
     .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k || "ללא מקור", v]);
+  const clients = Object.entries(d.clients || {})
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, v]) => [({ "browser-headers": "עם כותרות של דפדפן",
+                         "lang-only": "עם שפה בלבד",
+                         bare: "בלי כותרות של דפדפן" }[k.split(":")[1]] || k)
+                      + " · " + k.split(":")[0], v]);
   const who = Object.entries(d.agents?.names || {})
     .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, v]);
   const where = Object.entries(d.agents?.surfaces || {})
@@ -213,6 +219,12 @@ function draw(d) {
         `לחיצות נושאות מקור. ${n(cover.before_sources_existed)} קדמו ליום ` +
         "שבו התחלנו לרשום מקור, ולכן חסרות מהטבלה — ולא בגלל שאיש לא הגיע " +
         "משום מקום.</p>"
+      : "") +
+    table("איך נראתה הבקשה שלחצה", clients, ["חתימה", "לחיצות"]) +
+    (clients.length
+      ? '<p class="note">דפדפן אמיתי שולח כותרות שסקריפט עם אותו ' +
+        "user-agent כמעט אף פעם לא שולח. זו לא זהות ולא כתובת — זו " +
+        "מחלקה אחת מתוך תריסר.</p>"
       : "") +
     table("מי קרא מאיתנו", who, ["סוכן", "קריאות"]) +
     table("איפה הוא קרא", where, ["משטח", "קריאות"]) +
