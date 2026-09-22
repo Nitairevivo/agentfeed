@@ -153,6 +153,12 @@ def main() -> int:
                                          ensure_ascii=False))
         print("  coverage: " + json.dumps(data.get("source_coverage") or {},
                                           ensure_ascii=False))
+        # Which kind of client pressed the link — browser family, and whether
+        # the request carried the headers a real navigation sends. An empty
+        # table here means the deployed counter predates the field, not that
+        # nobody clicked.
+        print("  clients: " + json.dumps(data.get("clients") or {},
+                                         ensure_ascii=False))
         arr = data.get("arrivals") or {}
         print("  arrivals.views: " + json.dumps(arr.get("views") or {},
                                                 ensure_ascii=False))
