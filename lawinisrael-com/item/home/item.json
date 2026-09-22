@@ -1,22 +1,97 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "העולם המשפטי בישראל",
+ "@type": "Article",
+ "headline": "העולם המשפטי בישראל",
  "url": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/home/",
- "description": "כל תחומי המשפט במקום אחד: מדריכים מעמיקים, מאמרים מקצועיים ותשובות ברורות לשאלות שמעסיקות אתכם – כתובים בגובה העיניים ומעודכנים לחקיקה ולפסיקה האחרונה.",
- "image": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "העולם המשפטי בישראל"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://lawinisrael.com?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://lawinisrael.com?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "העולם המשפטי בישראל",
-   "url": "https://lawinisrael.com"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "העולם המשפטי בישראל",
+  "url": "https://lawinisrael.com"
+ },
+ "isAccessibleForFree": true,
+ "description": "כל תחומי המשפט במקום אחד: מדריכים מעמיקים, מאמרים מקצועיים ותשובות ברורות לשאלות שמעסיקות אתכם – כתובים בגובה העיניים ומעודכנים לחקיקה ולפסיקה האחרונה.",
+ "image": [
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/0d1c5b1d1_generated_3b1d599a.png",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/9c0ddde3f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9c0ddde3f_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/cf4db5f0d_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/cf4db5f0d_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/200a4fc89_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/200a4fc89_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/1f5e8ae19_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/1f5e8ae19_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/b98379a40_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b98379a40_generated_image.webp"
+ ],
+ "wordCount": 793,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 7,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "ביטוח לאומי",
+     "description": "נכות כללית, תאונות עבודה, ועדות רפואיות וערעורים מול ביטוח לאומי."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "רכישת לידים לעורכי דין: המדריך המקיף לבחירת ספק לידים איכותיים",
+     "description": "לידים איכותיים הם דלק הצמיחה של כל משרד עורכי דין. במדריך זה נפרק את כל מה שעליכם לדעת על רכישת לידים לעורכי דין – מסוגי הלידים ואימות איכות, ועד בחירת הספק הנכון ומדידת התוצאות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הפסדתם במכרז ציבורי שלא בצדק? עתירת מכרזים",
+     "description": "הפסדתם במכרז ציבורי? אל תמהרו להרים ידיים. במאמר זה תלמדו מתי ואיך להגיש עתירה מנהלית במקרה של מכרזים ציבוריים פגומים וכיצד למקסם את סיכויי ההצלחה שלכם."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "עתירה מנהלית: כך תוקפים החלטה של רשות ציבורית",
+     "description": "נתקלתם בהחלטה שרירותית של רשות ציבורית? מדריך זה מסביר כיצד מגישים עתירה מנהלית, מהן עילות ההתערבות המרכזיות וכיצד תגנו על הזכויות שלכם מול גופי הממשל והרשויות המקומיות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "פטור משירות צבאי: המסלולים הרפואיים והנפשיים",
+     "description": "מדריך מקיף למלש\"בים והוריהם על פטור מגיוס לצה\"ל. נסביר על ההליכים הרפואיים והנפשיים, חשיבות התיעוד והדרכים להגשת בקשה מנומקת מול רשויות הצבא בצורה חוקית ומקצועית."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מעמד מטעמים הומניטריים: מתי הוועדה מאשרת",
+     "description": "מדריך משפטי מקיף על בקשה לקבלת מעמד הומניטרי בישראל: מתי הוועדה הבין-משרדית מאשרת את הבקשה, מהם הקריטריונים הקריטיים ואיך מעלים את סיכויי ההצלחה בהליך מול משרד הפנים?"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "דיסקרטיות מלאה, ללא עלות וללא התחייבות",
+     "description": "הפנייה מועברת לעורך דין העוסק בתחום כללי. השארת הפרטים אינה יוצרת יחסי עורך דין-לקוח."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +122,9 @@
   "name": "העולם המשפטי בישראל"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=home",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://lawinisrael.com?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

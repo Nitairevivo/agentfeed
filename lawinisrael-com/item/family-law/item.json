@@ -1,22 +1,223 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "דיני משפחה",
+ "@type": "Article",
+ "headline": "דיני משפחה",
  "url": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/family-law/",
- "description": "גירושין, מזונות, משמורת, הסכמי ממון וכל מה שחשוב לדעת על דיני המשפחה בישראל.",
- "image": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "העולם המשפטי בישראל"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://lawinisrael.com/category/family-law?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://lawinisrael.com/category/family-law?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "העולם המשפטי בישראל",
-   "url": "https://lawinisrael.com"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "העולם המשפטי בישראל",
+  "url": "https://lawinisrael.com"
+ },
+ "isAccessibleForFree": true,
+ "description": "גירושין, מזונות, משמורת, הסכמי ממון וכל מה שחשוב לדעת על דיני המשפחה בישראל.",
+ "image": [
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/cf2420e17_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/cf2420e17_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/d875553cc_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d875553cc_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/266750f6b_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/266750f6b_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/499039e36_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/499039e36_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/a156d5e94_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a156d5e94_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/b8ba874d6_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b8ba874d6_generated_image.webp"
+ ],
+ "wordCount": 1017,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 21,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "חוששים מהברחת נכסים? כך מאתרים ועוצרים אותה בזמן",
+     "description": "חוששים מהברחת נכסים בגירושין? מדריך משפטי מקיף המסביר כיצד לזהות פעולות להעלמת רכוש, אילו כלים עומדים לרשותכם כדי לעצור אותן, ואיך להגן על הזכויות הכלכליות שלכם בתהליך."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "אימוץ ילדים בישראל: תנאים, שלבים ומשך ההליך",
+     "description": "תהליך אימוץ ילדים בישראל הוא מורכב ורגשי. מדריך זה יסייע לכם להבין את החוק, התנאים והשלבים הנדרשים בדרך להקמת משפחה בטוחה וחוקית בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "רוצה לעבור עיר או מדינה עם הילדים? כך זה עובד משפטית",
+     "description": "שוקלים לבצע הגירה עם ילדים אחרי גירושין? הכירו את המשמעויות המשפטיות, חובת ההסכמה והפרמטרים שקובעים אם בית המשפט יאשר מעבר עיר או מדינה עם הילדים המשותפים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "האם בגידה משפיעה על הגירושין, הרכוש והכתובה?",
+     "description": "האם בגידה משפיעה על הגירושין והרכוש? מדריך מקיף מאת עורך דין לענייני משפחה על השפעות הנאמנות על חלוקת רכוש, כתובה ומזונות אישה בבתי הדין ובערכאות האזרחיות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הסכם הורות משותפת: הורות בלי זוגיות, עם ביטחון משפטי",
+     "description": "הסכם הורות משותפת הוא המפתח לבניית משפחה יציבה ללא זוגיות. גלו כיצד להסדיר זכויות, חובות וזמני שהות בצורה משפטית המגנה על טובת הילד ועל השקט הנפשי שלכם."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "פונדקאות בישראל: מי זכאי ואיך נראה ההליך",
+     "description": "מדריך מקיף על פונדקאות בישראל: מי זכאי להליך, אילו תנאים משפטיים נדרשים, וכיצד הוועדה לאישור הסכמים במשרד הבריאות מפקחת על התהליך להבטחת זכויות כל הצדדים המעורבים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "ידועים בציבור: ההגדרה, הזכויות והסיכונים המשפטיים",
+     "description": "מהם ידועים בציבור? המדריך המלא מפרט את ההגדרות, הזכויות והסיכונים המשפטיים, ומסביר כיצד להגן על עצמכם במערכת יחסים ללא נישואין במדינת ישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הוגשה נגדך תלונת שווא במסגרת גירושין? מדריך התגוננות",
+     "description": "הוגשה נגדך תלונת שווא במסגרת גירושין? אל תאבד עשתונות. מדריך זה מפרט את הצעדים המשפטיים הקריטיים להתמודדות עם המשטרה והגנה על הזכויות שלך בתהליך הפירוד."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "חלוקת פנסיה וזכויות סוציאליות בגירושין",
+     "description": "מדריך מקיף בנושא חלוקת פנסיה בגירושין: כיצד לבצע איזון משאבים נכון, להבין את החוק לחלוקת חיסכון פנסיוני ולהגן על עתידכם הכלכלי באמצעות ייעוץ משפטי מקצועי."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 10,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "פירוק שיתוף בדירה: ההליך, העלויות ומה קורה בפועל",
+     "description": "פירוק שיתוף בדירה הוא הליך משפטי מורכב הדורש תכנון מקצועי. המדריך המלא מפרט את הצעדים הנדרשים, העלויות וההשלכות המשפטיות לכל שותף או בן זוג המבקש למכור את הנכס."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מזונות אישה: מי זכאית, כמה ועד מתי",
+     "description": "זקוקה למידע על מזונות אישה? מדריך מקיף זה מסביר מי זכאית למזונות, אילו קריטריונים משפיעים על גובה התשלום ועד מתי החובה המשפטית הזו נמשכת על פי הדין הישראלי."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 12,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "האב לא משלם מזונות? כל דרכי הגבייה העומדות לרשותך",
+     "description": "האב נמנע מתשלום מזונות? מדריך משפטי מקיף על כל הדרכים האפקטיביות לגביית חוב המזונות, מהמוסד לביטוח לאומי ועד הליכי אכיפה והוצאה לפועל מול חייבים סרבנים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 13,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הפחתת מזונות: מתי אפשר לבקש ואיך מוכיחים שינוי נסיבות",
+     "description": "הפחתת מזונות היא הליך משפטי אפשרי במקרים של שינוי נסיבות מהותי. גלו כיצד להוכיח ירידה ביכולת ההשתכרות, השפעת הלכת 919/15 והצעדים הנדרשים להגשת תביעה בבית המשפט לענייני משפחה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 14,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "רבני או משפחה? מרוץ הסמכויות ואיפה כדאי לפתוח תיק",
+     "description": "מתלבטים בין בית דין רבני או בית משפט לענייני משפחה? במדריך זה נסביר את משמעות מרוץ הסמכויות ואיך לבחור את הערכאה הנכונה עבורכם לתוצאה המשפטית הטובה ביותר."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 15,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "בן/בת הזוג מסרבים להתגרש? כך מתמודדים עם סרבנות גט",
+     "description": "נתקלתם בסירוב למתן או קבלת גט? גלו כיצד להתמודד עם גירושין ללא הסכמה, אילו סנקציות עומדות לרשות בית הדין ואיך להגן על הזכויות המשפטיות שלכם בהליך מורכב זה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 16,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כמה זמן לוקחים גירושין? לוחות זמנים לפי סוג ההליך",
+     "description": "תהליך גירושין בישראל יכול להימשך חודשים ספורים או שנים ארוכות. גלו מהם הגורמים המשפיעים על לוחות הזמנים ואיך ניתן לקצר את הדרך להסדר מוסכם ויעיל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 17,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תביעת כתובה: מתי משלמים בפועל וכמה",
+     "description": "תביעת כתובה אינה מבטיחה תשלום אוטומטי של הסכום הנקוב. במדריך זה נסביר מתי ניתן לתבוע את הכתובה, אילו שיקולים מפעילים בתי הדין ואיך מתבצע החישוב בפועל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 18,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "גישור גירושין: יתרונות, עלויות ומתי הוא לא מתאים",
+     "description": "גישור גירושין הוא הליך וולונטרי לפתרון סכסוכים מחוץ לכותלי בית המשפט. מדריך זה בוחן את יתרונותיו, עלויותיו, והמקרים בהם הוא מהווה את הבחירה הנכונה ביותר עבור בני זוג נפרדים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 19,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תביעת אבהות ובדיקת רקמות: ההליך המשפטי המלא",
+     "description": "מדריך משפטי מקיף על תביעת אבהות ובדיקת רקמות בישראל. למדו על ההליכים בבית המשפט לענייני משפחה, השלכות הלכתיות ואיך להבטיח את זכויות הילד שלכם."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 20,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הסכם ממון אחרי החתונה – אפשרי, וכך עושים את זה",
+     "description": "רבים טועים לחשוב שהסכם ממון תקף רק לפני החתונה. גלו כיצד הסכם ממון אחרי חתונה מהווה כלי משפטי עוצמתי להגנה על רכושכם וליצירת ודאות כלכלית זוגית."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 21,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הסכם חיים משותפים לזוגות לא נשואים",
+     "description": "הסכם חיים משותפים הוא כלי משפטי חיוני לזוגות לא נשואים בישראל. מדריך זה יסביר כיצד להגן על רכושכם, למנוע סכסוכים משפטיים ולהבטיח שקט נפשי במערכת היחסים."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +248,9 @@
   "name": "העולם המשפטי בישראל"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=family-law",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://lawinisrael.com/category/family-law?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

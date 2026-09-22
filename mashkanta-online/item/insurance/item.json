@@ -1,23 +1,29 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "ביטוח משכנתא — מדריכים, נתונים וכלים",
+ "@type": "Article",
+ "headline": "ביטוח משכנתא — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/insurance/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/insurance?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
  "description": "ביטוח חיים ומבנה למשכנתא: מה הבנק דורש, כמה זה עולה בשוק ואיך משווים ועוברים בלי לאבד כיסוי.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
- },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/insurance?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
- },
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/0131d6361_generated_image.png/v1/fill/w_592,h_370,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/0131d6361_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/fcddc38e8_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/fcddc38e8_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/b00d2c2c0_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b00d2c2c0_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/aaa5a57a4_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/aaa5a57a4_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/5e43b6851_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5e43b6851_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/8fce1a090_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/8fce1a090_generated_image.webp"
+ ],
+ "wordCount": 301,
  "additionalProperty": [
   {
    "@type": "PropertyValue",
@@ -47,10 +53,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=insurance",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/insurance?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

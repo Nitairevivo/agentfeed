@@ -1,22 +1,104 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "משכנתא מול הבנקים — מדריכים, נתונים וכלים",
+ "@type": "Article",
+ "headline": "משכנתא מול הבנקים — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/banks/",
- "description": "מדריכים מעשיים לעבודה מול כל בנק: הגשה, תהליך, מסלולים ומשא ומתן. עובדות ותהליכים, לא ביקורות.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/banks?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/banks?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "מדריכים מעשיים לעבודה מול כל בנק: הגשה, תהליך, מסלולים ומשא ומתן. עובדות ותהליכים, לא ביקורות.",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/609a92312_generated_image.png/v1/fill/w_592,h_370,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/609a92312_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/7782c2730_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/7782c2730_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/ec34bba16_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/ec34bba16_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/6eb83cb00_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/6eb83cb00_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/cb80a51b8_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/cb80a51b8_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/9165cd510_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9165cd510_generated_image.webp"
+ ],
+ "wordCount": 315,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 7,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא במזרחי טפחות: המדריך המעשי ללווה",
+     "description": "משכנתא במזרחי טפחות: הגשת בקשה, המסלולים, מודל הבנקאי האישי, תהליך העבודה וטיפים להשגת תנאים טובים.",
+     "about": "בנקים"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא בבנק דיסקונט: המדריך המעשי ללווה",
+     "description": "משכנתא בדיסקונט: איך מגישים בקשה, המסלולים המוצעים, תהליך העבודה מול הבנק ומה חשוב לבדוק לפני חתימה.",
+     "about": "בנקים"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא בבנק הפועלים: המדריך המעשי ללווה",
+     "description": "משכנתא בפועלים: הגשת בקשה לאישור עקרוני, המסלולים, התהליך הדיגיטלי, העלאת מסמכים וטיפים למשא ומתן.",
+     "about": "בנקים"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "בנק ירושלים ומרכנתיל: מתי הבנקים הקטנים הם ההצעה הטובה",
+     "description": "משכנתא בבנק ירושלים ובמרכנתיל: למי הם מתאימים, פרופילים שהם מאשרים כשהגדולים מסרבים ומה בודקים.",
+     "about": "בנקים"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא בבנק הבינלאומי: המדריך המעשי ללווה",
+     "description": "משכנתא בבינלאומי: הגשת בקשה, המסלולים, תהליך העבודה ומתי כדאי לצרף את הבנק למכרז הריביות שלכם.",
+     "about": "בנקים"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "איזה בנק הכי טוב למשכנתא? התשובה הכנה עם שיטת הבדיקה",
+     "description": "אין בנק אחד הכי זול למשכנתא. יש שיטה למצוא את הזול ביותר עבורכם: מכרז נכון, השוואת תמהיל זהה וקריאת ההצעות.",
+     "about": "בנקים"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משא ומתן על משכנתא: הסקריפט שמוריד את הריבית",
+     "description": "איך מתמקחים על ריבית משכנתא: סדר הפעולות, המשפטים שעובדים, שימוש בריבית הממוצעת ובהצעות מתחרות.",
+     "about": "בנקים"
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +129,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=banks",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/banks?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

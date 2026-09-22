@@ -1,22 +1,102 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "מחשבון משכנתא, ריביות ומדריכים",
+ "@type": "Article",
+ "headline": "מחשבון משכנתא, ריביות ומדריכים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/home/",
- "description": "מחשבון תמהיל אמיתי עם לוח סילוקין, נתוני ריבית חיים ממקורות בנק ישראל, ו־76 מדריכים שמסבירים כל מספר — בלי הבטחות ובלי אותיות קטנות.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "מחשבון תמהיל אמיתי עם לוח סילוקין, נתוני ריבית חיים ממקורות בנק ישראל, ו־76 מדריכים שמסבירים כל מספר — בלי הבטחות ובלי אותיות קטנות.",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/43ad976f9_generated_image.png/v1/fill/w_1280,h_640,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/43ad976f9_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/c4c04f3db_generated_image.png/v1/fill/w_592,h_370,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c4c04f3db_generated_image.webp"
+ ],
+ "wordCount": 740,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 8,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מחשבון משכנתא",
+     "description": "חישוב החזר חודשי, ריבית כוללת ולוח סילוקין מלא — עם תמהיל של עד ארבעה מסלולים, בלי להשאיר פרטים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "ריביות ומסלולים",
+     "description": "ריבית הפריים וריבית בנק ישראל מעודכנות, המסלולים המרכזיים ואיך בונים תמהיל שמתאים לכם."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא מול הבנקים",
+     "description": "מדריכים מעשיים לעבודה מול כל בנק: הגשה, תהליך, מסלולים ומשא ומתן. עובדות ותהליכים, לא ביקורות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תהליך לקיחת משכנתא",
+     "description": "מהאישור העקרוני ועד רישום בטאבו: כל שלב, כל מסמך וכל לוח זמנים — בשפה פשוטה ובסדר הנכון."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מחזור משכנתא",
+     "description": "מתי כדאי לבדוק מחזור, כמה עולה עמלת פירעון מוקדם ואיך עובד התהליך — צעד אחר צעד."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא הפוכה",
+     "description": "הסבר מלא ומאוזן לבני 60 ומעלה: איך המוצר עובד, מה החסרונות, מה החלופות ומה חשוב לשתף עם המשפחה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "ביטוח משכנתא",
+     "description": "ביטוח חיים ומבנה למשכנתא: מה הבנק דורש, כמה זה עולה בשוק ואיך משווים ועוברים בלי לאבד כיסוי."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מדריך משכנתא",
+     "description": "הון עצמי, אחוזי מימון, כושר החזר, יועצי משכנתאות ומילון המונחים המלא — הבסיס לכל החלטה."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +127,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=home",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

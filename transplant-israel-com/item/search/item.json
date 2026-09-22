@@ -1,23 +1,23 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "חיפוש באתר",
+ "@type": "Article",
+ "headline": "חיפוש באתר",
  "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/search/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://transplant-israel.com/search?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "מגזין ההשתלות של ישראל",
+  "url": "https://transplant-israel.com"
+ },
+ "isAccessibleForFree": true,
  "description": "מגזין תוכן ישראלי בנושא השתלות: שיער, שיניים, אסתטיקה רפואית והשתלות איברים. מידע מבוסס מקורות, מותאם לשוק הישראלי ולקופות החולים.",
- "image": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
- "brand": {
-  "@type": "Brand",
-  "name": "מגזין ההשתלות של ישראל"
- },
- "offers": {
-  "@type": "Offer",
-  "url": "https://transplant-israel.com/search?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "מגזין ההשתלות של ישראל",
-   "url": "https://transplant-israel.com"
-  }
- },
+ "image": [
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png"
+ ],
+ "wordCount": 37,
  "additionalProperty": [
   {
    "@type": "PropertyValue",
@@ -47,10 +47,9 @@
   "name": "מגזין ההשתלות של ישראל"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=search",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://transplant-israel.com/search?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

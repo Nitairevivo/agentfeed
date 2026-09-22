@@ -1,22 +1,194 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "מדריך משכנתא — מדריכים, נתונים וכלים",
+ "@type": "Article",
+ "headline": "מדריך משכנתא — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/knowledge/",
- "description": "הון עצמי, אחוזי מימון, כושר החזר, יועצי משכנתאות ומילון המונחים המלא — הבסיס לכל החלטה.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/knowledge?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/knowledge?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "הון עצמי, אחוזי מימון, כושר החזר, יועצי משכנתאות ומילון המונחים המלא — הבסיס לכל החלטה.",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/d96c1bcea_generated_image.png/v1/fill/w_592,h_370,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d96c1bcea_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/c1e71b861_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c1e71b861_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/1cc7e707e_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/1cc7e707e_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/62ea6c101_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/62ea6c101_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/a7d429e1c_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a7d429e1c_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/28bb3a142_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/28bb3a142_generated_image.webp"
+ ],
+ "wordCount": 617,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 16,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "חוקי המשכנתא בישראל: הזכויות שהבנק לא תמיד מזכיר",
+     "description": "המסגרת החוקית של המשכנתאות: הוראות בנק ישראל, הזכות לבטח בכל חברה, כללי פירעון מוקדם, שקיפות והגנות הלווה.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כמה הון עצמי צריך לדירה: המספרים כולל כל העלויות הנלוות",
+     "description": "ההון העצמי הנדרש לפי סוג הרכישה: דירה ראשונה, משפרי דיור והשקעה, פלוס העלויות הנלוות שרוב האנשים שוכחים.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כמה משכנתא תקבלו: חישוב כושר ההחזר לפי ההכנסה",
+     "description": "איך הבנק מחשב כמה משכנתא לאשר: יחס ההחזר מההכנסה הפנויה, מה נחשב הכנסה, מה מוריד ואיך משפרים את המספר.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "איך בוחרים יועץ משכנתאות: 10 בדיקות לפני שסוגרים",
+     "description": "בחירת יועץ משכנתאות: הסמכה, ניסיון, מודל תמחור שקוף, המלצות אמיתיות ושאלות שחושפות יועץ חלש.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא לכל מטרה: הלוואה זולה כנגד הדירה, עם אזהרה אחת",
+     "description": "משכנתא לכל מטרה כנגד נכס קיים: אחוזי מימון, ריביות מול הלוואה רגילה, למה זה מפתה ומה הסיכון האמיתי.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "אחוזי מימון: כמה הבנק ייתן על דירה ראשונה, שנייה ולהשקעה",
+     "description": "מגבלות המימון של בנק ישראל: 75 אחוז לדירה יחידה, 70 למשפרים, 50 למשקיעים. איך זה נמדד ומה משפיע בפועל.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "גרירת משכנתא: איך לוקחים את התנאים הישנים לדירה החדשה",
+     "description": "גרירת משכנתא בעת החלפת דירה: מתי זה משתלם מול פירעון ולקיחה חדשה, התהליך, התנאים והעלויות.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כמה עולה יועץ משכנתאות ומה כלול במחיר",
+     "description": "מחירי ייעוץ משכנתא בישראל: טווחים לפי סוג הליווי, מה כלול, מודלים של תשלום ואיך מוודאים שהעלות מוצדקת.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא לדירה להשקעה: מימון 50 אחוז והחשבון שצריך לעבוד",
+     "description": "משכנתא לדירת השקעה: מגבלת המימון, הריביות, שקלול השכירות בכושר ההחזר והחישוב שקובע אם העסקה עומדת.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 10,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא לדירה ממחיר למשתכן ודירה בהנחה: מה שונה",
+     "description": "המימון לדירות בסבסוד ממשלתי: שמאות לפי שווי שוק, אחוזי המימון בפועל, לוחות התשלומים לקבלן והטעויות הנפוצות.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא לעצמאים: איך הבנק קורא את השומות ומה משפר סיכויים",
+     "description": "משכנתא לעצמאים ובעלי שליטה: אילו שנים בודקים, איך מחושבת ההכנסה הקובעת, המסמכים ומה עושים עם שנה חלשה.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 12,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא לבנייה עצמית ולקרקע: השחרור בשלבים והדרישות",
+     "description": "מימון קרקע ובנייה עצמית: אחוזי מימון נמוכים יותר, שחרור כסף לפי התקדמות, פיקוח הבנק והעלויות הייחודיות.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 13,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הבנק סירב למשכנתא: הסיבות האמיתיות ומה עושים עכשיו",
+     "description": "סירוב משכנתא: איך מבררים את הסיבה, נתוני האשראי, תיקון הליקויים, בנקים וגופים שכן מאשרים ומסלול הפעולה.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 14,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "קושי בתשלום המשכנתא: הצעדים לפני שזה מתגלגל",
+     "description": "מה עושים כשקשה לעמוד בהחזר: פנייה מוקדמת לבנק, הקפאה וגרייס, פריסה מחדש, הזכויות בהליך ולאן פונים לעזרה.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 15,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מילון המשכנתא: 60 מונחים מוסברים במשפט אחד",
+     "description": "כל מונחי המשכנתא במקום אחד: מאישור עקרוני ועד שפיצר, מוסברים בעברית פשוטה עם קישור למדריך המלא של כל מונח.",
+     "about": "ידע"
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 16,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "רכישת לידים למשכנתאות: המדריך המקצועי ליועצים שרוצים לצמוח",
+     "description": "איך עובד שוק הלידים למשכנתאות בישראל, מה מבדיל ליד איכותי מליד מבוזבז, וכיצד פלטפורמה כמו LeadON הופכת רכישת לידים למנוע צמיחה מדיד ליועצי משכנתאות.",
+     "about": "ידע"
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +219,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=knowledge",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/knowledge?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

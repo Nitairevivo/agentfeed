@@ -1,22 +1,93 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "רכישת לידים להשתלות שיער ושיניים (2026) — המדריך המלא למרפאות",
+ "@type": "Article",
+ "headline": "רכישת לידים להשתלות שיער ושיניים (2026) — המדריך המלא למרפאות",
  "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/buying-leads-hair-transplant-clinics/",
- "description": "רכישת לידים להשתלות שיער ושיניים: המדריך המלא למרפאות שרוצות לגדול",
- "image": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/aea2db62a_generated_image.png",
- "brand": {
-  "@type": "Brand",
-  "name": "מגזין ההשתלות של ישראל"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://transplant-israel.com/hair/buying-leads-hair-transplant-clinics?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://transplant-israel.com/hair/buying-leads-hair-transplant-clinics?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "מגזין ההשתלות של ישראל",
-   "url": "https://transplant-israel.com"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "מגזין ההשתלות של ישראל",
+  "url": "https://transplant-israel.com"
+ },
+ "isAccessibleForFree": true,
+ "description": "מרפאות השתלות שיער ושיניים בישראל פועלות בשוק תחרותי מאוד. עלות רכישת לקוח אחד יכולה לנועה בין 800 ל-3,000 ש״ח, וההבדל בין מרפאה רווחית למרפאה שמתקשה להתכסות נעוץ לרוב באיכות זרם הלידים. במדריך הזה נסביר איך רוכשים לידים להשתלות שיער ושיניים בצורה חכמה, מה ההבדל בין סוגי הלידים, כמה זה אמור לעלות,…",
+ "image": [
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/aea2db62a_generated_image.png",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/aea2db62a_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/aea2db62a_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/781b1cf24_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/781b1cf24_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/bd42f4747_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/bd42f4747_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/d61664972_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d61664972_generated_image.webp"
+ ],
+ "author": {
+  "@type": "Organization",
+  "name": "מערכת Transplant Israel"
+ },
+ "dateModified": "2026-08-16",
+ "wordCount": 2524,
+ "timeRequired": "PT12M",
+ "abstract": "ליד איכותי להשתלות שיער עולה בין 80 ל-250 ש״ח לפנייה, תלוי בבלעדיות ובפילוח מרפאות שעובדות עם מערכת ניהול לידים מקצועית מגדילות את שיעור ההמרה ב-20-35% לידים בלעדיים מומלצים למרפאות פרימיום; לידים לא בלעדיים מתאימים למרפאות שרוצות לבחון שוק בעלות נמוכה LeadON מספקת לידים מאומתים בזמן אמת עם מערכת CRM מובנית ותמיכה 24/7 המפתח להצלחה הוא שילוב של מקורות לידים איכותיים + מערכת מעקב + צוות מכירות מאומן",
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 6,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "בן כמה כדאי לעשות השתלת שיער? הגיל שבו זו טעות",
+     "description": "בן כמה כדאי לעשות השתלת שיער? מדריך רפואי מקיף על הגיל האידיאלי, סיכונים בהשתלה בגיל צעיר, ותכנון נכון מול משרד הבריאות והמרפאות בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מה אסור אחרי השתלת שיער: הרשימה המלאה לפי שבועות",
+     "description": "מה אסור לעשות אחרי השתלת שיער? מדריך מקיף לפי שבועות: הנחיות רפואיות, מניעת סיבוכים ושמירה על הזקיקים להשגת תוצאות אופטימליות ובריאות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "צפיפות בהשתלת שיער: כמה שתלים לסנטימטר נחשב תוצאה טובה",
+     "description": "מגזין רפואי מקיף על צפיפות בהשתלת שיער: מהי צפיפות טבעית, כמה שתלים לסמ\"ר נחשבים להצלחה, ואיך להימנע מטעויות קריטיות בתכנון הניתוח שלך."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "איך לישון אחרי השתלת שיער: מדריך לשבועיים הראשונים",
+     "description": "מדריך מקיף לשינה נכונה לאחר השתלת שיער. גלו כיצד להימנע מנפיחות, להגן על השתלים ולהבטיח החלמה אופטימלית ב-14 הימים הראשונים לאחר הניתוח."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "שלב שני בהשתלת שיער: מתי צריך ומה העלות",
+     "description": "חושבים על שלב שני בהשתלת שיער? מדריך מקיף על תיקון תוצאות, תכנון מראש, עלויות בשוק הישראלי, דגשים של משרד הבריאות ומה חשוב לבדוק לפני."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת שיער לגברים: מחיר, שיטות ומה מתאים לכל דרגת התקרחות",
+     "description": "חושבים על השתלת שיער? מדריך מקיף לגבר: עלויות, שיטות עבודה, סולם נורווד, התאמה אישית, רגולציה בישראל ותכנון לטווח ארוך להצלחת הטיפול."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +118,9 @@
   "name": "מגזין ההשתלות של ישראל"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=buying-leads-hair-transplant-clinics",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://transplant-israel.com/hair/buying-leads-hair-transplant-clinics?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

@@ -1,23 +1,23 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "ריבית בנק ישראל: השיעור העדכני ומועדי ההחלטות",
+ "@type": "Article",
+ "headline": "ריבית בנק ישראל: השיעור העדכני ומועדי ההחלטות",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/boi-rate/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/rates/boi-rate?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
  "description": "ריבית בנק ישראל עומדת היום על 3.25%, נכון ל1 בספטמבר 2026 (מקור: בנק ישראל). מועד ההחלטה הבא: 21 באוקטובר 2026.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
- },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/rates/boi-rate?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
- },
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png"
+ ],
+ "wordCount": 277,
  "additionalProperty": [
   {
    "@type": "PropertyValue",
@@ -47,10 +47,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=boi-rate",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/rates/boi-rate?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

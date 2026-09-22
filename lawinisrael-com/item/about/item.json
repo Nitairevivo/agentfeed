@@ -1,23 +1,23 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "אודות",
+ "@type": "Article",
+ "headline": "אודות",
  "url": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/about/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://lawinisrael.com/about?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "העולם המשפטי בישראל",
+  "url": "https://lawinisrael.com"
+ },
+ "isAccessibleForFree": true,
  "description": "\"העולם המשפטי בישראל\" הוקם מתוך אמונה פשוטה: מידע משפטי אינו צריך להיות נחלתם של משפטנים בלבד. רוב האנשים פוגשים את מערכת המשפט ברגע קשה – גירושין, פיטורים, תאונה, חקירה או ירושה – ודווקא אז הם זקוקים למידע ברור, אמין ונגיש.",
- "image": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "העולם המשפטי בישראל"
- },
- "offers": {
-  "@type": "Offer",
-  "url": "https://lawinisrael.com/about?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "העולם המשפטי בישראל",
-   "url": "https://lawinisrael.com"
-  }
- },
+ "image": [
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png"
+ ],
+ "wordCount": 284,
  "additionalProperty": [
   {
    "@type": "PropertyValue",
@@ -47,10 +47,9 @@
   "name": "העולם המשפטי בישראל"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=about",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://lawinisrael.com/about?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

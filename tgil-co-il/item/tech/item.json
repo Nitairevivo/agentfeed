@@ -1,23 +1,28 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "ערוצי טכנולוגיה בטלגרם ישראל",
+ "@type": "Article",
+ "headline": "ערוצי טכנולוגיה בטלגרם ישראל",
  "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/tech/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://tgil.co.il/category/%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "טלגרם ישראל",
+  "url": "https://tgil.co.il"
+ },
+ "isAccessibleForFree": true,
  "description": "עולם הטכנולוגיה הישראלי פורח בטלגרם. מקבוצות הייטק של מפתחים ועד ערוצי AI, סייבר וסטארטאפים — תמצא כאן את הקהילות המובילות בתחום הטכנולוגיה.",
- "image": "https://media.base44.com/images/public/69cbeccb4a796ae2baa1488d/bb0b2a3ec_Gemini_Generated_Image_817jtj817jtj817j.png",
- "brand": {
-  "@type": "Brand",
-  "name": "טלגרם ישראל"
- },
- "offers": {
-  "@type": "Offer",
-  "url": "https://tgil.co.il/category/%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "טלגרם ישראל",
-   "url": "https://tgil.co.il"
-  }
- },
+ "image": [
+  "https://media.base44.com/images/public/69cbeccb4a796ae2baa1488d/bb0b2a3ec_Gemini_Generated_Image_817jtj817jtj817j.png",
+  "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/42d640fda_photo.jpg",
+  "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/a59ca0607_photo.jpg",
+  "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/b1cbb3ecc_photo.jpg",
+  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHgyPSIwJSIgeTE9IjAlIiB5Mj0iMTAwJSI%2BPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwYTJmMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q2NjllZCIvPjwvbGluZWFyR3JhZGllbnQ%2BPC9kZWZzPjxzdHlsZT50ZXh0e2ZvbnQ6NjAwIDQ0cHggLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsJ1NlZ29lIFVJJyxSb2JvdG8sSGVsdmV0aWNhLEFyaWFsLHNhbnMtc2VyaWYsJ0FwcGxlIENvbG9yIEVtb2ppJywnU2Vnb2UgVUkgRW1vamknLCdTZWdvZSBVSSBTeW1ib2wnOy13ZWJraXQtdXNlci1zZWxlY3Q6bm9uZTt1c2VyLXNlbGVjdDpub25lfTwvc3R5bGU%2BPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjZykiLz48dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSI1MCIgeT0iNjYiIGZpbGw9IiNmZmYiPtee16Q8L3RleHQ%2BPC9zdmc%2B",
+  "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/b302f6460_photo.jpg"
+ ],
+ "wordCount": 348,
  "additionalProperty": [
   {
    "@type": "PropertyValue",
@@ -46,6 +51,10 @@
   "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
   "name": "טלגרם ישראל"
  },
+ "potentialAction": {
+  "@type": "ReadAction",
+  "target": "https://tgil.co.il/category/%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94?utm_source=agentfeed&utm_medium=ai"
+ },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

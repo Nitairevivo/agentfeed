@@ -1,22 +1,82 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "מחשבון משכנתא: חישוב החזר חודשי, ריבית כוללת ולוח סילוקין",
+ "@type": "Article",
+ "headline": "מחשבון משכנתא: חישוב החזר חודשי, ריבית כוללת ולוח סילוקין",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/calculator/",
- "description": "חישוב החזר חודשי, סך ריבית ולוח סילוקין מלא — עם תמהיל של עד ארבעה מסלולים במקביל. המחשבון עובד במלואו בלי הרשמה ובלי השארת פרטים.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/c4c04f3db_generated_image.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/calculator?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/calculator?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "חישוב החזר חודשי, סך ריבית ולוח סילוקין מלא — עם תמהיל של עד ארבעה מסלולים במקביל. המחשבון עובד במלואו בלי הרשמה ובלי השארת פרטים.",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/c4c04f3db_generated_image.png"
+ ],
+ "wordCount": 1285,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 6,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "האם התוצאה מהווה הצעה או התחייבות?",
+     "description": "לא. זהו חישוב מתמטי לפי הנתונים שהזנתם בלבד. הריבית בפועל נקבעת מול הבנק לפי פרופיל הלווים, אחוז המימון והתמהיל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מחשבוני המשכנתא של הבנקים: למה כל אחד מראה מספר אחר",
+     "description": "השוואת מחשבוני המשכנתא של לאומי, פועלים, מזרחי ודיסקונט: מה כל אחד מניח, איפה הם מטעים ואיך משווים נכון."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "לוח שפיצר: איך הוא עובד ולמה בהתחלה משלמים בעיקר ריבית",
+     "description": "לוח סילוקין שפיצר מוסבר: למה ההחזר קבוע אבל הרכבו משתנה, איך קוראים את הלוח ומה זה אומר על פירעון מוקדם."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "סימולטור תרחישים: מה קורה להחזר כשהריבית והמדד זזים",
+     "description": "סימולציה של המשכנתא בתרחישים שונים: עליית פריים, אינפלציה גבוהה, פירעון חלקי. כך בודקים תמהיל לפני חתימה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מאיזה החזר חודשי מתחילים: החישוב ההפוך שקובע כמה דירה",
+     "description": "במקום לשאול כמה ההחזר על משכנתא, מתחילים מההחזר שנוח לכם וגוזרים ממנו את סכום המשכנתא והדירה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הנוסחה מאחורי ההחזר: איך מחשבים משכנתא ביד ובאקסל",
+     "description": "נוסחת שפיצר מוסברת צעד אחר צעד עם דוגמה מספרית מלאה, כולל נוסחת PMT לאקסל ולגוגל שיטס."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +107,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=calculator",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/calculator?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

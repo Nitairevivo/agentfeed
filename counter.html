@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Not for an engine. This is our own reading of our own counter, and an
+     indexed page of it would be the one page of this site that nobody
+     consented to publish. -->
+<meta name="robots" content="noindex, nofollow">
+<title>המונה — AgentFeed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap">
+<style>
+/* Photographs an owner sent us. One row that wraps on a phone,
+   cropped to a common height so a page of them reads as a set. */
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.shots img{width:100%;height:170px;object-fit:cover;border-radius:10px;
+border:1px solid var(--line);display:block}
+.shots .fine{grid-column:1/-1;margin:2px 0 0}
+:root{color-scheme:light dark;
+--ink:#131c2a;--ink-soft:#33405a;--bg:#f2f4f8;--card:#fff;--card-2:#f8fafc;
+--muted:#4d5871;--faint:#78849c;
+--brand:#8a5a12;--brand-ink:#6f480e;--brand-bg:#f7efdd;
+--ok:#0f7a4d;--ok-bg:#e6f4ec;
+--line:#dde2ea;--line-soft:#e9edf3;
+--shadow:0 1px 2px rgba(19,28,42,.05),0 6px 20px -10px rgba(19,28,42,.16);
+--shadow-lift:0 2px 4px rgba(19,28,42,.06),0 14px 34px -14px rgba(19,28,42,.28);
+--radius:14px;
+/* The hand-written pages — join, terms, privacy, 404, ns — were styled
+   against the old green palette and use its names throughout. Aliasing the
+   names onto the new tokens converts them without touching a rule in them,
+   which is the difference between one edit here and five pages that drift
+   apart again the next time a colour changes. */
+--green:var(--brand);--green-ink:var(--brand-ink);--wash:var(--brand-bg)}
+@media(prefers-color-scheme:dark){:root{
+--ink:#e9edf5;--ink-soft:#c2cbdb;--bg:#0b111c;--card:#151d2b;--card-2:#1a2333;
+--muted:#a4afc4;--faint:#7c889f;
+--brand:#d9a445;--brand-ink:#e9c07a;--brand-bg:#2b2417;
+--ok:#4cc38a;--ok-bg:#16281f;
+--line:#28324481;--line-soft:#222b3a;
+--shadow:0 1px 2px rgba(0,0,0,.4),0 6px 20px -10px rgba(0,0,0,.6);
+--shadow-lift:0 2px 4px rgba(0,0,0,.5),0 14px 34px -14px rgba(0,0,0,.75)}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.65;
+font-family:"Assistant","Noto Sans Hebrew",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility}
+main{max-width:860px;margin:0 auto;padding:0 20px 80px}
+a{color:var(--brand-ink);text-underline-offset:2px}
+
+/* Header. Same four places on every page, so nothing is more than one click
+   from anything, for a reader and for a crawler alike. */
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);
+backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line-soft)}
+.topin{max-width:860px;margin:0 auto;padding:11px 20px;display:flex;
+align-items:center;gap:18px;flex-wrap:wrap}
+.wordmark{font-weight:800;letter-spacing:-.03em;font-size:1.06rem;
+text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:7px}
+.wordmark i{width:9px;height:9px;border-radius:2px;background:var(--brand);
+display:inline-block;font-style:normal}
+.nav{display:flex;gap:16px;margin-inline-start:auto;flex-wrap:wrap}
+.nav a{font-size:.87rem;text-decoration:none;color:var(--muted);font-weight:600}
+.nav a:hover{color:var(--brand-ink)}
+.nav a[aria-current]{color:var(--ink)}
+
+h1{font-size:clamp(1.9rem,5.5vw,2.85rem);line-height:1.08;margin:44px 0 12px;
+letter-spacing:-.035em;font-weight:800}
+h2{font-size:1.2rem;margin:40px 0 12px;letter-spacing:-.02em;font-weight:700}
+h2 .c{font-weight:400;color:var(--faint);font-size:.8rem;letter-spacing:0}
+h2 .c a{color:var(--brand-ink)}
+p{margin:0 0 10px}
+.lead{color:var(--muted);margin:0 0 16px;max-width:68ch;font-size:1.02rem}
+.lead b{color:var(--ink);font-weight:600}
+
+/* Numbers get to be the only thing that looks like a number. */
+.band{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;
+background:var(--line);border:1px solid var(--line);border-radius:var(--radius);
+overflow:hidden;margin:26px 0 30px;box-shadow:var(--shadow)}
+@media(min-width:660px){.band{grid-template-columns:repeat(4,1fr)}}
+.band div{background:var(--card);padding:16px 18px}
+.band .n{display:block;font-size:1.75rem;font-weight:800;line-height:1.05;
+font-variant-numeric:tabular-nums;letter-spacing:-.04em}
+.band .l{display:block;font-size:.78rem;color:var(--faint);margin-top:3px;
+font-weight:600}
+
+.card{display:block;background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:16px 18px;margin:0 0 10px;
+text-decoration:none;color:inherit;box-shadow:var(--shadow);
+transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}
+.card:hover{border-color:var(--brand);transform:translateY(-1px);
+box-shadow:var(--shadow-lift)}
+.card b{color:var(--ink);font-size:1.06rem;font-weight:700;letter-spacing:-.015em}
+.card p{margin:5px 0 4px;font-size:.91rem;color:var(--muted)}
+
+.tag{font-size:.74rem;background:var(--brand-bg);color:var(--brand-ink);
+border-radius:99px;padding:2px 10px;margin-inline-start:8px;
+vertical-align:middle;font-weight:600}
+.n{font-size:.8rem;color:var(--faint)}
+.up{display:inline-block;margin:24px 0 8px;color:var(--brand-ink);
+font-size:.86rem;text-decoration:none;font-weight:600}
+.up:hover{text-decoration:underline}
+.roll{background:var(--card);border:1px solid var(--line);
+border-radius:var(--radius);padding:15px 17px;margin:0 0 8px;font-size:.94rem;
+box-shadow:var(--shadow)}
+.roll a{color:var(--brand-ink);text-decoration:none}
+.roll a:hover{text-decoration:underline}
+code{background:var(--brand-bg);color:var(--brand-ink);border-radius:4px;
+padding:1px 6px;direction:ltr;display:inline-block;font-size:.85rem;
+font-family:ui-monospace,Menlo,Consolas,monospace}
+footer{color:var(--faint);font-size:.83rem;margin-top:48px;
+border-top:1px solid var(--line);padding-top:18px}
+footer a{color:var(--faint)}
+
+main{max-width:860px;margin:0 auto;padding:0 20px 80px}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:12px;margin:18px 0}
+.big div{background:var(--card);border:1px solid var(--line);border-radius:14px;
+padding:14px 16px}
+.big b{display:block;font-size:2rem;line-height:1.1;letter-spacing:-.03em}
+.big span{font-size:.85rem;color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:.93rem}
+th,td{text-align:start;padding:8px 6px;border-bottom:1px solid var(--line-soft)}
+th{font-size:.8rem;color:var(--muted);font-weight:700}
+td.n{font-variant-numeric:tabular-nums;font-weight:700}
+.note{color:var(--muted);font-size:.88rem;line-height:1.6}
+button{font:inherit;font-weight:700;padding:10px 16px;border-radius:11px;
+border:1px solid var(--line);background:var(--card);color:var(--ink);
+cursor:pointer}
+.when{font-size:.85rem;color:var(--muted);margin-inline-start:10px}
+.warn{background:var(--card-2);border:1px solid var(--line);border-radius:13px;
+padding:12px 15px;margin:16px 0}
+</style>
+</head><body><script>(function(){try{var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';if(!f)return;document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);if(!u.searchParams.has('from')){u.searchParams.set('from',f);a.href=u.toString();}},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main>
+<h1>המונה</h1>
+<p class="note">מה שהדלפק שלנו רשם, ישירות ממנו, ברגע שהעמוד הזה נפתח.
+העמוד לא שומר כלום ולא נכנס למפת האתר.</p>
+
+<p><button id="again">לקרוא שוב</button><span class="when" id="when"></span></p>
+
+<div id="out"><p class="note">קורא…</p></div>
+
+<div class="warn">
+<p class="note"><b>איך לקרוא את זה.</b> <b>לחיצות</b> הן יציאות מהעמודים שלנו
+אל אתרי העסקים — סורק עם חתימת דפדפן יכול לייצר אותן, ולכן הן הגבול העליון
+ולא מספר האנשים. <b>הגעות</b> נספרות בקוד שרץ בדפדפן, וסורק כמעט אף פעם לא
+מריץ אותו — זה המספר הקרוב לאנשים. <b>סוכנים</b> הם מי שהזדהה בשם כשקרא
+מאיתנו. <b>הוספות לעגלה</b> הן לחיצות על קישור שמוסיף פריט לסל בחנות; מה
+קרה אחר כך בקופה איננו רואים, ומכירה נספרת רק כשעסק מוסר אותה.</p>
+</div>
+</main>
+<script>
+const API = "https://agentfeed-plum.vercel.app/api/clicks";
+const n = (x) => (Number(x) || 0).toLocaleString("he-IL");
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function table(title, rows, cols) {
+  if (!rows.length) return "";
+  return `<h2>${esc(title)}</h2><table><tr>` +
+    cols.map((c) => `<th>${esc(c)}</th>`).join("") + "</tr>" +
+    rows.map((r) => "<tr>" + r.map((v, i) =>
+      i ? `<td class="n">${n(v)}</td>` : `<td>${esc(v)}</td>`).join("") +
+      "</tr>").join("") + "</table>";
+}
+
+function draw(d) {
+  if (d.configured === false) {
+    document.getElementById("out").innerHTML =
+      '<div class="warn"><p class="note"><b>אין ספירה כרגע.</b> ' +
+      esc(d.note || "הדלפק לא מוגדר בפריסה הזאת.") + " זה לא אפס לחיצות — " +
+      "זה שאף אחד לא סופר.</p></div>";
+    return;
+  }
+  const biz = d.businesses || {};
+  const sum = (k) => Object.values(biz).reduce((t, b) => t + (b[k] || 0), 0);
+  const views = Object.values(d.arrivals?.views || {})
+    .reduce((t, v) => t + v, 0);
+  const agents = Object.values(d.agents?.names || {}).reduce((t, v) => t + v, 0);
+
+  const cards = [
+    [sum("clicks"), "לחיצות יוצאות"],
+    [views, "הגעות לעמודים שלנו"],
+    [sum("carts"), "הוספות לעגלה"],
+    [sum("enquiries"), "פניות בטופס"],
+    [agents, "קריאות של סוכני AI"],
+    [Object.keys(biz).length, "עסקים שנלחץ עליהם"],
+  ].map(([v, label]) =>
+    `<div><b>${n(v)}</b><span>${esc(label)}</span></div>`).join("");
+
+  const rows = Object.entries(biz)
+    .sort((a, b) => (b[1].clicks || 0) - (a[1].clicks || 0))
+    .map(([slug, b]) => [slug, b.clicks, b.on_item, b.carts, b.enquiries]);
+
+  const cover = d.source_coverage || {};
+  const src = Object.entries(d.sources || {})
+    .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k || "ללא מקור", v]);
+  const who = Object.entries(d.agents?.names || {})
+    .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, v]);
+  const where = Object.entries(d.agents?.surfaces || {})
+    .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, v]);
+
+  document.getElementById("out").innerHTML =
+    `<div class="big">${cards}</div>` +
+    table("לפי עסק", rows,
+          ["עסק", "לחיצות", "על פריט", "לעגלה", "פניות"]) +
+    table("מאיפה הגיעו הלחיצות", src, ["מקור", "לחיצות"]) +
+    (cover.before_sources_existed
+      ? `<p class="note">${n(cover.with_a_source)} מתוך ${n(cover.clicks)} ` +
+        `לחיצות נושאות מקור. ${n(cover.before_sources_existed)} קדמו ליום ` +
+        "שבו התחלנו לרשום מקור, ולכן חסרות מהטבלה — ולא בגלל שאיש לא הגיע " +
+        "משום מקום.</p>"
+      : "") +
+    table("מי קרא מאיתנו", who, ["סוכן", "קריאות"]) +
+    table("איפה הוא קרא", where, ["משטח", "קריאות"]) +
+    (who.length ? "" :
+      '<p class="note">שום סוכן עוד לא הזדהה בשם. זה המספר שאנחנו מחכים לו.</p>');
+}
+
+async function load() {
+  const out = document.getElementById("out");
+  out.innerHTML = '<p class="note">קורא…</p>';
+  try {
+    const r = await fetch(API, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    draw(await r.json());
+    document.getElementById("when").textContent =
+      "נקרא " + new Date().toLocaleTimeString("he-IL",
+        { hour: "2-digit", minute: "2-digit" });
+  } catch (e) {
+    // A failed read is not a zero, and the page has to say which it is.
+    out.innerHTML = '<div class="warn"><p class="note"><b>לא הצלחתי לקרוא ' +
+      'את הדלפק.</b> זה לא אומר שאין לחיצות — זה אומר שהקריאה נכשלה (' +
+      esc(e.message) + "). אפשר לנסות שוב.</p></div>";
+  }
+}
+document.getElementById("again").addEventListener("click", load);
+load();
+</script>
+</body></html>

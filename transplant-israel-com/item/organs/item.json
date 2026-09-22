@@ -1,22 +1,160 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "השתלות איברים בישראל: המדריך המלא",
+ "@type": "Article",
+ "headline": "השתלות איברים בישראל: המדריך המלא",
  "url": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/organs/",
- "description": "מדריך מקיף על השתלות איברים בישראל: חוק השתלות איברים, תהליך ההקצאה של המרכז הלאומי להשתלות, משמעות כרטיס אדי ותרומת איברים מן החי והמת.",
- "image": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/98b00d708_generated_d625f033.png",
- "brand": {
-  "@type": "Brand",
-  "name": "מגזין ההשתלות של ישראל"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://transplant-israel.com/organs?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://transplant-israel.com/organs?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "מגזין ההשתלות של ישראל",
-   "url": "https://transplant-israel.com"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "מגזין ההשתלות של ישראל",
+  "url": "https://transplant-israel.com"
+ },
+ "isAccessibleForFree": true,
+ "description": "מדריך מקיף על השתלות איברים בישראל: חוק השתלות איברים, תהליך ההקצאה של המרכז הלאומי להשתלות, משמעות כרטיס אדי ותרומת איברים מן החי והמת.",
+ "image": [
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/98b00d708_generated_d625f033.png",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/40acf005e_generated_image.png/v1/fill/w_766,h_288,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/40acf005e_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/40acf005e_generated_image.png/v1/fill/w_358,h_160,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/40acf005e_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/0e2efbc29_generated_image.png/v1/fill/w_358,h_160,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/0e2efbc29_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/debeda3e2_generated_image.png/v1/fill/w_358,h_160,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/debeda3e2_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/cdec5d5cd_generated_image.png/v1/fill/w_358,h_160,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/cdec5d5cd_generated_image.webp",
+  "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/c3bcc22b7_generated_image.png/v1/fill/w_358,h_160,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c3bcc22b7_generated_image.webp"
+ ],
+ "wordCount": 1086,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 14,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תרומת איברים והלכה: מה אומרות הגישות הדתיות בישראל",
+     "description": "מדריך מקיף על תרומת איברים והלכה: גלו את עמדות הרבנות, פסיקות הפוסקים, משמעות כרטיס אדי והדיון ההלכתי על רגע המוות בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת לבלב: למי היא מיועדת ומה היא משנה בחיי חולי סוכרת",
+     "description": "מדריך מקיף על השתלת לבלב בישראל: מועמדים, סוגי השתלות (לבלב וכליה, איי לנגרהנס), תהליכי משרד הבריאות, סיכונים ושיפור איכות החיים לסוכרתיים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מוות מוחי ותרומת איברים: מה זה אומר ואיך זה נקבע בישראל",
+     "description": "מדריך מקיף על מוות מוחי בישראל: כיצד הוא נקבע לפי החוק, ההבדלים בין מצבים רפואיים, והקשר הקריטי להצלת חיים באמצעות תרומת איברים. מידע רפואי אמין."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת לב בישראל: התהליך, הסיכויים והחיים שאחרי",
+     "description": "מדריך מקיף על השתלת לב בישראל: תהליך ההמתנה, קריטריונים רפואיים, ניתוח, שיקום וחיים עם לב מושתל. כל מה שצריך לדעת על המערך הלאומי להשתלות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת ריאות: למי היא מיועדת ומה חשוב לדעת על התהליך",
+     "description": "מדריך מקיף על השתלת ריאות בישראל: מי זכאי, מהם התהליכים הרפואיים, הליכי ההמתנה להשתלה, השיקום שאחרי וההיבטים הרגולטוריים של משרד הבריאות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תרומת כליה מן החי: התהליך, הזכויות והשאלות שכולם שואלים",
+     "description": "מדריך מקיף על תרומת כליה מן החי בישראל: כל מה שצריך לדעת על התהליך הרפואי, הבדיקות הנדרשות, זכויות התורם על פי חוק והחיים שאחרי התרומה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "רשימת הממתינים להשתלה: איך נקבע התור",
+     "description": "מדריך מקיף על רשימת הממתינים להשתלה בישראל: קריטריונים לקדימות, ניהול המרכז הלאומי להשתלות, זמני המתנה וכללי האתיקה הרפואית בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תרומת מוח עצם: איך נרשמים ומה קורה בפועל",
+     "description": "מדריך מקיף על תרומת מוח עצם: איך נרשמים למאגר הלאומי, כיצד מתבצע הליך ההשתלה, דרישות רפואיות ומידע מציל חיים לכל אזרח בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת קרנית: מתי היא נדרשת ומה צפוי בתהליך",
+     "description": "מדריך מקיף על השתלת קרנית בישראל: כל מה שצריך לדעת על קרטוקונוס, תהליך ההשתלה, תרומת קרנית, זמני החלמה וסיכונים. מוגש על ידי מומחים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 10,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תרופות נוגדות דחייה: החיים אחרי השתלת איבר",
+     "description": "מדריך מקיף על תרופות נוגדות דחייה לאחר השתלת איבר. כל מה שצריך לדעת על דיכוי חיסוני, ניהול תרופתי, הנחיות משרד הבריאות ומעקב רפואי בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת כבד בישראל: מי זכאי, איך זה עובד ומה הסיכויים",
+     "description": "מדריך מקיף על השתלת כבד בישראל: קריטריונים לזכאות, תהליך ההמתנה, ניתוח מתורם חי לעומת נפטר, החלמה וסיכויי הצלחה לפי הנחיות משרד הבריאות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 12,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "דיאליזה מול השתלה: השוואה כנה למטופלי כליות",
+     "description": "מתלבטים בין דיאליזה להשתלת כליות? מדריך מקיף למטופלי אי ספיקת כליות בישראל הכולל השוואת איכות חיים, סיכונים, זמני המתנה ועלויות רפואיות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 13,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "השתלת כליה בישראל: התהליך, המתנה מחיים וההחלמה",
+     "description": "מדריך מקיף על השתלת כליה בישראל: כל מה שצריך לדעת על תהליך ההמתנה, תרומת כליה מחיים, הליכי ועדת אתיקה, החלמה וניהול אורח חיים לאחר השתלה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 14,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כרטיס אדי: מה זה, מה הוא נותן ואיך חותמים בשתי דקות",
+     "description": "כל מה שצריך לדעת על כרטיס אדי: חשיבות תרומת איברים, הטבות רפואיות, תהליך החתימה הפשוט והתייחסות הלכתית. הצטרפו למערך הצלת החיים בישראל."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +185,9 @@
   "name": "מגזין ההשתלות של ישראל"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=organs",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://transplant-israel.com/organs?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

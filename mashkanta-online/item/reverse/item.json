@@ -1,22 +1,88 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "משכנתא הפוכה — מדריכים, נתונים וכלים",
+ "@type": "Article",
+ "headline": "משכנתא הפוכה — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/reverse/",
- "description": "הסבר מלא ומאוזן לבני 60 ומעלה: איך המוצר עובד, מה החסרונות, מה החלופות ומה חשוב לשתף עם המשפחה.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/reverse?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/reverse?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "הסבר מלא ומאוזן לבני 60 ומעלה: איך המוצר עובד, מה החסרונות, מה החלופות ומה חשוב לשתף עם המשפחה.",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/22599f611_generated_image.png/v1/fill/w_592,h_370,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/22599f611_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/c52cf1cf5_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c52cf1cf5_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/9136892d4_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9136892d4_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/480a8c5b1_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/480a8c5b1_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/3769f40b9_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/3769f40b9_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/808b1e580_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/808b1e580_generated_image.webp"
+ ],
+ "wordCount": 295,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 6,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "איך עובדת משכנתא הפוכה: המכניקה של החוב שגדל",
+     "description": "המכניקה של משכנתא הפוכה: למה אין החזר חודשי, איך הריבית מצטברת על הריבית, ומה נשאר מהנכס אחרי 15 שנה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "ריביות משכנתא הפוכה וכמה באמת מקבלים לפי גיל",
+     "description": "ריביות משכנתא הפוכה בהשוואה למשכנתא רגילה, טבלת אחוזי המימון לפי גיל, והחישוב של כמה מקבלים על נכס נתון."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "החסרונות של משכנתא הפוכה שחובה להבין לפני חתימה",
+     "description": "הצד השני של משכנתא הפוכה: שחיקת הירושה, הריבית הגבוהה, סעיפי הפינוי, עלויות היציאה והשפעה על קצבאות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מי מציע משכנתא הפוכה בישראל: בנקים מול חברות ביטוח",
+     "description": "הגופים שמציעים משכנתא הפוכה בישראל: ההבדלים בין בנקים לחברות ביטוח, תנאים, ריביות ואיך משווים ביניהם."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "משכנתא הפוכה והמשפחה: מה היורשים צריכים לדעת מראש",
+     "description": "המדריך למשפחה: מה קורה לנכס בפטירה, אפשרויות היורשים, לוחות הזמנים מול הגוף המלווה ואיך מנהלים את השיחה."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "שליחת פרטים",
+     "description": "מוצר זה מיועד לבני 60 ומעלה. מומלץ לשתף בני משפחה ולהיוועץ בגורם מקצועי בלתי תלוי לפני חתימה."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +113,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=reverse",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/reverse?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }

@@ -1,22 +1,88 @@
 {
  "@context": "https://schema.org",
- "@type": "Product",
- "name": "מחזור משכנתא — מדריכים, נתונים וכלים",
+ "@type": "Article",
+ "headline": "מחזור משכנתא — מדריכים, נתונים וכלים",
  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/refinance/",
- "description": "מתי כדאי לבדוק מחזור, כמה עולה עמלת פירעון מוקדם ואיך עובד התהליך — צעד אחר צעד.",
- "image": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
- "brand": {
-  "@type": "Brand",
-  "name": "משכנתא אונליין"
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/refinance?utm_source=agentfeed&utm_medium=ai"
  },
- "offers": {
-  "@type": "Offer",
-  "url": "https://mashkanta.online/refinance?utm_source=agentfeed&utm_medium=ai",
-  "seller": {
-   "@type": "Organization",
-   "name": "משכנתא אונליין",
-   "url": "https://mashkanta.online"
-  }
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "מתי כדאי לבדוק מחזור, כמה עולה עמלת פירעון מוקדם ואיך עובד התהליך — צעד אחר צעד.",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/c0f58f432_generated_image.png/v1/fill/w_592,h_370,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c0f58f432_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/8abdd17b8_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/8abdd17b8_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/bcb558ef0_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/bcb558ef0_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/66c5e5b79_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/66c5e5b79_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/fa5ddb9df_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/fa5ddb9df_generated_image.webp",
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/a9062402d_generated_image.png/v1/fill/w_389,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a9062402d_generated_image.webp"
+ ],
+ "wordCount": 306,
+ "mainEntity": {
+  "@type": "ItemList",
+  "numberOfItems": 6,
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "עמלת פירעון מוקדם: איך היא מחושבת ואיך מקטינים אותה",
+     "description": "עמלת פירעון מוקדם על משכנתא: עמלת ההיוון והנוסחה, ההודעה המוקדמת, המועדים שמוזילים ואיך מקבלים דוח יתרות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מחזור באותו בנק או מעבר לבנק אחר: היתרונות של כל מסלול",
+     "description": "מחזור פנימי מול מעבר בנק: הבדלי עלויות, כוח המיקוח, התהליך בכל בנק גדול ומתי איום במעבר מספיק."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "סילוק מלא של המשכנתא: התהליך, העמלות והמסמכים שחייבים לקחת",
+     "description": "איך סוגרים משכנתא עד הסוף: דוח יתרות, תיאום יום הסילוק, מכתב סילוק, מחיקת השעבוד בטאבו וביטול הביטוחים."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "מתי כדאי למחזר: שלושת המבחנים שעושים בעשר דקות",
+     "description": "שלושה מבחנים מהירים לכדאיות מחזור משכנתא: פער הריביות, יתרת התקופה ועמלת הפירעון. עם דוגמאות מספריות."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כמה עולה למחזר משכנתא: כל העלויות והחישוב הנקי",
+     "description": "עלויות מחזור משכנתא: עמלת פירעון, שמאות, רישום, פתיחת תיק וביטוחים. הטבלה המלאה והחיסכון הנקי אחרי הכל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "תהליך המחזור צעד אחר צעד: מהבדיקה ועד הסגירה",
+     "description": "שלבי מחזור משכנתא בפועל: דוח יתרות, מכרז בין בנקים, אישור, פירעון הישנה ופתיחת החדשה. עם לוחות זמנים."
+    }
+   }
+  ]
  },
  "additionalProperty": [
   {
@@ -47,10 +113,9 @@
   "name": "משכנתא אונליין"
  },
  "potentialAction": {
-  "@type": "OrderAction",
-  "target": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=refinance",
-  "name": "form"
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/refinance?utm_source=agentfeed&utm_medium=ai"
  },
  "retrieved": "2026-09-22",
- "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
 }
