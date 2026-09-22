@@ -1,0 +1,40 @@
+# Where else each business says it can be found.
+#
+# The private repository has no outbound network, so it cannot read a single
+# business's website. Here the network is open and the minutes are free.
+#
+# This only reads: api/stores.json from this repository, and each business's
+# own home page — one fetch each. It needs no secrets, writes nothing to the
+# site, and publishes nothing: the candidates come out as an artifact and in
+# the log, and the private repository validates and publishes them.
+name: Where else a business says it is
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monthly. A business does not open a new Instagram account faster than
+    # that, and a fetch that runs more often than the thing it measures is a
+    # crawl with a timestamp on it.
+    - cron: "30 6 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read each business's own home page
+        run: python3 -u tools/harvest_identity.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: identity-harvest
+          path: |
+            identity-harvest.json
+            identity-report.md
+          if-no-files-found: ignore
