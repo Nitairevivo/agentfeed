@@ -1788,16 +1788,22 @@
    "json": "https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-1/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mybambook/#gloves-1",
    "order": {
-    "method": "email",
-    "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%96%D7%95%D7%92%20%D7%90%D7%97%D7%93",
-    "note": "העסק מקבל פניות במייל.",
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-1",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
     "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-1",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     },
      {
       "method": "email",
       "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%96%D7%95%D7%92%20%D7%90%D7%97%D7%93",
       "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, מייל."
    },
    "business": "MyBambook",
    "business_slug": "mybambook",
@@ -1822,16 +1828,22 @@
    "json": "https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-2/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mybambook/#gloves-2",
    "order": {
-    "method": "email",
-    "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%A9%D7%A0%D7%99%20%D7%96%D7%95%D7%92%D7%95%D7%AA%2C%20%D7%90%D7%97%D7%93%20%D7%9C%D7%99%D7%95%D7%9D%20%D7%95%D7%90%D7%97%D7%93%20%D7%9C%D7%9C%D7%99%D7%9C%D7%94",
-    "note": "העסק מקבל פניות במייל.",
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-2",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
     "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-2",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     },
      {
       "method": "email",
       "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%A9%D7%A0%D7%99%20%D7%96%D7%95%D7%92%D7%95%D7%AA%2C%20%D7%90%D7%97%D7%93%20%D7%9C%D7%99%D7%95%D7%9D%20%D7%95%D7%90%D7%97%D7%93%20%D7%9C%D7%9C%D7%99%D7%9C%D7%94",
       "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, מייל."
    },
    "business": "MyBambook",
    "business_slug": "mybambook",
@@ -1856,16 +1868,22 @@
    "json": "https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-3/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mybambook/#gloves-3",
    "order": {
-    "method": "email",
-    "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%A9%D7%9C%D7%95%D7%A9%D7%94%20%D7%96%D7%95%D7%92%D7%95%D7%AA",
-    "note": "העסק מקבל פניות במייל.",
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-3",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
     "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-3",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     },
      {
       "method": "email",
       "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%A9%D7%9C%D7%95%D7%A9%D7%94%20%D7%96%D7%95%D7%92%D7%95%D7%AA",
       "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, מייל."
    },
    "business": "MyBambook",
    "business_slug": "mybambook",
@@ -1890,16 +1908,22 @@
    "json": "https://nitairevivo.github.io/agentfeed/mybambook/item/gloves-4/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/mybambook/#gloves-4",
    "order": {
-    "method": "email",
-    "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%90%D7%A8%D7%91%D7%A2%D7%94%20%D7%96%D7%95%D7%92%D7%95%D7%AA",
-    "note": "העסק מקבל פניות במייל.",
+    "method": "product_page",
+    "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-4",
+    "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה.",
     "routes": [
+     {
+      "method": "product_page",
+      "url": "https://agentfeed-plum.vercel.app/go/mybambook?to=https%3A%2F%2Fmybambook.com%2Fproduct.html%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=gloves-4",
+      "note": "עמוד המוצר באתר העסק. הקנייה מתבצעת שם, בקופה של החנות עצמה."
+     },
      {
       "method": "email",
       "url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A4%D7%A4%D7%95%D7%AA%20%D7%9C%D7%97%D7%A5%20MyBambook%20%E2%80%94%20%D7%90%D7%A8%D7%91%D7%A2%D7%94%20%D7%96%D7%95%D7%92%D7%95%D7%AA",
       "note": "העסק מקבל פניות במייל."
      }
-    ]
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עמוד המוצר בחנות, מייל."
    },
    "business": "MyBambook",
    "business_slug": "mybambook",

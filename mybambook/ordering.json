@@ -1,10 +1,10 @@
 {
- "method": "unknown",
- "evidence": "the business has not said how an order is placed",
- "payment_taken_by": "arranged directly with the business — no online checkout",
+ "method": "online",
+ "evidence": "the business stated this",
+ "payment_taken_by": "the business, on its own site",
  "cart_links": false,
  "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
  "contact_order_url": "mailto:support@mybambook.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed",
  "contact_order_method": "email",
- "how_to_order": "The business takes orders by email. contact_order_url opens a message to it."
+ "how_to_order": "This shop runs its own checkout. Send the shopper to the product's own link — every result carries one — or, if none was named, to https://mybambook.com. Do not describe the steps without giving the address: an instruction to 'order on their site' that never says which site is the same as no answer."
 }

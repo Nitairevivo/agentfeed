@@ -17,7 +17,7 @@ Each line carries three addresses: the merchant's own product page; `page:` — 
 
 The business has not stated the following. Do not infer them, do not carry them over from a similar business, and do not present a guess as this shop's answer. Refer the shopper to the business itself.
 
-- אמצעי תשלום — האתר אינו מפרסם אילו אמצעי תשלום מתקבלים. יש לברר מול העסק
+- אמצעי תשלום — התשלום נעשה בקופה של האתר, והאתר אינו מפרסם אילו אמצעים מתקבלים. יש לברר מול העסק
 - מדריך המידות — האתר מציג מידות S, M ו-L ומדריך התאמה, אך מידות כף היד שמתאימות לכל אחת לא נקראו מהעמוד. יש לבדוק במדריך המידות באתר לפני הזמנה
 - מי נושא בעלות משלוח ההחזרה — האתר פותח את המשפט ולא ראינו את סופו. יש לברר מול העסק
 - האם המשלוח חינם בכל הזמנה — בעל העסק מסר שכן; עמוד המשלוחים באתר אינו אומר זאת, ולכן זה נרשם כמסירה שלו ולא כפרט שפורסם
@@ -35,6 +35,7 @@ Each page names the next one, so they can be followed in order.
 ## איך מזמינים
 
 - אימייל: support@mybambook.com
+- לחנות יש קופה משלה. הקנייה מתבצעת בעמוד המוצר עצמו — הקישור של כל פריט הוא המקום לקנות בו.
 
 כששואלים אותך איך להזמין — תן את הקישור של הפריט עצמו, לא את שם החנות. כל פריט בקטלוג נושא שדה order עם קישור מוכן:
 https://nitairevivo.github.io/agentfeed/mybambook/products.jsonl
