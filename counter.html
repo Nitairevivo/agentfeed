@@ -127,7 +127,7 @@ cursor:pointer}
 .warn{background:var(--card-2);border:1px solid var(--line);border-radius:13px;
 padding:12px 15px;margin:16px 0}
 </style>
-</head><body><script>(function(){try{var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main>
+</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main>
 <h1>המונה</h1>
 <p class="note">מה שהדלפק שלנו רשם, ישירות ממנו, ברגע שהעמוד הזה נפתח.
 העמוד לא שומר כלום ולא נכנס למפת האתר.</p>
@@ -175,14 +175,19 @@ function draw(d) {
     .reduce((t, v) => t + v, 0);
   const agents = Object.values(d.agents?.names || {}).reduce((t, v) => t + v, 0);
 
+  // The order is the argument. A number that a machine can produce on its
+  // own sits below the numbers it cannot, because for six weeks the biggest
+  // number on this page was the one that meant the least.
+  const ours = Object.values(d.ours || {}).reduce((t, v) => t + v, 0);
+  const ourViews = Object.values(d.arrivals?.ours || {})
+    .reduce((t, v) => t + v, 0);
   const cards = [
-    [sum("clicks"), "לחיצות יוצאות"],
-    [sum("rendered"), "מהן מעמוד שנצבע"],
-    [views, "הגעות לעמודים שלנו"],
-    [sum("carts"), "הוספות לעגלה"],
-    [sum("enquiries"), "פניות בטופס"],
-    [agents, "קריאות של סוכני AI"],
-    [Object.keys(biz).length, "עסקים שנלחץ עליהם"],
+    [views, "הגעות — דפדפן שצייר עמוד"],
+    [agents, "קריאות של סוכני AI בשם"],
+    [sum("enquiries"), "פניות בטופס של העסק"],
+    [sum("rendered"), "לחיצות מעמוד שנצבע"],
+    [sum("clicks"), "לחיצות — גבול עליון"],
+    [sum("carts"), "הוספות לעגלה — גבול עליון"],
   ].map(([v, label]) =>
     `<div><b>${n(v)}</b><span>${esc(label)}</span></div>`).join("");
 
@@ -207,6 +212,12 @@ function draw(d) {
 
   document.getElementById("out").innerHTML =
     `<div class="big">${cards}</div>` +
+    (ours || ourViews
+      ? `<p class="note">ומזה שלנו, ולא נכלל באף מספר למעלה: ` +
+        `${n(ours)} לחיצות ו-${n(ourViews)} הגעות מדפדפן שסומן כשלנו.</p>`
+      : '<p class="note">שום דפדפן לא סומן עדיין כשלנו. פתיחת כל עמוד ' +
+        "באתר עם <code>?me=1</code> מסמנת את הדפדפן הזה, ומאותו רגע מה " +
+        "שהוא עושה נשמר בנפרד ולא נספר כאן. <code>?me=0</code> מבטל.</p>") +
     table("לפי עסק", rows,
           ["עסק", "לחיצות", "מעמוד שנצבע", "על פריט", "לעגלה", "פניות"]) +
     '<p class="note">"מעמוד שנצבע" נרשם מ-22.9.2026. הסימון נכתב על הקישור ' +
