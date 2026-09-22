@@ -71,11 +71,20 @@ def main() -> int:
           f"{len(directory.get('categories') or [])} categories, "
           f"{len(directory.get('comparisons') or [])} comparisons")
 
-    for f in ("robots.txt", "sitemap.xml", "llms.txt"):
+    # sitemap-core.xml is in here because Search Console showed "could not
+    # fetch" against the full sitemap for eight days and nothing on our side
+    # would have said so: the file is built, audited and published, and none
+    # of those steps asks whether the address actually answers. A sitemap an
+    # engine cannot read is the same as no sitemap, and it fails silently.
+    for f in ("robots.txt", "sitemap.xml", "sitemap-core.xml", "llms.txt"):
         code, body = get(f"{SITE}/{f}")
         print(f"{f}: {code} ({len(body)} bytes)")
         if code != 200:
             bad.append(f"{f} answers {code}")
+        elif f.endswith(".xml") and "<urlset" not in body:
+            bad.append(f"{f} answers 200 but is not a sitemap — no <urlset>")
+        elif f.endswith(".xml"):
+            print(f"  {f}: {body.count('<loc>')} urls")
 
     reviewed = 0
     for b in businesses:
