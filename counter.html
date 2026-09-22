@@ -199,6 +199,15 @@ function draw(d) {
   const cover = d.source_coverage || {};
   const src = Object.entries(d.sources || {})
     .sort((a, b) => b[1] - a[1]).map(([k, v]) => [k || "ללא מקור", v]);
+  const NAMES = { IL: "ישראל", US: "ארצות הברית", DE: "גרמניה",
+                  IE: "אירלנד", GB: "בריטניה", NL: "הולנד", FR: "צרפת",
+                  SG: "סינגפור", CA: "קנדה", IN: "הודו", JP: "יפן",
+                  BR: "ברזיל", AU: "אוסטרליה", unknown: "לא ידוע" };
+  const land = (k) => NAMES[k] || k;
+  const countries = Object.entries(d.countries || {})
+    .sort((a, b) => b[1] - a[1]).map(([k, v]) => [land(k), v]);
+  const fromWhere = Object.entries(d.arrivals?.countries || {})
+    .sort((a, b) => b[1] - a[1]).map(([k, v]) => [land(k), v]);
   const clients = Object.entries(d.clients || {})
     .sort((a, b) => b[1] - a[1])
     .map(([k, v]) => {
@@ -230,6 +239,13 @@ function draw(d) {
     "בזמן הלחיצה על ידי קוד שרץ בדפדפן, ולכן הוא לא יכול להופיע על קישור " +
     "שהועתק מה-HTML שלנו. לחיצות שקדמו ליום הזה אינן מסומנות — זה לא אומר " +
     "עליהן כלום לכאן או לכאן.</p>" +
+    table("מאיזו מדינה נלחץ", countries, ["מדינה", "לחיצות"]) +
+    table("ומאיזו מדינה הגיעו", fromWhere, ["מדינה", "הגעות"]) +
+    (countries.length
+      ? '<p class="note">המדינה נקבעת על ידי השרת שמקבל את הבקשה, לפני ' +
+        "שהיא מגיעה אלינו. לא נשמרת עיר ולא כתובת. קהל ישראלי שקונה " +
+        "בעברית הוא ישראל; מכונות שכורות הן המדינה שבה עומד המחשב.</p>"
+      : "") +
     table("מאיפה הגיעו הלחיצות", src, ["מקור", "לחיצות"]) +
     (cover.before_sources_existed
       ? `<p class="note">${n(cover.with_a_source)} מתוך ${n(cover.clicks)} ` +
