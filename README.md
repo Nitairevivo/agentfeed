@@ -16,17 +16,17 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-18 עסקים · 2557 פריטים
+18 עסקים · 2749 פריטים
 
 ## שירותים לעסקים
 
-- **[העולם המשפטי בישראל](https://nitairevivo.github.io/agentfeed/lawinisrael-com/)** — 12 פריטים  
+- **[העולם המשפטי בישראל](https://nitairevivo.github.io/agentfeed/lawinisrael-com/)** — 60 פריטים  
   פורטל תוכן משפטי  
   אתר העסק: https://lawinisrael.com
 - **[LeadOn](https://nitairevivo.github.io/agentfeed/leadon/)** — 32 פריטים  
   פלטפורמה לרכישת לידים לעסקים בישראל  
   אתר העסק: https://leadon.co.il
-- **[משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/)** — 12 פריטים  
+- **[משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/)** — 60 פריטים  
   מגזין משכנתאות עם מחשבון  
   אתר העסק: https://mashkanta.online
 
@@ -53,7 +53,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
   שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
   אתר העסק: https://getrecover.co.il
-- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 12 פריטים  
+- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 60 פריטים  
   אינדקס ערוצי וקבוצות טלגרם ישראליים  
   אתר העסק: https://tgil.co.il
 
@@ -86,7 +86,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 
 ## בריאות ורפואה
 
-- **[מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/)** — 12 פריטים  
+- **[מגזין ההשתלות של ישראל](https://nitairevivo.github.io/agentfeed/transplant-israel-com/)** — 60 פריטים  
   מגזין תוכן על השתלות שיער, השתלות שיניים, אסתטיקה רפואית והשתלות איברים בישראל  
   אתר העסק: https://transplant-israel.com
 

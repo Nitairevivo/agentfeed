@@ -16,30 +16,21 @@
  "description": "חקירות, מעצרים, כתבי אישום וזכויות החשוד והנאשם בהליך הפלילי.",
  "image": [
   "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/f4cfe71f8_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/f4cfe71f8_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/17cb45bab_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/17cb45bab_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/17cb45bab_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/17cb45bab_generated_image.webp",
   "https://media.base44.com/images/public/6a786260d64141083d3658d6/be2bbe9e8_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/be2bbe9e8_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/f4cfe71f8_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/f4cfe71f8_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/bbc54d611_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/bbc54d611_generated_image.webp",
   "https://media.base44.com/images/public/6a786260d64141083d3658d6/af7247ff9_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/af7247ff9_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/c3793773b_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c3793773b_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/63e56b8a3_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/63e56b8a3_generated_image.webp"
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/c40249f20_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c40249f20_generated_image.webp"
  ],
- "wordCount": 674,
+ "wordCount": 785,
  "mainEntity": {
   "@type": "ItemList",
-  "numberOfItems": 12,
+  "numberOfItems": 15,
   "itemListElement": [
    {
     "@type": "ListItem",
     "position": 1,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "עבירות מחשב: פריצה, התחזות ופגיעה בפרטיות ברשת",
-     "description": "עבירות מחשב הן תחום פלילי מורכב ורגיש. מומחה למשפט פלילי מסביר על חוק המחשבים, ענישה, פריצה, התחזות ודרכי התמודדות במקרה של חקירה משטרתית או כתב אישום."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 2,
     "item": {
      "@type": "CreativeWork",
      "name": "ערעור פלילי: מועדים, סיכויים ושיקולי ערכאת הערעור",
@@ -48,61 +39,16 @@
    },
    {
     "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "כשסכסוך שכנים הופך לתיק פלילי: הטרדה מאיימת ותקיפה",
+     "description": "סכסוך שכנים פלילי יכול להוביל לאישומים חמורים ולצווי הרחקה. גלו מתי ויכוח לגיטימי הופך לעבירה פלילית ומהן ההשלכות המשפטיות המיידיות שעליכם להכיר כדי להתגונן."
+    }
+   },
+   {
+    "@type": "ListItem",
     "position": 3,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "חוק אי ההפללה: מתי קנביס נגמר בקנס ומתי בתיק פלילי",
-     "description": "האם אי הפללה קנביס אומרת שהשימוש חוקי? מדריך משפטי מעמיק שיעשה לכם סדר בין קנסות מנהליים לבין הליכים פליליים מסוכנים במדינת ישראל נכון להיום."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 4,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "הסדר מותנה: לסגור תיק פלילי בלי כתב אישום ובלי רישום",
-     "description": "הסדר מותנה הוא הדרך היעילה ביותר לסגור תיק פלילי ללא הרשעה. גלה כיצד תוכל למנוע כתב אישום ולשמור על גיליון נקי בעזרת ליווי משפטי מקצועי."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 5,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "עסקת טיעון: מתי כדאי לחתום ומתי להילחם עד הסוף",
-     "description": "עומדים בפני החלטה על עסקת טיעון? מדריך מקיף זה יסייע לכם להבין מתי נכון לחתום על הסדר טיעון ומתי עדיף לנהל מאבק משפטי בבית המשפט."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 6,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "עיכוב, מעצר או הזמנה לחקירה? ההבדלים והזכויות בכל שלב",
-     "description": "נתקלתם בסיטואציה פלילית? הבנת ההבדל המשפטי בין עיכוב או מעצר היא קריטית לשמירה על חירותכם. מדריך מקיף זה מסביר את זכויותיכם המלאות מול רשויות אכיפת החוק בישראל."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 7,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "הלבנת הון וחילוט: כשהמדינה מקפיאה את החשבונות",
-     "description": "התמודדות עם הליכי הלבנת הון וחילוט רכוש מחייבת ייצוג משפטי מיומן. גלו כיצד המדינה פועלת להקפאת חשבונות ומהן הדרכים להתמודד עם צעדים דורסניים אלו בחוק הישראלי."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 8,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "עבירות מס: מתי חוב למס הכנסה הופך לתיק פלילי",
-     "description": "גלה מתי חוב למס הכנסה הופך לעבירות מס פליליות. המדריך המלא מפרט את ההבדלים בין התנהלות אזרחית לפלילית, משמעויות הענישה ודרכי פעולה מול רשות המסים בישראל."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 9,
     "item": {
      "@type": "CreativeWork",
      "name": "החזקת סכין ואגרופן: העבירה שנוער רבים מסתבכים בה",
@@ -111,7 +57,70 @@
    },
    {
     "@type": "ListItem",
+    "position": 4,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "חוק אי ההפללה: מתי קנביס נגמר בקנס ומתי בתיק פלילי",
+     "description": "האם אי הפללה קנביס אומרת שהשימוש חוקי? מדריך משפטי מעמיק שיעשה לכם סדר בין קנסות מנהליים לבין הליכים פליליים מסוכנים במדינת ישראל נכון להיום."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 5,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "עבירות מס: מתי חוב למס הכנסה הופך לתיק פלילי",
+     "description": "גלה מתי חוב למס הכנסה הופך לעבירות מס פליליות. המדריך המלא מפרט את ההבדלים בין התנהלות אזרחית לפלילית, משמעויות הענישה ודרכי פעולה מול רשות המסים בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 6,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "עסקת טיעון: מתי כדאי לחתום ומתי להילחם עד הסוף",
+     "description": "עומדים בפני החלטה על עסקת טיעון? מדריך מקיף זה יסייע לכם להבין מתי נכון לחתום על הסדר טיעון ומתי עדיף לנהל מאבק משפטי בבית המשפט."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 7,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "עיכוב, מעצר או הזמנה לחקירה? ההבדלים והזכויות בכל שלב",
+     "description": "נתקלתם בסיטואציה פלילית? הבנת ההבדל המשפטי בין עיכוב או מעצר היא קריטית לשמירה על חירותכם. מדריך מקיף זה מסביר את זכויותיכם המלאות מול רשויות אכיפת החוק בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 8,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הסדר מותנה: לסגור תיק פלילי בלי כתב אישום ובלי רישום",
+     "description": "הסדר מותנה הוא הדרך היעילה ביותר לסגור תיק פלילי ללא הרשעה. גלה כיצד תוכל למנוע כתב אישום ולשמור על גיליון נקי בעזרת ליווי משפטי מקצועי."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 9,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "הלבנת הון וחילוט: כשהמדינה מקפיאה את החשבונות",
+     "description": "התמודדות עם הליכי הלבנת הון וחילוט רכוש מחייבת ייצוג משפטי מיומן. גלו כיצד המדינה פועלת להקפאת חשבונות ומהן הדרכים להתמודד עם צעדים דורסניים אלו בחוק הישראלי."
+    }
+   },
+   {
+    "@type": "ListItem",
     "position": 10,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "גידול קנביס: למה גם צמח אחד יכול להסתיים בכתב אישום",
+     "description": "רבים טועים לחשוב שגידול קנביס לשימוש עצמי הוא חוקי, אך המציאות המשפטית בישראל חמורה. גלו מדוע גם שתיל בודד עלול להוביל להרשעה פלילית וכתב אישום."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 11,
     "item": {
      "@type": "CreativeWork",
      "name": "עבירת איומים: כשהודעת ווטסאפ אחת הופכת לתיק פלילי",
@@ -120,20 +129,38 @@
    },
    {
     "@type": "ListItem",
-    "position": 11,
+    "position": 12,
     "item": {
      "@type": "CreativeWork",
-     "name": "הפצת תמונות אינטימיות וסחיטה ברשת: העבירות והענישה",
-     "description": "הפצת תמונות ללא הסכמה היא עבירה פלילית חמורה. מאמר זה מפרט את הדין הישראלי, הענישה הצפויה והצעדים המשפטיים שיש לנקוט במקרה של סחיטה או פרסום תוכן אינטימי."
+     "name": "אי הרשעה: לסיים הליך פלילי בלי להרוס את העתיד",
+     "description": "הליך פלילי אינו חייב להסתיים בהרשעה. גלו כיצד מוסד אי-ההרשעה מאפשר לכם לשמור על עתידכם המקצועי, המוניטין האישי והזדמנויות התעסוקה לאחר הליך משפטי מורכב."
     }
    },
    {
     "@type": "ListItem",
-    "position": 12,
+    "position": 13,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "סחר ותיווך בסמים: רף הענישה וקווי ההגנה",
+     "description": "הוגש נגדכם כתב אישום בגין סחר בסמים? הכירו את רף הענישה, קווי ההגנה המרכזיים וכל מה שחשוב לדעת כדי למזער נזקים מול רשויות האכיפה בישראל."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 14,
     "item": {
      "@type": "CreativeWork",
      "name": "עבירות צווארון לבן: מרמה, שוחד וניירות ערך – מדריך לנחקר",
      "description": "עומד בפני חקירה בעבירות צווארון לבן? מדריך משפטי מעמיק המפרט את שלבי החקירה, הזכויות שלך מול הרשויות וכיצד להתנהל נכון מרגע הזימון ועד לסיום התיק."
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 15,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "קבלת דבר במרמה: העבירה הכלכלית הנפוצה בישראל",
+     "description": "עבירת קבלת דבר במרמה היא עבירה פלילית חמורה המוגדרת בחוק העונשין. גלו מהי הגדרתה המדויקת, מהם יסודות העבירה, הענישה הקבועה בחוק וכיצד להתמודד עם חשד לעבירה."
     }
    }
   ]

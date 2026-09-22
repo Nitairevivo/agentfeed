@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "🔞 חדשות ישראל",
+ "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/news-il-h/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://tgil.co.il/channel/news_il_h?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "טלגרם ישראל",
+  "url": "https://tgil.co.il"
+ },
+ "isAccessibleForFree": true,
+ "description": "🔞 חדשות ישראל | ללא צנזורה חדשות ישראל הוא ערוץ ציבורי בטלגרם בשפת עברית עם 299,397 מנויים. אינדקס טלגרם ישראל אוסף ומרכז את כל הערוצים והקבוצות הטובות ביותר בטלגרם בישראל, כדי שתוכל למצוא בקלות תוכן איכותי בכל נושא.",
+ "image": [
+  "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/d787a8dfa_photo.jpg"
+ ],
+ "wordCount": 262,
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "news-il-h",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+  "name": "טלגרם ישראל"
+ },
+ "potentialAction": {
+  "@type": "ReadAction",
+  "target": "https://tgil.co.il/channel/news_il_h?utm_source=agentfeed&utm_medium=ai"
+ },
+ "retrieved": "2026-09-22",
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

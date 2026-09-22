@@ -18,28 +18,19 @@
   "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
   "https://media.base44.com/images/public/6a786260d64141083d3658d6/0d1c5b1d1_generated_3b1d599a.png",
   "https://media.base44.com/images/public/6a786260d64141083d3658d6/9c0ddde3f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9c0ddde3f_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/cf4db5f0d_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/cf4db5f0d_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/200a4fc89_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/200a4fc89_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/1f5e8ae19_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/1f5e8ae19_generated_image.webp",
-  "https://media.base44.com/images/public/6a786260d64141083d3658d6/b98379a40_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b98379a40_generated_image.webp"
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/5ba9d3fd1_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5ba9d3fd1_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/b98379a40_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b98379a40_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/3a8da4d1f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/3a8da4d1f_generated_image.webp",
+  "https://media.base44.com/images/public/6a786260d64141083d3658d6/2415f659f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/2415f659f_generated_image.webp"
  ],
- "wordCount": 793,
+ "wordCount": 799,
  "mainEntity": {
   "@type": "ItemList",
-  "numberOfItems": 7,
+  "numberOfItems": 6,
   "itemListElement": [
    {
     "@type": "ListItem",
     "position": 1,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "ביטוח לאומי",
-     "description": "נכות כללית, תאונות עבודה, ועדות רפואיות וערעורים מול ביטוח לאומי."
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 2,
     "item": {
      "@type": "CreativeWork",
      "name": "רכישת לידים לעורכי דין: המדריך המקיף לבחירת ספק לידים איכותיים",
@@ -48,11 +39,22 @@
    },
    {
     "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "CreativeWork",
+     "name": "התקף לב או אירוע מוחי בעבודה: מתי זה מוכר כתאונת עבודה",
+     "description": "האם התקף לב או אירוע מוחי בעבודה מוכרים כפגיעה בעבודה? מדריך מקיף על תנאי הסף, חשיבות האירוע החריג והדרכים להגשת תביעה מוצלחת לביטוח הלאומי.",
+     "about": "נזיקין ותאונות"
+    }
+   },
+   {
+    "@type": "ListItem",
     "position": 3,
     "item": {
      "@type": "CreativeWork",
-     "name": "הפסדתם במכרז ציבורי שלא בצדק? עתירת מכרזים",
-     "description": "הפסדתם במכרז ציבורי? אל תמהרו להרים ידיים. במאמר זה תלמדו מתי ואיך להגיש עתירה מנהלית במקרה של מכרזים ציבוריים פגומים וכיצד למקסם את סיכויי ההצלחה שלכם."
+     "name": "מעמד מטעמים הומניטריים: מתי הוועדה מאשרת",
+     "description": "מדריך משפטי מקיף על בקשה לקבלת מעמד הומניטרי בישראל: מתי הוועדה הבין-משרדית מאשרת את הבקשה, מהם הקריטריונים הקריטיים ואיך מעלים את סיכויי ההצלחה בהליך מול משרד הפנים?",
+     "about": "מיסים ונישות משלימות"
     }
    },
    {
@@ -60,8 +62,9 @@
     "position": 4,
     "item": {
      "@type": "CreativeWork",
-     "name": "עתירה מנהלית: כך תוקפים החלטה של רשות ציבורית",
-     "description": "נתקלתם בהחלטה שרירותית של רשות ציבורית? מדריך זה מסביר כיצד מגישים עתירה מנהלית, מהן עילות ההתערבות המרכזיות וכיצד תגנו על הזכויות שלכם מול גופי הממשל והרשויות המקומיות."
+     "name": "קיבלתם שומה ממס הכנסה? הליך ההשגה והערעור",
+     "description": "קיבלתם שומה ממס הכנסה? אל תיבהלו. גלו כיצד מגישים השגה על שומה במועד, מהם הכללים החשובים ואיך להעלות את הסיכויים שלכם להפחתת חבות המס בצורה מקצועית ויעילה.",
+     "about": "מיסים ונישות משלימות"
     }
    },
    {
@@ -69,8 +72,9 @@
     "position": 5,
     "item": {
      "@type": "CreativeWork",
-     "name": "פטור משירות צבאי: המסלולים הרפואיים והנפשיים",
-     "description": "מדריך מקיף למלש\"בים והוריהם על פטור מגיוס לצה\"ל. נסביר על ההליכים הרפואיים והנפשיים, חשיבות התיעוד והדרכים להגשת בקשה מנומקת מול רשויות הצבא בצורה חוקית ומקצועית."
+     "name": "נפצעתם בחדר כושר? למה כתב הוויתור לא תמיד מגן על המכון",
+     "description": "נפצעתם בחדר כושר? דעו כי כתב ויתור אינו מגן על המכון במקרה של רשלנות. מדריך משפטי מקיף להבנת הזכויות שלכם וכיצד לפעול לאחר תאונה בחדר כושר.",
+     "about": "נזיקין ותאונות"
     }
    },
    {
@@ -78,17 +82,9 @@
     "position": 6,
     "item": {
      "@type": "CreativeWork",
-     "name": "מעמד מטעמים הומניטריים: מתי הוועדה מאשרת",
-     "description": "מדריך משפטי מקיף על בקשה לקבלת מעמד הומניטרי בישראל: מתי הוועדה הבין-משרדית מאשרת את הבקשה, מהם הקריטריונים הקריטיים ואיך מעלים את סיכויי ההצלחה בהליך מול משרד הפנים?"
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 7,
-    "item": {
-     "@type": "CreativeWork",
-     "name": "דיסקרטיות מלאה, ללא עלות וללא התחייבות",
-     "description": "הפנייה מועברת לעורך דין העוסק בתחום כללי. השארת הפרטים אינה יוצרת יחסי עורך דין-לקוח."
+     "name": "עתירה מנהלית: כך תוקפים החלטה של רשות ציבורית",
+     "description": "נתקלתם בהחלטה שרירותית של רשות ציבורית? מדריך זה מסביר כיצד מגישים עתירה מנהלית, מהן עילות ההתערבות המרכזיות וכיצד תגנו על הזכויות שלכם מול גופי הממשל והרשויות המקומיות.",
+     "about": "מיסים ונישות משלימות"
     }
    }
   ]

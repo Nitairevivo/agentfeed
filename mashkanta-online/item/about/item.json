@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "אודות mashkanta.online — מי אנחנו ואיך נבנה האתר",
+ "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/about/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://mashkanta.online/about?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "משכנתא אונליין",
+  "url": "https://mashkanta.online"
+ },
+ "isAccessibleForFree": true,
+ "description": "mashkanta.online הוא פורטל עצמאי בעברית שנועד לעשות סדר בעולם המשכנתאות בישראל. האתר מרכז במקום אחד שלושה דברים שבדרך כלל מפוזרים בין עשרות מקורות: מחשבון משכנתא מלא שמאפשר לבנות תמהיל של עד ארבעה מסלולים ולראות החזר חודשי, סך ריבית ולוח סילוקין מדויק; נתוני ריבית מעודכנים — ריבית בנק ישראל, ריבית הפריים והריביות…",
+ "image": [
+  "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/332a8ecf8_logo.png/v1/fill/w_1200,h_630/332a8ecf8_logo.png"
+ ],
+ "wordCount": 278,
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "about",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
+  "name": "משכנתא אונליין"
+ },
+ "potentialAction": {
+  "@type": "ReadAction",
+  "target": "https://mashkanta.online/about?utm_source=agentfeed&utm_medium=ai"
+ },
+ "retrieved": "2026-09-22",
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

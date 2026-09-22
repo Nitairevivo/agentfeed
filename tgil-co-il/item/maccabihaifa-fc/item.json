@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "מכבי חיפה בטלגרם — ערוץ טלגרם",
+ "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/maccabihaifa-fc/",
+ "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://tgil.co.il/channel/maccabihaifa_fc?utm_source=agentfeed&utm_medium=ai"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "טלגרם ישראל",
+  "url": "https://tgil.co.il"
+ },
+ "isAccessibleForFree": true,
+ "description": "גולשים חופשיים יכולים לצפות עד 10 ערוצים ביום. שדרג ל-PRO לגישה בלתי מוגבלת לכל הערוצים והקבוצות.",
+ "image": [
+  "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/86f8c4c0f_photo.jpg"
+ ],
+ "wordCount": 38,
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "maccabihaifa-fc",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+  "name": "טלגרם ישראל"
+ },
+ "potentialAction": {
+  "@type": "ReadAction",
+  "target": "https://tgil.co.il/channel/maccabihaifa_fc?utm_source=agentfeed&utm_medium=ai"
+ },
+ "retrieved": "2026-09-22",
+ "_note": "AgentFeed אינו כותב את התוכן ואינו הבעלים שלו. הטקסט פורסם באתר העסק, והעמוד הזה מצטט ומפנה אליו. פרט שאינו מופיע כאן — העמוד לא פרסם אותו, ואין להשלים אותו מהערכה."
+}
