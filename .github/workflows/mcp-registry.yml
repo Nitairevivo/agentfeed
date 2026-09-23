@@ -1,0 +1,52 @@
+# Put the tool where agents look for tools.
+#
+# Every other way of being found here goes through a search index: a page is
+# crawled, ranked, and maybe cited. This one does not. The MCP registry is
+# the list an agent consults when it wants a *tool*, and our endpoint has
+# six of them. Being listed there is being findable without a single link.
+#
+# Authentication is GitHub's own OIDC token for this repository, which the
+# registry accepts for the io.github.nitairevivo/* namespace. No secret is
+# stored anywhere. It publishes server.json and nothing else.
+name: List the MCP endpoint in the registry
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the publisher
+        run: |
+          set -e
+          os=$(uname -s | tr '[:upper:]' '[:lower:]')
+          arch=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
+          url="https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_${os}_${arch}.tar.gz"
+          echo "→ $url"
+          if curl -fsSL "$url" | tar xz mcp-publisher; then
+            echo "got the release binary"
+          else
+            echo "no release binary for ${os}/${arch}; building from source"
+            sudo apt-get install -y -q golang-go >/dev/null
+            GOBIN="$PWD" go install github.com/modelcontextprotocol/registry/cmd/publisher@latest
+            mv publisher mcp-publisher
+          fi
+          chmod +x mcp-publisher
+          ./mcp-publisher --help | head -20
+      - name: What is being published
+        run: cat server.json
+      - name: Sign in with this repository's identity
+        run: ./mcp-publisher login github-oidc
+      - name: Publish
+        run: ./mcp-publisher publish
+      - name: Read it back
+        run: |
+          sleep 5
+          curl -fsS "https://registry.modelcontextprotocol.io/v0/servers?search=agentfeed" | head -c 3000; echo
