@@ -171,7 +171,7 @@ def main() -> int:
         for slug, b in sorted(biz.items(), key=lambda kv: -(kv[1].get("clicks") or 0)):
             print(f"    {slug}: " + " ".join(
                 f"{k}={b.get(k) or 0}" for k in
-                ("clicks", "rendered", "on_item", "carts", "enquiries", "coded")))
+                ("clicks", "rendered", "on_item", "carts", "enquiries", "enquiries_drawn", "coded")))
         print("  sources: " + json.dumps(data.get("sources") or {},
                                          ensure_ascii=False))
         print("  coverage: " + json.dumps(data.get("source_coverage") or {},
