@@ -195,6 +195,9 @@ def main() -> int:
                                                     ensure_ascii=False))
         print("  arrivals.days: " + json.dumps(arr.get("days") or {},
                                                ensure_ascii=False))
+        said = data.get("said_it_was") or {}
+        if said:
+            print("  said_it_was: " + json.dumps(said, ensure_ascii=False))
         sh = data.get("shape") or {}
         if sh.get("read"):
             print(f"  shape: {sh['read']} rows  {sh.get('first','')} → "
@@ -203,6 +206,8 @@ def main() -> int:
                       "clicks_per_visitor", "by_hour_utc"):
                 print(f"    {k}: " + json.dumps(sh.get(k) or {},
                                                 ensure_ascii=False))
+            print("    items_top: " + json.dumps(sh.get("items_top") or {},
+                                                  ensure_ascii=False))
             print(f"    busiest_minute={sh.get('busiest_minute')} "
                   f"visitors={sh.get('visitors')} "
                   f"items_touched={sh.get('items_touched')} "
