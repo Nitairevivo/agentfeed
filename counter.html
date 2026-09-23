@@ -184,17 +184,18 @@ function draw(d) {
   const cards = [
     [views, "הגעות — דפדפן שצייר עמוד"],
     [agents, "קריאות של סוכני AI בשם"],
-    [sum("enquiries"), "פניות בטופס של העסק"],
+    [sum("enquiries_drawn"), "פניות בטופס — מעמוד שנצבע"],
     [sum("rendered"), "לחיצות מעמוד שנצבע"],
     [sum("clicks"), "לחיצות — גבול עליון"],
     [sum("carts"), "הוספות לעגלה — גבול עליון"],
+    [sum("enquiries"), "לחיצות על טופס — גבול עליון"],
   ].map(([v, label]) =>
     `<div><b>${n(v)}</b><span>${esc(label)}</span></div>`).join("");
 
   const rows = Object.entries(biz)
     .sort((a, b) => (b[1].clicks || 0) - (a[1].clicks || 0))
     .map(([slug, b]) => [slug, b.clicks, b.rendered || 0, b.on_item, b.carts,
-                         b.enquiries]);
+                         b.enquiries, b.enquiries_drawn || 0]);
 
   const cover = d.source_coverage || {};
   const src = Object.entries(d.sources || {})
@@ -259,7 +260,7 @@ function draw(d) {
         "באתר עם <code>?me=1</code> מסמנת את הדפדפן הזה, ומאותו רגע מה " +
         "שהוא עושה נשמר בנפרד ולא נספר כאן. <code>?me=0</code> מבטל.</p>") +
     table("לפי עסק", rows,
-          ["עסק", "לחיצות", "מעמוד שנצבע", "על פריט", "לעגלה", "פניות"]) +
+          ["עסק", "לחיצות", "מעמוד שנצבע", "על פריט", "לעגלה", "לחיצות על טופס", "מהן נצבעו"]) +
     '<p class="note">"מעמוד שנצבע" נרשם מ-22.9.2026. הסימון נכתב על הקישור ' +
     "בזמן הלחיצה על ידי קוד שרץ בדפדפן, ולכן הוא לא יכול להופיע על קישור " +
     "שהועתק מה-HTML שלנו. לחיצות שקדמו ליום הזה אינן מסומנות — זה לא אומר " +
