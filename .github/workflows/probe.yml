@@ -1,0 +1,32 @@
+# Does the link we publish actually open?
+#
+# Every number in the counter is about somebody pressing a link, and not one of
+# them says whether the link arrives. A dead buy link produces exactly the
+# counter we have: clicks, carts, and a merchant who saw nothing at all.
+#
+# Read only, one request per hop, announcing itself as us.
+name: Does this link open
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Addresses to walk — comma or newline separated'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Walk the chain
+        env:
+          PROBE_URLS: ${{ inputs.urls }}
+        run: python3 -u tools/probe.py
