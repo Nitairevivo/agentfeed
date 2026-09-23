@@ -195,6 +195,17 @@ def main() -> int:
                                                     ensure_ascii=False))
         print("  arrivals.days: " + json.dumps(arr.get("days") or {},
                                                ensure_ascii=False))
+        sh = data.get("shape") or {}
+        if sh.get("read"):
+            print(f"  shape: {sh['read']} rows  {sh.get('first','')} → "
+                  f"{sh.get('last','')}")
+            for k in ("gaps", "clicks_per_visitor", "by_hour_utc"):
+                print(f"    {k}: " + json.dumps(sh.get(k) or {},
+                                                ensure_ascii=False))
+            print(f"    busiest_minute={sh.get('busiest_minute')} "
+                  f"visitors={sh.get('visitors')} "
+                  f"items_touched={sh.get('items_touched')} "
+                  f"items_touched_twice={sh.get('items_touched_twice')}")
         ag = data.get("agents") or {}
         print("  agents.names: " + json.dumps(ag.get("names") or {},
                                               ensure_ascii=False))
