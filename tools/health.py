@@ -199,7 +199,8 @@ def main() -> int:
         if sh.get("read"):
             print(f"  shape: {sh['read']} rows  {sh.get('first','')} → "
                   f"{sh.get('last','')}")
-            for k in ("gaps", "clicks_per_visitor", "by_hour_utc"):
+            for k in ("by_day", "rendered_by_day", "gaps",
+                      "clicks_per_visitor", "by_hour_utc"):
                 print(f"    {k}: " + json.dumps(sh.get(k) or {},
                                                 ensure_ascii=False))
             print(f"    busiest_minute={sh.get('busiest_minute')} "
