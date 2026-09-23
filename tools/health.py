@@ -198,6 +198,10 @@ def main() -> int:
         ag = data.get("agents") or {}
         print("  agents.names: " + json.dumps(ag.get("names") or {},
                                               ensure_ascii=False))
+        print("  agents.businesses: " + json.dumps(ag.get("businesses") or {},
+                                                  ensure_ascii=False))
+        print("  agents.seen: " + json.dumps(ag.get("seen") or {},
+                                             ensure_ascii=False))
         print("  agents.surfaces: " + json.dumps(ag.get("surfaces") or {},
                                                  ensure_ascii=False))
         print("  agents.tools: " + json.dumps(ag.get("tools") or {},
