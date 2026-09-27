@@ -1,0 +1,42 @@
+{
+  "host": "marleypetshop.com",
+  "read_at": "2026-09-27T12:29:37Z",
+  "pages": [
+    {
+      "path": "/wp-json/wp/v2/pages?per_page=100&_fields=id",
+      "file": "wp-json_wp_v2_pages?per_page=100&_fields=id.html",
+      "status": 200,
+      "bytes": 365
+    },
+    {
+      "path": "link",
+      "file": "link.html",
+      "status": 0,
+      "bytes": 0
+    },
+    {
+      "path": "title",
+      "file": "title.html",
+      "status": 0,
+      "bytes": 0
+    },
+    {
+      "path": "content",
+      "file": "content.html",
+      "status": 0,
+      "bytes": 0
+    },
+    {
+      "path": "modified",
+      "file": "modified.html",
+      "status": 0,
+      "bytes": 0
+    },
+    {
+      "path": "/page-sitemap.xml",
+      "file": "page-sitemap.xml.html",
+      "status": 200,
+      "bytes": 25037
+    }
+  ]
+}
