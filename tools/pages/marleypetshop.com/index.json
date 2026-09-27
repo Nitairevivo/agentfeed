@@ -1,42 +1,24 @@
 {
   "host": "marleypetshop.com",
-  "read_at": "2026-09-27T12:29:37Z",
+  "read_at": "2026-09-27T12:42:58Z",
   "pages": [
     {
-      "path": "/wp-json/wp/v2/pages?per_page=100&_fields=id",
-      "file": "wp-json_wp_v2_pages?per_page=100&_fields=id.html",
+      "path": "/%d7%9e%d7%93%d7%99%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%a9%d7%9c%d7%95%d7%97%d7%99%d7%9d-%d7%97%d7%a0%d7%95%d7%aa-%d7%97%d7%99%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91",
+      "file": "%d7%9e%d7%93%d7%99%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%a9%d7%9c%d7%95%d7%97%d7%99%d7%9d-%d7%97%d7%a0%d7%95%d7%aa-%d7%97%d7%99%d7%95%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91.html",
       "status": 200,
-      "bytes": 365
+      "bytes": 458628
     },
     {
-      "path": "link",
-      "file": "link.html",
-      "status": 0,
-      "bytes": 0
-    },
-    {
-      "path": "title",
-      "file": "title.html",
-      "status": 0,
-      "bytes": 0
-    },
-    {
-      "path": "content",
-      "file": "content.html",
-      "status": 0,
-      "bytes": 0
-    },
-    {
-      "path": "modified",
-      "file": "modified.html",
-      "status": 0,
-      "bytes": 0
-    },
-    {
-      "path": "/page-sitemap.xml",
-      "file": "page-sitemap.xml.html",
+      "path": "/%d7%aa%d7%a7%d7%a0%d7%95%d7%9f",
+      "file": "%d7%aa%d7%a7%d7%a0%d7%95%d7%9f.html",
       "status": 200,
-      "bytes": 25037
+      "bytes": 465630
+    },
+    {
+      "path": "/%d7%a9%d7%90%d7%9c%d7%95%d7%aa-%d7%95%d7%aa%d7%a9%d7%95%d7%91%d7%95%d7%aa",
+      "file": "%d7%a9%d7%90%d7%9c%d7%95%d7%aa-%d7%95%d7%aa%d7%a9%d7%95%d7%91%d7%95%d7%aa.html",
+      "status": 200,
+      "bytes": 452768
     }
   ]
 }
