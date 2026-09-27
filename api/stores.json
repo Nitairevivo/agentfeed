@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-27T12:48:39+00:00",
+  "updated": "2026-09-27T13:37:19+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -417,7 +417,7 @@
     },
     {
       "slug": "marleypetshop",
-      "name": "מארלי — חנות חיות אונליין",
+      "name": "מארלי — מזון וציוד לחיות מחמד",
       "official_site": "https://marleypetshop.com",
       "category": "חיות מחמד",
       "category_slug": "pets",
@@ -426,7 +426,7 @@
       "items": 2229,
       "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
       "products": "https://nitairevivo.github.io/agentfeed/marleypetshop/products.jsonl",
-      "updated": "2026-09-27T12:47:28+00:00",
+      "updated": "2026-09-27T13:35:30+00:00",
       "unknown": [
         "עלות המשלוח לפי אזור: עמוד השאלות והתשובות נוקב ב-25 ₪ וחינם מעל 200 ₪, ומדיניות המשלוחים מוסיפה שהעלות תלויה באזור, במשקל ובמרחק. אין טבלה לפי אזור; העלות הסופית מוצגת בקופה",
         "גובה דמי הביטול — התקנון לא נוקב בסכום",
@@ -439,11 +439,12 @@
         "payment_taken_by": "the business, on its own site",
         "cart_links": true,
         "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money.",
-        "contact_order_url": "tel:0502352985",
-        "contact_order_method": "phone"
+        "contact_order_url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp"
       },
       "contact": {
         "phone": "050-235-2985",
+        "whatsapp": "972502352985",
         "email": "info@marleypetshop.com"
       },
       "phone": "050-235-2985"
