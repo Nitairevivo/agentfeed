@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "נקסגרד כלב כדורים נגד פרעושים וקרציות 10-25 ק\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32412/",
+ "description": "נקסגרד כלב כדורים נגד פרעושים וקרציות 10-25 ק\"ג מציע פתרון מהיר ויעיל למניעת פרעושים וקרציות אצל כלבים במשקל המתאים. הפרעושים והקרציות עלולים לגרום לגירודים, אי נוחות ואף למחלות – ולכן חשוב לפעול בזמן. \n הכדורים ניתנים בקלות ותחילת הפעולה שלהם מהירה, כך שתוכל להגן על הכלב שלך ולשמור עליו רגוע ונקי מהטפילים. בחר במוצר הזה כדי לקבל טיפול ממוקד ונוח שמתאים בדיוק למשקל הכלב שלך, בלי סיבוכים מיותרים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/D7A0D7A7D7A1D792D790D7A8D793-D79CD79BD79CD791-10-25-D7A7D792.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a0%d7%a7%d7%a1%d7%92%d7%a8%d7%93-%d7%9b%d7%9c%d7%91-%d7%9b%d7%93%d7%95%d7%a8%d7%99%d7%9d-%d7%a0%d7%92%d7%93-%d7%a4%d7%a8%d7%a2%d7%95%d7%a9%d7%99%d7%9d-%d7%95%d7%a7%d7%a8%d7%a6%d7%99%d7%95%d7%aa-10?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "209.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32412",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32412%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32412",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

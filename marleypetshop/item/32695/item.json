@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "פרמיו שימור לחתולים 170 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32695/",
+ "description": "Premio Super Gold טונה עם אפונה הוא מזון לח לחתולים. הפחית מכילה בשר טונה אדום בג׳לי עם תוספת אפונה, משקלה 170 גרם והיא מסומנת לגיל 12 חודשים ומעלה. מגישים בטמפרטורת החדר ובכמות המתאימה לתפריט היומי, ושומרים שארית מכוסה במקרר לפי הוראות היצרן.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/vOEPdv.png",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a4%d7%a8%d7%9e%d7%99%d7%95-%d7%a9%d7%99%d7%9e%d7%95%d7%a8-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-170-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "7.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32695",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32695%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32695",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

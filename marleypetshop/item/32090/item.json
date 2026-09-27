@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כדורי ויטמינים ומינרלים 120 גרם לתוכים קטנים ריו",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32090/",
+ "description": "כדורי ויטמינים ומינרלים 120 גרם לתוכים קטנים ריו הם לא רק תוספת תזונתית, אלא גם דרך נהדרת לשלב פעילות ומשחק בשגרת היום של התוכי שלכם. הכדורים מעודדים את התוכי לפרוק אנרגיה בצורה חיובית, ומעניקים לו תעסוקה שמונעת שעמום והתנהגויות לא רצויות. \n ניתן להניח את הכדורים בתוך האזור בו התוכי משחק בבית או בחוץ, והם יהפכו לחלק מהמשחק והאתגר היומי שלו. כך אתם מבטיחים לו הנאה משולבת עם הטבות בריאותיות, ותוכלו ליהנות מתוכי פעיל ומאושר.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/kdvry-vytmynym-vmynrlym-ltvkym-ktnym-ryv-1200x1200-1.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%9b%d7%93%d7%95%d7%a8%d7%99-%d7%95%d7%99%d7%98%d7%9e%d7%99%d7%a0%d7%99%d7%9d-%d7%95%d7%9e%d7%99%d7%a0%d7%a8%d7%9c%d7%99%d7%9d-120-%d7%92%d7%a8%d7%9d-%d7%9c%d7%aa%d7%95%d7%9b%d7%99%d7%9d-%d7%a7?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "49.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32090",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32090%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32090",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

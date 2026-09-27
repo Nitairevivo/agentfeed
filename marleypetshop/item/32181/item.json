@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מונג כלב דיאבטיק רפואי סוכרת 2 ק\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32181/",
+ "description": "מונג כלב דיאבטיק רפואי סוכרת 2 ק\"ג הוא מזון מיוחד לכלבים עם סוכרת, שמתאים בדיוק לצרכים הבריאותיים שלהם. המזון הזה עוזר לשמור על רמות סוכר מאוזנות ומקל על הטיפול היומי, כך שהכלב שלכם ירגיש טוב יותר ויחיה בנוחות. \n הפורמולה מותאמת לעיכול קל ונוח, מה שמבטיח שהכלב יקבל את כל הערכים התזונתיים החשובים בלי להעמיס על מערכת העיכול. אם אתם מחפשים פתרון מזון יומיומי שיסייע לטפל במצב הרפואי של הכלב, זהו המוצר שיעשה את ההבדל.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/d2fe43d2b0a63c0d9dd9d17fe5135cd3.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "מונג' | monge"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9b%d7%9c%d7%91-%d7%93%d7%99%d7%90%d7%91%d7%98%d7%99%d7%a7-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%a1%d7%95%d7%9b%d7%a8%d7%aa-2-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "119.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32181",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32181%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32181",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

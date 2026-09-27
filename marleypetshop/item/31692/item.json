@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "הילס כלב מיני 1 ק\"ג Z/D",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/31692/",
+ "description": "הילס כלב מיני 1 ק\"ג Z/D הוא מזון רפואי שמיועד במיוחד לכלבים עם רגישויות ואלרגיות. אם הכלב שלכם סובל מבעיות עיכול או תגובות לא רצויות למזון רגיל, כאן יש פתרון שמקל עליו ומסייע לשמור על בריאותו. \n המזון בנוי כך שיקל על מערכת העיכול ויהיה נוח לאכילה גם לכלבים קטנים או בררנים. הוא מספק את כל מה שהכלב צריך, בלי לחמם את הבטן או לגרום לאי נוחות. בקיצור, זה מזון שמאפשר לכם להאכיל את הכלב בלי דאגות, עם שקט נפשי שהוא מקבל את הטוב ביותר.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-94-d7-99-d7-9c-d7-a1-d7-9b-d7-9c-d7-91-d7-9e-d7-99-d7-a0-d7-99-1-d7-a7-d7-92-z-d-1200x1200-1.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "הילס | Hills"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%9b%d7%9c%d7%91-%d7%9e%d7%99%d7%a0%d7%99-1-%d7%a7%d7%92-z-d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "119.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "31692",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31692%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31692",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

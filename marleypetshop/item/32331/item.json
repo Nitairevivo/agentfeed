@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "משאבת אויר 1 יציאה PP200 אטמן",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32331/",
+ "description": "משאבת אוויר Atman PP200. משאבת אוויר חיצונית לאקווריום Atman PP200 עם יציאת אוויר אחת, לפי שם המוצר. על האריזה מופיע כפתור לכיוון הדרגתי של העוצמה. משתמשים לפי הוראות היצרן ובוחנים התאמה לבעל החיים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/78649be1f55901ab2dffda14d60c84c7.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%9e%d7%a9%d7%90%d7%91%d7%aa-%d7%90%d7%95%d7%99%d7%a8-1-%d7%99%d7%a6%d7%99%d7%90%d7%94-pp200-%d7%90%d7%98%d7%9e%d7%9f?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "99.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32331",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32331%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32331",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "רויאל קנין כלב סטאייטי מגזע קטן רפואי 3 ק\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32974/",
+ "description": "רויאל קנין כלב סטאייטי מגזע קטן רפואי 3 ק\"ג מיועד במיוחד לכלבים קטנים עם צרכים תזונתיים רפואיים. אם הכלב שלך רגיש למזון רגיל או נמצא בטיפול רפואי שמחייב דיאטה מותאמת, המזון הזה יעזור לו לקבל את התזונה המדויקת שהוא זקוק לה. \n המזון פותח בטעמים שמושכים כל כלב קטן, ומקל על העיכול כדי לשמור על בריאות מערכת העיכול שלו. בנוסף, הגודל והמרקם מותאמים במיוחד לגזעים קטנים, מה שהופך את האכילה לנוחה ונטולת מאמץ גם בשגרה היומית.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/rvyal-knyn-klb-stayyty-mgza-ktn-rpvay-3-k-g-1200x1200-1.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "רויאל קנין | Royal Canin"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9b%d7%9c%d7%91-%d7%a1%d7%98%d7%90%d7%99%d7%99%d7%98%d7%99-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-3?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "219.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32974",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32974%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32974",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

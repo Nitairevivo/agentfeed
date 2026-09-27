@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "סימפל סולושן מנקה כתמים וריחות לכלבים 750 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33319/",
+ "description": "סימפל סולושן מנקה כתמים וריחות לכלבים מיועד לניקוי אזורים שהתלכלכו בבית. תכולת האריזה 750 גרם; יש לבדוק התאמה למשטח ולפעול לפי הוראות היצרן.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/ce16faa6a1dbf64face81e8f60a3f8e3f7bebbd9.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a1%d7%99%d7%9e%d7%a4%d7%9c-%d7%a1%d7%95%d7%9c%d7%95%d7%a9%d7%9f-%d7%9e%d7%a0%d7%a7%d7%94-%d7%9b%d7%aa%d7%9e%d7%99%d7%9d-%d7%95%d7%a8%d7%99%d7%97%d7%95%d7%aa-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-75?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "89.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "33319",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33319%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33319",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

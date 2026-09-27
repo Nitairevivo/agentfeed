@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "נוזל ניקוי אוזניים לכלבים 50 מ\"ל",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32052/",
+ "description": "נוזל ניקוי אוזניים לכלבים 50 מ\"ל הוא הפתרון המושלם לשמירה על ניקיון האוזניים של הכלב שלך בקלות ובמהירות. הנוזל מסייע להסרת לכלוך ושרידי אבק שמצטברים, וכך מונע מצבים לא נעימים כמו ריחות לא טובים. \n השימוש בנוזל פשוט ונוח, מתאים לשגרה היומיומית או השבועית, ומאפשר לך לטפל באוזניים של הכלב בלי ללכלך את הידיים. זה מוצר מעשי שיחסוך לך זמן ויעזור לשמור על תחושת רעננות וניקיון לאורך זמן.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/nvzl-nykvy-avznyym-lklbym-l-1200x1200-1.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a0%d7%95%d7%96%d7%9c-%d7%a0%d7%99%d7%a7%d7%95%d7%99-%d7%90%d7%95%d7%96%d7%a0%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-50-%d7%9e%d7%9c?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "59.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32052",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32052%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32052",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

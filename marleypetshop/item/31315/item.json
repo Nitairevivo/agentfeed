@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אבן גיר בטעם תפוח 190 גרם לציפורים ויטפול",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/31315/",
+ "description": "אבן גיר בטעם תפוח 190 גרם לציפורים ויטפול היא הפתרון המושלם לשמירה על בריאות הציפור שלך. האבן מועשרת בסידן, מה שעוזר לחזק את העצמות ולהבטיח תזונה מאוזנת לאורך כל שלבי החיים. הטעם הטבעי של התפוח מעודד את הציפור ללעוס ולהנות, וכך מונע שעמום ומשפר את איכות החיים שלה. \n האבנים מתכלות בקלות, מה שהופך אותן לתוספת מזון נוחה ופשוטה לשימוש בשגרה. במיוחד מתאימה לציפורים קטנות ורגישות שזקוקות לתוספת מינרלים חיונית. עם האבן הזו, אתה מבטיח לציפור שלך גם תזונה עשירה וגם פעילות מהנה שמסייעת לשמור על שיניים ומערכת עיכול תקינה.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/5904479027559.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%90%d7%91%d7%9f-%d7%92%d7%99%d7%a8-%d7%91%d7%98%d7%a2%d7%9d-%d7%aa%d7%a4%d7%95%d7%97-190-%d7%92%d7%a8%d7%9d-%d7%9c%d7%a6%d7%99%d7%a4%d7%95%d7%a8%d7%99%d7%9d-%d7%95%d7%99%d7%98%d7%a4%d7%95%d7%9c?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "25.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "31315",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31315%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31315",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

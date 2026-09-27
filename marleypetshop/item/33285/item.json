@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "תרסיס פרונטליין לכלבים וחתולים 500 מ\"ל",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33285/",
+ "description": "תרסיס פרונטליין לכלבים וחתולים בנפח 500 מ\"ל הוא פתרון מהיר ויעיל נגד פרעושים וקרציות שמטרידים את חיית המחמד שלכם. התרסיס מספק טיפול פשוט ונוח לשימוש, ומגן על הכלב או החתול מפני טפילים הפוגעים בבריאותו ובנוחותו. \n עם נפח של 500 מ\"ל, תוכלו לטפל בכמה חיות לאורך זמן ולהבטיח הגנה מתמשכת. בחרו בתרסיס פרונטליין לטיפול קל ויעיל שישמור על חיית המחמד שלכם נקייה ונעימה.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/D7A4D7A8D795D7A0D798D79CD799D799D79F-D7A1D7A4D7A8D799D799-D7A0D792D793-D7A4D7A8D7A2D795D7A9D799D79D-D79CD79BD79CD791.webp",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%aa%d7%a8%d7%a1%d7%99%d7%a1-%d7%a4%d7%a8%d7%95%d7%a0%d7%98%d7%9c%d7%99%d7%99%d7%9f-500-%d7%9e%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%95%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "249.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "33285",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33285%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33285",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

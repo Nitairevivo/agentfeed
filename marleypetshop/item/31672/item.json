@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "הילס GI BIOME משקל 1.5 ק\"ג כלב",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/31672/",
+ "description": "הילס GI BIOME משקל 1.5 ק\"ג כלב הוא מזון רפואי שמיועד במיוחד לכלבים עם רגישויות במערכת העיכול. אם הכלב שלכם סובל מעיכול קשה או בעיות בקיבה, המזון הזה יסייע לאזן את המיקרוביום הטבעי שלו ולשפר את עיכול המזון יום יום. \n המזון קל לעיכול ומגיע בטעם שקשה לסרב לו, כך שגם כלבים בררנים יאהבו אותו. בנוסף, הוא מתאים לשימוש בשגרה, מה שמקל עליכם להבטיח שהחבר הכי טוב שלכם מקבל את התזונה המדויקת שהוא צריך בלי סיבוכים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/e2389b42301b5c4cfddd4064fd4d91f7.png",
+ "brand": {
+  "@type": "Brand",
+  "name": "הילס | Hills"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%94%d7%99%d7%9c%d7%a1-gi-biome-%d7%9e%d7%a9%d7%a7%d7%9c-1-5-%d7%a7%d7%92-%d7%9b%d7%9c%d7%91?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "129.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "31672",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31672%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31672",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

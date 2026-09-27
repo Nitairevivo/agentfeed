@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-25T08:15:52+00:00",
+  "updated": "2026-09-27T11:33:58+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -16,6 +16,12 @@
       "businesses": 3
     },
     {
+      "slug": "pets",
+      "name": "חיות מחמד",
+      "url": "https://nitairevivo.github.io/agentfeed/c/pets/",
+      "businesses": 3
+    },
+    {
       "slug": "health",
       "name": "בריאות ורפואה",
       "url": "https://nitairevivo.github.io/agentfeed/c/health/",
@@ -25,12 +31,6 @@
       "slug": "lodging",
       "name": "אירוח וצימרים",
       "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
-      "businesses": 2
-    },
-    {
-      "slug": "pets",
-      "name": "חיות מחמד",
-      "url": "https://nitairevivo.github.io/agentfeed/c/pets/",
       "businesses": 2
     },
     {
@@ -414,6 +414,34 @@
         "email": "info@MaanArch.com"
       },
       "phone": "052-757-0064"
+    },
+    {
+      "slug": "marleypetshop",
+      "name": "מארלי — חנות חיות אונליין",
+      "official_site": "https://marleypetshop.com",
+      "category": "חיות מחמד",
+      "category_slug": "pets",
+      "region": "",
+      "areas": [],
+      "items": 2229,
+      "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+      "products": "https://nitairevivo.github.io/agentfeed/marleypetshop/products.jsonl",
+      "updated": "2026-09-27T11:24:29+00:00",
+      "unknown": [
+        "משלוחים — עלות וזמן אספקה טרם נקראו מהאתר",
+        "החזרות — מדיניות ההחזרה טרם נקראה מהאתר",
+        "אזורי שירות — לא פורסם לאן החנות שולחת",
+        "שעות שירות לקוחות — לא פורסמו"
+      ],
+      "ordering": {
+        "method": "online",
+        "evidence": "woo carries its own checkout",
+        "payment_taken_by": "the business, on its own site",
+        "cart_links": true,
+        "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
+      },
+      "contact": {},
+      "phone": ""
     },
     {
       "slug": "mashkanta-online",
@@ -892,74 +920,130 @@
   ],
   "comparisons": [
     {
-      "slug": "dog-dry-food",
-      "name": "מזון יבש לכלבים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/",
-      "items": 172,
-      "businesses": 1
+      "slug": "toys",
+      "name": "משחקים וצעצועים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/",
+      "items": 305,
+      "businesses": 2
+    },
+    {
+      "slug": "grooming",
+      "name": "שמפו וטיפוח",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/",
+      "items": 194,
+      "businesses": 4
+    },
+    {
+      "slug": "wet-food",
+      "name": "מזון רטוב ושימורים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/wet-food/",
+      "items": 191,
+      "businesses": 2
+    },
+    {
+      "slug": "wet-food/under-50",
+      "name": "מזון רטוב ושימורים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/wet-food/under-50/",
+      "items": 185,
+      "businesses": 2
     },
     {
       "slug": "health",
       "name": "טיפול רפואי ותוספים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/health/",
-      "items": 141,
+      "items": 180,
+      "businesses": 3
+    },
+    {
+      "slug": "dog-dry-food",
+      "name": "מזון יבש לכלבים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/",
+      "items": 175,
+      "businesses": 2
+    },
+    {
+      "slug": "toys/50-150",
+      "name": "משחקים וצעצועים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/50-150/",
+      "items": 153,
+      "businesses": 2
+    },
+    {
+      "slug": "toys/under-50",
+      "name": "משחקים וצעצועים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/under-50/",
+      "items": 143,
       "businesses": 2
     },
     {
       "slug": "cat-dry-food",
       "name": "מזון יבש לחתולים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/",
-      "items": 130,
-      "businesses": 1
-    },
-    {
-      "slug": "grooming",
-      "name": "שמפו וטיפוח",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/",
-      "items": 117,
-      "businesses": 3
-    },
-    {
-      "slug": "toys",
-      "name": "משחקים וצעצועים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/",
-      "items": 116,
-      "businesses": 1
-    },
-    {
-      "slug": "dog-dry-food/150-300",
-      "name": "מזון יבש לכלבים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/150-300/",
-      "items": 89,
-      "businesses": 1
+      "items": 131,
+      "businesses": 2
     },
     {
       "slug": "dog-treats",
       "name": "חטיפים ומעדנים לכלבים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/dog-treats/",
-      "items": 79,
-      "businesses": 1
+      "items": 117,
+      "businesses": 2
     },
     {
-      "slug": "toys/50-150",
-      "name": "משחקים וצעצועים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/50-150/",
-      "items": 72,
-      "businesses": 1
-    },
-    {
-      "slug": "dog-treats/under-50",
-      "name": "חטיפים ומעדנים לכלבים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-treats/under-50/",
-      "items": 70,
-      "businesses": 1
+      "slug": "walking",
+      "name": "רצועות, רתמות וקולרים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/",
+      "items": 116,
+      "businesses": 4
     },
     {
       "slug": "grooming/50-150",
       "name": "שמפו וטיפוח",
       "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/50-150/",
+      "items": 110,
+      "businesses": 2
+    },
+    {
+      "slug": "dog-treats/under-50",
+      "name": "חטיפים ומעדנים לכלבים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-treats/under-50/",
+      "items": 104,
+      "businesses": 2
+    },
+    {
+      "slug": "dog-dry-food/150-300",
+      "name": "מזון יבש לכלבים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/150-300/",
+      "items": 91,
+      "businesses": 2
+    },
+    {
+      "slug": "beds",
+      "name": "מיטות, מזרנים ומשטחים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/",
+      "items": 85,
+      "businesses": 2
+    },
+    {
+      "slug": "grooming/under-50",
+      "name": "שמפו וטיפוח",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/under-50/",
+      "items": 77,
+      "businesses": 2
+    },
+    {
+      "slug": "aquarium",
+      "name": "אקווריומים וציוד לדגים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/",
+      "items": 72,
+      "businesses": 2
+    },
+    {
+      "slug": "cages",
+      "name": "כלובים, מנשאים וכלוב הובלה",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/cages/",
       "items": 66,
-      "businesses": 1
+      "businesses": 2
     },
     {
       "slug": "cat-dry-food/50-150",
@@ -969,32 +1053,25 @@
       "businesses": 1
     },
     {
-      "slug": "wet-food",
-      "name": "מזון רטוב ושימורים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/wet-food/",
-      "items": 58,
-      "businesses": 1
+      "slug": "health/50-150",
+      "name": "טיפול רפואי ותוספים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/health/50-150/",
+      "items": 55,
+      "businesses": 2
     },
     {
-      "slug": "cages",
-      "name": "כלובים, מנשאים וכלוב הובלה",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/cages/",
-      "items": 56,
-      "businesses": 1
+      "slug": "beds/150-300",
+      "name": "מיטות, מזרנים ומשטחים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/150-300/",
+      "items": 51,
+      "businesses": 2
     },
     {
-      "slug": "wet-food/under-50",
-      "name": "מזון רטוב ושימורים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/wet-food/under-50/",
-      "items": 56,
-      "businesses": 1
-    },
-    {
-      "slug": "aquarium",
-      "name": "אקווריומים וציוד לדגים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/",
-      "items": 50,
-      "businesses": 1
+      "slug": "health/over-300",
+      "name": "טיפול רפואי ותוספים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/health/over-300/",
+      "items": 51,
+      "businesses": 3
     },
     {
       "slug": "cat-dry-food/150-300",
@@ -1007,43 +1084,36 @@
       "slug": "dog-dry-food/50-150",
       "name": "מזון יבש לכלבים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/50-150/",
-      "items": 49,
-      "businesses": 1
+      "items": 50,
+      "businesses": 2
     },
     {
-      "slug": "grooming/under-50",
-      "name": "שמפו וטיפוח",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/under-50/",
-      "items": 45,
-      "businesses": 1
+      "slug": "walking/50-150",
+      "name": "רצועות, רתמות וקולרים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/50-150/",
+      "items": 47,
+      "businesses": 2
     },
     {
-      "slug": "health/over-300",
+      "slug": "health/150-300",
       "name": "טיפול רפואי ותוספים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/health/over-300/",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/health/150-300/",
       "items": 45,
       "businesses": 2
     },
     {
-      "slug": "walking",
+      "slug": "walking/under-50",
       "name": "רצועות, רתמות וקולרים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/",
-      "items": 45,
+      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/under-50/",
+      "items": 43,
+      "businesses": 2
+    },
+    {
+      "slug": "bowls",
+      "name": "קערות ומתקני מים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/bowls/",
+      "items": 36,
       "businesses": 3
-    },
-    {
-      "slug": "toys/under-50",
-      "name": "משחקים וצעצועים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/under-50/",
-      "items": 42,
-      "businesses": 1
-    },
-    {
-      "slug": "health/50-150",
-      "name": "טיפול רפואי ותוספים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/health/50-150/",
-      "items": 41,
-      "businesses": 1
     },
     {
       "slug": "mezuzah",
@@ -1053,25 +1123,25 @@
       "businesses": 1
     },
     {
-      "slug": "health/150-300",
-      "name": "טיפול רפואי ותוספים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/health/150-300/",
-      "items": 32,
-      "businesses": 1
-    },
-    {
-      "slug": "beds",
-      "name": "מיטות, מזרנים ומשטחים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/",
-      "items": 30,
-      "businesses": 1
-    },
-    {
       "slug": "cages/over-300",
       "name": "כלובים, מנשאים וכלוב הובלה",
       "url": "https://nitairevivo.github.io/agentfeed/compare/cages/over-300/",
+      "items": 32,
+      "businesses": 2
+    },
+    {
+      "slug": "cat-treats",
+      "name": "חטיפים ומעדנים לחתולים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/cat-treats/",
       "items": 30,
-      "businesses": 1
+      "businesses": 2
+    },
+    {
+      "slug": "cat-treats/under-50",
+      "name": "חטיפים ומעדנים לחתולים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/cat-treats/under-50/",
+      "items": 30,
+      "businesses": 2
     },
     {
       "slug": "dog-dry-food/over-300",
@@ -1081,11 +1151,32 @@
       "businesses": 1
     },
     {
+      "slug": "health/under-50",
+      "name": "טיפול רפואי ותוספים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/health/under-50/",
+      "items": 29,
+      "businesses": 2
+    },
+    {
       "slug": "challah",
       "name": "כיסויי חלה ומגשי חלה",
       "url": "https://nitairevivo.github.io/agentfeed/compare/challah/",
       "items": 28,
       "businesses": 1
+    },
+    {
+      "slug": "litter",
+      "name": "חול וארגזי חול",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/litter/",
+      "items": 28,
+      "businesses": 2
+    },
+    {
+      "slug": "aquarium/50-150",
+      "name": "אקווריומים וציוד לדגים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/50-150/",
+      "items": 27,
+      "businesses": 2
     },
     {
       "slug": "candlesticks",
@@ -1095,11 +1186,18 @@
       "businesses": 1
     },
     {
-      "slug": "health/under-50",
-      "name": "טיפול רפואי ותוספים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/health/under-50/",
+      "slug": "aquarium/under-50",
+      "name": "אקווריומים וציוד לדגים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/under-50/",
       "items": 23,
-      "businesses": 1
+      "businesses": 2
+    },
+    {
+      "slug": "cages/150-300",
+      "name": "כלובים, מנשאים וכלוב הובלה",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/cages/150-300/",
+      "items": 22,
+      "businesses": 2
     },
     {
       "slug": "mezuzah/50-150",
@@ -1109,18 +1207,11 @@
       "businesses": 1
     },
     {
-      "slug": "beds/150-300",
-      "name": "מיטות, מזרנים ומשטחים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/150-300/",
-      "items": 20,
-      "businesses": 1
-    },
-    {
-      "slug": "cat-treats",
-      "name": "חטיפים ומעדנים לחתולים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/cat-treats/",
+      "slug": "bowls/under-50",
+      "name": "קערות ומתקני מים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/bowls/under-50/",
       "items": 19,
-      "businesses": 1
+      "businesses": 2
     },
     {
       "slug": "netilat",
@@ -1137,16 +1228,16 @@
       "businesses": 1
     },
     {
+      "slug": "beds/50-150",
+      "name": "מיטות, מזרנים ומשטחים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/50-150/",
+      "items": 18,
+      "businesses": 2
+    },
+    {
       "slug": "kiddush",
       "name": "כוסות וגביעי קידוש",
       "url": "https://nitairevivo.github.io/agentfeed/compare/kiddush/",
-      "items": 18,
-      "businesses": 1
-    },
-    {
-      "slug": "litter",
-      "name": "חול וארגזי חול",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/litter/",
       "items": 18,
       "businesses": 1
     },
@@ -1158,25 +1249,18 @@
       "businesses": 1
     },
     {
-      "slug": "aquarium/50-150",
-      "name": "אקווריומים וציוד לדגים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/50-150/",
+      "slug": "litter/50-150",
+      "name": "חול וארגזי חול",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/litter/50-150/",
       "items": 17,
-      "businesses": 1
-    },
-    {
-      "slug": "cages/150-300",
-      "name": "כלובים, מנשאים וכלוב הובלה",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/cages/150-300/",
-      "items": 17,
-      "businesses": 1
-    },
-    {
-      "slug": "bowls",
-      "name": "קערות ומתקני מים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/bowls/",
-      "items": 16,
       "businesses": 2
+    },
+    {
+      "slug": "walking/150-300",
+      "name": "רצועות, רתמות וקולרים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/150-300/",
+      "items": 17,
+      "businesses": 4
     },
     {
       "slug": "cat-dry-food/over-300",
@@ -1186,24 +1270,17 @@
       "businesses": 1
     },
     {
+      "slug": "aquarium/over-300",
+      "name": "אקווריומים וציוד לדגים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/over-300/",
+      "items": 14,
+      "businesses": 2
+    },
+    {
       "slug": "challah/under-50",
       "name": "כיסויי חלה ומגשי חלה",
       "url": "https://nitairevivo.github.io/agentfeed/compare/challah/under-50/",
       "items": 14,
-      "businesses": 1
-    },
-    {
-      "slug": "walking/under-50",
-      "name": "רצועות, רתמות וקולרים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/under-50/",
-      "items": 14,
-      "businesses": 1
-    },
-    {
-      "slug": "aquarium/over-300",
-      "name": "אקווריומים וציוד לדגים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/over-300/",
-      "items": 13,
       "businesses": 1
     },
     {
@@ -1214,18 +1291,25 @@
       "businesses": 1
     },
     {
-      "slug": "walking/50-150",
-      "name": "רצועות, רתמות וקולרים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/50-150/",
-      "items": 13,
-      "businesses": 1
+      "slug": "bowls/50-150",
+      "name": "קערות ומתקני מים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/bowls/50-150/",
+      "items": 12,
+      "businesses": 3
     },
     {
-      "slug": "aquarium/under-50",
-      "name": "אקווריומים וציוד לדגים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/aquarium/under-50/",
+      "slug": "dog-treats/50-150",
+      "name": "חטיפים ומעדנים לכלבים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-treats/50-150/",
       "items": 12,
-      "businesses": 1
+      "businesses": 2
+    },
+    {
+      "slug": "cages/50-150",
+      "name": "כלובים, מנשאים וכלוב הובלה",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/cages/50-150/",
+      "items": 11,
+      "businesses": 2
     },
     {
       "slug": "challah/50-150",
@@ -1256,18 +1340,18 @@
       "businesses": 1
     },
     {
-      "slug": "walking/150-300",
-      "name": "רצועות, רתמות וקולרים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/150-300/",
-      "items": 10,
-      "businesses": 3
+      "slug": "toys/150-300",
+      "name": "משחקים וצעצועים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/toys/150-300/",
+      "items": 9,
+      "businesses": 2
     },
     {
-      "slug": "cages/50-150",
-      "name": "כלובים, מנשאים וכלוב הובלה",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/cages/50-150/",
+      "slug": "walking/over-300",
+      "name": "רצועות, רתמות וקולרים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/over-300/",
       "items": 9,
-      "businesses": 1
+      "businesses": 2
     },
     {
       "slug": "aquarium/150-300",
@@ -1277,32 +1361,46 @@
       "businesses": 1
     },
     {
-      "slug": "dog-treats/50-150",
-      "name": "חטיפים ומעדנים לכלבים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/dog-treats/50-150/",
-      "items": 8,
-      "businesses": 1
-    },
-    {
-      "slug": "walking/over-300",
-      "name": "רצועות, רתמות וקולרים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/walking/over-300/",
-      "items": 8,
-      "businesses": 1
-    },
-    {
-      "slug": "beds/50-150",
+      "slug": "beds/over-300",
       "name": "מיטות, מזרנים ומשטחים",
-      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/50-150/",
-      "items": 6,
+      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/over-300/",
+      "items": 8,
+      "businesses": 2
+    },
+    {
+      "slug": "beds/under-50",
+      "name": "מיטות, מזרנים ומשטחים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/beds/under-50/",
+      "items": 8,
       "businesses": 1
     },
     {
       "slug": "cat-dry-food/under-50",
       "name": "מזון יבש לחתולים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/under-50/",
+      "items": 7,
+      "businesses": 2
+    },
+    {
+      "slug": "litter/150-300",
+      "name": "חול וארגזי חול",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/litter/150-300/",
       "items": 6,
       "businesses": 1
+    },
+    {
+      "slug": "wet-food/50-150",
+      "name": "מזון רטוב ושימורים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/wet-food/50-150/",
+      "items": 6,
+      "businesses": 2
+    },
+    {
+      "slug": "bowls/150-300",
+      "name": "קערות ומתקני מים",
+      "url": "https://nitairevivo.github.io/agentfeed/compare/bowls/150-300/",
+      "items": 5,
+      "businesses": 2
     },
     {
       "slug": "grooming/150-300",

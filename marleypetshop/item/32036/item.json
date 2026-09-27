@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חתול 1.5 ק''ג T/D",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32036/",
+ "description": "חתול 1.5 ק\"ג T/D הוא מזון רפואי ייעודי לחתולים עם בעיות חניכיים, דלקות או ריח רע מהפה. אם החתול שלכם מתקשה עם פלאק או אבנית, המזון הזה יעזור לנקות את השיניים ואת קו החניכיים, כך שתוכלו להרגיש בטוחים בבריאות הפה שלו. \n המזון מותאם במיוחד לחתולים הזקוקים לטיפול מיוחד בפה, והוא מסייע להפחתת פלאק בצורה מוכחת קלינית. בנוסף, הוא נוח לאכילה ומשלב טעם שמושך גם את החתולים הקשוחים ביותר, כך שתוכלו לשלב אותו בקלות בשגרה היומית.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/D794D799D79CD7A1-TD-D797D7AAD795D79C.png",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%97%d7%aa%d7%95%d7%9c-1-5-%d7%a7%d7%92-t-d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "129.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32036",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32036%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32036",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

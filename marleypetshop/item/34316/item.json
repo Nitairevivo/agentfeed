@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "2 שקי מונג' היפואלרגני 12 ק\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/34316/",
+ "description": "מזון יבש מלא ואיכותי מבית   Monge  , המיועד לכלבים הסובלים מרגישויות או אלרגיות למזון. הפורמולה ההיפואלרגנית מבוססת על רכיבים נבחרים בקפידה, המסייעים להפחתת תגובות אלרגיות ולשמירה על בריאות כללית מיטבית. \n ⭐ יתרונות: \n \n פורמולה היפואלרגנית – מתאימה לכלבים עם רגישויות \n רכיבים איכותיים וקלים לעיכול \n מסייע בשמירה על עור בריא והפחתת גירויים \n תומך בפרווה מבריקה ובריאה \n מחזק את מערכת החיסון \n ללא צבעי מאכל וללא חומרים משמרים",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/2-d7-a9-d7-a7-d7-99-d7-9e-d7-95-d7-a0-d7-92-d7-94-d7-99-d7-a4-d7-95-d7-90-d7-9c-d7-a8-d7-92-d7-a0-d7-99-12-d7-a7-d7-92-1200x1200-1.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/2-%d7%a9%d7%a7%d7%99-%d7%9e%d7%95%d7%a0%d7%92-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-12-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "529.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "34316",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D34316%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=34316",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

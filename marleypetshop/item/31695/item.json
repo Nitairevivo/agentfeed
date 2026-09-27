@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "הילס כלב סנסטיב 4 ק\"ג i/d",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/31695/",
+ "description": "הילס כלב סנסטיב 4 ק\"ג i/d הוא מזון רפואי שמיועד במיוחד לכלבים עם מערכת עיכול רגישה. אם הכלב שלך סובל מעיכול לא תקין או רגישויות במערכת העיכול, המזון הזה יעזור להפחית את הגירויים ולהקל על תהליך העיכול. \n המזון קל לעיכול ומכיל רכיבים שמסייעים לשמור על בריאות מערכת העיכול לאורך זמן. הטעם שלו מתאים לכלבים בררניים, כך שהאכילה תהיה נוחה וללא מאבק, גם אם הכלב שלך רגיל לאכול רק מזון מסוים. מומלץ לשלב אותו בשגרה כדי לשמור על נוחות ותפקוד תקין של העיכול.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/i-d-d7-94-d7-99-d7-9c-d7-a1-d7-9b-d7-9c-d7-91-1-5-d7-a7-d7-92-1200x1200-1.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "הילס | Hills"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%9b%d7%9c%d7%91-%d7%a1%d7%a0%d7%a1%d7%98%d7%99%d7%91-4-%d7%a7%d7%92-i-d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "279.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "31695",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31695%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31695",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

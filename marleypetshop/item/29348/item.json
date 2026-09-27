@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "שמן סלמון לכלבים וחתולים 500 מ\"ל",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29348/",
+ "description": "שמן סלמון לכלבים וחתולים 500 מ\"ל  הוא תוסף תזונה נוזלי שמוסיפים למזון, עשיר בחומצות שומן חיוניות כמו אומגה 3 ו-6, ומתאים לשילוב בשגרת תזונה של כלבים וחתולים. \n מתאים לבעלים שרוצים לטפל באופן קבוע ומבוקר, תוך התאמה לגיל, מצב בריאותי, רגישויות והנחיות שימוש נכונות.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/02/4005784010418_24062023220502.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a9%d7%9e%d7%9f-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%95%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-500-%d7%9e%d7%9c?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "109.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "29348",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29348%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29348",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

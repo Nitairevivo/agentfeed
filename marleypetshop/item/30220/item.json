@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מעדן 'גורמה גולד' פנסי נתחי עוף וכבד 85 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30220/",
+ "description": "מעדן 'גורמה גולד' פנסי נתחי עוף וכבד 85 גרם הוא מזון רטוב של Gourmet Gold Fancy Feast לחתולים, במרקם נתחים ובטעם עוף וכבד, באריזת 85 גרם. יש לבדוק אם הוא מזון מלא או משלים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/02/8445290776587_04072023123028.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%92%d7%95%d7%a8%d7%9e%d7%94-%d7%92%d7%95%d7%9c%d7%93-%d7%a4%d7%a0%d7%a1%d7%99-%d7%a0%d7%aa%d7%97%d7%99-%d7%a2%d7%95%d7%a3-%d7%95%d7%9b%d7%91%d7%93-85-%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "5.90",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "30220",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30220%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30220",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

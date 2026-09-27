@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "רויאל קנין כלב שימורים גסטרו 400 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33500/",
+ "description": "רויאל קנין כלב שימורים גסטרו 400 גרם מתאים במיוחד לכלבים עם מערכת עיכול רגישה או לאחר מחלות. אם הכלב שלך סובל מקשיי עיכול או מצריך תזונה מותאמת, כאן יש פתרון שמקל עליו ומעניק לו את כל מה שהוא צריך בלי סיבוכים. \n השימורים מגיעים במרקם גס שמקל על האכילה ומעודד את הכלב לאכול בשגרה, גם כשאין לו תיאבון גדול. הטעם המותאם לעיכול רך תורם לשיפור מצב הרוח והבריאות של הכלב שלך, בלי להכביד על הקיבה. בקיצור, המנה הזו עושה את החיים שלכם יחד פשוטים ובריאים יותר.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a8-d7-95-d7-99-d7-90-d7-9c-d7-a7-d7-a0-d7-99-d7-9f-d7-9b-d7-9c-d7-91-d7-a9-d7-99-d7-9e-d7-95-d7-a8-d7-99-d7-9d-d7-92-d7-a1-d7-98-d7-a8-d7-95-400-d7-92-d7-a8-d7-9d-1200x1200-1.png",
+ "brand": {
+  "@type": "Brand",
+  "name": "רויאל קנין | Royal Canin"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9b%d7%9c%d7%91-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%92%d7%a1%d7%98%d7%a8%d7%95-400-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "25.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "33500",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33500%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33500",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

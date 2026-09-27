@@ -1,0 +1,7 @@
+{
+ "method": "online",
+ "evidence": "woo carries its own checkout",
+ "payment_taken_by": "the business, on its own site",
+ "cart_links": true,
+ "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
+}

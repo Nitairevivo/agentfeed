@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "סימפריקה 1.3-2.5 ק\"ג לכלבים במשקל 5 מ\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32464/",
+ "description": "סימפריקה 1.3-2.5 ק\"ג לכלבים במשקל 5 מ\"ג היא הפתרון שלך להגנה מהירה ויעילה מפני פרעושים וקרציות. אם כלבך סובל מהפרעות עקיצות או שאתה רוצה למנוע אותן מראש, הכדור הלעיס הזה מפסיק את ההדבקה ומונע התפתחות טפילים. \n הטיפול פשוט ונוח – מנה אחת בחודש ותוכל להרגיש בטוח שכלבך מוגן. סימפריקה מתאימה במיוחד לכלבים במשקל 1.3 עד 2.5 ק\"ג, כך שתוכל לתת את המינון המדויק בלי חשש. בחר במוצר הזה עכשיו וקבל הגנה אמינה בלי להתעסק עם תכשירים מורכבים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a1-d7-99-d7-9e-d7-a4-d7-a8-d7-99-d7-a7-d7-94-1-3-2-5-d7-a7-d7-92-d7-9c-d7-9b-d7-9c-d7-91-d7-99-d7-9d-d7-91-d7-9e-d7-a9-d7-a7-d7-9c-5-d7-9e-d7-92-1200x1200-1.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a1%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%a7%d7%94-1-3-2-5-%d7%a7%d7%92-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%9e%d7%a9%d7%a7%d7%9c-5-%d7%9e%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "149.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32464",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32464%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32464",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

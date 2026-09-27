@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אמפט משטח ליקוק אדום לחתול וכלב 15 ס\"מ",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/31436/",
+ "description": "M‑PETS LECCAMAT אדום במידה S ובגודל 15×15 ס״מ, לכלבים ולחתולים. כולל אזורי מרקם וכוסיות הצמדה ומתאים למזון רטוב או יבש.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/EIdLd.png",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%90%d7%9e%d7%a4%d7%98-%d7%9e%d7%a9%d7%98%d7%97-%d7%9c%d7%99%d7%a7%d7%95%d7%a7-%d7%90%d7%93%d7%95%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%95%d7%9b%d7%9c%d7%91-15-%d7%a1%d7%9e?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "35.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "31436",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31436%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31436",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

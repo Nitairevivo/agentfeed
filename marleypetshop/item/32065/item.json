@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "יורינרי לחתול 3.5 ק\"ג רויאל קנין",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32065/",
+ "description": "יורינרי לחתול 3.5 ק\"ג של רויאל קנין הוא פתרון יעיל לחתולים בוגרים עם בעיות בדרכי השתן. אם הבחנתם שהחתול שלכם מתמודד עם תדירות גבוהה במתן שתן או עם אי נוחות במערכת השתן, המזון הזה יסייע לשפר את בריאותו באופן טבעי. \n המזון מותאם במיוחד לחתולים הזקוקים לדיאטה רפואית מיוחדת. הוא מכיל אחוז גבוה של חלבון לשמירה על מסת השריר ושומנים מאוזנים לנוחות בעיכול, כך שהחתול יקבל את כל הדרוש מבלי לוותר על הטעם. נוחות ההאכלה מאפשרת לשלב אותו בקלות בשגרה ולהבטיח טיפול מיטבי בבריאות החתול.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/yvrynry-lhtvl-3-5-k-g-rvyal-knyn-1200x1200-1.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "רויאל קנין | Royal Canin"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%99%d7%95%d7%a8%d7%99%d7%a0%d7%a8%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-3-5-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "249.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32065",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32065%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32065",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

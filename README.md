@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 19 businesses, 164 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 20 businesses, 168 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-19 עסקים · 2753 פריטים
+20 עסקים · 4982 פריטים
 
 ## שירותים לעסקים
 
@@ -29,6 +29,18 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[משכנתא אונליין](https://nitairevivo.github.io/agentfeed/mashkanta-online/)** — 60 פריטים  
   מגזין משכנתאות עם מחשבון  
   אתר העסק: https://mashkanta.online
+
+## חיות מחמד
+
+- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2180 פריטים  
+  חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
+  אתר העסק: https://closetonature.co.il/
+- **[מארלי — חנות חיות אונליין](https://nitairevivo.github.io/agentfeed/marleypetshop/)** — 2229 פריטים  
+  חנות חיות אונליין — מזון, ציוד ואביזרים לחיות מחמד  
+  אתר העסק: https://marleypetshop.com
+- **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  
+  בוטיק ישראלי לאקססוריז ואופנה לכלבים ולחתולים, בתפירה ובעיצוב אישיים, לצד בית גידול לסאלוקי הפעיל מ-2008 באליע  
+  אתר העסק: https://www.facebook.com/share/1DPWUc5EMZ/
 
 ## בריאות ורפואה
 
@@ -47,15 +59,6 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[צוקייה](https://nitairevivo.github.io/agentfeed/tsukia/)** — 1 פריטים · רמת הגולן  
   דירת אירוח בחד נס שברמת הגולן  
   אתר העסק: https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86
-
-## חיות מחמד
-
-- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2180 פריטים  
-  חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
-  אתר העסק: https://closetonature.co.il/
-- **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  
-  בוטיק ישראלי לאקססוריז ואופנה לכלבים ולחתולים, בתפירה ובעיצוב אישיים, לצד בית גידול לסאלוקי הפעיל מ-2008 באליע  
-  אתר העסק: https://www.facebook.com/share/1DPWUc5EMZ/
 
 ## שירותים דיגיטליים
 

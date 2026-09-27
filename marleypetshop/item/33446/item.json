@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "כלוב אילוף 107 ס\"מ",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33446/",
+ "description": "כלוב אילוף באורך 107 ס״מ מספק לכלב אזור תחום בבית או בנסיעה, כאשר הוא מתאים למידותיו. הכלוב אינו אמצעי ענישה ויש להרגיל אליו בהדרגה ובאופן חיובי.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-9b-d7-9c-d7-95-d7-91-d7-90-d7-99-d7-9c-d7-95-d7-a3-107-d7-a1-d7-9e-2-1200x1200-1.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%9b%d7%9c%d7%95%d7%91-%d7%90%d7%99%d7%9c%d7%95%d7%a3-107-%d7%a1%d7%9e-2?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "339.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "33446",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33446%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33446",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

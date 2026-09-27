@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "רויאל קנין כלב גסטרו 2 ק\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32965/",
+ "description": "רויאל קנין כלב גסטרו 2 ק\"ג מיועד במיוחד לכלבים עם בעיות עיכול או רגישויות במערכת העיכול. אם הכלב שלך סובל מתת ספיגה או מעיכול קשה, המזון הזה יעזור לו להרגיש טוב יותר בכל ארוחה. \n הפורמולה מתוכננת לנוחות עיכול מרבית, עם רכיבים שמקלים על מערכת העיכול ונותנים מענה מדויק לצרכים הבריאותיים. בנוסף, הטעם מותאם כך שגם כלבים בררניים יאהבו לאכול וליהנות מהארוחה שלהם.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/3182550771054_04092023112204.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "רויאל קנין | Royal Canin"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9b%d7%9c%d7%91-%d7%92%d7%a1%d7%98%d7%a8%d7%95-2-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "159.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32965",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32965%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32965",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

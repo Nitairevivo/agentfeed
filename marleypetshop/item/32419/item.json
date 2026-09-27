@@ -1,0 +1,55 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "נקסטגארד ספקטרה כלב 7.5-15 ק''ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32419/",
+ "description": "נקסטגארד ספקטרה כלב 7.5-15 ק\"ג עוזר להגן על הכלב מפני פרעושים וקרציות בצורה פשוטה ונוחה. אם אתם מחפשים פתרון מהיר שיגן על חברכם הטוב לאורך זמן, זה המוצר בשבילכם. \n טבליה בטוחה לנטילה, שמתחילה לפעול במהירות ומסייעת במניעת התקפות חרקים. בחרו בנקסטגארד ספקטרה כדי לשמור על הכלב נקי ומוגן מבלי לסבול מטיפולים חיצוניים מסובכים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/Nex_Gard_7.6-15.webp",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a0%d7%a7%d7%a1%d7%98%d7%92%d7%90%d7%a8%d7%93-%d7%a1%d7%a4%d7%a7%d7%98%d7%a8%d7%94-%d7%9b%d7%9c%d7%91-7-5-15-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — חנות חיות אונליין",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "249.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "אמצעי תשלום",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "32419",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — חנות חיות אונליין"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32419%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32419",
+  "name": "cart"
+ },
+ "retrieved": "2026-09-27",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}
