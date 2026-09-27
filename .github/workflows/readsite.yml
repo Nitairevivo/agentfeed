@@ -67,7 +67,7 @@ jobs:
           import re
           import time
           from pathlib import Path
-          from urllib.parse import urljoin, urlparse
+          from urllib.parse import unquote, urljoin, urlparse
 
           from playwright.sync_api import sync_playwright
 
@@ -80,6 +80,15 @@ jobs:
           # The owner's own back office is not ours to walk through, and a
           # file is not a page.
           SKIP = re.compile(r"/(admin|wp-admin|login|cart|checkout|account)(/|$)", re.I)
+          # A link can act, not only lead somewhere. "?add-to-cart=" puts an
+          # item in a real shop's cart and "?wc-quick-buy-now=" opens its
+          # checkout with that item in it — on 27.9 this reader did both on
+          # marleypetshop.com. And a Hebrew shop names its checkout, cart and
+          # account pages in Hebrew, which the pattern above cannot see.
+          ACTS = re.compile(r"[?&](add-to-cart|add_to_cart|wc-quick-buy-now|"
+                            r"remove_item|undo_item|quantity|wc-ajax|action)=", re.I)
+          HEB = re.compile(r"/(תשלום|קופה|עגלה|עגלת-קניות|סל-קניות|החשבון-שלי|"
+                           r"התחברות|הרשמה)([/?]|$)")
           FILE = re.compile(r"\.(jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|mp3|css|js|ico)$", re.I)
 
 
@@ -133,7 +142,8 @@ jobs:
               seen, queue, pages = set(), [base], []
               while queue and len(pages) < cap:
                   url = queue.pop(0)
-                  if url in seen or SKIP.search(url) or FILE.search(url):
+                  if (url in seen or SKIP.search(url) or FILE.search(url)
+                          or ACTS.search(url) or HEB.search(unquote(url))):
                       continue
                   seen.add(url)
                   try:
