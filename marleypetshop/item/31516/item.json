@@ -17,28 +17,6 @@
   "priceCurrency": "ILS",
   "availability": "https://schema.org/InStock"
  },
- "additionalProperty": [
-  {
-   "@type": "PropertyValue",
-   "name": "משלוח",
-   "value": "not-stated"
-  },
-  {
-   "@type": "PropertyValue",
-   "name": "זמן אספקה",
-   "value": "not-stated"
-  },
-  {
-   "@type": "PropertyValue",
-   "name": "החזרות וביטול",
-   "value": "not-stated"
-  },
-  {
-   "@type": "PropertyValue",
-   "name": "אמצעי תשלום",
-   "value": "not-stated"
-  }
- ],
  "identifier": "31516",
  "isPartOf": {
   "@type": "WebPage",
@@ -50,6 +28,7 @@
   "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31516%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31516",
   "name": "cart"
  },
+ "seller_phone": "050-235-2985",
  "retrieved": "2026-09-27",
  "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
 }
