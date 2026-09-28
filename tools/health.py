@@ -195,6 +195,12 @@ def main() -> int:
                                                     ensure_ascii=False))
         print("  arrivals.days: " + json.dumps(arr.get("days") or {},
                                                ensure_ascii=False))
+        # Refused at the door (the Singapore fleet, 28.9). Never clicks.
+        if "turned_away" in data:
+            print("  turned_away: " + json.dumps(data.get("turned_away") or {},
+                                                 ensure_ascii=False)
+                  + "  by day: " + json.dumps(data.get("turned_away_by_day") or {},
+                                              ensure_ascii=False))
         said = data.get("said_it_was") or {}
         if said:
             print("  said_it_was: " + json.dumps(said, ensure_ascii=False))
