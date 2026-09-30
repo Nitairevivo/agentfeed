@@ -128,238 +128,390 @@ footer{color:var(--faint);font-size:.83rem;margin-top:48px;
 border-top:1px solid var(--line);padding-top:18px}
 footer a{color:var(--faint)}
 
-:root{--s-bg:#f4efe2;--s-card:#fffdf7;--s-ink:#15201b;--s-soft:#4a5751;--s-line:#d9d0b8;
---s-deep:#123a2c;--s-deep-2:#1b4b3a;--s-tag:#ffd23f;--s-red:#d0321f;--s-wa:#138a4a;
---s-display:"Karantina","Rubik",system-ui,sans-serif;--s-body:"Rubik","Assistant",system-ui,sans-serif}
-@media (prefers-color-scheme: dark){:root{--s-bg:#0f1512;--s-card:#172019;--s-ink:#eef2ea;--s-soft:#a9b7ae;--s-line:#2b3a31;
---s-deep:#0b2a1f;--s-deep-2:#123a2c}}
+/* Layout: a shop sign of a hero with the product running in it (phone, panel,
+   an order arriving), then the argument told as a shop owner lives it: the
+   "how much?" comments of today against a catalogue with a button, a sheet
+   whose price walks onto the site, prices on shelf tags, and the form. */
+:root{--s-paper:#f4eedf;--s-card:#fffcf4;--s-ink:#14201a;--s-soft:#4d5b53;--s-line:#d8cdb2;
+--s-deep:#0e3123;--s-deep-2:#154431;--s-deep-3:#1f5a42;--s-tag:#ffd23f;--s-red:#d6361f;--s-wa:#138a4a;--s-kraft:#e8d4a6;
+--s-display:"Karantina","Rubik",system-ui,sans-serif;--s-body:"Rubik","Assistant",system-ui,sans-serif;
+--s-shadow:#0b120e}
+@media (prefers-color-scheme: dark){:root{--s-paper:#0f1612;--s-card:#172119;--s-ink:#eef2e9;--s-soft:#a8b6ad;--s-line:#2a3a30;--s-shadow:#000}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--s-bg);color:var(--s-ink);font-family:var(--s-body);line-height:1.6}
-main{max-width:1080px;margin:0 auto;padding:22px 16px 70px}
-h1,h2,.big{font-family:var(--s-display);font-weight:700;letter-spacing:0;line-height:.92;text-wrap:balance}
-h2{font-size:clamp(44px,6vw,72px);margin:64px 0 14px}
-.lead{font-size:1.08rem;color:var(--s-soft);max-width:60ch;margin:0 0 18px}
-a{color:inherit}
+body{margin:0;background:var(--s-paper);color:var(--s-ink);font-family:var(--s-body);line-height:1.6}
+main{max-width:1160px;margin:0 auto;padding:18px 16px 80px}
+h1,h2,.d{font-family:var(--s-display);font-weight:700;letter-spacing:0;line-height:.9;text-wrap:balance}
+h2{font-size:clamp(48px,6.4vw,84px);margin:0 0 12px}
+section{margin-top:88px}
+.eyebrow{display:inline-block;font-weight:800;font-size:.85rem;letter-spacing:.04em;color:var(--s-red);margin-bottom:10px}
+.lead{font-size:1.1rem;color:var(--s-soft);max-width:58ch;margin:0 0 22px}
 :focus-visible{outline:3px solid var(--s-tag);outline-offset:3px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;padding:0 24px;border-radius:6px;font-weight:800;
+text-decoration:none;border:2px solid var(--s-shadow);box-shadow:4px 4px 0 var(--s-shadow);font:800 1rem var(--s-body);cursor:pointer;transition:transform .15s ease,box-shadow .15s ease}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--s-shadow)}
+.btn-y{background:var(--s-tag);color:#14201a}.btn-w{background:var(--s-wa);color:#fff}
+.btn svg{width:20px;height:20px}
 
-/* hero: the promise, in the size of a shop sign */
-.hero{background:var(--s-deep);color:#f3f1e6;border-radius:10px;padding:40px 28px 34px;display:grid;
-grid-template-columns:1.15fr .85fr;gap:28px;align-items:center;border:3px solid #0a0f0c;box-shadow:8px 8px 0 #0a0f0c}
+/* ── hero ── */
+.hero{margin-top:0;position:relative;background:var(--s-deep);color:#f2efe4;border-radius:14px;border:3px solid #07100b;
+box-shadow:10px 10px 0 #07100b;padding:54px 44px 50px;display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;overflow:hidden;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.35;
+background:radial-gradient(circle at 20% 30%,var(--s-deep-3),transparent 45%),radial-gradient(circle at 85% 90%,#2a6b50,transparent 40%)}
 .hero > *{min-width:0}
-.hero h1{font-size:clamp(58px,8.6vw,118px);margin:0 0 14px;color:#fff}
-.hero h1 mark{background:var(--s-tag);color:#15201b;padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.hero p{color:#cfdcd3;max-width:40ch;margin:0 0 22px;font-size:1.08rem}
-.pills{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;padding:0;list-style:none}
-.pills li{border:1.5px solid #6f8f80;border-radius:4px;padding:4px 10px;font-weight:600;font-size:.92rem;color:#e6efe9}
+.hero h1{font-size:clamp(70px,9.5vw,138px);margin:0;color:#fff}
+.hero h1 em{font-style:normal;color:var(--s-tag)}
+.stamp{display:inline-block;margin:18px 0 20px;border:4px solid var(--s-tag);color:var(--s-tag);border-radius:8px;padding:8px 16px 10px;
+transform:rotate(-3deg);font:700 clamp(30px,3.4vw,44px)/1 var(--s-display);box-shadow:inset 0 0 0 3px var(--s-deep),inset 0 0 0 5px var(--s-tag)}
+.hero p{color:#c9d8cf;max-width:44ch;margin:0 0 22px;font-size:1.1rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
+.chips li{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:5px 12px;font-weight:600;font-size:.9rem}
 .ctas{display:flex;flex-wrap:wrap;gap:12px}
-.btn{display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 22px;border-radius:6px;font-weight:800;
-text-decoration:none;border:2px solid #0a0f0c;box-shadow:4px 4px 0 #0a0f0c;font-size:1rem;cursor:pointer;font-family:var(--s-body)}
-.btn-y{background:var(--s-tag);color:#15201b}
-.btn-w{background:var(--s-wa);color:#fff}
-.btn:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 #0a0f0c}
-/* a shelf tag, the thing a shop owner reads every day */
-.tag{background:var(--s-tag);color:#15201b;border:3px solid #0a0f0c;border-radius:4px;padding:18px 20px 16px;
-box-shadow:6px 6px 0 #0a0f0c;transform:rotate(-2deg);max-width:340px;justify-self:center}
-.tag small{display:block;font-weight:700;letter-spacing:.03em}
-.tag .big{font-size:96px;display:block;margin:4px 0}
-.tag .bar{height:26px;margin-top:10px;background:repeating-linear-gradient(90deg,#15201b 0 2px,transparent 2px 4px,#15201b 4px 5px,transparent 5px 8px,#15201b 8px 11px,transparent 11px 13px)}
-.tag p{margin:8px 0 0;font-weight:600;font-size:.95rem}
+.hero .btn{box-shadow:4px 4px 0 #07100b;border-color:#07100b}
 
-.ref{max-width:62ch;background:var(--s-card);border:2px dashed var(--s-line);border-radius:8px;padding:12px 16px;margin:18px 0 0}
+/* the stage: phone, panel, tag and an order arriving */
+.stage{position:relative;height:520px}
+.phone{position:absolute;inset-inline-start:8%;top:6px;width:250px;height:500px;background:#0a0f0c;border-radius:38px;padding:10px;
+box-shadow:0 30px 60px -20px rgba(0,0,0,.6);animation:rise .8s cubic-bezier(.23,1,.32,1) both}
+.scr{height:100%;border-radius:30px;overflow:hidden;background:var(--s-kraft);color:#14201a;display:flex;flex-direction:column}
+.scr .top{background:#fffaf0;padding:26px 12px 8px;border-bottom:2px solid #14201a;display:flex;align-items:center;gap:8px}
+.scr .logo{font:700 20px/1 var(--s-display);flex:1}
+.scr .q{height:22px;width:84px;border:1.5px solid #14201a;border-radius:99px;background:#fff}
+.aisles{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:10px 10px 4px}
+.aisles span{border:2px solid #14201a;border-radius:4px;color:#fff;font:700 20px/1 var(--s-display);padding:10px 8px 8px;box-shadow:2px 2px 0 #14201a}
+.aisles span:nth-child(1){background:var(--s-deep-2)}.aisles span:nth-child(2){background:var(--s-red)}
+.shelf{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px 10px}
+.item{background:#fffaf0;border:1.5px solid #14201a;border-radius:4px;overflow:hidden}
+.item .pic{height:66px;display:grid;place-items:center;border-bottom:5px solid #9a6a3c}
+.item .pic svg{width:44px;height:44px}
+.item .t{background:var(--s-tag);padding:5px 6px 6px}
+.item .t i{display:block;height:6px;width:70%;background:#14201a;opacity:.25;border-radius:2px;margin-bottom:4px}
+.item .t b{font:700 20px/1 var(--s-display)}
+.item .t u{display:block;margin-top:5px;height:14px;border-radius:3px;background:var(--s-wa)}
+.panel{position:absolute;inset-inline-end:0;top:40px;width:250px;background:#0f1726;color:#e8edf6;border-radius:12px;border:2px solid #07100b;
+box-shadow:6px 6px 0 #07100b;padding:14px;animation:rise .8s .15s cubic-bezier(.23,1,.32,1) both}
+.panel .h{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:#9aa6c0;margin-bottom:8px}
+.live{display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:8px;height:8px;border-radius:50%;background:#35d07f;box-shadow:0 0 0 0 rgba(53,208,127,.6);animation:pulse 2s infinite}
+.panel .n{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.panel .n div{background:#18223a;border-radius:8px;padding:8px 10px}
+.panel .n b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums}
+.panel .n small{color:#9aa6c0;font-size:.72rem}
+.panel svg{display:block;width:100%;height:56px;margin-top:10px}
+.panel .demo{font-size:.68rem;color:#7f8aa3;margin-top:6px}
+.bubble{position:absolute;inset-inline-end:6%;bottom:40px;width:250px;background:#e7ffdb;color:#10301f;border-radius:14px 14px 4px 14px;
+padding:10px 12px 8px;box-shadow:0 18px 30px -14px rgba(0,0,0,.55);animation:pop .6s .9s cubic-bezier(.23,1,.32,1) both;font-size:.92rem}
+.bubble b{display:flex;align-items:center;gap:6px;font-size:.78rem;color:var(--s-wa)}
+.bubble b svg{width:14px;height:14px}
+.bubble small{display:block;text-align:end;color:#5c7d69;font-size:.7rem}
+.htag{position:absolute;inset-inline-end:34%;bottom:150px;background:var(--s-tag);color:#14201a;border:3px solid #07100b;border-radius:4px;
+padding:8px 12px 10px;transform:rotate(7deg);box-shadow:4px 4px 0 #07100b;animation:pop .6s .5s cubic-bezier(.23,1,.32,1) both;text-align:center}
+.htag small{display:block;font-weight:800;font-size:.7rem}
+.htag .d{font-size:52px;display:block}
+.htag i{display:block;height:14px;margin-top:4px;background:repeating-linear-gradient(90deg,#14201a 0 2px,transparent 2px 4px,#14201a 4px 5px,transparent 5px 8px)}
+@keyframes rise{from{transform:translateY(24px)}to{transform:none}}
+@keyframes pop{from{transform:scale(.85) rotate(0)}to{transform:scale(1)}}
+.htag{animation-name:pop-tag}@keyframes pop-tag{from{transform:scale(.85) rotate(0)}to{transform:rotate(7deg)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(53,208,127,.6)}70%{box-shadow:0 0 0 8px rgba(53,208,127,0)}100%{box-shadow:0 0 0 0 rgba(53,208,127,0)}}
+
+.ref{max-width:62ch;background:var(--s-card);border:2px dashed var(--s-line);border-radius:8px;padding:12px 16px;margin:22px 0 0}
 .ref[hidden]{display:none}
 
+/* who it is for, running past like the tape at the till */
+.tape{margin-top:40px;background:var(--s-red);color:#fff;border-block:3px solid var(--s-shadow);overflow:hidden;border-radius:6px}
+.tape div{display:flex;gap:34px;padding:12px 0;width:max-content;animation:run 40s linear infinite;font:700 32px/1 var(--s-display)}
+.tape span::after{content:"✦";margin-inline-start:34px;color:var(--s-tag);font-size:20px}
+@keyframes run{to{transform:translateX(50%)}}
+
+/* today vs with a site */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.vs > div{min-width:0;border-radius:12px;padding:22px;border:2px solid var(--s-ink);box-shadow:6px 6px 0 var(--s-ink)}
+.vs .today{background:var(--s-card)}
+.vs .withus{background:var(--s-deep);color:#f2efe4;border-color:#07100b;box-shadow:6px 6px 0 #07100b}
+.vs h3{font:700 44px/.9 var(--s-display);margin:0 0 14px}
+.fb{background:#fff;color:#1c1e21;border-radius:10px;border:1px solid #dadde1;padding:12px;font-size:.9rem}
+.fb .who{display:flex;gap:8px;align-items:center;font-weight:700}
+.fb .who i{width:30px;height:30px;border-radius:50%;background:#c9ccd1}
+.fb .ph{height:110px;border-radius:6px;background:linear-gradient(135deg,#e4e6eb,#cfd3da);margin:10px 0}
+.fb .c{background:#f0f2f5;border-radius:14px;padding:6px 10px;margin-top:6px;width:fit-content;max-width:100%}
+.fb .c b{font-size:.78rem;display:block}
+.vs .note{margin:14px 0 0;color:var(--s-soft)}
+.vs .withus .note{color:#c9d8cf}
+.card-demo{background:#fffaf0;color:#14201a;border:2px solid #07100b;border-radius:6px;overflow:hidden;max-width:300px}
+.card-demo .pic{height:130px;display:grid;place-items:center;border-bottom:7px solid #9a6a3c;background:#fffaf0}
+.card-demo .pic svg{width:84px;height:84px}
+.card-demo .t{background:var(--s-tag);padding:10px 12px 12px}
+.card-demo .t b{font:700 46px/.9 var(--s-display);display:block}
+.card-demo .t span{display:block;font-weight:600;margin:4px 0 8px}
+.card-demo .t a{display:flex;align-items:center;justify-content:center;gap:6px;background:var(--s-wa);color:#fff;border-radius:4px;padding:8px;font-weight:800;text-decoration:none}
+.card-demo .t a svg{width:16px;height:16px}
+
 /* what you get */
-.get{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.box{background:var(--s-card);border:2px solid var(--s-ink);border-radius:8px;padding:18px 18px 16px;box-shadow:5px 5px 0 var(--s-ink)}
-.box h3{font-family:var(--s-display);font-size:40px;line-height:.95;margin:0 0 8px}
-.box ul{margin:0;padding-inline-start:18px;display:grid;gap:4px;color:var(--s-soft)}
-.box.hot{background:var(--s-deep);color:#f3f1e6;border-color:#0a0f0c;box-shadow:5px 5px 0 #0a0f0c}
-.box.hot ul{color:#cfdcd3}
+.get{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.get > div{min-width:0;background:var(--s-card);border:2px solid var(--s-ink);border-radius:12px;box-shadow:6px 6px 0 var(--s-ink);overflow:hidden}
+.get .art{height:150px;display:grid;place-items:center;border-bottom:2px solid var(--s-ink)}
+.get > div:nth-child(1) .art{background:var(--s-kraft)}.get > div:nth-child(2) .art{background:#0f1726}.get > div:nth-child(3) .art{background:var(--s-deep)}
+.get .body{padding:18px 20px 20px}
+.get h3{font:700 44px/.9 var(--s-display);margin:0 0 10px}
+.get ul{margin:0;padding-inline-start:18px;display:grid;gap:5px;color:var(--s-soft)}
+.mini-grid{display:grid;grid-template-columns:repeat(3,44px);gap:8px}
+.mini-grid i{height:54px;background:#fffaf0;border:2px solid #14201a;border-radius:3px;position:relative}
+.mini-grid i::after{content:"";position:absolute;inset:auto 0 0;height:16px;background:var(--s-tag);border-top:2px solid #14201a}
+.bars{display:flex;align-items:flex-end;gap:8px;height:90px}
+.bars i{width:22px;border-radius:4px 4px 0 0;background:linear-gradient(180deg,#e7514a,#8e2b62)}
+.ai-card{background:#fff;color:#14201a;border-radius:8px;padding:10px 12px;font:600 .8rem/1.5 ui-monospace,Menlo,monospace;direction:ltr;text-align:left;box-shadow:4px 4px 0 #07100b;border:2px solid #07100b}
+.ai-card b{color:var(--s-deep-3)}
 
-/* the dashboard, drawn */
-.dash{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center}
-.dash > *{min-width:0}
-.screen{background:#0e1422;border-radius:10px;border:3px solid #0a0f0c;box-shadow:6px 6px 0 #0a0f0c;padding:14px;color:#e8ecf5;
-display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-.screen div{background:#161f33;border-radius:8px;padding:10px 12px}
-.screen b{display:block;font-size:1.6rem;font-variant-numeric:tabular-nums}
-.screen small{color:#9aa6c0}
-.screen .wide{grid-column:1/-1}
-.screen svg{width:100%;height:60px;display:block}
-.demo-note{font-size:.82rem;color:var(--s-soft);margin-top:8px}
+/* sheet → site */
+.sync{display:grid;grid-template-columns:1.3fr auto .8fr;gap:22px;align-items:center}
+.sync > *{min-width:0}
+.sheet{overflow-x:auto;border:2px solid var(--s-ink);border-radius:8px;box-shadow:6px 6px 0 var(--s-ink);background:var(--s-card)}
+.sheet table{border-collapse:collapse;width:100%;min-width:420px;font-variant-numeric:tabular-nums}
+.sheet th,.sheet td{border:1px solid var(--s-line);padding:9px 10px;text-align:start}
+.sheet th{background:#e3efe6;color:#14201a;font-size:.88rem}
+.cell{position:relative;display:inline-block;min-width:3ch}
+.cell span{display:inline-block}
+.old{animation:outp 6s infinite}.new{position:absolute;inset-inline-start:0;top:0;animation:inp 6s infinite}
+.hit{animation:flash 6s infinite}
+@keyframes outp{0%,30%{opacity:1}38%,92%{opacity:0}100%{opacity:1}}
+@keyframes inp{0%,30%{opacity:0}38%,92%{opacity:1}100%{opacity:0}}
+@keyframes flash{0%,30%{background:transparent}38%,60%{background:var(--s-tag)}92%,100%{background:transparent}}
+.arrow{font:700 72px/1 var(--s-display);color:var(--s-red)}
+.sync .card-demo{margin-inline:auto}
+.fine{color:var(--s-soft);font-size:.9rem;max-width:72ch;margin-top:12px}
 
-/* the sheet */
-.sheet{overflow-x:auto;border:2px solid var(--s-ink);border-radius:8px;box-shadow:5px 5px 0 var(--s-ink);background:var(--s-card)}
-.sheet table{border-collapse:collapse;width:100%;min-width:460px;font-variant-numeric:tabular-nums}
-.sheet th,.sheet td{border:1px solid var(--s-line);padding:8px 10px;text-align:start}
-.sheet th{background:#e7f2ea;color:#15201b}
-.sheet td.changed{background:var(--s-tag);color:#15201b;font-weight:800}
-
-/* prices: every one a shelf tag */
-.prices{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:start}
-.pt{background:var(--s-card);border:2px solid var(--s-ink);border-radius:6px;box-shadow:5px 5px 0 var(--s-ink);overflow:hidden}
-.pt header{padding:14px 16px 10px}
-.pt h3{margin:0;font-size:1.05rem}
+/* prices on shelf tags */
+.prices{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;align-items:start}
+.pt{background:var(--s-card);border:2px solid var(--s-ink);border-radius:6px;box-shadow:6px 6px 0 var(--s-ink);overflow:hidden}
+.pt .top{padding:16px 18px 10px}
+.pt h3{margin:0;font-size:1.1rem}
 .pt .was{color:var(--s-soft);text-decoration:line-through;font-weight:600}
-.pt .now{background:var(--s-tag);color:#15201b;border-block:2px solid var(--s-ink);padding:8px 16px}
-.pt .now .big{font-size:64px}
-.pt .now small{font-weight:700}
-.pt .now .mo{display:block}
-.pt:last-child .was{text-decoration:none}
-.pt ul{margin:0;padding:12px 16px 16px 16px;padding-inline-start:30px;color:var(--s-soft);font-size:.93rem;display:grid;gap:3px}
-.pt.star{transform:translateY(-10px)}
-.pt.star header::before{content:"הכי מתאים לחנויות";display:inline-block;background:var(--s-red);color:#fff;font-weight:800;font-size:.78rem;padding:2px 8px;border-radius:3px;margin-bottom:6px}
-.promise{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
-.promise div{border:3px solid var(--s-red);border-radius:8px;padding:14px 16px;background:var(--s-card)}
-.promise b{display:block;font-family:var(--s-display);font-size:36px;line-height:1;color:var(--s-red)}
-.fine{color:var(--s-soft);font-size:.9rem;max-width:70ch}
+.pt .now{background:var(--s-tag);color:#14201a;border-block:2px solid var(--s-ink);padding:10px 18px 12px}
+.pt .now .d{font-size:68px;display:block}
+.pt .now small{font-weight:800;display:block}
+.pt .bc{height:18px;margin-top:8px;background:repeating-linear-gradient(90deg,#14201a 0 2px,transparent 2px 4px,#14201a 4px 5px,transparent 5px 8px);width:60%}
+.pt ul{margin:0;padding:14px 18px 18px;padding-inline-start:34px;color:var(--s-soft);font-size:.94rem;display:grid;gap:4px}
+.pt.star{transform:translateY(-14px) rotate(-1deg);border-width:3px}
+.flag{display:inline-block;background:var(--s-red);color:#fff;font-weight:800;font-size:.76rem;padding:3px 9px;border-radius:3px;margin-bottom:8px}
+.promise{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+.promise > div{border:4px double var(--s-red);border-radius:10px;padding:16px 18px;background:var(--s-card)}
+.promise b{display:block;font:700 42px/1 var(--s-display);color:var(--s-red);margin-bottom:4px}
 
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:s}
-.steps div{background:var(--s-card);border:2px solid var(--s-ink);border-radius:8px;padding:16px;counter-increment:s}
-.steps div::before{content:counter(s);display:block;font-family:var(--s-display);font-size:56px;line-height:.8;color:var(--s-red)}
-.steps b{display:block;margin:6px 0 2px}
-.steps p{margin:0;color:var(--s-soft);font-size:.93rem}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.steps > div{background:var(--s-card);border:2px solid var(--s-ink);border-radius:10px;padding:18px;counter-increment:s;position:relative}
+.steps > div::before{content:counter(s);display:block;font:700 72px/.8 var(--s-display);color:var(--s-red)}
+.steps b{display:block;margin:8px 0 2px;font-size:1.05rem}
+.steps p{margin:0;color:var(--s-soft);font-size:.94rem}
 
-.agency{background:var(--s-deep);color:#f3f1e6;border-radius:10px;border:3px solid #0a0f0c;box-shadow:8px 8px 0 #0a0f0c;padding:30px 26px}
-.agency h2{margin-top:0;color:#fff}
-.agency p{color:#cfdcd3;max-width:62ch}
-.ag{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
-.ag div{background:var(--s-deep-2);border-radius:8px;padding:16px;border:1px solid #2f6a53}
-.ag b{display:block;font-size:1.1rem;color:#fff}
-.ag .big{font-size:52px;color:var(--s-tag);display:block;margin:4px 0}
+.agency{background:var(--s-deep);color:#f2efe4;border-radius:14px;border:3px solid #07100b;box-shadow:10px 10px 0 #07100b;padding:40px 36px;
+display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.agency > *{min-width:0}
+.agency h2{color:#fff}
+.agency p{color:#c9d8cf;max-width:52ch}
+.ag{display:grid;gap:14px}
+.ag > div{background:var(--s-deep-2);border:1px solid #2f6a53;border-radius:10px;padding:16px 18px}
+.ag b{display:block;font-size:1.05rem;color:#fff}
+.ag .d{font-size:56px;color:var(--s-tag);display:block;margin:2px 0 4px}
+.ag span.s{color:#c9d8cf;font-size:.95rem}
 
-.honest{border:2px dashed var(--s-ink);border-radius:8px;padding:16px 18px;background:var(--s-card)}
+.honest{border:2px dashed var(--s-ink);border-radius:10px;padding:18px 20px;background:var(--s-card)}
 .honest p{margin:6px 0 0;max-width:66ch;color:var(--s-soft)}
-details{background:var(--s-card);border:2px solid var(--s-ink);border-radius:8px;padding:0 16px;margin:0 0 10px}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;align-items:start}
+details{background:var(--s-card);border:2px solid var(--s-ink);border-radius:8px;padding:0 16px}
 summary{cursor:pointer;font-weight:700;padding:14px 0}
-details p{margin:0 0 14px;color:var(--s-soft);max-width:66ch}
+details p{margin:0 0 14px;color:var(--s-soft)}
 
-/* the form: fills a WhatsApp message, stores nothing */
-.start{background:var(--s-card);border:3px solid var(--s-ink);border-radius:10px;box-shadow:8px 8px 0 var(--s-ink);padding:24px 22px;margin-top:64px}
-.start h2{margin-top:0}
-form{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px}
+.start{background:var(--s-tag);color:#14201a;border:3px solid #07100b;border-radius:14px;box-shadow:10px 10px 0 #07100b;padding:34px 30px;
+display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:start}
+.start > *{min-width:0}
+.start p{color:#3d3a26}
+form{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;background:#fffcf0;border:2px solid #07100b;border-radius:10px;padding:18px}
 form > *{min-width:0}
-label{display:grid;gap:4px;font-weight:700;font-size:.95rem}
-input,select{font:inherit;padding:11px 12px;border:2px solid var(--s-ink);border-radius:6px;background:var(--s-bg);color:var(--s-ink);width:100%}
+label{display:grid;gap:4px;font-weight:700;font-size:.93rem}
+input,select{font:inherit;padding:11px 12px;border:2px solid #14201a;border-radius:6px;background:#fff;color:#14201a;width:100%}
 .full{grid-column:1/-1}
-.or{margin-top:12px;color:var(--s-soft)}
+.or{margin-top:14px;font-weight:600}
 .or a{font-weight:800}
 
-@media(max-width:860px){.prices{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.get{grid-template-columns:1fr}.pt.star{transform:none}}
-@media(max-width:640px){.hero{grid-template-columns:1fr;padding:28px 18px}.dash,.promise,.ag,form{grid-template-columns:1fr}.prices,.steps{grid-template-columns:1fr}
-.tag{transform:none}.hero h1{font-size:clamp(54px,15vw,80px)}}
-@media(prefers-reduced-motion:reduce){.btn:hover{transform:none}}
+@media(max-width:980px){.hero{grid-template-columns:1fr;padding:40px 24px}.stage{height:500px;max-width:560px;width:100%;margin-inline:auto}
+.get,.prices,.steps{grid-template-columns:1fr 1fr}.agency,.start{grid-template-columns:1fr}.sync{grid-template-columns:1fr}.arrow{transform:rotate(-90deg);justify-self:center}.pt.star{transform:none}}
+@media(max-width:640px){.hero{padding:30px 18px;border-radius:10px}.hero h1{font-size:clamp(62px,19vw,92px)}
+.stage{height:460px}.phone{width:210px;height:430px;inset-inline-start:0}.panel{width:200px;top:10px}.panel .n b{font-size:1.1rem}
+.bubble{width:220px;inset-inline-end:0;bottom:6px}.htag{inset-inline-end:44%;bottom:118px}.htag .d{font-size:40px}
+.vs,.get,.prices,.steps,.promise,.faq,form{grid-template-columns:1fr}.agency,.start{padding:26px 18px}section{margin-top:64px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.new{opacity:0}.old{opacity:1}}
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Rubik:wght@400;600;700;800&display=swap">
 </head>
 <body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header>
 <main>
-<section class="hero">
+<div class="hero">
   <div>
-    <h1>אתר לחנות שלך. <mark>מתחייבים למחיר הכי זול.</mark></h1>
-    <p>כל המוצרים באתר מעוצב בצבעים של העסק, הזמנה בוואטסאפ מכל מוצר, לוח בקרה בזמן אמת, ודף שעוזרי AI קוראים. בלי שתצטרכו לעשות כלום.</p>
-    <ul class="pills"><li>קטלוג מלא</li><li>הזמנה בוואטסאפ</li><li>לוח בקרה בזמן אמת</li><li>מתעדכן מגיליון גוגל</li><li>קריא לעוזרי AI</li></ul>
+    <span class="eyebrow" style="color:var(--s-tag)">בניית אתרים לחנויות ולעסקים קטנים</span>
+    <h1>החנות שלך, <em>באינטרנט.</em></h1>
+    <div class="stamp">מתחייבים למחיר הכי זול</div>
+    <p>כל המוצרים שלך באתר מעוצב בצבעים של העסק, כפתור הזמנה בוואטסאפ מכל מוצר, לוח בקרה בזמן אמת, ודף שעוזרי AI קוראים. את כל העבודה אנחנו עושים.</p>
+    <ul class="chips"><li>קטלוג מלא</li><li>הזמנה בוואטסאפ</li><li>לוח בקרה בזמן אמת</li><li>מתעדכן מגיליון גוגל</li><li>קריא לעוזרי AI</li></ul>
     <div class="ctas">
       <a class="btn btn-y" href="#start">רוצים אתר? התחילו כאן</a>
-      <a class="btn btn-w" data-wa href="https://wa.me/972526760039">וואטסאפ: 052-676-0039</a>
+      <a class="btn btn-w" data-wa href="https://wa.me/972526760039"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></svg>052-676-0039</a>
     </div>
   </div>
-  <div class="tag" aria-label="מחיר השקה לחנות־קטלוג">
-    <small>חנות־קטלוג · מחיר השקה</small>
-    <span class="big">₪2,940</span>
-    <p>במקום ₪4,900 · ועוד ₪349 לחודש על הכול</p>
-    <div class="bar" aria-hidden="true"></div>
-    <p>לשלושת הראשונים: משלמים רק אחרי שרואים את האתר עובד</p>
+  <div class="stage" role="img" aria-label="איור: חנות באתר בטלפון, לוח הבקרה, ותווית מחיר. להמחשה בלבד">
+    <div class="phone"><div class="scr">
+      <div class="top"><span class="logo">החנות שלך</span><span class="q"></span></div>
+      <div class="aisles"><span>מחלקה א׳</span><span>מבצעים</span></div>
+      <div class="shelf">
+        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="3" fill="#d6361f" stroke="#14201a" stroke-width="2"/><rect x="16" y="16" width="16" height="10" fill="#ffd23f"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="14" fill="#1f5a42" stroke="#14201a" stroke-width="2"/><path d="M16 22h16" stroke="#fff" stroke-width="3"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><path d="M10 34 24 10l14 24Z" fill="#ffd23f" stroke="#14201a" stroke-width="2"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="10" y="14" width="28" height="22" rx="11" fill="#2d3a64" stroke="#14201a" stroke-width="2"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+      </div>
+    </div></div>
+    <div class="panel">
+      <div class="h"><span>לוח הבקרה</span><span class="live">עכשיו</span></div>
+      <div class="n"><div><small>ביקורים היום</small><b>64</b></div><div><small>הזמנות בוואטסאפ</small><b>7</b></div></div>
+      <svg viewBox="0 0 240 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0 44 C20 40 30 48 50 36 S80 30 100 34 130 18 150 26 190 12 240 8" fill="none" stroke="#e7514a" stroke-width="3"/><circle cx="238" cy="8" r="4" fill="#fff"/></svg>
+      <div class="demo">נתוני דוגמה</div>
+    </div>
+    <div class="htag"><small>מחיר</small><span class="d">₪ ••</span><i></i></div>
+    <div class="bubble"><b><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg>הזמנה חדשה מהאתר</b>היי, אשמח להזמין את המוצר הזה 🙂<small>עכשיו ✓✓</small></div>
   </div>
-</section>
+</div>
 
 <p class="ref" id="ref" hidden>הגעתם מהתג "נבנה ב-AgentFeed" באתר של עסק. זה מה שבנינו לו, ואפשר לבנות גם לכם.</p>
 
-<h2>מה מקבלים</h2>
-<div class="get">
-  <div class="box hot"><h3>האתר</h3><ul><li>עיצוב מקורי מהלוגו שלכם, כמה גרסאות לבחירה</li><li>רספונסיבי ומהיר, נראה מעולה בטלפון</li><li>קטלוג עם חיפוש, סינון ומיון</li><li>כפתור הזמנה בוואטסאפ מכל מוצר, עם שם המוצר</li><li>קידום אורגני טכני ונתונים מובנים לגוגל</li></ul></div>
-  <div class="box"><h3>לוח הבקרה</h3><ul><li>כמה נכנסו, מאיפה, ומה עשו</li><li>לחיצות וואטסאפ, שיחות והוספות לסל</li><li>אחוז המרה והשוואה לחודש הקודם</li><li>המלצות לשיפור, כל אחת עם המספר שהיא נשענת עליו</li><li>הכנסות והוצאות במקום אחד</li></ul></div>
-  <div class="box"><h3>דף ה-AI</h3><ul><li>דף בספרייה של AgentFeed, שמקבלים רק אצלנו</li><li>עוזרי AI כמו ChatGPT וג'מיני יכולים לקרוא אותו</li><li>כל מוצר עם מחיר וקישור להזמנה אצלכם</li><li>מה שלא פרסמתם מסומן כחסר, לא מנוחש</li></ul></div>
-</div>
+<div class="tape" aria-label="למי זה מתאים"><div>
+  <span>חנויות חיות</span><span>משתלות</span><span>תבלינים ופיצוחים</span><span>צעצועים</span><span>יודאיקה</span><span>ציוד דייג</span><span>ציוד למסיבות</span><span>אופניים</span><span>מתנות</span><span>משקאות</span>
+  <span>חנויות חיות</span><span>משתלות</span><span>תבלינים ופיצוחים</span><span>צעצועים</span><span>יודאיקה</span><span>ציוד דייג</span><span>ציוד למסיבות</span><span>אופניים</span><span>מתנות</span><span>משקאות</span>
+</div></div>
 
-<h2>לוח בקרה בזמן אמת</h2>
-<div class="dash">
-  <div>
-    <p class="lead">כל ביקור וכל לחיצה על וואטסאפ נספרים ברגע שהם קורים. פותחים את הלוח ורואים מה קורה בחנות עכשיו, מה הביא פניות החודש, ומה כדאי לשפר.</p>
-    <p class="lead">בלי עוגיות, בלי שמות ובלי כתובות: נספר רק כמה, מאיפה ומה לחצו.</p>
-  </div>
-  <div>
-    <div class="screen" role="img" aria-label="דוגמה ללוח הבקרה">
-      <div><small>ביקורים ב-30 יום</small><b>1,318</b></div>
-      <div><small>פניות ופעולות</small><b>124</b></div>
-      <div class="wide"><small>מבקרים ביום</small>
-        <svg viewBox="0 0 300 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 44 L20 40 L40 46 L60 30 L80 36 L100 22 L120 34 L140 26 L160 38 L180 18 L200 28 L220 20 L240 32 L260 14 L280 24 L300 10" fill="none" stroke="#e7514a" stroke-width="3"/></svg></div>
-      <div><small>לחיצות וואטסאפ</small><b>58</b></div>
-      <div><small>אחוז המרה</small><b>9.4%</b></div>
+<section>
+  <span class="eyebrow">למה אתר</span>
+  <h2>"כמה?" בתגובות, או כפתור שמזמין.</h2>
+  <div class="vs">
+    <div class="today">
+      <h3>היום</h3>
+      <div class="fb" aria-label="איור: פוסט בפייסבוק עם שאלות על המחיר">
+        <div class="who"><i></i>החנות שלך</div>
+        <div class="ph"></div>
+        <div>הגיע מלאי חדש! פרטים בפרטי 👇</div>
+        <div class="c"><b>לקוחה</b>כמה עולה?</div>
+        <div class="c"><b>לקוח</b>יש במידה אחרת?</div>
+        <div class="c"><b>לקוחה</b>כמה??</div>
+      </div>
+      <p class="note">הלקוח שואל, מחכה לתשובה, ולפעמים הולך לחנות אחרת בינתיים. ומי שלא עוקב אחרי העמוד לא רואה את הפוסט בכלל.</p>
     </div>
-    <p class="demo-note">נתוני דוגמה, להמחשה בלבד.</p>
-  </div>
-</div>
-
-<h2>משנים מחיר בגיליון. האתר מתעדכן.</h2>
-<p class="lead">הקטלוג יכול לשבת בגיליון גוגל שלכם, בעברית, בעמודות שאתם מכירים. משנים מחיר, מוסיפים מוצר או מסמנים "לא" במלאי, והאתר נבנה מחדש לפי הגיליון. גיליון שנראה שבור, ריק או עם חצי מהמוצרים, לא מתפרסם, והאתר נשאר כמו שהיה.</p>
-<div class="sheet"><table>
-  <thead><tr><th>מק״ט</th><th>שם</th><th>מחיר</th><th>מחיר רגיל</th><th>קטגוריה</th><th>במלאי</th></tr></thead>
-  <tbody>
-    <tr><td>1041</td><td>חכת ים 2.7 מטר</td><td class="changed">389</td><td>449</td><td>חכות</td><td>כן</td></tr>
-    <tr><td>1042</td><td>סליל ספינינג 3000</td><td>249</td><td></td><td>סלילים</td><td>כן</td></tr>
-    <tr><td>1043</td><td>קופסת פיתיונות</td><td>59</td><td></td><td>אביזרים</td><td>לא</td></tr>
-  </tbody>
-</table></div>
-<p class="fine">דוגמה לגיליון. השורה המסומנת היא מחיר ששונה, וכך הוא יופיע באתר.</p>
-
-<h2>המחירים</h2>
-<div class="prices">
-  <div class="pt"><header><h3>דף נחיתה</h3><span class="was">₪1,490</span></header><div class="now"><span class="big">₪890</span><small class="mo">+ ₪99 לחודש</small></div><ul><li>עמוד אחד לקמפיין</li><li>כפתור וואטסאפ וטלפון</li><li>לוח בקרה</li></ul></div>
-  <div class="pt"><header><h3>אתר לעסק</h3><span class="was">₪2,490</span></header><div class="now"><span class="big">₪1,490</span><small class="mo">+ ₪199 לחודש</small></div><ul><li>כמה עמודים לעסק שירות</li><li>שעות, שירותים ושאלות נפוצות</li><li>לוח בקרה ודף AI</li></ul></div>
-  <div class="pt star"><header><h3>חנות־קטלוג</h3><span class="was">₪4,900</span></header><div class="now"><span class="big">₪2,940</span><small class="mo">+ ₪349 לחודש</small></div><ul><li>כל המוצרים, חיפוש, סינון ומבצעים</li><li>הזמנה בוואטסאפ או בעגלה קיימת</li><li>מתעדכן מגיליון גוגל</li><li>לוח בקרה ודף AI</li></ul></div>
-  <div class="pt"><header><h3>חנות מלאה</h3><span class="was">החל מ</span></header><div class="now"><span class="big">₪6,900</span><small class="mo">+ ₪449 לחודש</small></div><ul><li>תשלום באשראי באתר</li><li>כל מה שבחנות־קטלוג</li></ul></div>
-</div>
-<div class="promise">
-  <div><b>מתחייבים למחיר הכי זול</b>הבאתם הצעה כתובה זולה יותר לאותה חבילה, כלומר הקמה, תחזוקה, אחסון ולוח בקרה? תקבלו את אותו מחיר.</div>
-  <div><b>משלמים אחרי שרואים</b>לשלושת העסקים הראשונים: לא משלמים שקל לפני שהאתר עובד ואתם מרוצים ממנו.</div>
-</div>
-<p class="fine">מחירי ההשקה לשלושת העסקים הראשונים. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום.</p>
-
-<h2>איך זה עובד</h2>
-<div class="steps">
-  <div><b>שולחים מוצרים</b><p>טבלה, גיליון גוגל, או צילומי מסך מהעמוד בפייסבוק. לוגו אם יש.</p></div>
-  <div><b>רואים הדמיה</b><p>אנחנו בונים את החנות שלכם בצבעים שלכם, ואתם בוחרים עיצוב.</p></div>
-  <div><b>מאשרים</b><p>מתפרסם רק מה שאישרתם בכתב. מתקנים עד שזה נראה כמו שרציתם.</p></div>
-  <div><b>האתר באוויר</b><p>מקבלים את האתר, את לוח הבקרה, ואת הדף ב-AgentFeed.</p></div>
-</div>
-
-<section class="agency" id="agencies">
-  <h2>לסוכנויות שיווק</h2>
-  <p>הלקוחות שלכם צריכים אתר, ואתם צריכים להוכיח שהקמפיין מביא פניות. האתרים שלנו סופרים בדיוק את זה: מאיפה הגיעו, כמה לחצו על וואטסאפ וכמה הוסיפו לסל. אתם מריצים את הקמפיין, ואנחנו בונים ומתחזקים.</p>
-  <div class="ag">
-    <div><b>מפנים לקוח</b><span class="big">₪500</span>על כל לקוח שנסגר. הלקוח פונה אלינו בעצמו, ואתם לא מעבירים שום רשימה.</div>
-    <div><b>מוכרים בשם שלכם</b><span class="big">₪1,990 + ₪249</span>לחודש, מחיר סיטונאי לחנות־קטלוג. אתם קובעים ללקוח את המחיר, והאתר יוצא עם שורת קרדיט קטנה בתחתית בלבד.</div>
+    <div class="withus">
+      <h3>עם אתר</h3>
+      <div class="card-demo" aria-label="איור: מוצר באתר עם מחיר וכפתור הזמנה">
+        <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="3" fill="#d6361f" stroke="#14201a" stroke-width="2"/><rect x="16" y="16" width="16" height="10" fill="#ffd23f"/></svg></div>
+        <div class="t"><b>₪129</b><span>שם המוצר, כמו שכתוב אצלכם</span><a href="#start" tabindex="-1"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg>הזמנה בוואטסאפ</a></div>
+      </div>
+      <p class="note">המחיר כבר כתוב, והכפתור פותח לכם הודעה עם שם המוצר. כל המוצרים במקום אחד, ומי שמחפש מוצא. המחיר באיור הוא דוגמה.</p>
+    </div>
   </div>
 </section>
 
-<h2>מה אנחנו לא מבטיחים</h2>
-<div class="honest">
-  <b>לא מבטיחים מקום ראשון בגוגל, ולא שעוזר AI ימליץ עליכם.</b>
-  <p>אף אחד לא יכול להבטיח את זה בכנות. מה שכן מובטח: האתר כתוב כך שמכונה יכולה לקרוא אותו, שום מחיר או ביקורת לא ממוצאים, וכל מספר בלוח הבקרה נספר באמת.</p>
-</div>
+<section>
+  <span class="eyebrow">מה מקבלים</span>
+  <h2>אתר, לוח בקרה, ודף ל-AI.</h2>
+  <div class="get">
+    <div><div class="art"><div class="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="body"><h3>האתר</h3><ul><li>עיצוב מקורי מהלוגו שלכם, כמה גרסאות לבחירה</li><li>רספונסיבי ומהיר, נראה מעולה בטלפון</li><li>קטלוג עם חיפוש, סינון, מיון ומבצעים</li><li>כפתור הזמנה בוואטסאפ מכל מוצר</li><li>קידום אורגני טכני ונתונים מובנים לגוגל</li></ul></div></div>
+    <div><div class="art"><div class="bars"><i style="height:30%"></i><i style="height:52%"></i><i style="height:40%"></i><i style="height:70%"></i><i style="height:58%"></i><i style="height:92%"></i></div></div>
+      <div class="body"><h3>לוח הבקרה</h3><ul><li>כמה נכנסו, מאיפה, ומה עשו, בזמן אמת</li><li>לחיצות וואטסאפ, שיחות והוספות לסל</li><li>אחוז המרה והשוואה לחודש הקודם</li><li>המלצות לשיפור, כל אחת עם המספר שמאחוריה</li><li>הכנסות והוצאות במקום אחד</li></ul></div></div>
+    <div><div class="art"><div class="ai-card">{ <b>"product"</b>: "…",<br>&nbsp;&nbsp;<b>"price"</b>: "… ILS",<br>&nbsp;&nbsp;<b>"order"</b>: "wa.me/…" }</div></div>
+      <div class="body"><h3>דף ה-AI</h3><ul><li>דף בספרייה של AgentFeed, שמקבלים רק אצלנו</li><li>עוזרי AI כמו ChatGPT וג'מיני יכולים לקרוא אותו</li><li>כל מוצר עם מחיר וקישור להזמנה אצלכם</li><li>מה שלא פרסמתם מסומן כחסר, לא מנוחש</li></ul></div></div>
+  </div>
+</section>
 
-<h2>שאלות נפוצות</h2>
-<details><summary>אין לי אתר ואין לי חנות אונליין. זה מתאים לי?</summary><p>זה בדיוק למי שזה נבנה. שולחים לנו טבלה של המוצרים, או צילומי מסך מהעמוד בפייסבוק או באינסטגרם, וכל מוצר באתר מקבל כפתור הזמנה בוואטסאפ עם שם המוצר.</p></details>
-<details><summary>מתי משלמים?</summary><p>לשלושת העסקים הראשונים: רק אחרי שרואים את האתר עובד. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי בלי התחייבות, עם הודעה של 30 יום.</p></details>
-<details><summary>איך מעדכנים מחירים ומוצרים?</summary><p>הקטלוג יכול לשבת בגיליון גוגל שלכם. משנים מחיר בגיליון, והאתר מתעדכן לפיו. טבלה שנראית שבורה לא מתפרסמת, והאתר נשאר כמו שהיה.</p></details>
-<details><summary>מה זה התג "נבנה ב-AgentFeed" שראיתי באתר של עסק?</summary><p>זו החתימה שלנו על אתרים שבנינו. העסק מסכים לה מראש, והיא מובילה לעמוד הזה.</p></details>
-<details><summary>אתם שומרים מידע על המבקרים שלי?</summary><p>לא. בלי עוגיות, בלי שמות ובלי כתובות. נספר רק כמה, מאיפה ומה לחצו.</p></details>
-<details><summary>מה צריך מכם כדי להתחיל?</summary><p>לוגו, רשימת מוצרים או שירותים עם מחירים, תמונות אם יש, שעות, משלוחים והחזרות, ואישור בכתב על מה שמתפרסם.</p></details>
+<section>
+  <span class="eyebrow">בלי לבקש מאף אחד</span>
+  <h2>משנים מחיר בגיליון. האתר מתעדכן.</h2>
+  <p class="lead">הקטלוג יושב בגיליון גוגל שלכם, בעברית, בעמודות שאתם מכירים. משנים מחיר, מוסיפים מוצר או מסמנים "לא" במלאי, והאתר נבנה מחדש לפי הגיליון. גיליון שנראה שבור, ריק, עם מק״ט כפול או עם חצי מהמוצרים, לא מתפרסם, והאתר נשאר כמו שהיה.</p>
+  <div class="sync">
+    <div class="sheet"><table>
+      <thead><tr><th>מק״ט</th><th>שם</th><th>מחיר</th><th>מחיר רגיל</th><th>קטגוריה</th><th>במלאי</th></tr></thead>
+      <tbody>
+        <tr><td>1041</td><td>המוצר שלכם</td><td class="hit"><span class="cell"><span class="old">149</span><span class="new">129</span></span></td><td>149</td><td>מחלקה א׳</td><td>כן</td></tr>
+        <tr><td>1042</td><td>מוצר נוסף</td><td>89</td><td></td><td>מחלקה א׳</td><td>כן</td></tr>
+        <tr><td>1043</td><td>עוד מוצר</td><td>39</td><td></td><td>מחלקה ב׳</td><td>לא</td></tr>
+      </tbody>
+    </table></div>
+    <div class="arrow" aria-hidden="true">←</div>
+    <div class="card-demo" aria-hidden="true">
+      <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="3" fill="#d6361f" stroke="#14201a" stroke-width="2"/><rect x="16" y="16" width="16" height="10" fill="#ffd23f"/></svg></div>
+      <div class="t"><b><span class="cell"><span class="old">₪149</span><span class="new">₪129</span></span></b><span>המוצר שלכם</span><a href="#start" tabindex="-1">הזמנה בוואטסאפ</a></div>
+    </div>
+  </div>
+  <p class="fine">דוגמה: המחיר שמשתנה בגיליון הוא המחיר שמופיע באתר.</p>
+</section>
+
+<section>
+  <span class="eyebrow">המחירים</span>
+  <h2>על תווית, כמו בחנות.</h2>
+  <div class="prices">
+    <div class="pt"><div class="top"><h3>דף נחיתה</h3><span class="was">₪1,490</span></div><div class="now"><span class="d">₪890</span><small>+ ₪99 לחודש</small><div class="bc"></div></div><ul><li>עמוד אחד לקמפיין</li><li>כפתור וואטסאפ וטלפון</li><li>לוח בקרה</li></ul></div>
+    <div class="pt"><div class="top"><h3>אתר לעסק</h3><span class="was">₪2,490</span></div><div class="now"><span class="d">₪1,490</span><small>+ ₪199 לחודש</small><div class="bc"></div></div><ul><li>כמה עמודים לעסק שירות</li><li>שעות, שירותים ושאלות נפוצות</li><li>לוח בקרה ודף AI</li></ul></div>
+    <div class="pt star"><div class="top"><span class="flag">הכי מתאים לחנויות</span><h3>חנות־קטלוג</h3><span class="was">₪4,900</span></div><div class="now"><span class="d">₪2,940</span><small>+ ₪349 לחודש</small><div class="bc"></div></div><ul><li>כל המוצרים, חיפוש, סינון ומבצעים</li><li>הזמנה בוואטסאפ או בעגלה קיימת</li><li>מתעדכן מגיליון גוגל</li><li>לוח בקרה ודף AI</li></ul></div>
+    <div class="pt"><div class="top"><h3>חנות מלאה</h3><span class="was" style="text-decoration:none">החל מ</span></div><div class="now"><span class="d">₪6,900</span><small>+ ₪449 לחודש</small><div class="bc"></div></div><ul><li>תשלום באשראי באתר</li><li>כל מה שבחנות־קטלוג</li></ul></div>
+  </div>
+  <div class="promise">
+    <div><b>מתחייבים למחיר הכי זול</b>הבאתם הצעה כתובה זולה יותר לאותה חבילה, כלומר הקמה, תחזוקה, אחסון ולוח בקרה? תקבלו את אותו מחיר.</div>
+    <div><b>משלמים אחרי שרואים</b>לשלושת העסקים הראשונים: לא משלמים שקל לפני שהאתר עובד ואתם מרוצים ממנו.</div>
+  </div>
+  <p class="fine">מחירי ההשקה לשלושת העסקים הראשונים. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום.</p>
+</section>
+
+<section>
+  <span class="eyebrow">איך זה עובד</span>
+  <h2>ארבעה צעדים.</h2>
+  <div class="steps">
+    <div><b>שולחים מוצרים</b><p>טבלה, גיליון גוגל, או צילומי מסך מהעמוד בפייסבוק. לוגו אם יש.</p></div>
+    <div><b>רואים הדמיה</b><p>אנחנו בונים את החנות שלכם בצבעים שלכם, ואתם בוחרים עיצוב.</p></div>
+    <div><b>מאשרים</b><p>מתפרסם רק מה שאישרתם בכתב. מתקנים עד שזה נראה כמו שרציתם.</p></div>
+    <div><b>האתר באוויר</b><p>מקבלים את האתר, את לוח הבקרה, ואת הדף ב-AgentFeed.</p></div>
+  </div>
+</section>
+
+<section class="agency" id="agencies">
+  <div>
+    <span class="eyebrow" style="color:var(--s-tag)">לסוכנויות שיווק</span>
+    <h2>אתם מריצים קמפיין. אנחנו בונים את האתר.</h2>
+    <p>הלקוחות שלכם צריכים אתר, ואתם צריכים להוכיח שהקמפיין מביא פניות. האתרים שלנו סופרים בדיוק את זה: מאיפה הגיעו, כמה לחצו על וואטסאפ וכמה הוסיפו לסל.</p>
+  </div>
+  <div class="ag">
+    <div><b>מפנים לקוח</b><span class="d">₪500</span><span class="s">על כל לקוח שנסגר. הלקוח פונה אלינו בעצמו, ואתם לא מעבירים שום רשימה.</span></div>
+    <div><b>מוכרים בשם שלכם</b><span class="d">₪1,990 + ₪249</span><span class="s">לחודש, מחיר סיטונאי לחנות־קטלוג. אתם קובעים ללקוח את המחיר, והאתר יוצא עם שורת קרדיט קטנה בתחתית בלבד.</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="honest">
+    <b>מה אנחנו לא מבטיחים: מקום ראשון בגוגל, או שעוזר AI ימליץ עליכם.</b>
+    <p>אף אחד לא יכול להבטיח את זה בכנות. מה שכן מובטח: האתר כתוב כך שמכונה יכולה לקרוא אותו, שום מחיר או ביקורת לא ממוצאים, וכל מספר בלוח הבקרה נספר באמת. בלי עוגיות, בלי שמות ובלי כתובות.</p>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">שאלות נפוצות</span>
+  <h2>שואלים אותנו.</h2>
+  <div class="faq">
+    <details><summary>אין לי אתר ואין לי חנות אונליין. זה מתאים לי?</summary><p>זה בדיוק למי שזה נבנה. שולחים לנו טבלה של המוצרים, או צילומי מסך מהעמוד בפייסבוק או באינסטגרם, וכל מוצר באתר מקבל כפתור הזמנה בוואטסאפ עם שם המוצר.</p></details>
+    <details><summary>מתי משלמים?</summary><p>לשלושת העסקים הראשונים: רק אחרי שרואים את האתר עובד. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי בלי התחייבות, עם הודעה של 30 יום.</p></details>
+    <details><summary>איך מעדכנים מחירים ומוצרים?</summary><p>הקטלוג יכול לשבת בגיליון גוגל שלכם. משנים מחיר בגיליון, והאתר מתעדכן לפיו. טבלה שנראית שבורה לא מתפרסמת, והאתר נשאר כמו שהיה.</p></details>
+    <details><summary>מה זה התג "נבנה ב-AgentFeed" שראיתי באתר של עסק?</summary><p>זו החתימה שלנו על אתרים שבנינו. העסק מסכים לה מראש, והיא מובילה לעמוד הזה.</p></details>
+    <details><summary>אתם שומרים מידע על המבקרים שלי?</summary><p>לא. בלי עוגיות, בלי שמות ובלי כתובות. נספר רק כמה, מאיפה ומה לחצו.</p></details>
+    <details><summary>מה צריך מכם כדי להתחיל?</summary><p>לוגו, רשימת מוצרים או שירותים עם מחירים, תמונות אם יש, שעות, משלוחים והחזרות, ואישור בכתב על מה שמתפרסם.</p></details>
+  </div>
+</section>
 
 <section class="start" id="start">
-  <h2>רוצים אתר? ספרו לנו על העסק</h2>
-  <p class="lead">ממלאים, לוחצים, ונפתחת הודעת וואטסאפ מוכנה אלינו. שום דבר לא נשמר באתר הזה.</p>
+  <div>
+    <h2>רוצים אתר?</h2>
+    <p>ספרו לנו על העסק. לוחצים, ונפתחת הודעת וואטסאפ מוכנה אלינו. שום דבר לא נשמר באתר הזה.</p>
+    <p class="or">או ישר: <a data-wa href="https://wa.me/972526760039">052-676-0039</a> · ניתאי</p>
+  </div>
   <form id="f">
     <label>שם העסק<input id="f-name" required autocomplete="organization"></label>
     <label>מה אתם צריכים
@@ -369,9 +521,8 @@ input,select{font:inherit;padding:11px 12px;border:2px solid var(--s-ink);border
       <select id="f-site"><option>לא</option><option>כן</option><option>רק פייסבוק או אינסטגרם</option></select></label>
     <label>כמה מוצרים בערך<input id="f-count" inputmode="numeric"></label>
     <label>השם שלך<input id="f-person" autocomplete="name"></label>
-    <div class="full"><button class="btn btn-w" type="submit">שליחה בוואטסאפ</button></div>
+    <div class="full"><button class="btn btn-w" type="submit" style="width:100%">שליחה בוואטסאפ</button></div>
   </form>
-  <p class="or">או ישר: <a data-wa href="https://wa.me/972526760039">052-676-0039</a> · ניתאי</p>
 </section>
 </main>
 <script>
