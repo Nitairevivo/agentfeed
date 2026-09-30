@@ -128,227 +128,282 @@ footer{color:var(--faint);font-size:.83rem;margin-top:48px;
 border-top:1px solid var(--line);padding-top:18px}
 footer a{color:var(--faint)}
 
-/* Layout: a shop sign of a hero with the product running in it (phone, panel,
-   an order arriving), then the argument told as a shop owner lives it: the
-   "how much?" comments of today against a catalogue with a button, a sheet
-   whose price walks onto the site, prices on shelf tags, and the form. */
-:root{--s-paper:#f4eedf;--s-card:#fffcf4;--s-ink:#14201a;--s-soft:#4d5b53;--s-line:#d8cdb2;
---s-deep:#0e3123;--s-deep-2:#154431;--s-deep-3:#1f5a42;--s-tag:#ffd23f;--s-red:#d6361f;--s-wa:#138a4a;--s-kraft:#e8d4a6;
---s-display:"Karantina","Rubik",system-ui,sans-serif;--s-body:"Rubik","Assistant",system-ui,sans-serif;
---s-shadow:#0b120e}
-@media (prefers-color-scheme: dark){:root{--s-paper:#0f1612;--s-card:#172119;--s-ink:#eef2e9;--s-soft:#a8b6ad;--s-line:#2a3a30;--s-shadow:#000}}
+/* Night market. A dark ground lit the way a shop street is at night: the
+   amber of a price tag and the green of a WhatsApp "new order" are the two
+   lights, glowing; violet only where the page talks about AI. Glass panels,
+   a light that follows the pointer, a phone that tilts toward it, borders a
+   beam of light runs around. Condensed sign type for the shouting, Rubik for
+   reading. Everything is visible without the effects; they only add. */
+@property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
+:root{color-scheme:dark;--bg:#05070c;--bg-2:#0a0e16;--ink:#eef1f7;--soft:#9ea8bc;--dim:#6f7a90;--line:rgba(255,255,255,.09);--glass:rgba(255,255,255,.035);
+--amber:#ffcf3a;--amber-2:#ff9f1a;--green:#2ef08c;--wa:#1fbf5b;--coral:#ff5a5f;--violet:#8b7bff;
+--display:"Karantina","Rubik",system-ui,sans-serif;--body:"Rubik","Assistant",system-ui,sans-serif;--mx:50vw;--my:30vh}
 *{box-sizing:border-box}
-body{margin:0;background:var(--s-paper);color:var(--s-ink);font-family:var(--s-body);line-height:1.6}
-main{max-width:1160px;margin:0 auto;padding:18px 16px 80px}
-h1,h2,.d{font-family:var(--s-display);font-weight:700;letter-spacing:0;line-height:.9;text-wrap:balance}
-h2{font-size:clamp(48px,6.4vw,84px);margin:0 0 12px}
-section{margin-top:88px}
-.eyebrow{display:inline-block;font-weight:800;font-size:.85rem;letter-spacing:.04em;color:var(--s-red);margin-bottom:10px}
-.lead{font-size:1.1rem;color:var(--s-soft);max-width:58ch;margin:0 0 22px}
-:focus-visible{outline:3px solid var(--s-tag);outline-offset:3px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;padding:0 24px;border-radius:6px;font-weight:800;
-text-decoration:none;border:2px solid var(--s-shadow);box-shadow:4px 4px 0 var(--s-shadow);font:800 1rem var(--s-body);cursor:pointer;transition:transform .15s ease,box-shadow .15s ease}
-.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--s-shadow)}
-.btn-y{background:var(--s-tag);color:#14201a}.btn-w{background:var(--s-wa);color:#fff}
+html{background:var(--bg);overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.6;overflow-x:clip;
+background-image:radial-gradient(900px 600px at 85% -10%,rgba(46,240,140,.12),transparent 60%),radial-gradient(800px 600px at -10% 20%,rgba(255,159,26,.10),transparent 60%),
+radial-gradient(700px 500px at 50% 110%,rgba(139,123,255,.10),transparent 60%)}
+/* a faint street grid under everything */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:56px 56px;
+-webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 30%,transparent 75%);mask-image:radial-gradient(ellipse at 50% 0%,#000 30%,transparent 75%)}
+/* the light that follows the pointer */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+background:radial-gradient(520px circle at var(--mx) var(--my),rgba(255,207,58,.07),transparent 60%)}
+header.top{position:relative;z-index:5;background:transparent!important;border:0!important}
+header.top .wordmark{color:var(--ink)!important}
+header.top .nav a{color:var(--soft)!important}
+header.top .nav a:hover{color:var(--amber)!important}
+main{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:10px 16px 90px}
+h1,h2,.d{font-family:var(--display);font-weight:700;letter-spacing:0;line-height:.9;text-wrap:balance}
+h2{font-size:clamp(50px,6.6vw,92px);margin:0 0 14px}
+section{margin-top:120px;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.82rem;letter-spacing:.06em;color:var(--amber);margin-bottom:12px}
+.eyebrow::before{content:"";width:22px;height:2px;background:currentColor;box-shadow:0 0 12px currentColor}
+.lead{font-size:1.12rem;color:var(--soft);max-width:58ch;margin:0 0 24px}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.glow-t{background:linear-gradient(100deg,var(--amber) 0%,#fff3c4 30%,var(--amber-2) 55%,var(--coral) 100%);background-size:220% 100%;
+-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 28px rgba(255,170,40,.35));animation:shimmer 7s ease-in-out infinite}
+@keyframes shimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+/* buttons: a lit sign and a green "open" */
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:56px;padding:0 26px;border-radius:12px;
+font:800 1rem var(--body);text-decoration:none;cursor:pointer;border:0;transition:transform .2s cubic-bezier(.23,1,.32,1),box-shadow .2s}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);transform:translateX(120%);transition:transform .7s}
+.btn:hover::after{transform:translateX(-120%)}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:scale(.97)}
+.btn-y{background:linear-gradient(180deg,#ffe07a,var(--amber));color:#1a1405;box-shadow:0 0 0 1px rgba(255,207,58,.6),0 10px 40px -8px rgba(255,190,40,.65)}
+.btn-w{background:linear-gradient(180deg,#34e07a,var(--wa));color:#04160b;box-shadow:0 0 0 1px rgba(46,240,140,.5),0 10px 40px -10px rgba(46,240,140,.6)}
 .btn svg{width:20px;height:20px}
 
+/* glass panels with a spotlight inside and an optional beam border */
+.glass{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:20px;
+-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);overflow:hidden;isolation:isolate}
+.glass::before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;transition:opacity .3s;
+background:radial-gradient(420px circle at var(--x,50%) var(--y,0%),rgba(255,207,58,.12),transparent 55%)}
+.glass:hover::before{opacity:1}
+.beam{border:0}
+.beam::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;pointer-events:none;
+background:conic-gradient(from var(--a),transparent 0 55%,var(--amber) 70%,var(--green) 80%,transparent 92%);
+-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:spin 5s linear infinite}
+@keyframes spin{to{--a:360deg}}
+
 /* ── hero ── */
-.hero{margin-top:0;position:relative;background:var(--s-deep);color:#f2efe4;border-radius:14px;border:3px solid #07100b;
-box-shadow:10px 10px 0 #07100b;padding:54px 44px 50px;display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;overflow:hidden;isolation:isolate}
-.hero::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.35;
-background:radial-gradient(circle at 20% 30%,var(--s-deep-3),transparent 45%),radial-gradient(circle at 85% 90%,#2a6b50,transparent 40%)}
+.hero{display:grid;grid-template-columns:1.02fr .98fr;gap:30px;align-items:center;padding-block:40px 30px;position:relative}
 .hero > *{min-width:0}
-.hero h1{font-size:clamp(70px,9.5vw,138px);margin:0;color:#fff}
-.hero h1 em{font-style:normal;color:var(--s-tag)}
-.stamp{display:inline-block;margin:18px 0 20px;border:4px solid var(--s-tag);color:var(--s-tag);border-radius:8px;padding:8px 16px 10px;
-transform:rotate(-3deg);font:700 clamp(30px,3.4vw,44px)/1 var(--s-display);box-shadow:inset 0 0 0 3px var(--s-deep),inset 0 0 0 5px var(--s-tag)}
-.hero p{color:#c9d8cf;max-width:44ch;margin:0 0 22px;font-size:1.1rem}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;padding:0;list-style:none}
-.chips li{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:5px 12px;font-weight:600;font-size:.9rem}
+#sky{position:absolute;inset:0;z-index:-1;width:100%;height:100%;pointer-events:none}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:6px 14px 6px 12px;border-radius:999px;border:1px solid rgba(46,240,140,.35);
+background:rgba(46,240,140,.08);color:#c9ffe0;font-weight:600;font-size:.88rem;margin-bottom:18px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,240,140,.7)}70%{box-shadow:0 0 0 10px rgba(46,240,140,0)}100%{box-shadow:0 0 0 0 rgba(46,240,140,0)}}
+.hero h1{font-size:clamp(78px,10.2vw,150px);margin:0;color:#fff;text-shadow:0 0 40px rgba(255,255,255,.12)}
+.neon{display:inline-block;margin:22px 0 22px;padding:10px 20px 12px;border-radius:12px;border:2px solid var(--amber);color:#fff4c7;
+font:700 clamp(32px,3.6vw,48px)/1 var(--display);transform:rotate(-2.5deg);
+text-shadow:0 0 6px rgba(255,207,58,.9),0 0 22px rgba(255,170,40,.7);
+box-shadow:0 0 14px rgba(255,207,58,.6),inset 0 0 14px rgba(255,207,58,.35),0 0 60px -10px rgba(255,170,40,.6);animation:flicker 6s infinite}
+@keyframes flicker{0%,92%,96%,100%{opacity:1}93%{opacity:.55}95%{opacity:.85}}
+.hero p{color:var(--soft);max-width:46ch;margin:0 0 22px;font-size:1.12rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none}
+.chips li{border:1px solid var(--line);background:var(--glass);border-radius:999px;padding:5px 13px;font-weight:600;font-size:.88rem;color:#d8deea}
 .ctas{display:flex;flex-wrap:wrap;gap:12px}
-.hero .btn{box-shadow:4px 4px 0 #07100b;border-color:#07100b}
 
-/* the stage: phone, panel, tag and an order arriving */
-.stage{position:relative;height:520px}
-.phone{position:absolute;inset-inline-start:8%;top:6px;width:250px;height:500px;background:#0a0f0c;border-radius:38px;padding:10px;
-box-shadow:0 30px 60px -20px rgba(0,0,0,.6);animation:rise .8s cubic-bezier(.23,1,.32,1) both}
-.scr{height:100%;border-radius:30px;overflow:hidden;background:var(--s-kraft);color:#14201a;display:flex;flex-direction:column}
-.scr .top{background:#fffaf0;padding:26px 12px 8px;border-bottom:2px solid #14201a;display:flex;align-items:center;gap:8px}
-.scr .logo{font:700 20px/1 var(--s-display);flex:1}
-.scr .q{height:22px;width:84px;border:1.5px solid #14201a;border-radius:99px;background:#fff}
-.aisles{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:10px 10px 4px}
-.aisles span{border:2px solid #14201a;border-radius:4px;color:#fff;font:700 20px/1 var(--s-display);padding:10px 8px 8px;box-shadow:2px 2px 0 #14201a}
-.aisles span:nth-child(1){background:var(--s-deep-2)}.aisles span:nth-child(2){background:var(--s-red)}
-.shelf{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px 10px}
-.item{background:#fffaf0;border:1.5px solid #14201a;border-radius:4px;overflow:hidden}
-.item .pic{height:66px;display:grid;place-items:center;border-bottom:5px solid #9a6a3c}
-.item .pic svg{width:44px;height:44px}
-.item .t{background:var(--s-tag);padding:5px 6px 6px}
-.item .t i{display:block;height:6px;width:70%;background:#14201a;opacity:.25;border-radius:2px;margin-bottom:4px}
-.item .t b{font:700 20px/1 var(--s-display)}
-.item .t u{display:block;margin-top:5px;height:14px;border-radius:3px;background:var(--s-wa)}
-.panel{position:absolute;inset-inline-end:0;top:40px;width:250px;background:#0f1726;color:#e8edf6;border-radius:12px;border:2px solid #07100b;
-box-shadow:6px 6px 0 #07100b;padding:14px;animation:rise .8s .15s cubic-bezier(.23,1,.32,1) both}
-.panel .h{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:#9aa6c0;margin-bottom:8px}
-.live{display:inline-flex;align-items:center;gap:6px}
-.live::before{content:"";width:8px;height:8px;border-radius:50%;background:#35d07f;box-shadow:0 0 0 0 rgba(53,208,127,.6);animation:pulse 2s infinite}
+.stage{position:relative;height:560px;perspective:1100px}
+.tilt{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .25s ease-out;transform:rotateY(var(--ry,-8deg)) rotateX(var(--rx,4deg))}
+.phone{position:absolute;inset-inline-start:12%;top:14px;width:258px;height:520px;border-radius:42px;padding:10px;background:linear-gradient(160deg,#2a3142,#0b0e15);
+box-shadow:0 0 0 1px rgba(255,255,255,.12),0 0 60px -6px rgba(46,240,140,.35),0 40px 80px -30px rgba(0,0,0,.9);transform:translateZ(30px)}
+.scr{height:100%;border-radius:33px;overflow:hidden;background:#101520;display:flex;flex-direction:column;position:relative}
+.scr::after{content:"";position:absolute;inset:0;background:linear-gradient(125deg,rgba(255,255,255,.12),transparent 35%);pointer-events:none}
+.scr .top{padding:28px 14px 10px;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(255,255,255,.08)}
+.scr .logo{font:700 22px/1 var(--display);flex:1;color:#fff}
+.scr .q{height:24px;width:88px;border:1px solid rgba(255,255,255,.18);border-radius:99px}
+.aisles{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:10px 12px 4px}
+.aisles span{border-radius:8px;color:#fff;font:700 21px/1 var(--display);padding:11px 9px 9px}
+.aisles span:nth-child(1){background:linear-gradient(135deg,#1c6b4b,#0e3a2a);box-shadow:0 0 18px -4px rgba(46,240,140,.6)}
+.aisles span:nth-child(2){background:linear-gradient(135deg,#ff6a3d,#c8243a);box-shadow:0 0 18px -4px rgba(255,90,95,.7)}
+.shelf{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px 12px}
+.item{background:#171e2c;border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden}
+.item .pic{height:70px;display:grid;place-items:center;background:radial-gradient(circle at 50% 60%,rgba(255,255,255,.08),transparent 70%)}
+.item .pic svg{width:42px;height:42px;filter:drop-shadow(0 0 10px rgba(255,207,58,.35))}
+.item .t{padding:6px 8px 8px}
+.item .t i{display:block;height:5px;width:70%;background:rgba(255,255,255,.2);border-radius:2px;margin-bottom:5px}
+.item .t b{font:700 20px/1 var(--display);color:var(--amber);text-shadow:0 0 10px rgba(255,207,58,.5)}
+.item .t u{display:block;margin-top:6px;height:15px;border-radius:5px;background:var(--wa);box-shadow:0 0 12px -2px rgba(46,240,140,.8)}
+.panel{position:absolute;inset-inline-end:0;top:34px;width:262px;padding:16px;transform:translateZ(80px);animation:bob 6s ease-in-out infinite}
+.panel .h{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:var(--soft);margin-bottom:10px}
+.live{display:inline-flex;align-items:center;gap:6px;color:#c9ffe0}
 .panel .n{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.panel .n div{background:#18223a;border-radius:8px;padding:8px 10px}
-.panel .n b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums}
-.panel .n small{color:#9aa6c0;font-size:.72rem}
-.panel svg{display:block;width:100%;height:56px;margin-top:10px}
-.panel .demo{font-size:.68rem;color:#7f8aa3;margin-top:6px}
-.bubble{position:absolute;inset-inline-end:6%;bottom:40px;width:250px;background:#e7ffdb;color:#10301f;border-radius:14px 14px 4px 14px;
-padding:10px 12px 8px;box-shadow:0 18px 30px -14px rgba(0,0,0,.55);animation:pop .6s .9s cubic-bezier(.23,1,.32,1) both;font-size:.92rem}
-.bubble b{display:flex;align-items:center;gap:6px;font-size:.78rem;color:var(--s-wa)}
-.bubble b svg{width:14px;height:14px}
-.bubble small{display:block;text-align:end;color:#5c7d69;font-size:.7rem}
-.htag{position:absolute;inset-inline-end:34%;bottom:150px;background:var(--s-tag);color:#14201a;border:3px solid #07100b;border-radius:4px;
-padding:8px 12px 10px;transform:rotate(7deg);box-shadow:4px 4px 0 #07100b;animation:pop .6s .5s cubic-bezier(.23,1,.32,1) both;text-align:center}
+.panel .n div{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.panel .n b{display:block;font-size:1.45rem;font-variant-numeric:tabular-nums;color:#fff}
+.panel .n small{color:var(--soft);font-size:.72rem}
+.panel svg{display:block;width:100%;height:60px;margin-top:10px;overflow:visible}
+.panel .spark{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 2.4s .4s cubic-bezier(.23,1,.32,1) forwards;filter:drop-shadow(0 0 6px rgba(255,90,95,.9))}
+@keyframes draw{to{stroke-dashoffset:0}}
+.panel .demo{font-size:.68rem;color:var(--dim);margin-top:6px}
+.bubble{position:absolute;inset-inline-end:4%;bottom:34px;width:262px;background:rgba(18,40,28,.85);border:1px solid rgba(46,240,140,.4);color:#e2ffee;
+border-radius:16px 16px 4px 16px;padding:11px 13px 9px;box-shadow:0 0 40px -8px rgba(46,240,140,.55);transform:translateZ(110px);font-size:.93rem;
+-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:bob 6s 1.5s ease-in-out infinite}
+.bubble b{display:flex;align-items:center;gap:7px;font-size:.78rem;color:var(--green)}
+.bubble small{display:block;text-align:end;color:#8fd1ac;font-size:.7rem}
+.htag{position:absolute;inset-inline-end:36%;bottom:168px;background:linear-gradient(180deg,#ffe07a,var(--amber));color:#1a1405;border-radius:8px;padding:9px 14px 11px;text-align:center;
+transform:translateZ(140px) rotate(8deg);box-shadow:0 0 50px -6px rgba(255,190,40,.8)}
 .htag small{display:block;font-weight:800;font-size:.7rem}
-.htag .d{font-size:52px;display:block}
-.htag i{display:block;height:14px;margin-top:4px;background:repeating-linear-gradient(90deg,#14201a 0 2px,transparent 2px 4px,#14201a 4px 5px,transparent 5px 8px)}
-@keyframes rise{from{transform:translateY(24px)}to{transform:none}}
-@keyframes pop{from{transform:scale(.85) rotate(0)}to{transform:scale(1)}}
-.htag{animation-name:pop-tag}@keyframes pop-tag{from{transform:scale(.85) rotate(0)}to{transform:rotate(7deg)}}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(53,208,127,.6)}70%{box-shadow:0 0 0 8px rgba(53,208,127,0)}100%{box-shadow:0 0 0 0 rgba(53,208,127,0)}}
+.htag .d{font-size:54px;display:block}
+.htag i{display:block;height:14px;margin-top:4px;background:repeating-linear-gradient(90deg,#1a1405 0 2px,transparent 2px 4px,#1a1405 4px 5px,transparent 5px 8px)}
+@keyframes bob{0%,100%{translate:0 0}50%{translate:0 -10px}}
 
-.ref{max-width:62ch;background:var(--s-card);border:2px dashed var(--s-line);border-radius:8px;padding:12px 16px;margin:22px 0 0}
+.ref{max-width:62ch;padding:12px 16px;margin:22px 0 0;border-radius:14px}
 .ref[hidden]{display:none}
 
-/* who it is for, running past like the tape at the till */
-.tape{margin-top:40px;background:var(--s-red);color:#fff;border-block:3px solid var(--s-shadow);overflow:hidden;border-radius:6px}
-.tape div{display:flex;gap:34px;padding:12px 0;width:max-content;animation:run 40s linear infinite;font:700 32px/1 var(--s-display)}
-.tape span::after{content:"✦";margin-inline-start:34px;color:var(--s-tag);font-size:20px}
+.tape{margin-top:50px;border-block:1px solid var(--line);overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.tape div{display:flex;gap:40px;padding:16px 0;width:max-content;animation:run 45s linear infinite;font:700 38px/1 var(--display);color:#dfe4ee}
+.tape span::after{content:"✦";margin-inline-start:40px;color:var(--amber);font-size:20px;text-shadow:0 0 12px var(--amber)}
 @keyframes run{to{transform:translateX(50%)}}
 
 /* today vs with a site */
-.vs{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
-.vs > div{min-width:0;border-radius:12px;padding:22px;border:2px solid var(--s-ink);box-shadow:6px 6px 0 var(--s-ink)}
-.vs .today{background:var(--s-card)}
-.vs .withus{background:var(--s-deep);color:#f2efe4;border-color:#07100b;box-shadow:6px 6px 0 #07100b}
-.vs h3{font:700 44px/.9 var(--s-display);margin:0 0 14px}
-.fb{background:#fff;color:#1c1e21;border-radius:10px;border:1px solid #dadde1;padding:12px;font-size:.9rem}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.vs > div{min-width:0;padding:26px}
+.vs h3{font:700 48px/.9 var(--display);margin:0 0 16px}
+.today{filter:saturate(.35)}
+.today h3{color:var(--dim)}
+.withus{box-shadow:0 0 80px -30px rgba(46,240,140,.5)}
+.withus h3{color:var(--green);text-shadow:0 0 24px rgba(46,240,140,.6)}
+.fb{background:#1b1f27;border-radius:14px;border:1px solid var(--line);padding:14px;font-size:.92rem;color:#cfd5e0}
 .fb .who{display:flex;gap:8px;align-items:center;font-weight:700}
-.fb .who i{width:30px;height:30px;border-radius:50%;background:#c9ccd1}
-.fb .ph{height:110px;border-radius:6px;background:linear-gradient(135deg,#e4e6eb,#cfd3da);margin:10px 0}
-.fb .c{background:#f0f2f5;border-radius:14px;padding:6px 10px;margin-top:6px;width:fit-content;max-width:100%}
-.fb .c b{font-size:.78rem;display:block}
-.vs .note{margin:14px 0 0;color:var(--s-soft)}
-.vs .withus .note{color:#c9d8cf}
-.card-demo{background:#fffaf0;color:#14201a;border:2px solid #07100b;border-radius:6px;overflow:hidden;max-width:300px}
-.card-demo .pic{height:130px;display:grid;place-items:center;border-bottom:7px solid #9a6a3c;background:#fffaf0}
-.card-demo .pic svg{width:84px;height:84px}
-.card-demo .t{background:var(--s-tag);padding:10px 12px 12px}
-.card-demo .t b{font:700 46px/.9 var(--s-display);display:block}
-.card-demo .t span{display:block;font-weight:600;margin:4px 0 8px}
-.card-demo .t a{display:flex;align-items:center;justify-content:center;gap:6px;background:var(--s-wa);color:#fff;border-radius:4px;padding:8px;font-weight:800;text-decoration:none}
-.card-demo .t a svg{width:16px;height:16px}
+.fb .who i{width:30px;height:30px;border-radius:50%;background:#394050}
+.fb .ph{height:110px;border-radius:10px;background:linear-gradient(135deg,#2a303c,#1f242e);margin:10px 0}
+.fb .c{background:#262b35;border-radius:14px;padding:6px 11px;margin-top:6px;width:fit-content;max-width:100%}
+.fb .c b{font-size:.76rem;display:block;color:#aeb6c4}
+.note{margin:16px 0 0;color:var(--soft)}
+.prod{background:#121824;border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;max-width:320px;box-shadow:0 20px 50px -20px rgba(0,0,0,.8)}
+.prod .pic{height:140px;display:grid;place-items:center;background:radial-gradient(circle at 50% 60%,rgba(255,207,58,.16),transparent 65%)}
+.prod .pic svg{width:86px;height:86px;filter:drop-shadow(0 0 18px rgba(255,207,58,.5))}
+.prod .t{padding:12px 14px 14px}
+.prod .t b{font:700 50px/.9 var(--display);color:var(--amber);text-shadow:0 0 18px rgba(255,207,58,.6);display:block}
+.prod .t span{display:block;font-weight:600;margin:4px 0 10px;color:#dfe4ee}
+.prod .t a{display:flex;align-items:center;justify-content:center;gap:6px;background:var(--wa);color:#04160b;border-radius:10px;padding:10px;font-weight:800;text-decoration:none;box-shadow:0 0 24px -4px rgba(46,240,140,.7)}
 
 /* what you get */
-.get{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.get > div{min-width:0;background:var(--s-card);border:2px solid var(--s-ink);border-radius:12px;box-shadow:6px 6px 0 var(--s-ink);overflow:hidden}
-.get .art{height:150px;display:grid;place-items:center;border-bottom:2px solid var(--s-ink)}
-.get > div:nth-child(1) .art{background:var(--s-kraft)}.get > div:nth-child(2) .art{background:#0f1726}.get > div:nth-child(3) .art{background:var(--s-deep)}
-.get .body{padding:18px 20px 20px}
-.get h3{font:700 44px/.9 var(--s-display);margin:0 0 10px}
-.get ul{margin:0;padding-inline-start:18px;display:grid;gap:5px;color:var(--s-soft)}
-.mini-grid{display:grid;grid-template-columns:repeat(3,44px);gap:8px}
-.mini-grid i{height:54px;background:#fffaf0;border:2px solid #14201a;border-radius:3px;position:relative}
-.mini-grid i::after{content:"";position:absolute;inset:auto 0 0;height:16px;background:var(--s-tag);border-top:2px solid #14201a}
-.bars{display:flex;align-items:flex-end;gap:8px;height:90px}
-.bars i{width:22px;border-radius:4px 4px 0 0;background:linear-gradient(180deg,#e7514a,#8e2b62)}
-.ai-card{background:#fff;color:#14201a;border-radius:8px;padding:10px 12px;font:600 .8rem/1.5 ui-monospace,Menlo,monospace;direction:ltr;text-align:left;box-shadow:4px 4px 0 #07100b;border:2px solid #07100b}
-.ai-card b{color:var(--s-deep-3)}
+.get{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.get > div{min-width:0}
+.get .art{height:170px;display:grid;place-items:center;border-bottom:1px solid var(--line);position:relative}
+.get .body{padding:22px 24px 26px}
+.get h3{font:700 48px/.9 var(--display);margin:0 0 12px}
+.get ul{margin:0;padding-inline-start:18px;display:grid;gap:6px;color:var(--soft)}
+.get li::marker{color:var(--amber)}
+.art .grid6{display:grid;grid-template-columns:repeat(3,48px);gap:9px}
+.art .grid6 i{height:58px;border-radius:8px;background:#171e2c;border:1px solid rgba(255,255,255,.1);position:relative;overflow:hidden}
+.art .grid6 i::after{content:"";position:absolute;inset:auto 0 0;height:16px;background:var(--amber);box-shadow:0 0 14px rgba(255,207,58,.8)}
+.bars{display:flex;align-items:flex-end;gap:9px;height:100px}
+.bars i{width:24px;border-radius:6px 6px 0 0;background:linear-gradient(180deg,var(--coral),#8e2b62);box-shadow:0 0 16px -2px rgba(255,90,95,.7);transform-origin:bottom;animation:grow 1.2s cubic-bezier(.23,1,.32,1) both}
+.bars i:nth-child(2){animation-delay:.08s}.bars i:nth-child(3){animation-delay:.16s}.bars i:nth-child(4){animation-delay:.24s}.bars i:nth-child(5){animation-delay:.32s}.bars i:nth-child(6){animation-delay:.4s}
+@keyframes grow{from{transform:scaleY(.2)}}
+.code{background:#0b0f18;border:1px solid rgba(139,123,255,.45);border-radius:12px;padding:12px 14px;font:600 .8rem/1.6 ui-monospace,Menlo,monospace;direction:ltr;text-align:left;
+color:#cfd6ff;box-shadow:0 0 40px -10px rgba(139,123,255,.7)}
+.code b{color:var(--violet)}.code s{text-decoration:none;color:var(--green)}
+.ai-card{box-shadow:0 0 70px -30px rgba(139,123,255,.8)}
 
 /* sheet → site */
-.sync{display:grid;grid-template-columns:1.3fr auto .8fr;gap:22px;align-items:center}
+.sync{display:grid;grid-template-columns:1.3fr auto .8fr;gap:26px;align-items:center}
 .sync > *{min-width:0}
-.sheet{overflow-x:auto;border:2px solid var(--s-ink);border-radius:8px;box-shadow:6px 6px 0 var(--s-ink);background:var(--s-card)}
-.sheet table{border-collapse:collapse;width:100%;min-width:420px;font-variant-numeric:tabular-nums}
-.sheet th,.sheet td{border:1px solid var(--s-line);padding:9px 10px;text-align:start}
-.sheet th{background:#e3efe6;color:#14201a;font-size:.88rem}
+.sheet{overflow-x:auto;padding:0}
+.sheet table{border-collapse:collapse;width:100%;min-width:430px;font-variant-numeric:tabular-nums}
+.sheet th,.sheet td{border-bottom:1px solid var(--line);padding:12px 14px;text-align:start}
+.sheet th{color:var(--soft);font-size:.82rem;font-weight:600;background:rgba(255,255,255,.03)}
 .cell{position:relative;display:inline-block;min-width:3ch}
-.cell span{display:inline-block}
 .old{animation:outp 6s infinite}.new{position:absolute;inset-inline-start:0;top:0;animation:inp 6s infinite}
-.hit{animation:flash 6s infinite}
+.hit{animation:flash 6s infinite;border-radius:6px}
 @keyframes outp{0%,30%{opacity:1}38%,92%{opacity:0}100%{opacity:1}}
 @keyframes inp{0%,30%{opacity:0}38%,92%{opacity:1}100%{opacity:0}}
-@keyframes flash{0%,30%{background:transparent}38%,60%{background:var(--s-tag)}92%,100%{background:transparent}}
-.arrow{font:700 72px/1 var(--s-display);color:var(--s-red)}
-.sync .card-demo{margin-inline:auto}
-.fine{color:var(--s-soft);font-size:.9rem;max-width:72ch;margin-top:12px}
+@keyframes flash{0%,30%{background:transparent;box-shadow:none}38%,62%{background:rgba(255,207,58,.18);box-shadow:inset 0 0 0 1px var(--amber),0 0 24px -4px rgba(255,207,58,.8)}92%,100%{background:transparent;box-shadow:none}}
+.flow{width:80px;height:6px;border-radius:3px;background:linear-gradient(90deg,transparent,var(--amber),transparent);background-size:200% 100%;animation:flow 1.6s linear infinite;box-shadow:0 0 16px rgba(255,207,58,.7)}
+@keyframes flow{from{background-position:200% 0}to{background-position:-200% 0}}
+.sync .prod{margin-inline:auto}
+.fine{color:var(--dim);font-size:.9rem;max-width:72ch;margin-top:14px}
 
-/* prices on shelf tags */
-.prices{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;align-items:start}
-.pt{background:var(--s-card);border:2px solid var(--s-ink);border-radius:6px;box-shadow:6px 6px 0 var(--s-ink);overflow:hidden}
-.pt .top{padding:16px 18px 10px}
+/* prices on lit tags */
+.prices{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:start}
+.pt{padding:0}
+.pt .top{padding:20px 20px 12px}
 .pt h3{margin:0;font-size:1.1rem}
-.pt .was{color:var(--s-soft);text-decoration:line-through;font-weight:600}
-.pt .now{background:var(--s-tag);color:#14201a;border-block:2px solid var(--s-ink);padding:10px 18px 12px}
-.pt .now .d{font-size:68px;display:block}
+.pt .was{color:var(--dim);text-decoration:line-through;font-weight:600}
+.pt .now{margin:0 12px;border-radius:12px;background:linear-gradient(180deg,#ffe07a,var(--amber));color:#1a1405;padding:12px 16px 14px;box-shadow:0 0 40px -12px rgba(255,190,40,.7)}
+.pt .now .d{font-size:66px;display:block}
 .pt .now small{font-weight:800;display:block}
-.pt .bc{height:18px;margin-top:8px;background:repeating-linear-gradient(90deg,#14201a 0 2px,transparent 2px 4px,#14201a 4px 5px,transparent 5px 8px);width:60%}
-.pt ul{margin:0;padding:14px 18px 18px;padding-inline-start:34px;color:var(--s-soft);font-size:.94rem;display:grid;gap:4px}
-.pt.star{transform:translateY(-14px) rotate(-1deg);border-width:3px}
-.flag{display:inline-block;background:var(--s-red);color:#fff;font-weight:800;font-size:.76rem;padding:3px 9px;border-radius:3px;margin-bottom:8px}
-.promise{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
-.promise > div{border:4px double var(--s-red);border-radius:10px;padding:16px 18px;background:var(--s-card)}
-.promise b{display:block;font:700 42px/1 var(--s-display);color:var(--s-red);margin-bottom:4px}
+.pt .bc{height:16px;margin-top:8px;width:60%;background:repeating-linear-gradient(90deg,#1a1405 0 2px,transparent 2px 4px,#1a1405 4px 5px,transparent 5px 8px)}
+.pt ul{margin:0;padding:16px 20px 22px;padding-inline-start:36px;color:var(--soft);font-size:.94rem;display:grid;gap:5px}
+.pt.star{transform:translateY(-16px);box-shadow:0 0 90px -30px rgba(255,190,40,.9)}
+.flag{display:inline-block;background:linear-gradient(90deg,var(--coral),#ff8a3d);color:#fff;font-weight:800;font-size:.75rem;padding:3px 10px;border-radius:999px;margin-bottom:8px;box-shadow:0 0 18px -2px rgba(255,90,95,.8)}
+.promise{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+.promise > div{padding:20px 22px}
+.promise b{display:block;font:700 46px/1 var(--display);margin-bottom:6px}
+.promise > div:first-child b{color:var(--amber);text-shadow:0 0 22px rgba(255,207,58,.6)}
+.promise > div:last-child b{color:var(--green);text-shadow:0 0 22px rgba(46,240,140,.6)}
+.promise span{color:var(--soft)}
 
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
-.steps > div{background:var(--s-card);border:2px solid var(--s-ink);border-radius:10px;padding:18px;counter-increment:s;position:relative}
-.steps > div::before{content:counter(s);display:block;font:700 72px/.8 var(--s-display);color:var(--s-red)}
-.steps b{display:block;margin:8px 0 2px;font-size:1.05rem}
-.steps p{margin:0;color:var(--s-soft);font-size:.94rem}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s;position:relative}
+.steps::before{content:"";position:absolute;top:44px;inset-inline:6%;height:2px;background:linear-gradient(90deg,var(--green),var(--amber),var(--coral));opacity:.5;box-shadow:0 0 14px rgba(255,207,58,.6)}
+.steps > div{padding:20px;counter-increment:s}
+.steps > div::after{content:counter(s);position:absolute;top:10px;inset-inline-start:18px;font:700 60px/1 var(--display);color:transparent;-webkit-text-stroke:1.5px var(--amber);opacity:.9}
+.steps b{display:block;margin:64px 0 4px;font-size:1.08rem}
+.steps p{margin:0;color:var(--soft);font-size:.94rem}
 
-.agency{background:var(--s-deep);color:#f2efe4;border-radius:14px;border:3px solid #07100b;box-shadow:10px 10px 0 #07100b;padding:40px 36px;
-display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.agency{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:44px 40px;
+background:radial-gradient(600px 300px at 90% 0%,rgba(139,123,255,.25),transparent 60%),radial-gradient(500px 300px at 0% 100%,rgba(255,159,26,.18),transparent 60%),linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02))}
 .agency > *{min-width:0}
-.agency h2{color:#fff}
-.agency p{color:#c9d8cf;max-width:52ch}
+.agency p{color:var(--soft);max-width:52ch}
 .ag{display:grid;gap:14px}
-.ag > div{background:var(--s-deep-2);border:1px solid #2f6a53;border-radius:10px;padding:16px 18px}
-.ag b{display:block;font-size:1.05rem;color:#fff}
-.ag .d{font-size:56px;color:var(--s-tag);display:block;margin:2px 0 4px}
-.ag span.s{color:#c9d8cf;font-size:.95rem}
+.ag > div{padding:18px 20px;border-radius:16px}
+.ag b{display:block;font-size:1.05rem}
+.ag .d{font-size:60px;display:block;margin:4px 0;background:linear-gradient(90deg,var(--amber),var(--coral));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 16px rgba(255,170,40,.4))}
+.ag span.s{color:var(--soft);font-size:.95rem}
 
-.honest{border:2px dashed var(--s-ink);border-radius:10px;padding:18px 20px;background:var(--s-card)}
-.honest p{margin:6px 0 0;max-width:66ch;color:var(--s-soft)}
-.faq{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;align-items:start}
-details{background:var(--s-card);border:2px solid var(--s-ink);border-radius:8px;padding:0 16px}
-summary{cursor:pointer;font-weight:700;padding:14px 0}
-details p{margin:0 0 14px;color:var(--s-soft)}
+.honest{padding:20px 22px;border-style:dashed}
+.honest p{margin:6px 0 0;max-width:68ch;color:var(--soft)}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;align-items:start}
+details{border-radius:14px;padding:0 18px}
+summary{cursor:pointer;font-weight:700;padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--amber);font-size:1.4rem;line-height:1;text-shadow:0 0 10px var(--amber);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin:0 0 16px;color:var(--soft)}
 
-.start{background:var(--s-tag);color:#14201a;border:3px solid #07100b;border-radius:14px;box-shadow:10px 10px 0 #07100b;padding:34px 30px;
-display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:start}
+.start{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:start;padding:44px 40px;box-shadow:0 0 120px -40px rgba(255,190,40,.6)}
 .start > *{min-width:0}
-.start p{color:#3d3a26}
-form{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;background:#fffcf0;border:2px solid #07100b;border-radius:10px;padding:18px}
+.start h2 .glow-t{display:inline}
+.start p{color:var(--soft)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px}
 form > *{min-width:0}
-label{display:grid;gap:4px;font-weight:700;font-size:.93rem}
-input,select{font:inherit;padding:11px 12px;border:2px solid #14201a;border-radius:6px;background:#fff;color:#14201a;width:100%}
+label{display:grid;gap:6px;font-weight:600;font-size:.92rem;color:#d8deea}
+input,select{font:inherit;padding:13px 14px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(0,0,0,.35);color:var(--ink);width:100%;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus{outline:none;border-color:var(--amber);box-shadow:0 0 0 3px rgba(255,207,58,.2),0 0 24px -6px rgba(255,207,58,.7)}
+select option{background:#0a0e16}
 .full{grid-column:1/-1}
-.or{margin-top:14px;font-weight:600}
-.or a{font-weight:800}
+.or a{color:var(--amber);font-weight:800;text-shadow:0 0 12px rgba(255,207,58,.5)}
 
-@media(max-width:980px){.hero{grid-template-columns:1fr;padding:40px 24px}.stage{height:500px;max-width:560px;width:100%;margin-inline:auto}
-.get,.prices,.steps{grid-template-columns:1fr 1fr}.agency,.start{grid-template-columns:1fr}.sync{grid-template-columns:1fr}.arrow{transform:rotate(-90deg);justify-self:center}.pt.star{transform:none}}
-@media(max-width:640px){.hero{padding:30px 18px;border-radius:10px}.hero h1{font-size:clamp(62px,19vw,92px)}
-.stage{height:460px}.phone{width:210px;height:430px;inset-inline-start:0}.panel{width:200px;top:10px}.panel .n b{font-size:1.1rem}
-.bubble{width:220px;inset-inline-end:0;bottom:6px}.htag{inset-inline-end:44%;bottom:118px}.htag .d{font-size:40px}
-.vs,.get,.prices,.steps,.promise,.faq,form{grid-template-columns:1fr}.agency,.start{padding:26px 18px}section{margin-top:64px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.new{opacity:0}.old{opacity:1}}
+/* reveal on scroll, only once scripts are running */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.23,1,.32,1),transform .8s cubic-bezier(.23,1,.32,1)}
+.js .rv.in{opacity:1;transform:none}
+
+@media(max-width:1000px){.hero{grid-template-columns:1fr}.stage{height:540px;max-width:580px;width:100%;margin-inline:auto}
+.get,.prices{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.agency,.start{grid-template-columns:1fr}
+.sync{grid-template-columns:1fr}.flow{transform:rotate(90deg);justify-self:center}.pt.star{transform:none}}
+@media(max-width:640px){.hero h1{font-size:clamp(64px,19vw,96px)}.stage{height:470px}.phone{width:212px;height:436px;inset-inline-start:0}
+.panel{width:204px;padding:12px}.panel .n b{font-size:1.1rem}.bubble{width:218px;inset-inline-end:0;bottom:4px}.htag{inset-inline-end:46%;bottom:120px}.htag .d{font-size:40px}
+.vs,.get,.prices,.steps,.promise,.faq,form{grid-template-columns:1fr}.agency,.start{padding:28px 20px}section{margin-top:80px}.tilt{transform:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.new{opacity:0}.old{opacity:1}
+.panel .spark{stroke-dashoffset:0}.js .rv{opacity:1;transform:none}}
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Rubik:wght@400;600;700;800&display=swap">
 </head>
 <body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header>
 <main>
 <div class="hero">
+  <canvas id="sky" aria-hidden="true"></canvas>
   <div>
-    <span class="eyebrow" style="color:var(--s-tag)">בניית אתרים לחנויות ולעסקים קטנים</span>
-    <h1>החנות שלך, <em>באינטרנט.</em></h1>
-    <div class="stamp">מתחייבים למחיר הכי זול</div>
+    <span class="pill"><span class="dot"></span>בניית אתרים לחנויות ולעסקים קטנים</span>
+    <h1>החנות שלך, <span class="glow-t">באינטרנט.</span></h1>
+    <div class="neon">מתחייבים למחיר הכי זול</div>
     <p>כל המוצרים שלך באתר מעוצב בצבעים של העסק, כפתור הזמנה בוואטסאפ מכל מוצר, לוח בקרה בזמן אמת, ודף שעוזרי AI קוראים. את כל העבודה אנחנו עושים.</p>
     <ul class="chips"><li>קטלוג מלא</li><li>הזמנה בוואטסאפ</li><li>לוח בקרה בזמן אמת</li><li>מתעדכן מגיליון גוגל</li><li>קריא לעוזרי AI</li></ul>
     <div class="ctas">
@@ -356,40 +411,42 @@ input,select{font:inherit;padding:11px 12px;border:2px solid #14201a;border-radi
       <a class="btn btn-w" data-wa href="https://wa.me/972526760039"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></svg>052-676-0039</a>
     </div>
   </div>
-  <div class="stage" role="img" aria-label="איור: חנות באתר בטלפון, לוח הבקרה, ותווית מחיר. להמחשה בלבד">
-    <div class="phone"><div class="scr">
-      <div class="top"><span class="logo">החנות שלך</span><span class="q"></span></div>
-      <div class="aisles"><span>מחלקה א׳</span><span>מבצעים</span></div>
-      <div class="shelf">
-        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="3" fill="#d6361f" stroke="#14201a" stroke-width="2"/><rect x="16" y="16" width="16" height="10" fill="#ffd23f"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
-        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="14" fill="#1f5a42" stroke="#14201a" stroke-width="2"/><path d="M16 22h16" stroke="#fff" stroke-width="3"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
-        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><path d="M10 34 24 10l14 24Z" fill="#ffd23f" stroke="#14201a" stroke-width="2"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
-        <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="10" y="14" width="28" height="22" rx="11" fill="#2d3a64" stroke="#14201a" stroke-width="2"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+  <div class="stage" role="img" aria-label="איור: חנות באתר בטלפון, לוח הבקרה, תווית מחיר והזמנה בוואטסאפ. להמחשה בלבד">
+    <div class="tilt" id="tilt">
+      <div class="phone"><div class="scr">
+        <div class="top"><span class="logo">החנות שלך</span><span class="q"></span></div>
+        <div class="aisles"><span>מחלקה א׳</span><span>מבצעים</span></div>
+        <div class="shelf">
+          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="4" fill="#ff5a5f"/><rect x="16" y="16" width="16" height="10" rx="2" fill="#ffcf3a"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="14" fill="#2ef08c"/><path d="M16 22h16" stroke="#05070c" stroke-width="3"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><path d="M10 34 24 10l14 24Z" fill="#ffcf3a"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="10" y="14" width="28" height="22" rx="11" fill="#8b7bff"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+        </div>
+      </div></div>
+      <div class="panel glass">
+        <div class="h"><span>לוח הבקרה</span><span class="live"><span class="dot"></span>עכשיו</span></div>
+        <div class="n"><div><small>ביקורים היום</small><b data-count="64">64</b></div><div><small>הזמנות בוואטסאפ</small><b data-count="7">7</b></div></div>
+        <svg viewBox="0 0 240 60" preserveAspectRatio="none" aria-hidden="true"><path class="spark" d="M0 48 C20 44 30 52 50 40 S80 34 100 38 130 22 150 30 190 14 236 8" fill="none" stroke="#ff5a5f" stroke-width="3" stroke-linecap="round"/><circle cx="236" cy="8" r="4" fill="#fff"/></svg>
+        <div class="demo">נתוני דוגמה</div>
       </div>
-    </div></div>
-    <div class="panel">
-      <div class="h"><span>לוח הבקרה</span><span class="live">עכשיו</span></div>
-      <div class="n"><div><small>ביקורים היום</small><b>64</b></div><div><small>הזמנות בוואטסאפ</small><b>7</b></div></div>
-      <svg viewBox="0 0 240 56" preserveAspectRatio="none" aria-hidden="true"><path d="M0 44 C20 40 30 48 50 36 S80 30 100 34 130 18 150 26 190 12 240 8" fill="none" stroke="#e7514a" stroke-width="3"/><circle cx="238" cy="8" r="4" fill="#fff"/></svg>
-      <div class="demo">נתוני דוגמה</div>
+      <div class="htag"><small>מחיר</small><span class="d">₪ ••</span><i></i></div>
+      <div class="bubble"><b><span class="dot"></span>הזמנה חדשה מהאתר</b>היי, אשמח להזמין את המוצר הזה 🙂<small>עכשיו ✓✓</small></div>
     </div>
-    <div class="htag"><small>מחיר</small><span class="d">₪ ••</span><i></i></div>
-    <div class="bubble"><b><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg>הזמנה חדשה מהאתר</b>היי, אשמח להזמין את המוצר הזה 🙂<small>עכשיו ✓✓</small></div>
   </div>
 </div>
 
-<p class="ref" id="ref" hidden>הגעתם מהתג "נבנה ב-AgentFeed" באתר של עסק. זה מה שבנינו לו, ואפשר לבנות גם לכם.</p>
+<p class="ref glass" id="ref" hidden>הגעתם מהתג "נבנה ב-AgentFeed" באתר של עסק. זה מה שבנינו לו, ואפשר לבנות גם לכם.</p>
 
 <div class="tape" aria-label="למי זה מתאים"><div>
   <span>חנויות חיות</span><span>משתלות</span><span>תבלינים ופיצוחים</span><span>צעצועים</span><span>יודאיקה</span><span>ציוד דייג</span><span>ציוד למסיבות</span><span>אופניים</span><span>מתנות</span><span>משקאות</span>
   <span>חנויות חיות</span><span>משתלות</span><span>תבלינים ופיצוחים</span><span>צעצועים</span><span>יודאיקה</span><span>ציוד דייג</span><span>ציוד למסיבות</span><span>אופניים</span><span>מתנות</span><span>משקאות</span>
 </div></div>
 
-<section>
+<section class="rv">
   <span class="eyebrow">למה אתר</span>
-  <h2>"כמה?" בתגובות, או כפתור שמזמין.</h2>
+  <h2>"כמה?" בתגובות, או <span class="glow-t">כפתור שמזמין.</span></h2>
   <div class="vs">
-    <div class="today">
+    <div class="today glass">
       <h3>היום</h3>
       <div class="fb" aria-label="איור: פוסט בפייסבוק עם שאלות על המחיר">
         <div class="who"><i></i>החנות שלך</div>
@@ -401,36 +458,36 @@ input,select{font:inherit;padding:11px 12px;border:2px solid #14201a;border-radi
       </div>
       <p class="note">הלקוח שואל, מחכה לתשובה, ולפעמים הולך לחנות אחרת בינתיים. ומי שלא עוקב אחרי העמוד לא רואה את הפוסט בכלל.</p>
     </div>
-    <div class="withus">
+    <div class="withus glass beam">
       <h3>עם אתר</h3>
-      <div class="card-demo" aria-label="איור: מוצר באתר עם מחיר וכפתור הזמנה">
-        <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="3" fill="#d6361f" stroke="#14201a" stroke-width="2"/><rect x="16" y="16" width="16" height="10" fill="#ffd23f"/></svg></div>
-        <div class="t"><b>₪129</b><span>שם המוצר, כמו שכתוב אצלכם</span><a href="#start" tabindex="-1"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg>הזמנה בוואטסאפ</a></div>
+      <div class="prod" aria-label="איור: מוצר באתר עם מחיר וכפתור הזמנה">
+        <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="4" fill="#ff5a5f"/><rect x="16" y="16" width="16" height="10" rx="2" fill="#ffcf3a"/></svg></div>
+        <div class="t"><b>₪129</b><span>שם המוצר, כמו שכתוב אצלכם</span><a href="#start" tabindex="-1">הזמנה בוואטסאפ</a></div>
       </div>
       <p class="note">המחיר כבר כתוב, והכפתור פותח לכם הודעה עם שם המוצר. כל המוצרים במקום אחד, ומי שמחפש מוצא. המחיר באיור הוא דוגמה.</p>
     </div>
   </div>
 </section>
 
-<section>
+<section class="rv">
   <span class="eyebrow">מה מקבלים</span>
-  <h2>אתר, לוח בקרה, ודף ל-AI.</h2>
+  <h2>אתר, לוח בקרה, <span class="glow-t">ודף ל-AI.</span></h2>
   <div class="get">
-    <div><div class="art"><div class="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="glass"><div class="art"><div class="grid6"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
       <div class="body"><h3>האתר</h3><ul><li>עיצוב מקורי מהלוגו שלכם, כמה גרסאות לבחירה</li><li>רספונסיבי ומהיר, נראה מעולה בטלפון</li><li>קטלוג עם חיפוש, סינון, מיון ומבצעים</li><li>כפתור הזמנה בוואטסאפ מכל מוצר</li><li>קידום אורגני טכני ונתונים מובנים לגוגל</li></ul></div></div>
-    <div><div class="art"><div class="bars"><i style="height:30%"></i><i style="height:52%"></i><i style="height:40%"></i><i style="height:70%"></i><i style="height:58%"></i><i style="height:92%"></i></div></div>
+    <div class="glass"><div class="art"><div class="bars"><i style="height:30%"></i><i style="height:52%"></i><i style="height:40%"></i><i style="height:72%"></i><i style="height:58%"></i><i style="height:94%"></i></div></div>
       <div class="body"><h3>לוח הבקרה</h3><ul><li>כמה נכנסו, מאיפה, ומה עשו, בזמן אמת</li><li>לחיצות וואטסאפ, שיחות והוספות לסל</li><li>אחוז המרה והשוואה לחודש הקודם</li><li>המלצות לשיפור, כל אחת עם המספר שמאחוריה</li><li>הכנסות והוצאות במקום אחד</li></ul></div></div>
-    <div><div class="art"><div class="ai-card">{ <b>"product"</b>: "…",<br>&nbsp;&nbsp;<b>"price"</b>: "… ILS",<br>&nbsp;&nbsp;<b>"order"</b>: "wa.me/…" }</div></div>
+    <div class="glass ai-card"><div class="art"><div class="code">{ <b>"product"</b>: <s>"…"</s>,<br>&nbsp;&nbsp;<b>"price"</b>: <s>"… ILS"</s>,<br>&nbsp;&nbsp;<b>"order"</b>: <s>"wa.me/…"</s> }</div></div>
       <div class="body"><h3>דף ה-AI</h3><ul><li>דף בספרייה של AgentFeed, שמקבלים רק אצלנו</li><li>עוזרי AI כמו ChatGPT וג'מיני יכולים לקרוא אותו</li><li>כל מוצר עם מחיר וקישור להזמנה אצלכם</li><li>מה שלא פרסמתם מסומן כחסר, לא מנוחש</li></ul></div></div>
   </div>
 </section>
 
-<section>
+<section class="rv">
   <span class="eyebrow">בלי לבקש מאף אחד</span>
-  <h2>משנים מחיר בגיליון. האתר מתעדכן.</h2>
+  <h2>משנים מחיר בגיליון. <span class="glow-t">האתר מתעדכן.</span></h2>
   <p class="lead">הקטלוג יושב בגיליון גוגל שלכם, בעברית, בעמודות שאתם מכירים. משנים מחיר, מוסיפים מוצר או מסמנים "לא" במלאי, והאתר נבנה מחדש לפי הגיליון. גיליון שנראה שבור, ריק, עם מק״ט כפול או עם חצי מהמוצרים, לא מתפרסם, והאתר נשאר כמו שהיה.</p>
   <div class="sync">
-    <div class="sheet"><table>
+    <div class="sheet glass"><table>
       <thead><tr><th>מק״ט</th><th>שם</th><th>מחיר</th><th>מחיר רגיל</th><th>קטגוריה</th><th>במלאי</th></tr></thead>
       <tbody>
         <tr><td>1041</td><td>המוצר שלכם</td><td class="hit"><span class="cell"><span class="old">149</span><span class="new">129</span></span></td><td>149</td><td>מחלקה א׳</td><td>כן</td></tr>
@@ -438,77 +495,77 @@ input,select{font:inherit;padding:11px 12px;border:2px solid #14201a;border-radi
         <tr><td>1043</td><td>עוד מוצר</td><td>39</td><td></td><td>מחלקה ב׳</td><td>לא</td></tr>
       </tbody>
     </table></div>
-    <div class="arrow" aria-hidden="true">←</div>
-    <div class="card-demo" aria-hidden="true">
-      <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="3" fill="#d6361f" stroke="#14201a" stroke-width="2"/><rect x="16" y="16" width="16" height="10" fill="#ffd23f"/></svg></div>
+    <div class="flow" aria-hidden="true"></div>
+    <div class="prod" aria-hidden="true">
+      <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="4" fill="#ff5a5f"/><rect x="16" y="16" width="16" height="10" rx="2" fill="#ffcf3a"/></svg></div>
       <div class="t"><b><span class="cell"><span class="old">₪149</span><span class="new">₪129</span></span></b><span>המוצר שלכם</span><a href="#start" tabindex="-1">הזמנה בוואטסאפ</a></div>
     </div>
   </div>
   <p class="fine">דוגמה: המחיר שמשתנה בגיליון הוא המחיר שמופיע באתר.</p>
 </section>
 
-<section>
+<section class="rv">
   <span class="eyebrow">המחירים</span>
-  <h2>על תווית, כמו בחנות.</h2>
+  <h2>על תווית, <span class="glow-t">כמו בחנות.</span></h2>
   <div class="prices">
-    <div class="pt"><div class="top"><h3>דף נחיתה</h3><span class="was">₪1,490</span></div><div class="now"><span class="d">₪890</span><small>+ ₪99 לחודש</small><div class="bc"></div></div><ul><li>עמוד אחד לקמפיין</li><li>כפתור וואטסאפ וטלפון</li><li>לוח בקרה</li></ul></div>
-    <div class="pt"><div class="top"><h3>אתר לעסק</h3><span class="was">₪2,490</span></div><div class="now"><span class="d">₪1,490</span><small>+ ₪199 לחודש</small><div class="bc"></div></div><ul><li>כמה עמודים לעסק שירות</li><li>שעות, שירותים ושאלות נפוצות</li><li>לוח בקרה ודף AI</li></ul></div>
-    <div class="pt star"><div class="top"><span class="flag">הכי מתאים לחנויות</span><h3>חנות־קטלוג</h3><span class="was">₪4,900</span></div><div class="now"><span class="d">₪2,940</span><small>+ ₪349 לחודש</small><div class="bc"></div></div><ul><li>כל המוצרים, חיפוש, סינון ומבצעים</li><li>הזמנה בוואטסאפ או בעגלה קיימת</li><li>מתעדכן מגיליון גוגל</li><li>לוח בקרה ודף AI</li></ul></div>
-    <div class="pt"><div class="top"><h3>חנות מלאה</h3><span class="was" style="text-decoration:none">החל מ</span></div><div class="now"><span class="d">₪6,900</span><small>+ ₪449 לחודש</small><div class="bc"></div></div><ul><li>תשלום באשראי באתר</li><li>כל מה שבחנות־קטלוג</li></ul></div>
+    <div class="pt glass"><div class="top"><h3>דף נחיתה</h3><span class="was">₪1,490</span></div><div class="now"><span class="d">₪890</span><small>+ ₪99 לחודש</small><div class="bc"></div></div><ul><li>עמוד אחד לקמפיין</li><li>כפתור וואטסאפ וטלפון</li><li>לוח בקרה</li></ul></div>
+    <div class="pt glass"><div class="top"><h3>אתר לעסק</h3><span class="was">₪2,490</span></div><div class="now"><span class="d">₪1,490</span><small>+ ₪199 לחודש</small><div class="bc"></div></div><ul><li>כמה עמודים לעסק שירות</li><li>שעות, שירותים ושאלות נפוצות</li><li>לוח בקרה ודף AI</li></ul></div>
+    <div class="pt glass beam star"><div class="top"><span class="flag">הכי מתאים לחנויות</span><h3>חנות־קטלוג</h3><span class="was">₪4,900</span></div><div class="now"><span class="d">₪2,940</span><small>+ ₪349 לחודש</small><div class="bc"></div></div><ul><li>כל המוצרים, חיפוש, סינון ומבצעים</li><li>הזמנה בוואטסאפ או בעגלה קיימת</li><li>מתעדכן מגיליון גוגל</li><li>לוח בקרה ודף AI</li></ul></div>
+    <div class="pt glass"><div class="top"><h3>חנות מלאה</h3><span class="was" style="text-decoration:none">החל מ</span></div><div class="now"><span class="d">₪6,900</span><small>+ ₪449 לחודש</small><div class="bc"></div></div><ul><li>תשלום באשראי באתר</li><li>כל מה שבחנות־קטלוג</li></ul></div>
   </div>
   <div class="promise">
-    <div><b>מתחייבים למחיר הכי זול</b>הבאתם הצעה כתובה זולה יותר לאותה חבילה, כלומר הקמה, תחזוקה, אחסון ולוח בקרה? תקבלו את אותו מחיר.</div>
-    <div><b>משלמים אחרי שרואים</b>לשלושת העסקים הראשונים: לא משלמים שקל לפני שהאתר עובד ואתם מרוצים ממנו.</div>
+    <div class="glass"><b>מתחייבים למחיר הכי זול</b><span>הבאתם הצעה כתובה זולה יותר לאותה חבילה, כלומר הקמה, תחזוקה, אחסון ולוח בקרה? תקבלו את אותו מחיר.</span></div>
+    <div class="glass"><b>משלמים אחרי שרואים</b><span>לשלושת העסקים הראשונים: לא משלמים שקל לפני שהאתר עובד ואתם מרוצים ממנו.</span></div>
   </div>
   <p class="fine">מחירי ההשקה לשלושת העסקים הראשונים. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום.</p>
 </section>
 
-<section>
+<section class="rv">
   <span class="eyebrow">איך זה עובד</span>
   <h2>ארבעה צעדים.</h2>
   <div class="steps">
-    <div><b>שולחים מוצרים</b><p>טבלה, גיליון גוגל, או צילומי מסך מהעמוד בפייסבוק. לוגו אם יש.</p></div>
-    <div><b>רואים הדמיה</b><p>אנחנו בונים את החנות שלכם בצבעים שלכם, ואתם בוחרים עיצוב.</p></div>
-    <div><b>מאשרים</b><p>מתפרסם רק מה שאישרתם בכתב. מתקנים עד שזה נראה כמו שרציתם.</p></div>
-    <div><b>האתר באוויר</b><p>מקבלים את האתר, את לוח הבקרה, ואת הדף ב-AgentFeed.</p></div>
+    <div class="glass"><b>שולחים מוצרים</b><p>טבלה, גיליון גוגל, או צילומי מסך מהעמוד בפייסבוק. לוגו אם יש.</p></div>
+    <div class="glass"><b>רואים הדמיה</b><p>אנחנו בונים את החנות שלכם בצבעים שלכם, ואתם בוחרים עיצוב.</p></div>
+    <div class="glass"><b>מאשרים</b><p>מתפרסם רק מה שאישרתם בכתב. מתקנים עד שזה נראה כמו שרציתם.</p></div>
+    <div class="glass"><b>האתר באוויר</b><p>מקבלים את האתר, את לוח הבקרה, ואת הדף ב-AgentFeed.</p></div>
   </div>
 </section>
 
-<section class="agency" id="agencies">
+<section class="agency glass rv" id="agencies">
   <div>
-    <span class="eyebrow" style="color:var(--s-tag)">לסוכנויות שיווק</span>
-    <h2>אתם מריצים קמפיין. אנחנו בונים את האתר.</h2>
+    <span class="eyebrow" style="color:var(--violet)">לסוכנויות שיווק</span>
+    <h2>אתם מריצים קמפיין. <span class="glow-t">אנחנו בונים את האתר.</span></h2>
     <p>הלקוחות שלכם צריכים אתר, ואתם צריכים להוכיח שהקמפיין מביא פניות. האתרים שלנו סופרים בדיוק את זה: מאיפה הגיעו, כמה לחצו על וואטסאפ וכמה הוסיפו לסל.</p>
   </div>
   <div class="ag">
-    <div><b>מפנים לקוח</b><span class="d">₪500</span><span class="s">על כל לקוח שנסגר. הלקוח פונה אלינו בעצמו, ואתם לא מעבירים שום רשימה.</span></div>
-    <div><b>מוכרים בשם שלכם</b><span class="d">₪1,990 + ₪249</span><span class="s">לחודש, מחיר סיטונאי לחנות־קטלוג. אתם קובעים ללקוח את המחיר, והאתר יוצא עם שורת קרדיט קטנה בתחתית בלבד.</span></div>
+    <div class="glass"><b>מפנים לקוח</b><span class="d">₪500</span><span class="s">על כל לקוח שנסגר. הלקוח פונה אלינו בעצמו, ואתם לא מעבירים שום רשימה.</span></div>
+    <div class="glass"><b>מוכרים בשם שלכם</b><span class="d">₪1,990 + ₪249</span><span class="s">לחודש, מחיר סיטונאי לחנות־קטלוג. אתם קובעים ללקוח את המחיר, והאתר יוצא עם שורת קרדיט קטנה בתחתית בלבד.</span></div>
   </div>
 </section>
 
-<section>
-  <div class="honest">
+<section class="rv">
+  <div class="honest glass">
     <b>מה אנחנו לא מבטיחים: מקום ראשון בגוגל, או שעוזר AI ימליץ עליכם.</b>
     <p>אף אחד לא יכול להבטיח את זה בכנות. מה שכן מובטח: האתר כתוב כך שמכונה יכולה לקרוא אותו, שום מחיר או ביקורת לא ממוצאים, וכל מספר בלוח הבקרה נספר באמת. בלי עוגיות, בלי שמות ובלי כתובות.</p>
   </div>
 </section>
 
-<section>
+<section class="rv">
   <span class="eyebrow">שאלות נפוצות</span>
   <h2>שואלים אותנו.</h2>
   <div class="faq">
-    <details><summary>אין לי אתר ואין לי חנות אונליין. זה מתאים לי?</summary><p>זה בדיוק למי שזה נבנה. שולחים לנו טבלה של המוצרים, או צילומי מסך מהעמוד בפייסבוק או באינסטגרם, וכל מוצר באתר מקבל כפתור הזמנה בוואטסאפ עם שם המוצר.</p></details>
-    <details><summary>מתי משלמים?</summary><p>לשלושת העסקים הראשונים: רק אחרי שרואים את האתר עובד. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי בלי התחייבות, עם הודעה של 30 יום.</p></details>
-    <details><summary>איך מעדכנים מחירים ומוצרים?</summary><p>הקטלוג יכול לשבת בגיליון גוגל שלכם. משנים מחיר בגיליון, והאתר מתעדכן לפיו. טבלה שנראית שבורה לא מתפרסמת, והאתר נשאר כמו שהיה.</p></details>
-    <details><summary>מה זה התג "נבנה ב-AgentFeed" שראיתי באתר של עסק?</summary><p>זו החתימה שלנו על אתרים שבנינו. העסק מסכים לה מראש, והיא מובילה לעמוד הזה.</p></details>
-    <details><summary>אתם שומרים מידע על המבקרים שלי?</summary><p>לא. בלי עוגיות, בלי שמות ובלי כתובות. נספר רק כמה, מאיפה ומה לחצו.</p></details>
-    <details><summary>מה צריך מכם כדי להתחיל?</summary><p>לוגו, רשימת מוצרים או שירותים עם מחירים, תמונות אם יש, שעות, משלוחים והחזרות, ואישור בכתב על מה שמתפרסם.</p></details>
+    <details class="glass"><summary>אין לי אתר ואין לי חנות אונליין. זה מתאים לי?</summary><p>זה בדיוק למי שזה נבנה. שולחים לנו טבלה של המוצרים, או צילומי מסך מהעמוד בפייסבוק או באינסטגרם, וכל מוצר באתר מקבל כפתור הזמנה בוואטסאפ עם שם המוצר.</p></details>
+    <details class="glass"><summary>מתי משלמים?</summary><p>לשלושת העסקים הראשונים: רק אחרי שרואים את האתר עובד. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי בלי התחייבות, עם הודעה של 30 יום.</p></details>
+    <details class="glass"><summary>איך מעדכנים מחירים ומוצרים?</summary><p>הקטלוג יכול לשבת בגיליון גוגל שלכם. משנים מחיר בגיליון, והאתר מתעדכן לפיו. טבלה שנראית שבורה לא מתפרסמת, והאתר נשאר כמו שהיה.</p></details>
+    <details class="glass"><summary>מה זה התג "נבנה ב-AgentFeed" שראיתי באתר של עסק?</summary><p>זו החתימה שלנו על אתרים שבנינו. העסק מסכים לה מראש, והיא מובילה לעמוד הזה.</p></details>
+    <details class="glass"><summary>אתם שומרים מידע על המבקרים שלי?</summary><p>לא. בלי עוגיות, בלי שמות ובלי כתובות. נספר רק כמה, מאיפה ומה לחצו.</p></details>
+    <details class="glass"><summary>מה צריך מכם כדי להתחיל?</summary><p>לוגו, רשימת מוצרים או שירותים עם מחירים, תמונות אם יש, שעות, משלוחים והחזרות, ואישור בכתב על מה שמתפרסם.</p></details>
   </div>
 </section>
 
-<section class="start" id="start">
+<section class="start glass beam rv" id="start">
   <div>
-    <h2>רוצים אתר?</h2>
+    <h2>רוצים <span class="glow-t">אתר?</span></h2>
     <p>ספרו לנו על העסק. לוחצים, ונפתחת הודעת וואטסאפ מוכנה אלינו. שום דבר לא נשמר באתר הזה.</p>
     <p class="or">או ישר: <a data-wa href="https://wa.me/972526760039">052-676-0039</a> · ניתאי</p>
   </div>
@@ -521,10 +578,75 @@ input,select{font:inherit;padding:11px 12px;border:2px solid #14201a;border-radi
       <select id="f-site"><option>לא</option><option>כן</option><option>רק פייסבוק או אינסטגרם</option></select></label>
     <label>כמה מוצרים בערך<input id="f-count" inputmode="numeric"></label>
     <label>השם שלך<input id="f-person" autocomplete="name"></label>
-    <div class="full"><button class="btn btn-w" type="submit" style="width:100%">שליחה בוואטסאפ</button></div>
+    <div class="full"><button class="btn btn-y" type="submit" style="width:100%">שליחה בוואטסאפ</button></div>
   </form>
 </section>
 </main>
+<script>
+// The effects, all additive: the page reads the same without any of them.
+(function () {
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  document.documentElement.classList.add('js');
+
+  // reveal sections as they arrive, and never leave one hidden
+  var rv = [].slice.call(document.querySelectorAll('.rv'));
+  if (still || !('IntersectionObserver' in window)) rv.forEach(function (e) { e.classList.add('in'); });
+  else {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+    rv.forEach(function (e) { io.observe(e); });
+    setTimeout(function () { rv.forEach(function (e) { e.classList.add('in'); }); }, 4000);
+  }
+
+  // numbers that count up to what they already say
+  if (!still) document.querySelectorAll('[data-count]').forEach(function (el) {
+    var to = +el.dataset.count, t0 = null;
+    function step(t) { t0 = t0 || t; var k = Math.min(1, (t - t0) / 1400); el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(step); }
+    requestAnimationFrame(step);
+  });
+
+  if (!fine || still) return;
+  // the light that follows the pointer, the spotlight inside each glass panel,
+  // and the hero turning toward the pointer
+  var root = document.body.style, tilt = document.getElementById('tilt'), raf = 0, px = 0, py = 0;
+  addEventListener('pointermove', function (e) {
+    px = e.clientX; py = e.clientY;
+    if (raf) return;
+    raf = requestAnimationFrame(function () {
+      raf = 0; root.setProperty('--mx', px + 'px'); root.setProperty('--my', py + 'px');
+      if (tilt) {
+        var r = tilt.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+        var ry = Math.max(-14, Math.min(14, (px - cx) / 40)), rx = Math.max(-10, Math.min(10, -(py - cy) / 50));
+        tilt.style.setProperty('--ry', ry + 'deg'); tilt.style.setProperty('--rx', rx + 'deg');
+      }
+    });
+  }, { passive: true });
+  document.querySelectorAll('.glass').forEach(function (g) {
+    g.addEventListener('pointermove', function (e) {
+      var r = g.getBoundingClientRect(); g.style.setProperty('--x', (e.clientX - r.left) + 'px'); g.style.setProperty('--y', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  // a slow drift of lit dust behind the hero, paused when it is off screen
+  var c = document.getElementById('sky'); if (!c || !c.getContext) return;
+  var ctx = c.getContext('2d'), dots = [], on = true, W = 0, H = 0, dpr = Math.min(2, devicePixelRatio || 1);
+  function size() { var r = c.getBoundingClientRect(); W = r.width; H = r.height; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
+  size(); addEventListener('resize', size);
+  for (var i = 0; i < 70; i++) dots.push({ x: Math.random(), y: Math.random(), r: Math.random() * 1.8 + .4, v: Math.random() * .00025 + .00008, a: Math.random() * 6.28, c: Math.random() < .5 ? '255,207,58' : '46,240,140' });
+  new IntersectionObserver(function (es) { on = es[0].isIntersecting; if (on) requestAnimationFrame(draw); }).observe(c);
+  function draw() {
+    if (!on) return;
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < dots.length; i++) {
+      var d = dots[i]; d.y -= d.v; d.a += .01; if (d.y < -.02) { d.y = 1.02; d.x = Math.random(); }
+      var x = d.x * W + Math.sin(d.a) * 8, y = d.y * H, al = .35 + Math.sin(d.a * 2) * .25;
+      ctx.beginPath(); ctx.arc(x, y, d.r, 0, 6.28); ctx.fillStyle = 'rgba(' + d.c + ',' + al + ')'; ctx.shadowBlur = 12; ctx.shadowColor = 'rgba(' + d.c + ',.9)'; ctx.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+})();
+</script>
 <script>
 // Which site sent the visitor, from ?ref=<slug> on the "built by" link. It
 // goes into the WhatsApp message in plain sight, and into one count on our
