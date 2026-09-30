@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>לוח הבקרה | AgentFeed · דף הנחיתה</title>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/sites-panel/theme.css"><link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/sites-panel/style.css"><link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/sites-panel/panel/panel.css">
+<style>:root{--brand:#1b794f;--brand-deep:#0e3f29;--accent:#fdb9ec;--deep:#241a16;--deep-2:#3b2d27;--paper:#fffaf6;--tint:#ebfcf4;--tint-2:#daf8eb;--butter:#fccff1;--sky:#f7e3e6;--mint:#f1e1f4;--peach:#defcf6;--ink:#241a16;--ink-2:#5f524b;--line:#eaded6;--oxblood:#0d3623;--oxblood-2:#164b33;--apricot:#cdfefc;--apricot-2:#aafdf6;--pop:#9e1a6d;--sun-a:#1ffff9;--sun-b:#47f568;--font-display:"Rubik", "Rubik", system-ui, sans-serif;--font-body:"Rubik", "Assistant", system-ui, sans-serif}</style>
+</head><body class="pn">
+<div class="pn-demo" id="demo" hidden>נתוני דוגמה — כך ייראה הלוח כשהאתר יעלה לאוויר</div>
+<header class="pn-top"><div class="wrap">
+  
+  <div><h1>לוח הבקרה</h1><small>AgentFeed · דף הנחיתה · 30 הימים האחרונים</small></div>
+  <span class="when"><span class="live" aria-hidden="true"></span><span id="when"></span></span>
+</div></header>
+<main class="wrap">
+  <section class="kpis" id="kpis" aria-label="המספרים המרכזיים"></section>
+  <section class="cardp glass"><h2>מה כדאי לעשות עכשיו</h2><p class="sub">נבנה מהמספרים שלכם. כל המלצה מראה על איזה מספר היא נשענת.</p><div class="score" id="score"></div><div class="advice" id="advice"></div></section>
+  <div class="two">
+    <section class="cardp chart glass"><h2>מבקרים ופניות</h2><p class="sub">כל יום ב-30 הימים האחרונים</p><div id="chart"></div></section>
+    <section class="cardp glass"><h2>מאיפה הגיעו</h2><p class="sub">ב-30 הימים האחרונים</p><div id="ai"></div><div class="bars" id="sources"></div></section>
+  </div>
+  <div class="three">
+    <section class="cardp glass"><h2>מה עשו באתר</h2><ul class="list" id="actions"></ul></section>
+    <section class="cardp glass"><h2>העמודים הכי נצפים</h2><p class="sub" id="mobile"></p><ul class="list" id="pages"></ul></section>
+    <section class="cardp glass"><h2>החודש בכסף</h2><div class="money" id="money"></div><div class="donut" id="donut"></div></section>
+  </div>
+  <section class="cardp glass"><h2>הכנסות והוצאות</h2><p class="sub">כל הכנסה והוצאה, גם כאלה שלא דרך האתר. כך הרווח כאן אמיתי.</p>
+    <form class="add" id="add"><select name="kind" aria-label="סוג"><option value="income">הכנסה</option><option value="expense">הוצאה</option></select>
+      <input name="amount" type="number" min="0" step="0.01" placeholder="סכום ₪" aria-label="סכום" required>
+      <input name="category" placeholder="קטגוריה (סחורה, פרסום...)" aria-label="קטגוריה">
+      <input name="note" placeholder="הערה" aria-label="הערה"><button class="btn btn-brand btn-s" type="submit">הוספה</button></form>
+    <div style="overflow-x:auto;margin-top:12px"><table class="led" id="ledger"></table></div>
+  </section>
+  <p class="pn-foot">המבקרים נספרים בלי עוגיות ובלי לשמור שם או כתובת של אף אחד. רק כמה, מאיפה, ומה לחצו.</p>
+</main>
+<script>window.PANEL={"site": "agentfeed-sites", "api": "https://agentfeed-plum.vercel.app", "name": "AgentFeed · דף הנחיתה"}</script><script src="https://nitairevivo.github.io/agentfeed/sites-panel/panel/panel.js"></script>
+</body></html>

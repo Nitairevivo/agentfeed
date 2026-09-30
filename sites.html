@@ -862,7 +862,7 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
     if (v('f-count')) lines.push('מוצרים: בערך ' + v('f-count'));
     if (v('f-person')) lines.push('שמי: ' + v('f-person'));
     if (ref) lines.push(came.trim());
-    ping('wa');
+    ping('lead');
     location.href = WA + encodeURIComponent(lines.join('\n'));
   });
   function ping(e) {
