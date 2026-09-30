@@ -452,10 +452,23 @@ background:var(--wa);color:#04160b;display:grid;place-items:center;box-shadow:0 
 transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);animation:pulse 2.4s infinite}
 .fab.on{transform:none}
 .fab svg{width:30px;height:30px}
-@media(max-width:1000px){.hero{grid-template-columns:1fr}.stage{height:540px;max-width:580px;width:100%;margin-inline:auto}
+
+/* bring a shop, get 100 */
+.refer{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;padding:38px 36px;
+background:radial-gradient(500px 260px at 0% 0%,rgba(46,240,140,.18),transparent 60%),linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02))}
+.refer > *{min-width:0}
+.refer ul{margin:12px 0 0;padding-inline-start:18px;color:var(--soft);display:grid;gap:4px;font-size:.94rem}
+.refer .big100{font:700 clamp(90px,11vw,150px)/.85 var(--display);color:var(--green);text-shadow:0 0 40px rgba(46,240,140,.55)}
+.gen{display:grid;gap:12px}
+.gen output{display:block;direction:ltr;text-align:left;background:rgba(0,0,0,.35);border:1px dashed rgba(255,255,255,.2);border-radius:12px;padding:12px 14px;
+font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;user-select:all}
+.gen .row{display:flex;flex-wrap:wrap;gap:10px}
+.gen .btn{min-height:48px}
+.gen .btn[disabled]{opacity:.45;pointer-events:none}
+@media(max-width:1000px){.refer{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.stage{height:540px;max-width:580px;width:100%;margin-inline:auto}
 .get,.prices{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.agency,.start{grid-template-columns:1fr}
 .sync{grid-template-columns:1fr}.flow{transform:rotate(90deg);justify-self:center}.pt.star{transform:none}}
-@media(max-width:640px){.ba{display:block}.ba > .pane{padding:20px}.ba .withus{clip-path:none}.ba .handle,.ba input[type=range],.ba-hint{display:none}.ba .inner{grid-template-columns:1fr}.ba .today .side,.ba .withus .side{grid-column:1}.ba .today h3{text-align:start}.ba .inner,.calc,.calc .out{grid-template-columns:1fr}.try input[type=text]{width:100%}.try label{flex-wrap:wrap}.hero h1{font-size:clamp(64px,19vw,96px)}.stage{height:470px}.phone{width:212px;height:436px;inset-inline-start:0}
+@media(max-width:640px){.refer{grid-template-columns:1fr;padding:26px 20px}.ba{display:block}.ba > .pane{padding:20px}.ba .withus{clip-path:none}.ba .handle,.ba input[type=range],.ba-hint{display:none}.ba .inner{grid-template-columns:1fr}.ba .today .side,.ba .withus .side{grid-column:1}.ba .today h3{text-align:start}.ba .inner,.calc,.calc .out{grid-template-columns:1fr}.try input[type=text]{width:100%}.try label{flex-wrap:wrap}.hero h1{font-size:clamp(64px,19vw,96px)}.stage{height:470px}.phone{width:212px;height:436px;inset-inline-start:0}
 .panel{width:204px;padding:12px}.panel .n b{font-size:1.1rem}.bubble{width:218px;inset-inline-end:0;bottom:4px}.htag{inset-inline-end:46%;bottom:120px}.htag .d{font-size:40px}
 .vs,.get,.prices,.steps,.promise,.faq,form{grid-template-columns:1fr}.agency,.start{padding:28px 20px}section{margin-top:80px}.tilt{transform:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.new{opacity:0}.old{opacity:1}
@@ -638,6 +651,29 @@ transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);a
   </div>
 </section>
 
+<section class="refer glass beam rv" id="refer">
+  <div>
+    <span class="eyebrow" style="color:var(--green)">חבר מביא חנות</span>
+    <h2>מכירים חנות בלי אתר? <span class="glow-t">מקבלים ₪100.</span></h2>
+    <p class="lead" style="margin:0">שלחו לבעל החנות את הקישור האישי שלכם. אם הוא מזמין אתר ומשלם, אנחנו מעבירים לכם ₪100.</p>
+    <ul>
+      <li>התשלום עובר אחרי שהלקוח שילם את ההקמה במלואה.</li>
+      <li>כל חנות נספרת פעם אחת, לזה שהביא אותה ראשון.</li>
+      <li>רק למי שאתם מכירים, בלי הודעות המוניות ובלי קבוצות.</li>
+      <li>סוכנויות שיווק: יש מסלול משלכם, ₪500 ללקוח (למעלה).</li>
+    </ul>
+  </div>
+  <div class="gen">
+    <span class="big100" aria-hidden="true">₪100</span>
+    <label for="r-name">השם שלכם<input id="r-name" autocomplete="name" placeholder="למשל: דני כהן"></label>
+    <output id="r-link" aria-live="polite"></output>
+    <div class="row">
+      <button class="btn btn-y" id="r-copy" type="button" disabled>העתקה</button>
+      <a class="btn btn-w" id="r-wa" href="#" hidden>שליחה בוואטסאפ</a>
+    </div>
+  </div>
+</section>
+
 <section class="rv">
   <div class="honest glass">
     <b>מה אנחנו לא מבטיחים: מקום ראשון בגוגל, או שעוזר AI ימליץ עליכם.</b>
@@ -649,6 +685,7 @@ transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);a
   <span class="eyebrow">שאלות נפוצות</span>
   <h2>שואלים אותנו.</h2>
   <div class="faq">
+    <details class="glass"><summary>אפשר להרוויח מלהביא לכם לקוחות?</summary><p>כן. כל מי שמביא חנות שמזמינה אתר ומשלמת מקבל ₪100, דרך קישור אישי שיוצרים בעמוד הזה. סוכנויות שיווק מקבלות ₪500 ללקוח.</p></details>
     <details class="glass"><summary>אין לי אתר ואין לי חנות אונליין. זה מתאים לי?</summary><p>זה בדיוק למי שזה נבנה. שולחים לנו טבלה של המוצרים, או צילומי מסך מהעמוד בפייסבוק או באינסטגרם, וכל מוצר באתר מקבל כפתור הזמנה בוואטסאפ עם שם המוצר.</p></details>
     <details class="glass"><summary>מתי משלמים?</summary><p>לשלושת העסקים הראשונים: רק אחרי שרואים את האתר עובד. אחריהם: חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי בלי התחייבות, עם הודעה של 30 יום.</p></details>
     <details class="glass"><summary>איך מעדכנים מחירים ומוצרים?</summary><p>הקטלוג יכול לשבת בגיליון גוגל שלכם. משנים מחיר בגיליון, והאתר מתעדכן לפיו. טבלה שנראית שבורה לא מתפרסמת, והאתר נשאר כמו שהיה.</p></details>
@@ -805,8 +842,12 @@ transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);a
 // goes into the WhatsApp message in plain sight, and into one count on our
 // own panel ("agentfeed-sites"): a page view, and a press of the button.
 (function () {
-  var ref = (new URLSearchParams(location.search).get('ref') || '').toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 60);
-  var text = 'היי ניתאי, ראיתי את העמוד על בניית אתרים ואשמח לשמוע עוד' + (ref ? ' (הגעתי מהאתר ' + ref + ')' : '');
+  // ?ref=<site> from a site we built, or ?ref=p-<name> from a person who sent
+  // the link on (100 shekels when that shop buys). Hebrew names pass.
+  var ref = (new URLSearchParams(location.search).get('ref') || '').toLowerCase().replace(/[^a-z0-9\u05d0-\u05ea-]/g, '').slice(0, 60);
+  var person = ref.indexOf('p-') === 0 ? ref.slice(2).replace(/-/g, ' ').trim() : '';
+  var came = ref ? (person ? ' (הגעתי דרך ' + person + ')' : ' (הגעתי מהאתר ' + ref + ')') : '';
+  var text = 'היי ניתאי, ראיתי את העמוד על בניית אתרים ואשמח לשמוע עוד' + came;
   var WA = 'https://wa.me/972526760039?text=';
   document.querySelectorAll('[data-wa]').forEach(function (a) {
     a.href = WA + encodeURIComponent(text);
@@ -820,7 +861,7 @@ transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);a
     lines.push('אתר היום: ' + v('f-site'));
     if (v('f-count')) lines.push('מוצרים: בערך ' + v('f-count'));
     if (v('f-person')) lines.push('שמי: ' + v('f-person'));
-    if (ref) lines.push('(הגעתי מהאתר ' + ref + ')');
+    if (ref) lines.push(came.trim());
     ping('wa');
     location.href = WA + encodeURIComponent(lines.join('\n'));
   });
@@ -829,7 +870,30 @@ transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);a
       '&f=' + encodeURIComponent(document.referrer) + '&m=' + (matchMedia('(max-width: 700px)').matches ? 1 : 0);
     try { if (navigator.sendBeacon) navigator.sendBeacon(u); else fetch(u, { mode: 'no-cors', keepalive: true }); } catch (x) {}
   }
-  if (ref) document.getElementById('ref').hidden = false;
+  if (ref) {
+    var note = document.getElementById('ref');
+    if (person) note.textContent = person + ' שלח לכם את העמוד הזה. תספרו לנו על החנות, ונבנה לכם אתר.';
+    note.hidden = false;
+  }
+  // the personal link, for anyone who wants to send a shop our way
+  var rn = document.getElementById('r-name'), rl = document.getElementById('r-link'), rc = document.getElementById('r-copy'), rw = document.getElementById('r-wa');
+  function mine() {
+    var n = (rn.value || '').trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\u05d0-\u05ea-]/g, '').slice(0, 30);
+    return n ? location.origin + location.pathname + '?ref=p-' + n : '';
+  }
+  function show() {
+    var u = mine(); rl.textContent = u || 'כתבו את השם שלכם, והקישור יופיע כאן';
+    rc.disabled = rw.hidden = !u;
+    rw.href = 'https://wa.me/?text=' + encodeURIComponent('מכיר מישהו שבונה אתרים לחנויות במחיר הכי זול, עם הזמנה בוואטסאפ מכל מוצר. תסתכל: ' + u);
+  }
+  if (rn) {
+    rn.addEventListener('input', show); show();
+    rc.addEventListener('click', function () {
+      var u = mine(); if (!u) return;
+      (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(function () { rc.textContent = 'הועתק ✓'; setTimeout(function () { rc.textContent = 'העתקה'; }, 1600); })
+        .catch(function () { var r = document.createRange(); r.selectNodeContents(rl); var s = getSelection(); s.removeAllRanges(); s.addRange(r); });
+    });
+  }
   ping('view');
 })();
 </script>
