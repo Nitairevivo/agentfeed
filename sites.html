@@ -394,10 +394,68 @@ select option{background:#0a0e16}
 .js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.23,1,.32,1),transform .8s cubic-bezier(.23,1,.32,1)}
 .js .rv.in{opacity:1;transform:none}
 
+
+/* ── gadgets ── */
+/* the shop's own colour, carried by the phone */
+.tilt{--shop:#1c6b4b}
+.aisles span:nth-child(1){background:linear-gradient(135deg,var(--shop),color-mix(in srgb,var(--shop) 45%,#000));box-shadow:0 0 18px -4px var(--shop)}
+.scr .top{border-bottom:2px solid var(--shop)}
+.scr .logo{color:#fff;text-shadow:0 0 14px var(--shop)}
+.phone{box-shadow:0 0 0 1px rgba(255,255,255,.12),0 0 70px -8px var(--shop),0 40px 80px -30px rgba(0,0,0,.9);transition:box-shadow .4s}
+.item{cursor:pointer;transition:transform .2s cubic-bezier(.23,1,.32,1),border-color .2s}
+.item:hover,.item.on{transform:translateY(-3px);border-color:var(--shop)}
+.bubble.again{animation:pop .5s cubic-bezier(.23,1,.32,1)}
+.try{margin-top:26px;padding:18px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.try b{font:700 30px/1 var(--display);color:#fff}
+.try label{display:flex;align-items:center;gap:10px;font-weight:600;color:#d8deea}
+.try input[type=text]{width:200px;padding:10px 12px}
+.sw{display:flex;gap:8px;align-items:center}
+.sw button{width:30px;height:30px;border-radius:50%;border:2px solid rgba(255,255,255,.25);cursor:pointer;padding:0;transition:transform .15s}
+.sw button[aria-pressed=true]{border-color:#fff;transform:scale(1.15);box-shadow:0 0 16px currentColor}
+.sw input[type=color]{width:34px;height:34px;border:0;background:none;padding:0;cursor:pointer}
+.try small{color:var(--dim);flex-basis:100%}
+/* before / after, dragged */
+.ba{position:relative;display:grid;border-radius:20px;overflow:hidden;--p:50%}
+.ba > .pane{grid-area:1/1;padding:26px;min-width:0}
+.ba .withus{clip-path:inset(0 0 0 calc(100% - var(--p)))}
+.ba .inner{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.ba .side{display:grid;gap:14px;align-content:start;justify-items:center;text-align:center}
+.ba .side .note{margin:0;max-width:40ch}
+.ba .today .side{grid-column:2}.ba .withus .side{grid-column:1}
+.ba .today h3{text-align:end}
+.ba .withus{background:linear-gradient(180deg,#0e2a1d,#07150e)}
+.ba .today{background:linear-gradient(180deg,#1c1f27,#111319)}
+.ba .fb{width:100%;max-width:340px;text-align:start}
+.ba .handle{position:absolute;top:0;bottom:0;inset-inline-start:var(--p);width:3px;margin-inline-start:-1.5px;background:var(--amber);box-shadow:0 0 18px var(--amber);pointer-events:none;z-index:2}
+.ba .handle::after{content:"⇆";position:absolute;top:50%;left:50%;translate:-50% -50%;width:46px;height:46px;border-radius:50%;background:var(--amber);color:#1a1405;display:grid;place-items:center;font-weight:900;font-size:20px;box-shadow:0 0 30px rgba(255,207,58,.8)}
+.ba input[type=range]{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:3;margin:0}
+.ba-hint{color:var(--dim);font-size:.88rem;margin-top:10px}
+/* price calculator */
+.calc{margin-top:26px;padding:24px;display:grid;grid-template-columns:1.1fr 1fr;gap:24px;align-items:center}
+.calc > *{min-width:0}
+.calc .ctrl{display:grid;gap:14px}
+.calc input[type=range]{width:100%;accent-color:var(--amber);padding:0;border:0;background:none;box-shadow:none}
+.calc .check{display:flex;align-items:center;gap:10px;font-weight:600}
+.calc .check input{width:20px;height:20px;accent-color:var(--amber)}
+.calc .out{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.calc .out div{background:rgba(0,0,0,.3);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.calc .out small{display:block;color:var(--soft);font-size:.8rem}
+.calc .out b{display:block;font:700 44px/1 var(--display);color:#fff;font-variant-numeric:tabular-nums}
+.calc .out .tot{border-color:rgba(255,207,58,.6);box-shadow:0 0 30px -10px rgba(255,207,58,.8)}
+.calc .out .tot b{color:var(--amber);text-shadow:0 0 16px rgba(255,207,58,.6)}
+.calc .per{grid-column:1/-1;color:var(--soft);font-size:.9rem}
+/* reading progress, lit */
+.prog{position:fixed;top:0;inset-inline-start:0;height:3px;width:var(--sp,0%);z-index:50;background:linear-gradient(90deg,var(--green),var(--amber),var(--coral));box-shadow:0 0 14px rgba(255,207,58,.8);pointer-events:none}
+/* a WhatsApp button that follows once the hero is gone */
+.fab{position:fixed;inset-inline-end:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;width:60px;height:60px;border-radius:50%;
+background:var(--wa);color:#04160b;display:grid;place-items:center;box-shadow:0 0 0 0 rgba(46,240,140,.6),0 12px 30px -8px rgba(46,240,140,.8);
+transform:translateY(120px);transition:transform .4s cubic-bezier(.23,1,.32,1);animation:pulse 2.4s infinite}
+.fab.on{transform:none}
+.fab svg{width:30px;height:30px}
 @media(max-width:1000px){.hero{grid-template-columns:1fr}.stage{height:540px;max-width:580px;width:100%;margin-inline:auto}
 .get,.prices{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.agency,.start{grid-template-columns:1fr}
 .sync{grid-template-columns:1fr}.flow{transform:rotate(90deg);justify-self:center}.pt.star{transform:none}}
-@media(max-width:640px){.hero h1{font-size:clamp(64px,19vw,96px)}.stage{height:470px}.phone{width:212px;height:436px;inset-inline-start:0}
+@media(max-width:640px){.ba{display:block}.ba > .pane{padding:20px}.ba .withus{clip-path:none}.ba .handle,.ba input[type=range],.ba-hint{display:none}.ba .inner{grid-template-columns:1fr}.ba .today .side,.ba .withus .side{grid-column:1}.ba .today h3{text-align:start}.ba .inner,.calc,.calc .out{grid-template-columns:1fr}.try input[type=text]{width:100%}.try label{flex-wrap:wrap}.hero h1{font-size:clamp(64px,19vw,96px)}.stage{height:470px}.phone{width:212px;height:436px;inset-inline-start:0}
 .panel{width:204px;padding:12px}.panel .n b{font-size:1.1rem}.bubble{width:218px;inset-inline-end:0;bottom:4px}.htag{inset-inline-end:46%;bottom:120px}.htag .d{font-size:40px}
 .vs,.get,.prices,.steps,.promise,.faq,form{grid-template-columns:1fr}.agency,.start{padding:28px 20px}section{margin-top:80px}.tilt{transform:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.new{opacity:0}.old{opacity:1}
@@ -406,6 +464,8 @@ select option{background:#0a0e16}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Rubik:wght@400;600;700;800&display=swap">
 </head>
 <body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header>
+<div class="prog" id="prog" aria-hidden="true"></div>
+<a class="fab" id="fab" data-wa href="https://wa.me/972526760039" aria-label="וואטסאפ לניתאי"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></svg></a>
 <main>
 <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
 <canvas id="sky" aria-hidden="true"></canvas>
@@ -421,16 +481,16 @@ select option{background:#0a0e16}
       <a class="btn btn-w" data-wa href="https://wa.me/972526760039"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></svg>052-676-0039</a>
     </div>
   </div>
-  <div class="stage" role="img" aria-label="איור: חנות באתר בטלפון, לוח הבקרה, תווית מחיר והזמנה בוואטסאפ. להמחשה בלבד">
+  <div class="stage" aria-label="איור אינטראקטיבי: חנות באתר בטלפון, לוח הבקרה והזמנה בוואטסאפ. להמחשה בלבד">
     <div class="tilt" id="tilt">
       <div class="phone"><div class="scr">
         <div class="top"><span class="logo">החנות שלך</span><span class="q"></span></div>
         <div class="aisles"><span>מחלקה א׳</span><span>מבצעים</span></div>
         <div class="shelf">
-          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="4" fill="#ff5a5f"/><rect x="16" y="16" width="16" height="10" rx="2" fill="#ffcf3a"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
-          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="14" fill="#2ef08c"/><path d="M16 22h16" stroke="#05070c" stroke-width="3"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
-          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><path d="M10 34 24 10l14 24Z" fill="#ffcf3a"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
-          <div class="item"><div class="pic"><svg viewBox="0 0 48 48"><rect x="10" y="14" width="28" height="22" rx="11" fill="#8b7bff"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item" role="button" tabindex="0" data-n="המוצר האדום" aria-label="להזמין את המוצר האדום"><div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="4" fill="#ff5a5f"/><rect x="16" y="16" width="16" height="10" rx="2" fill="#ffcf3a"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item" role="button" tabindex="0" data-n="המוצר הירוק" aria-label="להזמין את המוצר הירוק"><div class="pic"><svg viewBox="0 0 48 48"><circle cx="24" cy="26" r="14" fill="#2ef08c"/><path d="M16 22h16" stroke="#05070c" stroke-width="3"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item" role="button" tabindex="0" data-n="המוצר הצהוב" aria-label="להזמין את המוצר הצהוב"><div class="pic"><svg viewBox="0 0 48 48"><path d="M10 34 24 10l14 24Z" fill="#ffcf3a"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
+          <div class="item" role="button" tabindex="0" data-n="המוצר הסגול" aria-label="להזמין את המוצר הסגול"><div class="pic"><svg viewBox="0 0 48 48"><rect x="10" y="14" width="28" height="22" rx="11" fill="#8b7bff"/></svg></div><div class="t"><i></i><b>₪ ••</b><u></u></div></div>
         </div>
       </div></div>
       <div class="panel glass">
@@ -440,9 +500,23 @@ select option{background:#0a0e16}
         <div class="demo">נתוני דוגמה</div>
       </div>
       <div class="htag"><small>מחיר</small><span class="d">₪ ••</span><i></i></div>
-      <div class="bubble"><b><span class="dot"></span>הזמנה חדשה מהאתר</b>היי, אשמח להזמין את המוצר הזה 🙂<small>עכשיו ✓✓</small></div>
+      <div class="bubble" id="bubble" aria-live="polite"><b><span class="dot"></span>הזמנה חדשה מהאתר</b><span id="bmsg">היי, אשמח להזמין את המוצר הזה 🙂</span><small>עכשיו ✓✓</small></div>
     </div>
   </div>
+</div>
+
+<div class="try glass" role="group" aria-label="נסו את החנות שלכם">
+  <b>נסו עכשיו:</b>
+  <label for="t-name">שם החנות<input type="text" id="t-name" maxlength="22" placeholder="החנות שלך" autocomplete="off"></label>
+  <span class="sw" aria-label="צבע">
+    <button type="button" data-c="#1c6b4b" style="background:#1c6b4b;color:#2ef08c" aria-pressed="true" aria-label="ירוק"></button>
+    <button type="button" data-c="#d6361f" style="background:#d6361f;color:#ff5a5f" aria-pressed="false" aria-label="אדום"></button>
+    <button type="button" data-c="#2457ff" style="background:#2457ff;color:#6b8bff" aria-pressed="false" aria-label="כחול"></button>
+    <button type="button" data-c="#8b3dff" style="background:#8b3dff;color:#b18bff" aria-pressed="false" aria-label="סגול"></button>
+    <button type="button" data-c="#e0891a" style="background:#e0891a;color:#ffcf3a" aria-pressed="false" aria-label="כתום"></button>
+    <input type="color" id="t-color" value="#1c6b4b" aria-label="צבע אחר">
+  </span>
+  <small>כתבו את שם החנות ובחרו צבע, והטלפון למעלה מתחלף. לחצו על מוצר בטלפון כדי לראות את ההודעה שהוא שולח.</small>
 </div>
 
 <p class="ref glass" id="ref" hidden>הגעתם מהתג "נבנה ב-AgentFeed" באתר של עסק. זה מה שבנינו לו, ואפשר לבנות גם לכם.</p>
@@ -455,28 +529,23 @@ select option{background:#0a0e16}
 <section class="rv">
   <span class="eyebrow">למה אתר</span>
   <h2>"כמה?" בתגובות, או <span class="glow-t">כפתור שמזמין.</span></h2>
-  <div class="vs">
-    <div class="today glass">
-      <h3>היום</h3>
-      <div class="fb" aria-label="איור: פוסט בפייסבוק עם שאלות על המחיר">
+  <div class="ba glass" id="ba">
+    <div class="pane today"><h3>היום</h3><div class="inner"><div class="side"><div class="fb" aria-label="איור: פוסט בפייסבוק עם שאלות על המחיר">
         <div class="who"><i></i>החנות שלך</div>
         <div class="ph"></div>
         <div>הגיע מלאי חדש! פרטים בפרטי 👇</div>
         <div class="c"><b>לקוחה</b>כמה עולה?</div>
         <div class="c"><b>לקוח</b>יש במידה אחרת?</div>
         <div class="c"><b>לקוחה</b>כמה??</div>
-      </div>
-      <p class="note">הלקוח שואל, מחכה לתשובה, ולפעמים הולך לחנות אחרת בינתיים. ומי שלא עוקב אחרי העמוד לא רואה את הפוסט בכלל.</p>
-    </div>
-    <div class="withus glass beam">
-      <h3>עם אתר</h3>
-      <div class="prod" aria-label="איור: מוצר באתר עם מחיר וכפתור הזמנה">
+      </div><p class="note">הלקוח שואל, מחכה לתשובה, ולפעמים הולך לחנות אחרת בינתיים. ומי שלא עוקב אחרי העמוד לא רואה את הפוסט בכלל.</p></div></div></div>
+    <div class="pane withus"><h3>עם אתר</h3><div class="inner"><div class="side"><div class="prod" aria-label="איור: מוצר באתר עם מחיר וכפתור הזמנה">
         <div class="pic"><svg viewBox="0 0 48 48"><rect x="12" y="8" width="24" height="34" rx="4" fill="#ff5a5f"/><rect x="16" y="16" width="16" height="10" rx="2" fill="#ffcf3a"/></svg></div>
         <div class="t"><b>₪129</b><span>שם המוצר, כמו שכתוב אצלכם</span><a href="#start" tabindex="-1">הזמנה בוואטסאפ</a></div>
-      </div>
-      <p class="note">המחיר כבר כתוב, והכפתור פותח לכם הודעה עם שם המוצר. כל המוצרים במקום אחד, ומי שמחפש מוצא. המחיר באיור הוא דוגמה.</p>
-    </div>
+      </div><p class="note">המחיר כבר כתוב, והכפתור פותח לכם הודעה עם שם המוצר. כל המוצרים במקום אחד, ומי שמחפש מוצא. המחיר באיור הוא דוגמה.</p></div></div></div>
+    <span class="handle" aria-hidden="true"></span>
+    <input type="range" id="ba-r" min="0" max="100" value="50" aria-label="גררו כדי להשוות בין היום לבין אתר">
   </div>
+  <p class="ba-hint">גררו את הידית: מימין, החנות עם אתר. משמאל, איך זה נראה היום.</p>
 </section>
 
 <section class="rv">
@@ -522,6 +591,22 @@ select option{background:#0a0e16}
     <div class="pt glass"><div class="top"><h3>אתר לעסק</h3><span class="was">₪2,490</span></div><div class="now"><span class="d">₪1,490</span><small>+ ₪199 לחודש</small><div class="bc"></div></div><ul><li>כמה עמודים לעסק שירות</li><li>שעות, שירותים ושאלות נפוצות</li><li>לוח בקרה ודף AI</li></ul></div>
     <div class="pt glass beam star"><div class="top"><span class="flag">הכי מתאים לחנויות</span><h3>חנות־קטלוג</h3><span class="was">₪4,900</span></div><div class="now"><span class="d">₪2,940</span><small>+ ₪349 לחודש</small><div class="bc"></div></div><ul><li>כל המוצרים, חיפוש, סינון ומבצעים</li><li>הזמנה בוואטסאפ או בעגלה קיימת</li><li>מתעדכן מגיליון גוגל</li><li>לוח בקרה ודף AI</li></ul></div>
     <div class="pt glass"><div class="top"><h3>חנות מלאה</h3><span class="was" style="text-decoration:none">החל מ</span></div><div class="now"><span class="d">₪6,900</span><small>+ ₪449 לחודש</small><div class="bc"></div></div><ul><li>תשלום באשראי באתר</li><li>כל מה שבחנות־קטלוג</li></ul></div>
+  </div>
+  <div class="calc glass" id="calc">
+    <div class="ctrl">
+      <b class="d" style="font-size:40px;color:#fff">מחשבון מחיר</b>
+      <label for="c-pkg">מה בונים<select id="c-pkg">
+        <option value="890,1490,99">דף נחיתה</option><option value="1490,2490,199">אתר לעסק</option>
+        <option value="2940,4900,349" selected>חנות־קטלוג</option><option value="0,6900,449">חנות מלאה</option></select></label>
+      <label class="check" for="c-launch"><input type="checkbox" id="c-launch" checked>מחיר השקה (לשלושת העסקים הראשונים)</label>
+      <label for="c-m">לכמה חודשים: <b id="c-mv">12</b><input type="range" id="c-m" min="1" max="36" value="12"></label>
+    </div>
+    <div class="out">
+      <div><small>הקמה</small><b id="c-set">₪2,940</b></div>
+      <div><small>לחודש</small><b id="c-mo">₪349</b></div>
+      <div class="tot"><small>סה"כ לתקופה</small><b id="c-tot">₪7,128</b></div>
+      <p class="per" id="c-per">בממוצע ₪594 לחודש, כולל ההקמה.</p>
+    </div>
   </div>
   <div class="promise">
     <div class="glass"><b>מתחייבים למחיר הכי זול</b><span>הבאתם הצעה כתובה זולה יותר לאותה חבילה, כלומר הקמה, תחזוקה, אחסון ולוח בקרה? תקבלו את אותו מחיר.</span></div>
@@ -639,7 +724,59 @@ select option{background:#0a0e16}
   }
   requestAnimationFrame(draw);
   })();
+
+  // ── gadgets ──
+  var tilt = document.getElementById('tilt'), logo = document.querySelector('.scr .logo');
+  var nm = document.getElementById('t-name'), col = document.getElementById('t-color');
+  function shop() { return (nm && nm.value.trim()) || 'החנות שלך'; }
+  function paint(c) { tilt.style.setProperty('--shop', c); document.querySelectorAll('.sw button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.c === c ? 'true' : 'false'); }); }
+  if (nm) nm.addEventListener('input', function () { logo.textContent = shop(); });
+  document.querySelectorAll('.sw button').forEach(function (b) { b.addEventListener('click', function () { paint(b.dataset.c); if (col) col.value = b.dataset.c; }); });
+  if (col) col.addEventListener('input', function () { paint(col.value); });
+  // a product tapped in the phone writes the message it would send
+  var bub = document.getElementById('bubble'), bmsg = document.getElementById('bmsg');
+  document.querySelectorAll('.item[data-n]').forEach(function (it) {
+    function go() {
+      document.querySelectorAll('.item.on').forEach(function (x) { x.classList.remove('on'); });
+      it.classList.add('on');
+      bmsg.textContent = 'היי ' + shop() + ', אשמח להזמין: ' + it.dataset.n + ' 🙂';
+      bub.classList.remove('again'); void bub.offsetWidth; bub.classList.add('again');
+    }
+    it.addEventListener('click', go);
+    it.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+  });
+  // before / after
+  var ba = document.getElementById('ba'), br = document.getElementById('ba-r');
+  if (ba && br) br.addEventListener('input', function () { ba.style.setProperty('--p', br.value + '%'); });
+  // the price calculator, from the price list and nothing else
+  var pkg = document.getElementById('c-pkg'), la = document.getElementById('c-launch'), mo = document.getElementById('c-m');
+  function money(n) { return '₪' + Math.round(n).toLocaleString('en-US'); }
+  function calc() {
+    var v = pkg.value.split(',').map(Number), launch = v[0] > 0 && la.checked, set = launch ? v[0] : v[1], m = +mo.value;
+    la.disabled = !(v[0] > 0);
+    document.getElementById('c-mv').textContent = m;
+    document.getElementById('c-set').textContent = (v[0] > 0 ? '' : 'מ-') + money(set);
+    document.getElementById('c-mo').textContent = money(v[2]);
+    document.getElementById('c-tot').textContent = money(set + v[2] * m);
+    document.getElementById('c-per').textContent = 'בממוצע ' + money((set + v[2] * m) / m) + ' לחודש, כולל ההקמה.';
+  }
+  if (pkg) { [pkg, la, mo].forEach(function (e) { e.addEventListener('input', calc); e.addEventListener('change', calc); }); calc(); }
+  // reading progress, and the WhatsApp button once the hero has gone by
+  var prog = document.getElementById('prog'), fab = document.getElementById('fab'), hero = document.querySelector('.hero'), start = document.getElementById('start'), sr = 0;
+  function onScroll() {
+    sr = 0; var h = document.documentElement, max = h.scrollHeight - innerHeight;
+    prog.style.setProperty('--sp', (max > 0 ? h.scrollTop / max * 100 : 0) + '%');
+    var past = hero.getBoundingClientRect().bottom < 0, atForm = start.getBoundingClientRect().top < innerHeight * .7;
+    fab.classList.toggle('on', past && !atForm);
+  }
+  addEventListener('scroll', function () { if (!sr) sr = requestAnimationFrame(onScroll); }, { passive: true });
+  onScroll();
   if (!fine || still) return;
+  // buttons lean toward the pointer
+  document.querySelectorAll('.btn').forEach(function (b) {
+    b.addEventListener('pointermove', function (e) { var r = b.getBoundingClientRect(); b.style.translate = ((e.clientX - r.left - r.width / 2) * .18) + 'px ' + ((e.clientY - r.top - r.height / 2) * .25) + 'px'; });
+    b.addEventListener('pointerleave', function () { b.style.translate = ''; });
+  });
   // the light that follows the pointer, the spotlight inside each glass panel,
   // and the hero turning toward the pointer
   var root = document.body.style, tilt = document.getElementById('tilt'), raf = 0, px = 0, py = 0;
