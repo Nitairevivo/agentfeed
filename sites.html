@@ -192,7 +192,16 @@ background:conic-gradient(from var(--a),transparent 0 55%,var(--amber) 70%,var(-
 /* ── hero ── */
 .hero{display:grid;grid-template-columns:1.02fr .98fr;gap:30px;align-items:center;padding-block:40px 30px;position:relative}
 .hero > *{min-width:0}
-#sky{position:absolute;inset:0;z-index:-1;width:100%;height:100%;pointer-events:none}
+#sky{position:fixed;inset:0;z-index:-1;width:100vw;height:100vh;pointer-events:none}
+/* the whole night sky moves: three slow lights drifting behind everything */
+.aurora{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden}
+.aurora i{position:absolute;width:60vmax;height:60vmax;border-radius:50%;filter:blur(90px);opacity:.28;will-change:transform}
+.aurora i:nth-child(1){background:#2ef08c;top:-25vmax;inset-inline-start:-15vmax;animation:drift1 26s ease-in-out infinite alternate}
+.aurora i:nth-child(2){background:#ff9f1a;top:30vh;inset-inline-end:-25vmax;animation:drift2 32s ease-in-out infinite alternate;opacity:.22}
+.aurora i:nth-child(3){background:#8b7bff;bottom:-30vmax;inset-inline-start:20vw;animation:drift3 38s ease-in-out infinite alternate;opacity:.2}
+@keyframes drift1{to{transform:translate(35vw,25vh) scale(1.15)}}
+@keyframes drift2{to{transform:translate(-30vw,-20vh) scale(.9)}}
+@keyframes drift3{to{transform:translate(25vw,-35vh) scale(1.2)}}
 .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 14px 6px 12px;border-radius:999px;border:1px solid rgba(46,240,140,.35);
 background:rgba(46,240,140,.08);color:#c9ffe0;font-weight:600;font-size:.88rem;margin-bottom:18px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green);animation:pulse 2s infinite}
@@ -313,8 +322,8 @@ color:#cfd6ff;box-shadow:0 0 40px -10px rgba(139,123,255,.7)}
 .cell{position:relative;display:inline-block;min-width:3ch}
 .old{animation:outp 6s infinite}.new{position:absolute;inset-inline-start:0;top:0;animation:inp 6s infinite}
 .hit{animation:flash 6s infinite;border-radius:6px}
-@keyframes outp{0%,30%{opacity:1}38%,92%{opacity:0}100%{opacity:1}}
-@keyframes inp{0%,30%{opacity:0}38%,92%{opacity:1}100%{opacity:0}}
+@keyframes outp{0%,30%{opacity:1;filter:blur(0)}33%,94%{opacity:0;filter:blur(4px)}97%,100%{opacity:1;filter:blur(0)}}
+@keyframes inp{0%,31%{opacity:0;filter:blur(4px)}34%,93%{opacity:1;filter:blur(0)}96%,100%{opacity:0}}
 @keyframes flash{0%,30%{background:transparent;box-shadow:none}38%,62%{background:rgba(255,207,58,.18);box-shadow:inset 0 0 0 1px var(--amber),0 0 24px -4px rgba(255,207,58,.8)}92%,100%{background:transparent;box-shadow:none}}
 .flow{width:80px;height:6px;border-radius:3px;background:linear-gradient(90deg,transparent,var(--amber),transparent);background-size:200% 100%;animation:flow 1.6s linear infinite;box-shadow:0 0 16px rgba(255,207,58,.7)}
 @keyframes flow{from{background-position:200% 0}to{background-position:-200% 0}}
@@ -398,8 +407,9 @@ select option{background:#0a0e16}
 </head>
 <body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header>
 <main>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<canvas id="sky" aria-hidden="true"></canvas>
 <div class="hero">
-  <canvas id="sky" aria-hidden="true"></canvas>
   <div>
     <span class="pill"><span class="dot"></span>בניית אתרים לחנויות ולעסקים קטנים</span>
     <h1>החנות שלך, <span class="glow-t">באינטרנט.</span></h1>
@@ -605,6 +615,30 @@ select option{background:#0a0e16}
     requestAnimationFrame(step);
   });
 
+  // lit dust drifting across the whole page, paused while the tab is hidden
+  var c = document.getElementById('sky'); if (c && c.getContext && !still) (function () {
+  var ctx = c.getContext('2d'), dots = [], on = true, W = 0, H = 0, dpr = Math.min(2, devicePixelRatio || 1);
+  function size() { var r = c.getBoundingClientRect(); W = r.width; H = r.height; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
+  size(); addEventListener('resize', size);
+  for (var i = 0, n = fine ? 110 : 45; i < n; i++) dots.push({ x: Math.random(), y: Math.random(), r: Math.random() * 1.8 + .4, v: Math.random() * .00025 + .00008, a: Math.random() * 6.28, c: Math.random() < .5 ? '255,207,58' : '46,240,140' });
+  document.addEventListener('visibilitychange', function () { on = !document.hidden; if (on) requestAnimationFrame(draw); });
+  function draw() {
+    if (!on) return;
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < dots.length; i++) {
+      var d = dots[i]; d.y -= d.v; d.a += .01; if (d.y < -.02) { d.y = 1.02; d.x = Math.random(); }
+      var x = d.x * W + Math.sin(d.a) * 8, y = d.y * H, al = .35 + Math.sin(d.a * 2) * .25;
+      ctx.beginPath(); ctx.arc(x, y, d.r, 0, 6.28); ctx.fillStyle = 'rgba(' + d.c + ',' + al + ')'; ctx.shadowBlur = 12; ctx.shadowColor = 'rgba(' + d.c + ',.9)'; ctx.fill();
+    }
+    ctx.shadowBlur = 0;
+    for (var a = 0; a < dots.length; a++) for (var b = a + 1; b < dots.length; b++) {
+      var dx = (dots[a].x - dots[b].x) * W, dy = (dots[a].y - dots[b].y) * H, dd = dx * dx + dy * dy;
+      if (dd < 9000) { ctx.strokeStyle = 'rgba(255,220,140,' + (0.09 * (1 - dd / 9000)) + ')'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(dots[a].x * W, dots[a].y * H); ctx.lineTo(dots[b].x * W, dots[b].y * H); ctx.stroke(); }
+    }
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+  })();
   if (!fine || still) return;
   // the light that follows the pointer, the spotlight inside each glass panel,
   // and the hero turning toward the pointer
@@ -627,24 +661,6 @@ select option{background:#0a0e16}
     });
   });
 
-  // a slow drift of lit dust behind the hero, paused when it is off screen
-  var c = document.getElementById('sky'); if (!c || !c.getContext) return;
-  var ctx = c.getContext('2d'), dots = [], on = true, W = 0, H = 0, dpr = Math.min(2, devicePixelRatio || 1);
-  function size() { var r = c.getBoundingClientRect(); W = r.width; H = r.height; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
-  size(); addEventListener('resize', size);
-  for (var i = 0; i < 70; i++) dots.push({ x: Math.random(), y: Math.random(), r: Math.random() * 1.8 + .4, v: Math.random() * .00025 + .00008, a: Math.random() * 6.28, c: Math.random() < .5 ? '255,207,58' : '46,240,140' });
-  new IntersectionObserver(function (es) { on = es[0].isIntersecting; if (on) requestAnimationFrame(draw); }).observe(c);
-  function draw() {
-    if (!on) return;
-    ctx.clearRect(0, 0, W, H);
-    for (var i = 0; i < dots.length; i++) {
-      var d = dots[i]; d.y -= d.v; d.a += .01; if (d.y < -.02) { d.y = 1.02; d.x = Math.random(); }
-      var x = d.x * W + Math.sin(d.a) * 8, y = d.y * H, al = .35 + Math.sin(d.a * 2) * .25;
-      ctx.beginPath(); ctx.arc(x, y, d.r, 0, 6.28); ctx.fillStyle = 'rgba(' + d.c + ',' + al + ')'; ctx.shadowBlur = 12; ctx.shadowColor = 'rgba(' + d.c + ',.9)'; ctx.fill();
-    }
-    requestAnimationFrame(draw);
-  }
-  requestAnimationFrame(draw);
 })();
 </script>
 <script>
