@@ -114,6 +114,15 @@
     try { return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jerusalem' }).format(new Date()); }
     catch (x) { return new Date().toISOString().slice(0, 10); }
   }
+  // what exactly does not match, so the one setting it up can fix it alone
+  var WHY = {
+    no_key: 'אין מפתח בקישור. הוסיפו בסוף הכתובת #k= ואת המפתח.',
+    no_table: 'בשרת לא מוגדר המשתנה SITE_PANEL_KEYS, או שהפריסה עוד לא הסתיימה. בדקו ב-Vercel ועשו Redeploy.',
+    bad_table: 'הערך של SITE_PANEL_KEYS ב-Vercel לא בפורמט הנכון. הוא צריך להיראות כך: {"' + cfg.site + '": "…"}',
+    no_site: 'ב-SITE_PANEL_KEYS אין שורה בשם ' + cfg.site + '. בדקו את השם בתוך הערך ב-Vercel.',
+    bad_hash: 'בתוך SITE_PANEL_KEYS, הערך של ' + cfg.site + ' צריך להיות 64 תווים של אותיות ומספרים (מהשורה השנייה בטרמינל).',
+    mismatch: 'המפתח בקישור לא תואם למה ששמור ב-Vercel. ודאו שבקישור יש את המפתח מהשורה הראשונה בטרמינל, ושב-Vercel יש את המחרוזת מאותה הרצה.'
+  };
   var ICON = { alert: '⚠️', warn: '👀', good: '🚀', info: '💡' };
 
   function render(d) {
@@ -177,7 +186,7 @@
     if (!demo) h.authorization = 'Bearer ' + key;
     return fetch(api + (demo ? 'demo' : cfg.site), { method: method || 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
       .then(function (r) {
-        if (r.status === 401) throw new Error('הקישור לא תקין. בקשו קישור חדש.');
+        if (r.status === 401) return r.json().catch(function () { return {}; }).then(function (b) { throw new Error(WHY[b.reason] || 'הקישור לא תקין. בקשו קישור חדש.'); });
         if (r.status === 400) throw new Error('חסר סכום. כתבו סכום ונסו שוב.');
         if (!r.ok) throw new Error('השרת לא ענה כרגע. נסו לרענן בעוד דקה.');
         return r.json();
