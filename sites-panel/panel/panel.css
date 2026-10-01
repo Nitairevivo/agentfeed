@@ -287,3 +287,44 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .askf input { font-family: inherit; }
 @media (max-width: 560px) { .brain { padding: 18px; } .brain-top { align-items: flex-start; } .core { flex-basis: 56px; height: 56px; } .verdict p { font-size: 17px; } }
 @media (prefers-reduced-motion: reduce) { .core i, .verdict .pill i, .scan .bar, .fx { animation: none; } }
+
+/* ── The ground the room stands on: an aurora that drifts, and a grid floor running toward the horizon ── */
+.pn { background: radial-gradient(120% 70% at 50% -10%, #12133a 0%, #070815 55%, #04050c 100%); }
+.pn-aurora { position: fixed; inset: -10%; z-index: 0; pointer-events: none; filter: blur(60px) saturate(1.4); opacity: .75; }
+.pn-aurora i { position: absolute; border-radius: 50%; mix-blend-mode: screen; }
+.pn-aurora i:nth-child(1) { width: 55vw; height: 45vh; left: 5%; top: 5%; background: radial-gradient(circle, rgba(139,108,255,.55), transparent 65%); animation: a1 22s ease-in-out infinite alternate; }
+.pn-aurora i:nth-child(2) { width: 50vw; height: 50vh; right: 0; top: 25%; background: radial-gradient(circle, rgba(62,230,255,.38), transparent 65%); animation: a2 26s ease-in-out infinite alternate; }
+.pn-aurora i:nth-child(3) { width: 45vw; height: 40vh; left: 30%; bottom: 0; background: radial-gradient(circle, color-mix(in srgb, var(--glow) 45%, transparent), transparent 65%); animation: a3 30s ease-in-out infinite alternate; }
+@keyframes a1 { to { transform: translate(18vw, 12vh) scale(1.2); } }
+@keyframes a2 { to { transform: translate(-22vw, -8vh) scale(.85); } }
+@keyframes a3 { to { transform: translate(-12vw, -18vh) scale(1.25); } }
+.pn-floor { position: fixed; left: -50%; right: -50%; bottom: -10vh; height: 55vh; z-index: 0; pointer-events: none; opacity: .5;
+  background-image: linear-gradient(rgba(62,230,255,.35) 1px, transparent 1px), linear-gradient(90deg, rgba(139,108,255,.35) 1px, transparent 1px);
+  background-size: 60px 60px; transform: perspective(420px) rotateX(62deg); transform-origin: 50% 100%;
+  mask-image: linear-gradient(to top, #000 10%, transparent 85%); -webkit-mask-image: linear-gradient(to top, #000 10%, transparent 85%);
+  animation: run 2.4s linear infinite; }
+@keyframes run { to { background-position: 0 60px, 0 0; } }
+.pn::before, .pn::after { display: none; }
+
+/* ── Number cards with a second face ── */
+.kpi { cursor: pointer; position: relative; }
+.kpi:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+.kback { position: absolute; inset: 0; z-index: 3; padding: 16px 18px; border-radius: inherit;
+  background: radial-gradient(circle at var(--tx, 50%) var(--ty, 50%), rgba(30,24,70,.98), rgba(8,10,26,.98));
+  clip-path: circle(0 at var(--tx, 50%) var(--ty, 50%)); transition: clip-path .55s cubic-bezier(.2,.8,.2,1); display: flex; flex-direction: column; gap: 8px; }
+.kpi.open .kback { clip-path: circle(150% at var(--tx, 50%) var(--ty, 50%)); }
+.kback .l { color: #9ff3ff; font-size: 13px; }
+.khint { margin-top: auto; font-size: 11.5px; color: var(--dim); }
+.ktap { position: absolute; top: 14px; inset-inline-end: 14px; color: rgba(62,230,255,.6); font-size: 16px; transition: transform .3s; }
+.kpi:hover .ktap { transform: rotate(90deg) scale(1.2); color: #3ee6ff; }
+.krows { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+.krows li { position: relative; display: flex; justify-content: space-between; gap: 8px; font-size: 14px; padding: 4px 8px; border-radius: 8px; overflow: hidden; }
+.krows li i { position: absolute; inset-block: 0; inset-inline-start: 0; z-index: -1; background: linear-gradient(90deg, rgba(62,230,255,.25), rgba(139,108,255,.25)); border-radius: 8px; transform-origin: right; animation: grow .7s both; }
+.krows b { font-family: "JetBrains Mono", monospace; }
+@keyframes grow { from { transform: scaleX(0); } }
+@media (prefers-reduced-motion: reduce) { .pn-aurora i, .pn-floor, .krows li i { animation: none; } .kback { transition: none; } }
+/* the second face's figures are a list, not the card's headline number */
+.kback .krows b { display: inline; font: 700 14px/1.3 "JetBrains Mono", monospace; margin: 0; text-shadow: none; background: none; -webkit-text-fill-color: currentColor; color: #eef0ff; }
+.kback .krows li { padding: 3px 0 6px; font-size: 13.5px; }
+.kback .krows li i { inset-block: auto 0; height: 2px; z-index: 0; border-radius: 2px; background: linear-gradient(90deg, #3ee6ff, #8b6cff); box-shadow: 0 0 8px rgba(62,230,255,.6); }
+.kback { overflow: auto; }

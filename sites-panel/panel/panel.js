@@ -46,8 +46,15 @@
       '<polyline points="0,' + H + ' ' + pts.join(' ') + ' ' + W + ',' + H + '" fill="' + colour + '" opacity=".12"/>' +
       '<polyline points="' + pts.join(' ') + '" fill="none" stroke="' + colour + '" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>';
   }
-  function kpi(label, value, c, vals, colour, unit, vs) {
-    return '<div class="kpi glass"><span class="l">' + label + '</span>' + value + delta(c, unit, false, vs) + spark(vals, colour) + '</div>';
+  // Each number card has a second face: a tap opens what the number is
+  // made of, from the same reply, in a circle that grows from the finger.
+  function kpi(label, value, c, vals, colour, unit, vs, back) {
+    return '<div class="kpi glass" tabindex="0" role="button" aria-expanded="false" aria-label="' + label + ' — לחצו לפירוט"><span class="l">' + label + '</span>' + value + delta(c, unit, false, vs) + spark(vals, colour) +
+      '<div class="kback"><span class="l">' + label + ' · פירוט</span>' + back + '<span class="khint">לחצו שוב לסגירה</span></div><span class="ktap" aria-hidden="true">⌖</span></div>';
+  }
+  function rows(list) {
+    return list.length ? '<ul class="krows">' + list.map(function (r) {
+      return '<li><span>' + esc(r[0]) + '</span><b>' + r[1] + '</b><i style="width:' + Math.max(4, Math.min(100, r[2] || 0)) + '%"></i></li>'; }).join('') + '</ul>' : '<p class="sub">עוד אין נתונים לפרט.</p>';
   }
   function chart(series, W) {
     if (!series.some(function (d) { return d.visitors || d.actions; })) {
@@ -135,10 +142,14 @@
       $('kpis').insertAdjacentHTML('afterend', '<p id="fewhint" class="sub" style="text-align:center;margin:-6px 0 18px">האתר צעיר, אז הגרפים עוד דלילים. רוצים לראות איך הלוח נראה עם חודש של תנועה? <a href="?demo" style="color:#3ee6ff">לתצוגת הדוגמה</a></p>');
     }
     $('kpis').innerHTML =
-      kpi('ביקורים ב-30 יום', num(k.visitors.now), k.visitors.change, s.map(function (x) { return x.visitors; }), 'var(--glow)') +
-      kpi('פניות ופעולות', num(k.actions.now), k.actions.change, s.map(function (x) { return x.actions; }), '#3ee6ff') +
-      kpi('אחוז המרה', num(k.conversion.now, '', '%', 1), k.conversion.change, s.map(function (x) { return x.visitors ? x.actions / x.visitors : 0; }), '#8b6cff', ' נק׳') +
-      kpi('רווח החודש', num(k.profit.now, '₪'), k.profit.change, running(mo.month, d.ledger), '#3ef0a1', '', VS_MONTH);
+      kpi('ביקורים ב-30 יום', num(k.visitors.now), k.visitors.change, s.map(function (x) { return x.visitors; }), 'var(--glow)', '', '',
+          rows(d.sources.slice(0, 4).map(function (x) { return [x.label, x.share + '%', x.share]; }))) +
+      kpi('פניות ופעולות', num(k.actions.now), k.actions.change, s.map(function (x) { return x.actions; }), '#3ee6ff', '', '',
+          rows(d.actions.filter(function (a) { return a.value; }).map(function (a) { return [a.label, nf(a.value), k.actions.now ? a.value / k.actions.now * 100 : 0]; }))) +
+      kpi('אחוז המרה', num(k.conversion.now, '', '%', 1), k.conversion.change, s.map(function (x) { return x.visitors ? x.actions / x.visitors : 0; }), '#8b6cff', ' נק׳', '',
+          rows([['מבקרים', nf(k.visitors.now), 100], ['פנו', nf(k.actions.now), k.visitors.now ? k.actions.now / k.visitors.now * 100 : 0], ['מטלפון', d.mobile + '%', d.mobile]])) +
+      kpi('רווח החודש', num(k.profit.now, '₪'), k.profit.change, running(mo.month, d.ledger), '#3ef0a1', '', VS_MONTH,
+          rows([['הכנסות', '₪' + nf(mo.income), mo.income ? 100 : 0], ['הוצאות', '₪' + nf(mo.expense), mo.income ? mo.expense / mo.income * 100 : 0]]));
     var h = d.health || { score: 0, parts: [] };
     if (h.score === null) {
       $('score').innerHTML = ring(0, '—') + '<p><b>ציון הבריאות יופיע כשיהיו מספיק נתונים.</b><br>צריך לפחות 20 ביקורים ב-30 יום כדי שהציון יגיד משהו אמיתי.</p>';
@@ -344,6 +355,15 @@
       pts = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .25, vy: (Math.random() - .5) * .25, r: Math.random() * 1.6 + .4 }; });
     }
     size(); addEventListener('resize', size);
+    // a touch sends a ring out from the finger and pushes the stars away
+    var rings = [];
+    addEventListener('pointerdown', function (e) {
+      rings.push({ x: e.clientX, y: e.clientY, r: 0 });
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i], dx = p.x - e.clientX, dy = p.y - e.clientY, d = Math.sqrt(dx * dx + dy * dy) || 1;
+        if (d < 260) { p.vx += dx / d * (260 - d) / 40; p.vy += dy / d * (260 - d) / 40; }
+      }
+    }, { passive: true });
     var brand = getComputedStyle(document.body).getPropertyValue('--glow').trim() || '#8b6cff';
     (function frame() {
       g.clearRect(0, 0, W, H);
@@ -359,6 +379,14 @@
         if (d2 < 26000) { g.strokeStyle = 'rgba(62,230,255,' + (0.35 * (1 - d2 / 26000)) + ')'; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(mx, my); g.stroke(); }
         g.fillStyle = d2 < 26000 ? '#3ee6ff' : 'rgba(238,240,255,.55)';
         g.beginPath(); g.arc(p.x, p.y, p.r, 0, 6.283); g.fill();
+      }
+      for (var k = rings.length - 1; k >= 0; k--) {
+        var rg = rings[k]; rg.r += 7; var life = 1 - rg.r / 320;
+        if (life <= 0) { rings.splice(k, 1); continue; }
+        g.strokeStyle = 'rgba(62,230,255,' + (0.6 * life) + ')'; g.lineWidth = 2;
+        g.beginPath(); g.arc(rg.x, rg.y, rg.r, 0, 6.283); g.stroke();
+        g.strokeStyle = 'rgba(139,108,255,' + (0.4 * life) + ')'; g.lineWidth = 1;
+        g.beginPath(); g.arc(rg.x, rg.y, rg.r * .6, 0, 6.283); g.stroke();
       }
       requestAnimationFrame(frame);
     })();
@@ -424,4 +452,22 @@
     if (window.__pn) window.__pnGadgets(window.__pn);
   });
   if (window.__pn) window.__pnGadgets(window.__pn);
+
+  // a number card opens from where it was touched
+  function flip(k, x, y) {
+    var r = k.getBoundingClientRect();
+    k.style.setProperty('--tx', (x == null ? r.width / 2 : x - r.left) + 'px');
+    k.style.setProperty('--ty', (y == null ? r.height / 2 : y - r.top) + 'px');
+    var open = !k.classList.contains('open');
+    document.querySelectorAll('.kpi.open').forEach(function (o) { if (o !== k) { o.classList.remove('open'); o.setAttribute('aria-expanded', 'false'); } });
+    k.classList.toggle('open', open); k.setAttribute('aria-expanded', open ? 'true' : 'false');
+    try { if (navigator.vibrate) navigator.vibrate(8); } catch (x) {}
+  }
+  document.addEventListener('click', function (e) {
+    var k = e.target.closest && e.target.closest('.kpi'); if (k) flip(k, e.clientX, e.clientY);
+  });
+  document.addEventListener('keydown', function (e) {
+    var k = e.target.closest && e.target.closest('.kpi');
+    if (k && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); flip(k); }
+  });
 })();
