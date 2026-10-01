@@ -308,17 +308,38 @@
       if (!r.analysis && r.detail) $('brain').insertAdjacentHTML('beforeend', '<p class="sub" dir="ltr" style="font-size:12px;opacity:.7">' + esc(r.detail) + '</p>');
     }).catch(function (e) { $('brain').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
   }
+  // A conversation, not a box: each question stays above its answer, the
+  // field empties and is ready for the next one.
+  var asking = false;
+  function bubble(html, cls) {
+    var el = document.createElement('div'); el.className = 'qa ' + cls; el.innerHTML = html;
+    $('answer').appendChild(el); el.scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
+    return el;
+  }
+  function tipsHtml(list) {
+    return (list || []).length ? '<ol class="tips">' + list.map(function (t) {
+      return '<li><span class="kind ' + t.kind + '">' + (t.kind === 'data' ? 'מהנתונים שלכם' : 'עצה כללית') + '</span><b>' + esc(t.tip) + '</b>' +
+        (t.why ? '<span class="why">' + esc(t.why) + '</span>' : '') + chip(t.evidence) + '</li>'; }).join('') + '</ol>' : '';
+  }
   $('askf').addEventListener('submit', function (e) {
     e.preventDefault();
-    var q = $('askq').value.trim(); if (!q) return;
-    if (demo) { $('answer').innerHTML = '<div class="answer"><p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם, ומראה על איזה מספר נשענה התשובה.</p></div>'; return; }
-    $('answer').innerHTML = '<div class="thinking"><span></span><span></span><span></span> חושב…</div>';
+    var input = $('askq'), q = input.value.trim(); if (!q || asking) return;
+    input.value = '';
+    bubble(esc(q), 'me');
+    if (demo) { bubble('<p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם ומוסיף עצות מעשיות, ומראה על איזה מספר נשענה כל עצה.</p>', 'ai'); return; }
+    asking = true; $('askf').classList.add('busy');
+    var wait = bubble('<div class="scan"><div class="bar"></div><p>חושב…</p></div>', 'ai');
     brainCall({ ask: q }).then(function (r) {
-      if (!r.answer && r.dropped) { $('answer').innerHTML = '<div class="answer"><p>המנתח ענה, אבל בתשובה הופיע מספר שלא קיים בנתונים שלכם, ולכן היא נמחקה. נסו לנסח את השאלה אחרת.</p></div>'; return; }
-      if (!r.answer && r.detail) { $('answer').innerHTML = '<div class="answer"><p>המנתח לא הצליח לענות כרגע.</p><p class="sub" dir="ltr" style="font-size:12px;opacity:.7;margin:6px 0 0">' + esc(r.detail) + '</p></div>'; return; }
-      $('answer').innerHTML = r.answer ? '<div class="answer"><p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + ev(r.evidence) + '</div>' :
-        '<div class="answer"><p>אין לי מספיק נתונים כדי לענות על זה בלי לנחש. נסו לשאול על משהו שהלוח מודד: ביקורים, מקורות, פניות או מוצרים.</p></div>';
-    }).catch(function (e) { $('answer').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
+      if (!r.answer && !(r.tips || []).length) {
+        wait.innerHTML = r.detail ? '<p>המנתח לא הצליח לענות כרגע.</p><p class="sub" dir="ltr" style="font-size:12px;opacity:.7;margin:6px 0 0">' + esc(r.detail) + '</p>' :
+          r.dropped ? '<p>המנתח ענה, אבל בתשובה הופיע מספר שלא קיים בנתונים שלכם, ולכן היא נמחקה. נסו לנסח את השאלה אחרת.</p>' :
+          '<p>לא הצלחתי לענות על זה. נסו לנסח אחרת.</p>';
+        return;
+      }
+      wait.innerHTML = (r.answer ? '<p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips);
+    }).catch(function (e2) {
+      wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
+    }).then(function () { asking = false; $('askf').classList.remove('busy'); input.focus(); });
   });
   document.querySelectorAll('#chips button').forEach(function (b) {
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
