@@ -128,6 +128,12 @@
   function render(d) {
     var k = d.kpis, mo = d.money, s = d.series;
     $('demo').hidden = !d.demo;
+    // a young site has little to draw; the owner can see the full picture
+    // on the demo, which says it is one
+    var few = !d.demo && d.kpis.visitors.now < 50, hint = document.getElementById('fewhint');
+    if (few && !hint) {
+      $('kpis').insertAdjacentHTML('afterend', '<p id="fewhint" class="sub" style="text-align:center;margin:-6px 0 18px">האתר צעיר, אז הגרפים עוד דלילים. רוצים לראות איך הלוח נראה עם חודש של תנועה? <a href="?demo" style="color:#3ee6ff">לתצוגת הדוגמה</a></p>');
+    }
     $('kpis').innerHTML =
       kpi('ביקורים ב-30 יום', num(k.visitors.now), k.visitors.change, s.map(function (x) { return x.visitors; }), 'var(--glow)') +
       kpi('פניות ופעולות', num(k.actions.now), k.actions.change, s.map(function (x) { return x.actions; }), '#3ee6ff') +
@@ -267,6 +273,7 @@
     readCatalog().then(function () { return brainCall({}); }).then(function (r) {
       if (r.reason === 'not_configured') { $('brain').innerHTML = '<p class="sub">המנתח עוד לא הופעל באתר הזה. ההמלצות למטה מבוססות על המספרים שלכם.</p>'; return; }
       showBrain(r.analysis, r.bench);
+      if (!r.analysis && r.detail) $('brain').insertAdjacentHTML('beforeend', '<p class="sub" dir="ltr" style="font-size:12px;opacity:.7">' + esc(r.detail) + '</p>');
     }).catch(function (e) { $('brain').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
   }
   $('askf').addEventListener('submit', function (e) {
