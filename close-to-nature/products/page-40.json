@@ -1,16 +1,244 @@
 {
  "page": 40,
  "pages": 44,
- "total": 2180,
+ "total": 2187,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-41.json",
  "products": [
+  {
+   "id": "3710",
+   "title": "אוונט – ownat אולטרה עוף ואורז מלא לחתולים בוגרים 1.5 ק”ג",
+   "description": "אוונט  –  ownat  \n   OWNAT   CHICKEN & RICE FOR CATS.   אוונט   לחתולים בוגרים על בסיס עוף ואורז מלא. המזון מספק הזנה מלאה ללא כל צורך ותוספות כלשהן והוא אינו מכיל פחמימות ריקות בעלות אינדקס גליקמי גבוה. שילוב של פירות טריים כמו תפוחי עץ, גזר, חמוציות וצמחי מרפא מספקים לגוף מינרלים ויטמינים ואנטיאוקסידנטים חזקים.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%a2%d7%95%d7%a3-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9e%d7%9c%d7%90-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%95/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-עוף-ואורז-מלא-לחתולים-בוגרים-1.5-קג.jpg",
+   "condition": "new",
+   "price": "85.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3710%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3710",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3710/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3710/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3710",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3710%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3710",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3710%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3710",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20ownat%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%90%D7%95%D7%A8%D7%96%20%D7%9E%D7%9C%D7%90%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%201.5%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "3709",
+   "title": "אוונט – OWNAT אולטרה לגורים מגזע גדול וענק 12 ק”ג",
+   "description": "אוכל לגורי כלבים  \n  OWANT  MAXI JUNIOR. מזון לגורי כלבים מעל גיל 7 שבועות עד גיל 18 חודשים ברמת פעילות נורמלית וגבוהה שבבגרותם יהיו במשקל של 28 ק”ג ומעלה. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ50% אחוזי בשר שמקורם בעוף.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%92%d7%93%d7%95%d7%9c-%d7%95%d7%a2%d7%a0%d7%a7-14-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-לגורים-מגזע-גדול-וענק-14-קג.jpg",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3709%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3709",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3709/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3709/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3709",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3709%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3709",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3709%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3709",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20OWNAT%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%92%D7%93%D7%95%D7%9C%20%D7%95%D7%A2%D7%A0%D7%A7%2012%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "3708",
+   "title": "אוונט – OWNAT אולטרה עוף והודו לייט לכלבים עם עודף משקל 14 ק”ג",
+   "description": "OWANT MEDIUM LIGHT. מזון לכלבים בוגרים מעל גיל 12 חודשים שסובלים מהשמנת יתר או לכלבים ברמת פעילות נמוכה במשקל 28-10 ק”ג. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ45% אחוזי בשר שמקורם בעוף.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%a2%d7%95%d7%a3-%d7%95%d7%94%d7%95%d7%93%d7%95-%d7%9c%d7%99%d7%99%d7%98-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a2%d7%9d/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-עוף-והודו-לייט-לכלבים-עם-עודף-משקל-14-קג.jpg",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3708%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3708",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3708/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3708/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3708",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3708%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3708",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3708%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3708",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20OWNAT%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%D7%9C%D7%99%D7%99%D7%98%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%A2%D7%9D%20%D7%A2%D7%95%D7%93%D7%A3%20%D7%9E%D7%A9%D7%A7%D7%9C%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "3707",
+   "title": "אוונט – OWNAT אולטרה עוף והודו לכלבים בוגרים מגזע בינוני 14 ק”ג",
+   "description": "OWANT MEDIUM ADULT. מזון לכלבים בוגרים מעל גיל 12 חודשים ברמת פעילות נורמלית. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ45% אחוזי בשר שמקורם בעוף וסלמון.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%a2%d7%95%d7%a3-%d7%95%d7%94%d7%95%d7%93%d7%95-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-עוף-והודו-לכלבים-בוגרים-מגזע-בינוני-14-קג.jpg",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3707%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3707",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3707/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3707/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3707",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3707%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3707",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3707%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3707",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20OWNAT%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "3706",
+   "title": "אוונט – OWNAT אולטרה עוף והודו לכלבים מסורסים מגזע בינוני 14 ק”ג",
+   "description": "OWANT MEDIUM STERILIZED. מזון לכלבים בוגרים מעל גיל 12 חודשים עם נטייה להשמנה או לכלבים שעברו סירוס או עיקור. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ50% אחוזי בשר שמקורם בעוף וסלמון.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%a2%d7%95%d7%a3-%d7%95%d7%94%d7%95%d7%93%d7%95-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9e%d7%a1%d7%95%d7%a8%d7%a1%d7%99/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-עוף-והודו-לכלבים-מסורסים-מגזע-בינוני-14-קג.jpg",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3706%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3706",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3706/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3706/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3706",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3706%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3706",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3706%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3706",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20OWNAT%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "3705",
+   "title": "אוונט – OWNAT אולטרה לגורים מגזע בינוני 14 ק”ג",
+   "description": "OWANT MEDIUM JUNIOR. מזון לגורים מגיל 7 שבועות ועד 12 חודשים או לכלבים ברמת פעילות גבוהה. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ50% אחוזי בשר שמקורם בעוף וסלמון.",
+   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-14-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-לגורים-מגזע-בינוני-14-קג.jpg",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3705%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3705",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3705/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3705/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3705",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3705%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3705",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3705%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3705",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%95%D7%A0%D7%98%20%E2%80%93%20OWNAT%20%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "3704",
    "title": "אוונט – OWNAT אולטרה טלה ואורז מלא לכלבים בוגרים 14 ק”ג",
    "description": "OWANT MEDIUM LAMB & RICE. מזון לכלבים בוגרים מעל גיל 12 חודשים שסובלים מרגישות לעוף או לכלבים שמעדיפים טעם של כבש. המזון אינו מכיל דגנים פשוטים כמו: תירס, חיטה או אפילו סויה ובכל מוצרי אוונט אולטרה נעשה שימוש ברכיבי בשר טריים באיכות גבוהה במיוחד בשילוב עם ירקות, פירות וקטניות. בחירת הרכיבים היא בהתאם לאיכות המזון הבלתי מתפשרת של אוונט הספרדית. מכיל גלוקוזאמין וכונדרואיטין, חומרים פעילים חשובים אשר מסייעים לבריאות המפרקים והאגן. הפורמולה הזו מכילה למעלה מ45% אחוזי בשר שמקורם בבשר טלה.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-ownat-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%98%d7%9c%d7%94-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9e%d7%9c%d7%90-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-OWNAT-%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94-%D7%98%D7%9C%D7%94-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%9E%D7%9C%D7%90-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-OWNAT-אולטרה-טלה-ואורז-מלא-לכלבים-בוגרים-14-קג.jpg",
    "condition": "new",
    "price": "329.00",
    "currency": "ILS",
@@ -48,7 +276,7 @@
    "title": "אוונט קלאסיק אנרג’י עוף אוכל לכלב פעיל 20 ק”ג",
    "description": "OWNAT CLASSIC ENERGY. מזון ברמת סופר פרימיום לכלבים פעילים, כלבי עבודה, ולכלבות הרות אשר מכיל אחוזי בשר וחלבון גבוהים במיוחד על מנת לענות על דרישות אנרגיה קיצוניות. בכדי להזין את הגוף לאחר פעילות גופנית מאומצת יש צורך בחלבון איכותי, היצרנית הספרדית אוונט השתמשה ב40% עוף במתכון הזה (30% יבש ו10% טרי) החלבון מזין את השרירים ומסייע להם להתפתח בצורה טובה ומאוזנת, בנוסף המזון מכיל סובין חיטה אשר מסייע לתהליך העיכול, מפחית את הסיכוי לתסמונת המעי הרגיז, עצירות כרונית, טחורים ועוד. \n   מחיר ל – 100 גרם 1.59 ₪",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%90%d7%a0%d7%a8%d7%92%d7%99-%d7%a2%d7%95%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%a2%d7%99%d7%9c-20/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%90%D7%A0%D7%A8%D7%92%D7%99-%D7%A2%D7%95%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A2%D7%99%D7%9C-20-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-אנרגי-עוף-אוכל-לכלב-פעיל-20-קג.jpg",
    "condition": "new",
    "price": "329.00",
    "currency": "ILS",
@@ -86,7 +314,7 @@
    "title": "אוונט קלאסיק אנרג’י עוף אוכל לכלב פעיל 4 ק”ג",
    "description": "OWNAT CLASSIC ENERGY. מזון ברמת סופר פרימיום לכלבים פעילים, כלבי עבודה, ולכלבות הרות אשר מכיל אחוזי בשר וחלבון גבוהים במיוחד על מנת לענות על דרישות אנרגיה קיצוניות. בכדי להזין את הגוף לאחר פעילות גופנית מאומצת יש צורך בחלבון איכותי, היצרנית הספרדית אוונט השתמשה ב40% עוף במתכון הזה (30% יבש ו10% טרי) החלבון מזין את השרירים ומסייע להם להתפתח בצורה טובה ומאוזנת, בנוסף המזון מכיל סובין חיטה אשר מסייע לתהליך העיכול, מפחית את הסיכוי לתסמונת המעי הרגיז, עצירות כרונית, טחורים ועוד.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%90%d7%a0%d7%a8%d7%92%d7%99-%d7%a2%d7%95%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%a2%d7%99%d7%9c-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%90%D7%A0%D7%A8%D7%92%D7%99-%D7%A2%D7%95%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A2%D7%99%D7%9C-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-אנרגי-עוף-אוכל-לכלב-פעיל-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -124,7 +352,7 @@
    "title": "אוונט קלאסיק ג’וניור עוף אוכל לגורים 12 ק”ג",
    "description": "אוכל לגורי כלבים  OWNAT  CLASSIC JUNIOR. מחקר ופיתוח של טובי המוחות והתזונאים בספרד הוביל לייצור מזון מתקדם ואיכותי לגורי כלבים המשלב בתוכו את כל הרכיבים שגור צעיר צריך על מנת להתפתח ולהפוך להיות כלב בריא וחזק. קרוב ל40% עוף בשילוב של פחמימות מלאות, וקטניות מספקים לכלב את כל מה שהוא צריך ומעבר לכך. כמות מאוזנת של סידן תורמת לבניית שלד ושיניים חזקות. שימוש בפירות טריים כמו תפוח עץ מספקים לגור ויטמינים ומינרלים חיוניים כמו: ויטמין A, ויטמינים ממשפחת B, ויטמין C. שימוש בפירות אמתיים מפחית את הצורך בהוספת ויטמינים ומינרליים מעובדים בצורה מלכותית, חברת OWNAT מאמינה שתמיד מומלץ לצרוך את כל הרכיבים בצורה הכי טבעית שלהם וזה הקו המנחה בייצור מזון הסופר פרמיום שלה לגורים. \n   מחיר ל – 100 גרם 1.99 ₪",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%92%d7%95%d7%a0%d7%99%d7%95%d7%a8-%d7%a2%d7%95%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%92%D7%95%D7%A0%D7%99%D7%95%D7%A8-%D7%A2%D7%95%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-15-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-גוניור-עוף-אוכל-לגורי-כלבים-15-קג.jpg",
    "condition": "new",
    "price": "239.00",
    "currency": "ILS",
@@ -162,7 +390,7 @@
    "title": "אוכל לגורי כלבים אוונט קלאסיק ג’וניור עוף אוכל לגורי כלבים 4 ק”ג",
    "description": "אוכל לגורי כלבים  \n  OWNAT  CLASSIC JUNIOR. מחקר ופיתוח של טובי המוחות והתזונאים בספרד הוביל לייצור מזון מתקדם ואיכותי לגורי כלבים המשלב בתוכו את כל הרכיבים שגור צעיר צריך על מנת להתפתח ולהפוך להיות כלב בריא וחזק. קרוב ל40% עוף בשילוב של פחמימות מלאות, וקטניות מספקים לכלב את כל מה שהוא צריך ומעבר לכך. כמות מאוזנת של סידן תורמת לבניית שלד ושיניים חזקות. שימוש בפירות טריים כמו תפוח עץ מספקים לגור ויטמינים ומינרלים חיוניים כמו: ויטמין A, ויטמינים ממשפחת B, ויטמין C. שימוש בפירות אמתיים מפחית את הצורך בהוספת ויטמינים ומינרליים מעובדים בצורה מלכותית, חברת OWNAT מאמינה שתמיד מומלץ לצרוך את כל הרכיבים בצורה הכי טבעית שלהם וזה הקו המנחה בייצור מזון הסופר פרמיום שלה לגורים.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%92%d7%95%d7%a0%d7%99%d7%95%d7%a8-%d7%a2%d7%95%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%9b%d7%9c%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%92%D7%95%D7%A0%D7%99%D7%95%D7%A8-%D7%A2%D7%95%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-גוניור-עוף-אוכל-לגורי-כלבים-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -200,7 +428,7 @@
    "title": "אוונט קלאסיק דגים אוכל לכלבים 4 ק”ג",
    "description": "OWNAT CLASSIC FISH. בעולם המודרני שאנו חיים בו תופעה של כלבים שרגישים למקורות חלבון מסוימים הפכה לשכיחה ביותר, הרכיבים האלרגנים הבולטים ביותר הם כמובן עוף אבל גם בקר נחשב לחלבון אלרגני ברמה די גבוהה. דגים לעומת זאת נחשבים לחלבון אלרגני ברמה פחותה, הם מזינים, קלים לעיכול ורוב הכלבים מאוד אוהבים את טעמם. המזון מתאים לכלבים בוגרים מכל הגזעים החל מגיל 12 חודשים.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%93%d7%92%d7%99%d7%9d-%d7%90%d7%95%d7%9b%d7%9c-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%93%D7%92%D7%99%D7%9D-%D7%90%D7%95%D7%9B%D7%9C-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-דגים-אוכל-היפואלרגני-לכלבים-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -238,7 +466,7 @@
    "title": "אוונט קלאסיק כבש ואורז אוכל היפואלרגני לכלבים 15 ק”ג",
    "description": "OWNAT CLASSIC LAMB&RICRE. הסדרה ההיפואלרגנית של מזונות האיכות לכלבים אוונט. המזון מבוסס על בסיס בשר כבש טרי, אורז מלא, אכינצאה ועוד. המזון מספק הזנה מלאה לכלבים בעלי רגישות או אלרגיה למזון שמקורה בחלבון עוף, מטפח את הפרווה, מפחית נשירה ומזין את העור באומגה 6ו3. אוונט כבש פותח תחת מחשבה רבה והרכיבים בו נבחרו בקפידה על מנת לייצר אוכל קל לעיכול, לדוגמה חברת אוונט הכניסה למזון חרובים טריים שיש להם תכונות רפואיות ואנטי דלקטיות רבות, הם עוזרים באיחוי רקמות פגועות, משפרים את מצב הרוח ועוד. \n   מחיר ל – 100 גרם 1.66 ₪",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%9b%d7%91%d7%a9-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%90%d7%95%d7%9b%d7%9c-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-15-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-כבש-ואורז-אוכל-היפואלרגני-לכלבים-15-קג.jpg",
    "condition": "new",
    "price": "249.00",
    "currency": "ILS",
@@ -276,7 +504,7 @@
    "title": "אוונט קלאסיק כבש ואורז אוכל היפואלרגני לכלבים 4 ק”ג",
    "description": "OWNAT CLASSIC LAMB&RICRE. הסדרה ההיפואלרגנית של מזונות האיכות לכלבים אוונט. המזון מבוסס על בסיס בשר כבש טרי, אורז מלא, אכינצאה ועוד. המזון מספק הזנה מלאה לכלבים בעלי רגישות או אלרגיה למזון שמקורה בחלבון עוף, מטפח את הפרווה, מפחית נשירה ומזין את העור באומגה 6ו3. אוונט כבש פותח תחת מחשבה רבה והרכיבים בו נבחרו בקפידה על מנת לייצר אוכל קל לעיכול, לדוגמה חברת אוונט הכניסה למזון חרובים טריים שיש להם תכונות רפואיות ואנטי דלקטיות רבות, הם עוזרים באיחוי רקמות פגועות, משפרים את מצב הרוח ועוד.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%9b%d7%91%d7%a9-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%90%d7%95%d7%9b%d7%9c-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-כבש-ואורז-אוכל-היפואלרגני-לכלבים-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -314,7 +542,7 @@
    "title": "אוונט קלאסיק לייט אוכל מופחת שומן לכלבים 20 ק”ג",
    "description": "OWNAT CLASSIC LIGHT. כיום בעידן המודרני המחלה הנפוצה ביותר אצל בני האדם היא ללא ספק השמנת היתר. בדומה לבני האדם תופעה זו שכיחה מאוד בקרב כלבים ועל מנת לטפל בבעיה הזו מומלץ לשלב שני דברים, תזונה ופעילות גופנית. על מנת להפחית את כמות האנרגיה אשר נכנסת לגוף יש להאכיל את הכלב במזון מופחת שומן ופחמימות ריקות בעלות ערך גליקמי גבוה. חברת אוונט שנחשבת לפורצת דרך בתחום תזונת הכלבים הצליחה לייצר מוצר שמצד אחד מכיל רק 8% שומן (30% פחות מהפורמולה של אוונט בוגר) ומצד שני לייצר מזון שמכיל כ35% בשר עוף אמיתי. בשר העוף מכיל אחוזי שומן נמוכים במיוחד ואחוזי חלבון גבוהים ולכן הוא נמצא כמתאים והמומלץ ביותר למטרה זו. רמת הטעימות של המזון לא נפגע ומבחני טעימה שנעשו על ידי היצרנית גילה שמרבית הכלבים אהבו את הטעם של אוונט מופחת שומן לכלבים.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%9c%d7%99%d7%99%d7%98-%d7%90%d7%95%d7%9b%d7%9c-%d7%9e%d7%95%d7%a4%d7%97%d7%aa-%d7%a9%d7%95%d7%9e%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%9C%D7%99%D7%99%D7%98-%D7%90%D7%95%D7%9B%D7%9C-%D7%9E%D7%95%D7%A4%D7%97%D7%AA-%D7%A9%D7%95%D7%9E%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-20-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-לייט-אוכל-מופחת-שומן-לכלבים-20-קג.jpg",
    "condition": "new",
    "price": "315.00",
    "currency": "ILS",
@@ -352,7 +580,7 @@
    "title": "אוונט קלאסיק לייט אוכל מופחת שומן לכלבים 4 ק”ג",
    "description": "OWNAT CLASSIC LIGHT. כיום בעידן המודרני המחלה הנפוצה ביותר אצל בני האדם היא ללא ספק השמנת היתר. בדומה לבני האדם תופעה זו שכיחה מאוד בקרב כלבים ועל מנת לטפל בבעיה הזו מומלץ לשלב שני דברים, תזונה ופעילות גופנית. על מנת להפחית את כמות האנרגיה אשר נכנסת לגוף יש להאכיל את הכלב במזון מופחת שומן ופחמימות ריקות בעלות ערך גליקמי גבוה. חברת אוונט שנחשבת לפורצת דרך בתחום תזונת הכלבים הצליחה לייצר מוצר שמצד אחד מכיל רק 8% שומן (30% פחות מהפורמולה של אוונט בוגר) ומצד שני לייצר מזון שמכיל כ35% בשר עוף אמיתי. בשר העוף מכיל אחוזי שומן נמוכים במיוחד ואחוזי חלבון גבוהים ולכן הוא נמצא כמתאים והמומלץ ביותר למטרה זו. רמת הטעימות של המזון לא נפגע ומבחני טעימה שנעשו על ידי היצרנית גילה שמרבית הכלבים אהבו את הטעם של אוונט מופחת שומן לכלבים.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%9c%d7%99%d7%99%d7%98-%d7%90%d7%95%d7%9b%d7%9c-%d7%9e%d7%95%d7%a4%d7%97%d7%aa-%d7%a9%d7%95%d7%9e%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%9C%D7%99%D7%99%D7%98-%D7%90%D7%95%D7%9B%D7%9C-%D7%9E%D7%95%D7%A4%D7%97%D7%AA-%D7%A9%D7%95%D7%9E%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-לייט-אוכל-מופחת-שומן-לכלבים-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -390,7 +618,7 @@
    "title": "אוונט קלאסיק מיני אוכל לכלבים מגזע קטן 4 ק”ג",
    "description": "OWNAT CLASSIC MINI ADULT. המזון מומלץ לכלבים מגזעים קטנים של כלבים מעל גיל שנה במשקל 2-10 ק”ג. אחוזי חלבון ושומן גבוהים, טעם בשרי שמקורו בעוף טרי וכופתית קטנה מספקים תזונה בריאה ומעולה עבור הכלב שלכם.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%9e%d7%99%d7%a0%d7%99-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%9E%D7%99%D7%A0%D7%99-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-מיני-אוכל-לכלבים-מגזע-קטן-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -428,7 +656,7 @@
    "title": "אוונט קלאסיק קומפלט עוף אוכל לכלב בוגר 15 ק”ג",
    "description": "OWNAT CLASSIC COMPLETE. המזון מספק תזונה מלאה ומאוזנת במיוחד בזכות השימוש בבשר טרי ללא תוצרי לוואי בתהליך הייצור. מזון לכלבים אוונט מומלץ לכלבים בוגרים שעברו את גיל שנה, לכל הגזעים ולכל הגדלים. שימוש בחיטה מלאה כדגן המרכזי ביותר במזון תורם לחושת שובע לאורך זמן בזכות כמות גדולה של סיבים תזונתיים בלתי מסיסים ללא ערך קלורי כלשהו, איזון רמות הסוכר בדם בזכות הערך הגליקמי הנמוך. בנוסף החיטה המלאה עשירה ביותר בנוגדי חמצון ומינרלים כמו: מגנזיום, זרחן וויטמין E ו B6. האכלה קבועה של הכלב במזון שמכיל בשר טרי ודגנים מלאים תסייע לו לחזק את הגוף ואת המערכת החיסונית בפרט ובזכות כל האלו רמת החיים שלו תשתפר גם היא.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%a7%d7%95%d7%9e%d7%a4%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-1/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%A7%D7%95%D7%9E%D7%A4%D7%9C%D7%98-%D7%A2%D7%95%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-15-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-קומפלט-עוף-אוכל-לכלב-בוגר-15-קג.jpg",
    "condition": "new",
    "price": "259.00",
    "currency": "ILS",
@@ -466,7 +694,7 @@
    "title": "אוונט קלאסיק קומפלט עוף אוכל לכלב בוגר 4 ק”ג",
    "description": "OWNAT CLASSIC COMPLETE. המזון מספק תזונה מלאה ומאוזנת במיוחד בזכות השימוש בבשר טרי ללא תוצרי לוואי בתהליך הייצור. מזון לכלבים אוונט מומלץ לכלבים בוגרים שעברו את גיל שנה, לכל הגזעים ולכל הגדלים. שימוש בחיטה מלאה כדגן המרכזי ביותר במזון תורם לחושת שובע לאורך זמן בזכות כמות גדולה של סיבים תזונתיים בלתי מסיסים ללא ערך קלורי כלשהו, איזון רמות הסוכר בדם בזכות הערך הגליקמי הנמוך. בנוסף החיטה המלאה עשירה ביותר בנוגדי חמצון ומינרלים כמו: מגנזיום, זרחן וויטמין E ו B6. האכלה קבועה של הכלב במזון שמכיל בשר טרי ודגנים מלאים תסייע לו לחזק את הגוף ואת המערכת החיסונית בפרט ובזכות כל האלו רמת החיים שלו תשתפר גם היא.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%a7%d7%95%d7%9e%d7%a4%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%A7%D7%95%D7%9E%D7%A4%D7%9C%D7%98-%D7%A2%D7%95%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-קומפלט-עוף-אוכל-לכלב-בוגר-4-קג.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -504,7 +732,7 @@
    "title": "מזון לכלבים ללא דגנים אוונט כבש 14 ק”ג",
    "description": "OWNAT GRAIN FREE LAMB. כבש הוא ללא ספק אחד הטעמים האהובים ביותר על כלבים אבל מעבר לטעם שלו הוא מזין ומתעכל בקלות. בשונה מבני אדם מערכת העיכול של הכלב מאוד קצרה, היא מסוגלת לעכל כמויות גדולות של בשר בקלות ובמהירות. באוונט כבש ללא דגנים קרוב ל70% מהחלבון במזון מקורו בחלבון מהחי, נתון גבוה במיוחד שמעיד על איכות המזון. שילוב של בשר טרי בכמות גבוהה יחד עם ירקות וצמחי מרפא הופכים את המזון להיות לא רק בריא ומזין במיוחד אלה גם טעים להפליא. מומלץ לכלבים בוגרים בעלי רמת פעילות גבוהה. \n   מחיר ל – 100 גרם 2.25 ₪",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%9b%d7%91%d7%a9-14-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%93%D7%92%D7%A0%D7%99%D7%9D-%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%9B%D7%91%D7%A9-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-לכלבים-ללא-דגנים-אוונט-כבש-14-קג.jpg",
    "condition": "new",
    "price": "315.00",
    "currency": "ILS",
@@ -542,7 +770,7 @@
    "title": "מזון לכלבים ללא דגנים אוונט סלמון ופירות ים 14 ק”ג",
    "description": "OWNAT GRAIN FREE SALMON & SEAFOOD. מזון טבעי לכלבים שאינו מכיל דגנים או גלוטן, מספק תזונה מלאה ואיכותית שמבוססת על סלמון טרי ופירות ים, רכיבים בעלי נעכלות גבוהה במיוחד. לדג הסלמון יש יתרונות בריאותיים רבים, מפחית את הסיכוי לחלות במחלות לב, מכיל ויטמין B12 ולכן מסייע לתהליך עיכול תקין, משפר תפקודי מוח (מחקרים גילו שצריכה קבוע של אומגה 3 משפרת את הזיכרון ואת תפקוד המוח), מונע מחלות עיניים, מכיל ויטמין D ולכן חשוב לבניית שלד ושיניים חזקות. בנוסף לדג הסלמון המזון מכיל צמחי מרפא כמו קמומיל, צמח בעל תכונות בריאותיות רבות: מפחית גזים ומסייע לעיכול, מרגיע ומוריד מתח ובעל תכונות אנטי דלקטיות חזקות.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%95%d7%a4%d7%99%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%93%D7%92%D7%A0%D7%99%D7%9D-%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%95%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%9D-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-לכלבים-ללא-דגנים-אוונט-סלמון-ופירות-ים-14-קג.jpg",
    "condition": "new",
    "price": "315.00",
    "currency": "ILS",
@@ -580,7 +808,7 @@
    "title": "מזון לכלבים ללא דגנים אוונט עוף 14 ק”ג",
    "description": "OWNAT GRAIN FREE ADULT CHIKEN. היום כשהמודעות לתזונת כלבים הולכת וצוברת תאוצה ניתן להשיג מגוון רחב של מזונות כלבים שאינם מכילים דגנים והם הפכו לשכיחים מאוד בנוף חנויות המחמד. חשוב לבדוק את מקור החלבון במזון, ישנם מזונות כלבים המבוססים על קמחי בשר ומהם מומלץ להימנע, חברת אוונט ייצרה את המזון הזה תוך הקפדה יתרה על טיב חומרי הגלם. המזון אינו מכיל קמחי בשר והוא משלב בתוכו פירות וירקות אשר מכילים נוגדי חמצון טבעיים. חשוב לשים לב לאחוזי החלבון הגבוהים, המזון מכיל 40% חלבון ולכן הוא אינו מומלץ לכלבים בעלי רמת פעילות נמוכה עד בינונית, אם הכלב שלכם פעיל במיוחד זו בהחלט יכולה להיות אופציה מצוינת עבורכם.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a2%d7%95%d7%a3-14-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%93%D7%92%D7%A0%D7%99%D7%9D-%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A2%D7%95%D7%A3-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-לכלבים-ללא-דגנים-אוונט-עוף-14-קג.jpg",
    "condition": "new",
    "price": "315.00",
    "currency": "ILS",
@@ -618,7 +846,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר עם בעיות בכבד – 2 ק”ג",
    "description": "וט לייף  –  Vet Life  \n  אוכל רפואי לכלב  בוגר עם בעיות בכבד. מגיע בשקים של 2 ו-12 ק”ג. HEPATIC CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%95%d7%aa-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%91%D7%9B%D7%91%D7%93-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-בעיות-בכבד-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -656,7 +884,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר עם בעיות בכבד – 12 ק”ג",
    "description": "וט לייף  –  Vet Life  \n  אוכל רפואי לכלב  בוגר עם בעיות בכבד. מגיע בשקים של 2 ו-12 ק”ג. HEPATIC CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%95%d7%aa-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%91%D7%9B%D7%91%D7%93-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-בעיות-בכבד-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "369.00",
    "currency": "ILS",
@@ -694,7 +922,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר לבעיות קיבה ומעיים – 12 ק”ג",
    "description": "וט לייף  –  Vet Life גסטרו  \n  אוכל רפואי לכלב  בוגר עם בעיות קיבה ומעיים. מגיע בשקים של 2 ו-12 ק”ג.  GASTROINTESTINAL  CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%9c%d7%91%d7%a2%d7%99%d7%95%d7%aa-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%9C%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%A7%D7%99%D7%91%D7%94-%D7%95%D7%9E%D7%A2%D7%99%D7%99%D7%9D-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-לבעיות-קיבה-ומעיים-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "349.00",
    "currency": "ILS",
@@ -732,7 +960,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר עם סוכרת – DIABETIC – שק 2 ק”ג",
    "description": "וט לייף  –  Vet Life  \n  אוכל רפואי לכלב  בוגר עם סוכרת. מגיע בשקים של 2 ו-12 ק”ג. DIABETIC CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%a1%d7%95%d7%9b%d7%a8%d7%aa/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%A1%D7%95%D7%9B%D7%A8%D7%AA-DIABETIC-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-סוכרת-DIABETIC-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -770,7 +998,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר בתהליך החלמה – 2 ק”ג",
    "description": "וט לייף  –  Vet Life   \n  אוכל רפואי לכלב  בוגר בתהליך החלמה. מגיע בשקים של 2 ו-12 ק”ג. CONVALESCENCE CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. מכיל עוף מיובש, אורז ועוד.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%aa%d7%94%d7%9c%d7%99%d7%9a-%d7%94/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%91%D7%AA%D7%94%D7%9C%D7%99%D7%9A-%D7%94%D7%97%D7%9C%D7%9E%D7%94-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-בתהליך-החלמה-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -808,7 +1036,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר עם השמנת יתר – OBESITY – שק 2 ק”ג",
    "description": "וט לייף  –  Vet Life  \n  אוכל רפואי לכלב  בוגר הסובל מהשמנת יתר. מגיע בשקים של 2 ו-12 ק”ג. OBESITY CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%94%d7%a9%d7%9e%d7%a0%d7%aa-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%94%D7%A9%D7%9E%D7%A0%D7%AA-%D7%99%D7%AA%D7%A8-OBESITY-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-השמנת-יתר-OBESITY-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -846,7 +1074,7 @@
    "title": "וט לייף Vet Life – אוכל רפואי לכלב בוגר עם השמנת יתר 12 ק”ג OBESITY",
    "description": "וט לייף  –  Vet Life  \n  אוכל רפואי לכלב  בוגר הסובל מהשמנת יתר. מגיע בשקים של 2 ו-12 ק”ג. OBESITY CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%94%d7%a9%d7%9e%d7%a0%d7%aa/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%94%D7%A9%D7%9E%D7%A0%D7%AA-%D7%99%D7%AA%D7%A8-OBESITY-%D7%A9%D7%A7-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-השמנת-יתר-OBESITY-שק-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "339.00",
    "currency": "ILS",
@@ -884,7 +1112,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי היפואלרגני לכלב בוגר עם ביצה ואורז – 2 ק”ג",
    "description": "וט לייף  –  Vet Life  \n  אוכל רפואי לכלב  בוגר עם אלרגיות למזון. מגיע בשקים של 2 ו-12 ק”ג. HYPOALLERGENIC EGG & RICE CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91-5/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%99%D7%A6%D7%94-%D7%95%D7%90%D7%95%D7%A8%D7%96-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-היפואלרגני-לכלב-בוגר-עם-ביצה-ואורז-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -922,7 +1150,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי היפואלרגני לכלב בוגר עם דגים ותפו”א – 2 ק”ג",
    "description": "וט לייף – Vet Life  \n  אוכל רפואי לכלב בוגר  עם אלרגיות למזון. מגיע בשקים של 2 ו-12 ק”ג. HYPOALLERGENIC FISH & POTATO CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%93%D7%92%D7%99%D7%9D-%D7%95%D7%AA%D7%A4%D7%95%D7%90-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-היפואלרגני-לכלב-בוגר-עם-דגים-ותפוא-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -960,7 +1188,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב בוגר עם בעיה לבבית – CARDIAC – שק 2 ק”ג",
    "description": "וט לייף – Vet Life  \n  אוכל רפואי לכלב  בוגר עם בעיה לבבית. מגיע בשקים של 2 ו-12 ק”ג. CARDIAC CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%94/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%94-%D7%9C%D7%91%D7%91%D7%99%D7%AA-CARDIAC-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-בעיה-לבבית-CARDIAC-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -998,7 +1226,7 @@
    "title": "וט לייף – Vet Life – אוכל רפואי לכלב עם בעיות פרקים – 12 ק”ג פארמינה Farmina",
    "description": "וט לייף – Vet Life  \n  אוכל רפואי לכלב  בוגר עם בעיות פרקים. מגיע בשקים של 2 ו-12 ק”ג. JOINT CANINE מכיל כוסמין ושיבולת שועל מלאים, עוף מיובש ועוד. יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%95%d7%aa-%d7%a4%d7%a8%d7%a7%d7%99-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%A4%D7%A8%D7%A7%D7%99%D7%9D-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-עם-בעיות-פרקים-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "369.00",
    "currency": "ILS",
@@ -1036,7 +1264,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי לכלב בוגר עם בעיות בכליות – RENAL – שק 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם בעיות בכליות. מגיע בשקים של 2 ו-12 ק”ג. RENAL CANINE מבית פארמינה יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%95%d7%aa-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%91%D7%9B%D7%9C%D7%99%D7%95%D7%AA-RENAL-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-בעיות-בכליות-RENAL-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1074,7 +1302,7 @@
    "title": "Vet Life – אוכל רפואי לכלב בוגר עם בעיות בכליות – 12 ק”ג",
    "description": "אוכל רפואי לכלב  בוגר עם בעיות בכליות. מגיע בשקים של 2 ו-12 ק”ג. RENAL CANINE מבית  פארמינה   Farmina  יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%95%d7%aa/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%91%D7%9B%D7%9C%D7%99%D7%95%D7%AA-RENAL-%D7%A9%D7%A7-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-בעיות-בכליות-RENAL-שק-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "369.00",
    "currency": "ILS",
@@ -1112,7 +1340,7 @@
    "title": "וט לייף Vet Life – מזון רפואי לכלב בוגר עם אבנים בכליות – שק 12 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם אבנים בכליות. מגיע בשקים של 2 ו-12 ק”ג. OXALATE CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d-6/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A9%D7%A7-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אבנים-בכליות-שק-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "369.00",
    "currency": "ILS",
@@ -1150,7 +1378,7 @@
    "title": "וט לייף Vet Life – מזון רפואי לכלב בוגר עם אבנים בכליות – שק 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם אבנים בכליות. מגיע בשקים של 2 ו-12 ק”ג. OXALATE CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d-5/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%9B%D7%9C%D7%99%D7%95%D7%AA-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אבנים-בכליות-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1188,7 +1416,7 @@
    "title": "וט לייף Vet Life – מזון רפואי לכלב בוגר עם אבנים בדרכי השתן – STRUVITE MANAGEMENT CANINE – שק 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם אבנים/דלקת בדרכי השתן. מגיע בשקים של 2 ו-12 ק”ג. STRUVITE MANAGEMENT CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-STRUVITE-MANAGEMENT-CANINE-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אבנים-בדרכי-השתן-STRUVITE-MANAGEMENT-CANINE-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1226,7 +1454,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי לכלב בוגר עם אבנים בדרכי השתן – STRUVITE MANAGEMENT CANINE – שק 12 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם אבנים/דלקת בדרכי השתן. מגיע בשקים של 2 ו-12 ק”ג. STRUVITE MANAGEMENT CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-STRUVITE-MANAGEMENT-CANINE-%D7%A9%D7%A7-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אבנים-בדרכי-השתן-STRUVITE-MANAGEMENT-CANINE-שק-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "369.00",
    "currency": "ILS",
@@ -1264,7 +1492,7 @@
    "title": "וט לייף Vet Life – מזון רפואי לכלב בוגר עם אבנים בדרכי השתן – 12 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם אבנים בדרכי השתן. מגיע בשקים של 2 ו-12 ק”ג. STRUVITE CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אבנים-בדרכי-השתן-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "369.00",
    "currency": "ILS",
@@ -1302,7 +1530,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי לכלב עם בעיות פרקים – 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם בעיות פרקים. מגיע בשקים של 2 ו-12 ק”ג. JOINT CANINE מכיל כוסמין ושיבולת שועל מלאים, עוף מיובש ועוד. יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – יתכנו שינויים בצורה ו/או בצבע. ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a2%d7%9d-%d7%91%d7%a2%d7%99%d7%95%d7%aa-%d7%a4%d7%a8%d7%a7%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A2%D7%9D-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%A4%D7%A8%D7%A7%D7%99%D7%9D-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-עם-בעיות-פרקים-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1340,7 +1568,7 @@
    "title": "וט לייף Vet Life – מזון רפואי לכלב בוגר עם אבנים בדרכי השתן – 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לכלב בוגר עם אבנים בדרכי השתן. מגיע בשקים של 2 ו-12 ק”ג. STRUVITE CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אבנים-בדרכי-השתן-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1378,7 +1606,7 @@
    "title": "וט לייף Vet Life מזון רפואי לכלב בוגר עם אי סבילות למזון ULTRAHYPO שק 2 ק”ג",
    "description": "מזון רפואי מלא לכלב בוגר להפחתת תגובות של אי סבילות למזון, כמו אלרגיות, שלשולים חוזרים ונשנים ואסטמה של העור. משמש ככלי אבחון (דיאטת אלימינציה). מגיע בשקים של 2 ו-12 ק”ג. ULTRAHYPO CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – יתכנו שינויים בצורה ו/או בצבע. ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%99-%d7%a1%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%99-%D7%A1%D7%91%D7%99%D7%9C%D7%95%D7%AA-%D7%9C%D7%9E%D7%96%D7%95%D7%9F-ULTRAHYPO-%D7%A9%D7%A7-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-עם-אי-סבילות-למזון-ULTRAHYPO-שק-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -1416,7 +1644,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי לכלב גור – עוף – 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי לגורי כלבים עד גיל שנה וחצי. מגיע בשקים של 2 ו-12 ק”ג. GROWTH CANINE מכיל עוף, אורז ותוספים נוספים. יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%92%d7%95%d7%a8-%d7%a2%d7%95%d7%a3-2-%d7%a7%d7%92-%d7%a4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%92%D7%95%D7%A8-%D7%A2%D7%95%D7%A3-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-גור-עוף-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1454,7 +1682,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי לכלב בוגר ומסורס במשקל 10 ק”ג ומעלה למניעת מחלות עקב השמנה – 2 ק”ג פארמינה Farmina",
    "description": "מזון רפואי מלא לכלב בוגר ומסורס במשקל 10 ק”ג ומעלה, הסובל מבעיות משקל. מזון ייעודי להקטנת הסיכון לסוכרת ואבנים בכליות. מגיע בשקים של 2 ו-10 ק”ג. NEUTERED +10KG CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%95%d7%9e%d7%a1%d7%95%d7%a8%d7%a1-%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%95%D7%9E%D7%A1%D7%95%D7%A8%D7%A1-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%95%D7%9E%D7%A2%D7%9C%D7%94-%D7%9C%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%9E%D7%97%D7%9C%D7%95%D7%AA-%D7%A2%D7%A7%D7%91-%D7%94%D7%A9%D7%9E%D7%A0%D7%94-2-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-לכלב-בוגר-ומסורס-במשקל-10-קג-ומעלה-למניעת-מחלות-עקב-השמנה-2-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1492,7 +1720,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי היפואלרגני לכלב בוגר עם ביצה ואורז – 12 ק”ג פארמינה Farmina",
    "description": "מזון רפואי מלא לכלב בוגר עם אלרגיות למזון. מגיע בשקים של 2 ו-12 ק”ג. HYPOALLERGENIC EGG & RICE CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – יתכנו שינויים בצורה ו/או בצבע. ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%91%D7%99%D7%A6%D7%94-%D7%95%D7%90%D7%95%D7%A8%D7%96-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-היפואלרגני-לכלב-בוגר-עם-ביצה-ואורז-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "449.00",
    "currency": "ILS",
@@ -1530,7 +1758,7 @@
    "title": "וט לייף – Vet Life – מזון רפואי היפואלרגני לכלב בוגר עם דגים ותפו”א – 12 ק”ג",
    "description": "מזון רפואי מלא לכלב בוגר עם אלרגיות למזון. מגיע בשקים של 2 ו-12 ק”ג. HYPOALLERGENIC FISH & POTATO CANINE \nיש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%93%D7%92%D7%99%D7%9D-%D7%95%D7%AA%D7%A4%D7%95%D7%90-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-היפואלרגני-לכלב-בוגר-עם-דגים-ותפוא-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "449.00",
    "currency": "ILS",
@@ -1568,7 +1796,7 @@
    "title": "וט לייף  Vet Life – אוכל רפואי היפואלרגני לכלב בוגר 12 ק”ג ULTRAHYPO",
    "description": "vet life ultrahypo \n  אוכל רפואי לכלב  בוגר להפחתת תגובות של אי סבילות למזון, כמו אלרגיות, שלשולים חוזרים ונשנים ואסטמה של העור. משמש ככלי אבחון (דיאטת אלימינציה). מגיע בשקים של 2 ו-12 ק”ג. ULTRAHYPO CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב.",
    "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-ULTRAHYPO-%D7%A9%D7%A7-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-היפואלרגני-לכלב-בוגר-ULTRAHYPO-שק-12-קג-פארמינה-Farmina.jpg",
    "condition": "new",
    "price": "529.00",
    "currency": "ILS",
@@ -1606,7 +1834,7 @@
    "title": "אוכל לכלב פרוטקט אוסטאו 2 ק”ג PROTECT OSTEO",
    "description": "משלוח חינם!  \n אוכל לכלב פרוטקט אוסטאו Protect Osteo הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בחילוף החומרים של המפרקים במקרה של דלקת מפרקים ניוונית”. \n \n משקל: 2 ק”ג \n \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%95%d7%a1%d7%98%d7%90%d7%95-osteo-%d7%9c%d7%a1%d7%99%d7%95%d7%a2-%d7%91%d7%91%d7%a2-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%90%D7%95%D7%A1%D7%98%D7%90%D7%95-2-%D7%A7%D7%92-PROTECT-OSTEO-1.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-אוסטאו-2-קג-PROTECT-OSTEO-1.jpg",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -1644,7 +1872,7 @@
    "title": "פרסטיז’ אוכל לכלבים אדולט 3 ק”ג Flatazor",
    "description": "פרסטיז’ אדולט 3 ק”ג Flatazor   \n מזון יבש מלא לכלבים מכל הגזעים. מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח עץ העשירים בפוליפנולים, , המגנים על התא של האורגניזם ושומרים על חיוניות כלבך . משקל אופטימלי מתאפשר בזכות איזון בין רמת החלבון והכמות הקלורית הנדרשת לכלב .",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%90%d7%93%d7%95%d7%9c%d7%98-3-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/06/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%90%D7%93%D7%95%D7%9C%D7%98-6x3-%D7%A7%D7%92-Flatazor-%D7%93%D7%99%D7%9C-%D7%A1%D7%95%D7%A4%D7%A8-%D7%9E%D7%A9%D7%AA%D7%9C%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2023/06/פרסטיז-אוכל-לכלבים-אדולט-6x3-קג-Flatazor-דיל-סופר-משתלם.jpg",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -1666,234 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96%E2%80%99%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%90%D7%93%D7%95%D7%9C%D7%98%203%20%D7%A7%E2%80%9D%D7%92%20Flatazor%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3637",
-   "title": "פרסטיז’ אוכל לכלב בוגר מגזע גדול 15+3 ק”ג Flatazor",
-   "description": "פרסטיז’ מזון לכלב בוגר מגזע גדול 18 ק”ג Flatazor  \n מזון יבש מלא לכלבים מגזע גדול. מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח העץ עשירים בפוליפנולים, המגנים על התא של האורגניזם. מכיל כונדרואיטין, גלוקוזמין סולפט וסחוס שעבר הידרוליזה לחיזוק המפרקים והעצמות המפרקים והעצמות הגודל המרקם המותאם של האוכל לצרכיי הכלב הגדול ומאלץ אותו ללעוס את האוכל ובכך שלשמור על מערכת עיכול תקינה ובריאה.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%92%d7%93%d7%95%d7%9c-18-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%9E%D7%92%D7%96%D7%A2-%D7%92%D7%93%D7%95%D7%9C-153-%D7%A7%D7%92-Flatazor.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3637%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3637",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3637/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3637/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3637",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3637%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3637",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3637%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3637",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96%E2%80%99%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%92%D7%93%D7%95%D7%9C%2015%2B3%20%D7%A7%E2%80%9D%D7%92%20Flatazor%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3631",
-   "title": "פרסטיז’ לכלב מבוגר – סניור 3 ק”ג Flatazor",
-   "description": "מזון יבש מלא לכלבים  מבוגרים מ 7 שנים ומעלה מכיל נוגדי חמצון טבעיים מסיבי תפוח העץ עשירים בפוליפנולים, נוגדני חמצון טבעיים, המגנים על התא של האורגניזם אינו מכיל מלח מה שעוזר לשמור על בריאות הלב ומונע הצטברות נוזלים מכיל כמות החלבונים האידיאלית לשמירה על מסת השריר הדרושה, מבלי להעמיס על הכליות והכבד.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%a0%d7%99%d7%95%d7%a8-3-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%93%D7%95%D7%9C%D7%98-7-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9E%D7%91%D7%95%D7%92%D7%A8-15-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "119.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3631%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3631",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3631/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3631/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3631",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3631%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3631",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3631%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3631",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96%E2%80%99%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%A1%D7%A0%D7%99%D7%95%D7%A8%203%20%D7%A7%E2%80%9D%D7%92%20Flatazor%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3629",
-   "title": "פרסטיז’ אוכל לגורי כלבים מגזע קטן 8 ק”ג Flatazor",
-   "description": "מזון יבש מלא לגורי כלבים מגזע קטן ולאם המניקה. מכיל נוגדי חמצון טבעיים העשויים מסיבי תפוח העץ עשירים בפוליפנולים, נוגדני חמצון טבעיים, המגנים על התא של האורגניזם שילוב של תמציות צמחים ופרוקטו-אוליגוסכרידים מבטיח עיכול בריא, כמו גם מערכת חיסון חזקה מכיל רכיבים קלים לעיכול כמו ביצים, שבבי תירס ועמילן שטרם בושל, מסייעים בהגנה על מערכת העיכול של גורי הכלבים",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%92%d7%95%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-8-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-3-%D7%A7%D7%92-Flatazor.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "249.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3629%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3629",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3629/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3629/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3629",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3629%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3629",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3629%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3629",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96%E2%80%99%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%20%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%A7%D7%98%D7%9F%208%20%D7%A7%E2%80%9D%D7%92%20Flatazor%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3628",
-   "title": "פרו פלאן Pro Plan – דיאט לייט לשמירה על משקל – 3 ק”ג",
-   "description": "פרו פלאן Pro Plan \n על מנת להעניק את התזונה הטובה ביותר לחתול, חברת  פורינה  פרו פלאן עם צוות המדענים, וטרינרים ותזונאים הביאו למצוי הידע והחידושים בתחום התזונה של חתולים. ארגון הבריאות העולמי לרפואת חתולים ISFM מוקיר ומעריך את תרומתה של חברת  פורינה  למדע התזונה של חתולים.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-purina-%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-pro-plan-%d7%93%d7%99%d7%90%d7%98-%d7%9c%d7%99%d7%99%d7%98-%d7%9c%d7%a9%d7%9e%d7%99%d7%a8%d7%94-%d7%a2%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94-Purina-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan-%D7%93%D7%99%D7%90%D7%98-%D7%9C%D7%99%D7%99%D7%98-%D7%9C%D7%A9%D7%9E%D7%99%D7%A8%D7%94-%D7%A2%D7%9C-%D7%9E%D7%A9%D7%A7%D7%9C-3-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "145.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3628%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3628",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3628/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3628/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3628",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3628%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3628",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3628%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3628",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%95%20%D7%A4%D7%9C%D7%90%D7%9F%20Pro%20Plan%20%E2%80%93%20%D7%93%D7%99%D7%90%D7%98%20%D7%9C%D7%99%D7%99%D7%98%20%D7%9C%D7%A9%D7%9E%D7%99%D7%A8%D7%94%20%D7%A2%D7%9C%20%D7%9E%D7%A9%D7%A7%D7%9C%20%E2%80%93%203%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3626",
-   "title": "פרו פלאן Pro Plan – מזון לגורי חתולים – עוף – 3 ק”ג",
-   "description": "פרו פלאן   Pro Plan   \n על מנת להעניק את התזונה הטובה ביותר לחתול, חברת פורינה פרו פלאן עם צוות המדענים, וטרינרים ותזונאים הביאו למצוי הידע והחידושים בתחום התזונה של חתולים. ארגון הבריאות העולמי לרפואת חתולים ISFM מוקיר ומעריך את תרומתה של חברת פורינה למדע התזונה של חתולים.מבית פורינה PURINA התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-pro-plan-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A2%D7%95%D7%A3-3-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "145.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3626%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3626",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3626/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3626/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3626",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3626%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3626",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3626%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3626",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%95%20%D7%A4%D7%9C%D7%90%D7%9F%20Pro%20Plan%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%E2%80%93%203%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3625",
-   "title": "פרו פלאן Pro Plan – לחתול בוגר (7+) סטרילייז הודו – 3 ק”ג",
-   "description": "פרו פלאן   Pro Plan   \n על מנת להעניק את התזונה הטובה ביותר לחתול, חברת  פורינה פרו פלאן  עם צוות המדענים, וטרינרים ותזונאים הביאו למצוי הידע והחידושים בתחום התזונה של  חתולים . ארגון הבריאות העולמי לרפואת חתולים ISFM מוקיר ומעריך את תרומתה של חברת  פורינה  למדע התזונה של  חתולים . מבית פורינה PURINA התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-pro-plan-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-7-%d7%a1%d7%98%d7%a8%d7%99%d7%9c%d7%99%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-7-%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96-%D7%94%D7%95%D7%93%D7%95-3-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "145.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3625%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3625",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3625/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3625/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3625",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3625%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3625",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3625%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3625",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%95%20%D7%A4%D7%9C%D7%90%D7%9F%20Pro%20Plan%20%E2%80%93%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%287%2B%29%20%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96%20%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%203%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

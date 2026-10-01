@@ -164,6 +164,10 @@
       return '<div class="tip ' + a.level + '"><div class="ic" aria-hidden="true">' + ICON[a.level] + '</div><div><h3>' + esc(a.title) +
         '</h3><p>' + esc(a.body) + '</p></div><span class="ev">' + esc(a.metric) + '</span></div>'; }).join('') :
       '<p class="sub">הכול שקט. ברגע שיצטברו נתונים יופיעו כאן המלצות.</p>';
+    var prod = d.products || [];
+    $('products').innerHTML = prod.length ? prod.slice(0, 8).map(function (p) {
+      return '<li><span>' + esc(p.name) + '</span><span><b>' + nf(p.actions) + '</b> פניות' + (p.wa ? ' · ' + nf(p.wa) + ' בוואטסאפ' : '') + '</span></li>'; }).join('') :
+      '<li>כשמישהו ילחץ על הזמנה מתוך כרטיס של מוצר, הוא יופיע כאן.</li>';
     $('when').textContent = 'עודכן ' + new Date().toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' });
     document.querySelectorAll('[data-to]').forEach(countUp);
   }
@@ -197,5 +201,74 @@
     var id = e.target.getAttribute && e.target.getAttribute('data-rm');
     if (id && confirm('למחוק את הרשומה?')) load('POST', { remove: id });
   });
+  // ── The analyst ──────────────────────────────────────────────────────────
+  // It reads the same numbers, plus a count of what the product file is
+  // missing, and its every sentence carries the facts it rests on.
+  var brainApi = cfg.api + '/analyst?site=' + (demo ? 'demo' : cfg.site);
+  var CERT = { measured: 'נמדד', likely: 'סביר', guess: 'השערה לבדיקה' };
+  var EFFORT = { low: 'כמה דקות', medium: 'שעה-שעתיים', high: 'יום ומעלה' };
+  var VERDICT = { good: ['good', 'עובד טוב'], mixed: ['warn', 'חלק עובד, חלק לא'], weak: ['alert', 'צריך תשומת לב'], too_early: ['info', 'מוקדם לשפוט'] };
+  var catalog = null;
+  function readCatalog() {
+    return fetch('../products.jsonl').then(function (r) { return r.ok ? r.text() : ''; }).then(function (t) {
+      var c = { total: 0, noImage: 0, noPrice: 0, outOfStock: 0, noCategory: 0 };
+      t.split('\n').forEach(function (line) {
+        if (!line.trim()) return;
+        try { var p = JSON.parse(line); } catch (x) { return; }
+        c.total++;
+        if (!p.image) c.noImage++;
+        if (!(Number(p.price) > 0)) c.noPrice++;
+        if (p.availability === 'out_of_stock') c.outOfStock++;
+        if (!p.category || !p.category.length) c.noCategory++;
+      });
+      catalog = c.total ? c : null;
+    }).catch(function () {});
+  }
+  function ev(list) {
+    return (list || []).length ? '<span class="ev">' + list.map(esc).join(' · ') + '</span>' : '';
+  }
+  function showBrain(a, bench) {
+    if (!a) { $('brain').innerHTML = '<p class="sub">המנתח לא ענה הפעם. ההמלצות למטה עדיין מבוססות על המספרים שלכם.</p>'; return; }
+    var v = VERDICT[a.verdict] || VERDICT.mixed;
+    $('brain').innerHTML =
+      '<div class="verdict ' + v[0] + '"><span class="pill">' + v[1] + '</span><p>' + esc(a.headline || '') + '</p></div>' +
+      (a.findings || []).map(function (f) {
+        return '<div class="tip ' + (f.certainty === 'guess' ? 'info' : 'warn') + '"><div class="ic" aria-hidden="true">🔎</div><div><h3>' + esc(f.title) +
+          ' <small class="cert ' + f.certainty + '">' + (CERT[f.certainty] || '') + '</small></h3><p>' + esc(f.explain) + '</p></div>' + ev(f.evidence) + '</div>'; }).join('') +
+      ((a.actions || []).length ? '<h3 class="brain-sub">מה לעשות השבוע</h3><ol class="todo">' + a.actions.map(function (x) {
+        return '<li><b>' + esc(x.do) + '</b> <small>(' + (EFFORT[x.effort] || '') + ')</small><br><span>' + esc(x.why) + '</span>' + ev(x.evidence) + '</li>'; }).join('') + '</ol>' : '') +
+      ((a.ask_owner || []).length ? '<p class="sub">כדי לדייק, המנתח היה רוצה לדעת: ' + a.ask_owner.map(esc).join(' · ') + '</p>' : '') +
+      (bench ? '<p class="sub bench">בהשוואה ל-' + bench.sites + ' חנויות אחרות שבנינו (חציון): ' + bench.conversion + '% פניות על כל 100 מבקרים · ' +
+        bench.mobile + '% מטלפון · ' + bench.google + '% מגוגל.</p>' : '') +
+      (a.demo ? '<p class="sub">בדוגמה הזאת הטקסט נכתב מתבנית. באתר אמיתי כותב אותו המנתח, מהמספרים שלכם.</p>' : '');
+  }
+  function brainCall(body) {
+    var h = { 'content-type': 'application/json' };
+    if (!demo) h.authorization = 'Bearer ' + key;
+    body = body || {}; body.catalog = catalog; body.name = cfg.name;
+    return fetch(brainApi, { method: 'POST', headers: h, body: JSON.stringify(body) }).then(function (r) {
+      if (r.status === 429) throw new Error('הגעתם למספר השאלות להיום. אפשר לשאול שוב מחר.');
+      if (!r.ok) throw new Error('המנתח לא זמין כרגע. נסו שוב בעוד כמה דקות.');
+      return r.json();
+    });
+  }
+  function brain() {
+    $('brain').innerHTML = '<div class="thinking"><span></span><span></span><span></span> המנתח קורא את המספרים…</div>';
+    readCatalog().then(function () { return brainCall({}); }).then(function (r) {
+      if (r.reason === 'not_configured') { $('brain').innerHTML = '<p class="sub">המנתח עוד לא הופעל באתר הזה. ההמלצות למטה מבוססות על המספרים שלכם.</p>'; return; }
+      showBrain(r.analysis, r.bench);
+    }).catch(function (e) { $('brain').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
+  }
+  $('askf').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var q = $('askq').value.trim(); if (!q) return;
+    if (demo) { $('answer').innerHTML = '<div class="answer"><p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם, ומראה על איזה מספר נשענה התשובה.</p></div>'; return; }
+    $('answer').innerHTML = '<div class="thinking"><span></span><span></span><span></span> חושב…</div>';
+    brainCall({ ask: q }).then(function (r) {
+      $('answer').innerHTML = r.answer ? '<div class="answer"><p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + ev(r.evidence) + '</div>' :
+        '<div class="answer"><p>אין לי מספיק נתונים כדי לענות על זה בלי לנחש. נסו לשאול על משהו שהלוח מודד: ביקורים, מקורות, פניות או מוצרים.</p></div>';
+    }).catch(function (e) { $('answer').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
+  });
   load();
+  brain();
 })();

@@ -140,3 +140,39 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .empty-chart { height: 240px; display: grid; place-items: center; align-content: center; gap: 14px; color: var(--dim); text-align: center; }
 .empty-chart span { width: 14px; height: 14px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 0 0 rgba(62,230,255,.5); animation: pulse 2s 3; }
 @media (prefers-reduced-motion: reduce) { .empty-chart span { animation: none; } }
+
+/* The analyst: the one card that talks. A slow beam runs round its edge so
+   the eye starts here; the words inside stay on a calm ground. */
+.brain { border: 1px solid color-mix(in srgb, var(--violet) 45%, var(--edge)); box-shadow: 0 0 0 1px rgba(139,108,255,.12), 0 18px 60px -20px rgba(139,108,255,.45); }
+.brain h2 { display: flex; align-items: center; gap: 10px; }
+.brain-ic { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: linear-gradient(135deg, var(--violet), var(--cyan)); color: #fff; box-shadow: 0 0 22px rgba(139,108,255,.6); animation: pulse 3.2s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 0 34px rgba(62,230,255,.7); } }
+.verdict { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 6px 0 14px; }
+.verdict p { margin: 0; font-size: 18px; font-weight: 700; flex: 1 1 260px; }
+.verdict .pill { padding: 5px 12px; border-radius: 99px; font-weight: 800; font-size: 14px; color: #0b0d1a; background: var(--green); }
+.verdict.warn .pill { background: #ffc34d; } .verdict.alert .pill { background: var(--red); color: #fff; } .verdict.info .pill { background: var(--cyan); }
+.cert { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 99px; background: rgba(255,255,255,.08); color: var(--dim); white-space: nowrap; }
+.cert.measured { color: var(--green); } .cert.likely { color: #ffc34d; } .cert.guess { color: var(--cyan); }
+.brain-sub { margin: 18px 0 8px; font-size: 17px; }
+.todo { margin: 0; padding-inline-start: 22px; display: grid; gap: 10px; }
+.todo li span { color: var(--dim); }
+.todo .ev, .answer .ev { display: block; margin-top: 4px; }
+.askf { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+.askf input { flex: 1 1 220px; min-width: 0; background: rgba(255,255,255,.06); border: 1px solid var(--edge); color: var(--txt); border-radius: 12px; padding: 11px 14px; font: inherit; }
+.askf input:focus { outline: 2px solid var(--violet); outline-offset: 1px; }
+.answer { margin-top: 12px; padding: 14px 16px; border-radius: 14px; background: rgba(139,108,255,.1); border: 1px solid rgba(139,108,255,.3); }
+.answer p { margin: 0; }
+.thinking { display: flex; align-items: center; gap: 6px; color: var(--dim); padding: 10px 0; }
+.thinking span { width: 8px; height: 8px; border-radius: 50%; background: var(--violet); animation: blink 1.2s infinite; }
+.thinking span:nth-child(2) { animation-delay: .2s; } .thinking span:nth-child(3) { animation-delay: .4s; }
+@keyframes blink { 50% { opacity: .2; transform: translateY(-3px); } }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+@media (prefers-reduced-motion: reduce) { .brain-ic, .thinking span { animation: none; } }
+/* evidence that quotes a long product name wraps instead of widening the card */
+.brain .ev { white-space: normal; max-width: 100%; }
+.brain .tip > div { min-width: 0; }
+@media (max-width: 560px) { .brain .tip .ev { grid-column: 1 / -1; } }
+/* On a 390px phone the four number cards came out 400px wide: a grid track
+   is as wide as its widest child's content, and the sparkline set that. */
+.pn main > *, .kpis > *, .two > *, .three > * { min-width: 0; }
+.kpi .spark { max-width: 100%; }

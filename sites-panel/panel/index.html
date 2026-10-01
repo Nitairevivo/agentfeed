@@ -15,11 +15,18 @@
 </div></header>
 <main class="wrap">
   <section class="kpis" id="kpis" aria-label="המספרים המרכזיים"></section>
+  <section class="cardp glass brain" aria-labelledby="brain-h"><h2 id="brain-h"><span class="brain-ic" aria-hidden="true">✦</span> המנתח החכם</h2>
+    <p class="sub">מנוע AI שקורא את כל המספרים של האתר, משווה לחנויות אחרות שבנינו, ואומר מה עובד, מה לא, ומה לעשות. כל משפט מראה על איזה מספר הוא נשען, ומשפט שלא נשען על מספר אמיתי נמחק לפני שהוא מגיע אליכם.</p>
+    <div id="brain" aria-live="polite"></div>
+    <form class="askf" id="askf"><label class="vh" for="askq">שאלה למנתח</label><input id="askq" maxlength="300" placeholder="למשל: למה השבוע היו פחות פניות?" autocomplete="off"><button class="btn btn-brand btn-s" type="submit">לשאול</button></form>
+    <div id="answer" aria-live="polite"></div>
+  </section>
   <section class="cardp glass"><h2>מה כדאי לעשות עכשיו</h2><p class="sub">נבנה מהמספרים שלכם. כל המלצה מראה על איזה מספר היא נשענת.</p><div class="score" id="score"></div><div class="advice" id="advice"></div></section>
   <div class="two">
     <section class="cardp chart glass"><h2>מבקרים ופניות</h2><p class="sub">כל יום ב-30 הימים האחרונים</p><div id="chart"></div></section>
     <section class="cardp glass"><h2>מאיפה הגיעו</h2><p class="sub">ב-30 הימים האחרונים</p><div id="ai"></div><div class="bars" id="sources"></div></section>
   </div>
+  <section class="cardp glass"><h2>המוצרים שהכי שואלים עליהם</h2><p class="sub">לחיצות על וואטסאפ, שיחה או סל מתוך כרטיס של מוצר, ב-30 הימים האחרונים</p><ul class="list" id="products"></ul></section>
   <div class="three">
     <section class="cardp glass"><h2>מה עשו באתר</h2><ul class="list" id="actions"></ul></section>
     <section class="cardp glass"><h2>העמודים הכי נצפים</h2><p class="sub" id="mobile"></p><ul class="list" id="pages"></ul></section>

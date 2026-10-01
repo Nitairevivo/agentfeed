@@ -1,16 +1,184 @@
 {
  "page": 38,
  "pages": 100,
- "total": 4982,
+ "total": 4989,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-39.json",
  "products": [
+  {
+   "id": "4195",
+   "title": "מונג’-מזון לחתולים נטורל עוף 1.5 ק”ג מונג’ Monge",
+   "description": "אוכל מלא לחתולים בוגרים על בסיס בשר עוף איכותי עם טעם נפלא. מכיל כמות דגנים מופחתת וללא תפוחי אדמה. מתכון ייחודי פרי פיתוח של חוקרי מזון איטלקיים. בתוספת של אל קרניטין לשמירה על משקל בריא ופעילות לב תקינה. בתוספת פרוביוטיקה וויטמין C להקלה על תהליכי העיכול וחיזוק הסביבה החיידקית הבריאה במעי. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Adult Rich in Chicken.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a0%d7%98%d7%95%d7%a8%d7%9c-%d7%a2%d7%95%d7%a3-1-5-%d7%a7%d7%92-%d7%9e%d7%95%d7%a0%d7%92-monge/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-נטורל-עוף-1.5-קג-מונג-Monge.jpg",
+   "condition": "new",
+   "price": "65.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4195%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4195",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4195/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4195/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4195",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4195%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4195",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4195%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4195",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%95%D7%A0%D7%92%E2%80%99-%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A0%D7%98%D7%95%D7%A8%D7%9C%20%D7%A2%D7%95%D7%A3%201.5%20%D7%A7%E2%80%9D%D7%92%20%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20Monge%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4192",
+   "title": "מונג’-מזון לחתולים בי ווילד אנשובי 10 ק”ג מונג’ Monge",
+   "description": "אוכל מלא לחתולים מכל הגזעים על בסיס בשר אנשובי איכותי עם טעם נפלא. בשר אנשובי מתעכל בקלות ומכיל כמות אלרגנים מועטה. מכיל כמות דגנים מופחתת וללא תפוחי אדמה. סדרת בי ווילד מדמה תזונה טבעית המבוססת בעיקרה על סגנון חיים קרניבורי ולכן מכילה כמות גבוהה של בשר אמיתי בשילוב עם פירות יער ירקות עשבים וצמחים כמקור לסיבים מינרלים ופחמימות מורכבות. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Adult with Anchovies.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%99-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%90%d7%a0%d7%a9%d7%95%d7%91%d7%99-10-%d7%a7%d7%92-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-בי-ווילד-אנשובי-10-קג-מונג-Monge.jpg",
+   "condition": "new",
+   "price": "339.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4192%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4192",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4192/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4192/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4192",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4192%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4192",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4192%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4192",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%95%D7%A0%D7%92%E2%80%99-%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%99%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%90%D7%A0%D7%A9%D7%95%D7%91%D7%99%2010%20%D7%A7%E2%80%9D%D7%92%20%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20Monge%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4191",
+   "title": "מונג’-מזון לחתולים בי ווילד אנשובי 1.5 ק”ג מונג’ Monge",
+   "description": "אוכל מלא לחתולים מכל הגזעים על בסיס בשר אנשובי איכותי עם טעם נפלא. בשר אנשובי מתעכל בקלות ומכיל כמות אלרגנים מועטה. מכיל כמות דגנים מופחתת וללא תפוחי אדמה. סדרת בי ווילד מדמה תזונה טבעית המבוססת בעיקרה על סגנון חיים קרניבורי ולכן מכילה כמות גבוהה של בשר אמיתי בשילוב עם פירות יער ירקות עשבים וצמחים כמקור לסיבים מינרלים ופחמימות מורכבות. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Adult with Anchovies.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%99-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%90%d7%a0%d7%a9%d7%95%d7%91%d7%99-1-5-%d7%a7%d7%92-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-בי-ווילד-אנשובי-1.5-קג-מונג-Monge.jpg",
+   "condition": "new",
+   "price": "79.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4191%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4191",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4191/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4191/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4191",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4191%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4191",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4191%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4191",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%95%D7%A0%D7%92%E2%80%99-%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%99%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%90%D7%A0%D7%A9%D7%95%D7%91%D7%99%201.5%20%D7%A7%E2%80%9D%D7%92%20%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20Monge%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4190",
+   "title": "מונג’-מזון לחתולים מונו סטרילייזד דג פורל לחתולים מסורסים ורגישים 1.5 ק”ג מונג’ Monge",
+   "description": "מזון לחתולים מסורסים מונג’ מונו סטרילייזד דג פורל. מכיל מקור חלבון יחיד של דג פורל, בעל נעכלות גבוהה וטעם נהדר שחתולים אוהבים. הפורמולה מיועדת לחתולים אשר רגישים לרכיבי מזון מסוימים ומכילים מקורות חלבון בעלי אלרגניות נמוכה, המתכון מכיל את נוסחת הפרוביוטיקה הסודית של מונג’ על מנת לשפר את תהליכי העיכול והספיגה של החתול הרגיש. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Natural Superpremium Sterilised Monoprotein Trout.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%9e%d7%95%d7%a0%d7%95-%d7%a1%d7%98%d7%a8%d7%99%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%93%d7%92-%d7%a4%d7%95/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-מונו-סטרילייזד-דג-פורל-לחתולים-מסורסים-ורגישים-1.5-קג-מונג-Monge.jpg",
+   "condition": "new",
+   "price": "65.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4190%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4190",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4190/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4190/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4190",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4190%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4190",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4190%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4190",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%95%D7%A0%D7%92%E2%80%99-%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%9E%D7%95%D7%A0%D7%95%20%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96%D7%93%20%D7%93%D7%92%20%D7%A4%D7%95%D7%A8%D7%9C%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%D7%99%D7%9D%20%D7%95%D7%A8%D7%92%D7%99%D7%A9%D7%99%D7%9D%201.5%20%D7%A7%E2%80%9D%D7%92%20%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20Monge%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "4189",
    "title": "מונג’-מזון לחתולים מונו סטרילייזד ברווז לחתולים מסורסים ורגישים 1.5 ק”ג מונג’ Monge",
    "description": "מזון לחתולים מסורסים מונג’ מונו סטרילייזד ברווז. מכיל מקור חלבון יחיד של ברווז, בעל נעכלות גבוהה וטעם נהדר שחתולים אוהבים. הפורמולה מיועדת לחתולים אשר רגישים לרכיבי מזון מסוימים ומכילים מקורות חלבון בעלי אלרגניות נמוכה, המתכון מכיל את נוסחת הפרוביוטיקה הסודית של מונג’ על מנת לשפר את תהליכי העיכול והספיגה של החתול הרגיש. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Natural Superpremium Sterilised Monoprotein Duck.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%9e%d7%95%d7%a0%d7%95-%d7%a1%d7%98%d7%a8%d7%99%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%91%d7%a8%d7%95%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%95-%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96%D7%93-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%D7%99%D7%9D-%D7%95%D7%A8%D7%92%D7%99%D7%A9%D7%99%D7%9D-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-מונו-סטרילייזד-ברווז-לחתולים-מסורסים-ורגישים-1.5-קג-מונג-Monge.jpg",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -52,7 +220,7 @@
    "title": "מונג’-מזון לחתולים מונו קיטן דג פורל לגורי חתולים 1.5 ק”ג מונג’ Monge",
    "description": "מזון לגורי חתולים מונג’ מונו פרוטאין דג פורל. מכיל מקור חלבון יחיד של דג פורל, בעל נעכלות גבוהה וטעם נהדר שחתולים אוהבים. תזונה מלאה ועשירה ביותר לגורי חתול שובבים ופעילים בעלי מערכת עיכול רגישה. הפורמולה מיועדת לחתולים אשר רגישים לרכיבי מזון מסוימים ומכילים מקורות חלבון בעלי אלרגניות נמוכה, המתכון מכיל את נוסחת הפרוביוטיקה הסודית של מונג’ על מנת לשפר את תהליכי העיכול והספיגה של החתול הרגיש. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Natural Superpremium Kitten Monoprotein Trout.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%9e%d7%95%d7%a0%d7%95-%d7%a7%d7%99%d7%98%d7%9f-%d7%93%d7%92-%d7%a4%d7%95%d7%a8%d7%9c-%d7%9c%d7%92%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%95-%D7%A7%D7%99%D7%98%D7%9F-%D7%93%D7%92-%D7%A4%D7%95%D7%A8%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-מונו-קיטן-דג-פורל-לגורי-חתולים-1.5-קג-מונג-Monge.jpg",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -94,7 +262,7 @@
    "title": "מונג’ -מזון לחתולים סלמון לחתולים 1.5 ק”ג מונג’ Monge",
    "description": "אוכל לחתולים מונג` סלמון, רכיב עיקרי דג סלמון! דג הסלמון ידוע בנעכלות המצוינות שלו והפלאים שהוא יכול לעשות לפרוות החתול בזכות תכולת חומצות השומן החיוניות הגבוהה, טעמו של הסלמון ערב במיוחד לחיך החתול ולכן המתכון הוא בין המוצלחים ביותר של ענקית המזון לחתולים מונג’. בנוסף לכך הפורמולה מועשרת בפרוביוטיקה יעודית לחתולים על מנת להגביר את הספיגה והניצול של רכיבי האוכל. סופר פרימיום לחתול תוצרת מונג’ איטליה.Monge Natural Superpremium Adult Cat Salmon",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-1-5-%d7%a7%d7%92-%d7%9e%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-סלמון-לחתולים-1.5-קג-מונג-Monge.jpg",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -136,7 +304,7 @@
    "title": "הילס סיינס פלאן לגורים כלבים מגזע קטן כבש 6 ק”ג",
    "description": "הילס סיינס פלאן  HILL’S SCIENCE PLAN  אוכל לגורים, כלבים קטנים ומיני עם כבש ואורז הוא תזונה מותאמת לצרכים ההתפתחותיים של גורים קטנים ומיני, כך שהם יקבלו את ההתחלה הטובה ביותר בחיים ויצמחו למיצוי הפוטנציאל שלהם. \n \n DHA משמן דגים להתפתחות בריאה של המוח והעיניים \n מינרלים מאוזנים עבור עצמות ושיניים חזקות \n מרכיבים איכותיים וסיבים עדינים לבטן הרגישה של הגור שלך \n מכיל את תערובת נוגדי החמצון הקטנה והמיני המיוחדת שלנו לתמיכה חיסונית לכל החיים",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%90%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%9b/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-%D7%9B%D7%91%D7%A9-6-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סיינס-פלאן-לגורים-כלבים-מגזע-קטן-כבש-6-קג.jpg",
    "condition": "new",
    "price": "214.00",
    "currency": "ILS",
@@ -178,7 +346,7 @@
    "title": "הילס סיינס פלאן אוכל לכלב בוגר מגזע קטן עוף 6 ק”ג",
    "description": "הילס סיינס פלאן HILL’S SCIENCE PLAN    אוכל לכלב קטן ומיני למבוגרים עם עוף הוא תזונה מותאמת לצרכים הייחודיים של כלבים קטנים ומיני במהלך שיא חייהם.  מיוצר במיוחד עם הגזוז הקטן ביותר. \n \n מרכיבים קלים לעיכול לעיכול בריא \n תערובת מזינה של אומגה 6 וויטמין E לעור בריא ולפרווה יוקרתית \n חלבון איכותי לשרירים רזים \n  מכיל את תערובת נוגדי החמצון הקטנה והמיני המיוחדת שלנו לתמיכה חיסונית לכל החיים",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%a2%d7%95%d7%a3-6-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%9E%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-%D7%A2%D7%95%D7%A3-6-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-אוכל-לכלב-בוגר-מגזע-קטן-עוף-6-קג.jpg",
    "condition": "new",
    "price": "188.00",
    "currency": "ILS",
@@ -216,11 +384,53 @@
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
   },
   {
+   "id": "4184",
+   "title": "הילס סאיינס פלן אוכל לכלבים בוגרים גודל בינוני עוף 14 ק”ג",
+   "description": "הילס סאיינס פלן HILL’S SCIENCE PLAN  אוכל לכלב בינוני למבוגרים עם עוף פותח במיוחד כדי לתדלק את צורכי האנרגיה של כלבים במהלך שיא חייהם. עשוי ממרכיבים איכותיים קלים לעיכול. \n \n אומגה 6 וויטמין E לעור ופרווה יפים \n חלבון איכותי לשרירים רזים \n  רכיבים וסיבים קלים לעיכול לעיכול בריא",
+   "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%90%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%9f-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%92%d7%95%d7%93/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סאיינס-פלן-אוכל-לכלבים-בוגרים-עוף-14-קג.jpg",
+   "condition": "new",
+   "price": "263.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4184%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4184",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4184/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4184/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4184",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4184%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4184",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4184%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4184",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%99%D7%9C%D7%A1%20%D7%A1%D7%90%D7%99%D7%99%D7%A0%D7%A1%20%D7%A4%D7%9C%D7%9F%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%92%D7%95%D7%93%D7%9C%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%20%D7%A2%D7%95%D7%A3%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
    "id": "4183",
    "title": "הילס סיינס פלאן אוכל לגורים כלבים עוף 14 ק”ג",
    "description": "הילס סיינס פלאן HILL’S SCIENCE PLAN    אוכל לגורים כלבים בינוניים עם עוף מנוסח בקפידה לצרכים ההתפתחותיים של גורים, כך שהם יקבלו את ההתחלה הטובה ביותר בחיים ויצמחו למיצוי הפוטנציאל שלהם.",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%90%d7%9f-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a2%d7%95%d7%a3-14/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A2%D7%95%D7%A3-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סיינס-פלאן-אוכל-לגורים-כלבים-עוף-14-קג.jpg",
    "condition": "new",
    "price": "319.00",
    "currency": "ILS",
@@ -262,7 +472,7 @@
    "title": "הילס סיינס פלאן מזון לחתול בוגר נגד כדורי שיער – עוף – 5 ק”ג הילס Hills",
    "description": "המזון האיכותי של הילס – סדרת סיינס פלאן . תזונה מוכחת קלינית שיכולה לשנות את החיים של חיית המחמד שלך. כדורי שיער לחתולים בוגרים (עוף) – (Science Plan Feline Adult Hairball Control (Chicken לחתולים 1-6 שנים, לבקרת היווצרות כדורי שיער. מכיל רכיבים טבעיים בלבד!, מאוזן ביותר ומכיל את כל הנוטריטים החיוניים לבריאות התקינה של חתולך. לחתולים בני שנה עד 7. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%90%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a0%d7%92%d7%93-%d7%9b%d7%93%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A0%D7%92%D7%93-%D7%9B%D7%93%D7%95%D7%A8%D7%99-%D7%A9%D7%99%D7%A2%D7%A8-%D7%A2%D7%95%D7%A3-5-%D7%A7%D7%92-%D7%94%D7%99%D7%9C%D7%A1-Hills.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סיינס-פלאן-מזון-לחתול-בוגר-נגד-כדורי-שיער-עוף-5-קג-הילס-Hills.jpg",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -304,7 +514,7 @@
    "title": "הילס סיינס פלאן מזון לחתול בוגר – טונה – 5 ק”ג הילס Hills",
    "description": "המזון האיכותי של הילס – סדרת סיינס פלאן . תזונה מוכחת קלינית שיכולה לשנות את החיים של חיית המחמד שלך מכיל רכיבים טבעיים בלבד!, מאוזן ביותר ומכיל את כל הנוטריטים החיוניים לבריאות התקינה של חתולך. לחתולים בני שנה עד 7. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%90%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%98%d7%95%d7%a0%d7%94-5-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%98%D7%95%D7%A0%D7%94-5-%D7%A7%D7%92-%D7%94%D7%99%D7%9C%D7%A1-Hills.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סיינס-פלאן-מזון-לחתול-בוגר-טונה-5-קג-הילס-Hills.jpg",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -346,7 +556,7 @@
    "title": "הילס אידיאל באלנס מזון לחתול בוגר – טונה ותפו”א – 2 ק”ג הילס Hills",
    "description": "המזון האיכותי של הילס – סדרת אידיאל באלאנס. תזונה מוכחת קלינית שיכולה לשנות את החיים של חיית המחמד שלך המזון מכיל חומצות שומן חיוניות להתפתחות תקינה של החתול והתבגרותו. המזון מתאים לחתולים מעל גיל שנה, עשיר ומאוזן במינרלים. לא מכיל דגנים: תירס, חיטה או סויה. מכיל רכיבים טבעיים בלבד!, מאוזן ביותר ומכיל את כל הנוטריטים החיוניים לבריאות התקינה של חתולך. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו / או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%90%d7%99%d7%93%d7%99%d7%90%d7%9c-%d7%91%d7%90%d7%9c%d7%a0%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%98%d7%95%d7%a0%d7%94/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%90%D7%99%D7%93%D7%99%D7%90%D7%9C-%D7%91%D7%90%D7%9C%D7%A0%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%98%D7%95%D7%A0%D7%94-%D7%95%D7%AA%D7%A4%D7%95%D7%90-2-%D7%A7%D7%92-%D7%94%D7%99%D7%9C%D7%A1-Hills.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-אידיאל-באלנס-מזון-לחתול-בוגר-טונה-ותפוא-2-קג-הילס-Hills.jpg",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -388,7 +598,7 @@
    "title": "רויאל קנין רנל לחתול 2 ק”ג Royal Canin",
    "description": "רויאל קנין רנל לחתול \n מזון פרימיום לטיפול בבעיות כליות אצל חתולים",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%a0%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-2-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%A8%D7%A0%D7%9C-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-רנל-לחתול-2-קג.jpg",
    "condition": "new",
    "price": "129.00",
    "currency": "ILS",
@@ -430,7 +640,7 @@
    "title": "רנל לחתול 4 ק”ג רויאל קנין Royal Canin",
    "description": "מזון פרימיום לטיפול בבעיות כליות אצל חתולים",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%a0%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-4-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%A0%D7%9C-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רנל-לחתול-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "219.00",
    "currency": "ILS",
@@ -472,7 +682,7 @@
    "title": "אובסיטי לחתול 6 ק”ג רויאל קנין Royal Canin",
    "description": "מזון פרימיום לחתולים למניעת השמנה",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%91%d7%a1%d7%99%d7%98%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-6-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%91%D7%A1%D7%99%D7%98%D7%99-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-6-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אובסיטי-לחתול-6-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "229.00",
    "currency": "ILS",
@@ -514,7 +724,7 @@
    "title": "אובסיטי לחתול 3.5 ק”ג רויאל קנין Royal Canin",
    "description": "מזון פרימיום לחתולים למניעת השמנה",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%91%d7%a1%d7%99%d7%98%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-3-5-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%91%D7%A1%D7%99%D7%98%D7%99-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-3.5-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אובסיטי-לחתול-3.5-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "160.00",
    "currency": "ILS",
@@ -556,7 +766,7 @@
    "title": "יורינרי לחתול 3.5 ק”ג רויאל קנין Royal Canin",
    "description": "מזון פרימיום לחתולים לטיפול בבעיות בדרכי השתן",
    "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a8%d7%99%d7%a0%d7%a8%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-3-5-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%A8%D7%99-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-3.5-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/יורינרי-לחתול-3.5-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -598,7 +808,7 @@
    "title": "גסטרו אינטסטינל לחתול 2 ק”ג רויאל קנין Royal Canin",
    "description": "אוכל פרימיום לחתולים בעלי קיבה רגישה",
    "link": "https://closetonature.co.il/product/%d7%92%d7%a1%d7%98%d7%a8%d7%95-%d7%90%d7%99%d7%a0%d7%98%d7%a1%d7%98%d7%99%d7%a0%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-2-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%92%D7%A1%D7%98%D7%A8%D7%95-%D7%90%D7%99%D7%A0%D7%98%D7%A1%D7%98%D7%99%D7%A0%D7%9C-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-2-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/גסטרו-אינטסטינל-לחתול-2-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "129.00",
    "currency": "ILS",
@@ -636,11 +846,53 @@
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
   },
   {
+   "id": "4169",
+   "title": "רויאל קנין מזון רפואי לחתול סוכרתי דיאבטיק – משקל 3.5 ק”ג",
+   "description": "Royal Canin Diabetic DS 46. מגיע בשק של 1.5 ו-3.5 ק”ג DIABETIC הוא מזון דיאטטי מלא לחתולים שפותח כדי להסדיר את האספקה ​​של גלוקוז (סוכר סוכרת). מזון זה מכיל רמה נמוכה פחמימות במהירות עיכול. רויאל קנין רפואי מיועד לחתולים הסובלים מסכרת. מומלץ להתייעץ עם וטרינר לפני רכישת המזון. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
+   "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a1%d7%95%d7%9b%d7%a8%d7%aa%d7%99-%d7%93%d7%99%d7%90/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-רפואי-לחתול-סוכרתי-דיאבטיק-Diabetic-DS-46-משקל-3.5-קג-רויאל-קנין-Royal-Canin.jpg",
+   "condition": "new",
+   "price": "189.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4169%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4169",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4169/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4169/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4169",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4169%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4169",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4169%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4169",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%95%D7%99%D7%90%D7%9C%20%D7%A7%D7%A0%D7%99%D7%9F%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%A1%D7%95%D7%9B%D7%A8%D7%AA%D7%99%20%D7%93%D7%99%D7%90%D7%91%D7%98%D7%99%D7%A7%20%E2%80%93%20%D7%9E%D7%A9%D7%A7%D7%9C%203.5%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
    "id": "4168",
    "title": "רויאל קנין אוכל לחתול – אקסיג’נט סאייבור Exigent Savour – משקל 4 ק”ג",
    "description": "רויאל קנין    Royal Canin  \n אקסיג’נט סאוור מזון לחתול – Royal Canin Exigent Savour מגיע בשק של 4 ק”ג – מזון יבש ומזין לחתול עם נוסחה לטעימות מוגברת תוצרת חברת רויאל קנין. רויאל קנין אקסיג’נט משביע את התיאבון של כלבים בררנים הודות לטכנולוגיית מזון ונוסחה אשר בוחרת חומרי טעם בלעדיים. נוסחה זו של רויאל קנין מכילה חומרים מזינים המסייעים לבריאות השיניים, עור ופרווה. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%a7%d7%a1%d7%99%d7%92%d7%a0%d7%98-%d7%a1%d7%90%d7%99%d7%99%d7%91%d7%95%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%A7%D7%A1%D7%99%D7%92%D7%A0%D7%98-%D7%A1%D7%90%D7%99%D7%99%D7%91%D7%95%D7%A8-Exigent-Savour-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-אקסיגנט-סאייבור-Exigent-Savour-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "145.00",
    "currency": "ILS",
@@ -682,7 +934,7 @@
    "title": "רויאל קנין אוכל לחתול בית מסורס סטרלייזד – משקל 4 ק”ג (189 ₪ כולל משלוח)",
    "description": "רויאל קנין  \n אוכל יבש לחתול מבית רויאל קנין הצרפתי – תזונה מלאה ומאוזנת לחתולי בית מעוקרים / מסורסים סטרלייזד במיוחד לחתולים מסורסים (מ -1 עד 7 שנים) – סטרלייזד Sterilised 37 מסייע לשמירה על בריאות מפרקים על ידי חומרים מזינים וחומצות שומן חיוניות. וכן שומר על תפקוד כליות טוב בשל ויסות פעילות פירוק הזרחן. התמונה להמחשה בלבד \n  לקבלת משלוח חינם העתק/י את הקוד קופון   \n   CAT_FREE",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%99%d7%aa-%d7%9e%d7%a1%d7%95%d7%a8%d7%a1-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%99%D7%AA-%D7%9E%D7%A1%D7%95%D7%A8%D7%A1-%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-בית-מסורס-סטרלייזד-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "189.00",
    "currency": "ILS",
@@ -724,7 +976,7 @@
    "title": "רויאל קנין אוכל לחתול – אינדור לחתול בית INDOOR – משקל 4 ק”ג (189 ₪ כולל משלוח)",
    "description": "אוכל  לחתול  מבית  רויאל קנין  הצרפתי – תזונה מלאה ומאוזנת לחתולי יבת אינדור . Indoor . מסייע לשמירה על בריאות מפרקים על ידי חומרים מזינים וחומצות שומן חיוניות. וכן שומר על תפקוד כליות טוב בשל ויסות פעילות פירוק הזרחן. התמונה להמחשה בלבד \n  לקבלת משלוח חינם העתק/י את הקוד קופון   \n   CAT_FREE",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%99%d7%a0%d7%93%d7%95%d7%a8-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%99%d7%aa-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A8-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%99%D7%AA-INDOOR-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-אינדור-לחתול-בית-INDOOR-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "189.00",
    "currency": "ILS",
@@ -766,7 +1018,7 @@
    "title": "רויאל קנין לגורי חתולים קיטן Kitten – משקל 4 ק”ג",
    "description": "רויאל קנין לגורי חתולים  \n מזון יבש לחתול מבית  רויאל קנין  הצרפתי – תזונה מלאה ומאוזנת לאמהות מניקות וגורי  חתולים . מזון יבש לחתולים הזקוקים לתזונה עשירה ומזינה. מזון יבש סופר פרימיום לחתולים אשר פותח במיוחד עבור גורי חתולים ונקבות מניקות.",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a7%d7%99%d7%98%d7%9f-kitten-%d7%9e%d7%a9%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A7%D7%99%D7%98%D7%9F-Kitten-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לגורי-חתולים-קיטן-Kitten-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -808,7 +1060,7 @@
    "title": "רויאל קנין אוכל לחתול בוגר- סניסבל 33 Sensible – משקל 15 ק”ג Royal Canin",
    "description": "רויאל קנין  \n מזון יבש לחתול מבית  רויאל קנין  הצרפתי – sensible סנסיבל 33 הינו  אוכל לחתולים  בוגרים בני שנה עד עשר בעלי קיבה רגישה המותאם לחתולים בעלי מערכת עיכול רגישה המזון בעל נוסחא ייחודית המכילה חלבון קל לעיכול המסייע למערכת העיכול של החתול בעל הרגישות. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%a0%d7%99%d7%a1%d7%91%d7%9c-33-sensible-%d7%9e-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%A0%D7%99%D7%A1%D7%91%D7%9C-33-Sensible-%D7%9E%D7%A9%D7%A7%D7%9C-15-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-בוגר-סניסבל-33-Sensible-משקל-15-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "339.00",
    "currency": "ILS",
@@ -850,7 +1102,7 @@
    "title": "רויאל קנין אוכל לחתול – גזע סיאמי Siamese – משקל 4 ק”ג",
    "description": "רויאל קנין   אוכל לחתול  – גזע סיאמי Siamese \n רויאל קנין מזון לחתול – Royal Canin – מגיע בשק של 4 ק”ג -מיועד לגזע במיוחד ומכיל קומפלקס ייחודי של חומרים מזינים ובשמירה על עור ובריאות הפרווה. נוסחה מועשרת בחומצות שומן אומגה 3 (EPA ו-DHA) וחומצות שומן אומגה 6. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%96%d7%a2-%d7%a1%d7%99%d7%90%d7%9e%d7%99-siamese-%d7%9e%d7%a9%d7%a7%d7%9c-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%96%D7%A2-%D7%A1%D7%99%D7%90%D7%9E%D7%99-Siamese-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-גזע-סיאמי-Siamese-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "145.00",
    "currency": "ILS",
@@ -892,7 +1144,7 @@
    "title": "רויאל קנין אוכל לחתול – גזע מיין קון Maine Coon- משקל 4 ק”ג",
    "description": "גזע מיין קון Maine Coon  \n רויאל קנין מזון לחתול – Royal Canin – מגיע בשק של 4 ק”ג -מיועד לגזע במיוחד ומכיל קומפלקס ייחודי של חומרים מזינים ובשמירה על עור ובריאות הפרווה. נוסחה מועשרת בחומצות שומן אומגה 3 (EPA ו-DHA) וחומצות שומן אומגה 6. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%96%d7%a2-%d7%9e%d7%99%d7%99%d7%9f-%d7%a7%d7%95%d7%9f-maine-coon-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%96%D7%A2-%D7%9E%D7%99%D7%99%D7%9F-%D7%A7%D7%95%D7%9F-Maine-Coon-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-גזע-מיין-קון-Maine-Coon-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "214.00",
    "currency": "ILS",
@@ -934,7 +1186,7 @@
    "title": "רויאל קנין מזון לחתול – הייר אנד סקין Hair & Skin 33 – משקל 4 ק”ג Royal Canin",
    "description": "רויאל קנין  \n מזון יבש לחתול מבית רויאל קנין הצרפתי – הייר אנד סקין Hair & Skin 33 הינו מזון המסייע בשמירה על ביראות השיער והעור של החתול. הפרווה היא ה”מראה” של בריאות החתול. כל שינוי בברק, בסמיכות או בצבע שלה צריך לעורר את תשומת הלב של הבעלים. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%94%d7%99%d7%99%d7%a8-%d7%90%d7%a0%d7%93-%d7%a1%d7%a7%d7%99%d7%9f-hair-skin-33/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%94%D7%99%D7%99%D7%A8-%D7%90%D7%A0%D7%93-%D7%A1%D7%A7%D7%99%D7%9F-Hair-Skin-33-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-הייר-אנד-סקין-Hair-Skin-33-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "139.00",
    "currency": "ILS",
@@ -976,7 +1228,7 @@
    "title": "רויאל קנין אוכל לחתול – Hairball היירבול – משקל 4 ק”ג Royal Canin",
    "description": "רויאל קנין   אוכל לחתול  –  Royal Canin   \n היירבול Hairball מגיע בשק של 4 ק”ג -מזון לחתול רויאל קנין מיוחד למניעת הצטברות כדורי פרווה. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-hairball-%d7%94%d7%99%d7%99%d7%a8%d7%91%d7%95%d7%9c-%d7%9e%d7%a9%d7%a7%d7%9c-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-Hairball-%D7%94%D7%99%D7%99%D7%A8%D7%91%D7%95%D7%9C-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-Hairball-היירבול-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -1018,7 +1270,7 @@
    "title": "רויאל קנין אייגינג 12 פלוס לחתול 4 ק”ג Royal Canin",
    "description": "רויאל קנין   אוכל לחתולים  \n מזון פרימיום לחתולים מבוגרים מגיל 12+ \n \n \n \n \n \n  מזון המותאם לחתולים מבוגרים בעלי תסמינים של ירידה במשקל, פעילות מופחתת, פרווה גסה, שינויים בהתנהגות ואובדן תיאבון.     \n  עוזר למנוע הזדקנות תאים, לעורר תפקוד קוגניטיבי ולשמור על בריאות המפרקים.     \n  כופתיות המזון פריכות מבחוץ ורכות מבפנים, דבר המקל על פעולת הלעיסה ומעורר תיאבון.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-12-%d7%a4%d7%9c%d7%95%d7%a1-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-4-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%99%D7%99%D7%92%D7%99%D7%A0%D7%92-12-%D7%A4%D7%9C%D7%95%D7%A1-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אייגינג-12-פלוס-לחתול-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "165.00",
    "currency": "ILS",
@@ -1060,7 +1312,7 @@
    "title": "רויאל קנין מזון לחתול לייט קאר Light – משקל 3.5 ק”ג Royal Canin",
    "description": "רויאל קנין  \n מזון יבש לחתול מבית רויאל קנין הצרפתי – תזונה מלאה ומאוזנת לחתולי בית לייט מזון יבש לחתולי בני שנה עד עשר. מיועד לחתולים בעלי נטייה להשמנה. מזון יבש לייט סופר פרימיום לחתולים בוגרים אשר פותח במיוחד עבור חתולים בוגרים הסובלים מעודף משקל ולחתולים שאינם פעילים. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9c%d7%99%d7%99%d7%98-%d7%a7%d7%90%d7%a8-light-%d7%9e%d7%a9%d7%a7%d7%9c-3-5-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9C%D7%99%D7%99%D7%98-%D7%A7%D7%90%D7%A8-Light-%D7%9E%D7%A9%D7%A7%D7%9C-3.5-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-לייט-קאר-Light-משקל-3.5-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "139.00",
    "currency": "ILS",
@@ -1102,7 +1354,7 @@
    "title": "רויאל קנין מזון לחתול בוגר- סניסבל 33 Sensible – משקל 4 ק”ג",
    "description": "רויאל קנין  \n מזון יבש לחתול מבית רויאל קנין הצרפתי – sensible סנסיבל 33 הינו מזון לחתולים בוגרים בני שנה עד עשר בעלי קיבה רגישה המותאם לחתוליםבעלי מערכת עיכול רגישה המזון בעל נוסחא ייחודית המכילה חלבון קל לעיכול המסייע למערכת העיכול של החתול בעל הרגישות. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%a0%d7%99%d7%a1%d7%91%d7%9c-33-sensible-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%A0%D7%99%D7%A1%D7%91%D7%9C-33-Sensible-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-בוגר-סניסבל-33-Sensible-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "155.00",
    "currency": "ILS",
@@ -1144,7 +1396,7 @@
    "title": "רויאל קנין אוכל לחתול – אקסיג’נט פרוטאין Exigent Protein- משקל 4 ק”ג",
    "description": "רויאל קנין  \n אקסיג’נט סאוור מזון לחתול – Royal Canin Exigent מגיע בשק של 4 ק”ג – מזון יבש ומזין לחתול עם נוסחה לרגישות בעיכול תוצרת חברת רויאל קנין. מזון לחתולים בוגרים בררנים ומערכת עיכול רגישה – מגיל שנה עד 10 שנים. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%a7%d7%a1%d7%99%d7%92%d7%a0%d7%98-%d7%a4%d7%a8%d7%95%d7%98%d7%90%d7%99%d7%9f/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%A7%D7%A1%D7%99%D7%92%D7%A0%D7%98-%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F-Exigent-Protein-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-אקסיגנט-פרוטאין-Exigent-Protein-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "139.00",
    "currency": "ILS",
@@ -1186,7 +1438,7 @@
    "title": "רויאל קנין מזון לחתול לייט קאר Light – משקל 8 ק”ג רויאל קנין Royal Canin",
    "description": "אוכל לחתולים  מבית  רויאל קנין  \n הצרפתי – תזונה מלאה ומאוזנת לחתולי בית לייט מזון יבש לחתולי בני שנה עד עשר. מיועד לחתולים בעלי נטייה להשמנה. מזון יבש לייט סופר פרימיום לחתולים בוגרים אשר פותח במיוחד עבור חתולים בוגרים הסובלים מעודף משקל ולחתולים שאינם פעילים. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9c%d7%99%d7%99%d7%98-%d7%a7%d7%90%d7%a8-light-%d7%9e%d7%a9%d7%a7%d7%9c-10-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9C%D7%99%D7%99%D7%98-%D7%A7%D7%90%D7%A8-Light-%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-לייט-קאר-Light-משקל-10-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "259.00",
    "currency": "ILS",
@@ -1228,7 +1480,7 @@
    "title": "רויאל קנין אוכל לחתולים – פיט 32 Fit – משקל 15 ק”ג Royal Canin",
    "description": "מזון יבש לחתול  מבית  רויאל קנין  הצרפתי – מזון מלא לחתול מגיל שנה עבור לחתולים המבצעים פעילות מתונה, כולל פעילות בחוץ – פיט FIT 32 הוא מזון מלא ומאוזן המכיל חומרים מזינים חיוניים שיתאימו לצרכי חתולים בוגרים וכך לשמור על מצבם הבריאותי הטוב. שומר על המשקל האידיאלי ומאפשר את יציאת כדורי השיער. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a4%d7%99%d7%98-32-fit-%d7%9e%d7%a9%d7%a7%d7%9c-15-%d7%a7%d7%92-%d7%a8%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A4%D7%99%D7%98-32-Fit-%D7%9E%D7%A9%D7%A7%D7%9C-15-%D7%A7%D7%92-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-אוכל-לחתולים-פיט-32-Fit-משקל-15-קג-Royal-Canin.jpg",
    "condition": "new",
    "price": "329.00",
    "currency": "ILS",
@@ -1270,7 +1522,7 @@
    "title": "רויאל קנין אוכל לחתול – אקסיג’נט ארומטיק Exigent Aromatic- משקל 4 ק”ג",
    "description": "רויאל קנין  \n אקסיג’נט סאוור מזון לחתול – Royal Canin Exigent Aromatic מגיע בשק של 4 ק”ג – מזון יבש ומזין לחתול עם נוסחה לטעימות מוגברת תוצרת חברת רויאל קנין. מזון לחתולים בוגרים בררנים ורגישים לריחות – מגיל שנה עד 10 שנים. נוסחה זו של רויאל קנין מכילה חומרים מזינים המסייעים לבריאות השיניים, עור ופרווה. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%a7%d7%a1%d7%99%d7%92%d7%a0%d7%98-%d7%90%d7%a8%d7%95%d7%9e%d7%98%d7%99%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%A7%D7%A1%D7%99%D7%92%D7%A0%D7%98-%D7%90%D7%A8%D7%95%D7%9E%D7%98%D7%99%D7%A7-Exigent-Aromatic-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-אקסיגנט-ארומטיק-Exigent-Aromatic-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "139.00",
    "currency": "ILS",
@@ -1312,7 +1564,7 @@
    "title": "רויאל קנין אוכל לחתול – פיט 32 Fit – משקל 4 ק”ג (189 ₪ כולל משלוח)",
    "description": "רויאל קנין  \n מזון יבש לחתול מבית רויאל קנין הצרפתי – מזון מלא לחתול מגיל שנה עבור לחתולים המבצעים פעילות מתונה, כולל פעילות בחוץ – פיט FIT 32 הוא מזון מלא ומאוזן המכיל חומרים מזינים חיוניים שיתאימו לצרכי חתולים בוגרים וכך לשמור על מצבם הבריאותי הטוב. שומר על המשקל האידיאלי ומאפשר את יציאת כדורי השיער. התמונה להמחשה בלבד \n  לקבלת משלוח חינם העתק/י את הקוד קופון   \n   CAT_FREE",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a4%d7%99%d7%98-32-fit-%d7%9e%d7%a9%d7%a7%d7%9c-4-%d7%a7%d7%92-%d7%a8%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%A4%D7%99%D7%98-32-Fit-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-פיט-32-Fit-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
    "condition": "new",
    "price": "189.00",
    "currency": "ILS",
@@ -1354,7 +1606,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים יבש מלא גור / צעיר ג’וניור. 1.75 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים   יבש מלא ג’וניור 1.75 ק”ג תזונה מאוזנת ומאוזנת עבור גורי חתולים 2-12 חודשים. AW56M   WHISKAS   מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9e%d7%9c%d7%90-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%95%d7%a8-%d7%a6%d7%a2%d7%99%d7%a8-%d7%92%d7%95%d7%a0/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9E%D7%9C%D7%90-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%95%D7%A8-%D7%A6%D7%A2%D7%99%D7%A8-%D7%92%D7%95%D7%A0%D7%99%D7%95%D7%A8.-1.75-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-יבש-מלא-לחתול-גור-צעיר-גוניור.-1.75-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "49.00",
    "currency": "ILS",
@@ -1396,7 +1648,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים יבש מלא – בקר  שק 14 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים  יבש מלא בקר 14 ק”ג. תזונה מאוזנת ומאוזנת עבור  חתולים  בוגרים AW97C  WHISKAS  מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9e%d7%9c%d7%90-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%a7%d7%a8-%d7%a9%d7%a7-14-%d7%a7%d7%92-%d7%95%d7%99%d7%a1/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9E%D7%9C%D7%90-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%A7%D7%A8.-%D7%A9%D7%A7-14-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-יבש-מלא-לחתול-בקר.-שק-14-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "215.00",
    "currency": "ILS",
@@ -1438,7 +1690,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים יבש מלא -בקר שק 1.4 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים  יבש מלא בקר 1.4 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים AX14E  WHISKAS  מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9e%d7%9c%d7%90-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%a7%d7%a8-%d7%a9%d7%a7-1-4-%d7%a7%d7%92-%d7%95%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9E%D7%9C%D7%90-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%A7%D7%A8.-%D7%A9%D7%A7-1.4-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-יבש-מלא-לחתול-בקר.-שק-1.4-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "39.00",
    "currency": "ILS",
@@ -1480,7 +1732,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים יבש מלא -בקר שק 3.8 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים   יבש מלא בקר 3.8 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים AX14E  WHISKAS  מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9e%d7%9c%d7%90-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%a7%d7%a8-%d7%a9%d7%a7-3-8-%d7%a7%d7%92-%d7%95%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9E%D7%9C%D7%90-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%A7%D7%A8.-%D7%A9%D7%A7-3.8-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-יבש-מלא-לחתול-בקר.-שק-3.8-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "79.00",
    "currency": "ILS",
@@ -1522,7 +1774,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים יבש מלא אדולט עוף. שק 3.8 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים   יבש מלא עוף 1.4 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים.   WHISKAS   מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9e%d7%9c%d7%90-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%a9%d7%a7-3-8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9E%D7%9C%D7%90-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%A2%D7%95%D7%A3.-%D7%A9%D7%A7-3.8-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-יבש-מלא-לחתול-אדולט-עוף.-שק-3.8-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "79.00",
    "currency": "ILS",
@@ -1564,7 +1816,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים מלא יבש – אדולט עוף. שק 1.4 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים   יבש מלא עוף 1.4 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים.   WHISKAS   מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%9c%d7%90-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%a9%d7%a7-1-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%9C%D7%90-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%A2%D7%95%D7%A3.-%D7%A9%D7%A7-1.4-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-מלא-יבש-לחתול-אדולט-עוף.-שק-1.4-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "39.00",
    "currency": "ILS",
@@ -1606,7 +1858,7 @@
    "title": "ויסקאס – whiskas אוכל לחתולים מלא יבש – אדולט עוף. שק 14 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתולים   יבש מלא עוף 14 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים. AW97L   WHISKAS   מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%9c%d7%90-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%a9%d7%a7-14/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%9C%D7%90-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%A2%D7%95%D7%A3.-%D7%A9%D7%A7-14-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-מלא-יבש-לחתול-אדולט-עוף.-שק-14-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "215.00",
    "currency": "ILS",
@@ -1648,7 +1900,7 @@
    "title": "ויסקאס – whiskas אוכל מלא יבש לחתול מסורס – סטרלייזד עוף. 3.6 ק”ג",
    "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתול   מסורס יבש מלא סטרלייזד עוף 3.6 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים. AW54T   WHISKAS   מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%9c%d7%90-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%a1%d7%95%d7%a8%d7%a1-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%9C%D7%90-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9E%D7%A1%D7%95%D7%A8%D7%A1-%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93-%D7%A2%D7%95%D7%A3.-%D7%A9%D7%A7-3.6-%D7%A7%D7%92-%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1-Whiskas.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-מלא-יבש-לחתול-מסורס-סטרלייזד-עוף.-שק-3.6-קג-ויסקאס-Whiskas.jpg",
    "condition": "new",
    "price": "79.00",
    "currency": "ILS",
@@ -1690,7 +1942,7 @@
    "title": "Junior – עוף ודג – שק 15 ק”ג בווידוג BewiDog",
    "description": "תכולה מבוקרת של חלבון וקלוריות, Junior Croc מיועד עבור האחלת כלבים צעירים של זנים גדולים. קל לעיכול, רכיבים באיכות מעולה עם איכות חלבון אופטימלית מאפשרת צמיחה יציבה ומבוקרת. תוספת של רכיבי שמרים מיוחדים (בטה גלוקן) מעוררים את המערכת החיסונית של הגור עצמו. דבר זה עוזר להקטין את הסיכון בהדבקות במחלות בשלב המוקדם של החיים. תוספת המינרלים והויטמינים המאוזנת בזהירות כמו גם לסיטין ושמרי שיכר הינם מרכיבים נוספים של DOG® Vital Complex היחודית. תוספת מזון נבונה לכלבים צעירים אשר נותנת הרבה מעבר למזון כלבים רגיל. עצמות חזקות, שרירים חזקים וחיוניות הינם התוצאות של האכלת כלבך ב- Junior Croc.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a6%d7%a2%d7%99%d7%a8%d7%99%d7%9d-%d7%95%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9e-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D-%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-Junior-%D7%A2%D7%95%D7%A3-%D7%95%D7%93%D7%92-%D7%A9%D7%A7-15-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בווי-דוג-Bewi-Dog-מזון-לכלבים-צעירים-וגורים-מגזעים-גדולים-Junior-עוף-ודג-שק-15-קג-בווידוג-BewiDog.jpg",
    "condition": "new",
    "price": "244.00",
    "currency": "ILS",
@@ -1732,7 +1984,7 @@
    "title": "Junior – עוף ודג – שק 4 ק”ג בווידוג BewiDog",
    "description": "תכולה מבוקרת של חלבון וקלוריות, Junior Croc מיועד עבור האחלת כלבים צעירים של זנים גדולים. קל לעיכול, רכיבים באיכות מעולה עם איכות חלבון אופטימלית מאפשרת צמיחה יציבה ומבוקרת. תוספת של רכיבי שמרים מיוחדים (בטה גלוקן) מעוררים את המערכת החיסונית של הגור עצמו. דבר זה עוזר להקטין את הסיכון בהדבקות במחלות בשלב המוקדם של החיים. תוספת המינרלים והויטמינים המאוזנת בזהירות כמו גם לסיטין ושמרי שיכר הינם מרכיבים נוספים של DOG® Vital Complex היחודית. תוספת מזון נבונה לכלבים צעירים אשר נותנת הרבה מעבר למזון כלבים רגיל. עצמות חזקות, שרירים חזקים וחיוניות הינם התוצאות של האכלת כלבך ב- Junior Croc.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a6%d7%a2%d7%99%d7%a8%d7%99%d7%9d-%d7%95%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D-%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-Junior-%D7%A2%D7%95%D7%A3-%D7%95%D7%93%D7%92-%D7%A9%D7%A7-4-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בווי-דוג-Bewi-Dog-מזון-לכלבים-צעירים-וגורים-מגזעים-גדולים-Junior-עוף-ודג-שק-4-קג-בווידוג-BewiDog.jpg",
    "condition": "new",
    "price": "79.00",
    "currency": "ILS",
@@ -1774,7 +2026,7 @@
    "title": "בווי דוג מיני סנסטיב טלה ועוף שק 12.5 ק”ג BewiDog",
    "description": "הנוסחה החדשה שלנו: BEWI DOG® מיני סנסיטיב לכלבים בוגרים של גזעים קטנים ובינוניים, למשל טרייר, מלטז, דושהאונד ופג. קרוקטות קטנות במיוחד עם טלה לעיכול בקלות דוחן. המזון עשוי ללא תוצרת חיטה, מיוצר ללא מוצרי סויה, צבעים מלאכותיים, חומרי טעם או חומרים משמרים, מכיל נוגדי חמצון טבעיים.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2%d7%99%d7%9d-%d7%91-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2%D7%99%D7%9D-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%D7%99%D7%9D-%D7%95%D7%A7%D7%98%D7%A0%D7%99%D7%9D-Mini-Sensitive-%D7%98%D7%9C%D7%94-%D7%95%D7%A2%D7%95%D7%A3-%D7%A9%D7%A7-12.5-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בווי-דוג-Bewi-Dog-מזון-לכלבים-בוגרים-מגזעים-בינוניים-וקטנים-Mini-Sensitive-טלה-ועוף-שק-12.5-קג-בווידוג-BewiDog.jpg",
    "condition": "new",
    "price": "248.00",
    "currency": "ILS",
@@ -1816,7 +2068,7 @@
    "title": "Mini Sensitive – טלה ועוף – שק 3 ק”ג בווידוג BewiDog",
    "description": "הנוסחה החדשה שלנו: BEWI DOG® מיני סנסיטיב לכלבים בוגרים של גזעים קטנים ובינוניים, למשל טרייר, מלטז, דושהאונד ופג. קרוקטות קטנות במיוחד עם טלה לעיכול בקלות דוחן. המזון עשוי ללא תוצרת חיטה, מיוצר ללא מוצרי סויה, צבעים מלאכותיים, חומרי טעם או חומרים משמרים, מכיל נוגדי חמצון טבעיים.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2%d7%99%d7%9d-%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2%D7%99%D7%9D-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%D7%99%D7%9D-%D7%95%D7%A7%D7%98%D7%A0%D7%99%D7%9D-Mini-Sensitive-%D7%98%D7%9C%D7%94-%D7%95%D7%A2%D7%95%D7%A3-%D7%A9%D7%A7-3-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בווי-דוג-Bewi-Dog-מזון-לכלבים-בוגרים-מגזעים-בינוניים-וקטנים-Mini-Sensitive-טלה-ועוף-שק-3-קג-בווידוג-BewiDog.jpg",
    "condition": "new",
    "price": "79.00",
    "currency": "ILS",
@@ -1838,258 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Mini%20Sensitive%20%E2%80%93%20%D7%98%D7%9C%D7%94%20%D7%95%D7%A2%D7%95%D7%A3%20%E2%80%93%20%D7%A9%D7%A7%203%20%D7%A7%E2%80%9D%D7%92%20%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92%20BewiDog%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4130",
-   "title": "Lamb & Rice – כבש ואורז – שק 12.5 ק”ג בווידוג BewiDog",
-   "description": "במקרה והכלב שלך לא אוהב או סובל כל מזון לכלבים BEWI DOG ® טלה ואורז מכיל טלה לעיכול קל ואורז, כמו גם תוספי ערך עבור עור ופרווה. מכיל פשתן כמקור של אומגה 3. המזון עשוי ללא תוצרת חיטה, מיוצר ללא מוצרי סויה, צבעים מלאכותיים, חומרי טעם או חומרים משמרים, מכיל נוגדי חמצון טבעיים.",
-   "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%97%d7%99%d7%98%d7%94-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%97%D7%99%D7%98%D7%94-Lamb-Rice-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%A9%D7%A7-12.5-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "244.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4130%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4130",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4130/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4130/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4130",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4130%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4130",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4130%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4130",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Lamb%20%26%20Rice%20%E2%80%93%20%D7%9B%D7%91%D7%A9%20%D7%95%D7%90%D7%95%D7%A8%D7%96%20%E2%80%93%20%D7%A9%D7%A7%2012.5%20%D7%A7%E2%80%9D%D7%92%20%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92%20BewiDog%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4129",
-   "title": "Basic – עוף – שק 25 ק”ג בווידוג BewiDog",
-   "description": "בווי דוג בייסיק הוא הנוסחה לכלבים עם רמת פעילות נורמלית, מתכון חדש: מיוצר ללא חיטה מועשר בתוספים יקרי ערך המקדמים עור ופרווה. מיוצר ללא תוצרת חיטה, תוצרת מלאכותית, ללא חומרי סויה, אין צבעים מלאכותיים, חומרי טעם או חומרים משמרים טבעיים נוגדי חמצון.",
-   "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%97%d7%99%d7%98%d7%94-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%97%D7%99%D7%98%D7%94-Basic-%D7%A2%D7%95%D7%A3-%D7%A9%D7%A7-25-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4129%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4129",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4129/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4129/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4129",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4129%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4129",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4129%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4129",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Basic%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%E2%80%93%20%D7%A9%D7%A7%2025%20%D7%A7%E2%80%9D%D7%92%20%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92%20BewiDog%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4128",
-   "title": "Basic – עוף – שק 12.5 ק”ג בווידוג BewiDog",
-   "description": "בווי דוג בייסיק הוא הנוסחה לכלבים עם רמת פעילות נורמלית, מתכון חדש: מיוצר ללא חיטה מועשר בתוספים יקרי ערך המקדמים עור ופרווה. מיוצר ללא תוצרת חיטה, תוצרת מלאכותית, ללא חומרי סויה, אין צבעים מלאכותיים, חומרי טעם או חומרים משמרים טבעיים נוגדי חמצון.",
-   "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%97%d7%99%d7%98%d7%94-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%97%D7%99%D7%98%D7%94-Basic-%D7%A2%D7%95%D7%A3-%D7%A9%D7%A7-12.5-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "190.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4128%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4128",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4128/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4128/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4128",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4128%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4128",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4128%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4128",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Basic%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%E2%80%93%20%D7%A9%D7%A7%2012.5%20%D7%A7%E2%80%9D%D7%92%20%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92%20BewiDog%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4127",
-   "title": "Basic – עוף – שק 3 ק”ג בווידוג BewiDog",
-   "description": "בווי דוג בייסיק הוא הנוסחה לכלבים עם רמת פעילות נורמלית, מתכון חדש: מיוצר ללא חיטה מועשר בתוספים יקרי ערך המקדמים עור ופרווה. מיוצר ללא תוצרת חיטה, תוצרת מלאכותית, ללא חומרי סויה, אין צבעים מלאכותיים, חומרי טעם או חומרים משמרים טבעיים נוגדי חמצון.",
-   "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%95%d7%99-%d7%93%d7%95%d7%92-bewi-dog-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%97%d7%99%d7%98%d7%94/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%95%D7%99-%D7%93%D7%95%D7%92-Bewi-Dog-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%97%D7%99%D7%98%D7%94-Basic-%D7%A2%D7%95%D7%A3-%D7%A9%D7%A7-3-%D7%A7%D7%92-%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92-BewiDog.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "79.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4127%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4127",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4127/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4127/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4127",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4127%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4127",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4127%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4127",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Basic%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%E2%80%93%20%D7%A9%D7%A7%203%20%D7%A7%E2%80%9D%D7%92%20%D7%91%D7%95%D7%95%D7%99%D7%93%D7%95%D7%92%20BewiDog%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4126",
-   "title": "Chicopee צ’יקופי 15 ק”ג מזון יבש לחתולים בוגרים ללא חומרים משמרים (נאטורל)",
-   "description": "Chicopee צ’יקופי – מזון יבש לכלבים בוגרים ללא חומרים משמרים (Natural). \nמזון ייחודי מלא ומאוזן, ללא חומרים משמרים וצבעי מאכל. עשיר באומגה 3 ו 6, וטאורין.",
-   "link": "https://closetonature.co.il/product/chicopee-%d7%a6%d7%99%d7%a7%d7%95%d7%a4%d7%99-15-%d7%a7%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Chicopee-%D7%A6%D7%99%D7%A7%D7%95%D7%A4%D7%99-15-%D7%A7%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D-%D7%9E%D7%A9%D7%9E%D7%A8%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "279.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4126%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4126",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4126/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4126/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4126",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4126%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4126",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4126%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4126",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Chicopee%20%D7%A6%E2%80%99%D7%99%D7%A7%D7%95%D7%A4%D7%99%2015%20%D7%A7%E2%80%9D%D7%92%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D%20%D7%9E%D7%A9%D7%9E%D7%A8%D7%99%D7%9D%20%28%D7%A0%D7%90%D7%98%D7%95%D7%A8%D7%9C%29%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4125",
-   "title": "צ’יקופי קסטרייט 15 ק”ג – מזון יבש לחתול בוגר מעוקר\\מסורס",
-   "description": "צ’יקופי מזון יבש מלא ומאוזן לחתול בוגר מעוקרמסורס \nחתולים אשר עברו סירוסעיקור נמצאים בקבוצת סיכון לפיתוח דלקות בדרכי השתן וכן בקרת משקל, צ’יקופי חתול בוגר קסטרייט הינו בעל פורמולה ייחודית מועשרת במגנזיום ותאית למניעה ותמיכה בדלקות במערכת השתן ,לבקרת משקל ומניעת היירבול",
-   "link": "https://closetonature.co.il/product/%d7%a6%d7%99%d7%a7%d7%95%d7%a4%d7%99-%d7%a7%d7%a1%d7%98%d7%a8%d7%99%d7%99%d7%98-15-%d7%a7%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A6%D7%99%D7%A7%D7%95%D7%A4%D7%99-%D7%A7%D7%A1%D7%98%D7%A8%D7%99%D7%99%D7%98-15-%D7%A7%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%9E%D7%A2%D7%95%D7%A7%D7%A8-%D7%9E%D7%A1%D7%95%D7%A8%D7%A1.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "269.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4125%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4125",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4125/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4125/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4125",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4125%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4125",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4125%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4125",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A6%E2%80%99%D7%99%D7%A7%D7%95%D7%A4%D7%99%20%D7%A7%D7%A1%D7%98%D7%A8%D7%99%D7%99%D7%98%2015%20%D7%A7%E2%80%9D%D7%92%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%5C%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

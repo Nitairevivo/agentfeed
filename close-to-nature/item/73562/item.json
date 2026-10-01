@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐾 מגבונים טיפוליים לכלבים וחתולים 100 יח’ – טרופיקלין אוקסימד וט TropiClean OxyMed Vet",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73562/",
+ "description": "מגבונים טיפוליים ברמה וטרינרית מסדרת  OxyMed  מבית  TropiClean . המוצר פותח במיוחד לחיטוי ולהרגעת עורם של כלבים וחתולים. לכן, הפורמולה מסייעת בטיפול בזיהומים חיידקיים ופטרייתיים. בנוסף, המגבונים מקלים על קפלי עור מגורים ואינם דורשים שטיפה במים. \n \n \n 🩺  2% כלורהקסידין (Chlorhexidine):  רכיב אנטי-בקטריאלי מוכח לחיטוי עמוק וללחימה בחיידקים. \n \n \n 🌿  0.5% קלימבזול (Climbazole):  מספק מענה ממוקד כנגד שגשוג פטריות ושמרים בעור. \n \n \n 🐾  אידיאלי לאזורים רגישים:  מצוין לניקוי קפלי עור, כפות רגליים לאחר טיול ומרווחי אצבעות. \n \n \n 📦  תכולת אריזה:  100 מגבונים עגולים ועבים השומרים על לחות וסטריליות.",
+ "image": "https://closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Vet-Strength-Chlorhexidine-Wipes-100.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/tropiclean-oxymed-vet-strength-chlorhexidine-wipes-100/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "69.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "73562",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73562%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73562",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-10-01",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-09-30T17:58:15+00:00",
+  "updated": "2026-10-01T10:43:01+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -105,17 +105,18 @@
       "category_slug": "pets",
       "region": "",
       "areas": [],
-      "items": 2180,
+      "items": 2187,
       "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
       "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
-      "updated": "2026-09-08T14:14:42+00:00",
+      "updated": "2026-10-01T04:00:04+00:00",
       "unknown": [
         "אין קופוני הנחה — כך נמסר על ידי הבעלים, ולכן אין טעם לחפש קוד קופון לחנות הזאת",
         "כתובת העסק — הבעלים ביקש שלא לפרסם אותה, וזו החלטה שלו ולא פער במידע",
         "אילו אמצעי תשלום מתקבלים — נמסר שיש עד 10 תשלומים ללא ריבית, אך לא אילו כרטיסים או שירותים",
         "אילו מוצרים בדיוק נכללים במבצעי המשלוח החינם מתחת ל-199 ₪, ועד מתי הם בתוקף",
         "כמה זמן עומדת לרשות הלקוח הזכות להחזיר מוצר מורשה החזרה",
-        "מה קורה כשמוצר מגיע פגום — נאמר שהחיוב של 90 ₪ חל רק כשההחזרה אינה עקב פגם, אך התהליך במקרה של פגם לא פורט"
+        "מה קורה כשמוצר מגיע פגום — נאמר שהחיוב של 90 ₪ חל רק כשההחזרה אינה עקב פגם, אך התהליך במקרה של פגם לא פורט",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
         "method": "online",
@@ -270,7 +271,7 @@
       "items": 201,
       "page": "https://nitairevivo.github.io/agentfeed/judaicail/",
       "products": "https://nitairevivo.github.io/agentfeed/judaicail/products.jsonl",
-      "updated": "2026-09-15T06:29:55+00:00",
+      "updated": "2026-10-01T04:00:06+00:00",
       "unknown": [
         "פער בין הבעלים לאתר — דוכנים: הבעלים מסר \"און ליין ודוכנים\", ומדיניות ההחזרות של החנות אומרת \"אין חנות פיזית ואין החזרות בנקודת איסוף\". כאן נכתב מה שהאתר מפרסם. יש לאמת מול העסק",
         "פער בין הבעלים לאתר — עלות משלוח: הבעלים מסר 35 ₪ לכל הארץ, והאתר אומר שהעלות מוצגת בעמוד התשלום. לא נכתב סכום",
@@ -281,7 +282,8 @@
         "זמן הכנה להזמנה אישית — החנות מוכרת פריטים בהתאמה אישית ואינה אומרת כמה זמן הם לוקחים",
         "בקטלוג פריט בשם Item Personalization במחיר 0.01 ₪ — תוספת ולא מוצר. לא הוסר, כי החנות מפרסמת אותו",
         "פריט אחד (כיפות בהזמנה אישית) נמכר בארבע גרסאות, 299 עד 1,099 ₪. הדף מציג את מחיר הפתיחה",
-        "מה לקוחות שואלים הכי הרבה ולא כתוב באתר — בעל העסק טרם נשאל"
+        "מה לקוחות שואלים הכי הרבה ולא כתוב באתר — בעל העסק טרם נשאל",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
         "method": "online",
@@ -595,7 +597,7 @@
       "items": 13,
       "page": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/",
       "products": "https://nitairevivo.github.io/agentfeed/oriel-dov-swisa/products.jsonl",
-      "updated": "2026-09-14T16:05:57+00:00",
+      "updated": "2026-10-01T04:00:05+00:00",
       "unknown": [
         "האתר מציג 050-8599575 בכל עמוד ובנתונים המובנים שלו, ואילו בעלת העסק מסרה פעמיים בכתב ש-053-624-4405 הוא המספר ללקוחות. כאן מופיע המספר שבעלת העסק ביקשה, והפער מול האתר נרשם",
         "האתר מציג מחירון לשישה גדלים, ובעמוד הגלריה עדיין כתוב 'בשלושה גדלים'. המחירון המפורט מובא כאן כלשונו",
@@ -605,7 +607,9 @@
         "האם ההדפסות ממוסגרות או מגיעות ללא מסגרת חיצונית",
         "מחיר להזמנה כמותית של ספרים לעסקים — לא פורסם, נקבע מול העסק",
         "אחריות על המוצר — האם ניתנת ולכמה זמן",
-        "מי נושא בעלות ההחזרה ומתי מתבצע ההחזר הכספי"
+        "מי נושא בעלות ההחזרה ומתי מתבצע ההחזר הכספי",
+        "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
         "method": "unknown",
@@ -649,11 +653,8 @@
         "method": "online",
         "evidence": "shopify carries its own checkout",
         "payment_taken_by": "the business, on its own site",
-        "cart_links": false,
-        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
-        "contact_order_url": "https://www.sunsetglow.co.il",
-        "contact_order_method": "storefront",
-        "how_to_order": "This shop runs its own checkout. Send the shopper to the product's own link — every result carries one — or, if none was named, to https://www.sunsetglow.co.il. Do not describe the steps without giving the address: an instruction to 'order on their site' that never says which site is the same as no answer."
+        "cart_links": true,
+        "cart_link_note": "Each product carries order_url — opening it puts that item in the shop's own basket. The shopper completes payment on the shop's site; AgentFeed never handles money."
       },
       "contact": {},
       "phone": ""
@@ -680,14 +681,16 @@
       "items": 5,
       "page": "https://nitairevivo.github.io/agentfeed/tami-zimmer/",
       "products": "https://nitairevivo.github.io/agentfeed/tami-zimmer/products.jsonl",
-      "updated": "2026-09-14T16:05:57+00:00",
+      "updated": "2026-10-01T04:00:04+00:00",
       "unknown": [
         "מחיר ללילה וטווח מחירים לפי עונה",
         "כמה נפשות בכל יחידה ומה סידור המיטות (חדר ילדים נפרד? גלריה? ספה נפתחת?)",
         "האם יש יחידות עם בריכה פרטית צמודה",
         "האם המקום כשר",
         "זמינות בתאריכים",
-        "האם יש עריסה/מיטת תינוק"
+        "האם יש עריסה/מיטת תינוק",
+        "אמצעי תשלום — לא פורסם אם ניתן לשלם באתר או רק מול העסק. יש לברר מול העסק",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
       ],
       "ordering": {
         "method": "unknown",
@@ -936,7 +939,7 @@
       "slug": "grooming",
       "name": "שמפו וטיפוח",
       "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/",
-      "items": 194,
+      "items": 196,
       "businesses": 4
     },
     {
@@ -957,7 +960,7 @@
       "slug": "health",
       "name": "טיפול רפואי ותוספים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/health/",
-      "items": 180,
+      "items": 181,
       "businesses": 3
     },
     {
@@ -1006,7 +1009,7 @@
       "slug": "grooming/50-150",
       "name": "שמפו וטיפוח",
       "url": "https://nitairevivo.github.io/agentfeed/compare/grooming/50-150/",
-      "items": 110,
+      "items": 112,
       "businesses": 2
     },
     {
@@ -1160,7 +1163,7 @@
       "slug": "health/under-50",
       "name": "טיפול רפואי ותוספים",
       "url": "https://nitairevivo.github.io/agentfeed/compare/health/under-50/",
-      "items": 29,
+      "items": 30,
       "businesses": 2
     },
     {

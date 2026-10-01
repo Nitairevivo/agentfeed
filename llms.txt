@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 20 businesses, 168 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 20 businesses, 174 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -25,7 +25,7 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/pets/
 
-- [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/) — 2180 פריטים · ☎ 054-640-4788
+- [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/) — 2187 פריטים · ☎ 054-640-4788
 - [מארלי — מזון וציוד לחיות מחמד](https://nitairevivo.github.io/agentfeed/marleypetshop/) — 2229 פריטים · מרכז · ☎ 050-235-2985
 - [נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/) — 8 פריטים · רמת הגולן · ☎ +972586789778
 
@@ -107,17 +107,17 @@ https://nitairevivo.github.io/agentfeed/compare/
 השאלה שאף חנות לא יכולה לענות עליה לבד — מי מוכר את זה ובכמה. כל עמוד מרכז קטגוריה אחת מכל העסקים שפרסמו מחיר, מהזול ליקר.
 
 - [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/) — 305 פריטים מ-2 עסקים
-- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/) — 194 פריטים מ-4 עסקים
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/) — 196 פריטים מ-4 עסקים
 - [מזון רטוב ושימורים](https://nitairevivo.github.io/agentfeed/compare/wet-food/) — 191 פריטים מ-2 עסקים
 - [מזון רטוב ושימורים](https://nitairevivo.github.io/agentfeed/compare/wet-food/under-50/) — 185 פריטים מ-2 עסקים
-- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/) — 180 פריטים מ-3 עסקים
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/) — 181 פריטים מ-3 עסקים
 - [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/) — 175 פריטים מ-2 עסקים
 - [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/50-150/) — 153 פריטים מ-2 עסקים
 - [משחקים וצעצועים](https://nitairevivo.github.io/agentfeed/compare/toys/under-50/) — 143 פריטים מ-2 עסקים
 - [מזון יבש לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-dry-food/) — 131 פריטים מ-2 עסקים
 - [חטיפים ומעדנים לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-treats/) — 117 פריטים מ-2 עסקים
 - [רצועות, רתמות וקולרים](https://nitairevivo.github.io/agentfeed/compare/walking/) — 116 פריטים מ-4 עסקים
-- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/50-150/) — 110 פריטים מ-2 עסקים
+- [שמפו וטיפוח](https://nitairevivo.github.io/agentfeed/compare/grooming/50-150/) — 112 פריטים מ-2 עסקים
 - [חטיפים ומעדנים לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-treats/under-50/) — 104 פריטים מ-2 עסקים
 - [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/150-300/) — 91 פריטים מ-2 עסקים
 - [מיטות, מזרנים ומשטחים](https://nitairevivo.github.io/agentfeed/compare/beds/) — 85 פריטים מ-2 עסקים
@@ -139,7 +139,7 @@ https://nitairevivo.github.io/agentfeed/compare/
 - [חטיפים ומעדנים לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-treats/) — 30 פריטים מ-2 עסקים
 - [חטיפים ומעדנים לחתולים](https://nitairevivo.github.io/agentfeed/compare/cat-treats/under-50/) — 30 פריטים מ-2 עסקים
 - [מזון יבש לכלבים](https://nitairevivo.github.io/agentfeed/compare/dog-dry-food/over-300/) — 30 פריטים מעסק אחד
-- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/under-50/) — 29 פריטים מ-2 עסקים
+- [טיפול רפואי ותוספים](https://nitairevivo.github.io/agentfeed/compare/health/under-50/) — 30 פריטים מ-2 עסקים
 - [כיסויי חלה ומגשי חלה](https://nitairevivo.github.io/agentfeed/compare/challah/) — 28 פריטים מעסק אחד
 - [חול וארגזי חול](https://nitairevivo.github.io/agentfeed/compare/litter/) — 28 פריטים מ-2 עסקים
 - [אקווריומים וציוד לדגים](https://nitairevivo.github.io/agentfeed/compare/aquarium/50-150/) — 27 פריטים מ-2 עסקים
