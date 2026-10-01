@@ -199,7 +199,7 @@
       })
       // a network failure arrives as the browser's own English text; the owner
       // gets a sentence that says what happened and what to do
-      .then(function (d) { render(d); return true; }).catch(function (e) {
+      .then(function (d) { render(d); var l = document.getElementById('hud-link'); if (l) { l.textContent = d.demo ? '◉ נתוני דוגמה' : '◉ מחובר · נתונים חיים'; l.className = d.demo ? 'hud-demo' : 'hud-ok'; } return true; }).catch(function (e) {
         var msg = /[\u0590-\u05FF]/.test(e.message) ? e.message : 'אין חיבור לשרת כרגע. בדקו את האינטרנט ונסו לרענן.';
         // a failed save is told at the form and keeps what was typed
         if (method === 'POST') alert(msg); else $('advice').innerHTML = '<p class="sub">' + esc(msg) + '</p>';
@@ -243,20 +243,41 @@
   function ev(list) {
     return (list || []).length ? '<span class="ev">' + list.map(esc).join(' · ') + '</span>' : '';
   }
+  // the headline types itself out once, as the analyst "says" it
+  function typeOut(el, text) {
+    if (still || !text) { el.textContent = text; return; }
+    var i = 0; el.textContent = '';
+    (function step() { i += 2; el.textContent = text.slice(0, i); if (i < text.length) setTimeout(step, 18); })();
+  }
+  function doneKey(t) { var h = 0; for (var i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return 'done:' + cfg.site + ':' + h; }
+  function isDone(t) { try { return localStorage.getItem(doneKey(t)) === '1'; } catch (x) { return false; } }
+  function chip(list) {
+    return (list || []).length ? '<div class="evs">' + list.map(function (e) { return '<code>' + esc(e) + '</code>'; }).join('') + '</div>' : '';
+  }
   function showBrain(a, bench) {
     if (!a) { $('brain').innerHTML = '<p class="sub">המנתח לא ענה הפעם. ההמלצות למטה עדיין מבוססות על המספרים שלכם.</p>'; return; }
-    var v = VERDICT[a.verdict] || VERDICT.mixed;
+    var v = VERDICT[a.verdict] || VERDICT.mixed, F = a.findings || [], A = a.actions || [];
     $('brain').innerHTML =
-      '<div class="verdict ' + v[0] + '"><span class="pill">' + v[1] + '</span><p>' + esc(a.headline || '') + '</p></div>' +
-      (a.findings || []).map(function (f) {
-        return '<div class="tip ' + (f.certainty === 'guess' ? 'info' : 'warn') + '"><div class="ic" aria-hidden="true">🔎</div><div><h3>' + esc(f.title) +
-          ' <small class="cert ' + f.certainty + '">' + (CERT[f.certainty] || '') + '</small></h3><p>' + esc(f.explain) + '</p></div>' + ev(f.evidence) + '</div>'; }).join('') +
-      ((a.actions || []).length ? '<h3 class="brain-sub">מה לעשות השבוע</h3><ol class="todo">' + a.actions.map(function (x) {
-        return '<li><b>' + esc(x.do) + '</b> <small>(' + (EFFORT[x.effort] || '') + ')</small><br><span>' + esc(x.why) + '</span>' + ev(x.evidence) + '</li>'; }).join('') + '</ol>' : '') +
-      ((a.ask_owner || []).length ? '<p class="sub">כדי לדייק, המנתח היה רוצה לדעת: ' + a.ask_owner.map(esc).join(' · ') + '</p>' : '') +
-      (bench ? '<p class="sub bench">בהשוואה ל-' + bench.sites + ' חנויות אחרות שבנינו (חציון): ' + bench.conversion + '% פניות על כל 100 מבקרים · ' +
-        bench.mobile + '% מטלפון · ' + bench.google + '% מגוגל.</p>' : '') +
+      '<div class="verdict ' + v[0] + '"><span class="pill"><i></i>' + v[1] + '</span><p id="headline"></p></div>' +
+      '<div class="meter" aria-hidden="true"><span>' + F.length + ' ממצאים</span><span>' + A.length + ' צעדים</span>' +
+        (a.dropped ? '<span title="משפטים עם מספר שלא קיים בנתונים">' + a.dropped + ' נמחקו בבדיקה</span>' : '<span>0 נמחקו בבדיקה</span>') + '</div>' +
+      (F.length ? '<div class="fx-grid">' + F.map(function (f, i) {
+        return '<article class="fx ' + f.certainty + '" style="--d:' + (i * 90) + 'ms"><header><span class="n">' + String(i + 1).padStart(2, '0') + '</span>' +
+          '<span class="cert ' + f.certainty + '">' + (CERT[f.certainty] || '') + '</span></header><h3>' + esc(f.title) + '</h3><p>' + esc(f.explain) + '</p>' + chip(f.evidence) + '</article>'; }).join('') + '</div>' : '') +
+      (A.length ? '<h3 class="brain-sub">מה לעשות השבוע <small>סמנו מה עשיתם</small></h3><ol class="todo">' + A.map(function (x) {
+        var done = isDone(x.do);
+        return '<li class="' + (done ? 'done' : '') + '"><label><input type="checkbox" data-do="' + esc(x.do) + '"' + (done ? ' checked' : '') + '><span class="box" aria-hidden="true"></span>' +
+          '<span class="txt"><b>' + esc(x.do) + '</b><em class="eff ' + x.effort + '">' + (EFFORT[x.effort] || '') + '</em><br><span>' + esc(x.why) + '</span>' + chip(x.evidence) + '</span></label></li>'; }).join('') + '</ol>' : '') +
+      ((a.ask_owner || []).length ? '<p class="sub q">❓ כדי לדייק, המנתח היה רוצה לדעת: ' + a.ask_owner.map(esc).join(' · ') + '</p>' : '') +
+      (bench ? '<div class="bench"><span>לעומת ' + bench.sites + ' חנויות אחרות שבנינו (חציון)</span><b>' + bench.conversion + '%</b> פניות ל-100 מבקרים · <b>' + bench.mobile + '%</b> מטלפון · <b>' + bench.google + '%</b> מגוגל</div>' : '') +
       (a.demo ? '<p class="sub">בדוגמה הזאת הטקסט נכתב מתבנית. באתר אמיתי כותב אותו המנתח, מהמספרים שלכם.</p>' : '');
+    typeOut($('headline'), a.headline || '');
+    $('brain').querySelectorAll('.todo input').forEach(function (cb) {
+      cb.addEventListener('change', function () {
+        try { localStorage.setItem(doneKey(cb.dataset.do), cb.checked ? '1' : '0'); } catch (x) {}
+        cb.closest('li').classList.toggle('done', cb.checked);
+      });
+    });
   }
   function brainCall(body) {
     var h = { 'content-type': 'application/json' };
@@ -269,7 +290,7 @@
     });
   }
   function brain() {
-    $('brain').innerHTML = '<div class="thinking"><span></span><span></span><span></span> המנתח קורא את המספרים…</div>';
+    $('brain').innerHTML = '<div class="scan"><div class="bar"></div><p>המנתח קורא את המספרים, משווה ובודק כל משפט…</p></div>';
     readCatalog().then(function () { return brainCall({}); }).then(function (r) {
       if (r.reason === 'not_configured') { $('brain').innerHTML = '<p class="sub">המנתח עוד לא הופעל באתר הזה. ההמלצות למטה מבוססות על המספרים שלכם.</p>'; return; }
       showBrain(r.analysis, r.bench);
@@ -286,10 +307,19 @@
         '<div class="answer"><p>אין לי מספיק נתונים כדי לענות על זה בלי לנחש. נסו לשאול על משהו שהלוח מודד: ביקורים, מקורות, פניות או מוצרים.</p></div>';
     }).catch(function (e) { $('answer').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
   });
+  document.querySelectorAll('#chips button').forEach(function (b) {
+    b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
+  });
   load();
   brain();
 })();
 
+// the clock in the status strip: the owner's time, in Israel
+(function () {
+  var el = document.getElementById('hud-clock'); if (!el) return;
+  function tick() { try { el.textContent = new Date().toLocaleTimeString('he-IL', { timeZone: 'Asia/Jerusalem' }); } catch (x) {} }
+  tick(); setInterval(tick, 1000);
+})();
 // ── The room itself: a sky that follows the mouse, cards that tilt toward
 // it, and two gadgets that work on the owner's own numbers. Everything here
 // is decoration or arithmetic; nothing invents a figure.
