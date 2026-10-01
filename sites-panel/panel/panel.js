@@ -303,6 +303,8 @@
     if (demo) { $('answer').innerHTML = '<div class="answer"><p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם, ומראה על איזה מספר נשענה התשובה.</p></div>'; return; }
     $('answer').innerHTML = '<div class="thinking"><span></span><span></span><span></span> חושב…</div>';
     brainCall({ ask: q }).then(function (r) {
+      if (!r.answer && r.dropped) { $('answer').innerHTML = '<div class="answer"><p>המנתח ענה, אבל בתשובה הופיע מספר שלא קיים בנתונים שלכם, ולכן היא נמחקה. נסו לנסח את השאלה אחרת.</p></div>'; return; }
+      if (!r.answer && r.detail) { $('answer').innerHTML = '<div class="answer"><p>המנתח לא הצליח לענות כרגע.</p><p class="sub" dir="ltr" style="font-size:12px;opacity:.7;margin:6px 0 0">' + esc(r.detail) + '</p></div>'; return; }
       $('answer').innerHTML = r.answer ? '<div class="answer"><p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + ev(r.evidence) + '</div>' :
         '<div class="answer"><p>אין לי מספיק נתונים כדי לענות על זה בלי לנחש. נסו לשאול על משהו שהלוח מודד: ביקורים, מקורות, פניות או מוצרים.</p></div>';
     }).catch(function (e) { $('answer').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
