@@ -328,3 +328,82 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .kback .krows li { padding: 3px 0 6px; font-size: 13.5px; }
 .kback .krows li i { inset-block: auto 0; height: 2px; z-index: 0; border-radius: 2px; background: linear-gradient(90deg, #3ee6ff, #8b6cff); box-shadow: 0 0 8px rgba(62,230,255,.6); }
 .kback { overflow: auto; }
+
+/* ── Open, not boxed: sections lie on the room itself, divided by light ── */
+.pn .wrap { max-width: 1180px; }
+.pn main { gap: 0; padding-block: 8px 80px; }
+.glass, .cardp, .kpi, .brain { background: none !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; backdrop-filter: none !important; }
+.glass::before, .brain::after { display: none !important; }
+.cardp, .kpi { background-image: none !important; }
+.pn main > section, .pn main > .two, .pn main > .three { padding-block: 34px; border-top: 1px solid transparent;
+  border-image: linear-gradient(90deg, transparent, rgba(62,230,255,.35), rgba(139,108,255,.35), transparent) 1; }
+.pn main > .kpis { border-top: 0; padding-block: 28px 30px; }
+.cardp { padding: 0; }
+.cardp h2 { font-size: 22px; letter-spacing: -.01em; }
+.two, .three { gap: 0; }
+.two > *, .three > * { padding-inline: 28px; }
+.two > *:first-child, .three > *:first-child { padding-inline-start: 0; }
+.two > *:last-child, .three > *:last-child { padding-inline-end: 0; }
+.two > * + *, .three > * + * { border-inline-start: 1px solid rgba(255,255,255,.07); }
+/* the four numbers: one row, hairlines between, no boxes */
+.kpis { gap: 0; }
+.kpi { padding: 6px 24px 52px; }
+.kpi + .kpi { border-inline-start: 1px solid rgba(255,255,255,.07) !important; }
+.kpi:first-child { padding-inline-start: 0; }
+.kpi .spark { inset-inline: 24px; }
+.kpi:hover b { transform: translateY(-2px); }
+.kpi b { transition: transform .25s; }
+.kpi::after { display: none; }
+.kpi { transform: none !important; }
+.kback, .ktap { display: none !important; }
+/* inside: accents, not boxes */
+.tip, .fx, .todo li, .bench, .answer { background: none !important; border: 0 !important; border-radius: 0 !important; }
+.tip { padding: 14px 0 14px 0; padding-inline-start: 18px; border-bottom: 1px solid rgba(255,255,255,.06) !important; }
+.tip::before { inset-block: 14px; }
+.fx-grid { gap: 0; }
+.fx { padding: 6px 20px 14px; border-inline-start: 1px solid rgba(255,255,255,.07) !important; }
+.fx:first-child { border-inline-start: 0 !important; padding-inline-start: 0; }
+.fx::before { display: none; }
+.fx .n { color: #3ee6ff; }
+.todo li { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.06) !important; }
+.bench { border-inline-start: 2px solid #3ee6ff !important; padding: 4px 14px; }
+.answer { border-inline-start: 2px solid var(--violet) !important; padding: 6px 16px; }
+@media (max-width: 960px) {
+  .kpis { grid-template-columns: 1fr 1fr; }
+  .kpi:nth-child(3) { border-inline-start: 0 !important; padding-inline-start: 0; }
+  .kpi:nth-child(n+3) { border-top: 1px solid rgba(255,255,255,.07); padding-top: 20px; }
+  .two > *, .three > * { padding-inline: 0; border-inline-start: 0 !important; }
+  .two > * + *, .three > * + * { border-top: 1px solid rgba(255,255,255,.07); padding-top: 28px; margin-top: 28px; }
+  .fx { padding-inline: 0; border-inline-start: 0 !important; border-top: 1px solid rgba(255,255,255,.07); padding-top: 14px; }
+  .fx:first-child { border-top: 0; }
+}
+@media (max-width: 560px) { .kpi { padding-inline: 14px; } .kpi:nth-child(odd) { padding-inline-start: 0; } .kpi .spark { inset-inline: 14px; } }
+
+/* ── A number over the whole screen ── */
+#kfull { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 24px; cursor: pointer;
+  background: radial-gradient(circle at var(--tx) var(--ty), rgba(40,30,95,.97), rgba(5,6,16,.98) 70%);
+  clip-path: circle(0 at var(--tx) var(--ty)); transition: clip-path .6s cubic-bezier(.2,.8,.2,1); }
+#kfull.on { clip-path: circle(160vmax at var(--tx) var(--ty)); }
+#kfull[hidden] { display: none; }
+.kf-in { width: min(560px, 100%); text-align: center; }
+.kf-l { color: #9ff3ff; font: 500 15px "JetBrains Mono", "Heebo", monospace; letter-spacing: .04em; }
+.kf-n { font: 800 clamp(64px, 14vw, 140px)/1 "JetBrains Mono", monospace; margin: 10px 0 28px; color: #fff;
+  text-shadow: 0 0 40px rgba(62,230,255,.55), 0 0 90px rgba(139,108,255,.45); opacity: 0; transform: scale(.85); transition: opacity .4s .2s, transform .5s .2s; }
+#kfull.on .kf-n { opacity: 1; transform: none; }
+.kf-in .krows { text-align: start; gap: 12px; }
+.kf-in .krows li { position: relative; display: flex; justify-content: space-between; font-size: 18px; padding: 6px 0 12px; }
+.kf-in .krows b { font: 700 18px "JetBrains Mono", monospace; color: #fff; }
+.kf-in .krows li i { position: absolute; inset-inline-start: 0; bottom: 0; height: 3px; border-radius: 3px; background: linear-gradient(90deg, #3ee6ff, #8b6cff); box-shadow: 0 0 12px rgba(62,230,255,.7); transform-origin: right; animation: grow .8s .25s both; }
+.kf-x { margin-top: 26px; font: inherit; color: var(--dim); background: none; border: 1px solid rgba(255,255,255,.15); border-radius: 99px; padding: 9px 18px; cursor: pointer; }
+.kf-x:hover, .kf-x:focus-visible { color: #fff; border-color: #3ee6ff; outline: none; }
+@media (prefers-reduced-motion: reduce) { #kfull { transition: none; } .kf-n { transition: none; } }
+/* the last boxes go too: money, the AI count, the simulator's two figures */
+.money { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 0 !important; }
+.money > div, .sim-out div:not(.arrow), .ai-hero { background: none !important; border: 0 !important; box-shadow: none !important; border-radius: 0 !important; padding: 4px 10px !important; min-width: 0; }
+.money > div + div { border-inline-start: 1px solid rgba(255,255,255,.07) !important; }
+.money b { font-size: clamp(15px, 1.6vw, 20px) !important; white-space: nowrap; }
+.ai-hero { border-inline-start: 2px solid #8b6cff !important; margin-bottom: 14px; }
+.sim-out div:not(.arrow) + .arrow + div { border-inline-start: 1px solid rgba(255,255,255,.07) !important; }
+/* the full-screen number stands on its own ground */
+#kfull { background: radial-gradient(circle at var(--tx) var(--ty), #1d1648, #070816 70%); }
+.kf-in .krows li i { top: auto; }

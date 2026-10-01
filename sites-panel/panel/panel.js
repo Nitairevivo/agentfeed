@@ -50,7 +50,7 @@
   // made of, from the same reply, in a circle that grows from the finger.
   function kpi(label, value, c, vals, colour, unit, vs, back) {
     return '<div class="kpi glass" tabindex="0" role="button" aria-expanded="false" aria-label="' + label + ' — לחצו לפירוט"><span class="l">' + label + '</span>' + value + delta(c, unit, false, vs) + spark(vals, colour) +
-      '<div class="kback"><span class="l">' + label + ' · פירוט</span>' + back + '<span class="khint">לחצו שוב לסגירה</span></div><span class="ktap" aria-hidden="true">⌖</span></div>';
+      '<div class="kback"><span class="l">' + label + ' · פירוט</span>' + back + '<span class="khint"></span></div></div>';
   }
   function rows(list) {
     return list.length ? '<ul class="krows">' + list.map(function (r) {
@@ -453,21 +453,38 @@
   });
   if (window.__pn) window.__pnGadgets(window.__pn);
 
-  // a number card opens from where it was touched
-  function flip(k, x, y) {
+  // A number opens over the whole screen, from where it was touched: the
+  // number itself, large, and what it is made of beneath it.
+  var full = document.createElement('div');
+  full.id = 'kfull'; full.setAttribute('role', 'dialog'); full.setAttribute('aria-modal', 'true'); full.hidden = true;
+  document.body.appendChild(full);
+  var opener = null;
+  function openFull(k, x, y) {
     var r = k.getBoundingClientRect();
-    k.style.setProperty('--tx', (x == null ? r.width / 2 : x - r.left) + 'px');
-    k.style.setProperty('--ty', (y == null ? r.height / 2 : y - r.top) + 'px');
-    var open = !k.classList.contains('open');
-    document.querySelectorAll('.kpi.open').forEach(function (o) { if (o !== k) { o.classList.remove('open'); o.setAttribute('aria-expanded', 'false'); } });
-    k.classList.toggle('open', open); k.setAttribute('aria-expanded', open ? 'true' : 'false');
-    try { if (navigator.vibrate) navigator.vibrate(8); } catch (x) {}
+    full.style.setProperty('--tx', (x == null ? r.left + r.width / 2 : x) + 'px');
+    full.style.setProperty('--ty', (y == null ? r.top + r.height / 2 : y) + 'px');
+    var big = k.querySelector('b'), back = k.querySelector('.kback');
+    full.innerHTML = '<div class="kf-in"><span class="kf-l">' + (k.querySelector('.l') || {}).textContent + '</span>' +
+      '<div class="kf-n">' + (big ? big.textContent : '') + '</div>' +
+      (back ? back.innerHTML.replace(/<span class="l">[^<]*<\/span>/, '').replace(/<span class="khint">[^<]*<\/span>/, '') : '') +
+      '<button type="button" class="kf-x">סגירה ✕</button></div>';
+    full.hidden = false; opener = k;
+    requestAnimationFrame(function () { full.classList.add('on'); });
+    full.querySelector('.kf-x').focus();
+    try { if (navigator.vibrate) navigator.vibrate(8); } catch (x2) {}
   }
+  function closeFull() {
+    full.classList.remove('on');
+    setTimeout(function () { full.hidden = true; }, still ? 0 : 450);
+    if (opener) opener.focus();
+  }
+  full.addEventListener('click', closeFull);
   document.addEventListener('click', function (e) {
-    var k = e.target.closest && e.target.closest('.kpi'); if (k) flip(k, e.clientX, e.clientY);
+    var k = e.target.closest && e.target.closest('.kpi'); if (k) openFull(k, e.clientX, e.clientY);
   });
   document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !full.hidden) return closeFull();
     var k = e.target.closest && e.target.closest('.kpi');
-    if (k && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); flip(k); }
+    if (k && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openFull(k); }
   });
 })();
