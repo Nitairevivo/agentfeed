@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/sites-panel/theme.css"><link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/sites-panel/style.css"><link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/sites-panel/panel/panel.css">
 <style>:root{--brand:#1b794f;--brand-deep:#0e3f29;--accent:#fdb9ec;--deep:#241a16;--deep-2:#3b2d27;--paper:#fffaf6;--tint:#ebfcf4;--tint-2:#daf8eb;--butter:#fccff1;--sky:#f7e3e6;--mint:#f1e1f4;--peach:#defcf6;--ink:#241a16;--ink-2:#5f524b;--line:#eaded6;--oxblood:#0d3623;--oxblood-2:#164b33;--apricot:#cdfefc;--apricot-2:#aafdf6;--pop:#9e1a6d;--sun-a:#1ffff9;--sun-b:#47f568;--font-display:"Rubik", "Rubik", system-ui, sans-serif;--font-body:"Rubik", "Assistant", system-ui, sans-serif}</style>
 </head><body class="pn">
+<canvas id="pnsky" aria-hidden="true"></canvas><div class="pn-spot" aria-hidden="true"></div>
 <div class="pn-demo" id="demo" hidden>נתוני דוגמה — כך ייראה הלוח כשהאתר יעלה לאוויר</div>
 <header class="pn-top"><div class="wrap">
   
@@ -25,6 +26,13 @@
   <div class="two">
     <section class="cardp chart glass"><h2>מבקרים ופניות</h2><p class="sub">כל יום ב-30 הימים האחרונים</p><div id="chart"></div></section>
     <section class="cardp glass"><h2>מאיפה הגיעו</h2><p class="sub">ב-30 הימים האחרונים</p><div id="ai"></div><div class="bars" id="sources"></div></section>
+  </div>
+  <div class="two">
+    <section class="cardp glass gadget"><h2>⚡ סימולטור "מה אם"</h2><p class="sub">גררו את המחוון: כמה פניות היו מגיעות מאותם מבקרים אם יותר מהם היו פונים. חישוב פשוט מהמספרים שלכם, לא תחזית.</p>
+      <div class="sim"><label for="simr">אחוז המבקרים שפונים: <b id="simv">—</b></label><input id="simr" type="range" min="0.5" max="20" step="0.5" value="5">
+      <div class="sim-out"><div><span>פניות ב-30 יום היום</span><b id="simnow">—</b></div><div class="arrow" aria-hidden="true">←</div><div><span>עם האחוז שבחרתם</span><b id="simthen">—</b></div></div></div></section>
+    <section class="cardp glass gadget"><h2>🎯 יעד החודש</h2><p class="sub">כמה הכנסות אתם רוצים לרשום החודש? היעד נשמר רק בדפדפן הזה.</p>
+      <div class="goal"><div id="goalring"></div><form id="goalf"><label for="goali">היעד בש"ח</label><input id="goali" type="number" min="0" step="100" inputmode="numeric" placeholder="למשל 20000"><button class="btn btn-brand btn-s" type="submit">שמירה</button></form><p id="goaltxt" class="sub"></p></div></section>
   </div>
   <section class="cardp glass"><h2>המוצרים שהכי שואלים עליהם</h2><p class="sub">לחיצות על וואטסאפ, שיחה או סל מתוך כרטיס של מוצר, ב-30 הימים האחרונים</p><ul class="list" id="products"></ul></section>
   <div class="three">

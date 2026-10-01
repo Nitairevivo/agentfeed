@@ -176,3 +176,42 @@ form.add[aria-disabled="true"] { opacity: .5; }
    is as wide as its widest child's content, and the sparkline set that. */
 .pn main > *, .kpis > *, .two > *, .three > * { min-width: 0; }
 .kpi .spark { max-width: 100%; }
+
+/* ── The room: a sky under everything, a light where the mouse is ── */
+#pnsky { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 0; pointer-events: none; }
+.pn-spot { position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background: radial-gradient(520px circle at var(--mx, 50%) var(--my, 30%), color-mix(in srgb, var(--glow) 16%, transparent), rgba(62,230,255,.06) 40%, transparent 70%); }
+.kpi, .gadget { transition: transform .25s ease, box-shadow .25s ease; transform-style: preserve-3d; will-change: transform; }
+.kpi::after, .gadget::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .25s;
+  background: radial-gradient(260px circle at var(--gx, 50%) var(--gy, 50%), rgba(255,255,255,.12), transparent 60%); }
+.kpi:hover::after, .gadget:hover::after { opacity: 1; }
+.kpi:hover, .gadget:hover { box-shadow: 0 24px 60px -24px color-mix(in srgb, var(--glow) 70%, transparent); }
+/* a beam of light that runs round the analyst's border */
+@property --ba { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+.brain { position: relative; }
+.brain::after { content: ""; position: absolute; inset: -1px; border-radius: inherit; padding: 1.5px; pointer-events: none;
+  background: conic-gradient(from var(--ba), transparent 0 70%, #3ee6ff 80%, #8b6cff 88%, transparent 96%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude;
+  animation: beam 6s linear infinite; }
+@keyframes beam { to { --ba: 360deg; } }
+.ctip { position: absolute; top: 8px; transform: translateX(-50%); background: rgba(10,12,28,.92); border: 1px solid rgba(62,230,255,.4);
+  border-radius: 12px; padding: 8px 12px; font-size: 13px; display: grid; gap: 2px; pointer-events: none; white-space: nowrap;
+  box-shadow: 0 0 24px rgba(62,230,255,.25); z-index: 3; }
+.ctip b { color: #3ee6ff; }
+.sim label { display: block; margin-bottom: 10px; }
+.sim label b { color: #3ee6ff; font-size: 20px; }
+.sim input[type=range] { width: 100%; accent-color: var(--violet); height: 28px; }
+.sim-out { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; margin-top: 14px; text-align: center; }
+.sim-out div:not(.arrow) { background: rgba(255,255,255,.05); border: 1px solid var(--edge); border-radius: 16px; padding: 12px; }
+.sim-out span { display: block; color: var(--dim); font-size: 13px; }
+.sim-out b { font-size: 26px; font-weight: 800; }
+.sim-out div:last-child b { color: var(--green); text-shadow: 0 0 18px rgba(62,240,161,.6); }
+.sim-out .arrow { font-size: 22px; color: var(--cyan); }
+.goal { display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: center; }
+.goal svg { width: 120px; height: 120px; }
+.goal form { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.goal label { width: 100%; color: var(--dim); font-size: 13px; }
+.goal input { flex: 1 1 120px; min-width: 0; background: rgba(255,255,255,.06); border: 1px solid var(--edge); color: var(--txt); border-radius: 12px; padding: 10px 12px; font: inherit; }
+.goal #goaltxt { grid-column: 1 / -1; margin: 0; }
+@media (max-width: 560px) { .goal { grid-template-columns: 1fr; justify-items: center; } .sim-out b { font-size: 20px; } }
+@media (prefers-reduced-motion: reduce) { .brain::after { animation: none; } .kpi, .gadget { transition: none; } }

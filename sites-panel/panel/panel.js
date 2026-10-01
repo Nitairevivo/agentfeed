@@ -164,6 +164,7 @@
       return '<div class="tip ' + a.level + '"><div class="ic" aria-hidden="true">' + ICON[a.level] + '</div><div><h3>' + esc(a.title) +
         '</h3><p>' + esc(a.body) + '</p></div><span class="ev">' + esc(a.metric) + '</span></div>'; }).join('') :
       '<p class="sub">הכול שקט. ברגע שיצטברו נתונים יופיעו כאן המלצות.</p>';
+    window.__pn = d; if (window.__pnGadgets) window.__pnGadgets(d);
     var prod = d.products || [];
     $('products').innerHTML = prod.length ? prod.slice(0, 8).map(function (p) {
       return '<li><span>' + esc(p.name) + '</span><span><b>' + nf(p.actions) + '</b> פניות' + (p.wa ? ' · ' + nf(p.wa) + ' בוואטסאפ' : '') + '</span></li>'; }).join('') :
@@ -271,4 +272,108 @@
   });
   load();
   brain();
+})();
+
+// ── The room itself: a sky that follows the mouse, cards that tilt toward
+// it, and two gadgets that work on the owner's own numbers. Everything here
+// is decoration or arithmetic; nothing invents a figure.
+(function () {
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = matchMedia('(pointer: fine)').matches;
+  var root = document.documentElement, mx = innerWidth / 2, my = innerHeight / 3;
+  addEventListener('pointermove', function (e) {
+    mx = e.clientX; my = e.clientY;
+    root.style.setProperty('--mx', mx + 'px'); root.style.setProperty('--my', my + 'px');
+  }, { passive: true });
+
+  // the sky: points that drift, join when near, and lean toward the pointer
+  var c = document.getElementById('pnsky');
+  if (c && !still) {
+    var g = c.getContext('2d'), dpr = Math.min(2, devicePixelRatio || 1), W, H, pts = [];
+    function size() {
+      W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.round(Math.min(90, W * H / 16000));
+      pts = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .25, vy: (Math.random() - .5) * .25, r: Math.random() * 1.6 + .4 }; });
+    }
+    size(); addEventListener('resize', size);
+    var brand = getComputedStyle(document.body).getPropertyValue('--glow').trim() || '#8b6cff';
+    (function frame() {
+      g.clearRect(0, 0, W, H);
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i], dx = mx - p.x, dy = my - p.y, d2 = dx * dx + dy * dy;
+        if (d2 < 40000) { p.vx += dx / 60000; p.vy += dy / 60000; }
+        p.vx *= .985; p.vy *= .985; p.x += p.vx + (Math.random() - .5) * .05; p.y += p.vy + (Math.random() - .5) * .05;
+        if (p.x < 0) p.x = W; if (p.x > W) p.x = 0; if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+        for (var j = i + 1; j < pts.length; j++) {
+          var q = pts[j], ex = p.x - q.x, ey = p.y - q.y, e2 = ex * ex + ey * ey;
+          if (e2 < 12000) { g.strokeStyle = 'rgba(139,108,255,' + (0.22 * (1 - e2 / 12000)) + ')'; g.lineWidth = 1; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(q.x, q.y); g.stroke(); }
+        }
+        if (d2 < 26000) { g.strokeStyle = 'rgba(62,230,255,' + (0.35 * (1 - d2 / 26000)) + ')'; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(mx, my); g.stroke(); }
+        g.fillStyle = d2 < 26000 ? '#3ee6ff' : 'rgba(238,240,255,.55)';
+        g.beginPath(); g.arc(p.x, p.y, p.r, 0, 6.283); g.fill();
+      }
+      requestAnimationFrame(frame);
+    })();
+  }
+
+  // cards lean toward the pointer, with a glare where it is
+  if (fine && !still) {
+    document.addEventListener('pointermove', function (e) {
+      var t = e.target.closest && e.target.closest('.kpi, .gadget');
+      document.querySelectorAll('.kpi, .gadget').forEach(function (k) { if (k !== t) k.style.transform = ''; });
+      if (!t) return;
+      var r = t.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      t.style.transform = 'perspective(800px) rotateX(' + (-y * 6) + 'deg) rotateY(' + (x * 8) + 'deg) translateY(-2px)';
+      t.style.setProperty('--gx', (x + .5) * 100 + '%'); t.style.setProperty('--gy', (y + .5) * 100 + '%');
+    }, { passive: true });
+  }
+
+  // the chart answers the pointer: the day under it, and its two numbers
+  var chart = document.getElementById('chart'), tip = document.createElement('div');
+  tip.className = 'ctip'; tip.hidden = true; if (chart) { chart.style.position = 'relative'; chart.appendChild(tip); }
+  function onChart(e) {
+    var d = window.__pn, svg = chart.querySelector('svg'); if (!d || !svg || !d.series.length) return;
+    // the chart is redrawn on every load, and takes the tip with it
+    if (!tip.isConnected) chart.appendChild(tip);
+    var r = svg.getBoundingClientRect(), x = (e.clientX - r.left) / r.width;
+    var vb = svg.viewBox.baseVal, P = 30, i = Math.round(((x * vb.width) - P) / (vb.width - 2 * P) * (d.series.length - 1));
+    i = Math.max(0, Math.min(d.series.length - 1, i));
+    var s = d.series[i], px = (P + i * (vb.width - 2 * P) / Math.max(1, d.series.length - 1)) / vb.width * r.width;
+    tip.hidden = false; tip.style.left = px + 'px';
+    tip.innerHTML = '<b>' + s.date.slice(8) + '.' + s.date.slice(5, 7) + '</b><span>' + s.visitors.toLocaleString('he-IL') + ' מבקרים</span><span>' + s.actions.toLocaleString('he-IL') + ' פניות</span>';
+  }
+  if (chart) { chart.addEventListener('pointermove', onChart); chart.addEventListener('pointerleave', function () { tip.hidden = true; }); }
+
+  // ── gadgets ──
+  var nf = function (n) { return Math.round(n).toLocaleString('he-IL'); };
+  var site = (window.PANEL || {}).site || 'x';
+  function goalRing(pct) {
+    var r = 46, c2 = 2 * Math.PI * r, p = Math.max(0, Math.min(1, pct));
+    return '<svg viewBox="0 0 110 110" aria-hidden="true"><circle cx="55" cy="55" r="' + r + '" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="10"/>' +
+      '<circle cx="55" cy="55" r="' + r + '" fill="none" stroke="url(#gg)" stroke-width="10" stroke-linecap="round" stroke-dasharray="' + (c2 * p) + ' ' + c2 + '" transform="rotate(-90 55 55)" style="filter:drop-shadow(0 0 8px #3ef0a1)"/>' +
+      '<defs><linearGradient id="gg"><stop offset="0" stop-color="#3ee6ff"/><stop offset="1" stop-color="#3ef0a1"/></linearGradient></defs>' +
+      '<text x="55" y="62" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">' + Math.round(p * 100) + '%</text></svg>';
+  }
+  window.__pnGadgets = function (d) {
+    var v = d.kpis.visitors.now, a = d.kpis.actions.now, rng = document.getElementById('simr');
+    function sim() {
+      var pct = Number(rng.value);
+      document.getElementById('simv').textContent = pct + '%';
+      document.getElementById('simnow').textContent = nf(a) + ' (' + (v ? (a / v * 100).toFixed(1) : 0) + '%)';
+      document.getElementById('simthen').textContent = v ? nf(v * pct / 100) : '—';
+    }
+    if (rng) { if (!rng.dataset.set && v) { rng.value = Math.min(20, Math.max(0.5, Math.round(a / v * 200) / 2 + 2)); rng.dataset.set = 1; } rng.oninput = sim; sim(); }
+    var goal = 0; try { goal = Number(localStorage.getItem('goal:' + site)) || 0; } catch (x) {}
+    var inc = (d.money || {}).income || 0;
+    document.getElementById('goalring').innerHTML = goalRing(goal ? inc / goal : 0);
+    document.getElementById('goali').value = goal || '';
+    document.getElementById('goaltxt').textContent = goal ? ('נרשמו ₪' + nf(inc) + ' מתוך ₪' + nf(goal) + (inc >= goal ? '. הגעתם ליעד!' : '. חסרים ₪' + nf(goal - inc) + '.')) : 'עוד לא נקבע יעד.';
+  };
+  var gf = document.getElementById('goalf');
+  if (gf) gf.addEventListener('submit', function (e) {
+    e.preventDefault();
+    try { localStorage.setItem('goal:' + site, String(Number(document.getElementById('goali').value) || 0)); } catch (x) {}
+    if (window.__pn) window.__pnGadgets(window.__pn);
+  });
+  if (window.__pn) window.__pnGadgets(window.__pn);
 })();
