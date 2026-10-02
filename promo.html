@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>אתר לחנות שלכם, עם לוח בקרה ומנתח AI | AgentFeed</title>
+<meta name="description" content="אנחנו בונים לחנות אתר עם הזמנה בוואטסאפ מכל מוצר, מחברים אותו ללוח בקרה עם מנתח AI שאומר מה לשפר, ומתחזקים אותו. לשלושת הראשונים משלמים רק אחרי שרואים.">
+<meta property="og:title" content="אתר לחנות שלכם, עם מנתח AI שאומר מה לשפר">
+<meta property="og:description" content="בונים בשבילכם, הזמנה בוואטסאפ מכל מוצר, לוח בקרה חכם. משלמים אחרי שרואים.">
+<link rel="canonical" href="https://nitairevivo.github.io/agentfeed/promo.html">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<!-- The page we send. Every price is the price list in DECISIONS.md (30.9);
+     every promise is one a live system already keeps. No traffic, ranking or
+     AI-recommendation promise, and "cheapest" only with its condition. -->
+<style>
+:root{color-scheme:dark;--ink:#eef0ff;--dim:#a9aecb;--cyan:#3ee6ff;--violet:#8b6cff;--green:#3ef0a1;--amber:#ffc34d;--edge:rgba(255,255,255,.1)}
+*{box-sizing:border-box}html{overflow-x:clip;scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:17px/1.6 "Heebo",system-ui,sans-serif;background:#06070f}
+.bg{position:fixed;inset:-10%;z-index:-2;filter:blur(70px);opacity:.85}
+.bg i{position:absolute;border-radius:50%}
+.bg i:nth-child(1){width:55vw;height:45vh;left:0;top:0;background:radial-gradient(circle,rgba(139,108,255,.55),transparent 65%);animation:d1 22s ease-in-out infinite alternate}
+.bg i:nth-child(2){width:50vw;height:50vh;right:0;top:30%;background:radial-gradient(circle,rgba(62,230,255,.32),transparent 65%);animation:d2 26s ease-in-out infinite alternate}
+.bg i:nth-child(3){width:40vw;height:40vh;left:30%;bottom:0;background:radial-gradient(circle,rgba(62,240,161,.22),transparent 65%);animation:d1 30s ease-in-out infinite alternate-reverse}
+@keyframes d1{to{transform:translate(18vw,12vh)}}@keyframes d2{to{transform:translate(-20vw,-10vh)}}
+.grid{position:fixed;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(80% 60% at 50% 0,#000,transparent 80%)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+section{padding:70px 0}
+.tag{display:inline-block;font:700 13px "JetBrains Mono",monospace;color:var(--cyan);border:1px solid rgba(62,230,255,.4);border-radius:99px;padding:5px 12px;margin-bottom:16px}
+h1{font-size:clamp(36px,7vw,68px);line-height:1.05;margin:0 0 18px;font-weight:900;letter-spacing:-.02em}
+h1 b,h2 b{background:linear-gradient(90deg,#fff,#b9a8ff 45%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:clamp(26px,4.5vw,40px);margin:0 0 10px;font-weight:900}
+.lead{color:var(--dim);font-size:clamp(17px,2.4vw,21px);max-width:680px;margin:0 0 30px}
+.btn{font:inherit;font-weight:800;cursor:pointer;border:0;border-radius:14px;padding:15px 24px;color:#06210f;background:linear-gradient(135deg,var(--green),var(--cyan));box-shadow:0 0 30px -6px rgba(62,230,255,.7);text-decoration:none;display:inline-block;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.wa{background:linear-gradient(135deg,#25d366,#1fbf5b);color:#fff;box-shadow:0 0 30px -6px rgba(37,211,102,.7)}
+.btn.ghost{background:none;color:var(--cyan);border:1px solid rgba(62,230,255,.45);box-shadow:none}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:26px;color:var(--dim);font-size:15px}
+.trust span::before{content:"✓ ";color:var(--green);font-weight:900}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:30px}
+.card{padding:22px;border-radius:20px;background:rgba(18,20,38,.55);border:1px solid var(--edge);backdrop-filter:blur(14px);transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);border-color:rgba(62,230,255,.45)}
+.card .e{font-size:28px}.card b{display:block;font-size:18px;margin:8px 0 4px}.card span{color:var(--dim);font-size:15.5px}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:28px}
+.steps div{counter-increment:s;border-top:2px solid rgba(139,108,255,.5);padding-top:14px}
+.steps div::before{content:counter(s);font:900 34px "JetBrains Mono",monospace;color:var(--cyan);text-shadow:0 0 20px rgba(62,230,255,.6)}
+.steps b{display:block;font-size:19px;margin:4px 0}.steps span{color:var(--dim)}
+.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:28px}
+.price .card.main{border-color:rgba(62,240,161,.55);box-shadow:0 0 40px -12px rgba(62,240,161,.6)}
+.price .n{font:900 34px "JetBrains Mono",monospace}.price small{color:var(--dim)}
+.price s{color:var(--dim);font-size:15px}
+.note{color:var(--dim);font-size:14.5px;margin-top:14px}
+.split{display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:center}
+.panelshot{border-radius:20px;border:1px solid rgba(139,108,255,.4);background:linear-gradient(135deg,rgba(139,108,255,.15),rgba(62,230,255,.08));padding:24px;font:500 14px "JetBrains Mono",monospace}
+.panelshot .k{display:flex;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.07);padding:8px 0}
+.panelshot .k b{color:#fff;font-size:20px}
+.panelshot .ai{margin-top:14px;padding:12px;border-radius:12px;background:rgba(10,12,28,.7);border:1px solid rgba(62,230,255,.3);font-family:"Heebo";font-size:15px}
+.final{text-align:center}
+footer{padding:30px 0 50px;color:var(--dim);font-size:14px;text-align:center}
+footer a{color:var(--cyan)}
+@media (max-width:760px){.split{grid-template-columns:1fr}section{padding:50px 0}}
+@media (prefers-reduced-motion:reduce){.bg i{animation:none}.btn,.card{transition:none}}
+</style></head><body>
+<div class="bg" aria-hidden="true"><i></i><i></i><i></i></div><div class="grid" aria-hidden="true"></div>
+
+<section><div class="wrap">
+  <span class="tag">לחנויות ולעסקים קטנים</span>
+  <h1>אתר לחנות שלכם,<br>שגם <b>אומר לכם מה לשפר.</b></h1>
+  <p class="lead">אנחנו בונים לכם אתר עם כל המוצרים והזמנה בוואטסאפ מכל מוצר, מחברים אותו ללוח בקרה עם מנתח AI, ומתחזקים אותו. אתם רק שולחים רשימת מוצרים.</p>
+  <div class="row"><a class="btn wa" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%20%D7%A0%D7%99%D7%AA%D7%90%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%90%D7%AA%D7%A8%20%D7%9C%D7%97%D7%A0%D7%95%D7%AA" target="_blank" rel="noopener">דברו איתנו בוואטסאפ</a>
+    <a class="btn ghost" href="https://nitairevivo.github.io/agentfeed/check/">בדיקה חינם לאתר שלכם</a></div>
+  <div class="trust"><span>משלמים אחרי שרואים (3 הראשונים)</span><span>בלי התחייבות</span><span>הכול בעברית</span></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>מה <b>מקבלים</b></h2>
+  <div class="cards">
+    <div class="card"><div class="e">🛒</div><b>אתר־קטלוג בצבעים שלכם</b><span>כל המוצרים, עם תמונות, מחירים וחיפוש. בנוי קודם כול לטלפון.</span></div>
+    <div class="card"><div class="e">💬</div><b>הזמנה בוואטסאפ מכל מוצר</b><span>הקונה לוחץ, ונפתחת אליכם הודעה מוכנה עם שם המוצר. בלי קופה ובלי עמלות.</span></div>
+    <div class="card"><div class="e">📊</div><b>עדכון מגיליון גוגל</b><span>משנים מחיר בגיליון, והאתר מתעדכן לבד. בלי לגעת בקוד.</span></div>
+    <div class="card"><div class="e">🧠</div><b>מנתח AI שאומר את האמת</b><span>קורא את המספרים של האתר ואומר מה עובד ומה לא. כל עצה מראה על איזה מספר אמיתי היא נשענת.</span></div>
+    <div class="card"><div class="e">📈</div><b>לוח בקרה חכם</b><span>כמה נכנסו, מאיפה, אילו מוצרים הכי מבוקשים, הכנסות, הוצאות ויעד חודשי.</span></div>
+    <div class="card"><div class="e">🤖</div><b>קריא לעוזרי AI</b><span>כל מוצר מסומן כך שגוגל ועוזרים כמו ChatGPT יודעים לקרוא שם ומחיר, ויש דף לעסק בספרייה שלנו.</span></div>
+    <div class="card"><div class="e">🏪</div><b>השוואה לעסקים אחרים</b><span>רואים איך האתר שלכם עומד מול שאר העסקים במערכת, בלי שמות.</span></div>
+    <div class="card"><div class="e">🔧</div><b>אנחנו מתחזקים</b><span>אחסון, עדכונים ושעת שינויים בחודש. אתם עסוקים בחנות.</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap split">
+  <div><h2>המנתח <b>לא מחמיא. הוא אומר.</b></h2>
+    <p class="lead">"כמעט אף מבקר לא פונה אליך", לא "יש מקום לשיפור". ואם הוא לא יודע, הוא אומר שהוא לא יודע. משפט עם מספר שלא קיים בנתונים שלכם נמחק לפני שהוא מגיע אליכם.</p>
+    <a class="btn ghost" href="https://nitairevivo.github.io/agentfeed/sites-panel/panel/?demo">לראות את לוח הבקרה (דוגמה)</a></div>
+  <div class="panelshot" aria-label="דוגמה ללוח">
+    <div class="k"><span>ביקורים · 30 יום</span><b>1,331</b></div>
+    <div class="k"><span>פניות בוואטסאפ</span><b>63</b></div>
+    <div class="k"><span>המוצר הכי מבוקש</span><b>מזון לכלב</b></div>
+    <div class="ai">🧠 רוב הקונים מגיעים מהטלפון. "מזון לכלב בוגר" מקבל את רוב הפניות: כדאי להעלות אותו לראש העמוד.<br><small style="color:var(--dim)">נתוני דוגמה</small></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>איך <b>זה עובד</b></h2>
+  <div class="steps">
+    <div><b>שולחים רשימת מוצרים</b><span>אקסל, גיליון, או אפילו קישור לעמוד הפייסבוק.</span></div>
+    <div><b>רואים הדמיה</b><span>אתר בצבעים שלכם, עם המוצרים שלכם, תוך דקות.</span></div>
+    <div><b>עולים לאוויר</b><span>מאשרים, והאתר והלוח עולים. לשלושת הראשונים משלמים רק עכשיו.</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>המחירים, <b>בלי הפתעות</b></h2>
+  <div class="price">
+    <div class="card main"><b>חנות־קטלוג</b><div class="n">₪2,940</div><small>הקמה, מחיר השקה · <s>₪4,900</s></small><br><small>₪349 לחודש</small></div>
+    <div class="card"><b>אתר לעסק</b><div class="n">₪1,490</div><small>הקמה, מחיר השקה · <s>₪2,490</s></small><br><small>₪199 לחודש</small></div>
+    <div class="card"><b>דף נחיתה</b><div class="n">₪890</div><small>הקמה, מחיר השקה · <s>₪1,490</s></small><br><small>₪99 לחודש</small></div>
+  </div>
+  <p class="note">מחיר השקה לשלושת העסקים הראשונים, שגם משלמים רק אחרי שרואים את האתר עובד. התשלום החודשי כולל אחסון, תחזוקה, הלוח והמנתח, בלי התחייבות. <b>הבטחת מחיר:</b> הביאו הצעה כתובה זולה יותר לאתר שבונים ומתחזקים בשבילכם, באותה חבילה, ונשווה אליה.</p>
+</div></section>
+
+<section><div class="wrap split">
+  <div><h2>סוכנות או <b>בונה אתרים?</b></h2>
+    <p class="lead">המערכת מתחברת גם לאתרים שאתם בונים, בשורת קוד אחת, בוורדפרס, Wix, שופיפיי או קוד רגיל. הלקוחות שלכם מקבלים לוח בקרה ומנתח AI, ואתם מקבלים 500 ₪ על כל לקוח שאתם מפנים, או מחיר סיטונאי.</p>
+    <a class="btn ghost" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%20%D7%A0%D7%99%D7%AA%D7%90%D7%99%2C%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%A1%D7%95%D7%9B%D7%A0%D7%95%D7%AA%20%D7%95%D7%A8%D7%95%D7%A6%D7%99%D7%9D%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%A9%D7%99%D7%AA%D7%95%D7%A3%20%D7%A4%D7%A2%D7%95%D7%9C%D7%94" target="_blank" rel="noopener">שיתוף פעולה לסוכנויות</a></div>
+  <div class="card"><div class="e">🔍</div><b>הכלי שתאהבו: בדיקת אתר חינם</b><span>מדביקים כתובת של אתר, ומקבלים ציון ורשימת תיקונים שאפשר לשלוח ללקוח. מצוין לפגישה הראשונה.</span><br><br><a class="btn" href="https://nitairevivo.github.io/agentfeed/check/">לבדיקה</a></div>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <h2>רוצים לראות את <b>האתר שלכם</b>?</h2>
+  <p class="lead" style="margin-inline:auto">שלחו רשימת מוצרים, וקבלו הדמיה בחינם. בלי התחייבות.</p>
+  <a class="btn wa" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%20%D7%A0%D7%99%D7%AA%D7%90%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%93%D7%9E%D7%99%D7%94%20%D7%A9%D7%9C%20%D7%90%D7%AA%D7%A8%20%D7%9C%D7%97%D7%A0%D7%95%D7%AA%20%D7%A9%D7%9C%D7%99" target="_blank" rel="noopener">שלחו לנו בוואטסאפ</a>
+</div></section>
+
+<footer>ניתאי · 052-676-0039 · <a href="https://nitairevivo.github.io/agentfeed/sites.html">כל הפרטים</a> · <a href="https://nitairevivo.github.io/agentfeed/terms.html">תנאים</a></footer>
+<script src="https://agentfeed-plum.vercel.app/connect.js" data-site="agentfeed-sites" defer></script>
+</body></html>

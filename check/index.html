@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>בדיקת אתר חינם: האם הקונים, גוגל ועוזרי AI מבינים את האתר שלכם? | AgentFeed</title>
+<meta name="description" content="מדביקים כתובת, ותוך שניות מקבלים ציון ורשימת תיקונים: מחירים שמכונות קוראות, הזמנה בוואטסאפ, טלפון, נייד, מהירות, ועוזרי AI. בחינם.">
+<meta property="og:title" content="בדיקת אתר חינם: מה גוגל ועוזרי AI רואים באתר שלכם">
+<meta property="og:description" content="ציון ורשימת תיקונים תוך שניות. בחינם, בלי הרשמה.">
+<link rel="canonical" href="https://nitairevivo.github.io/agentfeed/check/">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<!-- The free check. Every line of the report is read off the page itself;
+     nothing here promises traffic, a ranking or an AI recommendation. -->
+<style>
+:root{color-scheme:dark;--ink:#eef0ff;--dim:#a9aecb;--cyan:#3ee6ff;--violet:#8b6cff;--green:#3ef0a1;--red:#ff5d73;--amber:#ffc34d;--edge:rgba(255,255,255,.1)}
+*{box-sizing:border-box}html{overflow-x:clip}
+body{margin:0;min-height:100vh;color:var(--ink);font:17px/1.6 "Heebo",system-ui,sans-serif;background:#06070f}
+.bg{position:fixed;inset:-10%;z-index:-1;filter:blur(70px);opacity:.8}
+.bg i{position:absolute;border-radius:50%}
+.bg i:nth-child(1){width:55vw;height:45vh;left:0;top:0;background:radial-gradient(circle,rgba(139,108,255,.55),transparent 65%);animation:d1 20s ease-in-out infinite alternate}
+.bg i:nth-child(2){width:50vw;height:50vh;right:0;top:30%;background:radial-gradient(circle,rgba(62,230,255,.35),transparent 65%);animation:d2 24s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(20vw,12vh)}}@keyframes d2{to{transform:translate(-20vw,-10vh)}}
+main{max-width:820px;margin:0 auto;padding:56px 16px 90px}
+.tag{display:inline-block;font:700 13px "JetBrains Mono",monospace;color:var(--cyan);border:1px solid rgba(62,230,255,.4);border-radius:99px;padding:5px 12px;margin-bottom:14px}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.1;margin:0 0 14px;font-weight:900}
+h1 b{background:linear-gradient(90deg,#fff,#b9a8ff 50%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--dim);font-size:19px;margin:0 0 28px}
+form{display:flex;gap:10px;flex-wrap:wrap}
+input{flex:1 1 280px;min-width:0;font:inherit;color:var(--ink);background:rgba(255,255,255,.06);border:1px solid rgba(139,108,255,.45);border-radius:14px;padding:15px 16px;direction:ltr;text-align:left}
+input:focus{outline:2px solid var(--cyan);outline-offset:1px}
+button,.btn{font:inherit;font-weight:800;cursor:pointer;border:0;border-radius:14px;padding:15px 24px;color:#06210f;background:linear-gradient(135deg,var(--green),var(--cyan));box-shadow:0 0 30px -6px rgba(62,230,255,.7);text-decoration:none;display:inline-block}
+.btn.wa{background:linear-gradient(135deg,#25d366,#1fbf5b);color:#fff}
+.btn.ghost{background:none;color:var(--cyan);border:1px solid rgba(62,230,255,.45);box-shadow:none}
+.small{color:var(--dim);font-size:14px;margin-top:10px}
+#out{margin-top:40px}
+.scan{height:3px;border-radius:3px;background:linear-gradient(90deg,transparent,var(--cyan),var(--violet),transparent);background-size:50% 100%;background-repeat:no-repeat;animation:sw 1.2s linear infinite}
+@keyframes sw{from{background-position:-50% 0}to{background-position:150% 0}}
+.head{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+.ring{width:130px;height:130px;flex:0 0 130px}
+.head h2{margin:0 0 4px;font-size:26px}.head p{margin:0;color:var(--dim);direction:ltr;text-align:right;word-break:break-all}
+ul.list{list-style:none;padding:0;margin:0;display:grid;gap:2px}
+ul.list li{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.07);animation:up .4s both}
+@keyframes up{from{opacity:0;transform:translateY(6px)}}
+.ic{width:28px;height:28px;border-radius:9px;display:grid;place-items:center;font-weight:900}
+.ok .ic{background:rgba(62,240,161,.15);color:var(--green)}.bad .ic{background:rgba(255,93,115,.15);color:var(--red)}
+li b{display:block}li span{color:var(--dim);font-size:15.5px}
+.cta{margin-top:30px;padding:24px;border-radius:20px;background:linear-gradient(135deg,rgba(139,108,255,.18),rgba(62,230,255,.1));border:1px solid rgba(139,108,255,.4)}
+.cta h3{margin:0 0 6px;font-size:22px}.cta p{margin:0 0 16px;color:var(--dim)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.err{color:var(--amber)}
+.what{margin-top:60px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.what div{border-top:2px solid rgba(62,230,255,.4);padding-top:12px}.what b{display:block;margin-bottom:4px}.what span{color:var(--dim);font-size:15px}
+footer{margin-top:60px;color:var(--dim);font-size:14px}
+footer a{color:var(--cyan)}
+@media (prefers-reduced-motion:reduce){.bg i,.scan,ul.list li{animation:none}}
+</style></head><body>
+<div class="bg" aria-hidden="true"><i></i><i></i></div>
+<main>
+<span class="tag">בחינם · בלי הרשמה · 10 שניות</span>
+<h1>מה <b>גוגל ועוזרי ה-AI</b> רואים באתר שלכם?</h1>
+<p class="lead">מדביקים כתובת, ומקבלים ציון ורשימת תיקונים: האם המחירים קריאים למכונות, האם אפשר להזמין בוואטסאפ בלחיצה, האם האתר מותאם לטלפון, והאם ChatGPT בכלל רשאי לקרוא אותו.</p>
+<form id="f"><label for="u" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">כתובת האתר</label>
+<input id="u" inputmode="url" placeholder="www.your-shop.co.il" autocomplete="url" required><button type="submit">בדקו את האתר</button></form>
+<p class="small">בודקים רק את מה שמופיע בעמוד עצמו. הבדיקה לא שומרת שום פרט עליכם.</p>
+<section id="out" aria-live="polite"></section>
+<section class="what" aria-label="מה נבדק">
+  <div><b>🧠 מוצרים למכונות</b><span>האם שם, מחיר וזמינות מסומנים כך שגוגל ועוזרי AI מבינים אותם.</span></div>
+  <div><b>💬 הזמנה בלחיצה</b><span>וואטסאפ וטלפון שאפשר ללחוץ עליהם מהנייד.</span></div>
+  <div><b>🤖 גישה ל-AI</b><span>האם האתר חוסם את ChatGPT, Claude או Perplexity בלי לדעת.</span></div>
+  <div><b>📱 נייד ומהירות</b><span>תצוגה בטלפון, וכמה זמן לוקח לעמוד לעלות.</span></div>
+</section>
+<footer>בדיקה של <a href="https://nitairevivo.github.io/agentfeed/promo.html">AgentFeed</a> · אתרים לחנויות, עם לוח בקרה ומנתח AI · ניתאי, 052-676-0039</footer>
+</main>
+<script>
+(function () {
+  var API = 'https://agentfeed-plum.vercel.app', WA = 'https://wa.me/972526760039?text=';
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  function ring(score) {
+    var r = 54, c = 2 * Math.PI * r, col = score >= 75 ? '#3ef0a1' : score >= 50 ? '#ffc34d' : '#ff5d73';
+    return '<svg class="ring" viewBox="0 0 130 130" aria-hidden="true"><circle cx="65" cy="65" r="' + r + '" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="12"/>' +
+      '<circle cx="65" cy="65" r="' + r + '" fill="none" stroke="' + col + '" stroke-width="12" stroke-linecap="round" stroke-dasharray="' + (c * score / 100) + ' ' + c + '" transform="rotate(-90 65 65)" style="filter:drop-shadow(0 0 10px ' + col + ')"/>' +
+      '<text x="65" y="76" text-anchor="middle" font-size="34" font-weight="900" fill="#fff" font-family="JetBrains Mono,monospace">' + score + '</text></svg>';
+  }
+  function run(url) {
+    $('out').innerHTML = '<div class="scan"></div><p class="small">בודקים את ' + esc(url) + '…</p>';
+    try { history.replaceState(null, '', '?url=' + encodeURIComponent(url)); } catch (x) {}
+    fetch(API + '/check-site?url=' + encodeURIComponent(url)).then(function (r) { return r.json().then(function (b) { return { s: r.status, b: b }; }); })
+      .then(function (x) {
+        var d = x.b;
+        if (x.s === 429) return $('out').innerHTML = '<p class="err">הגעתם למספר הבדיקות להיום. נסו שוב מחר.</p>';
+        if (d.error === 'bad_url') return $('out').innerHTML = '<p class="err">זו לא נראית כתובת של אתר. נסו למשל: www.shop.co.il</p>';
+        if (d.error) return $('out').innerHTML = '<p class="err">לא הצלחנו לפתוח את האתר' + (d.status ? ' (קוד ' + d.status + ')' : '') + '. בדקו שהכתובת נכונה ושהאתר עולה.</p>';
+        var bad = d.checks.filter(function (c) { return !c.ok; }).length;
+        var verdict = d.score >= 75 ? 'האתר במצב טוב.' : d.score >= 50 ? 'יש כמה דברים שכדאי לתקן.' : 'יש כאן הרבה מה לתקן.';
+        var msg = 'היי ניתאי, בדקתי את ' + d.url + ' ויצא ציון ' + d.score + '. אשמח לשמוע איך מתקנים.';
+        $('out').innerHTML = '<div class="head">' + ring(d.score) + '<div><h2>' + verdict + '</h2><p>' + esc(d.url) + '</p><span class="small">' + bad + ' דברים לתקן מתוך ' + d.checks.length + '</span></div></div>' +
+          '<ul class="list">' + d.checks.map(function (c, i) {
+            return '<li class="' + (c.ok ? 'ok' : 'bad') + '" style="animation-delay:' + (i * 50) + 'ms"><span class="ic">' + (c.ok ? '✓' : '✗') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.say) + '</span></div></li>'; }).join('') + '</ul>' +
+          '<div class="cta"><h3>' + (bad ? 'רוצים אתר שעובר את כל הבדיקות?' : 'רוצים לדעת גם מי נכנס ומה הוא מחפש?') + '</h3>' +
+          '<p>אנחנו בונים לחנויות אתר שעונה על כל הסעיפים כאן, מחברים אותו ללוח בקרה עם מנתח AI, ומתחזקים אותו. לשלושת העסקים הראשונים משלמים רק אחרי שרואים אותו עובד.</p>' +
+          '<div class="row"><a class="btn wa" id="talk" target="_blank" rel="noopener">דברו איתנו בוואטסאפ</a>' +
+          '<a class="btn ghost" href="https://wa.me/?text=' + encodeURIComponent('בדקתי את האתר שלך ב-10 שניות, תסתכל: ' + location.href) + '" target="_blank" rel="noopener">שליחת הדוח למישהו</a>' +
+          '<a class="btn ghost" href="https://nitairevivo.github.io/agentfeed/promo.html">מה אנחנו עושים</a></div></div>';
+        $('talk').href = WA + encodeURIComponent(msg);
+      }).catch(function () { $('out').innerHTML = '<p class="err">הבדיקה לא הצליחה כרגע. נסו שוב בעוד דקה.</p>'; });
+  }
+  $('f').addEventListener('submit', function (e) { e.preventDefault(); var v = $('u').value.trim(); if (v) run(v); });
+  var q = new URLSearchParams(location.search).get('url');
+  if (q) { $('u').value = q; run(q); }
+})();
+</script>
+<script src="https://agentfeed-plum.vercel.app/connect.js" data-site="agentfeed-sites" defer></script>
+</body></html>
