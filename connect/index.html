@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>חיבור לקוח חדש | AgentFeed</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<!-- Ours, not a client's: connects a site to the counter, the panel and the
+     analyst in one step. The admin key is the owner key of our own landing
+     page's panel; opened from that panel in the same browser tab session it
+     is already here. Nothing typed is stored except that key, for the tab. -->
+<style>
+:root{color-scheme:dark;--bg:#06070f;--ink:#eef0ff;--dim:#a9aecb;--cyan:#3ee6ff;--violet:#8b6cff;--green:#3ef0a1;--red:#ff5d73;--edge:rgba(255,255,255,.1)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(120% 70% at 50% -10%,#14123a,#06070f 60%);color:var(--ink);font:16px/1.6 "Heebo",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 80px}
+h1{font-size:30px;margin:0 0 6px;background:linear-gradient(90deg,#fff,#b9a8ff 60%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--dim);margin:0 0 28px}
+label{display:block;font-weight:700;margin:18px 0 6px}
+label small{font-weight:400;color:var(--dim)}
+input{width:100%;font:inherit;color:var(--ink);background:rgba(255,255,255,.05);border:1px solid var(--edge);border-radius:12px;padding:12px 14px}
+input:focus{outline:2px solid var(--violet);outline-offset:1px}
+input.mono{font-family:"JetBrains Mono",monospace;direction:ltr;text-align:left}
+button{font:inherit;font-weight:700;cursor:pointer;border:0;border-radius:12px;padding:12px 20px;color:#06210f;background:linear-gradient(135deg,var(--green),var(--cyan));box-shadow:0 0 24px -6px rgba(62,230,255,.7)}
+button.ghost{background:none;color:var(--cyan);border:1px solid rgba(62,230,255,.4);box-shadow:none;padding:8px 14px;font-size:14px}
+.row{display:flex;gap:10px;align-items:center;margin-top:22px;flex-wrap:wrap}
+.msg{margin-top:14px;color:var(--red)}
+.out{margin-top:34px;display:none}
+.out.on{display:block}
+.step{border-top:1px solid var(--edge);padding:22px 0}
+.step h2{font-size:19px;margin:0 0 8px}
+.step h2 span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:9px;margin-inline-end:8px;font:700 14px "JetBrains Mono",monospace;color:#06210f;background:linear-gradient(135deg,var(--green),var(--cyan))}
+pre{direction:ltr;text-align:left;white-space:pre-wrap;word-break:break-all;font:13.5px/1.5 "JetBrains Mono",monospace;background:rgba(10,12,28,.8);border:1px solid rgba(62,230,255,.25);border-radius:12px;padding:14px;margin:8px 0}
+ul{margin:8px 0;padding-inline-start:22px;color:var(--dim)} li b{color:var(--ink)}
+.warn{color:#ffc34d}
+.ok{color:var(--green)}
+</style></head><body><main>
+<h1>חיבור לקוח חדש</h1>
+<p class="lead">אתר, לוח בקרה ומנתח AI ללקוח, בצעד אחד. מתאים לכל אתר: וורדפרס, Wix, שופיפיי או קוד רגיל.</p>
+
+<form id="f">
+  <label for="admin">מפתח המנהל <small>· המפתח של הלוח של דף הנחיתה שלנו</small></label>
+  <input id="admin" class="mono" type="password" autocomplete="off" required>
+  <label for="site">כינוי לאתר <small>· באנגלית, אותיות קטנות, מספרים ומקפים. למשל: popeye-pets</small></label>
+  <input id="site" class="mono" pattern="[a-z0-9-]{3,60}" required autocomplete="off">
+  <label for="name">שם העסק <small>· כמו שיופיע בלוח</small></label>
+  <input id="name" required autocomplete="off">
+  <div class="row"><button type="submit">צרו חיבור</button></div>
+  <p class="msg" id="msg" role="alert"></p>
+</form>
+
+<section class="out" id="out" aria-live="polite">
+  <div class="step"><h2><span>1</span>להדביק באתר של הלקוח</h2>
+    <p>שורה אחת, לפני התגית <code>&lt;/body&gt;</code>. היא סופרת ביקורים ולחיצות על וואטסאפ, טלפון, מייל וסל, כולל איזה מוצר. בלי עוגיות ובלי פרטים אישיים.</p>
+    <pre id="snippet"></pre><button class="ghost" data-copy="snippet">העתקה</button>
+    <ul>
+      <li><b>וורדפרס:</b> תוסף WPCode, אחר כך Code Snippets, ואז Header &amp; Footer. מדביקים ב-Footer.</li>
+      <li><b>Wix:</b> הגדרות, ואז Custom Code. מוסיפים קוד, בוחרים Body - end ו-All pages.</li>
+      <li><b>שופיפיי:</b> Online Store, ואז Themes, ואז Edit code. בקובץ <code>theme.liquid</code> מדביקים לפני <code>&lt;/body&gt;</code>.</li>
+      <li><b>אתר בקוד:</b> בכל עמוד, לפני <code>&lt;/body&gt;</code>.</li>
+    </ul></div>
+  <div class="step"><h2><span>2</span>הקישור לבעל העסק</h2>
+    <p>הלוח הפרטי שלו. <b class="warn">המפתח שבסוף הקישור מוצג עכשיו פעם אחת בלבד.</b> שומרים אותו ושולחים רק לבעל העסק.</p>
+    <pre id="panel"></pre><button class="ghost" data-copy="panel">העתקה</button>
+    <button class="ghost" id="wa">שליחה בוואטסאפ</button></div>
+  <div class="step"><h2><span>3</span>בדיקת חיבור</h2>
+    <p>אחרי שהשורה הודבקה, פותחים את האתר של הלקוח פעם אחת ולוחצים כאן.</p>
+    <button class="ghost" id="check">בדיקה</button> <span id="checked"></span></div>
+</section>
+</main>
+<script>
+(function () {
+  var API = 'https://agentfeed-plum.vercel.app', made = null;
+  var $ = function (id) { return document.getElementById(id); };
+  try { $('admin').value = sessionStorage.getItem('pk:agentfeed-sites') || ''; } catch (x) {}
+  $('site').addEventListener('input', function () { this.value = this.value.toLowerCase().replace(/[^a-z0-9-]/g, ''); });
+  function say(t) { $('msg').textContent = t; }
+  $('f').addEventListener('submit', function (e) {
+    e.preventDefault(); say('');
+    var admin = $('admin').value.trim();
+    try { sessionStorage.setItem('pk:agentfeed-sites', admin); } catch (x) {}
+    fetch(API + '/connect', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + admin },
+      body: JSON.stringify({ site: $('site').value, name: $('name').value.trim() }) })
+      .then(function (r) { return r.json().then(function (b) { return { s: r.status, b: b }; }); })
+      .then(function (x) {
+        if (x.s === 401) return say('מפתח המנהל לא נכון. זה המפתח של הלוח של דף הנחיתה.');
+        if (x.s === 409) return say('לכינוי הזה כבר יש חיבור. בחרו כינוי אחר.');
+        if (x.s === 400) return say('הכינוי צריך להיות באנגלית, 3 תווים לפחות: אותיות קטנות, מספרים ומקפים.');
+        if (x.s !== 200) return say('השרת לא ענה כרגע. נסו שוב בעוד דקה.');
+        made = x.b;
+        $('snippet').textContent = made.snippet; $('panel').textContent = made.panel;
+        $('out').classList.add('on'); $('out').scrollIntoView({ behavior: 'smooth' });
+      }).catch(function () { say('אין חיבור לשרת כרגע.'); });
+  });
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var t = $(b.dataset.copy).textContent;
+      (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { b.textContent = 'הועתק ✓'; setTimeout(function () { b.textContent = 'העתקה'; }, 1500); });
+    });
+  });
+  $('wa').addEventListener('click', function () {
+    if (!made) return;
+    var text = 'היי! זה הלוח החכם של ' + made.name + ': כמה נכנסו לאתר, מאיפה, על מה לחצו, ומנתח AI שאומר מה לשפר.\n' + made.panel + '\nהקישור אישי. לא להעביר הלאה.';
+    open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+  });
+  $('check').addEventListener('click', function () {
+    if (!made) return;
+    $('checked').textContent = 'בודק…';
+    fetch(API + '/panel?site=' + made.site, { headers: { authorization: 'Bearer ' + made.key } })
+      .then(function (r) { return r.json(); }).then(function (d) {
+        var v = d && d.kpis ? d.kpis.views.now : 0;
+        $('checked').innerHTML = v ? '<span class="ok">מחובר ✓ נספרו ' + v + ' צפיות.</span>' : '<span class="warn">עוד לא נספרה צפייה. ודאו שהשורה הודבקה, פתחו את האתר ונסו שוב.</span>';
+      }).catch(function () { $('checked').textContent = 'השרת לא ענה.'; });
+  });
+})();
+</script>
+</body></html>
