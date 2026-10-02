@@ -80,16 +80,18 @@ ul{margin:8px 0;padding-inline-start:22px;color:var(--dim)} li b{color:var(--ink
     try { sessionStorage.setItem('pk:agentfeed-sites', admin); } catch (x) {}
     fetch(API + '/connect', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + admin },
       body: JSON.stringify({ site: $('site').value, name: $('name').value.trim() }) })
-      .then(function (r) { return r.json().then(function (b) { return { s: r.status, b: b }; }); })
+      .then(function (r) { return r.json().then(function (b) { return { s: r.status, b: b }; }, function () { return { s: r.status, b: {} }; }); })
       .then(function (x) {
         if (x.s === 401) return say('מפתח המנהל לא נכון. זה המפתח של הלוח של דף הנחיתה.');
         if (x.s === 409) return say('לכינוי הזה כבר יש חיבור. בחרו כינוי אחר.');
         if (x.s === 400) return say('הכינוי צריך להיות באנגלית, 3 תווים לפחות: אותיות קטנות, מספרים ומקפים.');
-        if (x.s !== 200) return say('השרת לא ענה כרגע. נסו שוב בעוד דקה.');
+        if (x.s === 404) return say('השרת עוד לא מכיר את דף החיבור (404). כנראה הפריסה ב-Vercel עוד לא הסתיימה: בדקו ב-Deployments שהאחרונה Ready, או עשו Redeploy.');
+        if (x.s === 503) return say('בשרת חסר חיבור למאגר הנתונים (503).');
+        if (x.s !== 200) return say('השרת ענה בקוד ' + x.s + '. נסו שוב בעוד דקה.');
         made = x.b;
         $('snippet').textContent = made.snippet; $('panel').textContent = made.panel;
         $('out').classList.add('on'); $('out').scrollIntoView({ behavior: 'smooth' });
-      }).catch(function () { say('אין חיבור לשרת כרגע.'); });
+      }).catch(function (err) { say('אין חיבור לשרת כרגע (' + (err && err.message || 'network') + '). בדקו שהכתובת agentfeed-plum.vercel.app/connect.js נפתחת.'); });
   });
   document.querySelectorAll('[data-copy]').forEach(function (b) {
     b.addEventListener('click', function () {
