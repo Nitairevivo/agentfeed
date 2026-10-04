@@ -83,6 +83,38 @@ footer a{color:var(--cyan)}
       '<circle cx="65" cy="65" r="' + r + '" fill="none" stroke="' + col + '" stroke-width="12" stroke-linecap="round" stroke-dasharray="' + (c * score / 100) + ' ' + c + '" transform="rotate(-90 65 65)" style="filter:drop-shadow(0 0 10px ' + col + ')"/>' +
       '<text x="65" y="76" text-anchor="middle" font-size="34" font-weight="900" fill="#fff" font-family="JetBrains Mono,monospace">' + score + '</text></svg>';
   }
+  // A square picture of the score, for a WhatsApp status or a story. It says
+  // only what the report says, and ends with where anyone can check their own.
+  function shareCard(d, bad) {
+    var S = 1080, cv = document.createElement('canvas'); cv.width = cv.height = S;
+    var g = cv.getContext('2d'), col = d.score >= 75 ? '#3ef0a1' : d.score >= 50 ? '#ffc34d' : '#ff5d73';
+    var bg = g.createLinearGradient(0, 0, S, S); bg.addColorStop(0, '#120c2e'); bg.addColorStop(1, '#06070f');
+    g.fillStyle = bg; g.fillRect(0, 0, S, S);
+    var glow = g.createRadialGradient(S / 2, 470, 40, S / 2, 470, 520); glow.addColorStop(0, 'rgba(139,108,255,.35)'); glow.addColorStop(1, 'rgba(139,108,255,0)');
+    g.fillStyle = glow; g.fillRect(0, 0, S, S);
+    g.direction = 'rtl'; g.textAlign = 'center'; g.fillStyle = '#eef0ff';
+    g.font = '900 64px Heebo, system-ui, sans-serif'; g.fillText('בדקתי את האתר שלי', S / 2, 150);
+    g.lineCap = 'round'; g.lineWidth = 46;
+    g.strokeStyle = 'rgba(255,255,255,.08)'; g.beginPath(); g.arc(S / 2, 470, 230, 0, Math.PI * 2); g.stroke();
+    g.strokeStyle = col; g.shadowColor = col; g.shadowBlur = 40; g.beginPath();
+    g.arc(S / 2, 470, 230, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * d.score / 100); g.stroke(); g.shadowBlur = 0;
+    g.fillStyle = '#fff'; g.font = '900 200px "JetBrains Mono", monospace'; g.direction = 'ltr'; g.fillText(String(d.score), S / 2, 540);
+    g.direction = 'rtl'; g.fillStyle = '#a9aecb'; g.font = '700 40px Heebo, system-ui, sans-serif';
+    g.fillText(bad ? 'מתוך 100 · ' + bad + ' דברים לתקן' : 'מתוך 100 · עבר את כל הבדיקות', S / 2, 800);
+    g.fillStyle = '#3ee6ff'; g.font = '800 46px Heebo, system-ui, sans-serif'; g.fillText('בדקו גם את האתר שלכם, בחינם:', S / 2, 920);
+    g.fillStyle = '#eef0ff'; g.font = '700 34px "JetBrains Mono", monospace'; g.direction = 'ltr';
+    g.fillText('nitairevivo.github.io/agentfeed/check', S / 2, 985);
+    cv.toBlob(function (blob) {
+      var file = new File([blob], 'score-' + d.score + '.png', { type: 'image/png' });
+      var text = 'בדקתי את האתר שלי וקיבלתי ' + d.score + '. בדקו גם את שלכם, בחינם: https://nitairevivo.github.io/agentfeed/check/';
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        navigator.share({ files: [file], text: text }).catch(function () {});
+      } else {
+        var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = file.name;
+        document.body.appendChild(a); a.click(); a.remove();
+      }
+    }, 'image/png');
+  }
   function run(url) {
     $('out').innerHTML = '<div class="scan"></div><p class="small">בודקים את ' + esc(url) + '…</p>';
     try { history.replaceState(null, '', '?url=' + encodeURIComponent(url)); } catch (x) {}
@@ -102,8 +134,10 @@ footer a{color:var(--cyan)}
           '<p>אנחנו בונים לחנויות אתר שעונה על כל הסעיפים כאן, מחברים אותו ללוח בקרה עם מנתח AI, ומתחזקים אותו. לשלושת העסקים הראשונים משלמים רק אחרי שרואים אותו עובד.</p>' +
           '<div class="row"><a class="btn wa" id="talk" target="_blank" rel="noopener">דברו איתנו בוואטסאפ</a>' +
           '<a class="btn ghost" href="https://wa.me/?text=' + encodeURIComponent('בדקתי את האתר שלך ב-10 שניות, תסתכל: ' + location.href) + '" target="_blank" rel="noopener">שליחת הדוח למישהו</a>' +
+          '<button class="btn ghost" id="card" type="button">📸 תמונה של הציון, לסטטוס</button>' +
           '<a class="btn ghost" href="https://nitairevivo.github.io/agentfeed/promo.html">מה אנחנו עושים</a></div></div>';
         $('talk').href = WA + encodeURIComponent(msg);
+        $('card').addEventListener('click', function () { shareCard(d, bad); });
       }).catch(function () { $('out').innerHTML = '<p class="err">הבדיקה לא הצליחה כרגע. נסו שוב בעוד דקה.</p>'; });
   }
   $('f').addEventListener('submit', function (e) { e.preventDefault(); var v = $('u').value.trim(); if (v) run(v); });
