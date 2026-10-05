@@ -229,14 +229,14 @@
       (ex ? 'אלה הזמנות לדוגמה. כשלקוח ישלם באתר, ההזמנה שלו תופיע כאן, עם השם, הטלפון ומה הזמין.' :
             'כל הזמנה ששולמה באשראי באתר. הכסף עובר ישר לחשבון הסליקה של העסק.') +
       (paid.length ? ' <b>' + nf(paid.length) + '</b> שולמו, סך ₪' + nf(Math.round(sum)) + '.' : '') + '</p>' +
-      '<div style="overflow-x:auto;margin-top:12px"><table class="led"><tr><th>מתי</th><th>לקוח</th><th>מה הוזמן</th><th>סכום</th><th>מצב</th></tr>' +
+      '<div style="overflow-x:auto;margin-top:12px"><table class="led ord"><tr><th>מתי</th><th>לקוח</th><th>מה הוזמן</th><th>סכום</th><th>מצב</th></tr>' +
       list.slice(0, 30).map(function (o) {
         var st = ST[o.status] || [o.status, ''];
         var who = esc((o.customer && o.customer.name) || '') + (o.customer && o.customer.phone ?
           '<br><a href="tel:' + esc(o.customer.phone) + '">' + esc(o.customer.phone) + '</a>' : '');
         var what = (o.lines || []).map(function (l) { return esc(l.name) + (l.label ? ' · ' + esc(l.label) : '') + ' ×' + nf(l.n); }).join('<br>');
-        return '<tr><td>' + new Date(o.created).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }) + '</td><td>' + who +
-          '</td><td style="font-size:13px">' + what + '</td><td class="in">₪' + nf(o.total) + '</td><td class="' + st[1] + '">' + st[0] +
+        return '<tr><td data-l="מתי">' + new Date(o.created).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }) + '</td><td data-l="לקוח">' + who +
+          '</td><td data-l="מה הוזמן" style="font-size:13px">' + what + '</td><td data-l="סכום" class="in">₪' + nf(o.total) + '</td><td data-l="מצב" class="' + st[1] + '">' + st[0] +
           (o.mock && !o.example ? ' <small>(הדמיה)</small>' : '') + '</td></tr>'; }).join('') + '</table></div>';
   }
   function load(method, body) {

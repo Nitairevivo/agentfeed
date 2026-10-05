@@ -428,3 +428,13 @@ form.add[aria-disabled="true"] { opacity: .5; }
 
 /* the ask box inside the analysis, above the week's steps */
 #brain > .ask { margin: 22px 0 6px; padding: 18px 0; border-top: 1px solid rgba(255,255,255,.07); border-bottom: 1px solid rgba(255,255,255,.07); }
+
+/* orders: a card per order on a phone, where five columns squeeze "what was ordered" to a word a line */
+@media (max-width:640px){
+  table.ord tr:first-child{display:none}
+  table.ord,table.ord tbody,table.ord tr,table.ord td{display:block;width:100%}
+  table.ord tr{border:1px solid var(--edge);border-radius:14px;padding:6px 12px;margin-bottom:10px}
+  table.ord td{display:flex;justify-content:space-between;gap:14px;border:0;padding:6px 0;text-align:start}
+  table.ord td::before{content:attr(data-l);color:var(--dim);font-weight:500;flex:none}
+  table.ord td>*{text-align:end}
+}

@@ -467,6 +467,18 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
 .gen .row{display:flex;flex-wrap:wrap;gap:10px}
 .gen .btn{min-height:48px}
 .gen .btn[disabled]{opacity:.45;pointer-events:none}
+.lead{color:var(--soft);font-size:1.08rem;max-width:56ch;margin:0 0 26px}
+.shows{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.show{display:flex;flex-direction:column;gap:6px;padding:14px 14px 18px;text-decoration:none;color:var(--ink);transition:transform .3s,border-color .3s}
+.show:hover{transform:translateY(-6px);border-color:rgba(255,207,58,.45)}
+.show .shot{position:relative;display:block;border-radius:14px;overflow:hidden;aspect-ratio:390/520;margin-bottom:8px;border:1px solid var(--line);background:#0a0e16}
+.show img{display:block;width:100%;height:100%;object-fit:cover;object-position:top;transition:transform 4s ease}
+.show:hover img{transform:translateY(-6%)}
+.show .play{position:absolute;inset:0;margin:auto;width:66px;height:66px;border-radius:50%;display:grid;place-items:center;background:rgba(255,207,58,.92);color:#1a1405;font-style:normal;font-size:24px;box-shadow:0 0 0 10px rgba(255,207,58,.18),0 12px 40px -6px rgba(255,190,40,.7)}
+.show b{font-size:1.15rem}
+.show small{color:var(--soft);font-size:.92rem;line-height:1.55}
+.show .go{margin-top:auto;padding-top:8px;color:var(--amber);font-weight:800}
+@media(max-width:860px){.shows{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:78%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;margin-inline:-16px;padding-inline:16px}.show{scroll-snap-align:center}}
 @media(max-width:1000px){.refer{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.stage{height:540px;max-width:580px;width:100%;margin-inline:auto}
 .get,.prices{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.agency,.start{grid-template-columns:1fr}
 .sync{grid-template-columns:1fr}.flow{transform:rotate(90deg);justify-self:center}.pt.star{transform:none}}
@@ -478,7 +490,7 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Rubik:wght@400;600;700;800&display=swap">
 </head>
-<body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header>
+<body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="#show">דוגמאות</a><a href="#what">מה מקבלים</a><a href="#prices">מחירים</a><a href="#faq">שאלות</a></nav></div></header>
 <div class="prog" id="prog" aria-hidden="true"></div>
 <a class="fab" id="fab" data-wa href="https://wa.me/972526760039" aria-label="וואטסאפ לניתאי"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></svg></a>
 <main>
@@ -541,6 +553,26 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
   <span>חנויות חיות</span><span>משתלות</span><span>תבלינים ופיצוחים</span><span>צעצועים</span><span>יודאיקה</span><span>ציוד דייג</span><span>ציוד למסיבות</span><span>אופניים</span><span>מתנות</span><span>משקאות</span>
 </div></div>
 
+<section class="rv" id="show">
+  <span class="eyebrow">תראו בעצמכם</span>
+  <h2>לא ציור. <span class="glow-t">אתר שעובד.</span></h2>
+  <p class="lead">שלוש דוגמאות חיות. פתחו בטלפון, לחצו, הוסיפו לעגלה, ושאלו את המנתח.</p>
+  <div class="shows">
+    <a class="show glass" href="https://nitairevivo.github.io/agentfeed/demo/wholesale/">
+      <span class="shot"><img src="https://nitairevivo.github.io/agentfeed/assets/show/store.jpg" alt="חנות לדוגמה: סחר פלוס, ציוד לעסקים" loading="lazy" width="390" height="680"></span>
+      <b>🛒 חנות לדוגמה</b><small>קטגוריות, עמוד לכל מוצר, צבעים וגדלים, מחיר לפי כמות, ותשלום באשראי.</small>
+      <span class="go">לפתוח את החנות ←</span></a>
+    <a class="show glass" href="https://nitairevivo.github.io/agentfeed/panel/?demo=wholesale">
+      <span class="shot"><img src="https://nitairevivo.github.io/agentfeed/assets/show/panel.jpg" alt="לוח הבקרה של החנות לדוגמה" loading="lazy" width="390" height="680"></span>
+      <b>🎛️ לוח הבקרה</b><small>כמה נכנסו, מאיפה, על מה לחצו, הזמנות, רווח החודש, ומנתח AI שעונה על שאלות.</small>
+      <span class="go">לפתוח את הלוח ←</span></a>
+    <a class="show glass" href="https://nitairevivo.github.io/agentfeed/video/">
+      <span class="shot"><img src="https://nitairevivo.github.io/agentfeed/assets/show/video.jpg" alt="הסרטון שלנו" loading="lazy" width="390" height="680"><i class="play" aria-hidden="true">▶</i></span>
+      <b>🎬 הסרטון, 50 שניות</b><small>כל מה שמקבלים, בקצרה. אפשר גם לשלוח אותו הלאה בוואטסאפ.</small>
+      <span class="go">לצפות ←</span></a>
+  </div>
+</section>
+
 <section class="rv">
   <span class="eyebrow">למה אתר</span>
   <h2>"כמה?" בתגובות, או <span class="glow-t">כפתור שמזמין.</span></h2>
@@ -563,7 +595,7 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
   <p class="ba-hint">גררו את הידית: מימין, החנות עם אתר. משמאל, איך זה נראה היום.</p>
 </section>
 
-<section class="rv">
+<section class="rv" id="what">
   <span class="eyebrow">מה מקבלים</span>
   <h2>אתר, לוח בקרה, <span class="glow-t">ודף ל-AI.</span></h2>
   <div class="get">
@@ -598,7 +630,7 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
   <p class="fine">דוגמה: המחיר שמשתנה בגיליון הוא המחיר שמופיע באתר.</p>
 </section>
 
-<section class="rv">
+<section class="rv" id="prices">
   <span class="eyebrow">המחירים</span>
   <h2>על תווית, <span class="glow-t">כמו בחנות.</span></h2>
   <div class="prices">
@@ -683,7 +715,7 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
   </div>
 </section>
 
-<section class="rv">
+<section class="rv" id="faq">
   <span class="eyebrow">שאלות נפוצות</span>
   <h2>שואלים אותנו.</h2>
   <div class="faq">
