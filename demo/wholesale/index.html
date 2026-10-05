@@ -1,344 +1,124 @@
 <!doctype html>
 <html lang="he" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>סחר פלוס · סיטונאות לניקיון, חד פעמי ומטבח (אתר לדוגמה)</title>
+<title>סיטונאות לניקיון, חד פעמי ומטבח | סחר פלוס (אתר לדוגמה)</title>
 <meta name="robots" content="noindex, nofollow">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
-<!-- A made-up wholesale shop to show a buyer what we build. The name, the
-     products and the prices are invented, and the page says so at the top. -->
-<style>
-:root{--ink:#0f1b2d;--dim:#5b6b80;--line:#e6ebf2;--bg:#f6f8fb;--card:#fff;--brand:#1565c0;--brand2:#0b3d91;--acc:#00b894;--warm:#ff7a45;--sale:#e53935;--r:18px;--sh:0 10px 30px -12px rgba(15,27,45,.18)}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;overflow-x:clip}
-body{font:16px/1.55 Heebo,system-ui,sans-serif;color:var(--ink);background:var(--bg)}
-button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
-img{display:block;max-width:100%}
-.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
-.demo{background:#fff4d6;color:#7a5200;text-align:center;font:700 13px Heebo;padding:7px 12px}
-.demo a{color:#7a5200}
-.ann{background:var(--brand2);color:#dfe9ff;font:600 13px Heebo;text-align:center;padding:8px 12px}
-.ann b{color:#fff}
-header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.hd{display:flex;align-items:center;gap:14px;height:70px}
-.logo{display:flex;align-items:center;gap:10px;font:900 22px Heebo;white-space:nowrap}
-.logo i{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--brand),#42a5f5);color:#fff;font-style:normal;font-size:20px;box-shadow:0 6px 16px -6px rgba(21,101,192,.7)}
-.logo small{display:block;font:600 11px Heebo;color:var(--dim);margin-top:-4px}
-.search{flex:1;position:relative;max-width:520px}
-.search input{width:100%;height:44px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);padding:0 42px 0 14px;font:500 15px Heebo;color:var(--ink)}
-.search input:focus{outline:none;border-color:var(--brand);background:#fff}
-.search span{position:absolute;right:14px;top:11px;color:var(--dim)}
-.cartbtn{position:relative;display:flex;align-items:center;gap:8px;height:44px;padding:0 16px;border-radius:12px;background:var(--ink);color:#fff;font:800 15px Heebo;transition:transform .2s}
-.cartbtn:hover{transform:translateY(-1px)}
-.cartbtn .n{min-width:22px;height:22px;border-radius:11px;background:var(--acc);display:grid;place-items:center;font:900 12px Heebo;padding:0 6px}
-.cartbtn.bump{animation:bump .5s}
-@keyframes bump{30%{transform:scale(1.12)}60%{transform:scale(.96)}}
-.hero{position:relative;overflow:hidden;background:radial-gradient(900px 400px at 90% -10%,#cfe3ff,transparent 60%),radial-gradient(700px 400px at 0% 110%,#d6fff3,transparent 60%),#eef4fb;border-bottom:1px solid var(--line)}
-.hgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding:44px 0 40px}
-.tag{display:inline-flex;align-items:center;gap:8px;font:800 13px Heebo;color:var(--brand);background:#fff;border:1px solid #cfe0f7;border-radius:99px;padding:6px 14px;box-shadow:var(--sh)}
-.tag i{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 4px rgba(0,184,148,.18)}
-h1{font:900 clamp(32px,5vw,54px)/1.05 Heebo;margin:16px 0 14px;letter-spacing:-.5px}
-h1 em{font-style:normal;background:linear-gradient(90deg,var(--brand),#00a3c4);-webkit-background-clip:text;background-clip:text;color:transparent}
-.lead{color:var(--dim);font-size:18px;max-width:560px}
-.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:50px;padding:0 22px;border-radius:14px;font:800 16px Heebo;transition:transform .2s,box-shadow .2s}
-.btn.p{background:var(--brand);color:#fff;box-shadow:0 12px 24px -10px rgba(21,101,192,.8)}
-.btn.p:hover{transform:translateY(-2px)}
-.btn.g{background:#fff;color:var(--ink);border:1.5px solid var(--line)}
-.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;color:var(--dim);font:600 14px Heebo}
-.trust span::before{content:"✓ ";color:var(--acc);font-weight:900}
-.hart{position:relative;height:360px}
-.hart .t{position:absolute;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 24px 50px -20px rgba(15,27,45,.35);border:1px solid var(--line)}
-.hart .t img{width:100%;height:100%;object-fit:cover}
-.hart .t1{width:210px;height:210px;right:10px;top:10px;transform:rotate(4deg)}
-.hart .t2{width:180px;height:180px;left:20px;top:40px;transform:rotate(-6deg)}
-.hart .t3{width:170px;height:170px;right:120px;bottom:0;transform:rotate(-2deg)}
-.hart .chip{position:absolute;left:0;bottom:30px;background:#fff;border-radius:14px;padding:10px 14px;box-shadow:var(--sh);font:800 14px Heebo;display:flex;gap:8px;align-items:center}
-.hart .chip b{color:var(--acc)}
-.cats{display:flex;gap:10px;overflow-x:auto;padding:22px 0 6px;scrollbar-width:none}
-.cats::-webkit-scrollbar{display:none}
-.cat{flex:0 0 auto;display:flex;align-items:center;gap:8px;height:44px;padding:0 16px;border-radius:99px;background:#fff;border:1.5px solid var(--line);font:700 15px Heebo;transition:all .2s}
-.cat.on{background:var(--ink);color:#fff;border-color:var(--ink)}
-.cat i{font-style:normal}
-.bar{display:flex;align-items:center;justify-content:space-between;margin:12px 0 14px;color:var(--dim);font:600 14px Heebo}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;padding-bottom:50px}
-.pc{background:var(--card);border-radius:var(--r);border:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s;position:relative}
-.pc:hover{transform:translateY(-4px);box-shadow:0 22px 40px -22px rgba(15,27,45,.35)}
-.pc .im{position:relative;aspect-ratio:1;background:#f1f4f8;cursor:pointer;overflow:hidden}
-.pc .im img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
-.pc:hover .im img{transform:scale(1.05)}
-.badge{position:absolute;top:12px;right:12px;font:900 12px Heebo;padding:5px 10px;border-radius:99px;background:var(--sale);color:#fff}
-.badge.n{background:var(--acc)}
-.pc .bd{padding:14px 14px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
-.pc h3{font:800 16px/1.3 Heebo;cursor:pointer;min-height:42px}
-.unit{font:600 13px Heebo;color:var(--dim)}
-.sw{display:flex;gap:6px;align-items:center;min-height:22px}
-.sw i{width:18px;height:18px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
-.sw small{font:700 12px Heebo;color:var(--dim);margin-right:2px}
-.pr{display:flex;align-items:baseline;gap:8px;margin-top:auto}
-.pr b{font:900 22px Heebo}
-.pr s{color:#98a4b3;font:600 14px Heebo}
-.pr small{color:var(--dim);font:600 12px Heebo}
-.tier{font:700 12px Heebo;color:var(--acc)}
-.add{margin-top:8px;height:44px;border-radius:12px;background:var(--brand);color:#fff;font:800 15px Heebo;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .2s,transform .15s}
-.add:hover{background:var(--brand2)}
-.add:active{transform:scale(.97)}
-.add.ok{background:var(--acc)}
-/* product modal */
-.ov{position:fixed;inset:0;z-index:50;background:rgba(10,18,32,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:16px}
-.ov.on{display:flex;animation:fade .2s}
-@keyframes fade{from{opacity:0}}
-.md{background:#fff;border-radius:24px;max-width:920px;width:100%;max-height:92vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;animation:rise .3s cubic-bezier(.2,.9,.3,1.2)}
-@keyframes rise{from{transform:translateY(30px) scale(.97);opacity:0}}
-.md .gi{background:#f1f4f8;position:relative}
-.md .gi img{width:100%;height:100%;object-fit:cover;aspect-ratio:1}
-.md .info{padding:26px;display:flex;flex-direction:column;gap:14px;position:relative}
-.md h2{font:900 26px/1.2 Heebo}
-.md .desc{color:var(--dim)}
-.x{position:absolute;top:14px;left:14px;width:38px;height:38px;border-radius:50%;background:#f1f4f8;font-size:20px;z-index:2}
-.opt h4{font:800 14px Heebo;margin-bottom:8px}
-.opt h4 span{color:var(--dim);font-weight:600}
-.chips{display:flex;gap:8px;flex-wrap:wrap}
-.ch{height:40px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);font:700 14px Heebo;display:flex;align-items:center;gap:8px;transition:all .15s;background:#fff}
-.ch i{width:16px;height:16px;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
-.ch.on{border-color:var(--brand);background:#eef5ff;color:var(--brand2);box-shadow:0 0 0 3px rgba(21,101,192,.12)}
-.tiers{border:1px solid var(--line);border-radius:14px;overflow:hidden;font:600 14px Heebo}
-.tiers div{display:flex;justify-content:space-between;padding:9px 14px}
-.tiers div+div{border-top:1px solid var(--line)}
-.tiers div.on{background:#ecfbf6;color:#047a5f;font-weight:800}
-.qrow{display:flex;gap:10px;align-items:center}
-.qty{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:12px;height:48px}
-.qty button{width:44px;height:100%;font:800 20px Heebo}
-.qty input{width:52px;text-align:center;border:0;font:800 17px Heebo;color:var(--ink)}
-.big{flex:1;height:52px;border-radius:14px;background:var(--brand);color:#fff;font:900 17px Heebo;box-shadow:0 12px 24px -10px rgba(21,101,192,.8)}
-.tot{font:900 28px Heebo}
-.tot small{font:600 13px Heebo;color:var(--dim)}
-/* cart drawer */
-.dr{position:fixed;top:0;bottom:0;left:0;width:min(420px,100%);z-index:60;background:#fff;box-shadow:20px 0 60px rgba(10,18,32,.25);transform:translateX(-105%);transition:transform .35s cubic-bezier(.2,.9,.3,1);display:flex;flex-direction:column}
-.dr.on{transform:none}
-.dr .h{display:flex;justify-content:space-between;align-items:center;padding:20px;border-bottom:1px solid var(--line);font:900 20px Heebo}
-.dr .items{flex:1;overflow:auto;padding:10px 20px}
-.ci{display:grid;grid-template-columns:72px 1fr auto;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);align-items:center}
-.ci img{width:72px;height:72px;border-radius:12px;object-fit:cover;background:#f1f4f8}
-.ci b{font:800 14px/1.3 Heebo;display:block}
-.ci small{color:var(--dim);font:600 12px Heebo}
-.ci .q{display:flex;align-items:center;gap:6px;margin-top:6px}
-.ci .q button{width:28px;height:28px;border-radius:8px;background:#f1f4f8;font:800 15px Heebo}
-.ci .p{font:900 15px Heebo;text-align:left}
-.ci .rm{color:#98a4b3;font:600 12px Heebo;margin-top:6px}
-.dr .f{padding:18px 20px 22px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px;background:#fafbfd}
-.row{display:flex;justify-content:space-between;font:600 15px Heebo}
-.row.t{font:900 20px Heebo}
-.prog{height:8px;border-radius:8px;background:#e9eef5;overflow:hidden}
-.prog i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),#3ee6b0);transition:width .4s}
-.free{font:700 13px Heebo;color:#047a5f}
-.wa{height:54px;border-radius:14px;background:#25d366;color:#fff;font:900 17px Heebo;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 12px 24px -10px rgba(37,211,102,.9)}
-.pay{height:48px;border-radius:14px;background:var(--ink);color:#fff;font:800 15px Heebo;opacity:.9}
-.note{font:600 12px Heebo;color:var(--dim);text-align:center}
-.empty{text-align:center;color:var(--dim);padding:60px 10px;font:600 15px Heebo}
-.empty b{display:block;font-size:44px;margin-bottom:10px}
-.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,120px);z-index:70;background:var(--ink);color:#fff;padding:12px 18px;border-radius:14px;font:700 15px Heebo;box-shadow:var(--sh);transition:transform .35s cubic-bezier(.2,.9,.3,1.3);display:flex;gap:10px;align-items:center}
-.toast.on{transform:translate(-50%,0)}
-.fly{position:fixed;z-index:80;width:60px;height:60px;border-radius:14px;object-fit:cover;pointer-events:none;transition:all .7s cubic-bezier(.5,-.3,.7,1)}
-.panelfab{position:fixed;right:18px;bottom:18px;z-index:40;display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:16px;color:#fff;font:800 14px Heebo;background:linear-gradient(135deg,#0b1020,#1b2450);box-shadow:0 14px 30px -12px rgba(11,16,32,.8),0 0 0 1px rgba(139,108,255,.4);text-decoration:none}
-.panelfab i{font-style:normal;font-size:18px}
-.panelfab small{display:block;font:600 11px Heebo;color:#a9b4ff}
-.feats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:30px 0}
-.feat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;gap:12px;align-items:center}
-.feat i{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:#eef5ff;font-style:normal;font-size:22px;flex:0 0 auto}
-.feat b{display:block;font:800 15px Heebo}.feat small{color:var(--dim);font:600 13px Heebo}
-footer{background:var(--ink);color:#c9d3e3;padding:30px 0 90px;font:600 14px Heebo}
-footer a{color:#fff}
-@media (max-width:860px){.hgrid{grid-template-columns:minmax(0,1fr);padding:28px 16px}.hgrid>*{min-width:0}.search{min-width:0}.hart{display:none}.md{grid-template-columns:1fr}.feats{grid-template-columns:1fr 1fr}.logo small{display:none}}
-@media (max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:10px}.pc .bd{padding:10px}.pc h3{font-size:14px;min-height:36px}.pr b{font-size:18px}.add{height:40px;font-size:13px}.cartbtn .lbl{display:none}h1{font-size:32px}.lead{font-size:16px}.feats{gap:8px}.feat{padding:12px}.panelfab{right:10px;bottom:10px;padding:10px 12px}.hd{gap:10px}.logo{font-size:18px}.logo i{width:32px;height:32px}}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-</style></head><body>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="store.css">
+</head><body class="">
 <div class="demo">⚠️ אתר לדוגמה: החנות, המוצרים והמחירים להמחשה בלבד · נבנה ב-<a href="https://nitairevivo.github.io/agentfeed/sites.html">AgentFeed</a></div>
-<div class="ann">🚚 <b>משלוח חינם</b> בהזמנה מעל ₪500 · מחירי סיטונאות לעסקים, מסעדות ומוסדות</div>
+<div class="ann">🚚 משלוח חינם בהזמנה מעל ₪500 · 💸 עד 15% הנחה בכמויות · 🧾 חשבונית מס לעסקים</div>
 <header><div class="wrap hd">
-  <div class="logo"><i>✦</i><div>סחר פלוס<small>סיטונאות לניקיון וחד פעמי</small></div></div>
-  <label class="search"><span>🔍</span><input id="q" type="search" placeholder="חיפוש מוצר, למשל: כפפות" aria-label="חיפוש מוצר"></label>
-  <button class="cartbtn" id="cartbtn" aria-label="עגלה">🛒 <span class="lbl">עגלה</span> <span class="n" id="cn">0</span></button>
+  <a class="logo" href="index.html"><i>✦</i><div>סחר פלוס<small>סיטונאות לניקיון, חד פעמי ומטבח מקצועי</small></div></a>
+  <nav class="top"><a href="c/clean.html">🧴 ניקיון וחומרי ניקוי</a><a href="c/disp.html">🥤 חד פעמי</a><a href="c/knife.html">🔪 סכינים וכלי מטבח</a><a href="c/paper.html">🧻 נייר ומגבות</a></nav>
+  <span class="sp"></span>
+  <button class="cartbtn" data-cart aria-label="עגלה">🛒 <span class="lbl">עגלה</span> <span class="n">0</span></button>
 </div></header>
 
-<section class="hero"><div class="wrap hgrid">
-  <div>
-    <span class="tag"><i></i>מחירי סיטונאות · הזמנה מהירה</span>
+<section class="hero" style="padding:0"><div class="wrap hgrid">
+  <div><span class="pill"><i></i>מחירי סיטונאות · הזמנה תוך דקה</span>
     <h1>כל מה שהעסק צריך,<br><em>במחיר של סיטונאי.</em></h1>
-    <p class="lead">מוצרי ניקיון, חד פעמי, סכינים ונייר. בוחרים סוג וכמות, מוסיפים לעגלה, ושולחים הזמנה בלחיצה. ככל שמזמינים יותר, המחיר ליחידה יורד.</p>
-    <div class="cta"><a class="btn p" href="#shop">לקטלוג המלא</a><a class="btn g" href="panel/?demo=wholesale">📊 לוח הבקרה של החנות</a></div>
-    <div class="trust"><span>חשבונית מס לעסקים</span><span>הנחת כמות אוטומטית</span><span>הזמנה בוואטסאפ</span></div>
-  </div>
-  <div class="hart"><div class="t t1"><img src="img/c1.jpg" alt=""></div><div class="t t2"><img src="img/d1.jpg" alt=""></div><div class="t t3"><img src="img/k2.jpg" alt=""></div>
-    <div class="chip">💸 עד <b>15% הנחה</b> בכמויות</div></div>
+    <p class="lead">חומרי ניקוי, חד פעמי, סכינים ונייר לעסקים, למסעדות ולמוסדות. בוחרים סוג וכמות, מוסיפים לעגלה, ושולחים הזמנה בלחיצה. ככל שמזמינים יותר, המחיר ליחידה יורד.</p>
+    <div class="cta"><a class="btn y" href="#cats">🛍️ לקטגוריות</a><a class="btn w" href="panel/?demo=wholesale">🧠 לוח הבקרה של החנות</a></div>
+    <div class="stats"><div><b>16</b><span>מוצרים בקטלוג</span></div><div><b>5</b><span>קטגוריות</span></div><div><b>15%</b><span>הנחה בכמויות</span></div></div></div>
+  <div class="collage"><div class="t t1"><img src="img/c1.jpg" alt=""></div><div class="t t2"><img src="img/d1.jpg" alt=""></div><div class="t t3"><img src="img/k1.jpg" alt=""></div>
+    <div class="float">💸 עד <b>15% הנחה</b> בהזמנה גדולה</div></div>
 </div></section>
-
 <div class="wrap">
-  <div class="feats">
-    <div class="feat"><i>📦</i><div><b>מחיר לפי כמות</b><small>מעל 10 יחידות, ההנחה בעגלה</small></div></div>
-    <div class="feat"><i>🎨</i><div><b>בוחרים סוג</b><small>ריח, גודל, צבע ואריזה</small></div></div>
-    <div class="feat"><i>💬</i><div><b>הזמנה בלחיצה</b><small>העגלה נשלחת בוואטסאפ</small></div></div>
-    <div class="feat"><i>🧾</i><div><b>לעסקים</b><small>חשבונית מס על כל הזמנה</small></div></div>
-  </div>
-  <div id="shop" class="cats" role="tablist"></div>
-  <div class="bar"><span id="cnt"></span><span>המחירים כוללים מע״מ (לדוגמה)</span></div>
-  <div class="grid" id="grid"></div>
+<section id="cats"><div class="sh"><div><h2>קנו לפי קטגוריה</h2><p>חמש מחלקות, כל מה שעסק צריך ביום־יום</p></div></div><div class="cats"><a class="catt" href="c/clean.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><img src="img/c1.jpg" alt=""><span class="em">🧴</span>
+<b>ניקיון וחומרי ניקוי</b><span>5 מוצרים · תרסיסים, נוזלים ומגבונים לכל משטח</span></a><a class="catt" href="c/disp.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><img src="img/d1.jpg" alt=""><span class="em">🥤</span>
+<b>חד פעמי</b><span>4 מוצרים · כוסות, צלחות, סכו״ם ומגשים לאירועים ולמשלוחים</span></a><a class="catt" href="c/knife.html" style="--c1:#ff9e00;--c2:#e85d04;--c3:#9d0208"><img src="img/k1.jpg" alt=""><span class="em">🔪</span>
+<b>סכינים וכלי מטבח</b><span>3 מוצרים · סכינים, סטים וקרשי חיתוך למטבח מקצועי</span></a><a class="catt" href="c/paper.html" style="--c1:#52b788;--c2:#2d6a4f;--c3:#1b4332"><img src="img/p1.jpg" alt=""><span class="em">🧻</span>
+<b>נייר ומגבות</b><span>2 מוצרים · מגבות נייר ונייר טואלט לעסקים ולמוסדות</span></a><a class="catt" href="c/bags.html" style="--c1:#4cc9f0;--c2:#4361ee;--c3:#3a0ca3"><img src="img/b1.jpg" alt=""><span class="em">🧤</span>
+<b>אריזה וכפפות</b><span>2 מוצרים · שקיות זבל וכפפות חד פעמיות</span></a></div></section>
+<section style="padding-top:0"><div class="feats">
+  <div class="feat"><i style="background:#e6f7ff">📦</i><div><b>מחיר לפי כמות</b><small>מ-10 יח׳ 8%, מ-25 יח׳ 15%</small></div></div>
+  <div class="feat"><i style="background:#f4e9ff">🎨</i><div><b>בוחרים סוג</b><small>ריח, גודל, צבע ואריזה</small></div></div>
+  <div class="feat"><i style="background:#e6fbf3">💬</i><div><b>הזמנה בלחיצה</b><small>העגלה נשלחת בוואטסאפ</small></div></div>
+  <div class="feat"><i style="background:#fff2e2">🧾</i><div><b>לעסקים</b><small>חשבונית מס על כל הזמנה</small></div></div>
+</div></section>
+<section style="padding-top:0"><div class="sh"><div><h2>🔥 מבצעים וחדשים</h2><p>המחירים הכי טובים השבוע</p></div></div><div class="grid"><a class="pc" href="p/c1.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c1.jpg" alt="ספריי ניקוי רב תכליתי" loading="lazy"><span class="badge">-23%</span><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>ספריי ניקוי רב תכליתי</h3><div class="unit">בקבוק 750 מ״ל</div><div class="sw"><i style="background:#ffd54f" title="לימון"></i><i style="background:#b39ddb" title="לבנדר"></i><i style="background:#66bb6a" title="אורן"></i><i style="background:#eceff1" title="ללא ריח"></i><small>4 ריח</small></div>
+<div class="pr"><b>₪9.90</b><s>₪12.90</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪9.11 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/c4.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c4.jpg" alt="סבון כלים מרוכז" loading="lazy"><span class="badge">מבצע</span><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>סבון כלים מרוכז</h3><div class="unit">גלון 4 ליטר</div><div class="sw"><i style="background:#ffd54f" title="לימון"></i><i style="background:#9ccc65" title="תפוח ירוק"></i><i style="background:#e57373" title="רימון"></i><small>3 ריח</small></div>
+<div class="pr"><b>₪25</b><s>₪29</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪23 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/d1.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><div class="im"><img src="img/d1.jpg" alt="כוסות חד פעמיות" loading="lazy"><span class="badge">-20%</span><span class="ctag">🥤 חד פעמי</span></div>
+<div class="bd"><h3>כוסות חד פעמיות</h3><div class="unit">1,000 יחידות</div><div class="sw"><i style="background:#e3f2fd" title="שקוף"></i><i style="background:#ffffff" title="לבן"></i><small>2 צבע</small></div>
+<div class="pr"><b>₪79</b><s>₪99</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪72.68 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/d3.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><div class="im"><img src="img/d3.jpg" alt="סכו״ם חד פעמי" loading="lazy"><span class="badge n">חדש</span><span class="ctag">🥤 חד פעמי</span></div>
+<div class="bd"><h3>סכו״ם חד פעמי</h3><div class="unit">600 יחידות</div><div class="sw"><i style="background:#ffffff" title="לבן"></i><i style="background:#263238" title="שחור"></i><small>2 צבע</small></div>
+<div class="pr"><b>₪55</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪50.60 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/k2.html" style="--c1:#ff9e00;--c2:#e85d04;--c3:#9d0208"><div class="im"><img src="img/k2.jpg" alt="סט סכינים עם מעמד" loading="lazy"><span class="badge">מבצע</span><span class="ctag">🔪 סכינים וכלי מטבח</span></div>
+<div class="bd"><h3>סט סכינים עם מעמד</h3><div class="unit">5 חלקים</div><div class="sw"><i style="background:#b0bec5" title="נירוסטה"></i><i style="background:#263238" title="שחור"></i><small>2 מעמד</small></div>
+<div class="pr"><b>₪189</b><s>₪229</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪173.88 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/b2.html" style="--c1:#4cc9f0;--c2:#4361ee;--c3:#3a0ca3"><div class="im"><img src="img/b2.jpg" alt="כפפות ניטריל" loading="lazy"><span class="badge n">חדש</span><span class="ctag">🧤 אריזה וכפפות</span></div>
+<div class="bd"><h3>כפפות ניטריל</h3><div class="unit">100 יחידות</div><div class="sw"><i style="background:#1e88e5" title="כחול"></i><i style="background:#263238" title="שחור"></i><small>2 צבע</small></div>
+<div class="pr"><b>₪29</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪26.68 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a></div></section>
+<section style="padding-top:10px"><div class="sh"><div><h2>🧴 ניקיון וחומרי ניקוי</h2><p>תרסיסים, נוזלים ומגבונים לכל משטח</p></div><a class="btn p" style="height:44px;background:linear-gradient(135deg,#00b4d8,#0077b6)" href="c/clean.html">לכל הקטגוריה ←</a></div>
+<div class="grid"><a class="pc" href="p/c1.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c1.jpg" alt="ספריי ניקוי רב תכליתי" loading="lazy"><span class="badge">-23%</span><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>ספריי ניקוי רב תכליתי</h3><div class="unit">בקבוק 750 מ״ל</div><div class="sw"><i style="background:#ffd54f" title="לימון"></i><i style="background:#b39ddb" title="לבנדר"></i><i style="background:#66bb6a" title="אורן"></i><i style="background:#eceff1" title="ללא ריח"></i><small>4 ריח</small></div>
+<div class="pr"><b>₪9.90</b><s>₪12.90</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪9.11 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/c2.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c2.jpg" alt="נוזל רצפות מרוכז" loading="lazy"><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>נוזל רצפות מרוכז</h3><div class="unit">גלון 4 ליטר</div><div class="sw"><i style="background:#4fc3f7" title="אוקיינוס"></i><i style="background:#f48fb1" title="פרחוני"></i><i style="background:#ffb74d" title="הדרים"></i><small>3 ריח</small></div>
+<div class="pr"><b>₪29</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪26.68 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/c3.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c3.jpg" alt="אקונומיקה" loading="lazy"><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>אקונומיקה</h3><div class="unit">גלון 4 ליטר</div><div class="sw"><small>2 סוג</small></div>
+<div class="pr"><b>₪19</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪17.48 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/c4.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c4.jpg" alt="סבון כלים מרוכז" loading="lazy"><span class="badge">מבצע</span><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>סבון כלים מרוכז</h3><div class="unit">גלון 4 ליטר</div><div class="sw"><i style="background:#ffd54f" title="לימון"></i><i style="background:#9ccc65" title="תפוח ירוק"></i><i style="background:#e57373" title="רימון"></i><small>3 ריח</small></div>
+<div class="pr"><b>₪25</b><s>₪29</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪23 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/c5.html" style="--c1:#00b4d8;--c2:#0077b6;--c3:#023e8a"><div class="im"><img src="img/c5.jpg" alt="מגבונים לחים לניקוי" loading="lazy"><span class="ctag">🧴 ניקיון וחומרי ניקוי</span></div>
+<div class="bd"><h3>מגבונים לחים לניקוי</h3><div class="unit">חבילה של 80</div><div class="sw"><small>2 אריזה</small></div>
+<div class="pr"><b>₪6.90</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪6.35 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a></div></section><section style="padding-top:10px"><div class="sh"><div><h2>🥤 חד פעמי</h2><p>כוסות, צלחות, סכו״ם ומגשים לאירועים ולמשלוחים</p></div><a class="btn p" style="height:44px;background:linear-gradient(135deg,#c77dff,#7b2cbf)" href="c/disp.html">לכל הקטגוריה ←</a></div>
+<div class="grid"><a class="pc" href="p/d1.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><div class="im"><img src="img/d1.jpg" alt="כוסות חד פעמיות" loading="lazy"><span class="badge">-20%</span><span class="ctag">🥤 חד פעמי</span></div>
+<div class="bd"><h3>כוסות חד פעמיות</h3><div class="unit">1,000 יחידות</div><div class="sw"><i style="background:#e3f2fd" title="שקוף"></i><i style="background:#ffffff" title="לבן"></i><small>2 צבע</small></div>
+<div class="pr"><b>₪79</b><s>₪99</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪72.68 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/d2.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><div class="im"><img src="img/d2.jpg" alt="צלחות קרטון" loading="lazy"><span class="ctag">🥤 חד פעמי</span></div>
+<div class="bd"><h3>צלחות קרטון</h3><div class="unit">500 יחידות</div><div class="sw"><small>3 קוטר</small></div>
+<div class="pr"><b>₪69</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪63.48 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/d3.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><div class="im"><img src="img/d3.jpg" alt="סכו״ם חד פעמי" loading="lazy"><span class="badge n">חדש</span><span class="ctag">🥤 חד פעמי</span></div>
+<div class="bd"><h3>סכו״ם חד פעמי</h3><div class="unit">600 יחידות</div><div class="sw"><i style="background:#ffffff" title="לבן"></i><i style="background:#263238" title="שחור"></i><small>2 צבע</small></div>
+<div class="pr"><b>₪55</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪50.60 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/d4.html" style="--c1:#c77dff;--c2:#7b2cbf;--c3:#3c096c"><div class="im"><img src="img/d4.jpg" alt="מגשי אלומיניום עם מכסה" loading="lazy"><span class="ctag">🥤 חד פעמי</span></div>
+<div class="bd"><h3>מגשי אלומיניום עם מכסה</h3><div class="unit">50 יחידות</div><div class="sw"><small>3 גודל</small></div>
+<div class="pr"><b>₪45</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪41.40 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a></div></section><section style="padding-top:10px"><div class="sh"><div><h2>🔪 סכינים וכלי מטבח</h2><p>סכינים, סטים וקרשי חיתוך למטבח מקצועי</p></div><a class="btn p" style="height:44px;background:linear-gradient(135deg,#ff9e00,#e85d04)" href="c/knife.html">לכל הקטגוריה ←</a></div>
+<div class="grid"><a class="pc" href="p/k1.html" style="--c1:#ff9e00;--c2:#e85d04;--c3:#9d0208"><div class="im"><img src="img/k1.jpg" alt="סכין שף נירוסטה" loading="lazy"><span class="ctag">🔪 סכינים וכלי מטבח</span></div>
+<div class="bd"><h3>סכין שף נירוסטה</h3><div class="unit">להב 20 ס״מ</div><div class="sw"><i style="background:#263238" title="שחורה · כללי"></i><i style="background:#1565c0" title="כחולה · דגים"></i><i style="background:#e53935" title="אדומה · בשר"></i><i style="background:#43a047" title="ירוקה · ירקות"></i><small>4 ידית</small></div>
+<div class="pr"><b>₪49</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪45.08 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/k2.html" style="--c1:#ff9e00;--c2:#e85d04;--c3:#9d0208"><div class="im"><img src="img/k2.jpg" alt="סט סכינים עם מעמד" loading="lazy"><span class="badge">מבצע</span><span class="ctag">🔪 סכינים וכלי מטבח</span></div>
+<div class="bd"><h3>סט סכינים עם מעמד</h3><div class="unit">5 חלקים</div><div class="sw"><i style="background:#b0bec5" title="נירוסטה"></i><i style="background:#263238" title="שחור"></i><small>2 מעמד</small></div>
+<div class="pr"><b>₪189</b><s>₪229</s></div>
+<div class="tier">📦 מ-10 יח׳: ₪173.88 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/k3.html" style="--c1:#ff9e00;--c2:#e85d04;--c3:#9d0208"><div class="im"><img src="img/k3.jpg" alt="קרש חיתוך מקצועי" loading="lazy"><span class="ctag">🔪 סכינים וכלי מטבח</span></div>
+<div class="bd"><h3>קרש חיתוך מקצועי</h3><div class="unit">50×30 ס״מ</div><div class="sw"><i style="background:#ffffff" title="לבן · כללי"></i><i style="background:#43a047" title="ירוק · ירקות"></i><i style="background:#1e88e5" title="כחול · דגים"></i><i style="background:#e53935" title="אדום · בשר"></i><i style="background:#fdd835" title="צהוב · עוף"></i><small>5 צבע</small></div>
+<div class="pr"><b>₪69</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪63.48 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a></div></section><section style="padding-top:10px"><div class="sh"><div><h2>🧻 נייר ומגבות</h2><p>מגבות נייר ונייר טואלט לעסקים ולמוסדות</p></div><a class="btn p" style="height:44px;background:linear-gradient(135deg,#52b788,#2d6a4f)" href="c/paper.html">לכל הקטגוריה ←</a></div>
+<div class="grid"><a class="pc" href="p/p1.html" style="--c1:#52b788;--c2:#2d6a4f;--c3:#1b4332"><div class="im"><img src="img/p1.jpg" alt="מגבות נייר תעשייתיות" loading="lazy"><span class="ctag">🧻 נייר ומגבות</span></div>
+<div class="bd"><h3>מגבות נייר תעשייתיות</h3><div class="unit">6 גלילים</div><div class="sw"><small>2 שכבות</small></div>
+<div class="pr"><b>₪39</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪35.88 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/p2.html" style="--c1:#52b788;--c2:#2d6a4f;--c3:#1b4332"><div class="im"><img src="img/p2.jpg" alt="נייר טואלט ג׳מבו" loading="lazy"><span class="ctag">🧻 נייר ומגבות</span></div>
+<div class="bd"><h3>נייר טואלט ג׳מבו</h3><div class="unit">12 גלילים</div><div class="sw"><small>2 שכבות</small></div>
+<div class="pr"><b>₪85</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪78.20 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a></div></section><section style="padding-top:10px"><div class="sh"><div><h2>🧤 אריזה וכפפות</h2><p>שקיות זבל וכפפות חד פעמיות</p></div><a class="btn p" style="height:44px;background:linear-gradient(135deg,#4cc9f0,#4361ee)" href="c/bags.html">לכל הקטגוריה ←</a></div>
+<div class="grid"><a class="pc" href="p/b1.html" style="--c1:#4cc9f0;--c2:#4361ee;--c3:#3a0ca3"><div class="im"><img src="img/b1.jpg" alt="שקיות זבל עבות" loading="lazy"><span class="ctag">🧤 אריזה וכפפות</span></div>
+<div class="bd"><h3>שקיות זבל עבות</h3><div class="unit">50 יחידות</div><div class="sw"><i style="background:#263238" title="שחור"></i><i style="background:#1e88e5" title="כחול"></i><i style="background:#eceff1" title="שקוף"></i><small>3 צבע</small></div>
+<div class="pr"><b>₪35</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪32.20 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a><a class="pc" href="p/b2.html" style="--c1:#4cc9f0;--c2:#4361ee;--c3:#3a0ca3"><div class="im"><img src="img/b2.jpg" alt="כפפות ניטריל" loading="lazy"><span class="badge n">חדש</span><span class="ctag">🧤 אריזה וכפפות</span></div>
+<div class="bd"><h3>כפפות ניטריל</h3><div class="unit">100 יחידות</div><div class="sw"><i style="background:#1e88e5" title="כחול"></i><i style="background:#263238" title="שחור"></i><small>2 צבע</small></div>
+<div class="pr"><b>₪29</b></div>
+<div class="tier">📦 מ-10 יח׳: ₪26.68 ליחידה</div><span class="more">לפרטים ולהזמנה ←</span></div></a></div></section>
 </div>
-
-<div class="ov" id="ov" role="dialog" aria-modal="true"><div class="md" id="md"></div></div>
-<aside class="dr" id="dr" aria-label="עגלת קניות"><div class="h">העגלה שלכם <button id="drx" aria-label="סגירה">✕</button></div><div class="items" id="items"></div><div class="f" id="foot"></div></aside>
-<div class="toast" id="toast"></div>
 <a class="panelfab" href="panel/?demo=wholesale"><i>🧠</i><div>לוח הבקרה החכם<small>מה קורה בחנות · דוגמה</small></div></a>
-<footer><div class="wrap">סחר פלוס היא חנות לדוגמה. האתר נבנה ב-<a href="https://nitairevivo.github.io/agentfeed/sites.html">AgentFeed</a>: אתרים לחנויות, עם לוח בקרה ומנתח AI · ניתאי <a href="tel:+972526760039">052-676-0039</a>
-<details style="margin-top:14px"><summary style="cursor:pointer">קרדיט לתמונות (Wikimedia Commons)</summary><ul style="margin:10px 18px 0;font:500 12px/1.7 Heebo;color:#9fb0c8"><li><a href="https://commons.wikimedia.org/wiki/File:Spray_bottle.jpg" target="_blank" rel="noopener">Spray bottle.jpg</a> · Hustvedt · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Blue_bucket_with_Bruce_hardwood_floor_cleaner.jpg" target="_blank" rel="noopener">Blue bucket with Bruce hardwood floor cleaner.jpg</a> · Thekohser · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:HK_Kao_Bleaches_2.JPG" target="_blank" rel="noopener">HK Kao Bleaches 2.JPG</a> · Meadohsum · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:VEB_Seifama_M%C3%BChli_Sp%C3%BClmittel_hinten.jpg" target="_blank" rel="noopener">VEB Seifama Mühli Spülmittel hinten.jpg</a> · Fryday · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Baby_wipes.jpg" target="_blank" rel="noopener">Baby wipes.jpg</a> · Headlock0225 · CC BY 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vasos_desechables_y_sus_tapas.jpg" target="_blank" rel="noopener">Vasos desechables y sus tapas.jpg</a> · Daniel Jim Carballido&lt; · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Paper_plates_-_isolated.png" target="_blank" rel="noopener">Paper plates - isolated.png</a> · Alanthebox · CC0</li><li><a href="https://commons.wikimedia.org/wiki/File:GianfrancoFrattini_Cutlery_Ricci_00.jpg" target="_blank" rel="noopener">GianfrancoFrattini Cutlery Ricci 00.jpg</a> · Ceccotti Collezioni · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:ChefsKnife.png" target="_blank" rel="noopener">ChefsKnife.png</a> · Ɱ · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Global_Knives.jpg" target="_blank" rel="noopener">Global Knives.jpg</a> · StuffOfInterest at en.wikipedia · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Chopping_Board.jpg" target="_blank" rel="noopener">Chopping Board.jpg</a> · Donovan Govan. · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Roll_of_Paper_Towels.jpg" target="_blank" rel="noopener">Roll of Paper Towels.jpg</a> · MrBeastRapper · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Toilet_paper_roll.jpg" target="_blank" rel="noopener">Toilet paper roll.jpg</a> · Cmann999 · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Black_garbage_bag.jpg" target="_blank" rel="noopener">Black garbage bag.jpg</a> · Wiki Farazi · Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Nitrile_Gloves_holder_20230316_110111.jpg" target="_blank" rel="noopener">Nitrile Gloves holder 20230316 110111.jpg</a> · Kiran891 · CC BY-SA 4.0</li></ul><p style="font:500 12px Heebo;color:#9fb0c8;margin-top:6px">התמונות להמחשה ואינן של מוצרי החנות. מגשי האלומיניום: איור.</p></details></div></footer>
-
-<script>
-(function () {
-  var WA = '972526760039';
-  var CATS = [['all', 'הכול', '✨'], ['clean', 'ניקיון', '🧴'], ['disp', 'חד פעמי', '🥤'], ['knife', 'סכינים ומטבח', '🔪'], ['paper', 'נייר ומגבות', '🧻'], ['bags', 'אריזה וכפפות', '🧤']];
-  // each product: id, category, name, unit, base price, was, badge, options [{name, values:[[label, colour|null, price delta]]}], description
-  var P = [
-    ['c1', 'clean', 'ספריי ניקוי רב תכליתי', 'בקבוק 750 מ״ל', 9.9, 12.9, '-23%', [{ n: 'ריח', v: [['לימון', '#ffd54f', 0], ['לבנדר', '#b39ddb', 0], ['אורן', '#66bb6a', 0], ['ללא ריח', '#eceff1', 0]] }, { n: 'אריזה', v: [['בקבוק', null, 0], ['קרטון 12', null, 99]] }], 'לכל המשטחים במטבח, בשירותים ובמשרד. לא משאיר כתמים.'],
-    ['c2', 'clean', 'נוזל רצפות מרוכז', 'גלון 4 ליטר', 29, 0, '', [{ n: 'ריח', v: [['אוקיינוס', '#4fc3f7', 0], ['פרחוני', '#f48fb1', 0], ['הדרים', '#ffb74d', 0]] }], 'מרוכז במיוחד: כוס אחת לדלי. מתאים גם למכונות שטיפה.'],
-    ['c3', 'clean', 'אקונומיקה', 'גלון 4 ליטר', 19, 0, '', [{ n: 'סוג', v: [['רגילה', null, 0], ['סמיכה', null, 3]] }], 'לחיטוי והלבנה. מתאימה למטבחים מקצועיים.'],
-    ['c4', 'clean', 'סבון כלים מרוכז', 'גלון 4 ליטר', 25, 29, 'מבצע', [{ n: 'ריח', v: [['לימון', '#ffd54f', 0], ['תפוח ירוק', '#9ccc65', 0], ['רימון', '#e57373', 0]] }], 'מסיר שומן גם במים קרים. למטבחים ולמסעדות.'],
-    ['c5', 'clean', 'מגבונים לחים לניקוי', 'חבילה של 80', 6.9, 0, '', [{ n: 'אריזה', v: [['חבילה', null, 0], ['קרטון 12', null, 69]] }], 'מגבונים לניקוי משטחים, במכסה נסגר.'],
-    ['d1', 'disp', 'כוסות חד פעמיות', '1,000 יחידות', 79, 99, '-20%', [{ n: 'גודל', v: [['180 מ״ל', null, -8], ['200 מ״ל', null, 0], ['250 מ״ל', null, 12]] }, { n: 'צבע', v: [['שקוף', '#e3f2fd', 0], ['לבן', '#ffffff', 0]] }], 'כוסות יציבות לשתייה קרה. מתאימות לאירועים ולמשרדים.'],
-    ['d2', 'disp', 'צלחות קרטון', '500 יחידות', 69, 0, '', [{ n: 'קוטר', v: [['18 ס״מ', null, -15], ['23 ס״מ', null, 0], ['26 ס״מ', null, 14]] }], 'צלחות קרטון חזקות שלא נספגות.'],
-    ['d3', 'disp', 'סכו״ם חד פעמי', '600 יחידות', 55, 0, 'חדש', [{ n: 'סוג', v: [['מעורב', null, 0], ['מזלגות', null, 0], ['כפות', null, 0], ['סכינים', null, 0]] }, { n: 'צבע', v: [['לבן', '#ffffff', 0], ['שחור', '#263238', 6]] }], 'סכו״ם עבה ונוח, באריזה מסודרת.'],
-    ['d4', 'disp', 'מגשי אלומיניום עם מכסה', '50 יחידות', 45, 0, '', [{ n: 'גודל', v: [['קטן', null, -10], ['בינוני', null, 0], ['גדול', null, 15]] }], 'לאריזת מנות, למשלוחים ולאירועים.'],
-    ['k1', 'knife', 'סכין שף נירוסטה', 'להב 20 ס״מ', 49, 0, '', [{ n: 'ידית', v: [['שחורה', '#263238', 0], ['כחולה', '#1565c0', 0], ['אדומה', '#e53935', 0]] }], 'להב נירוסטה חד וידית נוחה. צבע הידית לפי סוג המזון.'],
-    ['k2', 'knife', 'סט סכינים עם מעמד', '5 חלקים', 189, 229, 'מבצע', [{ n: 'מעמד', v: [['עץ טבעי', '#b07a46', 0], ['שחור', '#263238', 20]] }], 'חמש סכינים למטבח מקצועי ומעמד יציב.'],
-    ['k3', 'knife', 'קרש חיתוך מקצועי', '50×30 ס״מ', 69, 0, '', [{ n: 'צבע', v: [['לבן', '#ffffff', 0], ['ירוק', '#43a047', 0], ['כחול', '#1e88e5', 0], ['אדום', '#e53935', 0], ['צהוב', '#fdd835', 0]] }], 'קרש עבה ועמיד. צבעים להפרדה בין סוגי מזון.'],
-    ['p1', 'paper', 'מגבות נייר תעשייתיות', '6 גלילים', 39, 0, '', [{ n: 'שכבות', v: [['2 שכבות', null, 0], ['3 שכבות', null, 8]] }], 'גלילים גדולים, סופגים במיוחד.'],
-    ['p2', 'paper', 'נייר טואלט ג׳מבו', '12 גלילים', 85, 0, '', [{ n: 'שכבות', v: [['2 שכבות', null, 0], ['3 שכבות', null, 12]] }], 'גלילים גדולים למוסדות ולעסקים.'],
-    ['b1', 'bags', 'שקיות זבל עבות', '50 יחידות', 35, 0, '', [{ n: 'נפח', v: [['50 ליטר', null, -8], ['75 ליטר', null, -3], ['100 ליטר', null, 0]] }, { n: 'צבע', v: [['שחור', '#263238', 0], ['כחול', '#1e88e5', 0], ['שקוף', '#eceff1', 2]] }], 'שקיות עבות במיוחד שלא נקרעות.'],
-    ['b2', 'bags', 'כפפות ניטריל', '100 יחידות', 29, 0, 'חדש', [{ n: 'מידה', v: [['S', null, 0], ['M', null, 0], ['L', null, 0], ['XL', null, 0]] }, { n: 'צבע', v: [['כחול', '#1e88e5', 0], ['שחור', '#263238', 3]] }], 'כפפות חד פעמיות ללא אבקה, למזון ולניקיון.']
-  ].map(function (r) { return { id: r[0], cat: r[1], name: r[2], unit: r[3], price: r[4], was: r[5], badge: r[6], opts: r[7], desc: r[8], img: 'img/' + r[0] + '.jpg' }; });
-  var TIERS = [[1, 0], [10, .08], [25, .15]];   // quantity → discount
-  var $ = function (id) { return document.getElementById(id); };
-  var money = function (n) { return '₪' + (Math.round(n * 100) / 100).toLocaleString('he-IL', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
-  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
-  var cart = [];
-  try { cart = JSON.parse(localStorage.getItem('demo-wholesale-cart') || '[]'); } catch (e) {}
-  var save = function () { try { localStorage.setItem('demo-wholesale-cart', JSON.stringify(cart)); } catch (e) {} };
-  var disc = function (q) { var d = 0; TIERS.forEach(function (t) { if (q >= t[0]) d = t[1]; }); return d; };
-  var unitPrice = function (p, sel) { var x = p.price; p.opts.forEach(function (o, i) { x += o.v[sel[i]][2]; }); return Math.max(1, x); };
-  var cat = 'all', q = '';
-
-  // categories
-  $('shop').innerHTML = CATS.map(function (c) { return '<button class="cat' + (c[0] === 'all' ? ' on' : '') + '" data-c="' + c[0] + '"><i>' + c[2] + '</i>' + c[1] + '</button>'; }).join('');
-  $('shop').addEventListener('click', function (e) { var b = e.target.closest('.cat'); if (!b) return; cat = b.dataset.c;
-    [].forEach.call(document.querySelectorAll('.cat'), function (x) { x.classList.toggle('on', x === b); }); grid(); });
-  $('q').addEventListener('input', function (e) { q = e.target.value.trim(); grid(); });
-
-  function swatches(p) {
-    var o = p.opts.find(function (o) { return o.v.some(function (v) { return v[1]; }); });
-    if (!o) return '<small>' + p.opts.map(function (o) { return o.v.length + ' ' + o.n; }).join(' · ') + '</small>';
-    return o.v.slice(0, 5).map(function (v) { return '<i style="background:' + v[1] + '" title="' + esc(v[0]) + '"></i>'; }).join('') + '<small>' + o.v.length + ' ' + o.n + '</small>';
-  }
-  function grid() {
-    var list = P.filter(function (p) { return (cat === 'all' || p.cat === cat) && (!q || p.name.indexOf(q) >= 0 || p.unit.indexOf(q) >= 0); });
-    $('cnt').textContent = list.length + ' מוצרים';
-    $('grid').innerHTML = list.map(function (p) {
-      return '<article class="pc" data-id="' + p.id + '"><div class="im" data-open><img src="' + p.img + '" alt="' + esc(p.name) + '" loading="lazy">' +
-        (p.badge ? '<span class="badge' + (p.badge === 'חדש' ? ' n' : '') + '">' + p.badge + '</span>' : '') + '</div>' +
-        '<div class="bd"><h3 data-open>' + esc(p.name) + '</h3><div class="unit">' + esc(p.unit) + '</div><div class="sw">' + swatches(p) + '</div>' +
-        '<div class="pr"><b>' + money(p.price) + '</b>' + (p.was ? '<s>' + money(p.was) + '</s>' : '') + '</div>' +
-        '<div class="tier">📦 מ-10 יח׳: ' + money(p.price * (1 - TIERS[1][1])) + ' ליחידה</div>' +
-        '<button class="add" data-quick>🛒 הוספה לעגלה</button></div></article>'; }).join('') ||
-      '<p class="empty"><b>🔍</b>לא מצאנו מוצר כזה. נסו מילה אחרת.</p>';
-  }
-  $('grid').addEventListener('click', function (e) {
-    var card = e.target.closest('.pc'); if (!card) return; var p = P.find(function (x) { return x.id === card.dataset.id; });
-    if (e.target.closest('[data-open]')) return openP(p);
-    if (e.target.closest('[data-quick]')) {
-      // a product with real choices opens so they can be made; the rest goes straight in
-      if (p.opts.some(function (o) { return o.v.length > 1; })) return openP(p);
-      add(p, p.opts.map(function () { return 0; }), 1, card.querySelector('img'), e.target.closest('[data-quick]'));
-    }
-  });
-
-  // product window
-  var cur, sel, qty;
-  function openP(p) {
-    cur = p; sel = p.opts.map(function () { return 0; }); qty = 1; renderP(); $('ov').classList.add('on'); document.body.style.overflow = 'hidden';
-  }
-  function closeP() { $('ov').classList.remove('on'); document.body.style.overflow = ''; }
-  function renderP() {
-    var p = cur, u = unitPrice(p, sel), d = disc(qty);
-    $('md').innerHTML = '<div class="gi"><button class="x" data-x aria-label="סגירה">✕</button><img src="' + p.img + '" alt="' + esc(p.name) + '"></div>' +
-      '<div class="info"><div><div class="unit">' + esc(p.unit) + (p.badge ? ' · <b style="color:var(--sale)">' + p.badge + '</b>' : '') + '</div><h2>' + esc(p.name) + '</h2></div>' +
-      '<p class="desc">' + esc(p.desc) + '</p>' +
-      p.opts.map(function (o, i) { return '<div class="opt"><h4>' + o.n + ': <span>' + esc(o.v[sel[i]][0]) + '</span></h4><div class="chips">' +
-        o.v.map(function (v, j) { return '<button class="ch' + (j === sel[i] ? ' on' : '') + '" data-o="' + i + '" data-v="' + j + '">' + (v[1] ? '<i style="background:' + v[1] + '"></i>' : '') + esc(v[0]) +
-          (v[2] ? ' <small style="color:var(--dim)">' + (v[2] > 0 ? '+' : '−') + money(Math.abs(v[2])) + '</small>' : '') + '</button>'; }).join('') + '</div></div>'; }).join('') +
-      '<div class="opt"><h4>מחיר לפי כמות</h4><div class="tiers">' + TIERS.map(function (t, i) { var nx = TIERS[i + 1];
-        return '<div' + (disc(qty) === t[1] ? ' class="on"' : '') + '><span>' + (nx ? t[0] + '–' + (nx[0] - 1) : t[0] + '+') + ' יח׳</span><span>' + money(u * (1 - t[1])) + ' ליחידה' + (t[1] ? ' · ' + Math.round(t[1] * 100) + '% הנחה' : '') + '</span></div>'; }).join('') + '</div></div>' +
-      '<div class="tot">' + money(u * (1 - d) * qty) + ' <small>סה״כ ל-' + qty + ' יח׳' + (d ? ' · חסכתם ' + money(u * d * qty) : '') + '</small></div>' +
-      '<div class="qrow"><div class="qty"><button data-q="1" aria-label="עוד">+</button><input id="qv" value="' + qty + '" inputmode="numeric" aria-label="כמות"><button data-q="-1" aria-label="פחות">−</button></div>' +
-      '<button class="big" data-add>🛒 הוספה לעגלה</button></div></div>';
-  }
-  $('ov').addEventListener('click', function (e) {
-    if (e.target === $('ov') || e.target.closest('[data-x]')) return closeP();
-    var c = e.target.closest('.ch'); if (c) { sel[+c.dataset.o] = +c.dataset.v; return renderP(); }
-    var b = e.target.closest('[data-q]'); if (b) { qty = Math.max(1, qty + +b.dataset.q); return renderP(); }
-    if (e.target.closest('[data-add]')) { add(cur, sel.slice(), qty, $('md').querySelector('.gi img')); closeP(); }
-  });
-  $('ov').addEventListener('change', function (e) { if (e.target.id === 'qv') { qty = Math.max(1, parseInt(e.target.value, 10) || 1); renderP(); } });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeP(); $('dr').classList.remove('on'); } });
-
-  // cart
-  function key(id, s) { return id + ':' + s.join('-'); }
-  function label(p, s) { return p.opts.map(function (o, i) { return o.v[s[i]][0]; }).join(' · '); }
-  function add(p, s, n, img, btn) {
-    var k = key(p.id, s), line = cart.find(function (l) { return l.k === k; });
-    if (line) line.n += n; else cart.push({ k: k, id: p.id, s: s, n: n });
-    save(); draw(); fly(img);
-    toast('✓ נוסף לעגלה: ' + p.name + (label(p, s) ? ' (' + label(p, s) + ')' : ''));
-    if (btn) { btn.classList.add('ok'); btn.innerHTML = '✓ נוסף'; setTimeout(function () { btn.classList.remove('ok'); btn.innerHTML = '🛒 הוספה לעגלה'; }, 1400); }
-  }
-  function fly(img) {
-    if (!img) return; var r = img.getBoundingClientRect(), t = $('cartbtn').getBoundingClientRect(), f = document.createElement('img');
-    f.src = img.src; f.className = 'fly'; f.style.left = (r.left + r.width / 2 - 30) + 'px'; f.style.top = (r.top + r.height / 2 - 30) + 'px'; document.body.appendChild(f);
-    requestAnimationFrame(function () { requestAnimationFrame(function () { f.style.left = (t.left + 10) + 'px'; f.style.top = (t.top + 2) + 'px'; f.style.transform = 'scale(.3)'; f.style.opacity = '.4'; }); });
-    setTimeout(function () { f.remove(); var b = $('cartbtn'); b.classList.remove('bump'); void b.offsetWidth; b.classList.add('bump'); }, 700);
-  }
-  var tt; function toast(m) { var t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(tt); tt = setTimeout(function () { t.classList.remove('on'); }, 2200); }
-  function totals() {
-    var sum = 0, save_ = 0;
-    cart.forEach(function (l) { var p = P.find(function (x) { return x.id === l.id; }), u = unitPrice(p, l.s), d = disc(l.n); sum += u * (1 - d) * l.n; save_ += u * d * l.n; });
-    return { sum: sum, save: save_ };
-  }
-  function draw() {
-    var n = cart.reduce(function (a, l) { return a + l.n; }, 0); $('cn').textContent = n;
-    if (!cart.length) { $('items').innerHTML = '<div class="empty"><b>🛒</b>העגלה ריקה. בחרו מוצרים מהקטלוג.</div>'; $('foot').innerHTML = ''; return; }
-    $('items').innerHTML = cart.map(function (l, i) { var p = P.find(function (x) { return x.id === l.id; }), u = unitPrice(p, l.s), d = disc(l.n);
-      return '<div class="ci"><img src="' + p.img + '" alt=""><div><b>' + esc(p.name) + '</b><small>' + esc(label(p, l.s)) + (d ? ' · ' + Math.round(d * 100) + '% הנחת כמות' : '') + '</small>' +
-        '<div class="q"><button data-i="' + i + '" data-d="1">+</button><b>' + l.n + '</b><button data-i="' + i + '" data-d="-1">−</button></div><button class="rm" data-rm="' + i + '">הסרה</button></div>' +
-        '<div class="p">' + money(u * (1 - d) * l.n) + '</div></div>'; }).join('');
-    var t = totals(), left = Math.max(0, 500 - t.sum);
-    $('foot').innerHTML = (t.save ? '<div class="row" style="color:#047a5f"><span>חסכתם בהנחת כמות</span><span>' + money(t.save) + '</span></div>' : '') +
-      '<div class="prog"><i style="width:' + Math.min(100, t.sum / 5) + '%"></i></div><div class="free">' + (left ? 'עוד ' + money(left) + ' למשלוח חינם 🚚' : '🎉 המשלוח עליכם חינם') + '</div>' +
-      '<div class="row t"><span>סה״כ</span><span>' + money(t.sum) + '</span></div>' +
-      '<button class="wa" id="send">💬 שליחת ההזמנה בוואטסאפ</button><button class="pay" id="pay">💳 תשלום באשראי</button>' +
-      '<div class="note">באתר אמיתי מחברים כאן סליקה. בהדגמה, ההזמנה נשלחת בוואטסאפ.</div>';
-  }
-  $('items').addEventListener('click', function (e) {
-    var b = e.target.closest('[data-d]'), r = e.target.closest('[data-rm]');
-    if (b) { var l = cart[+b.dataset.i]; l.n = Math.max(0, l.n + +b.dataset.d); if (!l.n) cart.splice(+b.dataset.i, 1); }
-    if (r) cart.splice(+r.dataset.rm, 1);
-    if (b || r) { save(); draw(); }
-  });
-  $('foot').addEventListener('click', function (e) {
-    if (e.target.id === 'pay') return toast('💳 בהדגמה אין סליקה. באתר אמיתי מחברים סליקה ישראלית.');
-    if (e.target.id !== 'send') return;
-    var t = totals(), msg = 'היי! הזמנה מסחר פלוס (אתר לדוגמה):\n' + cart.map(function (l) { var p = P.find(function (x) { return x.id === l.id; });
-      return '• ' + p.name + (label(p, l.s) ? ' (' + label(p, l.s) + ')' : '') + ' × ' + l.n; }).join('\n') + '\nסה״כ: ' + money(t.sum);
-    window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(msg), '_blank');
-  });
-  $('cartbtn').addEventListener('click', function () { $('dr').classList.add('on'); });
-  $('drx').addEventListener('click', function () { $('dr').classList.remove('on'); });
-  grid(); draw();
-})();
-</script>
+<footer><div class="wrap"><div class="cols">
+  <div><b style="color:#fff;font-size:18px">סחר פלוס</b><br>סיטונאות לניקיון, חד פעמי ומטבח מקצועי<br>חנות לדוגמה. האתר נבנה ב-<a href="https://nitairevivo.github.io/agentfeed/sites.html">AgentFeed</a></div>
+  <div><a href="c/clean.html">ניקיון וחומרי ניקוי</a><br><a href="c/disp.html">חד פעמי</a><br><a href="c/knife.html">סכינים וכלי מטבח</a><br><a href="c/paper.html">נייר ומגבות</a><br><a href="c/bags.html">אריזה וכפפות</a><br></div>
+  <div>ניתאי · <a href="tel:+972526760039">052-676-0039</a><br><a href="panel/?demo=wholesale">לוח הבקרה של החנות</a></div>
+</div>
+<details style="margin-top:18px"><summary style="cursor:pointer">קרדיט לתמונות (Wikimedia Commons)</summary><ul style="margin:10px 18px 0;font:500 12px/1.7 Heebo;color:#a9a2d0"><li><a href="https://commons.wikimedia.org/wiki/File:Spray_bottle.jpg" target="_blank" rel="noopener">Spray bottle.jpg</a> · Hustvedt · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Blue_bucket_with_Bruce_hardwood_floor_cleaner.jpg" target="_blank" rel="noopener">Blue bucket with Bruce hardwood floor cleaner.jpg</a> · Thekohser · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:HK_Kao_Bleaches_2.JPG" target="_blank" rel="noopener">HK Kao Bleaches 2.JPG</a> · Meadohsum · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:VEB_Seifama_M%C3%BChli_Sp%C3%BClmittel_hinten.jpg" target="_blank" rel="noopener">VEB Seifama Mühli Spülmittel hinten.jpg</a> · Fryday · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Baby_wipes.jpg" target="_blank" rel="noopener">Baby wipes.jpg</a> · Headlock0225 · CC BY 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Vasos_desechables_y_sus_tapas.jpg" target="_blank" rel="noopener">Vasos desechables y sus tapas.jpg</a> · Daniel Jim Carballido&lt; · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Paper_plates_-_isolated.png" target="_blank" rel="noopener">Paper plates - isolated.png</a> · Alanthebox · CC0</li><li><a href="https://commons.wikimedia.org/wiki/File:GianfrancoFrattini_Cutlery_Ricci_00.jpg" target="_blank" rel="noopener">GianfrancoFrattini Cutlery Ricci 00.jpg</a> · Ceccotti Collezioni · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:ChefsKnife.png" target="_blank" rel="noopener">ChefsKnife.png</a> · Ɱ · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Global_Knives.jpg" target="_blank" rel="noopener">Global Knives.jpg</a> · StuffOfInterest at en.wikipedia · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Chopping_Board.jpg" target="_blank" rel="noopener">Chopping Board.jpg</a> · Donovan Govan. · CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Roll_of_Paper_Towels.jpg" target="_blank" rel="noopener">Roll of Paper Towels.jpg</a> · MrBeastRapper · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Toilet_paper_roll.jpg" target="_blank" rel="noopener">Toilet paper roll.jpg</a> · Cmann999 · CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Black_garbage_bag.jpg" target="_blank" rel="noopener">Black garbage bag.jpg</a> · Wiki Farazi · Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Nitrile_Gloves_holder_20230316_110111.jpg" target="_blank" rel="noopener">Nitrile Gloves holder 20230316 110111.jpg</a> · Kiran891 · CC BY-SA 4.0</li></ul>
+<p style="font:500 12px Heebo;color:#a9a2d0;margin-top:6px">התמונות להמחשה ואינן של מוצרי החנות. מגשי האלומיניום: איור.</p></details></div></footer>
+<script>window.SHOP={"name": "סחר פלוס", "wa": "972526760039", "free": 500, "base": "", "tiers": [[1, 0.0], [10, 0.08], [25, 0.15]], "products": [{"id": "c1", "name": "ספריי ניקוי רב תכליתי", "price": 9.9, "opts": [["ריח", [["לימון", "#ffd54f", 0], ["לבנדר", "#b39ddb", 0], ["אורן", "#66bb6a", 0], ["ללא ריח", "#eceff1", 0]]], ["אריזה", [["בקבוק בודד", null, 0], ["קרטון 12 בקבוקים", null, 99]]]], "img": "img/c1.jpg"}, {"id": "c2", "name": "נוזל רצפות מרוכז", "price": 29, "opts": [["ריח", [["אוקיינוס", "#4fc3f7", 0], ["פרחוני", "#f48fb1", 0], ["הדרים", "#ffb74d", 0]]]], "img": "img/c2.jpg"}, {"id": "c3", "name": "אקונומיקה", "price": 19, "opts": [["סוג", [["רגילה", null, 0], ["סמיכה, נצמדת לקירות", null, 3]]]], "img": "img/c3.jpg"}, {"id": "c4", "name": "סבון כלים מרוכז", "price": 25, "opts": [["ריח", [["לימון", "#ffd54f", 0], ["תפוח ירוק", "#9ccc65", 0], ["רימון", "#e57373", 0]]]], "img": "img/c4.jpg"}, {"id": "c5", "name": "מגבונים לחים לניקוי", "price": 6.9, "opts": [["אריזה", [["חבילה בודדת", null, 0], ["קרטון 12 חבילות", null, 69]]]], "img": "img/c5.jpg"}, {"id": "d1", "name": "כוסות חד פעמיות", "price": 79, "opts": [["גודל", [["180 מ״ל", null, -8], ["200 מ״ל", null, 0], ["250 מ״ל", null, 12]]], ["צבע", [["שקוף", "#e3f2fd", 0], ["לבן", "#ffffff", 0]]]], "img": "img/d1.jpg"}, {"id": "d2", "name": "צלחות קרטון", "price": 69, "opts": [["קוטר", [["18 ס״מ", null, -15], ["23 ס״מ", null, 0], ["26 ס״מ", null, 14]]]], "img": "img/d2.jpg"}, {"id": "d3", "name": "סכו״ם חד פעמי", "price": 55, "opts": [["סוג", [["מעורב", null, 0], ["מזלגות", null, 0], ["כפות", null, 0], ["סכינים", null, 0]]], ["צבע", [["לבן", "#ffffff", 0], ["שחור", "#263238", 6]]]], "img": "img/d3.jpg"}, {"id": "d4", "name": "מגשי אלומיניום עם מכסה", "price": 45, "opts": [["גודל", [["קטן · 0.5 ליטר", null, -10], ["בינוני · 1 ליטר", null, 0], ["גדול · 2 ליטר", null, 15]]]], "img": "img/d4.jpg"}, {"id": "k1", "name": "סכין שף נירוסטה", "price": 49, "opts": [["ידית", [["שחורה · כללי", "#263238", 0], ["כחולה · דגים", "#1565c0", 0], ["אדומה · בשר", "#e53935", 0], ["ירוקה · ירקות", "#43a047", 0]]]], "img": "img/k1.jpg"}, {"id": "k2", "name": "סט סכינים עם מעמד", "price": 189, "opts": [["מעמד", [["נירוסטה", "#b0bec5", 0], ["שחור", "#263238", 20]]]], "img": "img/k2.jpg"}, {"id": "k3", "name": "קרש חיתוך מקצועי", "price": 69, "opts": [["צבע", [["לבן · כללי", "#ffffff", 0], ["ירוק · ירקות", "#43a047", 0], ["כחול · דגים", "#1e88e5", 0], ["אדום · בשר", "#e53935", 0], ["צהוב · עוף", "#fdd835", 0]]]], "img": "img/k3.jpg"}, {"id": "p1", "name": "מגבות נייר תעשייתיות", "price": 39, "opts": [["שכבות", [["2 שכבות", null, 0], ["3 שכבות · סופג במיוחד", null, 8]]]], "img": "img/p1.jpg"}, {"id": "p2", "name": "נייר טואלט ג׳מבו", "price": 85, "opts": [["שכבות", [["2 שכבות", null, 0], ["3 שכבות", null, 12]]]], "img": "img/p2.jpg"}, {"id": "b1", "name": "שקיות זבל עבות", "price": 35, "opts": [["נפח", [["50 ליטר", null, -8], ["75 ליטר", null, -3], ["100 ליטר", null, 0]]], ["צבע", [["שחור", "#263238", 0], ["כחול", "#1e88e5", 0], ["שקוף", "#eceff1", 2]]]], "img": "img/b1.jpg"}, {"id": "b2", "name": "כפפות ניטריל", "price": 29, "opts": [["מידה", [["S", null, 0], ["M", null, 0], ["L", null, 0], ["XL", null, 0]]], ["צבע", [["כחול", "#1e88e5", 0], ["שחור", "#263238", 3]]]], "img": "img/b2.jpg"}]};</script>
+<script src="store.js"></script>
 </body></html>
