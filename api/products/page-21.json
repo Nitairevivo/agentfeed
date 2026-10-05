@@ -6,48 +6,6 @@
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-22.json",
  "products": [
   {
-   "id": "4586",
-   "title": "טרופיקלין מרכך קיווי & חמאת קקאו TropiClean Conditioner Kiwi & Cocoa Butter",
-   "description": "טרופיקלין מרכך לכלבים קיווי & חמאת קקאו TropiClean Conditioner Kiwi & Cocoa Butter",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%9e%d7%a8%d7%9b%d7%9a-%d7%a7%d7%99%d7%95%d7%95%d7%99-%d7%97%d7%9e%d7%90%d7%aa-%d7%a7%d7%a7%d7%90%d7%95-tropiclean-conditioner-kiwi-cocoa-b/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-מרכך-קיווי-חמאת-קקאו-TropiClean-Conditioner-Kiwi-Cocoa-Butter.jpg",
-   "condition": "new",
-   "price": "59.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4586%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4586",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4586/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4586/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4586",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4586%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4586",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4586%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4586",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F%20%D7%9E%D7%A8%D7%9B%D7%9A%20%D7%A7%D7%99%D7%95%D7%95%D7%99%20%26%20%D7%97%D7%9E%D7%90%D7%AA%20%D7%A7%D7%A7%D7%90%D7%95%20TropiClean%20Conditioner%20Kiwi%20%26%20Cocoa%20Butter%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
    "id": "4585",
    "title": "טרופיקלין מרכך ליים & חמאת קקאו TropiClean Conditioner Lime & Cocoa Butter",
    "description": "טרופיקלין מרכך לכלב ליים & חמאת קקאו TropiClean Conditioner Lime & Cocoa Butter",
@@ -2090,6 +2048,48 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%A8%D7%A1%D7%98%20%D7%A6%E2%80%99%D7%95%D7%99%D7%A1%20/%201st%20Choice%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%2011%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "3726",
+   "title": "פירסט צ’ויס / First Choice בוגר גזע בינוני 14 ק”ג",
+   "description": "פירסט צ’ויס  /  1 st  Choice  עוף  מזון לכלבים  מגזע בינוני וגדול ששוקלים 10 ק”ג ומעלה, מתכון טעים במיוחד שמותאם לכלבים בוגרים צעירים בגילאי 14 חודשים ועד 6 שנים. פורמולה על בסיס עוף, אורז וגריסים. \nאוכל כלבים ברמת סופר פרמיום תוצרת קנדה.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%a8%d7%a1%d7%98-%d7%a6%d7%95%d7%99%d7%a1-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-15-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-First-Choice-בוגר-גזע-בינוני-14-קג.jpg",
+   "condition": "new",
+   "price": "269.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3726%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3726",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3726/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3726/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#3726",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3726%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3726",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3726%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3726",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%A8%D7%A1%D7%98%20%D7%A6%E2%80%99%D7%95%D7%99%D7%A1%20/%20First%20Choice%20%D7%91%D7%95%D7%92%D7%A8%20%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {
