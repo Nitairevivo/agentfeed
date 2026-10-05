@@ -59,7 +59,7 @@
     if (b || r) { save(); draw(); }
   });
   $('foot').addEventListener('click', function (e) {
-    if (e.target.id === 'pay') return toast('💳 בהדגמה אין סליקה. באתר אמיתי אפשר לחבר סליקה ישראלית.');
+    if (e.target.id === 'pay') return checkout();
     if (e.target.id !== 'send') return;
     var t = totals(), msg = 'היי! הזמנה מ' + S.name + ' (אתר לדוגמה):\n' + cart.map(function (l) { var p = byId(l.id);
       return '• ' + p.name + ' (' + label(p, l.s) + ') × ' + l.n; }).join('\n') + '\nסה״כ: ' + money(t.sum);
@@ -71,6 +71,70 @@
     save(); draw(); fly(img); toast('✓ נוסף לעגלה: ' + p.name + ' (' + label(p, sel) + ')');
   }
   draw();
+
+  // Card payment. The cart sends ids, options and quantities; the server prices
+  // them itself and asks the payment company for a page. The card is typed only
+  // there. In this demo there is no account yet, so the server answers with a
+  // pretend page that says so plainly.
+  var API = S.api || 'https://agentfeed-plum.vercel.app/api/panel', SITE = S.site || 'demo-wholesale';
+  function sheet(html) {
+    var o = $('co'); if (!o) { document.body.insertAdjacentHTML('beforeend', '<div class="co" id="co" role="dialog" aria-modal="true"><div class="cobox" id="cobox"></div></div>'); o = $('co');
+      o.addEventListener('click', function (e) { if (e.target === o || e.target.closest('[data-x]')) shut(); }); }
+    $('cobox').innerHTML = html; o.classList.add('on'); closeCart();
+  }
+  function shut() { var o = $('co'); if (o) o.classList.remove('on'); history.replaceState(null, '', location.pathname); }
+  function call(op, method, body, q) {
+    return fetch(API + '?op=' + op + (q || ''), method === 'POST' ? { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) } : {})
+      .then(function (r) { return r.json().then(function (d) { if (!r.ok) throw new Error(d.error || r.status); return d; }); });
+  }
+  function summary() {
+    var t = totals();
+    return '<div class="cosum">' + cart.map(function (l) { var p = byId(l.id), u = unit(p, l.s) * (1 - disc(l.n));
+      return '<div><span>' + esc(p.name) + ' <small>' + esc(label(p, l.s)) + ' ×' + l.n + '</small></span><b>' + money(u * l.n) + '</b></div>'; }).join('') +
+      '<div class="tot"><span>לתשלום</span><b>' + money(t.sum) + '</b></div></div>';
+  }
+  function checkout() {
+    if (!cart.length) return toast('העגלה ריקה');
+    sheet('<button class="cox" data-x aria-label="סגירה">✕</button><h3>💳 תשלום מאובטח באשראי</h3>' + summary() +
+      '<form id="cof"><label>שם מלא<input name="name" required maxlength="60" autocomplete="name"></label>' +
+      '<label>טלפון<input name="phone" required maxlength="20" inputmode="tel" autocomplete="tel" pattern="[0-9+\\- ]{9,20}"></label>' +
+      '<button class="copay" type="submit">המשך לתשלום ←</button><p class="cosafe">🔒 פרטי הכרטיס מוקלדים רק בעמוד של חברת הסליקה. האתר לא רואה אותם.</p></form>');
+    $('cof').addEventListener('submit', function (e) {
+      e.preventDefault(); var f = e.target, b = f.querySelector('button'); b.disabled = true; b.textContent = 'מכין את עמוד התשלום…';
+      call('pay', 'POST', { site: SITE, lines: cart.map(function (l) { return { id: l.id, s: l.s, n: l.n }; }),
+        customer: { name: f.name.value, phone: f.phone.value }, back: location.href.split('?')[0] })
+        .then(function (d) { location.href = d.url; })
+        .catch(function (err) { b.disabled = false; b.textContent = 'המשך לתשלום ←'; toast('לא הצלחנו לפתוח את עמוד התשלום. נסו שוב או הזמינו בוואטסאפ.'); });
+    });
+  }
+  function mockPage(id) {
+    call('order', 'GET', null, '&site=' + SITE + '&id=' + id).then(function (o) {
+      sheet('<div class="mockbar">הדמיה: כך נראה עמוד התשלום. לא יורד כסף ואין להקליד כרטיס אמיתי.</div>' +
+        '<h3>עמוד התשלום של חברת הסליקה</h3><div class="cosum"><div class="tot"><span>' + esc(S.name) + '</span><b>' + money(o.total) + '</b></div></div>' +
+        '<div class="fakecard"><div>•••• •••• •••• 4242</div><div><span>12/29</span><span>•••</span></div></div>' +
+        '<button class="copay" id="mok">אישור תשלום (הדמיה)</button><button class="cocan" data-x>ביטול</button>');
+      $('mok').addEventListener('click', function () { this.disabled = true;
+        call('mockpay', 'POST', { site: SITE, id: id }).then(function () { location.href = location.pathname + '?paid=' + id; })
+          .catch(function () { toast('משהו השתבש. נסו שוב.'); }); });
+    }).catch(function () { toast('ההזמנה לא נמצאה'); });
+  }
+  function thanks(id, tries) {
+    call('order', 'GET', null, '&site=' + SITE + '&id=' + id).then(function (o) {
+      if (o.status === 'pending' && tries < 6) return setTimeout(function () { thanks(id, tries + 1); }, 2000);
+      var ok = o.status === 'paid';
+      if (ok) { cart = []; save(); draw(); }
+      sheet('<button class="cox" data-x aria-label="סגירה">✕</button><div class="coicon">' + (ok ? '🎉' : '⏳') + '</div><h3>' +
+        (ok ? 'תודה! התשלום התקבל' : 'התשלום עוד לא אושר') + '</h3>' +
+        '<p class="cop">' + (ok ? 'מספר הזמנה <b>' + esc(id) + '</b>. ההזמנה כבר אצלנו ונחזור אליכם לתיאום משלוח.' : 'אם חויבתם, ההזמנה תתעדכן תוך כמה דקות. מספר הזמנה ' + esc(id) + '.') +
+        (o.mock ? '<br><small>(זו הדמיה, לא ירד כסף.)</small>' : '') + '</p>' +
+        '<div class="cosum">' + o.lines.map(function (l) { return '<div><span>' + esc(l.name) + ' <small>' + esc(l.label) + ' ×' + l.n + '</small></span></div>'; }).join('') +
+        '<div class="tot"><span>סה״כ</span><b>' + money(o.total) + '</b></div></div><button class="copay" data-x>המשך לגלוש</button>');
+    }).catch(function () { toast('לא הצלחנו לבדוק את ההזמנה'); });
+  }
+  var qs = new URLSearchParams(location.search), oid = function (k) { var v = qs.get(k); return v && /^O[A-Z0-9]{6,20}$/.test(v) ? v : null; };
+  if (oid('mockpay')) mockPage(oid('mockpay'));
+  else if (oid('paid')) thanks(oid('paid'), 0);
+  else if (oid('failed')) sheet('<button class="cox" data-x aria-label="סגירה">✕</button><div class="coicon">😕</div><h3>התשלום לא עבר</h3><p class="cop">לא חויבתם. העגלה נשמרה, אפשר לנסות שוב או להזמין בוואטסאפ.</p><button class="copay" data-x>חזרה לחנות</button>');
 
   // the product page
   var host = $('buybox'); if (!host) return;

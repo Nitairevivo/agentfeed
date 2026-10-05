@@ -1,10 +1,178 @@
 {
  "page": 23,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-24.json",
  "products": [
+  {
+   "id": "2753",
+   "title": "🐟 טייסט אוף דה ווילד גורים סלמון 12.2 ק”ג | Taste Of The Wild Pacific Stream Puppy",
+   "description": "תזונה ימית מובחרת ומאוזנת עם  טייסט אוף דה ווילד גורים סלמון , המבוססת על סלמון טרי ומעושן כחלבון יחיד מן החי. פורמולה ללא דגנים המהווה  מזון היפואלרגני לגורי כלבים  בעלי עור רגיש או נטייה לאלרגיות מזון, המסייעת להתפתחות תקינה ופרווה זוהרת. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  סלמון, קמח דגי ים, בטטות, אפונה, תפוחי אדמה, שמן קנולה, חלבון אפונה, סלמון מעושן, שמן סלמון (מקור ל-DHA), עגבניות, אוכמניות ופטל. \n \n \n 🎯  יתרון מרכזי:  חלבון דגים עדין והיפואלרגני עשיר בחומצות שומן אומגה 3 ו-DHA, התומך בהתפתחות קוגניטיבית בריאה ומונע גירויי עור וגרד בגורים. \n \n \n 🩺  התוויה / ייעוד:  גורי כלבים מכל הגזעים, גורים בעלי עור רגיש, אלרגיות לעוף או בקר, וגורים בעלי קיבה עדינה במיוחד.",
+   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-גורים-סלמון-13-קג.jpg",
+   "condition": "new",
+   "price": "299.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2753",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2753/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2753/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#2753",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2753",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2753",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%9F%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Pacific%20Stream%20Puppy%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "2751",
+   "title": "🐾 טייסט אוף דה ווילד גורים ביזון וצבי 12.2 ק”ג | Taste Of The Wild High Prairie Puppy",
+   "description": "פתיחה מושלמת לחיים בריאים עם  טייסט אוף דה ווילד גורים ביזון וצבי , המשלבת בשר ביזון וצבי צלויים בכופתיות קטנות המותאמות במיוחד לגורים. פורמולה ללא דגנים המספקת  מזון אולטרה פרימיום לגורי כלבים  מכל הגזעים, התומכת בצמיחה מאוזנת, חיזוק מערכת החיסון ופיתוח שרירים חזקים. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר ביזון, קמח כבש, בטטות, חלבון ביצה, חלבון אפונה, אפונה, תפוחי אדמה, שומן עוף, בשר צבי צלוי, ביזון צלוי, בשר בקר, שמן סלמון (מקור ל-DHA), עגבניות ופירות יער. \n \n \n 🎯  יתרון מרכזי:  מכיל שמן סלמון עשיר ב-DHA להתפתחות קוגניטיבית תקינה וראייה חדה, לצד יחס סידן-זרחן מדויק לבניית עצמות ושיניים חזקות. \n \n \n 🩺  התוויה / ייעוד:  גורי כלבים מגמילה ועד גיל שנה מכל הגזעים, וכן נקבות בהריון או מניקות הזקוקות לרמת אנרגיה גבוהה.",
+   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%91%d7%99%d7%96%d7%95%d7%9f-%d7%95%d7%a6%d7%91%d7%99-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-גורים-ביזון-וצבי-13-קג.jpg",
+   "condition": "new",
+   "price": "299.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2751%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2751",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2751/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2751/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#2751",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2751%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2751",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2751%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2751",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%BE%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%91%D7%99%D7%96%D7%95%D7%9F%20%D7%95%D7%A6%D7%91%D7%99%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20High%20Prairie%20Puppy%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "69908",
+   "title": "Lavender חול טופו Kind Pet לחתולים בריח לבנדר – קרטון חיסכון 8 שקיות (20 ק”ג) נשטף באסלה 🚽",
+   "description": "חול טופו  איכותי מבית Kind Pet בריח לבנדר מרגיע, המעניק את הפתרון המושלם, הנקי והנוח ביותר להיגיינת ארגז החול של החתול שלכם. הנוסחה המתקדמת מתגבשת בשניות, מנטרלת ריחות לא נעימים באופן טבעי ומאפשרת פינוי מהיר ונוח ישירות לאסלה ללא מאמץ. \n \n \n 📦  תכולה מדויקת:  קרטון חיסכון המכיל 8 שקיות של 2.5 ק”ג כל אחת (סך הכל 20 ק”ג). \n \n \n 🚽  ידידותי לסביבה:  מתמוסס במים ונשטף באסלה בקלות ובבטחה. \n \n \n 🚫  ללא אבק:  99.9% נקי מאבק לשמירה על דרכי הנשימה של החתול וניקיון סביבת הארגז. \n \n \n 💜  ניחוח לבנדר מרגיע:  מנטרל ריחות אמוניה קשים ומפיץ ניחוח עדין ונעים בבית. \n \n \n  🚚  שימו לב:  בשל משקל המוצר (20 ק”ג) וגודלו, הוא נשלח כ”חבילה סגורה”. לא ניתן להוסיף מוצרים נוספים לאותה חבילה.",
+   "link": "https://closetonature.co.il/product/kind-pet-tofu-cat-litter-lavender-bulk-carton/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/kind-pet-tofu-cat-litter-lavender-bulk-carton-600x600-1.jpg",
+   "condition": "new",
+   "price": "200.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69908%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69908",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69908/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69908/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#69908",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69908%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69908",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69908%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69908",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Lavender%20%D7%97%D7%95%D7%9C%20%D7%98%D7%95%D7%A4%D7%95%20Kind%20Pet%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%A8%D7%99%D7%97%20%D7%9C%D7%91%D7%A0%D7%93%D7%A8%20%E2%80%93%20%D7%A7%D7%A8%D7%98%D7%95%D7%9F%20%D7%97%D7%99%D7%A1%D7%9B%D7%95%D7%9F%208%20%D7%A9%D7%A7%D7%99%D7%95%D7%AA%20%2820%20%D7%A7%E2%80%9D%D7%92%29%20%D7%A0%D7%A9%D7%98%D7%A3%20%D7%91%D7%90%D7%A1%D7%9C%D7%94%20%F0%9F%9A%BD%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "68528",
+   "title": "🐶 הילס סיינס פלאן לגורי כלבים מגזע קטן וזעיר עוף 6 ק”ג | Hill’s Science Plan Puppy Small & Mini Chicken",
+   "description": "מזון יבש סופר פרימיום מלא ומאוזן של חברת  הילס (Hill’s Science Plan)  לגורי כלבים מגזע קטן וזעיר באריזת  6 ק”ג  מקורית. הפורמולה פותחה במיוחד כדי להבטיח קבלת מוצר מותאם אישית לתקופת הצמיחה הקריטית מהגמילה ועד גיל שנה, המעניק את כל האנרגיה, הויטמינים והרכיבים התזונתיים המובילים להתפתחות בריאה, חיוניות מקסימלית ומבנה גוף חזק. \n \n \n 🍗  100% תזונה מאוזנת  המבוססת על בשר עוף משובח כרכיב מרכזי לטעימות מעולה ובניית מסת שריר. \n \n \n 🛡️ שילוב נוגדי חמצון מוכחים קלינית וויטמינים חיוניים לשמירה על מערכת החיסון של הגור. \n \n \n 🌱 טכנולוגיית ActivBiome+ עם תערובת פרה-ביוטיקה ייחודית לעיכול קל וליציאות תקינות. \n \n \n 🚫 מיוצר ללא חומרים משמרים סינתטיים, ללא צבעי מאכל וללא חומרי טעם מלאכותיים.",
+   "link": "https://closetonature.co.il/product/hills-science-plan-puppy-small-mini-chicken-6kg/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/06/hills-science-plan-puppy-small-mini-chicken-6kg.jpg",
+   "condition": "new",
+   "price": "169.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D68528%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=68528",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/68528/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/68528/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#68528",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D68528%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=68528",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D68528%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=68528",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%B6%20%D7%94%D7%99%D7%9C%D7%A1%20%D7%A1%D7%99%D7%99%D7%A0%D7%A1%20%D7%A4%D7%9C%D7%90%D7%9F%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%20%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%A7%D7%98%D7%9F%20%D7%95%D7%96%D7%A2%D7%99%D7%A8%20%D7%A2%D7%95%D7%A3%206%20%D7%A7%E2%80%9D%D7%92%20%7C%20Hill%E2%80%99s%20Science%20Plan%20Puppy%20Small%20%26%20Mini%20Chicken%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "65790",
    "title": "חול טופו Kind Pet לחתולים – קרטון חיסכון 8 שקיות (20 ק”ג) נשטף באסלה 🚽",
@@ -1925,174 +2093,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%93%D7%99%D7%9D%20%D7%9C%D7%90%D7%99%D7%9E%D7%95%D7%9F%20%D7%92%D7%95%D7%A8%D7%99%D7%9D%20Trust%20%D7%92%E2%80%99%D7%9E%D7%91%D7%95%2060%2A60%20%E2%80%93%20%D7%9E%D7%91%D7%97%D7%A8%20%D7%9E%D7%90%D7%A8%D7%96%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "41851",
-   "title": "אולטרה פאט חול לחתולים קריסטל בניחוח לוונדר 10 יח’ UltraPet",
-   "description": "אולטרה פאט חול לחתולים קריסטל בניחוח לוונדר UltraPet” \n  חול לחתולים קריסטל בניחוח לוונדר, מוצר מהפכני הידוע ביכולת הספיגה הגבוהה שלו ובתכונותיו מונעות ריחות. החול הידידותי לסביבה מבטיח סביבה נקייה ורעננה, המאופיין בגרגיריו דמויי הגביש שסופגים במהירות שתן ומבטלים ריחות. עם היכולת לספוג נוזלים כמעט שווה למשקלו, רק שתי אריזות של חול קריסטל יכולות להחזיק עד שלושה שבועות בארגז חול, ומספקות בקרת ריחות לאורך זמן וניקיון לחלל שלך. ” \n מארז 10 יחידות ב- 169 ₪ כולל משלוח   \n העתק/י את הקוד קופון   CAT_FREE   לקבלת משלוח חינם",
-   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%94-%d7%a4%d7%90%d7%98-%d7%97%d7%95%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a7%d7%a8%d7%99%d7%a1%d7%98%d7%9c-%d7%91%d7%a0%d7%99%d7%97%d7%95%d7%97-%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/06/אולטרה-פאט-חול-לחתולים-קריסטל-בניחוח-לוונדר-UltraPet.jpg",
-   "condition": "new",
-   "price": "169.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41851%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41851",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41851/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41851/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#41851",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41851%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41851",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41851%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41851",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%9C%D7%98%D7%A8%D7%94%20%D7%A4%D7%90%D7%98%20%D7%97%D7%95%D7%9C%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C%20%D7%91%D7%A0%D7%99%D7%97%D7%95%D7%97%20%D7%9C%D7%95%D7%95%D7%A0%D7%93%D7%A8%2010%20%D7%99%D7%97%E2%80%99%20UltraPet%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "41855",
-   "title": "כף חול לחתולים נירוסטה פרימיום לארגז חול פלמינגו",
-   "description": "כף חול לחתולים נירוסטה פרימיום פלמינגו  \n \n \n \n \n \n \n \n \n \n \n \n \n הכירו את כף לניקוי חול מתגבש – הכלי האולטימטיבי לשמירה על הניקיון בארגז החול של החתול שלכם. מעוצבת תוך מחשבה על עמידות ויעילות, כף זו מסירה ללא מאמץ גושים וגבישים מוקשים מהחול. לזכור לשטוף באופן קבוע את ארגז החול ולהחליף את החול להיגיינה אופטימלית. \n \n \n \n \n \n \n \n \n \n \n \n \n אורך: 35 ס”מ.",
-   "link": "https://closetonature.co.il/product/%d7%9b%d7%a3-%d7%97%d7%95%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a0%d7%99%d7%a8%d7%95%d7%a1%d7%98%d7%94-%d7%a4%d7%a8%d7%99%d7%9e%d7%99%d7%95%d7%9d-%d7%9c%d7%90%d7%a8%d7%92%d7%96-%d7%97/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/06/כף-חול-לחתולים-נירוסטה-פרימיום-לארגז-חול-פלמינגו.jpg",
-   "condition": "new",
-   "price": "65.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41855%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41855",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41855/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41855/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#41855",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41855%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41855",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41855%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41855",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9B%D7%A3%20%D7%97%D7%95%D7%9C%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D%20%D7%9C%D7%90%D7%A8%D7%92%D7%96%20%D7%97%D7%95%D7%9C%20%D7%A4%D7%9C%D7%9E%D7%99%D7%A0%D7%92%D7%95%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "41753",
-   "title": "אוכל לכלב אלפא ספיריט פרימל רבל פארם 1 ק”ג",
-   "description": "אוכל לכלב אלפא ספיריט פרימל רבל פארם 1 ק”ג  \n מזון מלא ומאוזן לכלבים בוגרים מכל הגזעים. מכיל 65% רכיבים טריים – בשר עוף טרי ודגים טריים \nאינו מכיל תוספים מלאכותיים כמו משמרים, צבעי מאכל וחומרי טעם וריח. \n רכיבים: בשר עוף טרי 45%, דגים טריים 20%, אורז, פולפת סלק, שמרים (Saccharomyces Cerevisiae), גזר, תפוחים, היקורי, רוזמרין, כורכום.",
-   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%9c%d7%a4%d7%90-%d7%a1%d7%a4%d7%99%d7%a8%d7%99%d7%98-%d7%a4%d7%a8%d7%99%d7%9e%d7%9c-%d7%a8%d7%91%d7%9c-%d7%a4%d7%90%d7%a8%d7%9d-1-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/06/אוכל-לכלב-אלפא-ספיריט-פרימל-רבל-פארם-1-קג.jpg",
-   "condition": "new",
-   "price": "48.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41753",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41753/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41753/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#41753",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41753",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41753",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%90%D7%9C%D7%A4%D7%90%20%D7%A1%D7%A4%D7%99%D7%A8%D7%99%D7%98%20%D7%A4%D7%A8%D7%99%D7%9E%D7%9C%20%D7%A8%D7%91%D7%9C%20%D7%A4%D7%90%D7%A8%D7%9D%201%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "41762",
-   "title": "אוכל לכלב אלפא ספיריט פרימל וילדרנס בשרים טריים ואורז 1 ק”ג",
-   "description": "אוכל לכלב אלפא ספיריט פרימל וילדרנס בשרים טריים ואורז 1 ק”ג  \n מזון מלא ומאוזן לכלבים בוגרים מכל הגזעים. מכיל 65 % רכיבים טריים – דגים טריים ובשר עוף טרי. \nאינו מכיל תוספים מלאכותיים כמו משמרים, צבעי מאכל וחומרי טעם וריח. \n רכיבים: בשר חזיר טרי 20%, בשר עוף טרי 20%, דגים טריים 20%, אורז, פולפת סלק, שמרים (Saccharomyces Cerevisiae), דלעת, בננה, אננס, מרווה, ג’ינג’ר, כורכום",
-   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%9c%d7%a4%d7%90-%d7%a1%d7%a4%d7%99%d7%a8%d7%99%d7%98-%d7%a4%d7%a8%d7%99%d7%9e%d7%9c-%d7%95%d7%99%d7%9c%d7%93%d7%a8%d7%a0%d7%a1-%d7%91%d7%a9/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/06/אוכל-לכלב-אלפא-ספיריט-פרימל-וילדרנס-בשרים-טריים-ואורז-1-קג.jpg",
-   "condition": "new",
-   "price": "48.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41762%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41762",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41762/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41762/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#41762",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41762%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41762",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41762%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41762",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%90%D7%9C%D7%A4%D7%90%20%D7%A1%D7%A4%D7%99%D7%A8%D7%99%D7%98%20%D7%A4%D7%A8%D7%99%D7%9E%D7%9C%20%D7%95%D7%99%D7%9C%D7%93%D7%A8%D7%A0%D7%A1%20%D7%91%D7%A9%D7%A8%D7%99%D7%9D%20%D7%98%D7%A8%D7%99%D7%99%D7%9D%20%D7%95%D7%90%D7%95%D7%A8%D7%96%201%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

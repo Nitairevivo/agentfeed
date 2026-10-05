@@ -1,10 +1,178 @@
 {
  "page": 5,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-6.json",
  "products": [
+  {
+   "id": "54451",
+   "title": "שמפו לכלבים להקלה על גירוד עם תה לבן ומרווה Arm & Hammer Pure Fresh",
+   "description": "העניקו לכלבכם ניקיון עמוק, הקלה מיידית מגירויים וניחוח מרענן עם  שמפו Arm & Hammer Pure Fresh לכלבים . שמפו ייחודי זה, מועשר בסודה לשתייה ורכיבים טבעיים, פותח במיוחד כדי לטפל בעור מגורה ולספק ניקוי מתקדם מבלי לפגוע במחסום ההגנה הטבעי של העור. \n   473 מ”ל",
+   "link": "https://closetonature.co.il/product/%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%9c%d7%94%d7%a7%d7%9c%d7%94-%d7%a2%d7%9c-%d7%92%d7%99%d7%a8%d7%95%d7%93-%d7%a2%d7%9d-%d7%aa%d7%94-%d7%9c%d7%91%d7%9f-%d7%95%d7%9e%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2025/06/שמפו-Arm-Hammer-Pure-Fresh-לכלבים-–-להקלה-על-גירוד-עם-תה-לבן-ומרווה.jpg",
+   "condition": "new",
+   "price": "53.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54451%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54451",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54451/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54451/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#54451",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54451%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54451",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54451%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54451",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9C%D7%94%D7%A7%D7%9C%D7%94%20%D7%A2%D7%9C%20%D7%92%D7%99%D7%A8%D7%95%D7%93%20%D7%A2%D7%9D%20%D7%AA%D7%94%20%D7%9C%D7%91%D7%9F%20%D7%95%D7%9E%D7%A8%D7%95%D7%95%D7%94%20Arm%20%26%20Hammer%20Pure%20Fresh%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "54393",
+   "title": "פיור לייף ג’וניור מקסי | מזון לגורים וכלבים צעירים 12 ק”ג Pure Life",
+   "description": "העניקו לגורכם הגדול את ההתחלה הטובה ביותר בחיים עם  פיור לייף ג’וניור מקסי (Flatazor Pure Life Junior Maxi)  – מזון יבש מלא ואיכותי במיוחד מבית  Flatazor  הצרפתי. פורמולה זו פותחה בקפידה עבור  גורים וכלבים צעירים מגזע גדול , כדי לספק את כל הצרכים התזונתיים הייחודיים שלהם בתקופת הגדילה הקריטית, ולתמוך בהתפתחות תקינה של עצמות, שרירים ומערכות הגוף. \n  פיור לייף ג’וניור מקסי  בולט בזכות הרכבו המתקדם: \n \n  100% ללא דגנים | 100% ללא גלוטן:  פורמולה היפואלרגנית, אידיאלית לגורים רגישים או כאלה הסובלים מאלרגיות למזון, ומבטיחה עיכול קל ונוחות מרבית. \n  85% מהחלבונים ממקור חי:  עשיר בחלבונים איכותיים ממקורות נבחרים כמו  סרדינים , עוף, הודו וחזיר. חלבונים אלה חיוניים לבנייה ופיתוח תקין של מסת שריר רזה במהלך הגדילה המהירה. \n  עם סרדינים:  תוספת הסרדינים מספקת חומצות שומן חיוניות מסוג  אומגה 3  (EPA+DHA), התומכות בהתפתחות מוחית וקוגניטיבית, בריאות העור והפרווה, ומערכת חיסון חזקה.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8-%d7%9c%d7%99%d7%99%d7%a3-%d7%92%d7%95%d7%a0%d7%99%d7%95%d7%a8-%d7%9e%d7%a7%d7%a1%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%95%d7%9b%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2025/06/פיור-לייף-גוניור-מקסי-מזון-לגורים-וכלבים-צעירים-12-קג-Pure-Life.jpg",
+   "condition": "new",
+   "price": "359.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54393%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54393",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54393/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54393/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#54393",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54393%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54393",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54393%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54393",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%92%E2%80%99%D7%95%D7%A0%D7%99%D7%95%D7%A8%20%D7%9E%D7%A7%D7%A1%D7%99%20%7C%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%95%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D%2012%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "54367",
+   "title": "פיור לייף אוכל לכלב סניור 7+ 12 ק”ג Pure Life",
+   "description": "הכירו את  פיור לייף סניור 7+ (Pure Life Senior 7+)  מבית  Flatazor  – הפתרון התזונתי המושלם לכלבים בוגרים בני 7 שנים ומעלה, מכל הגזעים! מותאם במיוחד לצרכים המשתנים של הכלב המבוגר, מזון זה נוצר מתוך מחשבה על בריאות מיטבית, חיוניות ואיכות חיים בגיל הזהב. \n  פיור לייף סניור 7+  מתאפיין בנוסחה ייחודית: \n \n  0% דגנים | 0% גלוטן:  אידיאלי לכלבים בעלי רגישויות או אלרגיות למזון, ומספק תזונה קלה לעיכול. \n  85% מהחלבונים מקורם מהחי:  תכולת חלבון גבוהה ואיכותית ממקורות עשירים כמו עוף, הודו, חזיר ודגים (כולל דג קוד ודג מלאך ים), התומכת בשמירה על מסת שריר רזה. \n  עם דגים:  מכיל דגים שעברו הידרוליזה ושמן דגים, המספקים חומצות שומן אומגה 3 חיוניות לבריאות העור, הפרווה והמפרקים.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8-%d7%9c%d7%99%d7%99%d7%a3-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a1%d7%a0%d7%99%d7%95%d7%a8-7-12-%d7%a7%d7%92-pure-life/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2025/06/פיור-לייף-אוכל-לכלב-סניור-7-12-קג-Pure-Life-.jpg",
+   "condition": "new",
+   "price": "359.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54367%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54367",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54367/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54367/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#54367",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54367%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54367",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54367%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54367",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A1%D7%A0%D7%99%D7%95%D7%A8%207%2B%2012%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "54046",
+   "title": "חטיף לכלבים היפואלרגני בטעם כבש עצם קטנה ללא גלוטן 80 גרם",
+   "description": "חטיף לכלבים היפואלרגני בטעם כבש עצם קטנה ללא גלוטן 80 גרם  \n חטיף למשחק ואילוף, מסיע בניקוי שיניים, בשמירה על פה נקי ומניעת ריח רע, מפיג את השעמום ובכך מונע נזקים. \n \n תומך בבריאות השיניים של הכלב בשל צורתו הייחודית. \n הלעיסה היומיומית של הכלב עוזרת להסרת הצטברות הפלאק, רובד החיידקים והאבנית מהשיניים. \n מעושר במולטי – ויטמינים ומינרלים. \n מכיל תוספת מיוחדת של שמן זרעי פשתן ולציטין המסייעת לבריאות העור והפרווה.",
+   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%91%d7%98%d7%a2%d7%9d-%d7%9b%d7%91%d7%a9-%d7%a2%d7%a6%d7%9d-%d7%a7%d7%98/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2025/05/חטיף-לכלבים-היפואלרגני-בטעם-כבש-עצם-קטנה-ללא-גלוטן-80-גרם.jpg",
+   "condition": "new",
+   "price": "14.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54046%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54046",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54046/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/54046/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#54046",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54046%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54046",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D54046%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=54046",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%9B%D7%91%D7%A9%20%D7%A2%D7%A6%D7%9D%20%D7%A7%D7%98%D7%A0%D7%94%20%D7%9C%D7%9C%D7%90%20%D7%92%D7%9C%D7%95%D7%98%D7%9F%2080%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "54043",
    "title": "חטיף לכלבים היפואלרגני בטעם ברוז עצם קטנה ללא גלוטן 80 גרם",
@@ -1922,174 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%98%D7%A8%D7%94%20%D7%A4%D7%99%D7%9C%D7%98%D7%A8%20%D7%90%D7%A7%D7%98%D7%99%D7%91%20%D7%AA%D7%95%D7%A1%D7%A3%20%D7%91%D7%A7%D7%98%D7%A8%D7%99%D7%95%D7%AA%20100%20%D7%9E%D7%9C%20Tetra%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "47202",
-   "title": "טטרה אקווה סייף 100 מיל נגד כלור וסטרס Tetra",
-   "description": "המוצר מיועד להקמת אקווריומים חדשים וכן תחזוקה של אקווריומים ותיקים. \n התכשיר מיועד לטיפול במי ברז על ידי הסרה או ניטרול של חומרים הפוגעים בבריאות הדגים והצמחיה והוספה של חומרים החיוניים לבריאותם של הדגים. \n – מנטרל באופן מיידי חומרים המסכנים את בריאות האקווריום כגון כלור, כלורמין, נחושת, אבץ ועופרת ממי הברז. \n – מכיל חומרים המגינים על זימי הדגים והרקמה הרירית החיונית להגנה מפני טפילים חיצוניים. \n – מפחית עקה (סטרס) ושומר על בריאות הדגים בטווח הארוך על ידי שימוש בתערובת ויטמינים ייחודית. \n – מגביר את קצב הגדילה של הדגים וכן את חיוניותם על ידי שימוש בתוספי יוד ומגנזיום. \n – תורם לצלילות המים על ידי מיטוב איכות המים להתפתחות מיטבית של בקטריות חיוביות. \n – מתמוסס בצורה מהירה ויעילה תוך שניות ושומר על ערכי המים לטווח ארוך. \n מתאים לשימוש במים מתוקים ומים מלוחים",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%98%d7%a8%d7%94-%d7%90%d7%a7%d7%95%d7%95%d7%94-%d7%a1%d7%99%d7%99%d7%a3-100-%d7%9e%d7%99%d7%9c-%d7%a0%d7%92%d7%93-%d7%9b%d7%9c%d7%95%d7%a8-%d7%95%d7%a1%d7%98%d7%a8%d7%a1-tetra/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/11/אקווהסייף.png",
-   "condition": "new",
-   "price": "39.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47202%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47202",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47202/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47202/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#47202",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47202%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47202",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47202%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47202",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%98%D7%A8%D7%94%20%D7%90%D7%A7%D7%95%D7%95%D7%94%20%D7%A1%D7%99%D7%99%D7%A3%20100%20%D7%9E%D7%99%D7%9C%20%D7%A0%D7%92%D7%93%20%D7%9B%D7%9C%D7%95%D7%A8%20%D7%95%D7%A1%D7%98%D7%A8%D7%A1%20Tetra%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "47199",
-   "title": "🌿 תכשיר טטרה אלגומין נגד ירוקת ואצות באקווריום | טטרה",
-   "description": "תכשיר Tetra AlgoMin מחסל ומונע ביעילות אצות וירוקת באקווריום מים מתוקים בשלבים מוקדמים, ללא פגיעה בדגים ובצמחים. הנוסחה הגרמנית משחררת חומר פעיל בצורה איטית ומבוקרת לשמירה על איזון המים. לבחירתכם שני נפחים בהתאמה מדויקת: \n \n \n  100 מ”ל  – נפח חסכוני לטיפול כולל בעד 400 ליטר מי אקווריום. \n \n \n  250 מ”ל  – נפח מורחב לטיפול כולל בעד 1,000 ליטר מי אקווריום. \n \n \n  יתרונות:  \n \n \n 🚀  חיסול אצות:  עוצר ומחסל אצות חוטים, אצות זקן וירוקת כבר מתחילת התפתחותן במים. \n \n \n 🛠️  בטוח לדגים:  נוסחה עדינה ובטוחה לחלוטין לכל סוגי הדגים, הצמחים החיים והבקטריות. \n \n \n 💎  פיזור אחיד:  נוזל אקטיבי המתפזר באופן מיידי בכל נפח המים ומבטיח טיפול היקפי ויסודי. \n \n \n ⭐  מים קריסטליים:  מונע ומעלים מים ירוקים ועכורים ומחזיר לאקווריום מראה נקי ובריא.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%98%d7%a8%d7%94-%d7%90%d7%9c%d7%92%d7%95%d7%9e%d7%99%d7%9f-%d7%a0%d7%92%d7%93-%d7%99%d7%a8%d7%95%d7%a7%d7%aa-100-%d7%9e%d7%99%d7%9c-tetra/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/11/d4199ec6f8dc69017bee6820d036b62d.png",
-   "condition": "new",
-   "price": "39.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47199%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47199",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47199/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47199/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#47199",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47199%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47199",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47199%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47199",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%8C%BF%20%D7%AA%D7%9B%D7%A9%D7%99%D7%A8%20%D7%98%D7%98%D7%A8%D7%94%20%D7%90%D7%9C%D7%92%D7%95%D7%9E%D7%99%D7%9F%20%D7%A0%D7%92%D7%93%20%D7%99%D7%A8%D7%95%D7%A7%D7%AA%20%D7%95%D7%90%D7%A6%D7%95%D7%AA%20%D7%91%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%99%D7%95%D7%9D%20%7C%20%D7%98%D7%98%D7%A8%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "47189",
-   "title": "טטרה פונד פלקס 1 ליטר Tetra",
-   "description": "מזון לדגים טטרה פונד פלקס דפים לדגי בריכה \n Tetra Pond Flakes \n מזון המיועד לדגי בריכות בצורת דפים. \n מזון אידיאלי להאכלה יום יומית לכל סוגי דגי הבריכה. \n מכיל את כל החומרים המזינים, ויטמינים, והמיקרומינרלים החיוניים לדגים. \n מכיל מחזקי צבע טבעיים פעילים באיכות גבוהה המסייעים לשפר ולהדגיש את צבעי בדגים. \n מיוצר בגרמניה, תהליך הייצור כולל הליכי בקרת איכות יסודיים המבטיחים ייצור מוצרים באיכות גבוהה לתזונה בריאה.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%98%d7%a8%d7%94-%d7%a4%d7%95%d7%a0%d7%93-%d7%a4%d7%9c%d7%a7%d7%a1-1-%d7%9c%d7%99%d7%98%d7%a8-tetra/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/11/T512907_9651.png.webp",
-   "condition": "new",
-   "price": "45.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47189%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47189",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47189/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47189/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#47189",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47189%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47189",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47189%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47189",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%98%D7%A8%D7%94%20%D7%A4%D7%95%D7%A0%D7%93%20%D7%A4%D7%9C%D7%A7%D7%A1%201%20%D7%9C%D7%99%D7%98%D7%A8%20Tetra%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "47186",
-   "title": "טטרה קולור סטיקס 1 ליטר Tetra",
-   "description": "מזון לדגים טטרה פונד קולור מקלות \n Tetra Colour Sticks \n מזון מקלות צף לחיזוק צבעים טבעיים לכל סוגי דגי הבריכה. \n מכיל קרוטנואידים בעלי איכות גבוהה לחיזוק צבעים והדגשת גווני צבע אדום, צהוב וכתום בדגים. \n בכיל את כל החומרים המזינים, הסיבים, הוויטמינים והמיקרומינרלים החיוניים. \n התעכלות מהירה הודות לזמינות ביולוגית טובה של חומרים מזינים. השינוי המשמעותי בצבע הדג נראה כבר תוך שבועות ספורים של האכלה רצופה. \n מיוצר בגרמניה, תהליך הייצור כולל הליכי בקרת איכות יסודיים המבטיחים ייצור מוצרים באיכות גבוהה לתזונה בריאה.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%98%d7%a8%d7%94-%d7%a7%d7%95%d7%9c%d7%95%d7%a8-%d7%a1%d7%98%d7%99%d7%a7%d7%a1-1-%d7%9c%d7%99%d7%98%d7%a8-tetra/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/11/tetra-pond-colour-sticks-175g-1l-U0sM.webp",
-   "condition": "new",
-   "price": "30.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47186%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47186",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47186/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/47186/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/2/#47186",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47186%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47186",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D47186%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=47186",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%98%D7%A8%D7%94%20%D7%A7%D7%95%D7%9C%D7%95%D7%A8%20%D7%A1%D7%98%D7%99%D7%A7%D7%A1%201%20%D7%9C%D7%99%D7%98%D7%A8%20Tetra%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

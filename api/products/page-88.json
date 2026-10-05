@@ -1,10 +1,202 @@
 {
  "page": 88,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-89.json",
  "products": [
+  {
+   "id": "30167",
+   "title": "שימורי פרמיו סופר גולד טונה עוף 85 גרם",
+   "description": "שימורי פרמיו סופר גולד טונה עוף 85 גרם הוא מזון רטוב של Premio Super Gold לחתולים, במרקם שימור ובטעם טונה ועוף, באריזת 85 גרם. יש לבדוק אם הוא מזון מלא או משלים.",
+   "link": "https://marleypetshop.com/product/%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%a4%d7%a8%d7%9e%d7%99%d7%95-%d7%a1%d7%95%d7%a4%d7%a8-%d7%92%d7%95%d7%9c%d7%93-%d7%98%d7%95%d7%a0%d7%94-%d7%a2%d7%95%d7%a3-85-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/vOEdML.png",
+   "gtin": "7290019321996",
+   "condition": "new",
+   "price": "5.90",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30167%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30167",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30167/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30167/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30167",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30167%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30167",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30167%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30167",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%20%D7%A4%D7%A8%D7%9E%D7%99%D7%95%20%D7%A1%D7%95%D7%A4%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%20%D7%98%D7%95%D7%A0%D7%94%20%D7%A2%D7%95%D7%A3%2085%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%20%D7%A4%D7%A8%D7%9E%D7%99%D7%95%20%D7%A1%D7%95%D7%A4%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%20%D7%98%D7%95%D7%A0%D7%94%20%D7%A2%D7%95%D7%A3%2085%20%D7%92%D7%A8%D7%9D",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "30165",
+   "title": "דרינקי מבחנה למכרסמים 600 מ\"ל",
+   "description": "דרינקי מבחנה למכרסמים 600 מ\"ל הוא בקבוק שתייה Drinki למכרסמים בנפח 600 מ״ל. מיועד לספק מים בכלוב מתאים. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%93%d7%a8%d7%99%d7%a0%d7%a7%d7%99-%d7%9e%d7%91%d7%97%d7%a0%d7%94-%d7%9c%d7%9e%d7%9b%d7%a8%d7%a1%d7%9e%d7%99%d7%9d-600-%d7%9e%d7%9c?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/OLMMM.jpg",
+   "gtin": "8010690001128",
+   "condition": "new",
+   "price": "35.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30165%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30165",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30165/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30165/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30165",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30165%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30165",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30165%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30165",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%D7%A8%D7%99%D7%A0%D7%A7%D7%99%20%D7%9E%D7%91%D7%97%D7%A0%D7%94%20%D7%9C%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D%20600%20%D7%9E%22%D7%9C%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%93%D7%A8%D7%99%D7%A0%D7%A7%D7%99%20%D7%9E%D7%91%D7%97%D7%A0%D7%94%20%D7%9C%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D%20600%20%D7%9E%22%D7%9C",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "30163",
+   "title": "פטקס עצם רול 5 אינץ עוף אריזת 1 ק\"ג",
+   "description": "פטקס עצם רול 5 אינץ עוף אריזת 1 ק\"ג הוא עצם רול של Pettex לכלבים בטעם עוף, באריזת 1 ק״ג, אורך 5 אינץ׳. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
+   "link": "https://marleypetshop.com/product/%d7%a4%d7%98%d7%a7%d7%a1-%d7%a2%d7%a6%d7%9d-%d7%a8%d7%95%d7%9c-5-%d7%90%d7%99%d7%a0%d7%a5-%d7%a2%d7%95%d7%a3-%d7%90%d7%a8%d7%99%d7%96%d7%aa-1-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a4-d7-98-d7-a7-d7-a1-d7-a2-d7-a6-d7-9d-d7-a8-d7-95-d7-9c-5-d7-90-d7-99-d7-a0-d7-a5-d7-a2-d7-95-d7-a3-d7-90-d7-a8-d7-99-d7-96-d7-aa-1-d7-a7-d7-92-1200x1200-1.png",
+   "gtin": "6229502379627",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30163%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30163",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30163/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30163/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30163",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30163%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30163",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30163%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30163",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%98%D7%A7%D7%A1%20%D7%A2%D7%A6%D7%9D%20%D7%A8%D7%95%D7%9C%205%20%D7%90%D7%99%D7%A0%D7%A5%20%D7%A2%D7%95%D7%A3%20%D7%90%D7%A8%D7%99%D7%96%D7%AA%201%20%D7%A7%22%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%98%D7%A7%D7%A1%20%D7%A2%D7%A6%D7%9D%20%D7%A8%D7%95%D7%9C%205%20%D7%90%D7%99%D7%A0%D7%A5%20%D7%A2%D7%95%D7%A3%20%D7%90%D7%A8%D7%99%D7%96%D7%AA%201%20%D7%A7%22%D7%92",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "30161",
+   "title": "שימור חתול דר פט גולד דגי אוקיינוס בג'לי לחתול 400",
+   "description": "שימור חתול דר פט גולד דגי אוקיינוס בג'לי לחתול 400 הוא מזון רטוב של Dr. Pet Gold לחתולים, במרקם שימור ובטעם דגי אוקיינוס בג׳לי, באריזת 400 גרם. יש לבדוק אם הוא מזון מלא או משלים.",
+   "link": "https://marleypetshop.com/product/%d7%a9%d7%99%d7%9e%d7%95%d7%a8-%d7%97%d7%aa%d7%95%d7%9c-%d7%93%d7%a8-%d7%a4%d7%98-%d7%92%d7%95%d7%9c%d7%93-%d7%93%d7%92%d7%99-%d7%90%d7%95%d7%a7%d7%99%d7%99%d7%a0%d7%95%d7%a1-%d7%91%d7%92%d7%9c?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/POLwE.jpg",
+   "gtin": "7290008411820",
+   "condition": "new",
+   "price": "9.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30161%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30161",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30161/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30161/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30161",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30161%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30161",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30161%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30161",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%9E%D7%95%D7%A8%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%93%D7%A8%20%D7%A4%D7%98%20%D7%92%D7%95%D7%9C%D7%93%20%D7%93%D7%92%D7%99%20%D7%90%D7%95%D7%A7%D7%99%D7%99%D7%A0%D7%95%D7%A1%20%D7%91%D7%92%27%D7%9C%D7%99%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20400%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%93%D7%A8%20%D7%A4%D7%98%20%D7%92%D7%95%D7%9C%D7%93%20%D7%93%D7%92%D7%99%20%D7%90%D7%95%D7%A7%D7%99%D7%99%D7%A0%D7%95%D7%A1%20%D7%91%D7%92%27%D7%9C%D7%99%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20400",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
   {
    "id": "30159",
    "title": "שימור חתול דר פט גולד שימורי טונה אדומה 400 גרם",
@@ -2207,198 +2399,6 @@
      {
       "method": "email",
       "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%9C%D7%A7%D7%A1%D7%99%20%D7%A4%D7%90%D7%9F%20%D7%A4%D7%A1%20M%20%D7%A9%D7%97%D7%95%D7%A8",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
-  },
-  {
-   "id": "30049",
-   "title": "פלקסי פאן פס S שחור",
-   "description": "פלקסי פאן פס S שחור הוא רצועת Flexi Fun שחורה במידה S. מיועדת להולכת כלב בטווח משתנה. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
-   "link": "https://marleypetshop.com/product/%d7%a4%d7%9c%d7%a7%d7%a1%d7%99-%d7%a4%d7%90%d7%9f-%d7%a4%d7%a1-s-%d7%a9%d7%97%d7%95%d7%a8?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/plksy-pan-ps-s-shhvr-1200x1200-1.jpg",
-   "gtin": "4000498027820",
-   "condition": "new",
-   "price": "89.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30049%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30049",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30049/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30049/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30049",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30049%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30049",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30049%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30049",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%9C%D7%A7%D7%A1%D7%99%20%D7%A4%D7%90%D7%9F%20%D7%A4%D7%A1%20S%20%D7%A9%D7%97%D7%95%D7%A8%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%9C%D7%A7%D7%A1%D7%99%20%D7%A4%D7%90%D7%9F%20%D7%A4%D7%A1%20S%20%D7%A9%D7%97%D7%95%D7%A8",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
-  },
-  {
-   "id": "30047",
-   "title": "ריבוס עצם לחוצה 10 אינץ",
-   "description": "ריבוס עצם לחוצה 10 אינץ הוא עצם לחוצה Ribos לכלבים בטעם טבעי, באריזת 10 אינץ׳. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
-   "link": "https://marleypetshop.com/product/%d7%a8%d7%99%d7%91%d7%95%d7%a1-%d7%a2%d7%a6%d7%9d-%d7%9c%d7%97%d7%95%d7%a6%d7%94-10-%d7%90%d7%99%d7%a0%d7%a5?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a8-d7-99-d7-91-d7-95-d7-a1-d7-a2-d7-a6-d7-9d-d7-9c-d7-97-d7-95-d7-a6-d7-94-10-d7-90-d7-99-d7-a0-d7-a5-1200x1200-1.png",
-   "gtin": "7290100344989",
-   "condition": "new",
-   "price": "25.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30047%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30047",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30047/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30047/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30047",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30047%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30047",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30047%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30047",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%99%D7%91%D7%95%D7%A1%20%D7%A2%D7%A6%D7%9D%20%D7%9C%D7%97%D7%95%D7%A6%D7%94%2010%20%D7%90%D7%99%D7%A0%D7%A5%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A8%D7%99%D7%91%D7%95%D7%A1%20%D7%A2%D7%A6%D7%9D%20%D7%9C%D7%97%D7%95%D7%A6%D7%94%2010%20%D7%90%D7%99%D7%A0%D7%A5",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
-  },
-  {
-   "id": "30045",
-   "title": "ריו מזון ביצים לתוכי דררות, תוכים בינוניים וקטנים,",
-   "description": "ריו מזון ביצים לתוכי דררות, תוכים בינוניים וקטנים, הוא מזון יבש של Rio לדררות, תוכים בינוניים וקטנים, בטעם מזון ביצים ובאריזת לפי המשקל שעל האריזה. יש להתאים ללפי המינים שעל האריזה ולהגיש לפי טבלת ההאכלה.",
-   "link": "https://marleypetshop.com/product/%d7%a8%d7%99%d7%95-%d7%9e%d7%96%d7%95%d7%9f-%d7%91%d7%99%d7%a6%d7%99%d7%9d-%d7%9c%d7%aa%d7%95%d7%9b%d7%99-%d7%93%d7%a8%d7%a8%d7%95%d7%aa-%d7%aa%d7%95%d7%9b%d7%99%d7%9d-%d7%91%d7%99%d7%a0%d7%95%d7%a0?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/ryv-mzvn-bytzym-ltvky-drrvt-tvkym-bynvnyym-vktnym-1200x1200-1.jpg",
-   "gtin": "4602533786473",
-   "condition": "new",
-   "price": "35.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30045%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30045",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30045/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30045/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30045",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30045%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30045",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30045%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30045",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%99%D7%95%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%91%D7%99%D7%A6%D7%99%D7%9D%20%D7%9C%D7%AA%D7%95%D7%9B%D7%99%20%D7%93%D7%A8%D7%A8%D7%95%D7%AA%2C%20%D7%AA%D7%95%D7%9B%D7%99%D7%9D%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%D7%99%D7%9D%20%D7%95%D7%A7%D7%98%D7%A0%D7%99%D7%9D%2C%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A8%D7%99%D7%95%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%91%D7%99%D7%A6%D7%99%D7%9D%20%D7%9C%D7%AA%D7%95%D7%9B%D7%99%20%D7%93%D7%A8%D7%A8%D7%95%D7%AA%2C%20%D7%AA%D7%95%D7%9B%D7%99%D7%9D%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%D7%99%D7%9D%20%D7%95%D7%A7%D7%98%D7%A0%D7%99%D7%9D%2C",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
-  },
-  {
-   "id": "30043",
-   "title": "חיתולים חד פעמיים L לכלב 10 יח' גולדן פנדה",
-   "description": "חיתולים חד פעמיים L לכלב 10 יח' גולדן פנדה הוא מארז 10 חיתולים חד־פעמיים לכלבים במידה L של Golden Panda. מיועד לניהול זמני של הפרשות בכלבים המתאימים למידה. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
-   "link": "https://marleypetshop.com/product/%d7%97%d7%99%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%97%d7%93-%d7%a4%d7%a2%d7%9e%d7%99%d7%99%d7%9d-l-%d7%9c%d7%9b%d7%9c%d7%91-10-%d7%99%d7%97-%d7%92%d7%95%d7%9c%d7%93%d7%9f-%d7%a4%d7%a0%d7%93%d7%94?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-97-d7-99-d7-aa-d7-95-d7-9c-d7-99-d7-9d-d7-97-d7-93-d7-a4-d7-a2-d7-9e-d7-99-d7-99-d7-9d-l-d7-9c-d7-9b-d7-9c-d7-91-10-d7-99-d7-97-d7-92-d7-95-d7-9c-d7-93-d7-9f-d7-a4-d7-a0-d7-93-d7-94-1200x1200-1.jpg",
-   "gtin": "6925622300816",
-   "condition": "new",
-   "price": "59.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30043%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30043",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30043/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30043/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/#30043",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30043%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30043",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30043%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30043",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%99%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%97%D7%93%20%D7%A4%D7%A2%D7%9E%D7%99%D7%99%D7%9D%20L%20%D7%9C%D7%9B%D7%9C%D7%91%2010%20%D7%99%D7%97%27%20%D7%92%D7%95%D7%9C%D7%93%D7%9F%20%D7%A4%D7%A0%D7%93%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%97%D7%99%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%97%D7%93%20%D7%A4%D7%A2%D7%9E%D7%99%D7%99%D7%9D%20L%20%D7%9C%D7%9B%D7%9C%D7%91%2010%20%D7%99%D7%97%27%20%D7%92%D7%95%D7%9C%D7%93%D7%9F%20%D7%A4%D7%A0%D7%93%D7%94",
       "note": "העסק מקבל פניות במייל."
      }
     ],

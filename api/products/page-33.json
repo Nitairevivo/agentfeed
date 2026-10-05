@@ -1,10 +1,178 @@
 {
  "page": 33,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-34.json",
  "products": [
+  {
+   "id": "5355",
+   "title": "ד”ר פט שימורים לכלב בשר צייד ועוף",
+   "description": "מזון משלים לכלבים",
+   "link": "https://closetonature.co.il/product/%d7%93%d7%a8-%d7%a4%d7%98-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a9%d7%a8-%d7%a6%d7%99%d7%99%d7%93-%d7%95%d7%a2%d7%95%d7%a3/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/דר-פט-שימורים-לכלב-בשר-צייד-ועוף.jpg",
+   "condition": "new",
+   "price": "4.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5355%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5355",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5355/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5355/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5355",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5355%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5355",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5355%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5355",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%E2%80%9D%D7%A8%20%D7%A4%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A9%D7%A8%20%D7%A6%D7%99%D7%99%D7%93%20%D7%95%D7%A2%D7%95%D7%A3%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "5354",
+   "title": "ד”ר פט שימורים לכלב בשר עוף והודו",
+   "description": "מזון משלים לכלבים",
+   "link": "https://closetonature.co.il/product/%d7%93%d7%a8-%d7%a4%d7%98-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a9%d7%a8-%d7%a2%d7%95%d7%a3-%d7%95%d7%94%d7%95%d7%93%d7%95/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/דר-פט-שימורים-לכלב-בשר-עוף-והודו.jpg",
+   "condition": "new",
+   "price": "4.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5354%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5354",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5354/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5354/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5354",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5354%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5354",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5354%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5354",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%E2%80%9D%D7%A8%20%D7%A4%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A9%D7%A8%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%94%D7%95%D7%93%D7%95%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "5353",
+   "title": "ד”ר פט שימורים לכלב כבד ועוף",
+   "description": "מזון משלים לכלבים",
+   "link": "https://closetonature.co.il/product/%d7%93%d7%a8-%d7%a4%d7%98-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9b%d7%91%d7%93-%d7%95%d7%a2%d7%95%d7%a3/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/דר-פט-שימורים-לכלב-כבד-ועוף.jpg",
+   "condition": "new",
+   "price": "4.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5353%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5353",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5353/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5353/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5353",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5353%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5353",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5353%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5353",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%E2%80%9D%D7%A8%20%D7%A4%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9B%D7%91%D7%93%20%D7%95%D7%A2%D7%95%D7%A3%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "5352",
+   "title": "ד”ר פט שימורים לכלב ברווז והודו",
+   "description": "מזון משלים לכלבים",
+   "link": "https://closetonature.co.il/product/%d7%93%d7%a8-%d7%a4%d7%98-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%95%d7%94%d7%95%d7%93%d7%95/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/דר-פט-שימורים-לכלב-ברווז-והודו.jpg",
+   "condition": "new",
+   "price": "4.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5352%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5352",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5352/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5352/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5352",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5352%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5352",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5352%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5352",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%E2%80%9D%D7%A8%20%D7%A4%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%95%D7%94%D7%95%D7%93%D7%95%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "5351",
    "title": "Dr.PET בטעם עוף והודו",
@@ -1911,174 +2079,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%99%D7%9E%D7%91%D7%94%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%A4%D7%98%D7%94%20%E2%80%93%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%9B%D7%91%D7%A9%20300%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "5298",
-   "title": "סימבה מעדן פטה – בטעם בשר 300 גרם",
-   "description": "סימבה מעדן פטה – בטעם בשר 300 גרם",
-   "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%91%d7%a9%d7%a8-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-פטה-בטעם-בשר-300-גרם.jpg",
-   "condition": "new",
-   "price": "5.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5298%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5298",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5298/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5298/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5298",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5298%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5298",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5298%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5298",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%99%D7%9E%D7%91%D7%94%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%A4%D7%98%D7%94%20%E2%80%93%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%91%D7%A9%D7%A8%20300%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "5297",
-   "title": "סימבה מעדן פטה – בטעם ארנבת 300 גרם",
-   "description": "סימבה מעדן פטה – בטעם ארנבת 300 גרם",
-   "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%90%d7%a8%d7%a0%d7%91%d7%aa-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-פטה-בטעם-ארנבת-300-גרם.jpg",
-   "condition": "new",
-   "price": "5.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5297%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5297",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5297/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5297/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5297",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5297%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5297",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5297%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5297",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%99%D7%9E%D7%91%D7%94%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%A4%D7%98%D7%94%20%E2%80%93%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%90%D7%A8%D7%A0%D7%91%D7%AA%20300%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "5296",
-   "title": "סימבה מעדן לכלב פטה עם עוף וכבד",
-   "description": "סימבה מעדן לכלב פטה עם עוף וכבד",
-   "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%98%d7%94-%d7%a2%d7%9d-%d7%a2%d7%95%d7%a3-%d7%95%d7%9b%d7%91%d7%93/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-לכלב-פטה-עם-עוף-וכבד.jpg",
-   "condition": "new",
-   "price": "5.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5296%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5296",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5296/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5296/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5296",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5296%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5296",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5296%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5296",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%99%D7%9E%D7%91%D7%94%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A4%D7%98%D7%94%20%D7%A2%D7%9D%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%9B%D7%91%D7%93%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "5295",
-   "title": "סימבה מעדן פטה – בטעם עגל ואפונה 300 גרם",
-   "description": "סימבה מעדן פטה – בטעם עגל ואפונה \n משקל: 300 גרם \n מבית מונג’",
-   "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%a2%d7%92%d7%9c-%d7%95%d7%90%d7%a4%d7%95%d7%a0%d7%94-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-לכלב-פטה-עם-עגל-ואפונה.jpg",
-   "condition": "new",
-   "price": "5.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5295",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5295/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5295/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5295",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5295",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5295",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%99%D7%9E%D7%91%D7%94%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%A4%D7%98%D7%94%20%E2%80%93%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%A2%D7%92%D7%9C%20%D7%95%D7%90%D7%A4%D7%95%D7%A0%D7%94%20300%20%D7%92%D7%A8%D7%9D%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

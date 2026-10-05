@@ -1,0 +1,38 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐱 מזון לחתולים עור ופרווה קטאיט דאבל פיוז’ן דגי ים 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Skin & Coat",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73767/",
+ "description": "מחפשים  מזון לחתולים לעור ופרווה  שמביא תוצאות נראות לעין?  אוכל לחתולים קטאיט דאבל פיוז’ן דגי ים  מעניק טיפוח דרמטולוגי מקיף ומבוסס על שילוב גרגירים מצופים יחד עם נתחי סלמון, כבד בקלה ומולים ירוקי-שפה בייבוש בהקפאה (Freeze-Dried)  . הפורמולה מספקת  תזונה מלאה לחתול לטיפוח הפרווה , עשירה בחומצות שומן אומגה 3 ו-6, מרגיעה עור רגיש ומפחיתה נשירה מוגברת  .  \n \n \n  📦  תכולה מדויקת:  זמין לבחירה באריזות 1.8 ק”ג או 4.5 ק”ג  .  \n \n \n  🌿  רכיבים / מאפיינים עיקריים:   89% חלבון מן החי  המבוסס על דגי ים פראיים (סלמון ודגים לבנים)  , בשילוב שמן סלמון עשיר, כבד בקלה, אצות ים (קלפ) ו-4 זני פרוביוטיקה חיה  .  \n \n \n  🎯  יתרון מרכזי:  טכנולוגיית  Double Fusion  ייחודית – גרגיר מוזן ומצופה בחלבון (Infused Kibble) יחד עם נתחי סלמון ודגי ים מיובשים בהקפאה (Raw Bites) המשמרים שמנים חיוניים ונוגדי חמצון טבעיים  .  \n \n \n  🩺  התוויה / ייעוד:  מיועד עבור  חתולים הזקוקים לטיפוח העור והפרווה   , מסייע להפחתת נשירה",
+ "image": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Skin-and-Coat-Ocean-Fish-dry-cat-food-1.8kg-and-4.5kg-lifestyle.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "קטאיט - Catit"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/catit-double-fusion-skin-coat-ocean-fish-cat-food/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "99.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "73767",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73767%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73767",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-10-05",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

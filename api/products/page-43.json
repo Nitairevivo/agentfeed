@@ -1,10 +1,178 @@
 {
  "page": 43,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-44.json",
  "products": [
+  {
+   "id": "3330",
+   "title": "נאו NOW אוכל לכלבים לכלבים בוגרים ללא דגנים – שק 11.34 ק”ג",
+   "description": "אוכל לכלבים NOW FRESH לכלב בוגר ללא דגנים עשוי 100% בשר הודו, ברווז וסלמון טרי. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס או סויה.",
+   "link": "https://closetonature.co.il/product/%d7%a0%d7%90%d7%95-now-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%a9%d7%a7-11-34/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/נאו-NOW-מזון-לכלבים-בוגרים-ללא-דגנים-שק-11.34-קג-נאו-NOW.jpg",
+   "condition": "new",
+   "price": "339.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3330",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3330/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3330/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#3330",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3330",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3330",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A0%D7%90%D7%95%20NOW%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%2011.34%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "3329",
+   "title": "נאו NOW אוכל לכלבים בוגרים ללא דגנים – דגים – שק 11.34 ק”ג",
+   "description": "אוכל לכלבים NOW FRESH לכלב בוגר ללא דגנים על בסיס דגים. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס או סויה.",
+   "link": "https://closetonature.co.il/product/%d7%a0%d7%90%d7%95-now-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%93%d7%92%d7%99/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/נאו-NOW-מזון-לכלבים-בוגרים-ללא-דגנים-דגים-שק-11.34-קג-נאו-NOW.jpg",
+   "condition": "new",
+   "price": "339.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3329%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3329",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3329/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3329/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#3329",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3329%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3329",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3329%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3329",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A0%D7%90%D7%95%20NOW%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20%D7%93%D7%92%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%2011.34%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "3328",
+   "title": "נאו NOW אוכל לכלבים בוגרים מגזע גדול ללא דגנים – שק 11.34 ק”ג",
+   "description": "אוכל לכלבים NOW FRESH לכלב בוגר מגזע גדול עשוי 100% בשר הודו, ברווז וסלמון טרי. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס או סויה. המזון אינו מכיל גם תוצרי לוואי של תעשיית הבשר.",
+   "link": "https://closetonature.co.il/product/%d7%a0%d7%90%d7%95-now-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%92%d7%93%d7%95%d7%9c-%d7%9c%d7%9c%d7%90/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/נאו-NOW-מזון-לכלבים-בוגרים-מגזע-גדול-ללא-דגנים-שק-11.34-קג-נאו-NOW.jpg",
+   "condition": "new",
+   "price": "339.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3328%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3328",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3328/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3328/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#3328",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3328%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3328",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3328%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3328",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A0%D7%90%D7%95%20NOW%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%92%D7%93%D7%95%D7%9C%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%2011.34%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "3327",
+   "title": "נאו NOW אוכל בוגרים מגזע קטן ללא דגנים – דגים – שק 11.34 ק”ג",
+   "description": "אוכל לכלבים NOW FRESH לכלב בוגר מגזע קטן עשוי 100% דגים. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס או סויה. המזון אינו מכיל גם תוצרי לוואי של תעשיית הבשר. המזון מכיל בין היתר: קלציום ופוסט לתמכיה באורך חיים פעיל של הכלב נוגדי חימצון לחיזוק המערכת החיסונית חיידקים פרו ביוטים לעזרה בתהליך העיכול מגיע בשקים של 2.72 ק”ג, 5.44 ק”ג ו – 11.34 ק”ג. התמונה להמחשה בלבד – ייתכנו שינויים בצבעים ובמבנה האריזה.",
+   "link": "https://closetonature.co.il/product/%d7%a0%d7%90%d7%95-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%9c%d7%9c%d7%90-%d7%93%d7%92-2/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/נאו-מזון-לכלבים-בוגרים-מגזע-קטן-ללא-דגנים-דגים-שק-11.34-קג-נאו-NOW.jpg",
+   "condition": "new",
+   "price": "439.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3327%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3327",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3327/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3327/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#3327",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3327%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3327",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3327%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3327",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A0%D7%90%D7%95%20NOW%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9E%D7%92%D7%96%D7%A2%20%D7%A7%D7%98%D7%9F%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20%D7%93%D7%92%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%2011.34%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "3167",
    "title": "פורינה פרו פלאן – לכלב בוגר מכל הגזעים לייט – 14 ק”ג Pro Plan",
@@ -1922,174 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%95%D7%A2%D7%95%D7%A3%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20374%20%D7%92%D7%A8%E2%80%99%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2775",
-   "title": "טייסט אוף דה ווילד שימור דגים וסלמון לכלבים ברוטב 374 גר’",
-   "description": "אוכל רטוב לכלב, טייסט אוף דה ווילד דגים וסלמון ברוטב, פורמולה טעימה ומזינה במיוחד שמתאימה גם לכלב בררן או מפונק, מכיל שילוב מקורות חלבון איכותיים מן החי של דגים לבנים הודו וסלמון. מתכון ללא דגנים על בסיס פחמימות מתפוחי אדמה ואפונה. \nTaste Of The Wild Pacific Stream Canine Formula with Salmon in Gravy \n  שימורים לכלבים  \n בחרתם במארז של 12 יח’… העתיקו את הקוד קופון:   Free_Shipping   לקבלת משלוח חינם.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%a9%d7%99%d7%9e%d7%95%d7%a8-%d7%93%d7%92%d7%99%d7%9d-%d7%95%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%9c%d7%9b/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-שימור-דגים-וסלמון-לכלבים-ברוטב-374-גר.jpg",
-   "condition": "new",
-   "price": "15.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2775%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2775",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2775/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2775/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#2775",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2775%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2775",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2775%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2775",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%20%D7%93%D7%92%D7%99%D7%9D%20%D7%95%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20374%20%D7%92%D7%A8%E2%80%99%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2774",
-   "title": "טייסט אוף דה ווילד שימורים כבש לכלבים 374 גר’",
-   "description": "טייסט אוף דה ווילד  שימורים כבש : \n אוכל רטוב לכלב, פורמולה טעימה ומזינה במיוחד שמתאימה גם לכלב בררן או מפונק, מכיל כמות גבוהה של כבש טעימה ומגרה. מתכון ללא דגנים על בסיס פחמימות מתפוחי אדמה. \nTaste Of The Wild Sierra Mountain Canine Formula with Lamb in Gravy \n  שימורים לכלבים  \n בחרתם במארז של 12 יח’… העתיקו את הקוד קופון:   Free_Shipping   לקבלת משלוח חינם.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%a9%d7%99%d7%9e%d7%95%d7%a8-%d7%9b%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-374-%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-שימור-כבש-לכלבים-374-גר.jpg",
-   "condition": "new",
-   "price": "13.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2774%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2774",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2774/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2774/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#2774",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2774%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2774",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2774%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2774",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9B%D7%91%D7%A9%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20374%20%D7%92%D7%A8%E2%80%99%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2773",
-   "title": "טייסט אוף דה ווילד שימורים לכלבים כבש ברוטב ביזון 374 גר’",
-   "description": "טייסט אוף דה ווילד  שימורים כבש ברוטב ביזון \n אוכל רטוב לכלב,  טייסט אוף דה ווילד  כבש ברוטב ביזון, פורמולה טעימה ומזינה במיוחד שמתאימה גם לכלב בררן או מפונק, מכיל שילוב מקורות חלבון איכותיים מן החי של כבש, ביזון וצבי. מתכון ללא דגנים על בסיס פחמימות מתפוחי אדמה ואפונה. \n Taste Of The Wild  High Prairie Canine Formula \n  שימורים לכלבים",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%a9%d7%99%d7%9e%d7%95%d7%a8-%d7%9b%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%a8%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-שימור-כבש-לכלבים-ברוטב-ביזון-374-גר.jpg",
-   "condition": "new",
-   "price": "15.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2773%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2773",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2773/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2773/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#2773",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2773%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2773",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2773%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2773",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9B%D7%91%D7%A9%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20%D7%91%D7%99%D7%96%D7%95%D7%9F%20374%20%D7%92%D7%A8%E2%80%99%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2765",
-   "title": "טייסט אוף דה ווילד צבי ועדשים 2 ק”ג",
-   "description": "טייסט אוף דה ווילד  \n  אוכל לכלבים  ללא דגנים על בסיס בשר צבי אמיתי המתאפיין בנעכלות גבוהה, טעימות מצוינת ואחוזי שומן נמוכים, חיידקים וסיבים פרוביוטיים תורמים לעיכול נוח. שילוב ואיזון מושלם בין חומצות שומן, קטניות וחלבונים מספקים תזונה מלאה ברמה הגבוהה ביותר. מתאים לכלבים בעלי רגישות לדגנים ועוף, מעל גיל שנה. מכיל תמצית יוקה על מנת להפחית ריח צואה לא נעים. מזון לכלב בוגר סופר פרימיום תוצרת ארה”ב.  Taste Of The Wild  Pine Forest Canine Formula with Venison & Legumes \n    דיל משתלם 3 שקים ב-  219 ₪",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%a6%d7%91%d7%99-%d7%95%d7%a2%d7%93%d7%a9%d7%99%d7%9d-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-צבי-ועדשים-2-קג.jpg",
-   "condition": "new",
-   "price": "89.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2765%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2765",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2765/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2765/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#2765",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2765%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2765",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2765%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2765",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A6%D7%91%D7%99%20%D7%95%D7%A2%D7%93%D7%A9%D7%99%D7%9D%202%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

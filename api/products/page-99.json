@@ -1,10 +1,109 @@
 {
  "page": 99,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-100.json",
  "products": [
+  {
+   "id": "beitarfans",
+   "title": "מועדון אוהדי בית\"ר ירושלים — ערוץ טלגרם",
+   "description": "גולשים חופשיים יכולים לצפות עד 10 ערוצים ביום. שדרג ל-PRO לגישה בלתי מוגבלת לכל הערוצים והקבוצות.",
+   "link": "https://tgil.co.il/channel/beitarfans?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/bfa07491a_photo.jpg",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 38,
+   "image_alt": "מועדון אוהדי בית\"ר ירושלים — ערוץ טלגרם",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/beitarfans/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/beitarfans/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#beitarfans",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "mhttickets",
+   "title": "מכבי חיפה בטלגרם - כרטיסים — קבוצה טלגרם",
+   "description": "גולשים חופשיים יכולים לצפות עד 10 ערוצים ביום. שדרג ל-PRO לגישה בלתי מוגבלת לכל הערוצים והקבוצות.",
+   "link": "https://tgil.co.il/channel/mhttickets?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/7ebbeb071_photo.jpg",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 38,
+   "image_alt": "מכבי חיפה בטלגרם - כרטיסים — קבוצה טלגרם",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/mhttickets/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/mhttickets/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#mhttickets",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "maccabimaccabi",
+   "title": "Channel Profile",
+   "link": "https://tgil.co.il/channel/maccabimaccabi?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/69cbeccb4a796ae2baa1488d/ff1f311ee_logo.png/v1/fill/w_1200,h_630/ff1f311ee_logo.png",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 97,
+   "image_alt": "Channel Profile",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/maccabimaccabi/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/maccabimaccabi/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#maccabimaccabi",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
+  {
+   "id": "maccabihaifa-fc",
+   "title": "מכבי חיפה בטלגרם — ערוץ טלגרם",
+   "description": "גולשים חופשיים יכולים לצפות עד 10 ערוצים ביום. שדרג ל-PRO לגישה בלתי מוגבלת לכל הערוצים והקבוצות.",
+   "link": "https://tgil.co.il/channel/maccabihaifa_fc?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/86f8c4c0f_photo.jpg",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 38,
+   "image_alt": "מכבי חיפה בטלגרם — ערוץ טלגרם",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/maccabihaifa-fc/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/maccabihaifa-fc/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#maccabihaifa-fc",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
   {
    "id": "maccabibc",
    "title": "Maccabi Tel Aviv Basketball — ערוץ טלגרם",
@@ -2216,236 +2315,6 @@
      {
       "method": "form",
       "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=hmo-coverage",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
-  },
-  {
-   "id": "before-after",
-   "title": "לפני ואחרי השתלת שיער: איך קוראים תמונות נכון",
-   "description": "רוב ההחלטות על בחירת מרפאה להשתלת שיער מתקבלות מול גלריית תמונות מרהיבה, וזו בדיוק הנקודה שבה הכי קל להטעות את המטופל. אין צורך להיות מומחה כירורג כדי לזהות תמונה מוטה, צריך רק לדעת מה לבדוק. הבנת האמת מאחורי תמונות השתלת שיער לפני ואחרי היא הצעד הראשון למניעת אכזבות עמוקות בעתיד.",
-   "link": "https://transplant-israel.com/hair/before-after?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/9cd2334f6_generated_image.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "byline": "מערכת השתלות ישראל",
-   "updated": "2026-08-09",
-   "reading_minutes": 12,
-   "words": 1754,
-   "points": [
-    "אל תסתמכו על תמונות שיווקיות בלבד; בדקו את תנאי התאורה והזווית.",
-    "השתלת שיער איכותית נמדדת לאחר 12-18 חודשים ולא בחודשים הראשונים.",
-    "קו שיער טבעי מאופיין באי-סימטריה קלה ומעבר הדרגתי ולא בקו ישר ונוקשה.",
-    "יש להבדיל בין כיסוי ויזואלי לבין צפיפות זקיקים בפועל למען בריאות האזור התורם.",
-    "דרישת שקיפות ממרפאות כוללת צילומים עקביים מ-5 זוויות לפחות.",
-    "בישראל יש להקפיד על מרפאות הפועלות תחת פיקוח ולא להסתמך על תמונות ממוחשבות."
-   ],
-   "quote": "רוב ההחלטות על בחירת מרפאה להשתלת שיער מתקבלות מול גלריית תמונות מרהיבה, וזו בדיוק הנקודה שבה הכי קל להטעות את המטופל. אין צורך להיות מומחה כירורג כדי לזהות תמונה מוטה, צריך רק לדעת מה לבדוק. הבנת האמת מאחורי תמונות השתלת שיער לפני ואחרי היא הצעד הראשון למניעת אכזבות עמוקות בעתיד.\n\nתמונת לפני שצולמה בשיער יבש תחת תאורה עליונה קשה ותמונת אחרי בשיער רטוב ובתאורה קדמית רכה יכולות להראות פער דרמטי גם ללא שינוי אמיתי בצפיפות הזקיקים. שינוי תאורה, זווית צילום וסגנון תספורת משנה את הרושם הויזואלי יותר מאשר תוספת של אלף זקיקים אמיתיים על הקרקפת של המטופל.\n\nכאשר אנו בוחנים תוצאות השתלת שיער, עלינו לזכור כי המצלמה היא כלי שיכול לשקר. בעולם הרפואה האסתטית, קיימות טכניקות צילום המדגישות את השינוי באופן מגמתי. הבנה של ההבדלים בין תמונות אמת לתמונות שעברו עריכה או בימוי היא קריטית לכל אדם השוקל הליך כירורגי לשיקום השיער בישראל או בחוץ לארץ.\n\nתמונת אחרי בחודש ה-4 או ה-6 מציגה תוצאה חלקית בלבד. הצפיפות והעובי של השיער המושתל ממשיכים להשתפר משמעותית עד חודש 12 ולעיתים אף עד חודש 18. גלריה שמציגה רק תמונות מחודש 6 היא סימן אזהרה מובהק להעדפת רושם מהיר על פני שקיפות רפואית מלאה מול המטופל.\n\nהשתלת שיער אינה קסם של רגע אחד. זהו תהליך ביולוגי ממושך שבו הזקיקים צריכים להסתגל לאזור החדש, לעבור את שלב הנשירה הראשונית ואז להתחיל בצמיחה מחודשת. מרפאות מקצועיות בישראל מקפידות על הצגת תמונות השוואה רק לאחר שחלפה לפחות שנה מהניתוח, כדי לשקף את התוצאה הסופית והיציבה ביותר שניתן לקבל.\n\nקו שיער טבעי לעולם אינו ישר. יש בו אי-סימטריה קלה מכוונת ומעבר הדרגתי של זקיקים בודדים בשורה הקדמית. קו ישר מדי, נמוך מדי ואחיד להפליא מסגיר תכנון שנועד להרשים בתמונה אחת ברשתות החברתיות ולא להחזיק מעמד עשרים שנה. המטרה היא תוצאה שתיראה טבעית גם כשהאדם מתבגר והפנים משתנות.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/9cd2334f6_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9cd2334f6_generated_image.webp",
-     "alt": "מטופל וקלינאי בוחנים תמונות לפני ואחרי על מסך במרפאה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/5b50fe439_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5b50fe439_generated_image.webp",
-     "alt": "מומחה בוחן את קרקפת המטופל במרפאת השתלת שיער מקצועית"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/11bb0c8f2_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/11bb0c8f2_generated_image.webp",
-     "alt": "צילום תקריב של קו שיער טבעי לאחר השתלת שיער"
-    }
-   ],
-   "image_alt": "לפני ואחרי השתלת שיער: איך קוראים תמונות נכון",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/before-after/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/before-after/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#before-after",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=before-after",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=before-after",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
-  },
-  {
-   "id": "prp",
-   "title": "PRP לשיער: מחיר, מספר טיפולים ומה המחקר מראה",
-   "description": "טיפול PRP לשיער הפך בשנים האחרונות לאחד הטיפולים המבוקשים ביותר בישראל עבור גברים ונשים הסובלים מדילול שיער. הטיפול ממוקם בקו התפר שבין טיפול תרופתי שמרני (כמו מינוקסידיל או פינסטריד) לבין ניתוח השתלת שיער פולשני. הוא נחשב לאופציה טיפולית המבוססת על שימוש במשאבים הביולוגיים הטבעיים של הגוף עצמו כדי לעודד תהליכי…",
-   "link": "https://transplant-israel.com/hair/prp?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/a4b943010_generated_image.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "byline": "מערכת השתלות ישראל",
-   "updated": "2026-08-09",
-   "reading_minutes": 12,
-   "words": 1770,
-   "points": [
-    "טיפול PRP אינו פתרון קסם אלא טיפול משלים התלוי בפרוטוקול ובתגובת המטופל.",
-    "הטיפול יעיל בעיקר לנשירה בשלב מוקדם ולא לקרחת מלאה.",
-    "המחקר המדעי מראה תוצאות חיוביות אך קיימת שונות רבה בריכוזי הטסיות בין מכשירים.",
-    "מחיר סדרה נע לרוב בין 2,500 ל-4,500 ש\"ח במרפאות בישראל.",
-    "התמדה בטיפולי תחזוקה היא קריטית לשמירה על התוצאות.",
-    "יש לבדוק את הסמכת המטפל ואיכות הצנטריפוגה לפני תחילת סדרת טיפולים.",
-    "מבוא לטיפול PRP לשיער: האם זה הפתרון עבורך?"
-   ],
-   "quote": "טיפול PRP לשיער הפך בשנים האחרונות לאחד הטיפולים המבוקשים ביותר בישראל עבור גברים ונשים הסובלים מדילול שיער. הטיפול ממוקם בקו התפר שבין טיפול תרופתי שמרני (כמו מינוקסידיל או פינסטריד) לבין ניתוח השתלת שיער פולשני. הוא נחשב לאופציה טיפולית המבוססת על שימוש במשאבים הביולוגיים הטבעיים של הגוף עצמו כדי לעודד תהליכי התחדשות בזקיקי השיער, אך חשוב לגשת אליו עם ציפיות ריאליות.\n\nהמונח PRP הוא ראשי תיבות של Platelet-Rich Plasma, ובתרגום לעברית: פלזמה עשירה בטסיות. הרעיון שעומד מאחורי הטיפול הוא פשוט: טסיות הדם שלנו מכילות גורמי גדילה וחלבונים פעילים שיכולים לעזור בתיקון רקמות. על ידי ריכוז הטסיות והזרקתן לקרקפת, אנו מנסים ליצור 'דחיפה' ביולוגית לזקיקים מנומנמים, דבר שיכול להוביל לעיבוי סיב השערה ולהארכת שלב הצמיחה במחזור החיים של השיער.\n\nהתהליך מתחיל בלקיחת דם וורידי מהמטופל, בדומה לבדיקת דם שגרתית במעבדה. נפח הדם הנשאב נע בדרך כלל בין 10 ל-30 מיליליטר, תלוי בפרוטוקול המרפאה ובמכשיר הצנטריפוגה שבו משתמשים. לאחר השאיבה, המבחנות מוכנסות למכשיר צנטריפוגה המבצע סיבובים מהירים כדי להפריד את רכיבי הדם לפי משקלם הסגולי, ולהשאיר את הפלזמה העשירה בטסיות מופרדת מהכדוריות האדומות.\n\nלאחר תהליך ההפרדה, הרופא המטפל מזריק את הפלזמה המרוכזת לקרקפת המטופל. ההזרקה מתבצעת בטכניקה של דקירות שטחיות במרווחים קבועים, לרוב סביב סנטימטר אחד בין נקודה לנקודה. מטרת ההזרקה היא להביא את גורמי הגדילה ישירות אל אזורי המטרה שבהם קיים דילול, במטרה לשפר את הסביבה המיקרו-סביבתית של זקיק השיער ולעודד התחדשות של כלי דם זעירים שמזינים את הזקיק.\n\nאחת הבעיות המרכזיות בטיפולי PRP היא העדר סטנדרטיזציה גלובלית. מכשירי צנטריפוגה שונים מייצרים ריכוזי טסיות שונים בתכלית. מחקרים מראים כי כדי לקבל אפקט טיפולי משמעותי, יש צורך בריכוז מסוים של טסיות בתוך הפלזמה. לכן, התוצאה של מטופל אחד במרפאה א' עשויה להיות שונה לחלוטין מתוצאה של מטופל אחר במרפאה ב', גם אם שניהם קיבלו אותו מספר טיפולים.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/a4b943010_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a4b943010_generated_image.webp",
-     "alt": "מבחנת פלזמה עשירה בטסיות אחרי צנטריפוגה במרפאה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/85b19fbf7_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/85b19fbf7_generated_image.webp",
-     "alt": "תהליך הפרדת הפלזמה העשירה בטסיות במרפאה לשיקום שיער"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/e1ee6499e_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e1ee6499e_generated_image.webp",
-     "alt": "רופא מומחה מבצע טיפול הזרקת PRP לקרקפת של מטופל במרפאה"
-    }
-   ],
-   "image_alt": "PRP לשיער: מחיר, מספר טיפולים ומה המחקר מראה",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/prp/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/prp/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#prp",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=prp",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=prp",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
-  },
-  {
-   "id": "turkey",
-   "title": "השתלת שיער בטורקיה: החשבון האמיתי אחרי כל העלויות",
-   "description": "בשנים האחרונות הפכה טורקיה, ובמיוחד איסטנבול, למרכז עולמי מוביל להשתלות שיער. המוני ישראלים טסים מדי שנה בחיפוש אחר פתרון להתקרחות במחירים שנראים אטרקטיביים במיוחד בהשוואה לשוק המקומי. עם זאת, מאחורי החבילות ה\"הכל כלול\" מסתתרות מורכבויות רפואיות וכלכליות שחובה להכיר לעומק לפני שמקבלים החלטה.",
-   "link": "https://transplant-israel.com/hair/turkey?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/b10f16583_generated_image.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "byline": "מערכת השתלות ישראל",
-   "updated": "2026-08-09",
-   "reading_minutes": 12,
-   "words": 2162,
-   "points": [
-    "המחיר בטורקיה נמוך בשל כוח אדם זול ושימוש בטכנאים במקום רופאים מנתחים.",
-    "השתלות שיער בחו\"ל כרוכות בעלויות נלוות גבוהות של טיסות, לינה וסיבוכים רפואיים.",
-    "הרגולציה בישראל מחמירה ומגינה על המטופל, בעוד בטורקיה קשה לממש תביעות משפטיות.",
-    "שימוש בטכנאים לביצוע פעולות פולשניות מהווה סיכון משמעותי לבריאות הקרקפת והזקיקים.",
-    "מעקב רפואי רציף בישראל הוא קריטי להצלחת התוצאה לאחר ניתוח בחו\"ל.",
-    "יש לבדוק את זהות המנתח, רישיונו ומדיניות התיקונים בכתב לפני סגירת עסקה."
-   ],
-   "quote": "בשנים האחרונות הפכה טורקיה, ובמיוחד איסטנבול, למרכז עולמי מוביל להשתלות שיער. המוני ישראלים טסים מדי שנה בחיפוש אחר פתרון להתקרחות במחירים שנראים אטרקטיביים במיוחד בהשוואה לשוק המקומי. עם זאת, מאחורי החבילות ה\"הכל כלול\" מסתתרות מורכבויות רפואיות וכלכליות שחובה להכיר לעומק לפני שמקבלים החלטה.\n\nהתעשייה הטורקית נשענת על מודל עסקי ייחודי שנועד למקסם כמות מטופלים על חשבון זמן מנתח אישי. בניגוד לסטנדרטים המקובלים במערב, שם המנתח מעורב בכל שלב, בטורקיה נפוץ השימוש בצוותים רחבים של טכנאים. דגם זה מאפשר למרפאות לבצע מספר רב של פרוצדורות במקביל, מה שמוביל להוזלה משמעותית בעלויות העבודה.\n\nבנוסף לכוח העבודה, התחרות האגרסיבית בין מאות המרפאות באיסטנבול יוצרת מלחמת מחירים שדוחקת את הרווחים מטה. המרפאות משתפות פעולה עם סוכני נסיעות ומלונות, מה שמאפשר להציע חבילות הכוללות אירוח יוקרתי, הסעות ותרופות. זהו סבסוד צולב שנועד למשוך לקוחות מרחוק, אך לעיתים הוא גורם לערפול בפירוט העלויות האמיתי לצרכן.\n\nכשמשווים השתלת שיער בטורקיה מחיר מול ישראל, הנטייה היא להסתכל רק על המחיר הנקוב בפרסומת. עם זאת, החשבון המלא דורש הכללה של הוצאות נלוות רבות שנוצרות עקב המרחק הגיאוגרפי. העלויות הנסתרות כוללות לרוב טיסות, לינה ממושכת, הפסד ימי עבודה ועלויות בלתי צפויות של סיבוכים רפואיים שידרשו מענה מיידי עם החזרה לישראל.\n\nאחד ההבדלים המהותיים ביותר בין המדינות הוא המעמד של בעל המקצוע המבצע. בעוד בישראל, משרד הבריאות קובע כי פעולות חודרניות צריכות להתבצע תחת השגחה או על ידי רופא מורשה, בטורקיה התעשייה מבוססת על טכנאים. הטכנאים עוברים הכשרה טכנית אך אינם רופאים בעלי הכשרה כירורגית מלאה, מה שמעלה שאלות אתיות ומקצועיות.\n\nחשוב להבין שחלק מהשלבים הקריטיים בשימוש בטכנאים כוללים את פתיחת התעלות והוצאת הזקיקים. מדובר בפעולות הדורשות ידע באנטומיה, הבנה של כיווני צמיחה ותפיסה אסתטית עמוקה. כאשר מי שאינו רופא מבצע את הפעולה, האחריות המקצועית מוגבלת, והיכולת לתת מענה רפואי במקרה של מצב חירום היא מוגבלת ביותר.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/b10f16583_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b10f16583_generated_image.webp",
-     "alt": "דרכון וכרטיס טיסה לצד חוברת מרפאה על שולחן בהיר"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/f638c5957_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/f638c5957_generated_image.webp",
-     "alt": "מומחה השתלת שיער בטורקיה בוחן קרקפת של מטופל באמצעות מכשור רפואי מתקדם"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/d351730b0_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d351730b0_generated_image.webp",
-     "alt": "מכשור רפואי סטרילי ומתקדם במרפאת השתלת שיער מקצועית בטורקיה"
-    }
-   ],
-   "image_alt": "השתלת שיער בטורקיה: החשבון האמיתי אחרי כל העלויות",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/turkey/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/turkey/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#turkey",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=turkey",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=turkey",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
-  },
-  {
-   "id": "eyebrows",
-   "title": "השתלת גבות: מחיר, תהליך ומה קורה כשזה יוצא לא טוב",
-   "description": "השתלת גבות נראית במבט ראשון כפעולה אסתטית מינורית בהשוואה להשתלת קרקפת מלאה, אך במציאות מדובר באחד ההליכים התובעניים ביותר בתחום שיקום השיער. בניגוד לקרקפת, שם צפיפות השיער והדמיון בזוויות הצמיחה מאפשרים מרווח טעות מסוים, בגבה כל זקיק מושתל עומד למבחן העין האנושית ללא יכולת להסתתר. הדיוק הנדרש מרופא המנתח הוא…",
-   "link": "https://transplant-israel.com/hair/eyebrows?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/1d5908bc2_generated_image.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "byline": "מערכת השתלות ישראל",
-   "updated": "2026-08-09",
-   "reading_minutes": 12,
-   "words": 1804,
-   "points": [
-    "השתלת גבות היא הליך כירורגי מורכב הדורש דיוק רב בשל זוויות הצמיחה הייחודיות של שיער הגבה.",
-    "השיער המושתל מגיע מאזור העורף, לכן הוא דורש תחזוקה של תספורת תקופתית לכל החיים.",
-    "טווח המחירים בישראל נע בין 4,000 ל-14,000 ש\"ח בהתאם להיקף הטיפול ומורכבותו.",
-    "התוצאה הסופית מתקבלת לאחר כ-12 חודשים, כאשר נדרשת סבלנות בשל שלבי נשירה טבעיים.",
-    "השתלה אינה דומה למיקרובליידינג; מדובר בשיער טבעי שצומח ולא בפיגמנט צבע בעור.",
-    "חשוב לבחור רופא מוסמך בעל ניסיון ספציפי בתחום הגבות ולא רק בהשתלות קרקפת.",
-    "השתלת גבות: אמנות הדיוק הכירורגי"
-   ],
-   "quote": "השתלת גבות נראית במבט ראשון כפעולה אסתטית מינורית בהשוואה להשתלת קרקפת מלאה, אך במציאות מדובר באחד ההליכים התובעניים ביותר בתחום שיקום השיער. בניגוד לקרקפת, שם צפיפות השיער והדמיון בזוויות הצמיחה מאפשרים מרווח טעות מסוים, בגבה כל זקיק מושתל עומד למבחן העין האנושית ללא יכולת להסתתר. הדיוק הנדרש מרופא המנתח הוא אבסולוטי, שכן כל שערה חייבת להישתל בזווית ובתנוחה המדויקת שמתאימה למבנה הפנים של המטופל.\n\nהאתגר המרכזי נובע מהעובדה ששיער הגבה אינו צומח בצורה אחידה. לאורך הגבה, החל מהראש הקרוב לאף ועד לזנב המרוחק, הזווית והכיוון משתנים ללא הרף. המנתח נדרש לבצע את ההשתלה בשיטה שבה כל שערה בודדת ממוקמת בנפרד, תוך הקפדה על חורים זעירים בעור המאפשרים לזקיק לצמוח בקו שטוח מאוד ביחס לעור הפנים. טעות קטנה באחת הזוויות עשויה לגרום לשערה לצמוח בכיוון לא מחמיא, מה שיוצר מראה לא טבעי שקשה מאוד לתקן לאחר מכן.\n\nכאשר אנו בוחנים את ההבדלים בין השתלת שיער בקרקפת להשתלה באזור הגבות, אנו נתקלים בשוני פיזיולוגי מהותי. בקרקפת, השיער צומח בצפיפות גבוהה יחסית ובכיוון שניתן לעיצוב בקלות יחסית. יתרה מכך, הציפייה האסתטית בקרקפת היא בעיקר כיסוי שטח פנים. לעומת זאת, בגבה, השערות צומחות כמעט צמודות לעור בזוויות חדות ומשתנות, מה שדורש מומחיות יוצאת דופן כדי לשחזר את הצמיחה הטבעית של השיער באזור זה.\n\nנקודה משמעותית נוספת היא מקור השיער. בהשתלות גבות משתמשים בזקיקים הנלקחים מהאזור התורם, בדרך כלל העורף. חשוב להבין ששיער זה נותר בעל תכונות של שיער קרקפת גם לאחר ההשתלה בגבה. המשמעות היא שהשיער יהיה עבה יותר, יצמח בקצב מהיר יותר ולא יפסיק לצמוח כפי שעושות שערות גבות טבעיות, מה שמחייב את המטופל להקפיד על תחזוקה שוטפת ועיצוב קבוע לאורך כל חייו.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/1d5908bc2_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/1d5908bc2_generated_image.webp",
-     "alt": "סימון קו גבה לפני השתלת גבות במרפאה אסתטית"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6b053538a_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/6b053538a_generated_image.webp",
-     "alt": "מנתח מבצע השתלת זקיקים עדינים בגבה של מטופל בעזרת ציוד רפואי מתקדם במרפאה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/df1027d2a_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/df1027d2a_generated_image.webp",
-     "alt": "טריקולוג מבצע בדיקת אבחון מקיפה לגבה של מטופלת לפני הליך כירורגי במרפאת שיקום שיער"
-    }
-   ],
-   "image_alt": "השתלת גבות: מחיר, תהליך ומה קורה כשזה יוצא לא טוב",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/eyebrows/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/eyebrows/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#eyebrows",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=eyebrows",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=eyebrows",
       "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
      }
     ]

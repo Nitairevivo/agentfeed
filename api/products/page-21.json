@@ -1,10 +1,178 @@
 {
  "page": 21,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-22.json",
  "products": [
+  {
+   "id": "4590",
+   "title": "טרופיקלין שמפו פירות יער וקוקוס Tropiclean Shampoo Berry & Coconut",
+   "description": "טרופיקלין שמפו לכלב פירות יער וקוקוס Tropiclean Shampoo Berry & Coconut",
+   "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%a4%d7%99%d7%a8%d7%95%d7%aa-%d7%99%d7%a2%d7%a8-%d7%95%d7%a7%d7%95%d7%a7%d7%95%d7%a1-tropiclean-shampoo-berry-coconu/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-פירות-יער-וקוקוס-Tropiclean-Shampoo-Berry-Coconut.jpg",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4590%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4590",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4590/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4590/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4590",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4590%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4590",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4590%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4590",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%A4%D7%99%D7%A8%D7%95%D7%AA%20%D7%99%D7%A2%D7%A8%20%D7%95%D7%A7%D7%95%D7%A7%D7%95%D7%A1%20Tropiclean%20Shampoo%20Berry%20%26%20Coconut%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4588",
+   "title": "טרופיקלין שמפו ליים וקוקוס Tropiclean Shampoo Lime & Coconut",
+   "description": "טרופיקלין שמפו לכלבים ליים וקוקוס Tropiclean Shampoo Lime & Coconut",
+   "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%99%d7%99%d7%9d-%d7%95%d7%a7%d7%95%d7%a7%d7%95%d7%a1-tropiclean-shampoo-lime-coconut/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-ליים-וקוקוס-Tropiclean-Shampoo-Lime-Coconut.jpg",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4588%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4588",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4588/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4588/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4588",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4588%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4588",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4588%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4588",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%99%D7%99%D7%9D%20%D7%95%D7%A7%D7%95%D7%A7%D7%95%D7%A1%20Tropiclean%20Shampoo%20Lime%20%26%20Coconut%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4587",
+   "title": "טרופיקלין שמפו לגורים קוקוס עדין Tropiclean Puppy Shampoo Gentle Coconut",
+   "description": "טרופיקלין שמפו לגורים קוקוס עדין Tropiclean Puppy Shampoo Gentle Coconut",
+   "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%a7%d7%95%d7%a7%d7%95%d7%a1-%d7%a2%d7%93%d7%99%d7%9f-tropiclean-puppy-shampoo-ge/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-לגורים-קוקוס-עדין-Tropiclean-Puppy-Shampoo-Gentle-Coconut.jpg",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4587%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4587",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4587/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4587/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4587",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4587%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4587",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4587%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4587",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A7%D7%95%D7%A7%D7%95%D7%A1%20%D7%A2%D7%93%D7%99%D7%9F%20Tropiclean%20Puppy%20Shampoo%20Gentle%20Coconut%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4586",
+   "title": "טרופיקלין מרכך קיווי & חמאת קקאו TropiClean Conditioner Kiwi & Cocoa Butter",
+   "description": "טרופיקלין מרכך לכלבים קיווי & חמאת קקאו TropiClean Conditioner Kiwi & Cocoa Butter",
+   "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%9e%d7%a8%d7%9b%d7%9a-%d7%a7%d7%99%d7%95%d7%95%d7%99-%d7%97%d7%9e%d7%90%d7%aa-%d7%a7%d7%a7%d7%90%d7%95-tropiclean-conditioner-kiwi-cocoa-b/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-מרכך-קיווי-חמאת-קקאו-TropiClean-Conditioner-Kiwi-Cocoa-Butter.jpg",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4586%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4586",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4586/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4586/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4586",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4586%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4586",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4586%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4586",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F%20%D7%9E%D7%A8%D7%9B%D7%9A%20%D7%A7%D7%99%D7%95%D7%95%D7%99%20%26%20%D7%97%D7%9E%D7%90%D7%AA%20%D7%A7%D7%A7%D7%90%D7%95%20TropiClean%20Conditioner%20Kiwi%20%26%20Cocoa%20Butter%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "4585",
    "title": "טרופיקלין מרכך ליים & חמאת קקאו TropiClean Conditioner Lime & Cocoa Butter",
@@ -1922,174 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA%20%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA%20%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%9E%D7%9B%D7%9C%20%D7%94%D7%92%D7%96%D7%A2%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20%20Pure%20Life%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4098",
-   "title": "מזון לכלב פרימייר קלאב 21 ק”ג",
-   "description": "מזון לכלבים בוגרים מכל הגזעים,מרכיב ראשון בשר. \nמזון לכלבים בוגרים בעל כופתיות קטנות ומתאים גם לכלבים קטנים. מרכיב ראשון בשר עוף, 60% חלבון מן החי. שק המזון במשקל 22.6 ק”ג",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%a8%d7%99%d7%9e%d7%99%d7%99%d7%a8-%d7%a7%d7%9c%d7%90%d7%91-premier-club22-6-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-לכלב-פרימייר-קלאב-Premier-Club.jpg",
-   "condition": "new",
-   "price": "89.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4098%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4098",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4098/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4098/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4098",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4098%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4098",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4098%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4098",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%99%D7%A8%20%D7%A7%D7%9C%D7%90%D7%91%2021%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "3736",
-   "title": "פירסט צ’ויס סטרילייזד אוכל לחתולים מסורסים 10 ק”ג",
-   "description": "פירסט צ’ויס  –  First Choice  \n \n  פירסט צ`ויס  סטרילייזד  אוכל לחתולים  מסורסים וחתולות מעוקרות, כמות השומן הופחתה בכ25% על מנת לסייע לחתול לשמור על משקל תקין ובריא, כמות החלבון נשארה גבוהה בכדי שהחתול ישמור על מסת השריר. \n משקל: 10 ק”ג",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%a8%d7%a1%d7%98-%d7%a6%d7%95%d7%99%d7%a1-%d7%a1%d7%98%d7%a8%d7%99%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%9e%d7%a1%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-סטרילייזד-אוכל-לחתולים-מסורסים-5.4-קג.jpg",
-   "condition": "new",
-   "price": "349.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3736%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3736",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3736/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3736/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#3736",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3736%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3736",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3736%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3736",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%A8%D7%A1%D7%98%20%D7%A6%E2%80%99%D7%95%D7%99%D7%A1%20%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96%D7%93%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%D7%99%D7%9D%2010%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "3730",
-   "title": "פירסט צ’ויס / 1st Choice היפואלרגני לכלב 11 ק”ג",
-   "description": "פירסט צ’ויס  /  1 st  Choice  היפואלרגני ללא דגנים מזון לכלבים רגישים ואלרגים אשר סובלים מבעיות עיכול או בעיות עור ופרווה, מתכון על בסיס ברווז ותפוחי אדמה – רכיבים טעימים ביותר ובעלי אלרגניות נמוכה. אוכל ברמת טעימות גבוהה ביותר שהכלב שלכם יהנה לזלול. \n אוכל כלבים ברמת סופר פרימיום תוצרת קנדה.",
-   "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-12-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-היפואלרגני-לכלב.jpg",
-   "condition": "new",
-   "price": "349.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3730%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3730",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3730/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3730/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#3730",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3730%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3730",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3730%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3730",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%A8%D7%A1%D7%98%20%D7%A6%E2%80%99%D7%95%D7%99%D7%A1%20/%201st%20Choice%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%2011%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "3726",
-   "title": "פירסט צ’ויס / First Choice בוגר גזע בינוני 14 ק”ג",
-   "description": "פירסט צ’ויס  /  1 st  Choice  עוף  מזון לכלבים  מגזע בינוני וגדול ששוקלים 10 ק”ג ומעלה, מתכון טעים במיוחד שמותאם לכלבים בוגרים צעירים בגילאי 14 חודשים ועד 6 שנים. פורמולה על בסיס עוף, אורז וגריסים. \nאוכל כלבים ברמת סופר פרמיום תוצרת קנדה.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%a8%d7%a1%d7%98-%d7%a6%d7%95%d7%99%d7%a1-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-15-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-First-Choice-בוגר-גזע-בינוני-14-קג.jpg",
-   "condition": "new",
-   "price": "269.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3726%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3726",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3726/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3726/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#3726",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3726%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3726",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3726%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3726",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%A8%D7%A1%D7%98%20%D7%A6%E2%80%99%D7%95%D7%99%D7%A1%20/%20First%20Choice%20%D7%91%D7%95%D7%92%D7%A8%20%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

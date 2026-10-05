@@ -1,10 +1,178 @@
 {
  "page": 16,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-17.json",
  "products": [
+  {
+   "id": "17332",
+   "title": "משחק קונג לגורים עצם גודי עם חבל",
+   "description": "ה-KONG Puppy Goodie Bone™ עם חבל מעסיק גורים שמתענגים על מפגשי לעיסה, בעוד שחבל הכותנה הטבעי הופך אותו לצעצוע אידיאלי למילוי הצרכים האינסטינקטיביים של הגור. עשויה מגומי גור של KONG Classic הייחודי, עצם זו מלמדת גורים התנהגות לעיסה מתאימה תוך הקלה על שיניים וחניכיים כואבות. יש לו גם את התענוג הנוסף של חבל עשוי כותנה המעניק לגורים אפשרויות לעיסה מרובות.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%a7-%d7%a7%d7%95%d7%a0%d7%92-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%a2%d7%a6%d7%9d-%d7%92%d7%95%d7%93%d7%99-%d7%a2%d7%9d-%d7%97%d7%91%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/12/משחק-קונג-לגורים-עצם-גודי-עם-חבל-ורוד.jpg",
+   "condition": "new",
+   "price": "39.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17332%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17332",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17332/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17332/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#17332",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17332%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17332",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17332%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17332",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%A9%D7%97%D7%A7%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A2%D7%A6%D7%9D%20%D7%92%D7%95%D7%93%D7%99%20%D7%A2%D7%9D%20%D7%97%D7%91%D7%9C%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "17331",
+   "title": "משחק קונג לכלב וולי המתגמל – האכלה איטית",
+   "description": "KONG Rewards Wally  מייצר גלגול איטי ויציב בעת דחיפה, מחלק בהדרגה מאכלים או פינוקים. החלק החיצוני הייחודי יוצר תנועה בלתי צפויה, ומתגמל אינסטינקטים טבעיים לחיפוש מזון. החומר האחיזה החיצוני משתיק רעש למשחק שקט יותר. השתמש במזין איטי זה של 1 כוס כקערת מזון כדי לסייע בניהול המשקל על ידי הארכת זמן הארוחה. מתברג בקלות למילוי ושטיפת ידיים.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%a7-%d7%a7%d7%95%d7%a0%d7%92-%d7%9c%d7%9b%d7%9c%d7%91-%d7%95%d7%95%d7%9c%d7%99-%d7%94%d7%9e%d7%aa%d7%92%d7%9e%d7%9c-%d7%94%d7%90%d7%9b%d7%9c%d7%94-%d7%90%d7%99%d7%98%d7%99%d7%aa/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/12/משחק-קונג-לכלב-וולי-המתגמל-האכלה-איטית.jpg",
+   "condition": "new",
+   "price": "79.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17331%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17331",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17331/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17331/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#17331",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17331%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17331",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17331%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17331",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%A9%D7%97%D7%A7%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%95%D7%95%D7%9C%D7%99%20%D7%94%D7%9E%D7%AA%D7%92%D7%9E%D7%9C%20%E2%80%93%20%D7%94%D7%90%D7%9B%D7%9C%D7%94%20%D7%90%D7%99%D7%98%D7%99%D7%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "17330",
+   "title": "משחק קונג לכלב וובה בליסטי",
+   "description": "ה-KONG Wubba Ballistic Friends הם צעצועי החריקה והשייק האינטראקטיביים החמודים והקשוחים ביותר שקיימים. הצעצועים הרב-תכליתיים הללו מושלמים לשימוש פנימי וחיצוני, והזנבות התקליטים שלהם הופכים אותם קלים לאיסוף ולזרוק. כל צעצוע מכוסה בניילון עמיד ומחוזק לתוספת קשיחות.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%a7-%d7%a7%d7%95%d7%a0%d7%92-%d7%9c%d7%9b%d7%9c%d7%91-%d7%95%d7%95%d7%91%d7%94-%d7%91%d7%9c%d7%99%d7%a1%d7%98%d7%99/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/12/משחק-קונג-לכלב-וובה-בליסטי.jpg",
+   "condition": "new",
+   "price": "49.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17330",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17330/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17330/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#17330",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17330",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17330",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%A9%D7%97%D7%A7%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%95%D7%95%D7%91%D7%94%20%D7%91%D7%9C%D7%99%D7%A1%D7%98%D7%99%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "17329",
+   "title": "משחק קונג לכלב בצורת עץ בריח בייקון",
+   "description": "KONG ChewStix Ultra  הוא צעצוע המכיל עץ אמיתי מה שדואג לשמח את הכלבים שאוהבים לרדוף וללעוס מקלות תוך מתן פתרון לעיסה בטוח יותר. KONG ChewStixs כוללים גם ריח בייקון המפתה ומתגמל התנהגות לעיסה הולמת. כאשר כלבים לועסים, הצעצוע מתקלף באופן טבעי לעומת התפצלות תוך שהוא בנוי לעמידות שניהם בשילוב ליצירת אושר לעיסה שבנוי להחזיק מעמד. קצוות וחריצים מעוגלים ממשיכים את ההתקשרות תוך הוספת בטיחות הצעצוע ועוזרת בניקוי השיניים והחניכיים.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%a7-%d7%a7%d7%95%d7%a0%d7%92-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a6%d7%95%d7%a8%d7%aa-%d7%a2%d7%a5-%d7%91%d7%a8%d7%99%d7%97-%d7%91%d7%99%d7%99%d7%a7%d7%95%d7%9f/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/12/משחק-קונג-לכלב-בצורת-עץ-בריח-בייקון.jpg",
+   "condition": "new",
+   "price": "55.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17329%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17329",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17329/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/17329/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#17329",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17329%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17329",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D17329%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=17329",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%A9%D7%97%D7%A7%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A6%D7%95%D7%A8%D7%AA%20%D7%A2%D7%A5%20%D7%91%D7%A8%D7%99%D7%97%20%D7%91%D7%99%D7%99%D7%A7%D7%95%D7%9F%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "17328",
    "title": "משחק קונג לכלב Rewards בצורת קונכייה",
@@ -1926,174 +2094,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%A6%D7%9D%20%D7%93%D7%97%D7%95%D7%A1%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A8%D7%99%D7%91%D7%95%D7%A1%2025%20%D7%A1%E2%80%9D%D7%9E%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "16707",
-   "title": "עצם דחוסה לכלב ריבוס 30 ס”מ",
-   "description": "עצמות לכלבים / חטיף לכלב   \n \n \n עור גולמי מיובש מחזיר ומבקר",
-   "link": "https://closetonature.co.il/product/%d7%a2%d7%a6%d7%9d-%d7%93%d7%97%d7%95%d7%a1%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a8%d7%99%d7%91%d7%95%d7%a1-30-%d7%a1%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/עצם-דחוסה-לכלב-ריבוס-30-סמ.jpg",
-   "condition": "new",
-   "price": "30.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16707%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16707",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16707/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16707/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#16707",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16707%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16707",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16707%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16707",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%A6%D7%9D%20%D7%93%D7%97%D7%95%D7%A1%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A8%D7%99%D7%91%D7%95%D7%A1%2030%20%D7%A1%E2%80%9D%D7%9E%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "16701",
-   "title": "עצם לכלב מצופה עוף 30 ס”מ",
-   "description": "עצמות לכלבים / חטיף לכלב   \n גליל לבן עצם מצופה עוף גולמי 30 ס”מ",
-   "link": "https://closetonature.co.il/product/%d7%a2%d7%a6%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%a6%d7%95%d7%a4%d7%94-%d7%a2%d7%95%d7%a3-30-%d7%a1%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/עצם-לכלב-מצופה-עוף-30-סמ.jpg",
-   "condition": "new",
-   "price": "19.50",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16701%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16701",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16701/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16701/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#16701",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16701%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16701",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16701%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16701",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%A6%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%A6%D7%95%D7%A4%D7%94%20%D7%A2%D7%95%D7%A3%2030%20%D7%A1%E2%80%9D%D7%9E%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "16501",
-   "title": "כלוב לאוגר / מכרסמים קטנים דגם LINO 45x27x27 cm",
-   "description": "כלוב LINO 45x27x26 ס”מ  \n  – כלוב מתאים למכרסמים קטנים  \n – עם ציוד",
-   "link": "https://closetonature.co.il/product/%d7%9b%d7%9c%d7%95%d7%91-%d7%9c%d7%90%d7%95%d7%92%d7%a8-%d7%9e%d7%9b%d7%a8%d7%a1%d7%9e%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99%d7%9d-%d7%93%d7%92%d7%9d-lino-45x27x27-cm/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/כלוב-לאוגר-דגם-LINO-45x27x27-cm.jpg",
-   "condition": "new",
-   "price": "208.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16501%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16501",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16501/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16501/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#16501",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16501%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16501",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16501%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16501",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9B%D7%9C%D7%95%D7%91%20%D7%9C%D7%90%D7%95%D7%92%D7%A8%20/%20%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D%20%D7%A7%D7%98%D7%A0%D7%99%D7%9D%20%D7%93%D7%92%D7%9D%20LINO%2045x27x27%20cm%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "16496",
-   "title": "כלוב לאוגר / מכרסמים קטנים דגם PINO 45x27x34 cm",
-   "description": "כלוב PINO 45x27x34 ס”מ   \n  – כלוב מתאים למכרסמים קטנים  \n – עם ציוד",
-   "link": "https://closetonature.co.il/product/%d7%9b%d7%9c%d7%95%d7%91-%d7%9c%d7%90%d7%95%d7%92%d7%a8-%d7%9e%d7%9b%d7%a8%d7%a1%d7%9e%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99%d7%9d-%d7%93%d7%92%d7%9d-pino-45x27x34-cm/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/כלוב-לאוגר-דגם-PINO-45x27x34-cm.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16496%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16496",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16496/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16496/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/7/#16496",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16496%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16496",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16496%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16496",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9B%D7%9C%D7%95%D7%91%20%D7%9C%D7%90%D7%95%D7%92%D7%A8%20/%20%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D%20%D7%A7%D7%98%D7%A0%D7%99%D7%9D%20%D7%93%D7%92%D7%9D%20PINO%2045x27x34%20cm%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

@@ -1,10 +1,331 @@
 {
  "page": 50,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-51.json",
  "products": [
+  {
+   "id": "social-security",
+   "title": "ביטוח לאומי",
+   "description": "מדריך מקיף להבנת קצבת אזרח ותיק והשלמת הכנסה בישראל. למדו על תנאי הזכאות, מבחני הכנסה ודרכי הגשת תביעה למוסד לביטוח לאומי כדי למצות את מלוא הזכויות המגיעות לכם.",
+   "link": "https://lawinisrael.com/category/social-security?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+   "brand": "העולם המשפטי בישראל",
+   "condition": "new",
+   "words": 662,
+   "listed": [
+    {
+     "title": "שיקום מקצועי: לימודים ותעסוקה במימון הביטוח הלאומי",
+     "description": "התמודדות עם מוגבלות מחייבת הערכה מקצועית מחודשת. גלו כיצד תוכנית שיקום מקצועי של הביטוח הלאומי מעניקה לכם את הכלים, המימון והליווי הנדרש כדי לחזור למעגל העבודה ולהצליח."
+    },
+    {
+     "title": "ביטוח לאומי דחה את התביעה? מסלול הערעור המלא",
+     "description": "קיבלתם הודעת דחייה מהמוסד לביטוח לאומי? גלו את הצעדים המעשיים להגשת ערעור אפקטיבי על תביעה נגד ביטוח לאומי, לוחות הזמנים הקריטיים והדרך להצלחה מול הוועדות."
+    },
+    {
+     "title": "מיצוי זכויות רפואיות: עורך דין או חברת זכויות – מה עדיף",
+     "description": "מתלבטים בין עורך דין לחברת מיצוי זכויות? במדריך זה ננתח את ההבדלים המהותיים, היתרונות והחסרונות, כדי לסייע לכם לקבל החלטה מושכלת בדרך לקבלת הקצבה המגיעה לכם."
+    },
+    {
+     "title": "גמלת ילד נכה: הזכאות, הסכומים והזכויות הנלוות",
+     "description": "גמלת ילד נכה מסייעת למשפחות בהתמודדות עם הוצאות כבדות. מדריך מקיף זה מסביר את זכאותכם, אחוזי הנכות והשלבים המעשיים למיצוי הזכויות מול המוסד לביטוח לאומי בישראל."
+    },
+    {
+     "title": "נפגעי פעולות איבה: מסלול ההכרה והתגמולים",
+     "description": "נפגעי פעולות איבה זכאים לסיוע רפואי, שיקומי וכלכלי מהמוסד לביטוח לאומי. מדריך זה מפרט את תהליך ההכרה, הזכויות המגיעות לכם והדרכים למימושן המלא מול הרשויות בישראל."
+    },
+    {
+     "title": "דרגת אי-כושר: המפתח האמיתי לגובה קצבת הנכות",
+     "description": "גלו מדוע דרגת אי כושר השתכרות היא הגורם הקריטי ביותר בקביעת גובה קצבת הנכות שלכם. המדריך המלא להבנת התהליך מול המוסד לביטוח לאומי."
+    },
+    {
+     "title": "החמרת מצב: כך מבקשים דיון מחדש ומעלים אחוזי נכות",
+     "description": "חווים החמרת מצב רפואי לאחר קביעת נכות בביטוח הלאומי? גלו כיצד להגיש בקשה לעיון מחדש, אילו מסמכים נדרשים ואיך להעלות את אחוזי הנכות שלכם בצורה חכמה ויעילה."
+    },
+    {
+     "title": "הבטחת הכנסה: תנאי הזכאות והסיבות הנפוצות לשלילה",
+     "description": "מדריך מקיף בנושא הבטחת הכנסה: הכירו את תנאי הזכאות של הביטוח הלאומי, מבחני התעסוקה והרכוש, ודרכי הפעולה למניעת שלילת הקצבה במצבים כלכליים מורכבים."
+    },
+    {
+     "title": "גמלת סיעוד לקשישים: מבחן התלות ורמות הגמלה",
+     "description": "גמלת סיעוד היא זכות יסוד לאזרחים ותיקים בישראל. מדריך זה יסביר את מבחן התלות, רמות הזכאות בביטוח הלאומי וכיצד לממש את זכויותיכם בצורה יעילה ומקצועית."
+    },
+    {
+     "title": "נכות נפשית: אחוזים על דיכאון, חרדה ופוסט-טראומה",
+     "description": "מתמודדים עם נכות נפשית? מדריך מקיף על אחוזי נכות בביטוח לאומי לדיכאון, חרדה ופוסט-טראומה, הכולל טיפים לתיעוד רפואי והגשת תביעה לקבלת קצבת נכות כללית."
+    },
+    {
+     "title": "קצבת ניידות: זכאות, הלוואה עומדת ורכב רפואי",
+     "description": "מדריך מקיף על קצבת ניידות: מי זכאי להטבות, כיצד פועלת הלוואה עומדת, ומהם השלבים הקריטיים בתהליך מול הוועדה הרפואית של משרד הבריאות למימוש הזכויות שלך."
+    },
+    {
+     "title": "קצבת שירותים מיוחדים: תוספת משמעותית שרבים מפספסים",
+     "description": "גלו את כל מה שצריך לדעת על קצבת שירותים מיוחדים של הביטוח הלאומי. מדריך מקצועי שיעזור לכם להבין את הזכאות, הדרגות ותהליך המימוש לקבלת הסיוע המגיע לכם."
+    }
+   ],
+   "quote": "מדריך מקיף להבנת קצבת אזרח ותיק והשלמת הכנסה בישראל. למדו על תנאי הזכאות, מבחני הכנסה ודרכי הגשת תביעה למוסד לביטוח לאומי כדי למצות את מלוא הזכויות המגיעות לכם.",
+   "images": [
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/d1b6649d9_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d1b6649d9_generated_image.webp",
+     "alt": "אדם מבוגר בוחן מסמכים כלכליים לצורך הגשת תביעה לקצבת אזרח ותיק בביטוח לאומי"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/2be38b664_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/2be38b664_generated_image.webp",
+     "alt": "אדם יושב ליד מחשב בייעוץ אישי במסגרת תוכנית שיקום מקצועי של הביטוח הלאומי"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/c00605e14_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c00605e14_generated_image.webp",
+     "alt": "אדם קורא מסמך דחייה רשמי בנושא תביעה נגד ביטוח לאומי"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/ada0564ae_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/ada0564ae_generated_image.webp",
+     "alt": "אדם בוחן טפסים של ביטוח לאומי בתהליך מיצוי זכויות רפואיות עם עורך דין"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/95c8d12fa_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/95c8d12fa_generated_image.webp",
+     "alt": "הורים מגישים מסמכים עבור תביעת גמלת ילד נכה למוסד לביטוח לאומי"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/8f6457f75_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/8f6457f75_generated_image.webp",
+     "alt": "תהליך הכרה בנפגעי פעולות איבה מול המוסד לביטוח לאומי"
+    }
+   ],
+   "image_alt": "ביטוח לאומי",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/social-security/",
+   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/social-security/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#social-security",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=social-security",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=social-security",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "העולם המשפטי בישראל",
+   "business_slug": "lawinisrael-com",
+   "business_site": "https://lawinisrael.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/"
+  },
+  {
+   "id": "tax-and-more",
+   "title": "מיסים ונישות משלימות",
+   "description": "מדריך משפטי מקיף על בקשה לקבלת מעמד הומניטרי בישראל: מתי הוועדה הבין-משרדית מאשרת את הבקשה, מהם הקריטריונים הקריטיים ואיך מעלים את סיכויי ההצלחה בהליך מול משרד הפנים?",
+   "link": "https://lawinisrael.com/category/tax-and-more?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+   "brand": "העולם המשפטי בישראל",
+   "condition": "new",
+   "words": 901,
+   "listed": [
+    {
+     "title": "קיבלתם שומה ממס הכנסה? הליך ההשגה והערעור",
+     "description": "קיבלתם שומה ממס הכנסה? אל תיבהלו. גלו כיצד מגישים השגה על שומה במועד, מהם הכללים החשובים ואיך להעלות את הסיכויים שלכם להפחתת חבות המס בצורה מקצועית ויעילה."
+    },
+    {
+     "title": "עתירה מנהלית: כך תוקפים החלטה של רשות ציבורית",
+     "description": "נתקלתם בהחלטה שרירותית של רשות ציבורית? מדריך זה מסביר כיצד מגישים עתירה מנהלית, מהן עילות ההתערבות המרכזיות וכיצד תגנו על הזכויות שלכם מול גופי הממשל והרשויות המקומיות."
+    },
+    {
+     "title": "הפסדתם במכרז ציבורי שלא בצדק? עתירת מכרזים",
+     "description": "הפסדתם במכרז ציבורי? אל תמהרו להרים ידיים. במאמר זה תלמדו מתי ואיך להגיש עתירה מנהלית במקרה של מכרזים ציבוריים פגומים וכיצד למקסם את סיכויי ההצלחה שלכם."
+    },
+    {
+     "title": "פטור משירות צבאי: המסלולים הרפואיים והנפשיים",
+     "description": "מדריך מקיף למלש\"בים והוריהם על פטור מגיוס לצה\"ל. נסביר על ההליכים הרפואיים והנפשיים, חשיבות התיעוד והדרכים להגשת בקשה מנומקת מול רשויות הצבא בצורה חוקית ומקצועית."
+    },
+    {
+     "title": "רישיון עסק: ההליך, הדרישות והתמודדות עם צו סגירה",
+     "description": "הוצאת רישוי עסקים היא תנאי מחייב לפעילות חוקית בישראל. מדריך זה מפרט את הצעדים, הדרישות הרגולטוריות והדרכים למנוע צווי סגירה מנהליים ופליליים בעסק שלך."
+    },
+    {
+     "title": "דרכון פורטוגלי: מי עדיין זכאי ואיך נראה ההליך",
+     "description": "מדריך מקיף ומעודכן לדרכון פורטוגלי: בדקו את זכאותכם, הכירו את מסלולי ההתאזרחות השונים והבינו את דרישות החוק העדכניות להגשת בקשה מוצלחת לאזרחות אירופאית."
+    },
+    {
+     "title": "עלייה לפי חוק השבות: הוכחת זכאות והתמודדות עם סירוב",
+     "description": "חוק השבות מאפשר עלייה לישראל, אך הבירוקרטיה עלולה להיות מאתגרת. מדריך זה יסייע לכם להוכיח זכאות, להכין את המסמכים הנדרשים ולהתמודד עם אתגרי הוכחת השורשים בצורה מקצועית."
+    },
+    {
+     "title": "עורך דין הגירה ומעמד: מול משרד הפנים לא הולכים לבד",
+     "description": "ניצבים מול משרד הפנים? עורך דין הגירה מומחה יכול להפוך החלטה שלילית להצלחה. גלו כיצד לנהל נכון את ההליך, למנוע סירובים ולהגן על הזכויות שלכם מול רשות האוכלוסין."
+    },
+    {
+     "title": "גילוי מרצון: להסדיר הון לא מדווח בלי הליך פלילי",
+     "description": "מחזיקים הון לא מדווח? הליך גילוי מרצון הוא הדרך הבטוחה להסדרת חבות המס בישראל ומניעת הליכים פליליים. המדריך המלא להסדרת נכסים וחשבונות בנק בחו\"ל מול רשות המיסים."
+    },
+    {
+     "title": "בן זוג זר: ההליך המדורג לקבלת מעמד בישראל",
+     "description": "הסדרת מעמד לבן זוג זר בישראל דורשת היכרות מעמיקה עם ההליך המדורג. במדריך זה נפרט את השלבים, הדרישות המשפטיות והטיפים המקצועיים להצלחה מול רשות האוכלוסין וההגירה."
+    },
+    {
+     "title": "אשרות עבודה לזרים: סוגי ההיתרים וחובות המעסיק",
+     "description": "מדריך מקיף למעסיקים בישראל בנושא אשרת עבודה לזר. למד על סוגי היתרים, חובות המעסיק לפי החוק, ומניעת סנקציות פליליות באמצעות תהליך רשמי ותקין."
+    },
+    {
+     "title": "מיסוי קריפטו בישראל: מתי משלמים ואיך מדווחים",
+     "description": "השקעתם בקריפטו? רשות המסים רואה בנכסים דיגיטליים נכס לכל דבר. מדריך זה יסביר לכם כיצד לבצע מיסוי קריפטו בצורה נכונה ולהימנע מסנקציות פליליות מיותרות."
+    },
+    {
+     "title": "עריקות ונפקדות: ההשלכות והדרך לסגור את התיק",
+     "description": "מתמודדים עם עריקות ונפקדות מהצבא? מדריך זה מסביר את ההבדלים המשפטיים, הסיכונים הממשיים והצעדים הנכונים לביצוע כדי להסדיר את מעמדכם מול הרשויות בביטחון ובליווי מקצועי."
+    },
+    {
+     "title": "דרכון רומני: תנאי הזכאות, המסמכים ומשך ההליך",
+     "description": "מדריך מקיף להוצאת דרכון רומני: תנאי הזכאות על פי הדין, פירוט המסמכים הנדרשים, הליך האפוסטיל והבירוקרטיה מול הרשויות בבוקרשט להשגת אזרחות אירופאית מלאה עבורכם ועבור בני משפחתכם."
+    },
+    {
+     "title": "זומנתם לחקירה במס הכנסה? הכללים לפני שאומרים מילה",
+     "description": "קיבלתם זימון לחקירת מס הכנסה? אל תיכנסו ללחץ. במדריך זה נפרט את הצעדים הקריטיים, הזכויות שלכם בחדר החקירות וכיצד להתנהל נכון כדי למזער נזקים משפטיים וכלכליים."
+    },
+    {
+     "title": "עורך דין צבאי: ייצוג חיילים בחקירות ובבתי דין",
+     "description": "ניצב בפני חקירת מצ\"ח או הליך משמעתי? עורך דין צבאי הוא הכתובת להגנה על זכויותיך. למד על שלבי ההליך, חשיבות הייעוץ המוקדם והדרכים למזעור נזקים במערכת המשפט הצבאית."
+    },
+    {
+     "title": "דרכון גרמני: זכאות לצאצאי נרדפי המשטר הנאצי",
+     "description": "מדריך מקיף לזכאות לדרכון גרמני לצאצאי נרדפי הנאצים. גלו את התנאים החדשים, הרקע המשפטי והצעדים הנדרשים להגשת בקשה מוצלחת לאזרחות אירופאית כבר היום."
+    },
+    {
+     "title": "עורך דין מיסים: מתי רואה חשבון כבר לא מספיק",
+     "description": "האם רואה חשבון מספיק לניהול ענייני המס שלכם? גלו מתי נדרש עורך דין מיסים כדי להגן על הנכסים, למנוע הליכים פליליים ולהבטיח חיסיון משפטי מלא מול רשויות המס."
+    }
+   ],
+   "quote": "מדריך משפטי מקיף על בקשה לקבלת מעמד הומניטרי בישראל: מתי הוועדה הבין-משרדית מאשרת את הבקשה, מהם הקריטריונים הקריטיים ואיך מעלים את סיכויי ההצלחה בהליך מול משרד הפנים?",
+   "images": [
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/b98379a40_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b98379a40_generated_image.webp",
+     "alt": "עורך דין מייעץ בנושא הגשת בקשה למעמד הומניטרי בישראל"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/3a8da4d1f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/3a8da4d1f_generated_image.webp",
+     "alt": "עורך דין מייצג לקוח במהלך הליך השגה על שומה מול רשות המסים בישראל"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/200a4fc89_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/200a4fc89_generated_image.webp",
+     "alt": "עורך דין מגיש עתירה מנהלית לבית המשפט לעניינים מנהליים"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/cf4db5f0d_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/cf4db5f0d_generated_image.webp",
+     "alt": "עורך דין מייעץ ללקוח בנושא עתירה נגד מכרזים ציבוריים במשרד"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/1f5e8ae19_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/1f5e8ae19_generated_image.webp",
+     "alt": "תהליך פטור מגיוס וייעוץ רפואי לפני ועדה רפואית של צה\"ל"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/10ff3a93d_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/10ff3a93d_generated_image.webp",
+     "alt": "מדריך מקיף בנושא רישוי עסקים מול הרשויות המקומיות בישראל"
+    }
+   ],
+   "image_alt": "מיסים ונישות משלימות",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/tax-and-more/",
+   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/tax-and-more/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#tax-and-more",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=tax-and-more",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=tax-and-more",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "העולם המשפטי בישראל",
+   "business_slug": "lawinisrael-com",
+   "business_site": "https://lawinisrael.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/"
+  },
+  {
+   "id": "general",
+   "title": "כללי ומידע לעורכי דין",
+   "description": "לידים איכותיים הם דלק הצמיחה של כל משרד עורכי דין. במדריך זה נפרק את כל מה שעליכם לדעת על רכישת לידים לעורכי דין – מסוגי הלידים ואימות איכות, ועד בחירת הספק הנכון ומדידת התוצאות.",
+   "link": "https://lawinisrael.com/category/general?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+   "brand": "העולם המשפטי בישראל",
+   "condition": "new",
+   "words": 241,
+   "quote": "לידים איכותיים הם דלק הצמיחה של כל משרד עורכי דין. במדריך זה נפרק את כל מה שעליכם לדעת על רכישת לידים לעורכי דין – מסוגי הלידים ואימות איכות, ועד בחירת הספק הנכון ומדידת התוצאות.",
+   "images": [
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/9c0ddde3f_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9c0ddde3f_generated_image.webp",
+     "alt": "שולחן עבודה של עורך דין עם מחשב נייח המציג מערכת ניהול לידים עם גרפים ונתונים"
+    }
+   ],
+   "image_alt": "כללי ומידע לעורכי דין",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/general/",
+   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/general/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#general",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=general",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=general",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "העולם המשפטי בישראל",
+   "business_slug": "lawinisrael-com",
+   "business_site": "https://lawinisrael.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/"
+  },
+  {
+   "id": "buying-leads-for-lawyers-guide",
+   "title": "רכישת לידים לעורכי דין: המדריך המקיף לבחירת ספק לידים איכותיים",
+   "description": "לידים איכותיים הם דלק הצמיחה של כל משרד עורכי דין. במדריך זה נפרק את כל מה שעליכם לדעת על רכישת לידים לעורכי דין – מסוגי הלידים ואימות איכות, ועד בחירת הספק הנכון ומדידת התוצאות.",
+   "link": "https://lawinisrael.com/article/buying-leads-for-lawyers-guide?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/9c0ddde3f_generated_image.png",
+   "brand": "העולם המשפטי בישראל",
+   "condition": "new",
+   "updated": "2026-08-16",
+   "words": 1763,
+   "quote": "לידים איכותיים הם דלק הצמיחה של כל משרד עורכי דין. במדריך זה נפרק את כל מה שעליכם לדעת על רכישת לידים לעורכי דין – מסוגי הלידים ואימות איכות, ועד בחירת הספק הנכון ומדידת התוצאות.\n\nתחרות בשוק המשפטי בישראל רק הולכת וגוברת. משרדים קטנים וגדולים כאחד מתמודדים עם אותו אתגר יסודי: כיצד להביא לקוחות חדשים באופן עקבי וצפוי. פעם הסתמכנו על המלצות מפה לאוזן ועל מוניטין מקצועי, אבל היום, כשלקוחות פוטנציאליים מחפשים עורך דין בגוגל לפני שהם מרימים טלפון, המשחק השתנה.\n\nלידים איכותיים הם הדלק שמניע את המשרד קדימה. לא מדובר ברשימת שמות קרה שנקנתה בשוק אפור, אלא בפניות אמיתיות של אנשים שצריכים שירות משפטי כעת, והשאירו את פרטיהם כדי שעורך דין מתאים ייצור איתם קשר. כשהליד נבדק, מאומת ומסונן נכון – שיעור ההמרה שלו ללקוח שכיר גבוה באופן משמעותי מכל פעילות שיווקית אחרת.\n\nעורכי דין רבים מנסים לייצר לידים לבד – מקימים אתר, משקיעים בקידום אורגני (SEO), מריצים קמפיינים ממומנים בגוגל ובפייסבוק, ומנהלים דפי עסק ברשתות החברתיות. הבעיה היא שכל אלו דורשים זמן, ידע מקצועי ותקציב מתמשך. קידום אורגני לוקח חודשים עד שנים כדי לתת פירות, קמפיינים ממומנים עולים יקר ודורשים אופטימיזציה מתמדת, והתחרות על מילות מפתח משפטיות בגוגל היא מהקשות שיש.\n\nבנוסף, עורך דין שעסוק בתיקים ובבתי משפט לא יכול לנהל גם מערכת שיווקית מורכבת. התוצאה: כסף רב נשפך על פעילויות שיווקיות שלא מניבות תוצאות, והמשרד נשאר ללא זרימה יציבה של לקוחות חדשים.\n\nליד (Lead) הוא פנייה של לקוח פוטנציאלי שהביע עניין אמיתי בשירות משפטי והשאיר את פרטי הקשר שלו. בניגון לגלישה אקראית באתר, ליד הוא אדם שכבר נמצא בשלב שבו הוא צריך ייעוץ – הוא יודע שיש לו בעיה משפטית, והוא מחפש פתרון.",
+   "images": [
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/9c0ddde3f_generated_image.png/v1/fill/w_1280,h_516,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9c0ddde3f_generated_image.webp",
+     "alt": "שולחן עבודה של עורך דין עם מחשב נייח המציג מערכת ניהול לידים עם גרפים ונתונים"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/9badcc188_generated_image.png/v1/fill/w_856,h_440,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9badcc188_generated_image.webp",
+     "alt": "סמארטפון עם התראות לידים נכנסים על שולחן עבודה של עורך דין"
+    }
+   ],
+   "image_alt": "רכישת לידים לעורכי דין: המדריך המקיף לבחירת ספק לידים איכותיים",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/buying-leads-for-lawyers-guide/",
+   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/buying-leads-for-lawyers-guide/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#buying-leads-for-lawyers-guide",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=buying-leads-for-lawyers-guide",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=buying-leads-for-lawyers-guide",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "העולם המשפטי בישראל",
+   "business_slug": "lawinisrael-com",
+   "business_site": "https://lawinisrael.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/"
+  },
   {
    "id": "heart-attack-at-work-as-work-accident",
    "title": "התקף לב או אירוע מוחי בעבודה: מתי זה מוכר כתאונת עבודה",
@@ -2250,98 +2571,6 @@
    "page": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-buying-new-apartment-abroad/",
    "json": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-buying-new-apartment-abroad/item.json",
    "page_anchor": "https://nitairevivo.github.io/agentfeed/leadon/#leadon-buying-new-apartment-abroad",
-   "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
-   },
-   "business": "LeadOn",
-   "business_slug": "leadon",
-   "business_site": "https://leadon.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/leadon/"
-  },
-  {
-   "id": "leadon-buying-new-apartment-israel",
-   "title": "לידים בתחום רכישת דירה חדשה בישראל — LeadOn",
-   "description": "לידים מאומתים בתחום רכישת דירה חדשה בישראל. אפשר לבחור ליד בלעדי, השייך רק לעסק אחד, או ליד לא־בלעדי שמתחלק בין שלושה עסקים לכל היותר. הלידים נבדקים ומסוננים לפני מסירה. המחיר לליד לא פורסם באתר ונקבע מול העסק.",
-   "link": "https://leadon.co.il/domain/buying-new-apartment-israel?utm_source=agentfeed&utm_medium=ai",
-   "brand": "LeadOn",
-   "product_type": "LeadOn > דירה חדשה > ליד > ליד און > לידים > לידים בלעדיים > לידים דירה חדשה > לידים חמים > לידים לעסק > לקוחות חדשים > פניות > קבלן > קניית לידים > רכישת דירה",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-buying-new-apartment-israel/",
-   "json": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-buying-new-apartment-israel/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/leadon/#leadon-buying-new-apartment-israel",
-   "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
-   },
-   "business": "LeadOn",
-   "business_slug": "leadon",
-   "business_site": "https://leadon.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/leadon/"
-  },
-  {
-   "id": "leadon-car-loans",
-   "title": "לידים בתחום הלוואות לרכב — LeadOn",
-   "description": "לידים מאומתים בתחום הלוואות לרכב. אפשר לבחור ליד בלעדי, השייך רק לעסק אחד, או ליד לא־בלעדי שמתחלק בין שלושה עסקים לכל היותר. הלידים נבדקים ומסוננים לפני מסירה. המחיר לליד לא פורסם באתר ונקבע מול העסק.",
-   "link": "https://leadon.co.il/domain/car-loans?utm_source=agentfeed&utm_medium=ai",
-   "brand": "LeadOn",
-   "product_type": "LeadOn > הלוואה לרכב > ליד > ליד און > לידים > לידים בלעדיים > לידים הלוואה לרכב > לידים חמים > לידים לעסק > לקוחות חדשים > מימון רכב > פניות > קניית לידים",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-car-loans/",
-   "json": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-car-loans/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/leadon/#leadon-car-loans",
-   "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
-   },
-   "business": "LeadOn",
-   "business_slug": "leadon",
-   "business_site": "https://leadon.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/leadon/"
-  },
-  {
-   "id": "leadon-car-rental",
-   "title": "לידים בתחום השכרת רכב — LeadOn",
-   "description": "לידים מאומתים בתחום השכרת רכב. אפשר לבחור ליד בלעדי, השייך רק לעסק אחד, או ליד לא־בלעדי שמתחלק בין שלושה עסקים לכל היותר. הלידים נבדקים ומסוננים לפני מסירה. המחיר לליד לא פורסם באתר ונקבע מול העסק.",
-   "link": "https://leadon.co.il/domain/car-rental?utm_source=agentfeed&utm_medium=ai",
-   "brand": "LeadOn",
-   "product_type": "LeadOn > השכרת רכב > ליד > ליד און > לידים > לידים בלעדיים > לידים השכרת רכב > לידים חמים > לידים לעסק > לקוחות חדשים > פניות > קניית לידים > רכב להשכרה",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-car-rental/",
-   "json": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-car-rental/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/leadon/#leadon-car-rental",
-   "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
-   },
-   "business": "LeadOn",
-   "business_slug": "leadon",
-   "business_site": "https://leadon.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/leadon/"
-  },
-  {
-   "id": "leadon-commercial-vehicle-leasing",
-   "title": "לידים בתחום ליסינג רכב מסחרי — LeadOn",
-   "description": "לידים מאומתים בתחום ליסינג רכב מסחרי. אפשר לבחור ליד בלעדי, השייך רק לעסק אחד, או ליד לא־בלעדי שמתחלק בין שלושה עסקים לכל היותר. הלידים נבדקים ומסוננים לפני מסירה. המחיר לליד לא פורסם באתר ונקבע מול העסק.",
-   "link": "https://leadon.co.il/domain/commercial-vehicle-leasing?utm_source=agentfeed&utm_medium=ai",
-   "brand": "LeadOn",
-   "product_type": "LeadOn > ליד > ליד און > לידים > לידים בלעדיים > לידים חמים > לידים ליסינג מסחרי > לידים לעסק > ליסינג מסחרי > לקוחות חדשים > פניות > קניית לידים > רכב מסחרי",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-commercial-vehicle-leasing/",
-   "json": "https://nitairevivo.github.io/agentfeed/leadon/item/leadon-commercial-vehicle-leasing/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/leadon/#leadon-commercial-vehicle-leasing",
    "order": {
     "method": "none",
     "url": "",

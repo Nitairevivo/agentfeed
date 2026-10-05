@@ -1,10 +1,178 @@
 {
  "page": 30,
  "pages": 100,
- "total": 4989,
+ "total": 4993,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-31.json",
  "products": [
+  {
+   "id": "16001",
+   "title": "מזרקת מים לחתול 2.4 ליטר | מזרקת שתייה לכלב עם חלון לד",
+   "description": "אפשרויות שתייה ארגונומיות שמגרות את חיית המחמד לשתות יותר  \n מזרקת מים לחתול 2.4 ליטר | מזרקת שתייה לכלב עם חלון לד",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%a8%d7%a7%d7%aa-%d7%9e%d7%99%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-2-4-%d7%9c%d7%99%d7%98%d7%a8-%d7%9e%d7%96%d7%a8%d7%a7%d7%aa-%d7%a9%d7%aa%d7%99%d7%99%d7%94-%d7%9c%d7%9b%d7%9c%d7%91/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/מזרקת-מים-לחתול-1.jpg",
+   "condition": "new",
+   "price": "189.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16001%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16001",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16001/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/16001/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#16001",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16001%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16001",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D16001%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=16001",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%96%D7%A8%D7%A7%D7%AA%20%D7%9E%D7%99%D7%9D%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%202.4%20%D7%9C%D7%99%D7%98%D7%A8%20%7C%20%D7%9E%D7%96%D7%A8%D7%A7%D7%AA%20%D7%A9%D7%AA%D7%99%D7%99%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A2%D7%9D%20%D7%97%D7%9C%D7%95%D7%9F%20%D7%9C%D7%93%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "15967",
+   "title": "מיטה לכלב xxl ספה דגם בוסטון 120X100X28",
+   "description": "מיטה לכלבים גדולים  \n \n  בד 100% פוליאסטר עמיד למים, עמיד בפני שריטות, חזקה מאוד  \n \n \n \n \n  \n   אורך   \n   רוחב   \n   גובה   \n   מחיר   \n \n \n  XXL  \n 120 ס”מ \n 100 ס”מ \n 28 ס”מ \n 499 ₪",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%99%d7%98%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-xxl-%d7%a1%d7%a4%d7%94-%d7%93%d7%92%d7%9d-%d7%91%d7%95%d7%a1%d7%98%d7%95%d7%9f-120x100x28/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/מיטה-לכלב-xxl-ספה-דגם-בוסטון-120X100X28.jpg",
+   "condition": "new",
+   "price": "499.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15967%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15967",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15967/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15967/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#15967",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15967%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15967",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15967%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15967",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%98%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20xxl%20%D7%A1%D7%A4%D7%94%20%D7%93%D7%92%D7%9D%20%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F%20120X100X28%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "15964",
+   "title": "חטיף לכלב דנטלייף גזע בינוני פורינה Purina",
+   "description": "דנטלייף DentaLife, חטיף לשמירה על בריאות השן של כלבך.   \n חשיבות תחזוקת השיניים נמצאת במעלה הראשונה. בדיקה וניקוי באופן קבוע ימנעו היווצרות אבנית, הצטברות כתמים ושכבות פלאק על פני השן, דלקות חניכיים ועוד. חטיף מפנק בעל תועלות דנטליות פונקציונאליות ולמניעת בעיות בריאותיות בעתיד. \n  כמות: 5 יח’",
+   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91-%d7%93%d7%a0%d7%98%d7%9c%d7%99%d7%99%d7%a3-%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-purina/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/11/חטיף-לכלב-גזע-בינוני-דנטלייף-פורינה-Purina.jpg",
+   "condition": "new",
+   "price": "19.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15964%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15964",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15964/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15964/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#15964",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15964%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15964",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15964%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15964",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%D7%99%D7%A3%20%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%20%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94%20Purina%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "15178",
+   "title": "מלונה לכלב קני 7 של פרפלסט",
+   "description": "מלונה חיצונית מפלסטיק KENNY 7   \n מידה: 112x80x80  ס”מ \n  קני היא מלונה חיצונית מפלסטיק שנראית כמו איגלו ומספקת בידוד מעולה בטמפרטורות גבוהות ונמוכות כאחד.  קני בנוי מפלסטיק קשיח ועמיד בפני זעזועים וכולל מערכת אוורור שימושית המבטיחה אוורור פנימי מרבי, כמו גם מערכת ניקוז להבטחת סביבה יבשה וללא חיידקים. יש לו כניסה גדולה, המאפשרת לכלבכם גישה נוחה והוא מצויד גם בבסיס בעל צורה מסוימת, ובכך מבטיח בידוד מושלם מהקרקע",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%9c%d7%95%d7%a0%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a7%d7%a0%d7%997-%d7%a9%d7%9c-%d7%a4%d7%a8%d7%a4%d7%9c%d7%a1%d7%98/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/10/מלונה-לכלב-קני-של-פרפלסט.jpg",
+   "condition": "new",
+   "price": "589.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15178%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15178",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15178/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/15178/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#15178",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15178%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15178",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D15178%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=15178",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%9C%D7%95%D7%A0%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A7%D7%A0%D7%99%207%20%D7%A9%D7%9C%20%D7%A4%D7%A8%D7%A4%D7%9C%D7%A1%D7%98%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "15177",
    "title": "מלונה לכלב קני 5 של פרפלסט",
@@ -1922,174 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%98%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%A7%D7%9C%D7%99%D7%A7%D7%95%20%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%AA%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "14404",
-   "title": "מיטה לכלב איגלו כחול קומפורט",
-   "description": "מיטה לכלב  ולחתול איגלו כחול קומפורט במבחר מידות \n \n \n \n  \n   אורך   \n   רוחב   \n   גובה   \n   מחיר   \n \n \n  S  \n 35 ס”מ \n 35 ס”מ \n 30 ס”מ \n 199 ₪ \n \n \n  M  \n 40 ס”מ \n 40 ס”מ \n 40 ס”מ \n 239 ₪ \n \n \n  L  \n 40 ס”מ \n 45 ס”מ \n 45 ס”מ \n 299 ₪",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%99%d7%98%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%99%d7%92%d7%9c%d7%95-%d7%9b%d7%97%d7%95%d7%9c-%d7%a7%d7%95%d7%9e%d7%a4%d7%95%d7%a8%d7%98/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/10/מיטת-איגלו-כחול-קומפורט.jpg",
-   "condition": "new",
-   "price": "199.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14404%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14404",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14404/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14404/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#14404",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14404%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14404",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14404%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14404",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%98%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%90%D7%99%D7%92%D7%9C%D7%95%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%A7%D7%95%D7%9E%D7%A4%D7%95%D7%A8%D7%98%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "14402",
-   "title": "מיטה לכלב בצבע כחול קליקו מהודרת מידה L",
-   "description": "מיטה לכלב  ולחתול מהודרת ונוחה בצבע כחול מידה L \n אורך: 70 ס”מ \n רוחב: 65 ס”מ \n גובה: 18 ס”מ",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%99%d7%98%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a6%d7%91%d7%a2-%d7%9b%d7%97%d7%95%d7%9c-%d7%a7%d7%9c%d7%99%d7%a7%d7%95-%d7%9e%d7%94%d7%95%d7%93%d7%a8%d7%aa-%d7%9e%d7%99%d7%93%d7%94-l/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/10/מיטה-לכלב-בצבע-כחול-קליקו-מהודרת-מידה-L.jpg",
-   "condition": "new",
-   "price": "279.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14402%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14402",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14402/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14402/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#14402",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14402%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14402",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14402%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14402",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%98%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A6%D7%91%D7%A2%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%A7%D7%9C%D7%99%D7%A7%D7%95%20%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA%20%D7%9E%D7%99%D7%93%D7%94%20L%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "14400",
-   "title": "מיטה לכלב בצבע כחול קליקו מהודרת מידה M",
-   "description": "מיטה לכלב  ולחתול מהודרת ונוחה בצבע כחול מידה M \n אורך: 57 ס”מ \n רוחב: 52 ס”מ \n גובה: 18 ס”מ",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%99%d7%98%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a6%d7%91%d7%a2-%d7%9b%d7%97%d7%95%d7%9c-%d7%a7%d7%9c%d7%99%d7%a7%d7%95-%d7%9e%d7%94%d7%95%d7%93%d7%a8%d7%aa-%d7%9e%d7%99%d7%93%d7%94-m/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/10/מיטה-לכלב-בצבע-כחול-קליקו-מהודרת-מידה-M.jpg",
-   "condition": "new",
-   "price": "200.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14400%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14400",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14400/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14400/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#14400",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14400%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14400",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14400%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14400",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%98%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A6%D7%91%D7%A2%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%A7%D7%9C%D7%99%D7%A7%D7%95%20%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA%20%D7%9E%D7%99%D7%93%D7%94%20M%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "14398",
-   "title": "מיטה לכלב בצבע כחול קליקו מהודרת",
-   "description": "מיטה לכלב  ולחתול מהודרת ונוחה בצבע כחול ולבן מידה S \n אורך: 45 ס”מ \n רוחב: 45 ס”מ \n גובה: 16 ס”מ",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%99%d7%98%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%a6%d7%91%d7%a2-%d7%9b%d7%97%d7%95%d7%9c-%d7%a7%d7%9c%d7%99%d7%a7%d7%95-%d7%9e%d7%94%d7%95%d7%93%d7%a8%d7%aa/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2021/10/מיטה-לכלב-בצבע-כחול-קליקו-מהודרת.jpg",
-   "condition": "new",
-   "price": "140.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14398%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14398",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14398/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/14398/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/14/#14398",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14398%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14398",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D14398%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=14398",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%99%D7%98%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%A6%D7%91%D7%A2%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%A7%D7%9C%D7%99%D7%A7%D7%95%20%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

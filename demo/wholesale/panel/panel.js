@@ -198,6 +198,7 @@
           '</td><td class="' + (r.kind === 'income' ? 'in' : 'out') + '">₪' + nf(r.amount) + '</td><td>' + esc(r.note) + '</td><td>' +
           (d.demo ? '' : '<button type="button" data-rm="' + esc(r.id) + '" aria-label="מחיקה">✕</button>') + '</td></tr>'; }).join('');
     $('add').setAttribute('aria-disabled', d.demo ? 'true' : 'false');
+    orders(d);
     $('advice').innerHTML = d.advice.length ? d.advice.map(function (a) {
       return '<div class="tip ' + a.level + '"><div class="ic" aria-hidden="true">' + ICON[a.level] + '</div><div><h3>' + esc(a.title) +
         '</h3><p>' + esc(a.body) + '</p></div><span class="ev">' + esc(a.metric) + '</span></div>'; }).join('') :
@@ -209,6 +210,34 @@
       '<li>כשמישהו ילחץ על הזמנה מתוך כרטיס של מוצר, הוא יופיע כאן.</li>';
     $('when').textContent = 'עודכן ' + new Date().toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' });
     document.querySelectorAll('[data-to]').forEach(countUp);
+  }
+  // Orders paid by card on the shop's own pages. Shown only for a shop that takes
+  // them; added here and not in the page so panels of sites with no shop stay as they are.
+  var ST = { paid: ['שולם', 'in'], pending: ['ממתין לתשלום', ''], 'amount-mismatch': ['סכום לא תואם, לבדוק', 'out'] };
+  function orders(d) {
+    var list = d.orders;
+    var box = document.getElementById('orders');
+    if (!list || !list.length) { if (box) box.parentNode.removeChild(box); return; }
+    if (!box) {
+      box = document.createElement('section'); box.id = 'orders'; box.className = 'cardp glass';
+      var led = $('ledger').closest('section'); led.parentNode.insertBefore(box, led);
+    }
+    var paid = list.filter(function (o) { return o.status === 'paid'; });
+    var sum = paid.reduce(function (a, o) { return a + o.total; }, 0);
+    var ex = list.some(function (o) { return o.example; });
+    box.innerHTML = '<h2>🧾 הזמנות מהאתר</h2><p class="sub">' +
+      (ex ? 'אלה הזמנות לדוגמה. כשלקוח ישלם באתר, ההזמנה שלו תופיע כאן, עם השם, הטלפון ומה הזמין.' :
+            'כל הזמנה ששולמה באשראי באתר. הכסף עובר ישר לחשבון הסליקה של העסק.') +
+      (paid.length ? ' <b>' + nf(paid.length) + '</b> שולמו, סך ₪' + nf(Math.round(sum)) + '.' : '') + '</p>' +
+      '<div style="overflow-x:auto;margin-top:12px"><table class="led"><tr><th>מתי</th><th>לקוח</th><th>מה הוזמן</th><th>סכום</th><th>מצב</th></tr>' +
+      list.slice(0, 30).map(function (o) {
+        var st = ST[o.status] || [o.status, ''];
+        var who = esc((o.customer && o.customer.name) || '') + (o.customer && o.customer.phone ?
+          '<br><a href="tel:' + esc(o.customer.phone) + '">' + esc(o.customer.phone) + '</a>' : '');
+        var what = (o.lines || []).map(function (l) { return esc(l.name) + (l.label ? ' · ' + esc(l.label) : '') + ' ×' + nf(l.n); }).join('<br>');
+        return '<tr><td>' + new Date(o.created).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }) + '</td><td>' + who +
+          '</td><td style="font-size:13px">' + what + '</td><td class="in">₪' + nf(o.total) + '</td><td class="' + st[1] + '">' + st[0] +
+          (o.mock && !o.example ? ' <small>(הדמיה)</small>' : '') + '</td></tr>'; }).join('') + '</table></div>';
   }
   function load(method, body) {
     var h = { 'content-type': 'application/json' };
