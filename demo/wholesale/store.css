@@ -199,3 +199,22 @@ footer .cols{display:flex;gap:30px;flex-wrap:wrap;justify-content:space-between}
 .sticky b{font:900 20px Heebo}.sticky button{flex:1;height:48px;border-radius:14px;background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;font:900 16px Heebo}
 .panelfab{bottom:84px;right:10px;padding:10px 12px}.has-sticky footer{padding-bottom:150px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* colour pass */
+body{background:radial-gradient(900px 600px at 100% 40%,rgba(199,125,255,.12),transparent 60%),radial-gradient(800px 600px at 0% 70%,rgba(0,180,216,.12),transparent 60%),radial-gradient(700px 500px at 100% 95%,rgba(255,158,0,.12),transparent 60%),var(--bg)}
+.feat.col{background:linear-gradient(135deg,var(--f1),var(--f2));border:0;color:#fff;box-shadow:0 18px 30px -18px var(--f2)}
+.feat.col i{background:rgba(255,255,255,.22)}
+.feat.col small{color:rgba(255,255,255,.88)}
+.deal{position:relative;display:flex;align-items:center;justify-content:space-between;overflow:hidden;margin:6px 0 10px;padding:30px 34px;border-radius:28px;color:#fff;background:radial-gradient(500px 260px at 15% 50%,rgba(255,255,255,.28),transparent 60%),linear-gradient(120deg,#ff3d71,#ff7a00 55%,#ffb703);box-shadow:0 26px 50px -26px #ff3d71;min-height:200px}
+.deal>div{position:relative;z-index:1;display:flex;flex-direction:column;gap:6px;max-width:60%}
+.deal .dtag{align-self:flex-start;font:900 13px Heebo;background:rgba(255,255,255,.25);padding:5px 12px;border-radius:99px}
+.deal b{font:900 clamp(24px,3.4vw,38px)/1.1 Heebo}
+.deal .dsub{font:700 16px Heebo;opacity:.95}
+.deal .dbtn{align-self:flex-start;margin-top:8px;background:#fff;color:#c2185b;font:900 15px Heebo;padding:10px 18px;border-radius:14px}
+.deal img{position:absolute;left:12%;top:50%;height:150%;transform:translateY(-46%) rotate(-12deg);filter:drop-shadow(0 26px 30px rgba(80,0,30,.45))}
+.deal img.d2{left:2%;height:105%;transform:translateY(-40%) rotate(10deg)}
+.strip{display:flex;gap:26px;overflow:hidden;white-space:nowrap;margin:18px -16px 0;padding:14px 16px;background:linear-gradient(90deg,#4318c9,#7b2cbf,#c2185b,#ff7a00);color:#fff;font:800 15px Heebo}
+.strip span{flex:0 0 auto}
+.band{margin:22px 0;padding:28px 22px;border-radius:30px;background:linear-gradient(160deg,color-mix(in srgb,var(--c1) 16%,#fff),color-mix(in srgb,var(--c2) 8%,#fff));border:1px solid color-mix(in srgb,var(--c1) 25%,#fff)}
+.band h2::after{background:linear-gradient(90deg,var(--c1),var(--c2))}
+@media (max-width:560px){.deal{padding:22px 18px;min-height:170px}.deal>div{max-width:70%}.deal img{left:-6%;height:120%}.deal img.d2{display:none}.band{padding:18px 10px;border-radius:22px}}
