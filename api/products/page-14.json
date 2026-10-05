@@ -1,10 +1,52 @@
 {
  "page": 14,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-15.json",
  "products": [
+  {
+   "id": "18910",
+   "title": "קונג לכלב עצם כוח במבוק L",
+   "description": "החומר העמיד המושרה במבוק של KONG CoreStrength Bamboo מפתה לעיסה תוך מתן כיף לאורך זמן. גבשושיות ומרקמים מורמות מתגמלים התנהגות הולמת תוך כדי התועלת של ניקוי שיניים. אידיאלי עבור כלבים שאינם יכולים לבלות מספיק זמן בלעיסה, העיצוב הייחודי ממלא רצונות תוך מראה נהדר במשק הבית.",
+   "link": "https://closetonature.co.il/product/%d7%a7%d7%95%d7%a0%d7%92-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a2%d7%a6%d7%9d-%d7%9b%d7%95%d7%97-%d7%91%d7%9e%d7%91%d7%95%d7%a7-l/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2022/02/קונג-לכלב-עצם-כוח-במבוק-L.jpg",
+   "condition": "new",
+   "price": "109.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18910%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18910",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18910/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18910/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/6/#18910",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18910%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18910",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18910%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18910",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A7%D7%95%D7%A0%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A2%D7%A6%D7%9D%20%D7%9B%D7%95%D7%97%20%D7%91%D7%9E%D7%91%D7%95%D7%A7%20L%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "18904",
    "title": "כלוב לתוכי BC-10",
@@ -2049,48 +2091,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%98%D7%90%D7%A4%D7%90%D7%A1%20%D7%A1%D7%A8%D7%93%D7%99%D7%A0%D7%99%D7%9D%20150%20%D7%92%D7%A8%D7%9D%20%D7%9E%D7%93%D7%99%D7%98%D7%99%D7%A8%D7%A0%D7%99%D7%90%D7%9F%20MEDITERANEAN%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "18215",
-   "title": "חטיף לכלב טאפאס ברווז 150 גרם מדיטירניאן MEDITERANEAN",
-   "description": "ה”טאפס” של MEDITERRANEAN NATURAL הם    חטיף לכלב 100% טבעי    העשוי מבשר ודגים באיכות הגבוהה ביותר.  \n \n \n  האכילו כמה פינוקים כרצונכם בשביל הכיף או כפרס גדול, השתמשו כעזר לאילוף כלבכם.  \n  בטעם ברווז",
-   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91-%d7%98%d7%90%d7%a4%d7%90%d7%a1-%d7%91%d7%a8%d7%95%d7%95%d7%96-190-%d7%92%d7%a8%d7%9d-%d7%9e%d7%93%d7%99%d7%98%d7%99%d7%a8%d7%a0%d7%99%d7%90%d7%9f-medi/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2022/01/חטיפים-לכלב-טאפאס-ברווז-190-גרם-מדיטירניאן-MEDITERANEAN.jpg",
-   "condition": "new",
-   "price": "25.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18215%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18215",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18215/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/18215/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/6/#18215",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18215%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18215",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D18215%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=18215",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%98%D7%90%D7%A4%D7%90%D7%A1%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20150%20%D7%92%D7%A8%D7%9D%20%D7%9E%D7%93%D7%99%D7%98%D7%99%D7%A8%D7%A0%D7%99%D7%90%D7%9F%20MEDITERANEAN%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

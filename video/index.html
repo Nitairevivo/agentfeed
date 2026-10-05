@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>הסרטון של AgentFeed</title>
+<meta property="og:title" content="אתר לחנות שלך, עם לוח בקרה חכם">
+<meta property="og:description" content="סרטון של 50 שניות: מה מקבלים, ואיך זה עובד.">
+<meta property="og:image" content="https://nitairevivo.github.io/agentfeed/video/poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0a1a;--card:#15132b;--line:#2a2650;--ink:#f3f1ff;--dim:#a7a3c8;--wa:#25d366;--brand:#7c5cff;--acc:#3ef0a1}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1000px 600px at 50% -10%,#2a1d6b 0,transparent 60%),var(--bg);color:var(--ink);font:16px/1.6 Heebo,system-ui,sans-serif}
+main{max-width:520px;margin:0 auto;padding:22px 16px 40px}
+h1{font:900 24px/1.3 Heebo;text-align:center;margin:4px 0 4px}
+.sub{color:var(--dim);text-align:center;margin:0 0 16px;font-size:14.5px}
+video{display:block;width:100%;max-height:72vh;aspect-ratio:9/16;object-fit:contain;background:#000;border-radius:22px;border:1px solid var(--line);box-shadow:0 30px 60px -30px #7c5cff}
+.btns{display:grid;gap:10px;margin:16px 0 22px}
+.b{display:flex;align-items:center;justify-content:center;gap:10px;height:56px;border-radius:16px;border:0;font:800 17px Heebo;cursor:pointer;text-decoration:none;color:#fff}
+.b.wa{background:var(--wa);color:#05391a;box-shadow:0 14px 30px -14px var(--wa)}
+.b.dl{background:var(--card);border:1px solid var(--line)}
+.b.cp{background:linear-gradient(135deg,var(--brand),#4a2fd1)}
+.b:disabled{opacity:.6}
+.msg{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px 16px;white-space:pre-wrap;font-size:15px;line-height:1.75}
+.msg b{color:#fff}
+.msg a{color:var(--acc);word-break:break-all}
+h2{font:800 17px Heebo;margin:0 0 10px}
+.hint{color:var(--dim);font-size:13px;text-align:center;margin:10px 0 0}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(80px);background:#fff;color:#111;padding:10px 18px;border-radius:99px;font:800 14px Heebo;transition:transform .25s,opacity .25s;opacity:0;pointer-events:none}
+.toast.on{transform:translateX(-50%) translateY(0);opacity:1}
+</style>
+</head>
+<body>
+<main>
+  <h1>🎬 הסרטון של AgentFeed</h1>
+  <p class="sub">50 שניות · מוכן לשליחה בוואטסאפ, בסטטוס ובטיקטוק</p>
+  <video src="https://nitairevivo.github.io/agentfeed/video/agentfeed.mp4" poster="https://nitairevivo.github.io/agentfeed/video/poster.jpg" controls playsinline preload="metadata"></video>
+  <div class="btns">
+    <button class="b wa" id="share">📤 שליחת הסרטון בוואטסאפ</button>
+    <a class="b dl" href="https://nitairevivo.github.io/agentfeed/video/agentfeed.mp4" download="AgentFeed.mp4">⬇️ שמירת הסרטון בטלפון</a>
+    <button class="b cp" id="copy">📋 העתקת ההודעה</button>
+  </div>
+  <h2>ההודעה ששולחים מתחת לסרטון</h2>
+  <div class="msg" id="msg"></div>
+  <p class="hint">שולחים קודם את הסרטון, ואחריו את ההודעה. הקישור בהודעה פותח את דף הנחיתה.</p>
+</main>
+<div class="toast" id="toast"></div>
+<script>
+// The message, in WhatsApp's own formatting (*bold*). Prices and the price-match
+// condition are the ones on sites.html; nothing here promises traffic.
+var MSG = [
+  'היי! 👋 אני ניתאי מ-AgentFeed',
+  '',
+  '🚀 *פיתחנו מערכת חכמה שבונה אתרים לחנויות ולעסקים קטנים.*',
+  'הסרטון למעלה מראה בדיוק מה מקבלים.',
+  '',
+  '🤝 *קודם כול, שירות:*',
+  '• אנחנו בונים, מעלים ומתחזקים. אתם מתעסקים בעסק',
+  '• רוצים לשנות מחיר או להוסיף מוצר? שולחים הודעה, ואנחנו מעדכנים',
+  '• מדברים ישירות איתי, בוואטסאפ, בלי מוקד',
+  '• לשלושת העסקים הראשונים: משלמים רק אחרי שרואים את האתר עובד',
+  '',
+  '✨ *ומה יש באתר:*',
+  '• עיצוב מושקע בצבעים של העסק, מותאם לטלפון',
+  '• הזמנה בוואטסאפ מכל מוצר, בלחיצה אחת',
+  '• אפשר גם תשלום באשראי ישר באתר',
+  '• לוח בקרה: כמה נכנסו, מאיפה, ועל מה לחצו',
+  '• מנתח AI שאומר מה לשפר השבוע',
+  '• אתר שגוגל ועוזרי AI יודעים לקרוא',
+  '',
+  '💰 *מתחייבים למחיר הכי זול:*',
+  'הבאתם הצעה כתובה זולה יותר לאותה חבילה? תקבלו את אותו מחיר.',
+  '',
+  '👀 כל הפרטים והדוגמאות:',
+  'https://nitairevivo.github.io/agentfeed/sites.html',
+  '',
+  '📞 ניתאי · 052-676-0039'
+].join('\n');
+
+var esc = function (s) { return s.replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); };
+document.getElementById('msg').innerHTML = esc(MSG).replace(/\*([^*\n]+)\*/g, '<b>$1</b>').replace(/https:\/\/\S+/g, function (u) { return '<a href=' + JSON.stringify(u) + '>' + u + '</a>'; });
+var tt; function toast(m) { var t = document.getElementById('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(tt); tt = setTimeout(function () { t.classList.remove('on'); }, 2600); }
+function copy() {
+  var done = function () { toast('✓ ההודעה הועתקה. מדביקים בוואטסאפ'); };
+  if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(MSG).then(done, legacy);
+  legacy();
+  function legacy() { var a = document.createElement('textarea'); a.value = MSG; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); done(); } catch (e) {} a.remove(); }
+}
+document.getElementById('copy').addEventListener('click', copy);
+document.getElementById('share').addEventListener('click', function () {
+  var b = this; b.disabled = true; b.textContent = 'מכין את הסרטון…';
+  var reset = function () { b.disabled = false; b.textContent = '📤 שליחת הסרטון בוואטסאפ'; };
+  fetch('https://nitairevivo.github.io/agentfeed/video/agentfeed.mp4').then(function (r) { return r.blob(); }).then(function (blob) {
+    var file = new File([blob], 'AgentFeed.mp4', { type: 'video/mp4' });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      // the share sheet: pick WhatsApp. The message is copied too, to paste after.
+      copy();
+      return navigator.share({ files: [file] }).then(reset, reset);
+    }
+    // no file sharing here (a computer): save the video, then open WhatsApp with the message
+    var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'AgentFeed.mp4'; document.body.appendChild(a); a.click(); a.remove();
+    toast('הסרטון נשמר. מצרפים אותו בוואטסאפ');
+    setTimeout(function () { window.open('https://wa.me/?text=' + encodeURIComponent(MSG), '_blank'); }, 900);
+    reset();
+  }).catch(function () { reset(); toast('לא הצלחנו לטעון. נסו "שמירת הסרטון בטלפון"'); });
+});
+</script>
+</body>
+</html>

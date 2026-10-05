@@ -1,0 +1,38 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🐱 מזון לגורי חתולים קטאיט דאבל פיוז’ן עוף וסלמון 1.8 ק”ג בלבד Catit Recipes Double Fusion Kitten",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/",
+ "description": "אוכל לגורי חתולים  קטאיט דאבל פיוז’ן גורים עוף וסלמון מספק תזונה שלמה ומלאה תמיכה דרמטולוגית ועיכול אופטימלי לגור החתולים המתפתח עשיר ב-96% חלבון מן החי (עוף וסלמון) מועשר ב-DHA משמן סלמון להתפתחות מוחית וראייה כולל נתחי עוף וסלמון גולמיים מיובשים בהקפאה (Freeze-Dried) ללא דגנים (Grain-Free) לעיכול קל ורגוע \n 📦  תכולה מדויקת:  1.8 ק”ג בלבד (זמין רק במשקל זה עבור פורמולת הגורים) \n 🌿  רכיבים / מאפיינים עיקריים:  96% חלבון מן החי, בשר עוף טרי וסלמון אטלנטי, מועשר ב-DHA, אל-ליזין ופרה-ביוטיקה. \n  🎯   יתרון מרכזי:   טכנולוגיית Double Fusion ייחודית – גרגיר מוזן ומצופה בחלבון (Infused Kibble) המשולב בנתחי בשר גולמי מיובשים בהקפאה (Freeze-Dried Raw Bites),   המספקים הזנה עילאית,   טעימות גבוהה ותמיכה קריטית בשלבי ההתפתחות הראשונים.",
+ "image": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Kitten-Chicken-and-Salmon-dry-cat-food-1.8kg-bag-isolated.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "קטאיט - Catit"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/catit-double-fusion-kitten-chicken-salmon-cat-food-1-8kg/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "108.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "73776",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73776%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73776",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-10-05",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

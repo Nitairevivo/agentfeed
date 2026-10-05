@@ -1,10 +1,48 @@
 {
  "page": 36,
  "pages": 44,
- "total": 2191,
+ "total": 2192,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-37.json",
  "products": [
+  {
+   "id": "4564",
+   "title": "חטיף לכלב אם-פאט עצמות עוף",
+   "description": "חטיף לכלב אם-פאט עצמות עוף  80 ג’ – חטיף איכותי לכלב בטעם עוף מומלץ !",
+   "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%9d-%d7%a4%d7%90%d7%98-%d7%a2%d7%a6%d7%9e%d7%95%d7%aa-%d7%a2%d7%95%d7%a3/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-לכלב-אם-פאט-עצמות-עוף.jpg",
+   "condition": "new",
+   "price": "17.90",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4564%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4564",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4564/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4564/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/17/#4564",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4564%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4564",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4564%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4564",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%90%D7%9D-%D7%A4%D7%90%D7%98%20%D7%A2%D7%A6%D7%9E%D7%95%D7%AA%20%D7%A2%D7%95%D7%A3%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "4563",
    "title": "חטיף לכלב אם-פאט עצמות עוף וגבינה",
@@ -1856,44 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%98%D7%A7%D7%99%D7%99%D7%A0%D7%93%20%E2%80%93%20Petkind%20%E2%80%93%20%D7%91%D7%99%D7%96%D7%95%D7%9F%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%91%D7%A1%D7%99%D7%A1%20%D7%A7%D7%99%D7%A8%D7%A9%D7%94%20%E2%80%93%20%D7%A9%D7%A7%206.3%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "4262",
-   "title": "פטקיינד – Petkind – ביזון ללא דגנים על בסיס קירשה – שק 11.3 ק”ג",
-   "description": "פטקיינד אוכל לכלבים      \n  מזון יבש לכלבים  המבוסס על בשר קירשה בקר ובשר קירשה ביזון. כל חומרי הגלם טריים ואיכותיים, ואושרו לצריכת מאכל אדם ע”י ה-CFIA (הסוכנות הקנדית לפיקוח מזון). מכיל קינואה אורגנית. עשיר בחומצות שומן חיוניות, אומגה 3 ו-6. אינו מכיל חיטה, תירס, סויה, גלוטן, ביצים ותפו”א.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%98%d7%a7%d7%99%d7%99%d7%a0%d7%93-petkind-%d7%91%d7%99%d7%96%d7%95%d7%9f-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%a2%d7%9c-%d7%91%d7%a1%d7%99%d7%a1-%d7%a7%d7%99%d7%a8%d7%a9/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פטקיינד-Petkind-ביזון-ללא-דגנים-על-בסיס-קירשה-שק-11.3-קג-פטקיינד-PetKind.jpg",
-   "condition": "new",
-   "price": "325.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4262%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4262",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4262/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4262/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/17/#4262",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4262%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4262",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4262%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4262",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%98%D7%A7%D7%99%D7%99%D7%A0%D7%93%20%E2%80%93%20Petkind%20%E2%80%93%20%D7%91%D7%99%D7%96%D7%95%D7%9F%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%91%D7%A1%D7%99%D7%A1%20%D7%A7%D7%99%D7%A8%D7%A9%D7%94%20%E2%80%93%20%D7%A9%D7%A7%2011.3%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

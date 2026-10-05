@@ -1,10 +1,52 @@
 {
  "page": 2,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-3.json",
  "products": [
+  {
+   "id": "69861",
+   "title": "🐕 חיתולים חד פעמיים לכלבים ארם אנד האמר Arm & Hammer Disposable Diapers",
+   "description": "מחפשים פתרון מושלם לשמירה על היגיינת הכלב וניקיון הבית?  חיתולים לכלבים  מבית Arm & Hammer העולמית מיוצרים בטכנולוגיה מתקדמת הכוללת סודה לשתייה מובנית לנטרול ריחות, הגנה אטומה מנזילות ומחוון רטיבות חכם המשנה את צבעו כשהחיתול מלא. \n אלו  חיתולים חד פעמיים לכלבים  המעניקים פתרון מצוין לכלבות בתקופת הייחום, לכלבים מבוגרים הסובלים מבריחת שתן, לגורים בתהליכי גמילה או לשימוש נוח במהלך טיסות ונסיעות ארוכות. המוצר זמין ב-4 מידות להתאמה מלאה (XS, S, M, L). \n \n 🛡️  הגנה מנזילות (Leak-Proof):  שוליים גמישים ואטומים המונעים בריחת נוזלים לשטיחים או לרהיטים. \n 👃  נטרול ריחות מובנה:  סודה לשתייה איכותית הלוכדת את הריח ומנטרלת אותו מהשורש. \n 🔄  סגירה בטוחה ומתכווננת:  סרטי הדבקה חזקים וידידותיים לפרווה שאינם תולשים שיער. \n 💧  מחוון רטיבות:  משנה את צבעו כדי שתדעו בדיוק מתי הגיע הזמן להחליף חיתול.",
+   "link": "https://closetonature.co.il/product/arm-and-hammer-disposable-dog-diapers/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/arm-and-hammer-dog-diapers-variety-sizes-main-image.jpg",
+   "condition": "new",
+   "price": "55.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69861%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69861",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69861/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69861/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#69861",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69861%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69861",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69861%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69861",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%95%20%D7%97%D7%99%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%97%D7%93%20%D7%A4%D7%A2%D7%9E%D7%99%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%90%D7%A8%D7%9D%20%D7%90%D7%A0%D7%93%20%D7%94%D7%90%D7%9E%D7%A8%20Arm%20%26%20Hammer%20Disposable%20Diapers%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "69819",
    "title": "🥩 מזון יבש סופר פרימיום לחתולים בוגרים פראמי קרניבור Pramy Carnivore – אריזת 7 ק”ג",
@@ -1315,6 +1357,7 @@
    "description": "מותג האיכות Catit מציע חול חתולים מתגבש וטבעי לחלוטין העשוי מקליפות אפונה. האריזה מכילה 5.6 ק”ג ומספקת מענה לעד 60 ימי שימוש. הנוסחה הייחודית מונעת אבק ומציעה פתרון מושלם לחתולים או בעלים רגישים. המצע סופח נוזלים במהירות, מייצר התגבשות חזקה ומנטרל ריחות בצורה טבעית ללא תוספת בישום מלאכותי. 🐱 ✨ \n \n \n 🌿  100% רכיבים טבעיים:  חול ידידותי לסביבה המיוצר מקליפות אפונה ממוחזרות ומתכלות. \n \n \n 🚫  טכנולוגיה ללא אבק:  מצע נקי השומר על דרכי הנשימה של החתול ועל ניקיון הבית. \n \n \n ⏳  חיסכון ל-60 יום:  אריזת 5.6 ק”ג חסכונית במיוחד המספיקה לתקופה ממושכת. \n \n \n 📦  התגבשות חזקה ומהירה:  גושים מוצקים המאפשרים ניקוי קל, נוח ומהיר בעזרת כף. \n \n \n 😷  נטרול ריחות עוצמתי:  המצע נועל ריחות אמוניה ביעילות גבוהה וללא ריח לוואי. \n \n \n   ✨ למה זה החול המושלם עבורכם?",
    "link": "https://closetonature.co.il/product/catit-go-natural-pea-husk-cat-litter-unscented-5-6kg/?utm_source=agentfeed&utm_medium=ai",
    "image_link": "https://closetonature.co.il/wp-content/uploads/2026/05/catit-go-natural-pea-husk-cat-litter-unscented-5-6kg.jpg",
+   "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "145.00",
    "currency": "ILS",
@@ -2051,48 +2094,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%A4%D7%99%D7%98%D7%99%D7%A7%D7%A1%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A2%D7%A0%D7%A7%2040-60%20%D7%A7%E2%80%9D%D7%92%20Effitix%20%7C%20%D7%94%D7%92%D7%A0%D7%94%20%D7%9E%D7%A9%D7%95%D7%9C%D7%A9%D7%AA%20%D7%91-4%20%D7%90%D7%9E%D7%A4%D7%95%D7%9C%D7%95%D7%AA%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "65448",
-   "title": "פילטר פחם Catit Clean – הגנה מקסימלית מריחות לשירותים האוטומטיים שלך",
-   "description": "השירותים האוטומטיים של קט איט עושים עבודה מדהימה בניקוי, אבל כדי שהבית שלכם יישאר רענן באמת, אתם חייבים פילטר פחם איכותי. פילטר ה- Catit Clean  עוצב במיוחד כדי להתאים למערכת סינון האוויר של השירותים האוטומטיים ( SmartSift ) ושל סדרת ה-Design של המותג. \n הפילטר מכיל פחם פעיל בעל שטח פנים רחב, שלוכד את מולקולות הריח ומונע מהן להתפשט בחלל הבית. \n \n \n  📦 תכולה:  2 פילטרים במארז. \n \n \n  🐱 התאמה מושלמת:  תואם ב-100% לשירותים אוטומטיים Catit SmartSift ולשירותי Catit Design. \n \n \n  🌑 טכנולוגיה:  פחם פעיל איכותי לנטרול ריחות אמוניה וריחות לוואי.",
-   "link": "https://closetonature.co.il/product/cat-litter-boxes-catit-smartsift-carbon-filters/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/פילטר-פחם-לשירותים-אוטומטיים-קט-איט.jpg",
-   "condition": "new",
-   "price": "35.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65448%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65448",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65448/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65448/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#65448",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65448%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65448",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65448%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65448",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%9C%D7%98%D7%A8%20%D7%A4%D7%97%D7%9D%20Catit%20Clean%20%E2%80%93%20%D7%94%D7%92%D7%A0%D7%94%20%D7%9E%D7%A7%D7%A1%D7%99%D7%9E%D7%9C%D7%99%D7%AA%20%D7%9E%D7%A8%D7%99%D7%97%D7%95%D7%AA%20%D7%9C%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%94%D7%90%D7%95%D7%98%D7%95%D7%9E%D7%98%D7%99%D7%99%D7%9D%20%D7%A9%D7%9C%D7%9A%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

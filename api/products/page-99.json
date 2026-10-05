@@ -1,10 +1,35 @@
 {
  "page": 99,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-100.json",
  "products": [
+  {
+   "id": "hackit770",
+   "title": "YUV.AI - בינה מלאכותית בעברית — ערוץ טלגרם",
+   "description": "גולשים חופשיים יכולים לצפות עד 10 ערוצים ביום. שדרג ל-PRO לגישה בלתי מוגבלת לכל הערוצים והקבוצות.",
+   "link": "https://tgil.co.il/channel/hackit770?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/d41e79276_photo.jpg",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 38,
+   "image_alt": "YUV.AI - בינה מלאכותית בעברית — ערוץ טלגרם",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/hackit770/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/hackit770/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#hackit770",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/"
+  },
   {
    "id": "beitarfans",
    "title": "מועדון אוהדי בית\"ר ירושלים — ערוץ טלגרם",
@@ -2257,64 +2282,6 @@
      {
       "method": "form",
       "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=women",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/"
-  },
-  {
-   "id": "hmo-coverage",
-   "title": "השתלת שיער בקופות החולים: מה מכוסה ב-2026",
-   "description": "רבים מהמטופלים הפונים לקופות החולים שואלים האם קיים כיסוי עבור הליכי השתלת שיער. התשובה המורכבת לשאלה זו מתחילה בהבנה של הגדרת הטיפול. נכון לשנת 2026, השתלת שיער מוגדרת על ידי קופות החולים בישראל כהליך אסתטי-קוסמטי בלבד, מה שאומר שהיא אינה נכללת בסל הבריאות הממלכתי. בעוד שמכבי, כללית, מאוחדת ולאומית מציעות מסלולים…",
-   "link": "https://transplant-israel.com/hair/hmo-coverage?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/5d24a43f6_generated_image.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "byline": "מערכת השתלות ישראל",
-   "updated": "2026-08-09",
-   "reading_minutes": 12,
-   "words": 1872,
-   "points": [
-    "השתלת שיער בגין התקרחות אנדרוגנטית אינה כלולה בסל הבריאות הממלכתי.",
-    "קופות החולים מממנות השתלות רק במקרים של שחזור רפואי לאחר טראומה או מחלה.",
-    "מכבי אסתטיקה וקופות אחרות מציעות הנחות לטיפולים נלווים כמו PRP, אך לא לניתוח עצמו.",
-    "קבלת מימון דורשת תיעוד רפואי מקיף והוכחה שהמצב אינו נובע מסיבות גנטיות או אסתטיות.",
-    "ביטוחים רפואיים פרטיים עשויים להוות חלופה לכיסוי הליך שחזורי במקרים מסוימים.",
-    "השתלת גבות במכבי אינה מסובסדת ומתבצעת כהליך פרטי בלבד על פי המחירון העדכני.",
-    "האמת על השתלת שיער דרך קופות החולים בשנת 2026"
-   ],
-   "quote": "רבים מהמטופלים הפונים לקופות החולים שואלים האם קיים כיסוי עבור הליכי השתלת שיער. התשובה המורכבת לשאלה זו מתחילה בהבנה של הגדרת הטיפול. נכון לשנת 2026, השתלת שיער מוגדרת על ידי קופות החולים בישראל כהליך אסתטי-קוסמטי בלבד, מה שאומר שהיא אינה נכללת בסל הבריאות הממלכתי. בעוד שמכבי, כללית, מאוחדת ולאומית מציעות מסלולים אסתטיים מתקדמים, החיסכון שלהם מופנה לטיפולים משלימים ולא לניתוח ההשתלה עצמו.\n\nחשוב להבין כיצד פועלות רשתות כמו מכבי אסתטיקה. מדובר בגופים מסחריים הפועלים בחסות הקופה, המציעים שירותים במחירים מופחתים לחברי הביטוח המשלים. כאשר מדובר בהשתלת שיער, המטופל נתקל לעיתים קרובות במידע מטעה ברשת. הניתוח המורכב דורש מיומנות כירורגית גבוהה ועלויות תפעול שאינן עולות בקנה אחד עם הסובסידיות הציבוריות המוענקות על ידי קופת חולים מכבי לטיפולי עור או לייזר שגרתיים.\n\nהתקרחות אנדרוגנטית, המוכרת יותר כנשירה גברית או נשית טיפוסית, אינה נחשבת למחלה המצריכה התערבות מנתחית על חשבון המדינה. סל הבריאות מתמקד במניעת סכנת חיים או בשיקום תפקודי של איברים. מכיוון שהתקרחות אינה פוגעת בבריאות הפיזית או בתפקוד היומיומי, קופות החולים אינן רואות בה צורך רפואי דחוף המצדיק שימוש בכספי ציבור. זוהי הסיבה שגם תחת 'מכבי אסתטיקה', השתלת שיער נשארת הליך פרטי לכל דבר.\n\nעבור המטופל, המשמעות היא שגם אם תבחרו לבצע את הטיפול במרכז שקשור לקופה, תצטרכו לשלם את מלוא העלות מכיסכם. עם זאת, ישנם חריגים. אם הנשירה נגרמה עקב אירוע טראומטי, מחלת עור או טיפול רפואי קודם, ישנה לעיתים אפשרות להכרה מצד הקופה כהליך משקם. במקרים אלו, המטופל עשוי לקבל החזר חלקי או השתתפות במימון לאחר אישור של ועדה רפואית מחוזית או מנהל המחלקה הרלוונטי.\n\nכאשר אנו בוחנים את 'מכבי אסתטיקה השתלת שיער', חשוב להבין כי ההטבות ניתנות לטיפולי הכנה כמו PRP (Platelet Rich Plasma) או טיפולי קרקפת מזינים. טיפולים אלו מסייעים בשימור הקיים אך אינם מחליפים השתלת שיער. ההנחות הניתנות לחברי מגן זהב או שלי במכבי מגיעות לרוב לשיעור של עשרה עד חמישה עשר אחוזים ממחיר המחירון של הטיפולים המוגדרים בקטלוג הקופה.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/5d24a43f6_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5d24a43f6_generated_image.webp",
-     "alt": "מטופל עם כרטיס קופת חולים בדלפק קבלה במרפאה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/e6088042e_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e6088042e_generated_image.webp",
-     "alt": "מומחה טריכולוגיה בודק קרקפת של מטופל במרפאה מודרנית עם ציוד טכנולוגי מתקדם"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/3433d53fc_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/3433d53fc_generated_image.webp",
-     "alt": "רופא מציג הדמיית שיער דיגיטלית למטופל במהלך פגישת ייעוץ במרפאה"
-    }
-   ],
-   "image_alt": "השתלת שיער בקופות החולים: מה מכוסה ב-2026",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/hmo-coverage/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/hmo-coverage/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#hmo-coverage",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=hmo-coverage",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=hmo-coverage",
       "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
      }
     ]

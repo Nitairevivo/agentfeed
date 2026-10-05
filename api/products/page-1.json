@@ -1,10 +1,53 @@
 {
  "page": 1,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-2.json",
  "products": [
+  {
+   "id": "73776",
+   "title": "🐱 מזון לגורי חתולים קטאיט דאבל פיוז’ן עוף וסלמון 1.8 ק”ג בלבד Catit Recipes Double Fusion Kitten",
+   "description": "אוכל לגורי חתולים  קטאיט דאבל פיוז’ן גורים עוף וסלמון מספק תזונה שלמה ומלאה תמיכה דרמטולוגית ועיכול אופטימלי לגור החתולים המתפתח עשיר ב-96% חלבון מן החי (עוף וסלמון) מועשר ב-DHA משמן סלמון להתפתחות מוחית וראייה כולל נתחי עוף וסלמון גולמיים מיובשים בהקפאה (Freeze-Dried) ללא דגנים (Grain-Free) לעיכול קל ורגוע \n 📦  תכולה מדויקת:  1.8 ק”ג בלבד (זמין רק במשקל זה עבור פורמולת הגורים) \n 🌿  רכיבים / מאפיינים עיקריים:  96% חלבון מן החי, בשר עוף טרי וסלמון אטלנטי, מועשר ב-DHA, אל-ליזין ופרה-ביוטיקה. \n  🎯   יתרון מרכזי:   טכנולוגיית Double Fusion ייחודית – גרגיר מוזן ומצופה בחלבון (Infused Kibble) המשולב בנתחי בשר גולמי מיובשים בהקפאה (Freeze-Dried Raw Bites),   המספקים הזנה עילאית,   טעימות גבוהה ותמיכה קריטית בשלבי ההתפתחות הראשונים.",
+   "link": "https://closetonature.co.il/product/catit-double-fusion-kitten-chicken-salmon-cat-food-1-8kg/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Kitten-Chicken-and-Salmon-dry-cat-food-1.8kg-bag-isolated.jpg",
+   "brand": "קטאיט - Catit",
+   "condition": "new",
+   "price": "108.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73776%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73776",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#73776",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73776%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73776",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73776%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73776",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%B1%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A7%D7%98%D7%90%D7%99%D7%98%20%D7%93%D7%90%D7%91%D7%9C%20%D7%A4%D7%99%D7%95%D7%96%E2%80%99%D7%9F%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%201.8%20%D7%A7%E2%80%9D%D7%92%20%D7%91%D7%9C%D7%91%D7%93%20Catit%20Recipes%20Double%20Fusion%20Kitten%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "73767",
    "title": "🐱 מזון לחתולים עור ופרווה קטאיט דאבל פיוז’ן דגי ים 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Skin & Coat",
@@ -2054,48 +2097,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%8C%B8%20%D7%97%D7%95%D7%9C%20%D7%98%D7%95%D7%A4%D7%95%20Kind%20Pet%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%A8%D7%99%D7%97%20%D7%A4%D7%A8%D7%97%D7%99%D7%9D%20%E2%80%93%20%D7%A7%D7%A8%D7%98%D7%95%D7%9F%20%D7%97%D7%99%D7%A1%D7%9B%D7%95%D7%9F%208%20%D7%A9%D7%A7%D7%99%D7%95%D7%AA%20%2820%20%D7%A7%E2%80%9D%D7%92%29%20%D7%A0%D7%A9%D7%98%D7%A3%20%D7%91%D7%90%D7%A1%D7%9C%D7%94%20%F0%9F%9A%BD%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "69861",
-   "title": "🐕 חיתולים חד פעמיים לכלבים ארם אנד האמר Arm & Hammer Disposable Diapers",
-   "description": "מחפשים פתרון מושלם לשמירה על היגיינת הכלב וניקיון הבית?  חיתולים לכלבים  מבית Arm & Hammer העולמית מיוצרים בטכנולוגיה מתקדמת הכוללת סודה לשתייה מובנית לנטרול ריחות, הגנה אטומה מנזילות ומחוון רטיבות חכם המשנה את צבעו כשהחיתול מלא. \n אלו  חיתולים חד פעמיים לכלבים  המעניקים פתרון מצוין לכלבות בתקופת הייחום, לכלבים מבוגרים הסובלים מבריחת שתן, לגורים בתהליכי גמילה או לשימוש נוח במהלך טיסות ונסיעות ארוכות. המוצר זמין ב-4 מידות להתאמה מלאה (XS, S, M, L). \n \n 🛡️  הגנה מנזילות (Leak-Proof):  שוליים גמישים ואטומים המונעים בריחת נוזלים לשטיחים או לרהיטים. \n 👃  נטרול ריחות מובנה:  סודה לשתייה איכותית הלוכדת את הריח ומנטרלת אותו מהשורש. \n 🔄  סגירה בטוחה ומתכווננת:  סרטי הדבקה חזקים וידידותיים לפרווה שאינם תולשים שיער. \n 💧  מחוון רטיבות:  משנה את צבעו כדי שתדעו בדיוק מתי הגיע הזמן להחליף חיתול.",
-   "link": "https://closetonature.co.il/product/arm-and-hammer-disposable-dog-diapers/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/arm-and-hammer-dog-diapers-variety-sizes-main-image.jpg",
-   "condition": "new",
-   "price": "55.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69861%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69861",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69861/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69861/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#69861",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69861%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69861",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69861%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69861",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%95%20%D7%97%D7%99%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%97%D7%93%20%D7%A4%D7%A2%D7%9E%D7%99%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%90%D7%A8%D7%9D%20%D7%90%D7%A0%D7%93%20%D7%94%D7%90%D7%9E%D7%A8%20Arm%20%26%20Hammer%20Disposable%20Diapers%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

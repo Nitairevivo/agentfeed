@@ -1,10 +1,58 @@
 {
  "page": 92,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-93.json",
  "products": [
+  {
+   "id": "29740",
+   "title": "שמן בושם לכלב ארלט ירוק ניחוח יוקרתי 10 מ''ל",
+   "description": "שמן בושם לכלב ארלט ירוק ניחוח יוקרתי 10 מ''ל הוא שמן בושם Arlette לכלב, ירוק בניחוח יוקרתי, בנפח 10 מ״ל. מיועד להענקת ניחוח לפרווה לפי הוראות היצרן. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%a9%d7%9e%d7%9f-%d7%91%d7%95%d7%a9%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%a8%d7%9c%d7%98-%d7%99%d7%a8%d7%95%d7%a7-%d7%a0%d7%99%d7%97%d7%95%d7%97-%d7%99%d7%95%d7%a7%d7%a8%d7%aa%d7%99-10-%d7%9e03?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/vIMvdI.png",
+   "gtin": "7429019194006",
+   "condition": "new",
+   "price": "49.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29740%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29740",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29740/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29740/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/20/#29740",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29740%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29740",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29740%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29740",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%9E%D7%9F%20%D7%91%D7%95%D7%A9%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%90%D7%A8%D7%9C%D7%98%20%D7%99%D7%A8%D7%95%D7%A7%20%D7%A0%D7%99%D7%97%D7%95%D7%97%20%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%2010%20%D7%9E%27%27%D7%9C%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A9%D7%9E%D7%9F%20%D7%91%D7%95%D7%A9%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%90%D7%A8%D7%9C%D7%98%20%D7%99%D7%A8%D7%95%D7%A7%20%D7%A0%D7%99%D7%97%D7%95%D7%97%20%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%2010%20%D7%9E%27%27%D7%9C",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
   {
    "id": "29738",
    "title": "צעצוע לכלב קוטו כדור לבן 9.5 ס\"מ",
@@ -2348,54 +2396,6 @@
      {
       "method": "email",
       "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%95%D7%9C%D7%94%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%9C%D7%90%20%D7%9C%D7%A6%27%D7%99%D7%A0%D7%A6%27%D7%99%D7%9C%D7%95%D7%AA%20800%20%D7%92%D7%A8%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
-  },
-  {
-   "id": "29638",
-   "title": "כופתיות B14 לתוכים קטנים 800 גרם",
-   "description": "כופתיות B14 לתוכים קטנים 800 גרם הוא מזון יבש של 800 גרם לתוכים קטנים, בטעם כופתיות B14 ובאריזת לפי הפורמולה. יש להתאים ללפי שלב החיים שעל האריזה ולהגיש לפי טבלת ההאכלה.",
-   "link": "https://marleypetshop.com/product/%d7%9b%d7%95%d7%a4%d7%aa%d7%99%d7%95%d7%aa-b14-%d7%9c%d7%aa%d7%95%d7%9b%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99%d7%9d-800-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/EvwOw.jpg",
-   "gtin": "5410340221013",
-   "condition": "new",
-   "price": "69.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29638%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29638",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29638/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29638/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/20/#29638",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29638%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29638",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29638%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29638",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9B%D7%95%D7%A4%D7%AA%D7%99%D7%95%D7%AA%20B14%20%D7%9C%D7%AA%D7%95%D7%9B%D7%99%D7%9D%20%D7%A7%D7%98%D7%A0%D7%99%D7%9D%20800%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%95%D7%A4%D7%AA%D7%99%D7%95%D7%AA%20B14%20%D7%9C%D7%AA%D7%95%D7%9B%D7%99%D7%9D%20%D7%A7%D7%98%D7%A0%D7%99%D7%9D%20800%20%D7%92%D7%A8%D7%9D",
       "note": "העסק מקבל פניות במייל."
      }
     ],

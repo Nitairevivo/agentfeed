@@ -1,6 +1,6 @@
 # חנות חיות קרוב לטבע
 
-> Online store. 2191 products in this feed. Prices in ILS.
+> Online store. 2192 products in this feed. Prices in ILS.
 
 Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפריקה - Simparica, ערבה - Arava, פודיס - Foodies, פיטמין פור לייף - Fitmin For life, קטאיט - Catit
 
@@ -8,6 +8,7 @@ Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפרי�
 
 Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
+- [🐱 מזון לגורי חתולים קטאיט דאבל פיוז’ן עוף וסלמון 1.8 ק”ג בלבד Catit Recipes Double Fusion Kitten](https://closetonature.co.il/product/catit-double-fusion-kitten-chicken-salmon-cat-food-1-8kg/?utm_source=agentfeed&utm_medium=ai) — 108.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/item.json
 - [🐱 מזון לחתולים עור ופרווה קטאיט דאבל פיוז’ן דגי ים 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Skin & Coat](https://closetonature.co.il/product/catit-double-fusion-skin-coat-ocean-fish-cat-food/?utm_source=agentfeed&utm_medium=ai) — 99.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73767/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73767/item.json
 - [🐱 מזון לחתולים מבוגרים קטאיט דאבל פיוז’ן עוף 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Senior](https://closetonature.co.il/product/catit-double-fusion-senior-chicken-cat-food/?utm_source=agentfeed&utm_medium=ai) — 99.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73758/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73758/item.json
 - [🐱 מזון לחתולי בית ומעוקרים קטאיט דאבל פיוז’ן עוף והודו 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Indoor](https://closetonature.co.il/product/catit-double-fusion-indoor-chicken-turkey-cat-food/?utm_source=agentfeed&utm_medium=ai) — 99.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73747/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73747/item.json
@@ -32,8 +33,7 @@ Each line carries three addresses: the merchant's own product page; `page:` — 
 - [🦴 קארניס לשון בקר מיובשת לכלב 60 גרם Carnis](https://closetonature.co.il/product/carnis-dried-beef-tongue-dog-treats-60g/?utm_source=agentfeed&utm_medium=ai) — 12.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71553/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71553/item.json
 - [🐾 פרו-קולין פלוס משחה פרוביוטית לכלבים וחתולים 15 מ”ל Protexin Pro-Kolin+](https://closetonature.co.il/product/pro-kolin-plus-paste-dogs-cats-15ml/?utm_source=agentfeed&utm_medium=ai) — 69.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71491/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71491/item.json
 - [🐰 סט רתמה ורצועה למכרסמים וארנבים Camon Parure per Roditori](https://closetonature.co.il/product/camon-rodent-harness-and-leash-set/?utm_source=agentfeed&utm_medium=ai) — 45.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71453/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71453/item.json
-- [🦷 חטיף דנטלי עצמות בשני צבעים לכלב 80 גרם Camon Dental Snacks](https://closetonature.co.il/product/camon-dental-snacks-two-tone-bones-80g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71445/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71445/item.json
-- …and 2166 more, not listed here. Every one of the 2191 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
+- …and 2167 more, not listed here. Every one of the 2192 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
 
 ## Not published by this business
 

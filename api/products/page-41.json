@@ -1,10 +1,52 @@
 {
  "page": 41,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-42.json",
  "products": [
+  {
+   "id": "3664",
+   "title": "וט לייף – Vet Life – מזון רפואי היפואלרגני לכלב בוגר עם ביצה ואורז – 12 ק”ג פארמינה Farmina",
+   "description": "מזון רפואי מלא לכלב בוגר עם אלרגיות למזון. מגיע בשקים של 2 ו-12 ק”ג. HYPOALLERGENIC EGG & RICE CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – יתכנו שינויים בצורה ו/או בצבע. ט.ל.ח",
+   "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91-3/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/וט-לייף-Vet-Life-מזון-רפואי-היפואלרגני-לכלב-בוגר-עם-ביצה-ואורז-12-קג-פארמינה-Farmina.jpg",
+   "condition": "new",
+   "price": "449.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3664%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3664",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3664/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3664/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/20/#3664",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3664%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3664",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3664%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3664",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%98%20%D7%9C%D7%99%D7%99%D7%A3%20%E2%80%93%20Vet%20Life%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%A2%D7%9D%20%D7%91%D7%99%D7%A6%D7%94%20%D7%95%D7%90%D7%95%D7%A8%D7%96%20%E2%80%93%2012%20%D7%A7%E2%80%9D%D7%92%20%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94%20Farmina%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "3663",
    "title": "וט לייף – Vet Life – מזון רפואי היפואלרגני לכלב בוגר עם דגים ותפו”א – 12 ק”ג",
@@ -2048,48 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A2%D7%95%D7%A3%20%D7%A0%D7%98%D7%95%D7%9C%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20%D7%9C%D7%90%D7%95%D7%A0%D7%A8%D7%93%D7%95%20Leonardo%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "3381",
-   "title": "מזון לחתולים עוף נטול דגנים – grain free – שק 7.5 ק”ג לאונרדו",
-   "description": "לאונרדו מזון לחתולים  \n \n מזון חתולים לאונרדו על בסיס עוף ללא דגנים וגלוטן, מתכון שפותח במיוחד לחתולים עם רגישויות למזון ולסובלים מאלרגיות. \n✓ לחתולים מגיל שנה ומעלה. \n ✓ אידאלי לחתולים בעלי רגישויות למזון. \n ✓ עשיר בעוף (ראוי למאכל אדם). \n ✓ בנוסחא שולב דגן האמרנט המזין כתחליף לדגנים שבמזון הרגיל. \n ✓ מכיל 80% של חלבון מן החי. \n ✓ בתוספת זרעי צ’יה העשירים באומגה 3 לתמיכה במערכת העיכול. \n ✓ בתוספת קריל – העשיר ברכיבים מזינים, יחד עם אומגה 3, אסטקסנטין – נוגד חמצון איכותי, ואנזימים. \n ✓ עם שמרי בירה – המכילים קופלקס וימינים מקבוצת B. \n מגיע בשקים של – 1.8 ק”ג / 7.5 ק”ג. \n התמונה להמחשה בלבד – ייתכנו שינויים בצבעים ובמבנה האריזה.",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a2%d7%95%d7%a3-%d7%a0%d7%98%d7%95%d7%9c-%d7%93%d7%92%d7%a0%d7%99%d7%9d-adult-poultry-grain-free-%d7%a9%d7%a7-7-5-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-חתולים-עוף-נטול-דגנים-Adult-poultry-grain-free-שק-7.5-קג-לאונרדו-Leonardo.jpg",
-   "condition": "new",
-   "price": "279.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3381%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3381",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3381/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3381/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/20/#3381",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3381%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3381",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3381%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3381",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A2%D7%95%D7%A3%20%D7%A0%D7%98%D7%95%D7%9C%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20grain%20free%20%E2%80%93%20%D7%A9%D7%A7%207.5%20%D7%A7%E2%80%9D%D7%92%20%D7%9C%D7%90%D7%95%D7%A0%D7%A8%D7%93%D7%95%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

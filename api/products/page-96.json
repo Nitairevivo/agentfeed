@@ -1,10 +1,58 @@
 {
  "page": 96,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-97.json",
  "products": [
+  {
+   "id": "29320",
+   "title": "רתמת רשת לכלב מידה DOCO M",
+   "description": "רתמת רשת לכלב מידה DOCO M הוא רתמת רשת DOCO במידה M. מיועדת להולכת כלב תוך פיזור לחץ סביב הגוף. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%a8%d7%aa%d7%9e%d7%aa-%d7%a8%d7%a9%d7%aa-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%99%d7%93%d7%94-doco-m?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a8-d7-aa-d7-9e-d7-aa-d7-a8-d7-a9-d7-aa-d7-9c-d7-9b-d7-9c-d7-91-d7-9e-d7-99-d7-93-d7-94-doco-m-1200x1200-1.jpg",
+   "gtin": "1938600030631",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29320%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29320",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29320/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29320/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29320",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29320%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29320",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29320%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29320",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%AA%D7%9E%D7%AA%20%D7%A8%D7%A9%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%20DOCO%20M%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A8%D7%AA%D7%9E%D7%AA%20%D7%A8%D7%A9%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%20DOCO%20M",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
   {
    "id": "29318",
    "title": "רתמת רשת לכלב מידה DOCO S",
@@ -2576,49 +2624,6 @@
      {
       "method": "form",
       "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=rate-changes",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "poalim",
-   "title": "משכנתא בבנק הפועלים: המדריך המעשי ללווה",
-   "description": "תשובה קצרה: בקשה למשכנתא בבנק הפועלים מתחילה באיסוף מסמכים אישיים וכלכליים כגון תלושי שכר, דפי עובר ושב ומסמכי הנכס הנדל\"ני. תהליך ההגשה מתבצע דרך הכלים הדיגיטליים של הבנק או בפגישה בסניף, ולאחריו מתבצעת בדיקת חיתום לקביעת התנאים והריבית.",
-   "link": "https://mashkanta.online/banks/poalim?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/6eb83cb00_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "byline": "מערכת Mashkanta.online",
-   "words": 1180,
-   "quote": "תשובה קצרה: בקשה למשכנתא בבנק הפועלים מתחילה באיסוף מסמכים אישיים וכלכליים כגון תלושי שכר, דפי עובר ושב ומסמכי הנכס הנדל\"ני. תהליך ההגשה מתבצע דרך הכלים הדיגיטליים של הבנק או בפגישה בסניף, ולאחריו מתבצעת בדיקת חיתום לקביעת התנאים והריבית.\n\nבנק הפועלים הוא מהגדולים במערכת הבנקאית הישראלית, עם מערך משכנתאות רחב, פריסת סניפים ארצית וכלים דיגיטליים להגשה ולמעקב. הבנק פעיל מאוד בליווי פרויקטים של קבלנים ובמימון משפרי דיור.\n\nחשוב לומר מראש: אין \"בנק הכי זול למשכנתא\". התמחור נקבע פר לקוח, לפי גובה ההלוואה, אחוז המימון, יחס ההחזר להכנסה, איכות הביטחון, ותק התעסוקה, וגם לפי כמה תחרות יש על התיק שלכם באותו רגע. אותו בנק יכול לתת ללווה אחד ריבית מצוינת ולשכן שלו הצעה בינונית, באותו שבוע.\n\nאיסוף מסמכים — תעודת זהות וספח, שלוש תלושי שכר אחרונים (עצמאים: שומות ואישור רו\"ח), תדפיסי עובר ושב לשלושה עד שישה חודשים, ריכוז יתרות הלוואות קיימות, וזכר לנכס: הסכם מכר או טיוטה, נסח טאבו.\n\nהאישור העקרוני אינו התחייבות לריבית סופית לפני שנקבע התמהיל, והוא כפוף לשמאות ולמסמכים המלאים. פירוט מלא של השלב הזה נמצא במדריך האישור העקרוני.\n\nבנק הפועלים מציע את סל המסלולים המקובל בשוק, בכפוף למגבלות בנק ישראל: לפחות שליש מההלוואה בריבית קבועה (צמודה או לא צמודה), ולכל היותר שני שלישים בריבית משתנה, מתוכם עד שני שלישים בפריים.\n\nבנוסף, הבנק מציע פתרונות גישור למשפרי דיור והלוואות משלימות בבטוחת הנכס. כל הלוואה משלימה מייקרת את סך ההחזר וצריכה להיבחן מול חלופות, ולא להתקבל כברירת מחדל.\n\nמחשבוני הבנקים נועדו לתת אומדן, לא הצעה. הם בדרך כלל מניחים ריבית ברירת מחדל שאינה בהכרח הריבית שתקבלו, לעיתים מתעלמים מהצמדה למדד, ולרוב אינם כוללים ביטוח חיים ומבנה, שמאות ואגרות. לכן שני מחשבונים של שני בנקים יראו מספרים שונים על אותם נתונים בדיוק. הסבר מלא על הפערים האלה נמצא בהשוואת מחשבוני הבנקים, ואת החישוב הנייטרלי אפשר לעשות במחשבון המשכנתא שלנו.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/6eb83cb00_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/6eb83cb00_generated_image.webp",
-     "alt": "משכנתא בבנק הפועלים: המדריך המעשי ללווה — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/29f9949bf_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/29f9949bf_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: משכנתא בבנק הפועלים: המדריך המעשי ללווה"
-    }
-   ],
-   "image_alt": "משכנתא בבנק הפועלים: המדריך המעשי ללווה",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/poalim/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/poalim/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#poalim",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=poalim",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=poalim",
       "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
      }
     ]

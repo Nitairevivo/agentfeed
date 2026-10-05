@@ -1,10 +1,48 @@
 {
  "page": 24,
  "pages": 44,
- "total": 2191,
+ "total": 2192,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-25.json",
  "products": [
+  {
+   "id": "41983",
+   "title": "פדים לאימון גורים Trust ג’מבו 60*60 – מבחר מארזים",
+   "description": "סדרת משטחי הספיגה של  Trust  (טראסט) מעניקה פתרון מתקדם וידידותי לסביבה לחינוך הגור לצרכים. הפדים מצוידים בטכנולוגיית פחם פעיל (Activated Carbon) המנטרלת ריחות רעים באופן מיידי, וכוללים פסי הדבקה בתחתית למניעת תזוזה ושכבה כפולה לספיגה מוגברת. \n \n \n  📏 מידה:  60×60 ס”מ (ג’מבו). \n \n \n  💎 איכות:  שכבה כפולה לספיגה מהירה (Fast Absorbency) ונעילת נוזלים (Wet-Lock Gel). \n \n \n  🌿 ידידותי לסביבה:  מיוצר מחומרים מתקדמים השומרים על הסביבה ועל היגיינת הבית. \n \n \n  📦 בחרו את המארז המתאים לכם:  \n \n \n  מארז התנסות:  12 יחידות. \n \n \n  מארז ג’מבו:  20 יחידות. \n \n \n  מארז חיסכון:  100 יחידות.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%93%d7%99%d7%9d-%d7%9c%d7%90%d7%99%d7%9e%d7%95%d7%9f-%d7%92%d7%95%d7%a8%d7%99%d7%9d-6060-trust/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2024/06/פדים-לאימון-גורים-Trust.jpg",
+   "condition": "new",
+   "price": "24.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41983%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41983",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41983/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/41983/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#41983",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41983%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41983",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D41983%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=41983",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%93%D7%99%D7%9D%20%D7%9C%D7%90%D7%99%D7%9E%D7%95%D7%9F%20%D7%92%D7%95%D7%A8%D7%99%D7%9D%20Trust%20%D7%92%E2%80%99%D7%9E%D7%91%D7%95%2060%2A60%20%E2%80%93%20%D7%9E%D7%91%D7%97%D7%A8%20%D7%9E%D7%90%D7%A8%D7%96%D7%99%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "41851",
    "title": "אולטרה פאט חול לחתולים קריסטל בניחוח לוונדר 10 יח’ UltraPet",
@@ -1856,44 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%99%D7%A8%D7%91%D7%A7%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20K%20%D7%9C%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%91%D7%9B%D7%9C%D7%99%D7%95%D7%AA%2012%20%D7%A7%E2%80%9D%D7%92%20Virbac%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "35581",
-   "title": "וירבק אוכל רפואי לכלבים A לטיפול באלרגיה 12 ק”ג Virbac",
-   "description": "אוכל רפואי לכלבים וירבק  לטיפול באלרגיה  \n מזון רפואי זה מיועד לתמיכה במצבים של אי סבילות למזון עם ביטוי במערכת העיכול \n \n עיכול לקוי \n אי ספיגה של נוטריינטים \n שלשול \n או ביטוי בעור ובפרווה (גרד/אדמומיות) \n תזונה ייחודית עם מקור חלבון – הידרוליזט דגים וטפיוקה",
-   "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a8%d7%91%d7%a7-%d7%90%d7%95%d7%9b%d7%9c-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-a-%d7%9c%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%91%d7%90%d7%9c%d7%a8%d7%92%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2023/12/וירבק-אוכל-רפואי-לכלבים-A-לטיפול-באלרגיה-12-קג-Virbac.jpg",
-   "condition": "new",
-   "price": "509.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D35581%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=35581",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/35581/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/35581/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/11/#35581",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D35581%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=35581",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D35581%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=35581",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%99%D7%A8%D7%91%D7%A7%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20A%20%D7%9C%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%91%D7%90%D7%9C%D7%A8%D7%92%D7%99%D7%94%2012%20%D7%A7%E2%80%9D%D7%92%20Virbac%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

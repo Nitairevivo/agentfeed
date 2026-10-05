@@ -1,10 +1,55 @@
 {
  "page": 48,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-49.json",
  "products": [
+  {
+   "id": "9631346590053",
+   "title": "נטלה רימונים קלאסית בגווני חום",
+   "description": "נטלה \"במבוק עבה\" רימונים בגווני חום  \n נטלה מהודרת בעיצוב קלאסי עם דוגמת רימונים מסורתית בגווני חום חמים. עשויה פולירזין איכותי לעמידות לאורך זמן ושימוש יומיומי נוח. שתי ידיות רחבות מאפשרות אחיזה יציבה ונוחה, והעיטור המוקפד מוסיף נופך יהודי-מסורתי מרשים. מתאימה לבית יהודי, לשבתות, לחגים וגם כמתנה מכובדת. \n \n דוגמת רימונים מסורתית בגווני חום קלאסיים. \n פולירזין איכותי - עמיד וקל לניקוי. \n שתי ידיות רחבות לאחיזה נוחה ובטוחה. \n מתנה מושלמת לשבתות, חגים ואירועים משפחתיים. \n \n המוצר נארז בקפידה ונשלח עד הבית. \n \n הזמינו עכשיו והכניסו לביתכם נגיעה של מסורת ויופי יהודי \n מידות המוצר \n \n גובה: 14 ס\"מ \n רוחב: \n משקל: 0.32 ק\"ג \n חומר: פולירזין \n צבע: חום",
+   "link": "https://judaicail.co.il/products/נטלה-רימונים-קלאסית-בגווני-חום?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/49550.jpg?v=1757825908",
+   "brand": "יודאיקה ישראל",
+   "product_type": "נטלות > Judaica > בית יהודי > יודאיקה לחג > יודאיקה לשבת > כלי נטילת ידיים > כלי רחצה יהודי > מטבח יהודי > מתנה לבית יהודי > מתנות לחגים > נטלה > נטלה חום > נטלה מעוצבת > נטלה עם ידיות > נטלה רימונים > עיצוב מסורתי > פולירזין > רימונים > שולחן שבת",
+   "condition": "new",
+   "variant": "49956950114661",
+   "price": "30.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49956950114661%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9631346590053",
+   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9631346590053/",
+   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9631346590053/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9631346590053",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49956950114661%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9631346590053",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49956950114661%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9631346590053",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0504443385",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A0%D7%98%D7%9C%D7%94%20%D7%A8%D7%99%D7%9E%D7%95%D7%A0%D7%99%D7%9D%20%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%AA%20%D7%91%D7%92%D7%95%D7%95%D7%A0%D7%99%20%D7%97%D7%95%D7%9D",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
+   },
+   "business": "יודאיקה ישראל",
+   "business_slug": "judaicail",
+   "business_site": "https://judaicail.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/"
+  },
   {
    "id": "9630933352805",
    "title": "פמוט קריסטל זוגי \"האש שלי\" - פמוט יוקרתי לשבת וחג",
@@ -2200,51 +2245,6 @@
      {
       "method": "email",
       "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%9C%D7%97%D7%99%D7%94%20%D7%A7%D7%A8%D7%99%D7%A1%D7%98%D7%9C%20%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%D7%AA%20%20%22%D7%A9%D7%91%D7%AA%20%D7%A7%D7%95%D7%93%D7%A9%22%20%D7%9C%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%A9%D7%91%D7%AA%20%D7%9E%D7%A8%D7%A9%D7%99%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
-   },
-   "business": "יודאיקה ישראל",
-   "business_slug": "judaicail",
-   "business_site": "https://judaicail.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/"
-  },
-  {
-   "id": "9621883978085",
-   "title": "פמוטי שבת מסורתיים בעבודת יד - שבת ושלום",
-   "description": "פמוטי שבת מסורתיים בעבודת יד - שבת ושלום \n \n פמוטים יוקרתיים עשויים בטון פולימרי חזק וקל, המשלבים עמידות גבוהה עם עיצוב אלגנטי ומסורתי. הצמד נושא את הכיתוב \"שבת\" ו\"שלום\" בגימור זהב מהודר, ומגיע על מגש תואם ליצירת מראה מרשים ומכובד לשולחן השבת. העיצוב שומר על רוח המסורת היהודית ומוסיף אווירה חמה לטקס הדלקת הנרות, לפתיחת קבלת השבת באור ובברכה. מתאים כמתנה יוקרתית או כתוספת מרהיבה לבית. \n \n  שימו לב:  הכלי עשוי בעבודת יד ולכן ייתכנו הבדלים קלים בין יחידה ליחידה. סימני בועות קטנות עשויים להופיע כחלק טבעי מהחומר ומייחודיות עבודת היד. \n \n \n \n בטון פולימרי איכותי  - עמיד לאורך שנים \n \n עבודת יד מוקפדת  - תשומת לב לכל פרט \n \n בסיס מעוגל עם שקע עדין  - לאיסוף נרות נמסים ולמראה נקי \n \n מתנה נהדרת  - לשבת, לחג ולחנוכת בית \n \n \n  המוצר נארז בקפידה ונשלח עד הבית.  \n \n הכניסו הביתה אור, חום ומשמעות עם פמוטים מרשימים בעיצוב עכשווי ונשמה יהודית \n \n מידות המוצר \n \n גובה: \n רוחב: \n קוטר בסיס: \n חומר: בטון פולימרי \n משקל:",
-   "link": "https://judaicail.co.il/products/פמוטי-שבת-שלום-בעבודת-יד-בטון-פולימרי-בשילוב-זהב?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/1_bcbbfd6c-14b7-489b-948a-96af24718bca.png?v=1754973224",
-   "brand": "יודאיקה ישראל",
-   "product_type": "פמוטים עבודת יד > הדלקת נרות שבת > כלי טקס יהודיים > כלי יודאיקה > מתנה לשבת > מתנות לבית יהודי > מתנות מעוצבות > נרות שבת > עיצוב יהודי > עיצוב שולחן שבת > פמוטי שבת > פמוטים בעבודת אומן > פמוטים בעבודת יד > פמוטים בעיצוב ייחודי > פמוטים בעיצוב מסורתי > פמוטים יוקרתיים > פמוטים למתנה > פמוטים לשולחן חג > פמוטים מבטון פולימרי > פמוטים מודרניים > פמוטים מיוחדים > פמוטים עם גימור זהב > שבת שלום",
-   "condition": "new",
-   "variant": "49914277069157",
-   "price": "100.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49914277069157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9621883978085",
-   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9621883978085/",
-   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9621883978085/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9621883978085",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49914277069157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9621883978085",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F49914277069157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9621883978085",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0504443385",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%9E%D7%95%D7%98%D7%99%20%D7%A9%D7%91%D7%AA%20%D7%9E%D7%A1%D7%95%D7%A8%D7%AA%D7%99%D7%99%D7%9D%20%D7%91%D7%A2%D7%91%D7%95%D7%93%D7%AA%20%D7%99%D7%93%20-%20%D7%A9%D7%91%D7%AA%20%D7%95%D7%A9%D7%9C%D7%95%D7%9D",
       "note": "העסק מקבל פניות במייל."
      }
     ],

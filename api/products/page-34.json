@@ -1,10 +1,52 @@
 {
  "page": 34,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-35.json",
  "products": [
+  {
+   "id": "5299",
+   "title": "סימבה מעדן פטה – בטעם כבש 300 גרם",
+   "description": "סימבה מעדן פטה – בטעם כבש 300 גרם",
+   "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%9b%d7%91%d7%a9-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-פטה-בטעם-כבש-300-גרם.jpg",
+   "condition": "new",
+   "price": "5.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5299%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5299",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5299/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5299/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5299",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5299%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5299",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5299%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5299",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%99%D7%9E%D7%91%D7%94%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%A4%D7%98%D7%94%20%E2%80%93%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%9B%D7%91%D7%A9%20300%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "5298",
    "title": "סימבה מעדן פטה – בטעם בשר 300 גרם",
@@ -2048,48 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%91%D7%90%20%D7%98%D7%95%D7%A0%D7%94%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20Sheba%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "5236",
-   "title": "שיבא פרוסות בקר ברוטב Sheba",
-   "description": "מעדן לחתול מזין וטעים",
-   "link": "https://closetonature.co.il/product/%d7%a9%d7%99%d7%91%d7%90-%d7%a4%d7%a8%d7%95%d7%a1%d7%95%d7%aa-%d7%91%d7%a7%d7%a8-%d7%91%d7%a8%d7%95%d7%98%d7%91-sheba/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/שיבא-פרוסות-בקר-ברוטב-Sheba.jpg",
-   "condition": "new",
-   "price": "5.50",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5236%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5236",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5236/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5236/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5236",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5236%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5236",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5236%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5236",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%91%D7%90%20%D7%A4%D7%A8%D7%95%D7%A1%D7%95%D7%AA%20%D7%91%D7%A7%D7%A8%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20Sheba%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

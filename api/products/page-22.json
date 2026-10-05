@@ -1,10 +1,52 @@
 {
  "page": 22,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-23.json",
  "products": [
+  {
+   "id": "4101",
+   "title": "פיור לייף אוכל לכלבות מניקות וגורים מכל הגזעים – שק 2 ק”ג  Pure Life",
+   "description": "מזון מלא לכלבים  מבית  Flatazor  /  פלטזור  הצרפתי. מתאים גם לכלבים רגישים. נוח לעיכול (גרגרים בגודל אידאלי ללעיסה נעימה). קל יותר לעיכול (מרכיבים קלים מאוד לעיכול, פחם שחור, חמר, שמרי בירה, סיבי פסיליום ואלוורה). גדילה נעימה והרמונית (כונדרויטין סולפט, גלוקוזמין סולפט) וחיוניות מובטחת (פרוקטואוליגוסכרידים, תמצית שמרים). עם סלמון ודג לבן מגיע בשקים של 12 ק”ג ו-2 ק”ג.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91%d7%95%d7%aa-%d7%9e%d7%a0%d7%99%d7%a7%d7%95%d7%aa-%d7%95%d7%92%d7%95%d7%a8%d7%99/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-אוכל-לכלבות-מניקות-וגורים-מכל-הגזעים-–-שק-2-קג-Pure-Life.jpg",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4101%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4101",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4101/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4101/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4101",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4101%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4101",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4101%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4101",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA%20%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA%20%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%9E%D7%9B%D7%9C%20%D7%94%D7%92%D7%96%D7%A2%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "4098",
    "title": "מזון לכלב פרימייר קלאב 21 ק”ג",
@@ -2048,48 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%A6%86%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%9C%D7%9B%D7%9C%D7%91%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Wetlands%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2755",
-   "title": "🥩 טייסט אוף דה ווילד ביזון וצבי לכלב 12.2 ק”ג | Taste Of The Wild High Prairie Adult",
-   "description": "תזונה פראית מובילה עם  טייסט אוף דה ווילד ביזון וצבי לכלב , הנוסחה המקורית ורב-המכר העולמי המשלבת בשר ביזון וצבי צלויים בטעמים עשירים. מתכון ללא דגנים המהווה  מזון מומלץ לכלבים בוגרים  בכל רמות הפעילות, המבטיח נעכלות שיא, חיוניות מתמשכת ושמירה על מסת שריר מוצקה. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר ביזון, קמח כבש, קמח עוף, בטטות, אפונה, תפוחי אדמה, שומן עוף, חלבון ביצה, בשר בקר, בשר צבי צלוי, ביזון צלוי, קמח דגי ים, שמן סלמון, עגבניות ופירות יער. \n \n \n 🎯  יתרון מרכזי:  פרופיל חלבון עשיר במיוחד של 32% המשלב בשר אדום צלוי, המספק טעימות יוצאת דופן וספיגת אנרגיה מהירה לפעילות יומיומית נמרצת. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מכל הגזעים (מגיל שנה ומעלה), כלבים בעלי רמת פעילות בינונית עד גבוהה, וכלבים שאוהבים בשר אמריקאי צלוי.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%91%d7%99%d7%96%d7%95%d7%9f-%d7%95%d7%a6%d7%91%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-ביזון-וצבי-לכלב-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2755%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2755",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2755/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2755/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2755",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2755%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2755",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2755%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2755",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%A5%A9%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%91%D7%99%D7%96%D7%95%D7%9F%20%D7%95%D7%A6%D7%91%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20High%20Prairie%20Adult%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

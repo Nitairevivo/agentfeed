@@ -1,10 +1,48 @@
 {
  "page": 38,
  "pages": 44,
- "total": 2191,
+ "total": 2192,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-39.json",
  "products": [
+  {
+   "id": "4201",
+   "title": "מונג’ -מזון לחתולים נטורל אינדור עוף 1.5 ק”ג מונג’ Monge",
+   "description": "מזון מלא לחתולי בית על בסיס בשר עוף איכותי עם טעם נפלא. מכיל כמות דגנים מופחתת וללא תפוחי אדמה. המזון מותאם אנרגטית לרמת הפעילות של חתול בית בתוספת של אל קרניטין לשמירה על משקל בריא ופעילות לב תקינה. בתוספת פרוביוטיקה מתקדמת להקלה על תהליכי העיכול וחיזוק הסביבה החיידקית הבריאה במעי. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Indoor Rich in Chicken.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a0%d7%98%d7%95%d7%a8%d7%9c-%d7%90%d7%99%d7%a0%d7%93%d7%95%d7%a8-%d7%a2%d7%95%d7%a3-1-5-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-נטורל-אינדור-עוף-1.5-קג-מונג-Monge.jpg",
+   "condition": "new",
+   "price": "65.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4201%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4201",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4201/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4201/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4201",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4201%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4201",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4201%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4201",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20-%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A0%D7%98%D7%95%D7%A8%D7%9C%20%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A8%20%D7%A2%D7%95%D7%A3%201.5%20%D7%A7%E2%80%9D%D7%92%20%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20Monge%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "4200",
    "title": "מונג’-מזון לחתולים נטורל סטרילייזד מסורסים 10 ק”ג מונג’ Monge",
@@ -1856,44 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1%20%E2%80%93%20whiskas%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%9E%D7%9C%D7%90%20%D7%99%D7%91%D7%A9%20%E2%80%93%20%D7%90%D7%93%D7%95%D7%9C%D7%98%20%D7%A2%D7%95%D7%A3.%20%D7%A9%D7%A7%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "4135",
-   "title": "ויסקאס – whiskas אוכל מלא יבש לחתול מסורס – סטרלייזד עוף. 3.6 ק”ג",
-   "description": "ויסקאס  –  whiskas   אוכל לחתולי   ם  \n \n  אוכל לחתול   מסורס יבש מלא סטרלייזד עוף 3.6 ק”ג. תזונה מאוזנת ומאוזנת עבור חתולים בוגרים. AW54T   WHISKAS   מבין כי חתולים קטנים חולקים את אותם האינסטינקטים הטבעיים כמו חתולים גדולים. לכן במשך למעלה מ -50 שנה הכל מוכן בקפידה עם מרכיבים טעים באיכות גבוהה, המכיל את כל החומרים המזינים החיוניים החתול שלך זקוק באופן טבעי עבור 100% דיאטה מלאה ומאוזנת. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/ או צורה – ט.ל.ח",
-   "link": "https://closetonature.co.il/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%9c%d7%90-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%a1%d7%95%d7%a8%d7%a1-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ויסקאס-מזון-מלא-יבש-לחתול-מסורס-סטרלייזד-עוף.-שק-3.6-קג-ויסקאס-Whiskas.jpg",
-   "condition": "new",
-   "price": "79.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4135%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4135",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4135/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4135/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/18/#4135",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4135%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4135",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4135%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4135",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%99%D7%A1%D7%A7%D7%90%D7%A1%20%E2%80%93%20whiskas%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9E%D7%9C%D7%90%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%20%E2%80%93%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93%20%D7%A2%D7%95%D7%A3.%203.6%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

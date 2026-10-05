@@ -1,10 +1,55 @@
 {
  "page": 46,
  "pages": 100,
- "total": 4993,
+ "total": 4994,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-47.json",
  "products": [
+  {
+   "id": "9721210372453",
+   "title": "קופת צדקה אקריליק עם פלקטה \"ירושלים\" 11x8 ס\"מ",
+   "description": "קופת צדקה מהודרת - נוף ירושלמי \n \n \n \n קופת צדקה מאקריליק שקוף ואיכותי, מעוטרת בפלקטה מכסף עם תבליט ירושלים עתיקה מפואר ומסגרת מעוצבת נושאת את הכיתוב \"צדקה\". שילוב מרהיב של שקיפות ואלגנטיות המוסיף הדר לכל בית או משרד, ומזמין למצוות צדקה יומיומית בכבוד ובטוב טעם. \n \n \n \n   \n מתנה מושלמת לחגים, לחנוכת בית, או פשוט כתוספת ערכית ומעוצבת לפינת המצווה שלכם. \n   מפרט המוצר:  \n \n \n  חומר:  אקריליק איכותי ועמיד \n \n \n  צבע:  שקוף בשילוב חזית כסף \n \n \n  רוחב:  11 ס״מ \n \n \n  עומק:  8 ס״מ \n \n \n \n ✨  מצווה בעיצוב יוקרתי - כי גם לנתינה מגיע מקום של כבוד בבית.",
+   "link": "https://judaicail.co.il/products/קופת-צדקה-אקריליק-עם-פלקטה-ירושלים-11x8-סמ?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/UK46399.jpg?v=1788927310",
+   "brand": "יודאיקה ישראל",
+   "product_type": "קופות צדקה",
+   "condition": "new",
+   "variant": "50288992452965",
+   "price": "65.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992452965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
+   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210372453/",
+   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9721210372453/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9721210372453",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992452965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50288992452965%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9721210372453",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0504443385",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A7%D7%95%D7%A4%D7%AA%20%D7%A6%D7%93%D7%A7%D7%94%20%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99%D7%A7%20%D7%A2%D7%9D%20%D7%A4%D7%9C%D7%A7%D7%98%D7%94%20%22%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D%22%2011x8%20%D7%A1%22%D7%9E",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
+   },
+   "business": "יודאיקה ישראל",
+   "business_slug": "judaicail",
+   "business_site": "https://judaicail.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/"
+  },
   {
    "id": "9721210274149",
    "title": "כיפה פריק לבנה ואיכותית בקוטר 22 ס\"מ",
@@ -2198,51 +2243,6 @@
      {
       "method": "email",
       "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%22%D7%9B%D7%99%D7%A4%D7%94%20%D7%A7%D7%98%D7%99%D7%A4%D7%94%20%D7%A4%D7%9C%D7%95%D7%A9%20%D7%A9%D7%97%D7%95%D7%A8%D7%94%2019%20%D7%A1%22%D7%9E%20%D7%A2%D7%9D%20%D7%A8%D7%99%D7%A7%D7%9E%D7%94%20%22%D7%94%D7%90%D7%A9%20%D7%A9%D7%9C%D7%99",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
-   },
-   "business": "יודאיקה ישראל",
-   "business_slug": "judaicail",
-   "business_site": "https://judaicail.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/"
-  },
-  {
-   "id": "9661586637157",
-   "title": "מגש חלה מהודר בעיצוב שיש כחול וזהב יוקרתי לשבת וחג",
-   "description": "מגש חלה מהודר בעיצוב שיש כחול וזהב יוקרתי לשבת וחג \n\n   \n   \n    מגש חלה יוקרתי מזכוכית בעיצוב שיש כחול וזהב, בגודל 37x25 ס\"מ ובמראה מרשים שמוסיף נוכחות ואצילות לכל שולחן שבת וחג.\n    המגש מתאים להגשה מכובדת של החלות, יוצר מרכז שולחן אלגנטי, ומשתלב נהדר עם כלים לבנים, כסף או זהב.\n   \n\n   \n   \n     \n מראה יוקרתי ומרשים  - עיצוב שיש כחול עם נגיעות זהב שמשדר איכות והדר \n     \n זכוכית איכותית ונוחה לניקוי  - מתאים לשימוש קבוע בשבתות וחגים \n     \n מתנה מצוינת  - לחנוכת בית, אירוח, חתונה או מתנה למשפחה \n   \n\n   \n    המוצר נארז בקפידה ונשלח עד הבית.  \n\n   \n   הוסיפו עכשיו את מגש החלה לסל והשלימו את שולחן השבת במראה יוקרתי ומכובד \n\n   \n   מידות המוצר \n   \n     אורך: 37 ס״מ \n     רוחב: 25 ס״מ \n     חומר: זכוכית \n     משקל: 1.13 ק״ג",
-   "link": "https://judaicail.co.il/products/מגש-חלה-מהודר-בעיצוב-שיש-כחול-וזהב?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/UK80084.jpg?v=1765861299",
-   "brand": "יודאיקה ישראל",
-   "product_type": "מגש לחלת שבת > אביזרי שולחן שבת > יודאיקה לשבת > יודאיקה מהודרת > מגש חלה > מגש חלה בעיצוב שיש > מגש חלה זכוכית > מגש חלה יוקרתי > מגש חלה כחול זהב > מגש חלה לשבת > מגש חלה לשבת ויום טוב > מגש חלה לשולחן שבת > מגש חלה מהודר > מגש חלה מודרני > מגש חלה קריסטלי > מתנה לבית יהודי > מתנה לחג > מתנה לשבת > עיצוב שולחן שבת",
-   "condition": "new",
-   "variant": "50097589551461",
-   "price": "45.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50097589551461%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9661586637157",
-   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9661586637157/",
-   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9661586637157/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9661586637157",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50097589551461%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9661586637157",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50097589551461%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9661586637157",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0504443385",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%92%D7%A9%20%D7%97%D7%9C%D7%94%20%D7%9E%D7%94%D7%95%D7%93%D7%A8%20%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91%20%D7%A9%D7%99%D7%A9%20%D7%9B%D7%97%D7%95%D7%9C%20%D7%95%D7%96%D7%94%D7%91%20%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%20%D7%9C%D7%A9%D7%91%D7%AA%20%D7%95%D7%97%D7%92",
       "note": "העסק מקבל פניות במייל."
      }
     ],
