@@ -1,104 +1,343 @@
 <!doctype html>
-<html lang="he" dir="rtl">
-<head><meta name="robots" content="noindex, nofollow">
-<meta charset="utf-8">
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>סחר פלוס</title>
-<meta name="description" content="סיטונאות לניקיון, חד פעמי וכלי מטבח — לעסקים, למסעדות ולמוסדות">
-
-<meta property="og:title" content="סחר פלוס">
-<meta property="og:description" content="סיטונאות לניקיון, חד פעמי וכלי מטבח — לעסקים, למסעדות ולמוסדות">
-
-<meta property="og:locale" content="he_IL">
-<link rel="alternate" type="text/plain" title="llms.txt" href="llms.txt">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="theme.css">
-<link rel="stylesheet" href="style.css">
-<style>:root{--brand:#1565c0;--brand-deep:#0e4380;--accent:#fcb29c;--deep:#1f3651;--tint:#f0f6fc;--tint-2:#e2ecf8;--mint:#e3e2f8;--sky:#e7f8f9;--ink:#132024;--ink-2:#4f5f64;--line:#dee5ed;--font-display:"Varela Round", "Rubik", system-ui, sans-serif;--font-body:"Heebo", "Assistant", system-ui, sans-serif}</style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Store", "name": "סחר פלוס", "description": "סיטונאות לניקיון, חד פעמי וכלי מטבח — לעסקים, למסעדות ולמוסדות", "sameAs": ["https://nitairevivo.github.io/agentfeed/mock-ea7efb05/"], "address": {"@type": "PostalAddress", "streetAddress": "", "addressLocality": "", "addressCountry": "IL"}, "currenciesAccepted": "ILS"}</script>
-</head>
-<body>
-<a class="skip" href="#main">דילוג לתוכן</a>
-<div class="demo" role="note">אתר לדוגמה — החנות, המוצרים והמחירים להמחשה בלבד.</div>
-<div class="announce"><a class="madeby" href="https://nitairevivo.github.io/agentfeed/sites.html?ref=mock-ea7efb05" title="האתר הזה קריא לעוזרי AI. נבנה ב-AgentFeed — לחצו לפרטים"><svg class="mark" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><rect x="1" y="1" width="14" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 4.2l.95 2.85L11.8 8l-2.85.95L8 11.8l-.95-2.85L4.2 8l2.85-.95z" fill="currentColor"/></svg><span>נבנה ב-<b>AgentFeed</b></span></a></div>
-<header class="head"><div class="wrap">
-  <a class="logo" href="index.html"><span class="logo-text">סחר פלוס</span></a>
-  <nav class="nav" aria-label="מחלקות"><a href="c/d1/">ניקיון</a><a href="c/d2/">חד פעמי</a><a href="c/d3/">סכינים וכלי מטבח</a><a href="sale/">מבצעים</a></nav>
-  <div class="search" role="search">
-    <label class="sr" for="q">חיפוש מוצר</label>
-    <input id="q" type="search" placeholder="חיפוש בין 16 מוצרים" autocomplete="off" data-prefix="" aria-controls="qres">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <div id="qres" class="results" role="listbox" aria-label="תוצאות"></div>
-  </div>
+<title>סחר פלוס · סיטונאות לניקיון, חד פעמי ומטבח (אתר לדוגמה)</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<!-- A made-up wholesale shop to show a buyer what we build. The name, the
+     products and the prices are invented, and the page says so at the top. -->
+<style>
+:root{--ink:#0f1b2d;--dim:#5b6b80;--line:#e6ebf2;--bg:#f6f8fb;--card:#fff;--brand:#1565c0;--brand2:#0b3d91;--acc:#00b894;--warm:#ff7a45;--sale:#e53935;--r:18px;--sh:0 10px 30px -12px rgba(15,27,45,.18)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font:16px/1.55 Heebo,system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+img{display:block;max-width:100%}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+.demo{background:#fff4d6;color:#7a5200;text-align:center;font:700 13px Heebo;padding:7px 12px}
+.demo a{color:#7a5200}
+.ann{background:var(--brand2);color:#dfe9ff;font:600 13px Heebo;text-align:center;padding:8px 12px}
+.ann b{color:#fff}
+header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:14px;height:70px}
+.logo{display:flex;align-items:center;gap:10px;font:900 22px Heebo;white-space:nowrap}
+.logo i{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--brand),#42a5f5);color:#fff;font-style:normal;font-size:20px;box-shadow:0 6px 16px -6px rgba(21,101,192,.7)}
+.logo small{display:block;font:600 11px Heebo;color:var(--dim);margin-top:-4px}
+.search{flex:1;position:relative;max-width:520px}
+.search input{width:100%;height:44px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);padding:0 42px 0 14px;font:500 15px Heebo;color:var(--ink)}
+.search input:focus{outline:none;border-color:var(--brand);background:#fff}
+.search span{position:absolute;right:14px;top:11px;color:var(--dim)}
+.cartbtn{position:relative;display:flex;align-items:center;gap:8px;height:44px;padding:0 16px;border-radius:12px;background:var(--ink);color:#fff;font:800 15px Heebo;transition:transform .2s}
+.cartbtn:hover{transform:translateY(-1px)}
+.cartbtn .n{min-width:22px;height:22px;border-radius:11px;background:var(--acc);display:grid;place-items:center;font:900 12px Heebo;padding:0 6px}
+.cartbtn.bump{animation:bump .5s}
+@keyframes bump{30%{transform:scale(1.12)}60%{transform:scale(.96)}}
+.hero{position:relative;overflow:hidden;background:radial-gradient(900px 400px at 90% -10%,#cfe3ff,transparent 60%),radial-gradient(700px 400px at 0% 110%,#d6fff3,transparent 60%),#eef4fb;border-bottom:1px solid var(--line)}
+.hgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding:44px 0 40px}
+.tag{display:inline-flex;align-items:center;gap:8px;font:800 13px Heebo;color:var(--brand);background:#fff;border:1px solid #cfe0f7;border-radius:99px;padding:6px 14px;box-shadow:var(--sh)}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 4px rgba(0,184,148,.18)}
+h1{font:900 clamp(32px,5vw,54px)/1.05 Heebo;margin:16px 0 14px;letter-spacing:-.5px}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--brand),#00a3c4);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--dim);font-size:18px;max-width:560px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:50px;padding:0 22px;border-radius:14px;font:800 16px Heebo;transition:transform .2s,box-shadow .2s}
+.btn.p{background:var(--brand);color:#fff;box-shadow:0 12px 24px -10px rgba(21,101,192,.8)}
+.btn.p:hover{transform:translateY(-2px)}
+.btn.g{background:#fff;color:var(--ink);border:1.5px solid var(--line)}
+.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;color:var(--dim);font:600 14px Heebo}
+.trust span::before{content:"✓ ";color:var(--acc);font-weight:900}
+.hart{position:relative;height:360px}
+.hart .t{position:absolute;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 24px 50px -20px rgba(15,27,45,.35);border:1px solid var(--line)}
+.hart .t img{width:100%;height:100%;object-fit:cover}
+.hart .t1{width:210px;height:210px;right:10px;top:10px;transform:rotate(4deg)}
+.hart .t2{width:180px;height:180px;left:20px;top:40px;transform:rotate(-6deg)}
+.hart .t3{width:170px;height:170px;right:120px;bottom:0;transform:rotate(-2deg)}
+.hart .chip{position:absolute;left:0;bottom:30px;background:#fff;border-radius:14px;padding:10px 14px;box-shadow:var(--sh);font:800 14px Heebo;display:flex;gap:8px;align-items:center}
+.hart .chip b{color:var(--acc)}
+.cats{display:flex;gap:10px;overflow-x:auto;padding:22px 0 6px;scrollbar-width:none}
+.cats::-webkit-scrollbar{display:none}
+.cat{flex:0 0 auto;display:flex;align-items:center;gap:8px;height:44px;padding:0 16px;border-radius:99px;background:#fff;border:1.5px solid var(--line);font:700 15px Heebo;transition:all .2s}
+.cat.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.cat i{font-style:normal}
+.bar{display:flex;align-items:center;justify-content:space-between;margin:12px 0 14px;color:var(--dim);font:600 14px Heebo}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;padding-bottom:50px}
+.pc{background:var(--card);border-radius:var(--r);border:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s;position:relative}
+.pc:hover{transform:translateY(-4px);box-shadow:0 22px 40px -22px rgba(15,27,45,.35)}
+.pc .im{position:relative;aspect-ratio:1;background:#f1f4f8;cursor:pointer;overflow:hidden}
+.pc .im img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.pc:hover .im img{transform:scale(1.05)}
+.badge{position:absolute;top:12px;right:12px;font:900 12px Heebo;padding:5px 10px;border-radius:99px;background:var(--sale);color:#fff}
+.badge.n{background:var(--acc)}
+.pc .bd{padding:14px 14px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pc h3{font:800 16px/1.3 Heebo;cursor:pointer;min-height:42px}
+.unit{font:600 13px Heebo;color:var(--dim)}
+.sw{display:flex;gap:6px;align-items:center;min-height:22px}
+.sw i{width:18px;height:18px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
+.sw small{font:700 12px Heebo;color:var(--dim);margin-right:2px}
+.pr{display:flex;align-items:baseline;gap:8px;margin-top:auto}
+.pr b{font:900 22px Heebo}
+.pr s{color:#98a4b3;font:600 14px Heebo}
+.pr small{color:var(--dim);font:600 12px Heebo}
+.tier{font:700 12px Heebo;color:var(--acc)}
+.add{margin-top:8px;height:44px;border-radius:12px;background:var(--brand);color:#fff;font:800 15px Heebo;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .2s,transform .15s}
+.add:hover{background:var(--brand2)}
+.add:active{transform:scale(.97)}
+.add.ok{background:var(--acc)}
+/* product modal */
+.ov{position:fixed;inset:0;z-index:50;background:rgba(10,18,32,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:16px}
+.ov.on{display:flex;animation:fade .2s}
+@keyframes fade{from{opacity:0}}
+.md{background:#fff;border-radius:24px;max-width:920px;width:100%;max-height:92vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;animation:rise .3s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes rise{from{transform:translateY(30px) scale(.97);opacity:0}}
+.md .gi{background:#f1f4f8;position:relative}
+.md .gi img{width:100%;height:100%;object-fit:cover;aspect-ratio:1}
+.md .info{padding:26px;display:flex;flex-direction:column;gap:14px;position:relative}
+.md h2{font:900 26px/1.2 Heebo}
+.md .desc{color:var(--dim)}
+.x{position:absolute;top:14px;left:14px;width:38px;height:38px;border-radius:50%;background:#f1f4f8;font-size:20px;z-index:2}
+.opt h4{font:800 14px Heebo;margin-bottom:8px}
+.opt h4 span{color:var(--dim);font-weight:600}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.ch{height:40px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);font:700 14px Heebo;display:flex;align-items:center;gap:8px;transition:all .15s;background:#fff}
+.ch i{width:16px;height:16px;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
+.ch.on{border-color:var(--brand);background:#eef5ff;color:var(--brand2);box-shadow:0 0 0 3px rgba(21,101,192,.12)}
+.tiers{border:1px solid var(--line);border-radius:14px;overflow:hidden;font:600 14px Heebo}
+.tiers div{display:flex;justify-content:space-between;padding:9px 14px}
+.tiers div+div{border-top:1px solid var(--line)}
+.tiers div.on{background:#ecfbf6;color:#047a5f;font-weight:800}
+.qrow{display:flex;gap:10px;align-items:center}
+.qty{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:12px;height:48px}
+.qty button{width:44px;height:100%;font:800 20px Heebo}
+.qty input{width:52px;text-align:center;border:0;font:800 17px Heebo;color:var(--ink)}
+.big{flex:1;height:52px;border-radius:14px;background:var(--brand);color:#fff;font:900 17px Heebo;box-shadow:0 12px 24px -10px rgba(21,101,192,.8)}
+.tot{font:900 28px Heebo}
+.tot small{font:600 13px Heebo;color:var(--dim)}
+/* cart drawer */
+.dr{position:fixed;top:0;bottom:0;left:0;width:min(420px,100%);z-index:60;background:#fff;box-shadow:20px 0 60px rgba(10,18,32,.25);transform:translateX(-105%);transition:transform .35s cubic-bezier(.2,.9,.3,1);display:flex;flex-direction:column}
+.dr.on{transform:none}
+.dr .h{display:flex;justify-content:space-between;align-items:center;padding:20px;border-bottom:1px solid var(--line);font:900 20px Heebo}
+.dr .items{flex:1;overflow:auto;padding:10px 20px}
+.ci{display:grid;grid-template-columns:72px 1fr auto;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);align-items:center}
+.ci img{width:72px;height:72px;border-radius:12px;object-fit:cover;background:#f1f4f8}
+.ci b{font:800 14px/1.3 Heebo;display:block}
+.ci small{color:var(--dim);font:600 12px Heebo}
+.ci .q{display:flex;align-items:center;gap:6px;margin-top:6px}
+.ci .q button{width:28px;height:28px;border-radius:8px;background:#f1f4f8;font:800 15px Heebo}
+.ci .p{font:900 15px Heebo;text-align:left}
+.ci .rm{color:#98a4b3;font:600 12px Heebo;margin-top:6px}
+.dr .f{padding:18px 20px 22px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px;background:#fafbfd}
+.row{display:flex;justify-content:space-between;font:600 15px Heebo}
+.row.t{font:900 20px Heebo}
+.prog{height:8px;border-radius:8px;background:#e9eef5;overflow:hidden}
+.prog i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),#3ee6b0);transition:width .4s}
+.free{font:700 13px Heebo;color:#047a5f}
+.wa{height:54px;border-radius:14px;background:#25d366;color:#fff;font:900 17px Heebo;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 12px 24px -10px rgba(37,211,102,.9)}
+.pay{height:48px;border-radius:14px;background:var(--ink);color:#fff;font:800 15px Heebo;opacity:.9}
+.note{font:600 12px Heebo;color:var(--dim);text-align:center}
+.empty{text-align:center;color:var(--dim);padding:60px 10px;font:600 15px Heebo}
+.empty b{display:block;font-size:44px;margin-bottom:10px}
+.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,120px);z-index:70;background:var(--ink);color:#fff;padding:12px 18px;border-radius:14px;font:700 15px Heebo;box-shadow:var(--sh);transition:transform .35s cubic-bezier(.2,.9,.3,1.3);display:flex;gap:10px;align-items:center}
+.toast.on{transform:translate(-50%,0)}
+.fly{position:fixed;z-index:80;width:60px;height:60px;border-radius:14px;object-fit:cover;pointer-events:none;transition:all .7s cubic-bezier(.5,-.3,.7,1)}
+.panelfab{position:fixed;right:18px;bottom:18px;z-index:40;display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:16px;color:#fff;font:800 14px Heebo;background:linear-gradient(135deg,#0b1020,#1b2450);box-shadow:0 14px 30px -12px rgba(11,16,32,.8),0 0 0 1px rgba(139,108,255,.4);text-decoration:none}
+.panelfab i{font-style:normal;font-size:18px}
+.panelfab small{display:block;font:600 11px Heebo;color:#a9b4ff}
+.feats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:30px 0}
+.feat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;gap:12px;align-items:center}
+.feat i{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:#eef5ff;font-style:normal;font-size:22px;flex:0 0 auto}
+.feat b{display:block;font:800 15px Heebo}.feat small{color:var(--dim);font:600 13px Heebo}
+footer{background:var(--ink);color:#c9d3e3;padding:30px 0 90px;font:600 14px Heebo}
+footer a{color:#fff}
+@media (max-width:860px){.hgrid{grid-template-columns:minmax(0,1fr);padding:28px 16px}.hgrid>*{min-width:0}.search{min-width:0}.hart{display:none}.md{grid-template-columns:1fr}.feats{grid-template-columns:1fr 1fr}.logo small{display:none}}
+@media (max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:10px}.pc .bd{padding:10px}.pc h3{font-size:14px;min-height:36px}.pr b{font-size:18px}.add{height:40px;font-size:13px}.cartbtn .lbl{display:none}h1{font-size:32px}.lead{font-size:16px}.feats{gap:8px}.feat{padding:12px}.panelfab{right:10px;bottom:10px;padding:10px 12px}.hd{gap:10px}.logo{font-size:18px}.logo i{width:32px;height:32px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style></head><body>
+<div class="demo">⚠️ אתר לדוגמה: החנות, המוצרים והמחירים להמחשה בלבד · נבנה ב-<a href="https://nitairevivo.github.io/agentfeed/sites.html">AgentFeed</a></div>
+<div class="ann">🚚 <b>משלוח חינם</b> בהזמנה מעל ₪500 · מחירי סיטונאות לעסקים, מסעדות ומוסדות</div>
+<header><div class="wrap hd">
+  <div class="logo"><i>✦</i><div>סחר פלוס<small>סיטונאות לניקיון וחד פעמי</small></div></div>
+  <label class="search"><span>🔍</span><input id="q" type="search" placeholder="חיפוש מוצר, למשל: כפפות" aria-label="חיפוש מוצר"></label>
+  <button class="cartbtn" id="cartbtn" aria-label="עגלה">🛒 <span class="lbl">עגלה</span> <span class="n" id="cn">0</span></button>
 </div></header>
-<main id="main">
 
-<section class="xhero">
-  <div class="wrap">
-    <div>
-      
-      <h1>סחר פלוס</h1>
-      <p class="lead">סיטונאות לניקיון, חד פעמי וכלי מטבח — לעסקים, למסעדות ולמוסדות</p>
-      <div class="ctas">
-        <a class="btn btn-sun" href="c/d1/">לכל המוצרים</a><a class="btn btn-line" href="sale/">3 מבצעים</a>
-        <a class="btn btn-wa" href="https://wa.me/972526760039"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg> וואטסאפ</a>
-      </div>
-      <div class="proof">
-        <div><b>16</b><span>מוצרים על המדף</span></div>
-        
-        
-      </div>
-    </div>
-    <div class="stage" aria-hidden="true">
-      <div class="ring"></div><div class="sun"></div>
-      
-      <div class="sticker s1"><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/c1.jpg" alt=""><span class="chip">₪89</span></div><div class="sticker s2"><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/c2.jpg" alt=""><span class="chip">₪29</span></div><div class="sticker s3"><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/c3.jpg" alt=""><span class="chip">₪19</span></div>
-      
-    </div>
+<section class="hero"><div class="wrap hgrid">
+  <div>
+    <span class="tag"><i></i>מחירי סיטונאות · הזמנה מהירה</span>
+    <h1>כל מה שהעסק צריך,<br><em>במחיר של סיטונאי.</em></h1>
+    <p class="lead">מוצרי ניקיון, חד פעמי, סכינים ונייר. בוחרים סוג וכמות, מוסיפים לעגלה, ושולחים הזמנה בלחיצה. ככל שמזמינים יותר, המחיר ליחידה יורד.</p>
+    <div class="cta"><a class="btn p" href="#shop">לקטלוג המלא</a><a class="btn g" href="panel/?demo=wholesale">📊 לוח הבקרה של החנות</a></div>
+    <div class="trust"><span>חשבונית מס לעסקים</span><span>הנחת כמות אוטומטית</span><span>הזמנה בוואטסאפ</span></div>
   </div>
-  <svg class="wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 40c160 30 320 30 480 0s320-30 480 0 320 30 480 0v30H0z"/></svg>
-</section>
-
-<section class="block"><div class="wrap">
-  <div class="sec-head"><div><h2>מה מחפשים היום?</h2><p>כל מחלקה, ובתוכה לפי סוג מוצר</p></div></div>
-  <div class="bento"><a class="room r0 big" href="c/d1/"><div><b>ניקיון</b><br><small>5 מוצרים</small></div><span class="go" aria-hidden="true">←</span><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/c1.jpg" alt="" loading="lazy" width="300" height="300"></a><a class="room r1 wide" href="c/d2/"><div><b>חד פעמי</b><br><small>4 מוצרים</small></div><span class="go" aria-hidden="true">←</span><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/d1.jpg" alt="" loading="lazy" width="300" height="300"></a><a class="room r2 " href="c/d3/"><div><b>סכינים וכלי מטבח</b><br><small>3 מוצרים</small></div><span class="go" aria-hidden="true">←</span><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/k1.jpg" alt="" loading="lazy" width="300" height="300"></a></div>
-</div></section>
-<section class="block" style="padding-top:10px"><div class="wrap"><div class="field">
-  <div class="sec-head"><div><h2>3 מבצעים עכשיו</h2><p>המחירים כפי שהחנות מפרסמת אותם היום</p></div><a href="sale/">לכל המבצעים ←</a></div>
-  <div class="grid"><article class="pc"><span class="badge">מבצע</span><div class="img"><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/c1.jpg" alt="ספריי ניקוי רב תכליתי 750 מ&quot;ל — קרטון 12" loading="lazy" width="300" height="300"></div><div class="body"><h3><a href="p/c1.html">ספריי ניקוי רב תכליתי 750 מ&quot;ל — קרטון 12</a></h3><div class="price"><b>₪89</b><s>₪109</s></div><a class="btn btn-brand btn-s buy" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%96%D7%9E%D7%99%D7%9F%3A%20%D7%A1%D7%A4%D7%A8%D7%99%D7%99%20%D7%A0%D7%99%D7%A7%D7%95%D7%99%20%D7%A8%D7%91%20%D7%AA%D7%9B%D7%9C%D7%99%D7%AA%D7%99%20750%20%D7%9E%22%D7%9C%20%E2%80%94%20%D7%A7%D7%A8%D7%98%D7%95%D7%9F%2012" rel="nofollow">הזמנה בוואטסאפ</a></div></article><article class="pc"><span class="badge">מבצע</span><div class="img"><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/d1.jpg" alt="כוסות חד פעמיות 200 מ&quot;ל — 1,000 יח&#x27;" loading="lazy" width="300" height="300"></div><div class="body"><h3><a href="p/d1.html">כוסות חד פעמיות 200 מ&quot;ל — 1,000 יח&#x27;</a></h3><div class="price"><b>₪79</b><s>₪99</s></div><a class="btn btn-brand btn-s buy" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%96%D7%9E%D7%99%D7%9F%3A%20%D7%9B%D7%95%D7%A1%D7%95%D7%AA%20%D7%97%D7%93%20%D7%A4%D7%A2%D7%9E%D7%99%D7%95%D7%AA%20200%20%D7%9E%22%D7%9C%20%E2%80%94%201%2C000%20%D7%99%D7%97%27" rel="nofollow">הזמנה בוואטסאפ</a></div></article><article class="pc"><span class="badge">מבצע</span><div class="img"><img src="https://nitairevivo.github.io/agentfeed/demo/wholesale/img/k2.jpg" alt="סט סכינים 5 חלקים עם מעמד" loading="lazy" width="300" height="300"></div><div class="body"><h3><a href="p/k2.html">סט סכינים 5 חלקים עם מעמד</a></h3><div class="price"><b>₪189</b><s>₪229</s></div><a class="btn btn-brand btn-s buy" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%96%D7%9E%D7%99%D7%9F%3A%20%D7%A1%D7%98%20%D7%A1%D7%9B%D7%99%D7%A0%D7%99%D7%9D%205%20%D7%97%D7%9C%D7%A7%D7%99%D7%9D%20%D7%A2%D7%9D%20%D7%9E%D7%A2%D7%9E%D7%93" rel="nofollow">הזמנה בוואטסאפ</a></div></article></div>
-</div></div></section>
-
-<section class="block" style="padding-top:0"><div class="wrap visit">
-  <div class="card-deep"><h2>דברו איתנו</h2><ul class="facts"></ul></div>
-  <div class="faq"><h2>שאלות נפוצות</h2><p style="margin-top:14px"><a href="shipping.html">כל פרטי המשלוח וההחזרות ←</a></p></div>
-</div></section>
-<section class="block" style="padding-top:0"><div class="wrap">
-  <div class="ai">
-    <div class="orb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></div>
-    <div><h3 style="color:#fff">החנות הזאת קריאה לעוזרי AI</h3><p>כששואלים את ChatGPT, את Claude או את Gemini על מוצר שיש כאן, הם יכולים לקרוא את המחיר, המלאי ומדיניות המשלוח ישירות, בלי לנחש.</p></div>
-    <a class="btn" href="https://nitairevivo.github.io/agentfeed/mock-ea7efb05/">הדף ב-AgentFeed</a>
-  </div>
+  <div class="hart"><div class="t t1"><img src="img/c1.jpg" alt=""></div><div class="t t2"><img src="img/d1.jpg" alt=""></div><div class="t t3"><img src="img/k2.jpg" alt=""></div>
+    <div class="chip">💸 עד <b>15% הנחה</b> בכמויות</div></div>
 </div></section>
 
-</main>
-<footer class="foot">
-  <div class="wrap">
-    <div>
-      <h3>סחר פלוס</h3>
-      <p></p>
-      <p></p>
-    </div>
-    <div><h3>מחלקות</h3><a href="c/d1/">ניקיון</a><a href="c/d2/">חד פעמי</a><a href="c/d3/">סכינים וכלי מטבח</a><a href="sale/">מבצעים</a></div>
-    <div><h3>מידע</h3><a href="about.html">אודות</a><a href="shipping.html">משלוחים והחזרות</a><a href="shipping.html#faq">שאלות נפוצות</a><a href="accessibility.html">הצהרת נגישות</a></div>
-    <div><h3>דברו איתנו</h3><a href="https://wa.me/972526760039">וואטסאפ</a>
-      <h3 style="margin-top:18px">קריא לעוזרי AI</h3><a href="https://nitairevivo.github.io/agentfeed/mock-ea7efb05/">סחר פלוס ב-AgentFeed</a><a href="llms.txt">llms.txt</a></div>
+<div class="wrap">
+  <div class="feats">
+    <div class="feat"><i>📦</i><div><b>מחיר לפי כמות</b><small>מעל 10 יחידות, ההנחה בעגלה</small></div></div>
+    <div class="feat"><i>🎨</i><div><b>בוחרים סוג</b><small>ריח, גודל, צבע ואריזה</small></div></div>
+    <div class="feat"><i>💬</i><div><b>הזמנה בלחיצה</b><small>העגלה נשלחת בוואטסאפ</small></div></div>
+    <div class="feat"><i>🧾</i><div><b>לעסקים</b><small>חשבונית מס על כל הזמנה</small></div></div>
   </div>
-  <div class="wrap bottom"><span>© סחר פלוס</span><span>המחירים כפי שהעסק מפרסם אותם</span><span class="made">האתר נבנה ב-<a href="https://nitairevivo.github.io/agentfeed/sites.html?ref=mock-ea7efb05">AgentFeed</a> · קריא לעוזרי AI</span></div>
-</footer>
-<a class="wa-float" href="https://wa.me/972526760039" aria-label="שיחה בוואטסאפ"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
-<script>window.SITE={s:"mock-ea7efb05",api:"https://agentfeed-plum.vercel.app",home:true}</script>
-<script src="site.js" defer></script>
-</body>
-</html>
+  <div id="shop" class="cats" role="tablist"></div>
+  <div class="bar"><span id="cnt"></span><span>המחירים כוללים מע״מ (לדוגמה)</span></div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true"><div class="md" id="md"></div></div>
+<aside class="dr" id="dr" aria-label="עגלת קניות"><div class="h">העגלה שלכם <button id="drx" aria-label="סגירה">✕</button></div><div class="items" id="items"></div><div class="f" id="foot"></div></aside>
+<div class="toast" id="toast"></div>
+<a class="panelfab" href="panel/?demo=wholesale"><i>🧠</i><div>לוח הבקרה החכם<small>מה קורה בחנות · דוגמה</small></div></a>
+<footer><div class="wrap">סחר פלוס היא חנות לדוגמה. האתר נבנה ב-<a href="https://nitairevivo.github.io/agentfeed/sites.html">AgentFeed</a>: אתרים לחנויות, עם לוח בקרה ומנתח AI · ניתאי <a href="tel:+972526760039">052-676-0039</a></div></footer>
+
+<script>
+(function () {
+  var WA = '972526760039';
+  var CATS = [['all', 'הכול', '✨'], ['clean', 'ניקיון', '🧴'], ['disp', 'חד פעמי', '🥤'], ['knife', 'סכינים ומטבח', '🔪'], ['paper', 'נייר ומגבות', '🧻'], ['bags', 'אריזה וכפפות', '🧤']];
+  // each product: id, category, name, unit, base price, was, badge, options [{name, values:[[label, colour|null, price delta]]}], description
+  var P = [
+    ['c1', 'clean', 'ספריי ניקוי רב תכליתי', 'בקבוק 750 מ״ל', 9.9, 12.9, '-23%', [{ n: 'ריח', v: [['לימון', '#ffd54f', 0], ['לבנדר', '#b39ddb', 0], ['אורן', '#66bb6a', 0], ['ללא ריח', '#eceff1', 0]] }, { n: 'אריזה', v: [['בקבוק', null, 0], ['קרטון 12', null, 99]] }], 'לכל המשטחים במטבח, בשירותים ובמשרד. לא משאיר כתמים.'],
+    ['c2', 'clean', 'נוזל רצפות מרוכז', 'גלון 4 ליטר', 29, 0, '', [{ n: 'ריח', v: [['אוקיינוס', '#4fc3f7', 0], ['פרחוני', '#f48fb1', 0], ['הדרים', '#ffb74d', 0]] }], 'מרוכז במיוחד: כוס אחת לדלי. מתאים גם למכונות שטיפה.'],
+    ['c3', 'clean', 'אקונומיקה', 'גלון 4 ליטר', 19, 0, '', [{ n: 'סוג', v: [['רגילה', null, 0], ['סמיכה', null, 3]] }], 'לחיטוי והלבנה. מתאימה למטבחים מקצועיים.'],
+    ['c4', 'clean', 'סבון כלים מרוכז', 'גלון 4 ליטר', 25, 29, 'מבצע', [{ n: 'ריח', v: [['לימון', '#ffd54f', 0], ['תפוח ירוק', '#9ccc65', 0], ['רימון', '#e57373', 0]] }], 'מסיר שומן גם במים קרים. למטבחים ולמסעדות.'],
+    ['c5', 'clean', 'מגבונים לחים לניקוי', 'חבילה של 80', 6.9, 0, '', [{ n: 'אריזה', v: [['חבילה', null, 0], ['קרטון 12', null, 69]] }], 'מגבונים לניקוי משטחים, במכסה נסגר.'],
+    ['d1', 'disp', 'כוסות חד פעמיות', '1,000 יחידות', 79, 99, '-20%', [{ n: 'גודל', v: [['180 מ״ל', null, -8], ['200 מ״ל', null, 0], ['250 מ״ל', null, 12]] }, { n: 'צבע', v: [['שקוף', '#e3f2fd', 0], ['לבן', '#ffffff', 0]] }], 'כוסות יציבות לשתייה קרה. מתאימות לאירועים ולמשרדים.'],
+    ['d2', 'disp', 'צלחות קרטון', '500 יחידות', 69, 0, '', [{ n: 'קוטר', v: [['18 ס״מ', null, -15], ['23 ס״מ', null, 0], ['26 ס״מ', null, 14]] }], 'צלחות קרטון חזקות שלא נספגות.'],
+    ['d3', 'disp', 'סכו״ם חד פעמי', '600 יחידות', 55, 0, 'חדש', [{ n: 'סוג', v: [['מעורב', null, 0], ['מזלגות', null, 0], ['כפות', null, 0], ['סכינים', null, 0]] }, { n: 'צבע', v: [['לבן', '#ffffff', 0], ['שחור', '#263238', 6]] }], 'סכו״ם עבה ונוח, באריזה מסודרת.'],
+    ['d4', 'disp', 'מגשי אלומיניום עם מכסה', '50 יחידות', 45, 0, '', [{ n: 'גודל', v: [['קטן', null, -10], ['בינוני', null, 0], ['גדול', null, 15]] }], 'לאריזת מנות, למשלוחים ולאירועים.'],
+    ['k1', 'knife', 'סכין שף נירוסטה', 'להב 20 ס״מ', 49, 0, '', [{ n: 'ידית', v: [['שחורה', '#263238', 0], ['כחולה', '#1565c0', 0], ['אדומה', '#e53935', 0]] }], 'להב נירוסטה חד וידית נוחה. צבע הידית לפי סוג המזון.'],
+    ['k2', 'knife', 'סט סכינים עם מעמד', '5 חלקים', 189, 229, 'מבצע', [{ n: 'מעמד', v: [['עץ טבעי', '#b07a46', 0], ['שחור', '#263238', 20]] }], 'חמש סכינים למטבח מקצועי ומעמד יציב.'],
+    ['k3', 'knife', 'קרש חיתוך מקצועי', '50×30 ס״מ', 69, 0, '', [{ n: 'צבע', v: [['לבן', '#ffffff', 0], ['ירוק', '#43a047', 0], ['כחול', '#1e88e5', 0], ['אדום', '#e53935', 0], ['צהוב', '#fdd835', 0]] }], 'קרש עבה ועמיד. צבעים להפרדה בין סוגי מזון.'],
+    ['p1', 'paper', 'מגבות נייר תעשייתיות', '6 גלילים', 39, 0, '', [{ n: 'שכבות', v: [['2 שכבות', null, 0], ['3 שכבות', null, 8]] }], 'גלילים גדולים, סופגים במיוחד.'],
+    ['p2', 'paper', 'נייר טואלט ג׳מבו', '12 גלילים', 85, 0, '', [{ n: 'שכבות', v: [['2 שכבות', null, 0], ['3 שכבות', null, 12]] }], 'גלילים גדולים למוסדות ולעסקים.'],
+    ['b1', 'bags', 'שקיות זבל עבות', '50 יחידות', 35, 0, '', [{ n: 'נפח', v: [['50 ליטר', null, -8], ['75 ליטר', null, -3], ['100 ליטר', null, 0]] }, { n: 'צבע', v: [['שחור', '#263238', 0], ['כחול', '#1e88e5', 0], ['שקוף', '#eceff1', 2]] }], 'שקיות עבות במיוחד שלא נקרעות.'],
+    ['b2', 'bags', 'כפפות ניטריל', '100 יחידות', 29, 0, 'חדש', [{ n: 'מידה', v: [['S', null, 0], ['M', null, 0], ['L', null, 0], ['XL', null, 0]] }, { n: 'צבע', v: [['כחול', '#1e88e5', 0], ['שחור', '#263238', 3]] }], 'כפפות חד פעמיות ללא אבקה, למזון ולניקיון.']
+  ].map(function (r) { return { id: r[0], cat: r[1], name: r[2], unit: r[3], price: r[4], was: r[5], badge: r[6], opts: r[7], desc: r[8], img: 'img/' + r[0] + '.jpg' }; });
+  var TIERS = [[1, 0], [10, .08], [25, .15]];   // quantity → discount
+  var $ = function (id) { return document.getElementById(id); };
+  var money = function (n) { return '₪' + (Math.round(n * 100) / 100).toLocaleString('he-IL', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var cart = [];
+  try { cart = JSON.parse(localStorage.getItem('demo-wholesale-cart') || '[]'); } catch (e) {}
+  var save = function () { try { localStorage.setItem('demo-wholesale-cart', JSON.stringify(cart)); } catch (e) {} };
+  var disc = function (q) { var d = 0; TIERS.forEach(function (t) { if (q >= t[0]) d = t[1]; }); return d; };
+  var unitPrice = function (p, sel) { var x = p.price; p.opts.forEach(function (o, i) { x += o.v[sel[i]][2]; }); return Math.max(1, x); };
+  var cat = 'all', q = '';
+
+  // categories
+  $('shop').innerHTML = CATS.map(function (c) { return '<button class="cat' + (c[0] === 'all' ? ' on' : '') + '" data-c="' + c[0] + '"><i>' + c[2] + '</i>' + c[1] + '</button>'; }).join('');
+  $('shop').addEventListener('click', function (e) { var b = e.target.closest('.cat'); if (!b) return; cat = b.dataset.c;
+    [].forEach.call(document.querySelectorAll('.cat'), function (x) { x.classList.toggle('on', x === b); }); grid(); });
+  $('q').addEventListener('input', function (e) { q = e.target.value.trim(); grid(); });
+
+  function swatches(p) {
+    var o = p.opts.find(function (o) { return o.v.some(function (v) { return v[1]; }); });
+    if (!o) return '<small>' + p.opts.map(function (o) { return o.v.length + ' ' + o.n; }).join(' · ') + '</small>';
+    return o.v.slice(0, 5).map(function (v) { return '<i style="background:' + v[1] + '" title="' + esc(v[0]) + '"></i>'; }).join('') + '<small>' + o.v.length + ' ' + o.n + '</small>';
+  }
+  function grid() {
+    var list = P.filter(function (p) { return (cat === 'all' || p.cat === cat) && (!q || p.name.indexOf(q) >= 0 || p.unit.indexOf(q) >= 0); });
+    $('cnt').textContent = list.length + ' מוצרים';
+    $('grid').innerHTML = list.map(function (p) {
+      return '<article class="pc" data-id="' + p.id + '"><div class="im" data-open><img src="' + p.img + '" alt="' + esc(p.name) + '" loading="lazy">' +
+        (p.badge ? '<span class="badge' + (p.badge === 'חדש' ? ' n' : '') + '">' + p.badge + '</span>' : '') + '</div>' +
+        '<div class="bd"><h3 data-open>' + esc(p.name) + '</h3><div class="unit">' + esc(p.unit) + '</div><div class="sw">' + swatches(p) + '</div>' +
+        '<div class="pr"><b>' + money(p.price) + '</b>' + (p.was ? '<s>' + money(p.was) + '</s>' : '') + '</div>' +
+        '<div class="tier">📦 מ-10 יח׳: ' + money(p.price * (1 - TIERS[1][1])) + ' ליחידה</div>' +
+        '<button class="add" data-quick>🛒 הוספה לעגלה</button></div></article>'; }).join('') ||
+      '<p class="empty"><b>🔍</b>לא מצאנו מוצר כזה. נסו מילה אחרת.</p>';
+  }
+  $('grid').addEventListener('click', function (e) {
+    var card = e.target.closest('.pc'); if (!card) return; var p = P.find(function (x) { return x.id === card.dataset.id; });
+    if (e.target.closest('[data-open]')) return openP(p);
+    if (e.target.closest('[data-quick]')) {
+      // a product with real choices opens so they can be made; the rest goes straight in
+      if (p.opts.some(function (o) { return o.v.length > 1; })) return openP(p);
+      add(p, p.opts.map(function () { return 0; }), 1, card.querySelector('img'), e.target.closest('[data-quick]'));
+    }
+  });
+
+  // product window
+  var cur, sel, qty;
+  function openP(p) {
+    cur = p; sel = p.opts.map(function () { return 0; }); qty = 1; renderP(); $('ov').classList.add('on'); document.body.style.overflow = 'hidden';
+  }
+  function closeP() { $('ov').classList.remove('on'); document.body.style.overflow = ''; }
+  function renderP() {
+    var p = cur, u = unitPrice(p, sel), d = disc(qty);
+    $('md').innerHTML = '<div class="gi"><button class="x" data-x aria-label="סגירה">✕</button><img src="' + p.img + '" alt="' + esc(p.name) + '"></div>' +
+      '<div class="info"><div><div class="unit">' + esc(p.unit) + (p.badge ? ' · <b style="color:var(--sale)">' + p.badge + '</b>' : '') + '</div><h2>' + esc(p.name) + '</h2></div>' +
+      '<p class="desc">' + esc(p.desc) + '</p>' +
+      p.opts.map(function (o, i) { return '<div class="opt"><h4>' + o.n + ': <span>' + esc(o.v[sel[i]][0]) + '</span></h4><div class="chips">' +
+        o.v.map(function (v, j) { return '<button class="ch' + (j === sel[i] ? ' on' : '') + '" data-o="' + i + '" data-v="' + j + '">' + (v[1] ? '<i style="background:' + v[1] + '"></i>' : '') + esc(v[0]) +
+          (v[2] ? ' <small style="color:var(--dim)">' + (v[2] > 0 ? '+' : '−') + money(Math.abs(v[2])) + '</small>' : '') + '</button>'; }).join('') + '</div></div>'; }).join('') +
+      '<div class="opt"><h4>מחיר לפי כמות</h4><div class="tiers">' + TIERS.map(function (t, i) { var nx = TIERS[i + 1];
+        return '<div' + (disc(qty) === t[1] ? ' class="on"' : '') + '><span>' + (nx ? t[0] + '–' + (nx[0] - 1) : t[0] + '+') + ' יח׳</span><span>' + money(u * (1 - t[1])) + ' ליחידה' + (t[1] ? ' · ' + Math.round(t[1] * 100) + '% הנחה' : '') + '</span></div>'; }).join('') + '</div></div>' +
+      '<div class="tot">' + money(u * (1 - d) * qty) + ' <small>סה״כ ל-' + qty + ' יח׳' + (d ? ' · חסכתם ' + money(u * d * qty) : '') + '</small></div>' +
+      '<div class="qrow"><div class="qty"><button data-q="1" aria-label="עוד">+</button><input id="qv" value="' + qty + '" inputmode="numeric" aria-label="כמות"><button data-q="-1" aria-label="פחות">−</button></div>' +
+      '<button class="big" data-add>🛒 הוספה לעגלה</button></div></div>';
+  }
+  $('ov').addEventListener('click', function (e) {
+    if (e.target === $('ov') || e.target.closest('[data-x]')) return closeP();
+    var c = e.target.closest('.ch'); if (c) { sel[+c.dataset.o] = +c.dataset.v; return renderP(); }
+    var b = e.target.closest('[data-q]'); if (b) { qty = Math.max(1, qty + +b.dataset.q); return renderP(); }
+    if (e.target.closest('[data-add]')) { add(cur, sel.slice(), qty, $('md').querySelector('.gi img')); closeP(); }
+  });
+  $('ov').addEventListener('change', function (e) { if (e.target.id === 'qv') { qty = Math.max(1, parseInt(e.target.value, 10) || 1); renderP(); } });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeP(); $('dr').classList.remove('on'); } });
+
+  // cart
+  function key(id, s) { return id + ':' + s.join('-'); }
+  function label(p, s) { return p.opts.map(function (o, i) { return o.v[s[i]][0]; }).join(' · '); }
+  function add(p, s, n, img, btn) {
+    var k = key(p.id, s), line = cart.find(function (l) { return l.k === k; });
+    if (line) line.n += n; else cart.push({ k: k, id: p.id, s: s, n: n });
+    save(); draw(); fly(img);
+    toast('✓ נוסף לעגלה: ' + p.name + (label(p, s) ? ' (' + label(p, s) + ')' : ''));
+    if (btn) { btn.classList.add('ok'); btn.innerHTML = '✓ נוסף'; setTimeout(function () { btn.classList.remove('ok'); btn.innerHTML = '🛒 הוספה לעגלה'; }, 1400); }
+  }
+  function fly(img) {
+    if (!img) return; var r = img.getBoundingClientRect(), t = $('cartbtn').getBoundingClientRect(), f = document.createElement('img');
+    f.src = img.src; f.className = 'fly'; f.style.left = (r.left + r.width / 2 - 30) + 'px'; f.style.top = (r.top + r.height / 2 - 30) + 'px'; document.body.appendChild(f);
+    requestAnimationFrame(function () { requestAnimationFrame(function () { f.style.left = (t.left + 10) + 'px'; f.style.top = (t.top + 2) + 'px'; f.style.transform = 'scale(.3)'; f.style.opacity = '.4'; }); });
+    setTimeout(function () { f.remove(); var b = $('cartbtn'); b.classList.remove('bump'); void b.offsetWidth; b.classList.add('bump'); }, 700);
+  }
+  var tt; function toast(m) { var t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(tt); tt = setTimeout(function () { t.classList.remove('on'); }, 2200); }
+  function totals() {
+    var sum = 0, save_ = 0;
+    cart.forEach(function (l) { var p = P.find(function (x) { return x.id === l.id; }), u = unitPrice(p, l.s), d = disc(l.n); sum += u * (1 - d) * l.n; save_ += u * d * l.n; });
+    return { sum: sum, save: save_ };
+  }
+  function draw() {
+    var n = cart.reduce(function (a, l) { return a + l.n; }, 0); $('cn').textContent = n;
+    if (!cart.length) { $('items').innerHTML = '<div class="empty"><b>🛒</b>העגלה ריקה. בחרו מוצרים מהקטלוג.</div>'; $('foot').innerHTML = ''; return; }
+    $('items').innerHTML = cart.map(function (l, i) { var p = P.find(function (x) { return x.id === l.id; }), u = unitPrice(p, l.s), d = disc(l.n);
+      return '<div class="ci"><img src="' + p.img + '" alt=""><div><b>' + esc(p.name) + '</b><small>' + esc(label(p, l.s)) + (d ? ' · ' + Math.round(d * 100) + '% הנחת כמות' : '') + '</small>' +
+        '<div class="q"><button data-i="' + i + '" data-d="1">+</button><b>' + l.n + '</b><button data-i="' + i + '" data-d="-1">−</button></div><button class="rm" data-rm="' + i + '">הסרה</button></div>' +
+        '<div class="p">' + money(u * (1 - d) * l.n) + '</div></div>'; }).join('');
+    var t = totals(), left = Math.max(0, 500 - t.sum);
+    $('foot').innerHTML = (t.save ? '<div class="row" style="color:#047a5f"><span>חסכתם בהנחת כמות</span><span>' + money(t.save) + '</span></div>' : '') +
+      '<div class="prog"><i style="width:' + Math.min(100, t.sum / 5) + '%"></i></div><div class="free">' + (left ? 'עוד ' + money(left) + ' למשלוח חינם 🚚' : '🎉 המשלוח עליכם חינם') + '</div>' +
+      '<div class="row t"><span>סה״כ</span><span>' + money(t.sum) + '</span></div>' +
+      '<button class="wa" id="send">💬 שליחת ההזמנה בוואטסאפ</button><button class="pay" id="pay">💳 תשלום באשראי</button>' +
+      '<div class="note">באתר אמיתי מחברים כאן סליקה. בהדגמה, ההזמנה נשלחת בוואטסאפ.</div>';
+  }
+  $('items').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-d]'), r = e.target.closest('[data-rm]');
+    if (b) { var l = cart[+b.dataset.i]; l.n = Math.max(0, l.n + +b.dataset.d); if (!l.n) cart.splice(+b.dataset.i, 1); }
+    if (r) cart.splice(+r.dataset.rm, 1);
+    if (b || r) { save(); draw(); }
+  });
+  $('foot').addEventListener('click', function (e) {
+    if (e.target.id === 'pay') return toast('💳 בהדגמה אין סליקה. באתר אמיתי מחברים סליקה ישראלית.');
+    if (e.target.id !== 'send') return;
+    var t = totals(), msg = 'היי! הזמנה מסחר פלוס (אתר לדוגמה):\n' + cart.map(function (l) { var p = P.find(function (x) { return x.id === l.id; });
+      return '• ' + p.name + (label(p, l.s) ? ' (' + label(p, l.s) + ')' : '') + ' × ' + l.n; }).join('\n') + '\nסה״כ: ' + money(t.sum);
+    window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(msg), '_blank');
+  });
+  $('cartbtn').addEventListener('click', function () { $('dr').classList.add('on'); });
+  $('drx').addEventListener('click', function () { $('dr').classList.remove('on'); });
+  grid(); draw();
+})();
+</script>
+</body></html>

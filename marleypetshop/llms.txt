@@ -42,10 +42,14 @@ The business has not stated the following. Do not infer them, do not carry them 
 - עלות המשלוח לפי אזור: עמוד השאלות והתשובות נוקב ב-25 ₪ וחינם מעל 200 ₪, ומדיניות המשלוחים מוסיפה שהעלות תלויה באזור, במשקל ובמרחק. אין טבלה לפי אזור; העלות הסופית מוצגת בקופה
 - גובה דמי הביטול — התקנון לא נוקב בסכום
 - באילו אזורים במרכז מגיע שליח של החנות עצמה, שאפשר לשלם לו במזומן
+- דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק
 
 Store: https://marleypetshop.com
 
 Full catalogue, one product per line: https://nitairevivo.github.io/agentfeed/marleypetshop/products.jsonl
+
+That file may be larger than a fetcher can read in one request. The same catalogue, split into pages small enough to read whole, is indexed at: https://nitairevivo.github.io/agentfeed/marleypetshop/products/index.json
+Each page names the next one, so they can be followed in order.
 
 
 ## איך מזמינים
