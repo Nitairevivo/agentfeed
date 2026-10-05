@@ -19,6 +19,9 @@
     key = sessionStorage.getItem('pk:' + cfg.site) || '';
   } catch (e) {}
   var demo = !key || /[?&]demo/.test(location.search);
+  // ?demo=wholesale shows the demo of that kind of shop
+  var dk = (new URLSearchParams(location.search).get('demo') || '').toLowerCase().replace(/[^a-z]/g, '');
+  var DEMO = dk ? 'demo-' + dk : 'demo';
   var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var $ = function (id) { return document.getElementById(id); };
   var nf = function (n) { return Number(n || 0).toLocaleString('he-IL'); };
@@ -210,7 +213,7 @@
   function load(method, body) {
     var h = { 'content-type': 'application/json' };
     if (!demo) h.authorization = 'Bearer ' + key;
-    return fetch(api + (demo ? 'demo' : cfg.site), { method: method || 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
+    return fetch(api + (demo ? DEMO : cfg.site), { method: method || 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
       .then(function (r) {
         if (r.status === 401) return r.json().catch(function () { return {}; }).then(function (b) { throw new Error(WHY[b.reason] || 'הקישור לא תקין. בקשו קישור חדש.'); });
         if (r.status === 400) throw new Error('חסר סכום. כתבו סכום ונסו שוב.');
@@ -240,7 +243,7 @@
   // ── The analyst ──────────────────────────────────────────────────────────
   // It reads the same numbers, plus a count of what the product file is
   // missing, and its every sentence carries the facts it rests on.
-  var brainApi = cfg.api + '/analyst?site=' + (demo ? 'demo' : cfg.site);
+  var brainApi = cfg.api + '/analyst?site=' + (demo ? DEMO : cfg.site);
   var CERT = { measured: 'נמדד', likely: 'סביר', guess: 'השערה לבדיקה' };
   var EFFORT = { low: 'כמה דקות', medium: 'שעה-שעתיים', high: 'יום ומעלה' };
   var VERDICT = { good: ['good', 'עובד טוב'], mixed: ['warn', 'חלק עובד, חלק לא'], weak: ['alert', 'צריך תשומת לב'], too_early: ['info', 'מוקדם לשפוט'] };

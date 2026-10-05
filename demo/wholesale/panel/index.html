@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>לוח הבקרה | סחר פלוס</title>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Heebo:wght@300;400;500;700&family=Heebo:wght@300;400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../theme.css"><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="panel.css?v=90a332b95b">
+<style>:root{--brand:#1565c0;--brand-deep:#0e4380;--accent:#fcb29c;--deep:#1f3651;--tint:#f0f6fc;--tint-2:#e2ecf8;--mint:#e3e2f8;--sky:#e7f8f9;--ink:#132024;--ink-2:#4f5f64;--line:#dee5ed;--font-display:"Varela Round", "Rubik", system-ui, sans-serif;--font-body:"Heebo", "Assistant", system-ui, sans-serif}</style>
+</head><body class="pn">
+<div class="pn-aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="pn-floor" aria-hidden="true"></div>
+<canvas id="pnsky" aria-hidden="true"></canvas><div class="pn-spot" aria-hidden="true"></div>
+<div class="pn-demo" id="demo" hidden>נתוני דוגמה — כך ייראה הלוח כשהאתר יעלה לאוויר</div>
+<header class="pn-top"><div class="wrap">
+  
+  <div><h1>לוח הבקרה</h1><small>סחר פלוס · 30 הימים האחרונים</small></div>
+  <span class="when"><span class="live" aria-hidden="true"></span><span id="when"></span></span>
+</div></header>
+<div class="pn-hud" aria-hidden="true"><div class="wrap"><span id="hud-link">◉ מתחבר…</span><span id="hud-clock"></span><span>30 ימים · סחר פלוס</span></div></div>
+<main class="wrap">
+  <section class="kpis" id="kpis" aria-label="המספרים המרכזיים"></section>
+  <section class="cardp glass brain" aria-labelledby="brain-h">
+    <div class="brain-top">
+      <div class="core" aria-hidden="true"><i></i><i></i><i></i><b>AI</b></div>
+      <div><h2 id="brain-h">המנתח החכם</h2>
+      <p class="sub">קורא את כל המספרים של האתר, משווה לחנויות אחרות שבנינו, ואומר מה עובד, מה לא ומה לעשות. כל משפט מראה על איזה מספר הוא נשען. משפט שלא נשען על מספר אמיתי נמחק לפני שהוא מגיע אליכם.</p></div>
+    </div>
+    <div id="brain" aria-live="polite"></div>
+    <div class="ask">
+      <div class="chips" id="chips"><button type="button">מאיפה מגיעים הכי הרבה מבקרים?</button><button type="button">מה הכי כדאי לשפר השבוע?</button><button type="button">איזה מוצר הכי מבוקש?</button></div>
+      <form class="askf" id="askf"><span class="prompt" aria-hidden="true">›_</span><label class="vh" for="askq">שאלה למנתח</label><input id="askq" maxlength="300" placeholder="שאלו את המנתח, למשל: למה השבוע היו פחות פניות?" autocomplete="off"><button class="btn btn-brand btn-s" type="submit">לשאול</button></form>
+      <div id="answer" aria-live="polite"></div>
+    </div>
+  </section>
+  <section class="cardp glass"><h2>מה כדאי לעשות עכשיו</h2><p class="sub">נבנה מהמספרים שלכם. כל המלצה מראה על איזה מספר היא נשענת.</p><div class="score" id="score"></div><div class="advice" id="advice"></div></section>
+  <div class="two">
+    <section class="cardp chart glass"><h2>מבקרים ופניות</h2><p class="sub">כל יום ב-30 הימים האחרונים</p><div id="chart"></div></section>
+    <section class="cardp glass"><h2>מאיפה הגיעו</h2><p class="sub">ב-30 הימים האחרונים</p><div id="ai"></div><div class="bars" id="sources"></div></section>
+  </div>
+  <div class="two">
+    <section class="cardp glass gadget"><h2>⚡ סימולטור "מה אם"</h2><p class="sub">גררו את המחוון: כמה פניות היו מגיעות מאותם מבקרים אם יותר מהם היו פונים. חישוב פשוט מהמספרים שלכם, לא תחזית.</p>
+      <div class="sim"><label for="simr">אחוז המבקרים שפונים: <b id="simv">—</b></label><input id="simr" type="range" min="0.5" max="20" step="0.5" value="5">
+      <div class="sim-out"><div><span>פניות ב-30 יום היום</span><b id="simnow">—</b></div><div class="arrow" aria-hidden="true">←</div><div><span>עם האחוז שבחרתם</span><b id="simthen">—</b></div></div></div></section>
+    <section class="cardp glass gadget"><h2>🎯 יעד החודש</h2><p class="sub">כמה הכנסות אתם רוצים לרשום החודש? היעד נשמר רק בדפדפן הזה.</p>
+      <div class="goal"><div id="goalring"></div><form id="goalf"><label for="goali">היעד בש"ח</label><input id="goali" type="number" min="0" step="100" inputmode="numeric" placeholder="למשל 20000"><button class="btn btn-brand btn-s" type="submit">שמירה</button></form><p id="goaltxt" class="sub"></p></div></section>
+  </div>
+  <section class="cardp glass"><h2>המוצרים שהכי שואלים עליהם</h2><p class="sub">לחיצות על וואטסאפ, שיחה או סל מתוך כרטיס של מוצר, ב-30 הימים האחרונים</p><ul class="list" id="products"></ul></section>
+  <div class="three">
+    <section class="cardp glass"><h2>מה עשו באתר</h2><ul class="list" id="actions"></ul></section>
+    <section class="cardp glass"><h2>העמודים הכי נצפים</h2><p class="sub" id="mobile"></p><ul class="list" id="pages"></ul></section>
+    <section class="cardp glass"><h2>החודש בכסף</h2><div class="money" id="money"></div><div class="donut" id="donut"></div></section>
+  </div>
+  <section class="cardp glass"><h2>הכנסות והוצאות</h2><p class="sub">כל הכנסה והוצאה, גם כאלה שלא דרך האתר. כך הרווח כאן אמיתי.</p>
+    <form class="add" id="add"><select name="kind" aria-label="סוג"><option value="income">הכנסה</option><option value="expense">הוצאה</option></select>
+      <input name="amount" type="number" min="0" step="0.01" placeholder="סכום ₪" aria-label="סכום" required>
+      <input name="category" placeholder="קטגוריה (סחורה, פרסום...)" aria-label="קטגוריה">
+      <input name="note" placeholder="הערה" aria-label="הערה"><button class="btn btn-brand btn-s" type="submit">הוספה</button></form>
+    <div style="overflow-x:auto;margin-top:12px"><table class="led" id="ledger"></table></div>
+  </section>
+  <p class="pn-foot">המבקרים נספרים בלי עוגיות ובלי לשמור שם או כתובת של אף אחד. רק כמה, מאיפה, ומה לחצו.</p>
+</main>
+<script>window.PANEL={"site": "mock-ea7efb05", "api": "https://agentfeed-plum.vercel.app", "name": "סחר פלוס"}</script><script src="panel.js?v=ef7470b21f"></script>
+</body></html>
