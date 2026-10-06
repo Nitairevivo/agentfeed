@@ -438,3 +438,10 @@ form.add[aria-disabled="true"] { opacity: .5; }
   table.ord td::before{content:attr(data-l);color:var(--dim);font-weight:500;flex:none}
   table.ord td>*{text-align:end}
 }
+
+/* the bell: notifications for every paid order */
+.bell { margin-inline-start: auto; border: 1px solid color-mix(in srgb, var(--cyan) 55%, transparent); background: color-mix(in srgb, var(--cyan) 14%, transparent); color: var(--txt); font: 700 14px/1 inherit; font-family: inherit; padding: 10px 14px; border-radius: 12px; cursor: pointer; box-shadow: 0 0 22px -8px var(--cyan); white-space: nowrap; }
+.bell.on { border-color: rgba(62, 240, 161, .6); background: rgba(62, 240, 161, .12); }
+.bell:disabled { opacity: .6; }
+.bellnote { max-width: 1100px; margin: 0 auto; padding: 10px 20px; font-size: 14px; color: var(--txt); background: rgba(255, 207, 58, .12); border-bottom: 1px solid var(--edge); }
+.bellnote.ok { background: rgba(62, 240, 161, .12); }

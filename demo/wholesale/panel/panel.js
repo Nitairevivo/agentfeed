@@ -2,6 +2,7 @@
 // demo when there is no key. The key arrives once in the link's fragment
 // (#k=…), which browsers never send to any server, and is kept for the tab.
 (function () {
+  var ME = (document.currentScript && document.currentScript.src) || '';
   var cfg = window.PANEL;
   // the shared panel serves any connected site: ?site=<slug>&name=<name>
   if (cfg.site === '*') {
@@ -239,6 +240,51 @@
           '</td><td data-l="מה הוזמן" style="font-size:13px">' + what + '</td><td data-l="סכום" class="in">₪' + nf(o.total) + '</td><td data-l="מצב" class="' + st[1] + '">' + st[0] +
           (o.mock && !o.example ? ' <small>(הדמיה)</small>' : '') + '</td></tr>'; }).join('') + '</table></div>';
   }
+
+  // Order notifications. One tap: the phone asks for permission, we keep the
+  // device, and from then on every paid order arrives as a system notification.
+  // On an iPhone it works from the panel saved to the home screen (iOS 16.4+).
+  function pushUI() {
+    var host = document.querySelector('.pn-top .wrap'); if (!host || document.getElementById('bell')) return;
+    var b = document.createElement('button'); b.type = 'button'; b.id = 'bell'; b.className = 'bell';
+    var note = document.createElement('div'); note.id = 'bellnote'; note.className = 'bellnote'; note.hidden = true;
+    host.appendChild(b); host.parentNode.insertBefore(note, host.nextSibling);
+    var ios = /iP(hone|ad|od)/.test(navigator.userAgent), standalone = window.navigator.standalone || matchMedia('(display-mode: standalone)').matches;
+    var site = demo ? DEMO : cfg.site;
+    function say(t, ok) { note.hidden = false; note.className = 'bellnote' + (ok ? ' ok' : ''); note.textContent = t; }
+    function label(on) { b.textContent = on ? '🔔 התראות פועלות' : '🔔 התראה על כל הזמנה'; b.classList.toggle('on', !!on); }
+    try { label(localStorage.getItem('push:' + site) === '1' && Notification.permission === 'granted'); } catch (x) { label(false); }
+    var swUrl = ME.replace(/panel\.js.*$/, 'push-sw.js') + '?home=' + encodeURIComponent(location.origin + location.pathname + location.search);
+    function key64(k) { var p = '='.repeat((4 - k.length % 4) % 4), r = atob((k + p).replace(/-/g, '+').replace(/_/g, '/')), a = new Uint8Array(r.length); for (var i = 0; i < r.length; i++) a[i] = r.charCodeAt(i); return a; }
+    function post(op, body) {
+      var h = { 'content-type': 'application/json' }; if (!demo) h.authorization = 'Bearer ' + key;
+      return fetch(cfg.api + '/panel?op=' + op, { method: 'POST', headers: h, body: JSON.stringify(body) }).then(function (r) { return r.json().then(function (d) { if (!r.ok) throw new Error(d.error || r.status); return d; }); });
+    }
+    b.addEventListener('click', function () {
+      if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) {
+        return say(ios && !standalone ? 'באייפון: לחצו על כפתור השיתוף ⬆️ ואז "הוספה למסך הבית", פתחו את הלוח משם ולחצו שוב על הפעמון.' : 'הדפדפן הזה לא תומך בהתראות. נסו בכרום.');
+      }
+      b.disabled = true; say('מפעיל…', false);
+      var reg, vk;
+      fetch(cfg.api + '/panel?op=push-key').then(function (r) { if (!r.ok) throw new Error('server'); return r.json(); })
+        .then(function (d) { vk = d.key; return navigator.serviceWorker.register(swUrl, { scope: ME.replace(/panel\.js.*$/, '') }); })
+        .then(function (r) { reg = r; return Notification.requestPermission(); })
+        .then(function (p) { if (p !== 'granted') throw new Error('denied'); return navigator.serviceWorker.ready; })
+        .then(function () { return reg.pushManager.getSubscription(); })
+        .then(function (s) { return s || reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: key64(vk) }); })
+        .then(function (s) { var j = s.toJSON(); return post('push-sub', { site: site, sub: j }).then(function () { return post('push-test', { site: site, sub: j }); }); })
+        .then(function () {
+          try { localStorage.setItem('push:' + site, '1'); } catch (x) {}
+          label(true); say(demo ? 'מעולה! שלחנו התראת בדיקה. עכשיו הזמינו בחנות הדמו ושלמו בהדמיה, וההתראה תגיע לטלפון.' : 'מעולה! מעכשיו כל הזמנה ששולמה באתר תגיע לטלפון הזה.', true);
+        })
+        .catch(function (e) {
+          var m = String(e && e.message || e);
+          say(m === 'denied' ? 'ההתראות חסומות. אפשר להפעיל אותן בהגדרות האתר בדפדפן (סמל המנעול ליד הכתובת).' :
+              m === 'server' ? 'ההתראות עוד לא הופעלו בשרת. נסו שוב בקרוב.' : 'משהו השתבש. נסו שוב.', false);
+        })
+        .then(function () { b.disabled = false; });
+    });
+  }
   function load(method, body) {
     var h = { 'content-type': 'application/json' };
     if (!demo) h.authorization = 'Bearer ' + key;
@@ -398,6 +444,7 @@
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
   });
   load();
+  pushUI();
   brain();
 })();
 
