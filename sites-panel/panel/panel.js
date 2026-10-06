@@ -437,14 +437,88 @@
   // A conversation, not a box: each question stays above its answer, the
   // field empties and is ready for the next one.
   var asking = false;
-  // the conversation reads top to bottom and the field stays under the last
-  // message, like any chat; panels built before this had it the other way round
-  if (askNode && $('answer')) askNode.insertBefore($('answer'), askNode.firstChild);
+  // ── The conversation ────────────────────────────────────────────────────
+  // Before the first question the field sits on top, ready. Once a question is
+  // sent the conversation takes the top and the field moves under the last
+  // message, like any chat. Every conversation is kept in a log on this
+  // device (never on our server), so yesterday's answer is one tap away.
+  var CKEY = 'chats:' + (demo ? DEMO : cfg.site), chats = [], cur = null;
+  try { chats = JSON.parse(localStorage.getItem(CKEY) || '[]') || []; } catch (x) { chats = []; }
+  function saveChats() { try { localStorage.setItem(CKEY, JSON.stringify(chats.slice(0, 30))); } catch (x) {} }
+  var bar = document.createElement('div'); bar.className = 'askbar';
+  bar.innerHTML = '<b>💬 שיחה עם המנתח</b><span><button type="button" id="chnew">＋ שיחה חדשה</button><button type="button" id="chlog">🕘 יומן שיחות</button></span>';
+  var logBox = document.createElement('div'); logBox.className = 'chlog'; logBox.id = 'chlogbox'; logBox.hidden = true;
+  if (askNode) { askNode.insertBefore(logBox, askNode.firstChild); askNode.insertBefore(bar, askNode.firstChild); }
+  function layout() {
+    var talking = $('answer').children.length > 0;
+    if (talking) askNode.insertBefore($('answer'), $('chips'));      // the conversation on top, the field under it
+    else askNode.appendChild($('answer'));                            // nothing yet: the field on top
+    askNode.classList.toggle('talking', talking);
+  }
   function follow() { $('askf').scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' }); }
-  function bubble(html, cls) {
+  function plain(html) { var d = document.createElement('div'); d.innerHTML = html; return (d.textContent || '').trim(); }
+  function tools(el) {
+    if (!el.classList.contains('ai') || el.querySelector('.qtools')) return;
+    var t = document.createElement('div'); t.className = 'qtools';
+    t.innerHTML = '<button type="button" data-copy>📋 העתקה</button>';
+    el.appendChild(t);
+  }
+  function bubble(html, cls, quiet) {
     var el = document.createElement('div'); el.className = 'qa ' + cls; el.innerHTML = html;
-    $('answer').appendChild(el); follow();
+    $('answer').appendChild(el); layout(); if (!quiet) follow();
     return el;
+  }
+  function record(who, html) {
+    if (!cur) { cur = { id: Date.now().toString(36), at: new Date().toISOString(), title: '', msgs: [] }; chats.unshift(cur); }
+    if (!cur.title && who === 'me') cur.title = plain(html).slice(0, 60);
+    cur.msgs.push({ w: who, h: html }); cur.at = new Date().toISOString();
+    if (cur.msgs.length > 60) cur.msgs = cur.msgs.slice(-60);
+    chats = [cur].concat(chats.filter(function (c) { return c !== cur; })); saveChats();
+  }
+  function openChat(c) {
+    $('answer').innerHTML = ''; cur = c || null;
+    (c ? c.msgs : []).forEach(function (m) { var el = bubble(m.h, m.w === 'me' ? 'me' : 'ai', true); tools(el); });
+    layout(); logBox.hidden = true;
+  }
+  function when(iso) { try { return new Date(iso).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }); } catch (x) { return ''; } }
+  function drawLog() {
+    logBox.innerHTML = chats.length ? '<ul>' + chats.map(function (c, i) {
+      return '<li><button type="button" class="open" data-i="' + i + '"><b>' + esc(c.title || 'שיחה') + '</b><small>' + esc(when(c.at)) + ' · ' + c.msgs.length + ' הודעות</small></button>' +
+        '<button type="button" class="del" data-del="' + i + '" aria-label="מחיקת השיחה">✕</button></li>'; }).join('') + '</ul>' +
+      '<p class="sub">השיחות נשמרות רק במכשיר הזה.</p>' : '<p class="sub">עוד אין שיחות. שאלו את המנתח משהו, והשיחה תישמר כאן.</p>';
+  }
+  bar.addEventListener('click', function (e) {
+    if (e.target.id === 'chnew') { openChat(null); $('askq').focus(); }
+    if (e.target.id === 'chlog') { drawLog(); logBox.hidden = !logBox.hidden; }
+  });
+  logBox.addEventListener('click', function (e) {
+    var o = e.target.closest('[data-i]'), d = e.target.closest('[data-del]');
+    if (o) openChat(chats[+o.dataset.i]);
+    if (d && confirm('למחוק את השיחה?')) { var gone = chats.splice(+d.dataset.del, 1)[0]; saveChats(); if (gone === cur) openChat(null); drawLog(); }
+  });
+  $('answer').addEventListener('click', function (e) {
+    var c = e.target.closest('[data-copy]'); if (!c) return;
+    var txt = plain(c.closest('.qa').innerHTML).replace('📋 העתקה', '').trim();
+    (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { c.textContent = '✓ הועתק'; setTimeout(function () { c.textContent = '📋 העתקה'; }, 1500); }, function () {});
+  });
+  // the last conversation comes back if it is from the last twelve hours
+  if (chats[0] && Date.now() - new Date(chats[0].at) < 12 * 3600e3) openChat(chats[0]); else layout();
+
+  // speaking instead of typing, where the browser can listen (Chrome, Android, Safari)
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (SR) {
+    var mic = document.createElement('button'); mic.type = 'button'; mic.className = 'mic'; mic.setAttribute('aria-label', 'הקלטת שאלה'); mic.textContent = '🎤';
+    $('askf').insertBefore(mic, $('askf').querySelector('button[type=submit]'));
+    var rec = null;
+    mic.addEventListener('click', function () {
+      if (rec) { rec.stop(); return; }
+      rec = new SR(); rec.lang = 'he-IL'; rec.interimResults = true;
+      mic.classList.add('on');
+      rec.onresult = function (ev) { var t = ''; for (var i = 0; i < ev.results.length; i++) t += ev.results[i][0].transcript; $('askq').value = t; };
+      rec.onend = function () { mic.classList.remove('on'); rec = null; if ($('askq').value.trim()) $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); };
+      rec.onerror = function () { mic.classList.remove('on'); rec = null; };
+      rec.start();
+    });
   }
   function tipsHtml(list) {
     return (list || []).length ? '<ol class="tips">' + list.map(function (t) {
@@ -454,9 +528,12 @@
   $('askf').addEventListener('submit', function (e) {
     e.preventDefault();
     var input = $('askq'), q = input.value.trim(); if (!q || asking) return;
-    input.value = '';
-    bubble(esc(q), 'me');
-    if (demo) { bubble('<p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם ומוסיף עצות מעשיות, ומראה על איזה מספר נשענה כל עצה.</p>', 'ai'); return; }
+    input.value = ''; logBox.hidden = true;
+    bubble(esc(q), 'me'); record('me', esc(q));
+    if (demo) {
+      var dh = '<p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם ומוסיף עצות מעשיות, ומראה על איזה מספר נשענה כל עצה.</p>';
+      tools(bubble(dh, 'ai')); record('ai', dh); return;
+    }
     asking = true; $('askf').classList.add('busy');
     var wait = bubble('<div class="scan"><div class="bar"></div><p>חושב…</p></div>', 'ai');
     brainCall({ ask: q }).then(function (r) {
@@ -466,8 +543,8 @@
           '<p>לא הצלחתי לענות על זה. נסו לנסח אחרת.</p>';
         return;
       }
-      setTimeout(follow, 30);
       wait.innerHTML = (r.answer ? '<p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips);
+      record('ai', wait.innerHTML); tools(wait);
     }).catch(function (e2) {
       wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
     }).then(function () { asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30); });
