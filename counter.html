@@ -174,6 +174,12 @@ function draw(d) {
   const views = Object.values(d.arrivals?.views || {})
     .reduce((t, v) => t + v, 0);
   const agents = Object.values(d.agents?.names || {}).reduce((t, v) => t + v, 0);
+  // Most of `agents` is indexes checking that the server answers: a
+  // handshake and a list of tools, every few minutes, from dozens of
+  // registries. Only a call to one of our six tools is somebody asking.
+  const REAL = ["search_products", "recommend_products", "browse_products",
+                "get_product", "get_store_info", "start_order"];
+  const used = REAL.reduce((t, k) => t + ((d.agents?.tools || {})[k] || 0), 0);
 
   // The order is the argument. A number that a machine can produce on its
   // own sits below the numbers it cannot, because for six weeks the biggest
@@ -183,12 +189,13 @@ function draw(d) {
     .reduce((t, v) => t + v, 0);
   const cards = [
     [views, "הגעות — דפדפן שצייר עמוד"],
-    [agents, "קריאות של סוכני AI בשם"],
+    [used, "שאלות לכלים שלנו (חיפוש, מוצר, חנות) — כולל שלנו"],
     [sum("enquiries_drawn"), "פניות בטופס — מעמוד שנצבע"],
     [sum("rendered"), "לחיצות מעמוד שנצבע"],
     [sum("clicks"), "לחיצות — גבול עליון"],
     [sum("carts"), "הוספות לעגלה — גבול עליון"],
     [sum("enquiries"), "לחיצות על טופס — גבול עליון"],
+    [agents, "בדיקות של סורקים ואינדקסים — חיבור ורשימת כלים, לא שאלות"],
   ].map(([v, label]) =>
     `<div><b>${n(v)}</b><span>${esc(label)}</span></div>`).join("");
 
