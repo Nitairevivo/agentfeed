@@ -445,3 +445,12 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .bell:disabled { opacity: .6; }
 .bellnote { max-width: 1100px; margin: 0 auto; padding: 10px 20px; font-size: 14px; color: var(--txt); background: rgba(255, 207, 58, .12); border-bottom: 1px solid var(--edge); }
 .bellnote.ok { background: rgba(62, 240, 161, .12); }
+
+/* the analyst opens on its last analysis; a small line says when, and whether it is updating */
+.brainnote { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; margin: 0 0 10px; }
+.brainnote .spin, .sub .spin { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--edge); border-top-color: var(--cyan); animation: bspin .8s linear infinite; display: inline-block; }
+@keyframes bspin { to { transform: rotate(360deg); } }
+#brainretry { margin-inline-start: 6px; }
+/* the conversation above the field */
+.ask #answer:not(:empty) { margin-bottom: 14px; }
+#answer:empty { margin: 0; }

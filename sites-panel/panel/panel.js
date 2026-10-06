@@ -388,31 +388,62 @@
       });
     });
   }
-  function brainCall(body) {
+  function brainCall(body, ms) {
     var h = { 'content-type': 'application/json' };
     if (!demo) h.authorization = 'Bearer ' + key;
     body = body || {}; body.catalog = catalog; body.name = cfg.name;
-    return fetch(brainApi, { method: 'POST', headers: h, body: JSON.stringify(body) }).then(function (r) {
+    // never wait forever: the server gives up at 60 seconds, we a little before
+    var ctl = window.AbortController ? new AbortController() : null, t = ctl && setTimeout(function () { ctl.abort(); }, ms || 55000);
+    return fetch(brainApi, { method: 'POST', headers: h, body: JSON.stringify(body), signal: ctl ? ctl.signal : undefined }).then(function (r) {
       if (r.status === 429) throw new Error('הגעתם למספר השאלות להיום. אפשר לשאול שוב מחר.');
       if (!r.ok) throw new Error('המנתח לא זמין כרגע. נסו שוב בעוד כמה דקות.');
       return r.json();
-    });
+    }, function (e) {
+      throw new Error(e && e.name === 'AbortError' ? 'המנתח לוקח יותר מדי זמן כרגע. נסו שוב בעוד דקה.' : 'אין חיבור למנתח כרגע.');
+    }).then(function (x) { if (t) clearTimeout(t); return x; }, function (e) { if (t) clearTimeout(t); throw e; });
   }
+  // The last analysis opens the section at once, and a fresh one replaces it
+  // when it arrives. Kept on this device only.
+  var BKEY = 'brain:' + (demo ? DEMO : cfg.site);
+  function hhmm(iso) { try { return new Date(iso).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }); } catch (x) { return ''; } }
+  function brainNote(html) {
+    var n = document.getElementById('brainnote'); if (!n) { n = document.createElement('p'); n.id = 'brainnote'; n.className = 'sub brainnote'; $('brain').insertBefore(n, $('brain').firstChild); }
+    n.innerHTML = html;
+  }
+  function retryBtn() { return ' <button type="button" class="btn btn-s" id="brainretry">לנסות שוב</button>'; }
   function brain() {
     if (askNode && askNode.parentNode === $('brain')) $('brain').parentNode.appendChild(askNode);
-    $('brain').innerHTML = '<div class="scan"><div class="bar"></div><p>המנתח קורא את המספרים, משווה ובודק כל משפט…</p></div>';
+    var kept = null; try { kept = JSON.parse(localStorage.getItem(BKEY) || 'null'); } catch (x) {}
+    if (kept && kept.a) { showBrain(kept.a, kept.bench); brainNote('<span class="spin"></span> מהבדיקה האחרונה (' + esc(hhmm(kept.at)) + ') · בודק אם יש משהו חדש…'); }
+    else {
+      $('brain').innerHTML = '<div class="scan"><div class="bar"></div><p id="scanp">המנתח קורא את המספרים, משווה ובודק כל משפט…</p></div>';
+      setTimeout(function () { var p = document.getElementById('scanp'); if (p) p.textContent = 'עוד רגע… המנתח בודק כל מספר לפני שהוא מראה לכם.'; }, 12000);
+    }
     readCatalog().then(function () { return brainCall({}); }).then(function (r) {
       if (r.reason === 'not_configured') { $('brain').innerHTML = '<p class="sub">המנתח עוד לא הופעל באתר הזה. ההמלצות למטה מבוססות על המספרים שלכם.</p>'; return; }
+      if (!r.analysis && kept && kept.a) { brainNote('לא הצלחנו לעדכן עכשיו. מוצג הניתוח מ-' + esc(hhmm(kept.at)) + '.' + retryBtn()); return; }
       showBrain(r.analysis, r.bench);
-      if (!r.analysis && r.detail) $('brain').insertAdjacentHTML('beforeend', '<p class="sub" dir="ltr" style="font-size:12px;opacity:.7">' + esc(r.detail) + '</p>');
-    }).catch(function (e) { $('brain').innerHTML = '<p class="sub">' + esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.') + '</p>'; });
+      if (r.analysis) {
+        try { localStorage.setItem(BKEY, JSON.stringify({ a: r.analysis, bench: r.bench, at: r.analysis.at || new Date().toISOString() })); } catch (x) {}
+        if (r.analysis.at) brainNote('נכון ל-' + esc(hhmm(r.analysis.at)));
+      } else if (r.detail) $('brain').insertAdjacentHTML('beforeend', '<p class="sub" dir="ltr" style="font-size:12px;opacity:.7">' + esc(r.detail) + '</p>' + retryBtn());
+    }).catch(function (e) {
+      var m = esc(/[\u0590-\u05FF]/.test(e.message) ? e.message : 'המנתח לא זמין כרגע.');
+      if (kept && kept.a) brainNote(m + ' מוצג הניתוח מ-' + esc(hhmm(kept.at)) + '.' + retryBtn());
+      else $('brain').innerHTML = '<p class="sub">' + m + retryBtn() + '</p>';
+    });
   }
+  $('brain').addEventListener('click', function (e) { if (e.target && e.target.id === 'brainretry') brain(); });
   // A conversation, not a box: each question stays above its answer, the
   // field empties and is ready for the next one.
   var asking = false;
+  // the conversation reads top to bottom and the field stays under the last
+  // message, like any chat; panels built before this had it the other way round
+  if (askNode && $('answer')) askNode.insertBefore($('answer'), askNode.firstChild);
+  function follow() { $('askf').scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' }); }
   function bubble(html, cls) {
     var el = document.createElement('div'); el.className = 'qa ' + cls; el.innerHTML = html;
-    $('answer').appendChild(el); el.scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
+    $('answer').appendChild(el); follow();
     return el;
   }
   function tipsHtml(list) {
@@ -435,10 +466,11 @@
           '<p>לא הצלחתי לענות על זה. נסו לנסח אחרת.</p>';
         return;
       }
+      setTimeout(follow, 30);
       wait.innerHTML = (r.answer ? '<p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips);
     }).catch(function (e2) {
       wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
-    }).then(function () { asking = false; $('askf').classList.remove('busy'); input.focus(); });
+    }).then(function () { asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30); });
   });
   document.querySelectorAll('#chips button').forEach(function (b) {
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
