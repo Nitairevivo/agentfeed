@@ -732,7 +732,7 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
 <section class="start glass beam rv" id="start">
   <div>
     <h2>רוצים <span class="glow-t">אתר?</span></h2>
-    <p>ספרו לנו על העסק. לוחצים, ונפתחת הודעת וואטסאפ מוכנה אלינו. שום דבר לא נשמר באתר הזה.</p>
+    <p>ספרו לנו על העסק, <b>ונכין לכם הדמיה אישית של האתר שלכם, בחינם ובלי התחייבות.</b> לוחצים, ונפתחת הודעת וואטסאפ מוכנה אלינו. שום דבר לא נשמר באתר הזה.</p>
     <p class="or">או ישר: <a data-wa href="https://wa.me/972526760039">052-676-0039</a> · ניתאי</p>
     <p class="or">אתר לפי סוג החנות: <a href="https://nitairevivo.github.io/agentfeed/for/">חיות, יודאיקה, בגדים, תכשיטים ועוד</a> · <a href="https://nitairevivo.github.io/agentfeed/check/">בדיקה חינם לאתר שלכם</a></p>
   </div>
@@ -744,8 +744,9 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
     <label>יש לכם אתר היום?
       <select id="f-site"><option>לא</option><option>כן</option><option>רק פייסבוק או אינסטגרם</option></select></label>
     <label>כמה מוצרים בערך<input id="f-count" inputmode="numeric"></label>
+    <label>אינסטגרם או פייסבוק של העסק (לא חובה)<input id="f-social" inputmode="url" placeholder="קישור או שם העמוד"></label>
     <label>השם שלך<input id="f-person" autocomplete="name"></label>
-    <div class="full"><button class="btn btn-y" type="submit" style="width:100%">שליחה בוואטסאפ</button></div>
+    <div class="full"><button class="btn btn-y" type="submit" style="width:100%">🎁 לקבל הדמיה חינם בוואטסאפ</button></div>
   </form>
 </section>
 </main>
@@ -895,7 +896,9 @@ font:600 .9rem/1.4 ui-monospace,Menlo,monospace;color:#cfe;word-break:break-all;
     if (v('f-city')) lines.push('עיר: ' + v('f-city'));
     lines.push('אתר היום: ' + v('f-site'));
     if (v('f-count')) lines.push('מוצרים: בערך ' + v('f-count'));
+    if (v('f-social')) lines.push('העמוד שלנו: ' + v('f-social'));
     if (v('f-person')) lines.push('שמי: ' + v('f-person'));
+    lines.push('אשמח להדמיה אישית 🙂');
     if (ref) lines.push(came.trim());
     ping('lead');
     location.href = WA + encodeURIComponent(lines.join('\n'));
