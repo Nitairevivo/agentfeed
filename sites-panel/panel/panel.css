@@ -475,3 +475,4 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .askf .mic { font-size: 18px; background: rgba(255,255,255,.06); border: 1px solid var(--edge); border-radius: 12px; padding: 7px 10px; cursor: pointer; }
 .askf .mic.on { background: rgba(255,90,95,.2); border-color: #ff5a5f; animation: micpulse 1s ease-in-out infinite; }
 @keyframes micpulse { 50% { box-shadow: 0 0 0 6px rgba(255,90,95,.15); } }
+.viaai { display: inline-block; font-size: 12px; font-weight: 700; color: var(--cyan); background: rgba(62,230,255,.1); border: 1px solid rgba(62,230,255,.35); border-radius: 99px; padding: 2px 8px; }

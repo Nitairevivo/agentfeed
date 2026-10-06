@@ -233,7 +233,7 @@
       '<div style="overflow-x:auto;margin-top:12px"><table class="led ord"><tr><th>מתי</th><th>לקוח</th><th>מה הוזמן</th><th>סכום</th><th>מצב</th></tr>' +
       list.slice(0, 30).map(function (o) {
         var st = ST[o.status] || [o.status, ''];
-        var who = esc((o.customer && o.customer.name) || '') + (o.customer && o.customer.phone ?
+        var who = (o.via === 'agent' ? '<span class="viaai">🤖 דרך עוזר AI</span><br>' : '') + esc((o.customer && o.customer.name) || '') + (o.customer && o.customer.phone ?
           '<br><a href="tel:' + esc(o.customer.phone) + '">' + esc(o.customer.phone) + '</a>' : '');
         var what = (o.lines || []).map(function (l) { return esc(l.name) + (l.label ? ' · ' + esc(l.label) : '') + ' ×' + nf(l.n); }).join('<br>');
         return '<tr><td data-l="מתי">' + new Date(o.created).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }) + '</td><td data-l="לקוח">' + who +
