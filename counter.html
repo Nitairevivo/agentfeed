@@ -178,7 +178,7 @@ function draw(d) {
   // handshake and a list of tools, every few minutes, from dozens of
   // registries. Only a call to one of our six tools is somebody asking.
   const REAL = ["search_products", "recommend_products", "browse_products",
-                "get_product", "get_store_info", "start_order"];
+                "get_product", "get_store_info", "start_order", "build_cart"];
   const used = REAL.reduce((t, k) => t + ((d.agents?.tools || {})[k] || 0), 0);
 
   // The order is the argument. A number that a machine can produce on its

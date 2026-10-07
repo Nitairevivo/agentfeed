@@ -188,7 +188,7 @@ https://nitairevivo.github.io/agentfeed/compare/
 - מדריך העסקים והקטגוריות: https://nitairevivo.github.io/agentfeed/api/stores.json
 - כל הפריטים מכל העסקים, שורה לפריט: https://nitairevivo.github.io/agentfeed/api/catalog.jsonl
 - מה יש בכל כתובת: https://nitairevivo.github.io/agentfeed/api/index.json
-- נקודת MCP (streamable-http, בלי מפתח): https://agentfeed-plum.vercel.app/mcp — שישה כלים: search_products, browse_products, recommend_products, get_store_info, get_product, start_order
+- נקודת MCP (streamable-http, בלי מפתח): https://agentfeed-plum.vercel.app/mcp — שבעה כלים: search_products, browse_products, recommend_products, get_store_info, get_product, start_order, build_cart (סל של כמה פריטים בפעולה אחת, עם קישור לעגלה של כל חנות)
 
 ## שלושה כללים
 
