@@ -1,0 +1,51 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "חנות מלאה עם תשלום באשראי — AgentFeed",
+ "url": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-full/",
+ "description": "כל מה שבחנות־קטלוג, ועוד תשלום באשראי ישירות באתר. החל מ-6,900 ₪ הקמה, ועוד 449 ₪ לחודש. לשלושת העסקים הראשונים משלמים רק אחרי שרואים את האתר עובד; אחריהם, חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום. פנייה בטלפון או בוואטסאפ, 052-676-0039.",
+ "brand": {
+  "@type": "Brand",
+  "name": "AgentFeed — בניית אתרים לעסקים קטנים"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://nitairevivo.github.io/agentfeed/sites.html#prices?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "url": "https://nitairevivo.github.io/agentfeed/sites.html"
+  }
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "משלוח",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "זמן אספקה",
+   "value": "not-stated"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "החזרות וביטול",
+   "value": "not-stated"
+  }
+ ],
+ "identifier": "agentfeed-sites-full",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/",
+  "name": "AgentFeed — בניית אתרים לעסקים קטנים"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%A0%D7%95%D7%AA%20%D7%9E%D7%9C%D7%90%D7%94%20%D7%A2%D7%9D%20%D7%AA%D7%A9%D7%9C%D7%95%D7%9D%20%D7%91%D7%90%D7%A9%D7%A8%D7%90%D7%99%20%E2%80%94%20AgentFeed%D7%B4.",
+  "name": "whatsapp"
+ },
+ "seller_phone": "052-676-0039",
+ "retrieved": "2026-10-07",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

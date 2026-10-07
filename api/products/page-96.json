@@ -1,10 +1,346 @@
 {
  "page": 96,
- "pages": 100,
- "total": 4994,
+ "pages": 101,
+ "total": 5001,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-97.json",
  "products": [
+  {
+   "id": "29334",
+   "title": "דנטלייט דנטל בון מדיום 30 יח 540 גרם",
+   "description": "דנטלייט דנטל בון מדיום 30 יח 540 גרם הוא חטיף דנטלי לכלבים בטעם Dentalite Dental Bone Medium, באריזת 30 יחידות, 540 גרם. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
+   "link": "https://marleypetshop.com/product/%d7%93%d7%a0%d7%98%d7%9c%d7%99%d7%99%d7%98-%d7%93%d7%a0%d7%98%d7%9c-%d7%91%d7%95%d7%9f-%d7%9e%d7%93%d7%99%d7%95%d7%9d-30-%d7%99%d7%97-540-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-93-d7-a0-d7-98-d7-9c-d7-99-d7-99-d7-98-d7-93-d7-a0-d7-98-d7-9c-d7-91-d7-95-d7-9f-d7-9e-d7-93-d7-99-d7-95-d7-9d-30-d7-99-d7-97-540-d7-92-d7-a8-d7-9d-1200x1200-1.png",
+   "gtin": "6942133302337",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29334%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29334",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29334/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29334/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29334",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29334%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29334",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29334%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29334",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%D7%A0%D7%98%D7%9C%D7%99%D7%99%D7%98%20%D7%93%D7%A0%D7%98%D7%9C%20%D7%91%D7%95%D7%9F%20%D7%9E%D7%93%D7%99%D7%95%D7%9D%2030%20%D7%99%D7%97%20540%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%D7%99%D7%98%20%D7%93%D7%A0%D7%98%D7%9C%20%D7%91%D7%95%D7%9F%20%D7%9E%D7%93%D7%99%D7%95%D7%9D%2030%20%D7%99%D7%97%20540%20%D7%92%D7%A8%D7%9D",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "29332",
+   "title": "גנולרס דיפנס חטיף דנטלי לכלבים 525 גרם",
+   "description": "גנולרס דיפנס חטיף דנטלי לכלבים 525 גרם הוא חטיף דנטלי לכלבים בטעם Granulers Defense, באריזת 525 גרם. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
+   "link": "https://marleypetshop.com/product/%d7%92%d7%a0%d7%95%d7%9c%d7%a8%d7%a1-%d7%93%d7%99%d7%a4%d7%a0%d7%a1-%d7%97%d7%98%d7%99%d7%a3-%d7%93%d7%a0%d7%98%d7%9c%d7%99-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-525-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/0d2db83899520e679b1e129f55d59c76.png",
+   "gtin": "6942133309404",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29332%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29332",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29332/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29332/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29332",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29332%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29332",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29332%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29332",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%92%D7%A0%D7%95%D7%9C%D7%A8%D7%A1%20%D7%93%D7%99%D7%A4%D7%A0%D7%A1%20%D7%97%D7%98%D7%99%D7%A3%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20525%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%92%D7%A0%D7%95%D7%9C%D7%A8%D7%A1%20%D7%93%D7%99%D7%A4%D7%A0%D7%A1%20%D7%97%D7%98%D7%99%D7%A3%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20525%20%D7%92%D7%A8%D7%9D",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "29330",
+   "title": "סט טיפוח לארנב",
+   "description": "סט טיפוח לארנב הוא סט טיפוח לארנב. מיועד לסירוק ולטיפוח שוטף של הפרווה והציפורניים בהתאם לכלים הכלולים. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%a1%d7%98-%d7%98%d7%99%d7%a4%d7%95%d7%97-%d7%a9%d7%9c-%d7%9c%d7%90%d7%a8%d7%a0%d7%91?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a1-d7-98-d7-98-d7-99-d7-a4-d7-95-d7-97-d7-a9-d7-9c-d7-9c-d7-90-d7-a8-d7-a0-d7-91-1200x1200-1.jpg",
+   "gtin": "8886467590412",
+   "condition": "new",
+   "price": "99.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29330",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29330/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29330/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29330",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29330",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29330%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29330",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A1%D7%98%20%D7%98%D7%99%D7%A4%D7%95%D7%97%20%D7%9C%D7%90%D7%A8%D7%A0%D7%91%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A1%D7%98%20%D7%98%D7%99%D7%A4%D7%95%D7%97%20%D7%9C%D7%90%D7%A8%D7%A0%D7%91",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "29328",
+   "title": "דנטלייט דנטל בון שמאל 60 יח 540 גרם",
+   "description": "דנטלייט דנטל בון שמאל 60 יח 540 גרם הוא חטיף דנטלי לכלבים בטעם Dentalite Dental Bone Small, באריזת 60 יחידות, 540 גרם. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
+   "link": "https://marleypetshop.com/product/%d7%93%d7%a0%d7%98%d7%9c%d7%99%d7%99%d7%98-%d7%93%d7%a0%d7%98%d7%9c-%d7%91%d7%95%d7%9f-%d7%a9%d7%9e%d7%90%d7%9c-60-%d7%99%d7%97-540-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-93-d7-a0-d7-98-d7-9c-d7-99-d7-99-d7-98-d7-93-d7-a0-d7-98-d7-9c-d7-91-d7-95-d7-9f-d7-a9-d7-9e-d7-90-d7-9c-60-d7-99-d7-97-540-d7-92-d7-a8-d7-9d-1200x1200-1.png",
+   "gtin": "6942133302313",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29328%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29328",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29328/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29328/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29328",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29328%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29328",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29328%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29328",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%D7%A0%D7%98%D7%9C%D7%99%D7%99%D7%98%20%D7%93%D7%A0%D7%98%D7%9C%20%D7%91%D7%95%D7%9F%20%D7%A9%D7%9E%D7%90%D7%9C%2060%20%D7%99%D7%97%20540%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%D7%99%D7%98%20%D7%93%D7%A0%D7%98%D7%9C%20%D7%91%D7%95%D7%9F%20%D7%A9%D7%9E%D7%90%D7%9C%2060%20%D7%99%D7%97%20540%20%D7%92%D7%A8%D7%9D",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "29326",
+   "title": "עלה דנטלי מארז 12 יח' (90 גר') לכלב",
+   "description": "עלה דנטלי מארז 12 יח' (90 גר') לכלב הוא חטיף דנטלי לכלבים בטעם עלה דנטלי, באריזת 12 יחידות, 90 גרם. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
+   "link": "https://marleypetshop.com/product/%d7%a2%d7%9c%d7%94-%d7%93%d7%a0%d7%98%d7%9c%d7%99-%d7%9e%d7%90%d7%a8%d7%96-12-%d7%99%d7%97-90-%d7%92%d7%a8-%d7%9c%d7%9b%d7%9c%d7%91?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/D790D7A8D799D796D794-D7A7D798D7A0D794-1.jpg",
+   "gtin": "6942133302207",
+   "condition": "new",
+   "price": "18.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29326%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29326",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29326/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29326/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29326",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29326%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29326",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29326%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29326",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A2%D7%9C%D7%94%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%20%D7%9E%D7%90%D7%A8%D7%96%2012%20%D7%99%D7%97%27%20%2890%20%D7%92%D7%A8%27%29%20%D7%9C%D7%9B%D7%9C%D7%91%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A2%D7%9C%D7%94%20%D7%93%D7%A0%D7%98%D7%9C%D7%99%20%D7%9E%D7%90%D7%A8%D7%96%2012%20%D7%99%D7%97%27%20%2890%20%D7%92%D7%A8%27%29%20%D7%9C%D7%9B%D7%9C%D7%91",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "29324",
+   "title": "רתמת רשת לכלב מידה DOCO XL",
+   "description": "רתמת רשת לכלב מידה DOCO XL הוא רתמת רשת DOCO במידה XL. מיועדת להולכת כלב תוך פיזור לחץ סביב הגוף. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%a8%d7%aa%d7%9e%d7%aa-%d7%a8%d7%a9%d7%aa-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%99%d7%93%d7%94-doco-xl?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a8-d7-aa-d7-9e-d7-aa-d7-a8-d7-a9-d7-aa-d7-9c-d7-9b-d7-9c-d7-91-d7-9e-d7-99-d7-93-d7-94-doco-xl-1200x1200-1.jpg",
+   "gtin": "1938600030655",
+   "condition": "new",
+   "price": "79.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29324%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29324",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29324/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29324/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29324",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29324%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29324",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29324%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29324",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%AA%D7%9E%D7%AA%20%D7%A8%D7%A9%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%20DOCO%20XL%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A8%D7%AA%D7%9E%D7%AA%20%D7%A8%D7%A9%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%20DOCO%20XL",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
+  {
+   "id": "29322",
+   "title": "רתמת רשת לכלב מידה DOCO L",
+   "description": "רתמת רשת לכלב מידה DOCO L הוא רתמת רשת DOCO במידה L. מיועדת להולכת כלב תוך פיזור לחץ סביב הגוף. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%a8%d7%aa%d7%9e%d7%aa-%d7%a8%d7%a9%d7%aa-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%99%d7%93%d7%94-doco-l?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a8-d7-aa-d7-9e-d7-aa-d7-a8-d7-a9-d7-aa-d7-9c-d7-9b-d7-9c-d7-91-d7-9e-d7-99-d7-93-d7-94-doco-l-1200x1200-1.jpg",
+   "gtin": "1938600030648",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29322%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29322",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29322/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29322/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29322",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29322%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29322",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29322%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29322",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%AA%D7%9E%D7%AA%20%D7%A8%D7%A9%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%20DOCO%20L%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A8%D7%AA%D7%9E%D7%AA%20%D7%A8%D7%A9%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%20DOCO%20L",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/"
+  },
   {
    "id": "29320",
    "title": "רתמת רשת לכלב מידה DOCO M",
@@ -2290,340 +2626,6 @@
      {
       "method": "form",
       "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=by-payment",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "scenarios",
-   "title": "סימולטור תרחישים: מה קורה להחזר כשהריבית והמדד זזים",
-   "description": "תשובה קצרה: סימולציית תרחישים נועדה לבחון את עמידות התמהיל לשינויים בריבית ובמדד לאורך זמן. תמהיל יציב מוגדר כזה שעובר בהצלחה תרחיש לחץ של עליית ריבית ב-2% ומדד של 3%, ומוודא שהחזר ההלוואה נשמר מתחת ל-35% מההכנסה הפנויה.",
-   "link": "https://mashkanta.online/calculator/scenarios?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/7b0f67bd9_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 656,
-   "quote": "תשובה קצרה: סימולציית תרחישים נועדה לבחון את עמידות התמהיל לשינויים בריבית ובמדד לאורך זמן. תמהיל יציב מוגדר כזה שעובר בהצלחה תרחיש לחץ של עליית ריבית ב-2% ומדד של 3%, ומוודא שהחזר ההלוואה נשמר מתחת ל-35% מההכנסה הפנויה.\n\nהחזר חודשי אחד לא מספר את הסיפור. משכנתא נלקחת לעשרים או שלושים שנה, ובפרק הזמן הזה הריבית תשתנה, המדד יעלה, ההכנסה שלכם תשתנה. תרחישים הם הדרך לבדוק אם התמהיל שבחרתם שורד את המציאות.\n\nהתרחיש הבסיסי הוא הריבית והמדד כפי שהם היום. תרחיש הלחץ הוא עליית ריבית של 2% ומדד של 3% לשנה. תרחיש ההקלה הוא ירידת ריבית של 1%. אם התמהיל עובר את תרחיש הלחץ — הוא יציב.\n\nהזינו את התמהיל שלכם, שמרו את התוצאה, ואז העלו את הריבית במסלולים המשתנים ב‑2% והריצו שוב. ההפרש בין ההחזרים הוא החשיפה שלכם.\n\nקחו את ההחזר בתרחיש הלחץ והשוו להכנסה הפנויה. אם היחס עובר 40%, התמהיל מסוכן עבורכם. אם הוא נשאר מתחת ל‑35% — יש מרווח נשימה.\n\nבדקו גם מה קורה אם אחד מבני הזוג יוצא לחופשת לידה או מפחית משרה, אם נולד ילד נוסף, ואם רכב או שיפוץ מוסיפים הוצאה קבועה. אלה תרחישים סבירים יותר מקפיצת ריבית דרמטית.\n\nשלוש דרכים: להקטין את משקל המסלולים המשתנים והצמודים, להקטין את סכום המשכנתא הכולל, או לוותר על הנכס הנוכחי לטובת אחד זול יותר. הארכת תקופה היא פתרון מדומה שמייקר את העלות הכוללת.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/7b0f67bd9_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/7b0f67bd9_generated_image.webp",
-     "alt": "סימולטור תרחישים: מה קורה להחזר כשהריבית והמדד זזים — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/5c0e759a6_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5c0e759a6_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: סימולטור תרחישים: מה קורה להחזר כשהריבית והמדד זזים"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/e7c4a29b3_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e7c4a29b3_generated_image.webp",
-     "alt": "שימוש בסימולטור לבחינת השפעת מדד וריבית על ההחזר"
-    }
-   ],
-   "image_alt": "סימולטור תרחישים: מה קורה להחזר כשהריבית והמדד זזים",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/scenarios/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/scenarios/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#scenarios",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=scenarios",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=scenarios",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "prime-track",
-   "title": "מסלול הפריים: הגמיש שבחבורה, על היתרונות והעצבים",
-   "description": "תשובה קצרה: מסלול הפריים מבוסס על ריבית בנק ישראל בתוספת מרווח קבוע שנקבע במשא ומתן. הוא נחשב למסלול גמיש ללא עמלות פירעון מוקדם, אך חושף את הלווה לתנודות בהחזר החודשי בכל פעם שריבית בנק ישראל מתעדכנת.",
-   "link": "https://mashkanta.online/rates/prime-track?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/234f65d21_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 925,
-   "quote": "תשובה קצרה: מסלול הפריים מבוסס על ריבית בנק ישראל בתוספת מרווח קבוע שנקבע במשא ומתן. הוא נחשב למסלול גמיש ללא עמלות פירעון מוקדם, אך חושף את הלווה לתנודות בהחזר החודשי בכל פעם שריבית בנק ישראל מתעדכנת.\n\nמסלול הפריים הוא המסלול המשתנה הנפוץ ביותר במשכנתאות בישראל, והוא גם המסלול שמייצר את מרבית ההפתעות בהחזר החודשי. הוא זול יחסית ברוב התקופות, גמיש לפירעון מוקדם וללא עמלת היוון — אבל ההחזר בו משתנה בכל פעם שבנק ישראל מעדכן את הריבית.\n\nריבית הפריים בישראל שווה לריבית בנק ישראל בתוספת 1.5%. במשכנתא, הבנק לא נותן לכם פריים \"נטו\" אלא פריים בהפחתה או בתוספת: למשל פ' מינוס 0.5%. ההפחתה נקבעת במשא ומתן ונשארת קבועה לכל אורך חיי ההלוואה — מה שמשתנה הוא רק בסיס הפריים עצמו.\n\nהמשמעות: אם השגתם פ' מינוס 0.6%, המרווח הזה שלכם לתמיד. גם אם בנק ישראל יעלה או יוריד את הריבית חמש פעמים, ההפחתה נשארת. זו הסיבה שכדאי להיאבק על כל עשירית אחוז בהפחתה לפני החתימה.\n\nעדכון ההחזר מתרחש אחרי כל החלטת ריבית של הוועדה המוניטרית של בנק ישראל, שמתכנסת שמונה פעמים בשנה. הבנק מעדכן את הפריים בדרך כלל ביום העסקים שלאחר ההחלטה, וההחזר החודשי המעודכן נכנס לתוקף בחיוב הקרוב או בזה שאחריו, תלוי בתאריך החיוב שלכם.\n\nהנתונים מחושבים על תקופה של 25 שנה בלוח שפיצר והם קירוב בלבד. ככל שהתקופה ארוכה יותר, השפעת שינוי הריבית על ההחזר גדולה יותר באחוזים.\n\nהריבית ההתחלתית בפריים נמוכה בדרך כלל מזו של מסלול קבוע לא צמוד באותה תקופה. הקרן אינה צמודה למדד, כך שהיא רק יורדת — לעולם לא גדלה. וחשוב במיוחד: אין עמלת היוון בפירעון מוקדם. אפשר לסגור את המסלול בכל רגע ללא קנס, מה שהופך אותו לכלי הטוב ביותר לכסף שאתם צופים שיגיע — ירושה, מענק, מכירת נכס.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/234f65d21_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/234f65d21_generated_image.webp",
-     "alt": "מסלול הפריים: הגמיש שבחבורה, על היתרונות והעצבים — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/374f71756_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/374f71756_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: מסלול הפריים: הגמיש שבחבורה, על היתרונות והעצבים"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/11d9c8c4a_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/11d9c8c4a_generated_image.webp",
-     "alt": "אדם מביט בטלפון הנייד בדאגה נוכח תנודות בריבית הפריים."
-    }
-   ],
-   "image_alt": "מסלול הפריים: הגמיש שבחבורה, על היתרונות והעצבים",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/prime-track/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/prime-track/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#prime-track",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=prime-track",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=prime-track",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "fixed-unlinked",
-   "title": "קבועה לא צמודה: השקט הנפשי ומה משלמים עליו",
-   "description": "תשובה קצרה: מסלול הקל\"צ מציע וודאות מלאה לגבי סכום ההחזר החודשי עד סוף תקופת ההלוואה, ללא הצמדה למדד וללא תלות בשינויי ריבית. בשל העובדה שהבנק לוקח על עצמו את מלוא סיכוני הריבית והאינפלציה לאורך שנים, הריבית במסלול זה גבוהה משמעותית ממסלולים אחרים.",
-   "link": "https://mashkanta.online/rates/fixed-unlinked?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/3d274d899_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 793,
-   "quote": "תשובה קצרה: מסלול הקל\"צ מציע וודאות מלאה לגבי סכום ההחזר החודשי עד סוף תקופת ההלוואה, ללא הצמדה למדד וללא תלות בשינויי ריבית. בשל העובדה שהבנק לוקח על עצמו את מלוא סיכוני הריבית והאינפלציה לאורך שנים, הריבית במסלול זה גבוהה משמעותית ממסלולים אחרים.\n\nהמסלול הקבוע הלא צמוד, המכונה בעגה הבנקאית קל\"צ, הוא המסלול היחיד שבו אתם יודעים ביום החתימה בדיוק כמה תשלמו בחודש האחרון של המשכנתא. זו הוודאות המלאה — ויש לה מחיר.\n\nהריבית קבועה לכל אורך התקופה והקרן אינה צמודה למדד המחירים לצרכן. ההחזר החודשי בלוח שפיצר זהה מהחודש הראשון ועד האחרון. אין הפתעות, אין תלות בבנק ישראל, אין תלות באינפלציה.\n\nהבנק לוקח על עצמו את כל הסיכון: סיכון הריבית וסיכון האינפלציה לתקופה של עשרים או שלושים שנה. הוא מתמחר את הסיכון הזה בפרמיה. לכן ריבית קל\"צ תהיה כמעט תמיד גבוהה משמעותית מריבית הפריים ומריבית הקבועה הצמודה באותו מועד.\n\nזו הנקודה שבה לווים רבים נכווים. אם לקחתם קל\"צ בריבית 5% והריביות בשוק ירדו ל‑3.5%, פירעון מוקדם יגרור עמלת היוון שמפצה את הבנק על הפער. בסכומים גדולים ובתקופה ארוכה העמלה יכולה להגיע לעשרות אלפי שקלים.\n\nהוא מתאים כשההחזר החודשי צמוד לתקרה ואין מרווח נשימה בתקציב, כשהמשכנתא נלקחת לתקופה ארוכה מאוד, כשהריביות במשק נמוכות היסטורית ואתם רוצים לנעול אותן, וכשאתם לא מתכננים למכור או למחזר בשנים הקרובות.\n\nאם אתם צופים מכירת נכס תוך חמש שנים, אם אתם מצפים לכסף גדול שיאפשר פירעון מוקדם, או אם הריביות בשוק גבוהות במיוחד ברגע הלקיחה — נעילה ארוכה בריבית גבוהה היא החלטה יקרה.\n\nהרגולציה דורשת לפחות שליש בריבית קבועה, אך אין חובה שדווקא לא צמודה. בפועל, שיבוץ של 33% עד 50% בקל\"צ הוא נקודת האיזון שרוב היועצים ממליצים עליה — מספיק כדי לייצב את ההחזר, לא יותר מדי כדי לא לשלם פרמיה מיותרת על כל הסכום.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/3d274d899_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/3d274d899_generated_image.webp",
-     "alt": "קבועה לא צמודה: השקט הנפשי ומה משלמים עליו — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/853d46e63_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/853d46e63_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: קבועה לא צמודה: השקט הנפשי ומה משלמים עליו"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/00b6314da_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/00b6314da_generated_image.webp",
-     "alt": "אדם מעיין בחוזה משכנתא במסלול ריבית קבועה בחדר עבודה שקט."
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/d9a0d61e8_generated_image.png/v1/fill/w_224,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d9a0d61e8_generated_image.webp",
-     "alt": "ריבית בנק ישראל: השיעור העדכני, הטבלה ההיסטורית והצפי — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/390053f03_generated_image.png/v1/fill/w_224,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/390053f03_generated_image.webp",
-     "alt": "ריבית הפריים היום: השיעור העדכני ואיך הוא נקבע — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/97c29599d_generated_image.png/v1/fill/w_224,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/97c29599d_generated_image.webp",
-     "alt": "ריביות משכנתא ומסלולים: המדריך שמסביר סוף סוף את התמהיל — המחשה"
-    }
-   ],
-   "image_alt": "קבועה לא צמודה: השקט הנפשי ומה משלמים עליו",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/fixed-unlinked/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/fixed-unlinked/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#fixed-unlinked",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=fixed-unlinked",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=fixed-unlinked",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "cpi-effect",
-   "title": "המדד והמשכנתא: איך אינפלציה מגלגלת לכם את הקרן",
-   "description": "תשובה קצרה: מדד המחירים לצרכן מייקר מסלולים צמודים על ידי הגדלת יתרת הקרן של ההלוואה בשיעור עליית המדד. כתוצאה מכך, ההחזר החודשי מחושב מחדש על בסיס הקרן המוגדלת, מה שיוצר אפקט ריבית דריבית המגדיל משמעותית את עלות המשכנתא לאורך שנים.",
-   "link": "https://mashkanta.online/rates/cpi-effect?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/7aa7f7f55_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 628,
-   "quote": "תשובה קצרה: מדד המחירים לצרכן מייקר מסלולים צמודים על ידי הגדלת יתרת הקרן של ההלוואה בשיעור עליית המדד. כתוצאה מכך, ההחזר החודשי מחושב מחדש על בסיס הקרן המוגדלת, מה שיוצר אפקט ריבית דריבית המגדיל משמעותית את עלות המשכנתא לאורך שנים.\n\nמדד המחירים לצרכן משפיע על המשכנתא בשקט. הוא לא מופיע בכותרות כמו החלטת ריבית, אבל לאורך עשרים שנה הוא יכול להוסיף מאות אלפי שקלים לעלות ההלוואה.\n\nרק על מסלולים צמודים: קבועה צמודה ומשתנה צמודה. הוא מגדיל את יתרת הקרן בשיעור עליית המדד, וההחזר החודשי מחושב מחדש על הקרן המוגדלת.\n\nיתרת קרן של 400,000 ₪ ועליית מדד שנתית של 3% מוסיפה כ‑12,000 ₪ לקרן בשנה הראשונה. בשנה השנייה ההצמדה מחושבת על הקרן החדשה — זהו אפקט ריבית דריבית שפועל לרעתכם.\n\nהבנקים מחשבים לפי המדד הידוע במועד החיוב, ולכן קיים פיגור של חודש עד חודשיים. עלייה חדה במדד תורגש בהחזר רק כעבור חודש או שניים.\n\nהדרך הפשוטה היא להקטין את משקל המסלולים הצמודים בתמהיל. הדרך השנייה היא לקצר את תקופת המסלול הצמוד — פחות שנים, פחות זמן לצבירת הצמדה. הדרך השלישית, אם כבר קיים מסלול צמוד גדול, היא לשקול מחזור שלו למסלול לא צמוד.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/7aa7f7f55_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/7aa7f7f55_generated_image.webp",
-     "alt": "המדד והמשכנתא: איך אינפלציה מגלגלת לכם את הקרן — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/547cb7047_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/547cb7047_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: המדד והמשכנתא: איך אינפלציה מגלגלת לכם את הקרן"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/a58e77a20_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a58e77a20_generated_image.webp",
-     "alt": "עיתון כלכלי המציג נתוני מדד ליד מפתח בית."
-    }
-   ],
-   "image_alt": "המדד והמשכנתא: איך אינפלציה מגלגלת לכם את הקרן",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/cpi-effect/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/cpi-effect/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#cpi-effect",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=cpi-effect",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=cpi-effect",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "cpi-linked",
-   "title": "קבועה צמודה: הריבית הנמוכה שהקרן שלה עולה",
-   "description": "תשובה קצרה: במסלול קבוע צמוד למדד, הקרן מתעדכנת מדי חודש בהתאם לעליית המדד, מה שגורם להחזר החודשי ולחוב הכולל לגדול לאורך זמן. למרות הריבית הנמוכה ההתחלתית, המסלול טומן בחובו סיכון משמעותי לעלייה מצטברת ביתרת החוב גם לאחר שנים של תשלומים.",
-   "link": "https://mashkanta.online/rates/cpi-linked?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/b11fb4466_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 700,
-   "quote": "תשובה קצרה: במסלול קבוע צמוד למדד, הקרן מתעדכנת מדי חודש בהתאם לעליית המדד, מה שגורם להחזר החודשי ולחוב הכולל לגדול לאורך זמן. למרות הריבית הנמוכה ההתחלתית, המסלול טומן בחובו סיכון משמעותי לעלייה מצטברת ביתרת החוב גם לאחר שנים של תשלומים.\n\nהמסלול הקבוע הצמוד למדד נראה במבט ראשון כמו העסקה הטובה בשוק: ריבית נמוכה, החזר התחלתי נוח, ודאות לגבי הריבית. הבעיה מסתתרת במילה אחת — צמוד.\n\nבכל חודש, יתרת הקרן שלכם מוכפלת בשיעור עליית מדד המחירים לצרכן. הריבית נשארת קבועה, אבל היא מחושבת על קרן שגדלה. התוצאה: ההחזר החודשי עולה, ויתרת החוב יכולה לגדול בשנים הראשונות למרות שאתם משלמים כל חודש.\n\nהלוואה של 500,000 ₪ ל‑25 שנה בריבית קבועה צמודה. באינפלציה שנתית ממוצעת של 3%, אחרי עשר שנים יתרת הקרן הנומינלית שנותרה עשויה להיות גבוהה מהצפוי בעשרות אלפי שקלים, וההחזר החודשי יגדל בכ‑30% מול ההחזר ההתחלתי.\n\nהריבית הנקובה נמוכה משמעותית מקל\"צ, לעיתים בפער של יותר מאחוז שלם. בתקופות של אינפלציה נמוכה ויציבה, המסלול חוסך כסף אמיתי. הוא גם מתאים למי שההכנסה שלו צמודה בפועל למדד — למשל עובדי מגזר ציבורי עם הסכמי שכר צמודים.\n\nהבנקים מחשבים לפי המדד הידוע במועד התשלום, ולכן קיים פיגור של כחודש עד חודשיים בין פרסום המדד לבין ההשפעה על ההחזר. זה מסביר למה עלייה חדה במדד מורגשת בחיוב רק כעבור חודש או שניים.\n\nאם התקציב החודשי שלכם צמוד לתקרה, אם ההכנסה שלכם נומינלית וקבועה, או אם אתם צופים תקופת אינפלציה מתמשכת — הימנעו או צמצמו את המשקל של המסלול הזה.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/b11fb4466_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b11fb4466_generated_image.webp",
-     "alt": "קבועה צמודה: הריבית הנמוכה שהקרן שלה עולה — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/5fdeec623_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5fdeec623_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: קבועה צמודה: הריבית הנמוכה שהקרן שלה עולה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/024b1798a_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/024b1798a_generated_image.webp",
-     "alt": "מחשבון ומטבעות על שולחן הממחישים את תפיחת הקרן במסלול צמוד."
-    }
-   ],
-   "image_alt": "קבועה צמודה: הריבית הנמוכה שהקרן שלה עולה",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/cpi-linked/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/cpi-linked/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#cpi-linked",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=cpi-linked",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=cpi-linked",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "variable",
-   "title": "משתנה כל 5 שנים: מה באמת קורה בתחנת העדכון",
-   "description": "תשובה קצרה: מסלול בריבית משתנה כולל תחנות עדכון תקופתיות שבהן נקבעת הריבית מחדש בהתאם לעוגן שנקבע בחוזה. היתרון המרכזי במסלול זה הוא האפשרות לפרוע או למחזר את המשכנתא בכל תחנת עדכון ללא תשלום עמלת פירעון מוקדם (עמלת היוון).",
-   "link": "https://mashkanta.online/rates/variable?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/f1cd8bd7c_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 702,
-   "quote": "תשובה קצרה: מסלול בריבית משתנה כולל תחנות עדכון תקופתיות שבהן נקבעת הריבית מחדש בהתאם לעוגן שנקבע בחוזה. היתרון המרכזי במסלול זה הוא האפשרות לפרוע או למחזר את המשכנתא בכל תחנת עדכון ללא תשלום עמלת פירעון מוקדם (עמלת היוון).\n\nבין הפריים המשתנה כל חודש לבין הקבועה שנעולה לשלושים שנה קיים מסלול ביניים: ריבית משתנה בתחנות. הריבית נקבעת לתקופה מוגדרת — שנתיים, חמש שנים, שבע או עשר — ואז מתעדכנת לפי עוגן ידוע מראש.\n\nהבנק קובע ריבית לתקופת המחזור הראשונה. בסוף התקופה, הריבית מתעדכנת לפי נוסחה שנכתבה בחוזה: עוגן ציבורי (בדרך כלל ממוצע תשואות אג\"ח ממשלתיות לתקופה מקבילה) בתוספת מרווח קבוע. המרווח נקבע ביום החתימה ולא משתנה.\n\nבכל תחנת עדכון קיימת נקודת יציאה שבה ניתן לפרוע את המסלול ללא עמלת היוון. זה הופך את המסלול לכלי מצוין למי שמתכנן מכירה, מחזור או פירעון בטווח של חמש עד שבע שנים.\n\nהמסלול קיים בשתי גרסאות. המשתנה כל 5 שנים לא צמוד הוא הנפוץ והבטוח מבין השניים. הגרסה הצמודה זולה יותר בריבית אך מוסיפה את סיכון המדד על גבי סיכון הריבית — שילוב שכדאי להימנע ממנו אלא אם המשקל שלו בתמהיל קטן מאוד.\n\nודאו שהעוגן מוגדר במפורש ושמדובר בעוגן ציבורי הניתן למעקב. בררו מהו המרווח המדויק. בדקו האם קיימת תקרת ריבית. ואשרו את מועדי נקודות היציאה בכתב — לא כל בנק מציג אותן באותו אופן.\n\nכשאתם רוצים ריבית נמוכה מקל\"צ אבל בלי התנודתיות החודשית של הפריים, וכשיש סיכוי סביר שתרצו לצאת מהמשכנתא או למחזר אותה בעוד חמש שנים.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/f1cd8bd7c_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/f1cd8bd7c_generated_image.webp",
-     "alt": "משתנה כל 5 שנים: מה באמת קורה בתחנת העדכון — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/b757b2fff_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/b757b2fff_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: משתנה כל 5 שנים: מה באמת קורה בתחנת העדכון"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/5ce270a8a_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5ce270a8a_generated_image.webp",
-     "alt": "יומן משרדי המסמן תאריך לעדכון ריבית במסלול משתנה."
-    }
-   ],
-   "image_alt": "משתנה כל 5 שנים: מה באמת קורה בתחנת העדכון",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/variable/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/variable/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#variable",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=variable",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=variable",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/"
-  },
-  {
-   "id": "rate-changes",
-   "title": "הריבית זזה: מה עושים עם המשכנתא בעלייה ובירידה",
-   "description": "תשובה קצרה: השפעת ריבית בנק ישראל על המשכנתא תלויה במסלול הנבחר: מסלול הפריים מגיב תוך חודש-חודשיים, מסלולים משתנים מתעדכנים רק בתחנות היציאה, ומסלולים קבועים אינם מושפעים כלל. שינויים בהחזר החודשי נובעים מהשפעת הריבית על הרכיב המשתנה בלבד בשילוב עם עדכוני מדד.",
-   "link": "https://mashkanta.online/rates/rate-changes?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/2867b1081_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 734,
-   "quote": "תשובה קצרה: השפעת ריבית בנק ישראל על המשכנתא תלויה במסלול הנבחר: מסלול הפריים מגיב תוך חודש-חודשיים, מסלולים משתנים מתעדכנים רק בתחנות היציאה, ומסלולים קבועים אינם מושפעים כלל. שינויים בהחזר החודשי נובעים מהשפעת הריבית על הרכיב המשתנה בלבד בשילוב עם עדכוני מדד.\n\nכשריבית בנק ישראל משתנה, המשכנתא שלכם מגיבה — אבל לא כולה ולא באותו קצב. ההבנה איזה חלק זז ואיזה לא היא ההבדל בין תגובת פאניקה לבין החלטה מחושבת.\n\nמסלול הפריים מגיב כמעט מיידית, תוך חודש עד חודשיים. מסלולים משתנים בתחנות יגיבו רק בתחנה הבאה שלהם — ייתכן בעוד ארבע שנים. מסלולים קבועים, צמודים או לא, לא יגיבו לעולם.\n\nטעות נפוצה: מחשבים את השינוי על כל המשכנתא במקום רק על החלק המשתנה. אם 30% מהמשכנתא בפריים, עליית ריבית של 1% משפיעה רק על אותם 30%. מנגד, אם ההחזר עלה יותר מהצפוי, לרוב הסיבה היא שילוב של עליית ריבית עם עליית מדד במסלולים הצמודים.\n\nהצעד הראשון הוא לבדוק את פירוט ההחזר החדש מול הקודם ולזהות איזה מסלול השתנה ובכמה. הצעד השני הוא לבדוק אם יש נקודת יציאה קרובה במסלול משתנה, שמאפשרת מעבר ללא עמלה. הצעד השלישי הוא לבחון מחזור חלקי — לא של כל המשכנתא, אלא של המסלול הבעייתי בלבד.\n\nאל תמהרו למחזר בפאניקה אחרי החלטת ריבית אחת. אל תאריכו תקופה כפתרון אוטומטי — זה מוריד את ההחזר אבל מייקר את סך הריבית בעשרות אלפי שקלים. ואל תפרעו מסלול קבוע בלי לבדוק קודם את עמלת ההיוון.\n\nלפני שחותמים על תמהיל, הריצו תרחיש של עליית ריבית ב‑2% ובדקו את ההחזר המתקבל. אם התרחיש הזה שובר את התקציב, התמהיל לא מתאים לכם — גם אם ההחזר ההתחלתי נראה נוח.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/2867b1081_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/2867b1081_generated_image.webp",
-     "alt": "הריבית זזה: מה עושים עם המשכנתא בעלייה ובירידה — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/7807f408d_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/7807f408d_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: הריבית זזה: מה עושים עם המשכנתא בעלייה ובירידה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/6d6ab873f_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/6d6ab873f_generated_image.webp",
-     "alt": "גרפים של תנודות ריבית על גבי טאבלט בסביבת עבודה ביתית."
-    }
-   ],
-   "image_alt": "הריבית זזה: מה עושים עם המשכנתא בעלייה ובירידה",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/rate-changes/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/rate-changes/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#rate-changes",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=rate-changes",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=rate-changes",
       "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
      }
     ]

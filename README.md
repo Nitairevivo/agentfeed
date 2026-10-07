@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 20 businesses, 174 declared gaps.
+**Each page declares, in its structured data, the facts the business has *not* published**, so that an assistant asked about one of them refers the shopper to the business rather than inventing an answer. The convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns) and this site is its reference implementation — 21 businesses, 181 declared gaps.
 
 Asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling the answer from two competitors. An absent fact and an unstated fact look identical in markup; a model cannot tell them apart unless the page says which it is.
 
@@ -16,7 +16,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-20 עסקים · 4994 פריטים
+21 עסקים · 5001 פריטים
 
 ## שירותים לעסקים
 
@@ -32,7 +32,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 
 ## חיות מחמד
 
-- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2192 פריטים  
+- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2195 פריטים  
   חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
   אתר העסק: https://closetonature.co.il/
 - **[מארלי — מזון וציוד לחיות מחמד](https://nitairevivo.github.io/agentfeed/marleypetshop/)** — 2229 פריטים · מרכז  
@@ -41,6 +41,18 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  
   בוטיק ישראלי לאקססוריז ואופנה לכלבים ולחתולים, בתפירה ובעיצוב אישיים, לצד בית גידול לסאלוקי הפעיל מ-2008 באליע  
   אתר העסק: https://www.facebook.com/share/1DPWUc5EMZ/
+
+## שירותים דיגיטליים
+
+- **[AgentFeed — בניית אתרים לעסקים קטנים](https://nitairevivo.github.io/agentfeed/agentfeed-sites/)** — 4 פריטים  
+  בניית אתרים לחנויות ולעסקים קטנים בישראל, עם לוח בקרה חכם ודף ב-AgentFeed  
+  אתר העסק: https://nitairevivo.github.io/agentfeed/sites.html
+- **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
+  שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
+  אתר העסק: https://getrecover.co.il
+- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 60 פריטים  
+  אינדקס ערוצי וקבוצות טלגרם ישראליים  
+  אתר העסק: https://tgil.co.il
 
 ## בריאות ורפואה
 
@@ -59,15 +71,6 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[צוקייה](https://nitairevivo.github.io/agentfeed/tsukia/)** — 1 פריטים · רמת הגולן  
   דירת אירוח בחד נס שברמת הגולן  
   אתר העסק: https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86
-
-## שירותים דיגיטליים
-
-- **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
-  שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
-  אתר העסק: https://getrecover.co.il
-- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 60 פריטים  
-  אינדקס ערוצי וקבוצות טלגרם ישראליים  
-  אתר העסק: https://tgil.co.il
 
 ## בעלי מקצוע לבית
 

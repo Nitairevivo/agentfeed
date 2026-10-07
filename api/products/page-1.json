@@ -1,16 +1,288 @@
 {
  "page": 1,
- "pages": 100,
- "total": 4994,
+ "pages": 101,
+ "total": 5001,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-2.json",
  "products": [
+  {
+   "id": "agentfeed-sites-landing",
+   "title": "דף נחיתה לעסק — AgentFeed",
+   "description": "עמוד אחד לקמפיין, עם כפתור וואטסאפ וטלפון ולוח בקרה. 1,490 ₪ הקמה ועוד 99 ₪ לחודש. מחיר השקה לשלושת העסקים הראשונים: 890 ₪ הקמה. לשלושת העסקים הראשונים משלמים רק אחרי שרואים את האתר עובד; אחריהם, חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום. פנייה בטלפון או בוואטסאפ, 052-676-0039.",
+   "link": "https://nitairevivo.github.io/agentfeed/sites.html#prices?utm_source=agentfeed&utm_medium=ai",
+   "brand": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "product_type": "בניית אתרים > אתר לעסק > בניית אתר לעסק קטן > אתר לחנות > לוח בקרה > הזמנה בוואטסאפ > AgentFeed > דף נחיתה > קמפיין > עמוד אחד",
+   "condition": "new",
+   "price": "1490",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-landing/",
+   "json": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-landing/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/#agentfeed-sites-landing",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%D7%A3%20%D7%A0%D7%97%D7%99%D7%AA%D7%94%20%D7%9C%D7%A2%D7%A1%D7%A7%20%E2%80%94%20AgentFeed%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%93%D7%A3%20%D7%A0%D7%97%D7%99%D7%AA%D7%94%20%D7%9C%D7%A2%D7%A1%D7%A7%20%E2%80%94%20AgentFeed%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526760039",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "business_slug": "agentfeed-sites",
+   "business_site": "https://nitairevivo.github.io/agentfeed/sites.html",
+   "business_page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/"
+  },
+  {
+   "id": "agentfeed-sites-business",
+   "title": "אתר לעסק שירות — AgentFeed",
+   "description": "כמה עמודים לעסק שירות: שעות, שירותים ושאלות נפוצות, לוח בקרה ודף ל-AI. 2,490 ₪ הקמה ועוד 199 ₪ לחודש. מחיר השקה לשלושת העסקים הראשונים: 1,490 ₪ הקמה. לשלושת העסקים הראשונים משלמים רק אחרי שרואים את האתר עובד; אחריהם, חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום. פנייה בטלפון או בוואטסאפ, 052-676-0039.",
+   "link": "https://nitairevivo.github.io/agentfeed/sites.html#prices?utm_source=agentfeed&utm_medium=ai",
+   "brand": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "product_type": "בניית אתרים > אתר לעסק > בניית אתר לעסק קטן > אתר לחנות > לוח בקרה > הזמנה בוואטסאפ > AgentFeed > אתר תדמית > עסק שירות > בעל מקצוע",
+   "condition": "new",
+   "price": "2490",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-business/",
+   "json": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-business/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/#agentfeed-sites-business",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%AA%D7%A8%20%D7%9C%D7%A2%D7%A1%D7%A7%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%E2%80%94%20AgentFeed%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%AA%D7%A8%20%D7%9C%D7%A2%D7%A1%D7%A7%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%E2%80%94%20AgentFeed%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526760039",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "business_slug": "agentfeed-sites",
+   "business_site": "https://nitairevivo.github.io/agentfeed/sites.html",
+   "business_page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/"
+  },
+  {
+   "id": "agentfeed-sites-catalog",
+   "title": "חנות־קטלוג לחנות קטנה — AgentFeed",
+   "description": "כל המוצרים באתר, עם חיפוש, סינון ומבצעים. הזמנה בוואטסאפ או בעגלה קיימת, קטלוג שמתעדכן מגיליון גוגל, לוח בקרה ודף ל-AI. החבילה שמתאימה הכי הרבה לחנויות. 4,900 ₪ הקמה ועוד 349 ₪ לחודש. מחיר השקה לשלושת העסקים הראשונים: 2,940 ₪ הקמה. לשלושת העסקים הראשונים משלמים רק אחרי שרואים את האתר עובד; אחריהם, חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום. פנייה בטלפון או בוואטסאפ, 052-676-0039.",
+   "link": "https://nitairevivo.github.io/agentfeed/sites.html#prices?utm_source=agentfeed&utm_medium=ai",
+   "brand": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "product_type": "בניית אתרים > אתר לעסק > בניית אתר לעסק קטן > אתר לחנות > לוח בקרה > הזמנה בוואטסאפ > AgentFeed > חנות אונליין > קטלוג מוצרים > חנות קטנה > אתר מכירות",
+   "condition": "new",
+   "price": "4900",
+   "currency": "ILS",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-catalog/",
+   "json": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-catalog/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/#agentfeed-sites-catalog",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%A0%D7%95%D7%AA%D6%BE%D7%A7%D7%98%D7%9C%D7%95%D7%92%20%D7%9C%D7%97%D7%A0%D7%95%D7%AA%20%D7%A7%D7%98%D7%A0%D7%94%20%E2%80%94%20AgentFeed%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%A0%D7%95%D7%AA%D6%BE%D7%A7%D7%98%D7%9C%D7%95%D7%92%20%D7%9C%D7%97%D7%A0%D7%95%D7%AA%20%D7%A7%D7%98%D7%A0%D7%94%20%E2%80%94%20AgentFeed%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526760039",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "business_slug": "agentfeed-sites",
+   "business_site": "https://nitairevivo.github.io/agentfeed/sites.html",
+   "business_page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/"
+  },
+  {
+   "id": "agentfeed-sites-full",
+   "title": "חנות מלאה עם תשלום באשראי — AgentFeed",
+   "description": "כל מה שבחנות־קטלוג, ועוד תשלום באשראי ישירות באתר. החל מ-6,900 ₪ הקמה, ועוד 449 ₪ לחודש. לשלושת העסקים הראשונים משלמים רק אחרי שרואים את האתר עובד; אחריהם, חצי בהתחלה וחצי כשהאתר עולה. התשלום החודשי כולל אחסון, תחזוקה, לוח בקרה, דף ב-AgentFeed ועד שעה של שינויים בחודש, בלי התחייבות ועם הודעה של 30 יום. פנייה בטלפון או בוואטסאפ, 052-676-0039.",
+   "link": "https://nitairevivo.github.io/agentfeed/sites.html#prices?utm_source=agentfeed&utm_medium=ai",
+   "brand": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "product_type": "בניית אתרים > אתר לעסק > בניית אתר לעסק קטן > אתר לחנות > לוח בקרה > הזמנה בוואטסאפ > AgentFeed > חנות מלאה > סליקה > תשלום באשראי > חנות אינטרנטית",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-full/",
+   "json": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/item/agentfeed-sites-full/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/#agentfeed-sites-full",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%A0%D7%95%D7%AA%20%D7%9E%D7%9C%D7%90%D7%94%20%D7%A2%D7%9D%20%D7%AA%D7%A9%D7%9C%D7%95%D7%9D%20%D7%91%D7%90%D7%A9%D7%A8%D7%90%D7%99%20%E2%80%94%20AgentFeed%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%A0%D7%95%D7%AA%20%D7%9E%D7%9C%D7%90%D7%94%20%D7%A2%D7%9D%20%D7%AA%D7%A9%D7%9C%D7%95%D7%9D%20%D7%91%D7%90%D7%A9%D7%A8%D7%90%D7%99%20%E2%80%94%20AgentFeed%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526760039",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "AgentFeed — בניית אתרים לעסקים קטנים",
+   "business_slug": "agentfeed-sites",
+   "business_site": "https://nitairevivo.github.io/agentfeed/sites.html",
+   "business_page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/"
+  },
+  {
+   "id": "73826",
+   "title": "🐱 מטליות לחות לגוף החתול ארם אנד האמר לנטרול ריחות וקשקשים 100 יחידות Arm & Hammer Odor & Dander Wipes",
+   "description": "מטליות לחות ייעודיות לניקוי יומיומי עדין, רענון הפרווה והסרת לכלוך פורמולה מועשרת בסודה לשתייה (Baking Soda) לנטרול ריחות שורשי ויעיל מסייעות בהפחתת קשקשים (Dander) התורמת להקלה על אלרגיות בבית בניחוח נעים ועדין של סיגליות ועץ ארז (Violet Cedarwood) בעלות דרגת חומציות מאוזנת (pH Balanced) המותאמת במיוחד לעור החתול נקיות מסולפטים, פראבנים וחומרי צבע מלאכותיים (Tearless & Safe) \n 📦  תכולה ומידות:  100 מטליות לחות באריזת חיסכון גדולה (מידת כל מטלית: 20 ס”מ על 20 ס”מ) \n 🌿  ריח ומאפיינים:  ניחוח עדין של סיגליות ועץ ארז, מועשר בסודה לשתייה, מכסה פלסטיק קשיח לשמירה על לחות. \n 🎯  יתרון מרכזי:  תחליף מצוין למקלחת מים – שומר על ניקיון וריח נפלא ללא צורך בהרטבת החתול וללא סטרס.",
+   "link": "https://closetonature.co.il/product/arm-and-hammer-odor-dander-cat-wipes-100-count/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Arm-and-Hammer-Odor-and-Dander-cat-wipes-violet-cedarwood-100-count-with-fluffy-white-kitten.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "65.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73826%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73826",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73826/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73826/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#73826",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73826%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73826",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73826%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73826",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%B1%20%D7%9E%D7%98%D7%9C%D7%99%D7%95%D7%AA%20%D7%9C%D7%97%D7%95%D7%AA%20%D7%9C%D7%92%D7%95%D7%A3%20%D7%94%D7%97%D7%AA%D7%95%D7%9C%20%D7%90%D7%A8%D7%9D%20%D7%90%D7%A0%D7%93%20%D7%94%D7%90%D7%9E%D7%A8%20%D7%9C%D7%A0%D7%98%D7%A8%D7%95%D7%9C%20%D7%A8%D7%99%D7%97%D7%95%D7%AA%20%D7%95%D7%A7%D7%A9%D7%A7%D7%A9%D7%99%D7%9D%20100%20%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA%20Arm%20%26%20Hammer%20Odor%20%26%20Dander%20Wipes%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "73820",
+   "title": "🐶 חטיף לכלבים פודיס מקלות עור בקר מלופפים בסלמון 1 ק”ג Foodies Salmon Rawhide Wraps Sticks",
+   "description": "מקלות עור בקר איכותיים מלופפים בנתחי דג סלמון אמיתי (Real Fish) אריזת חיסכון ענקית של 1 ק”ג (מק”ט 48000033) המעניקה פתרון משתלם לטווח ארוך עשיר בחלבון איכותי ודל שומן (High Protein & Low Fat) מסייע בשמירה על בריאות הפה, מניעת הצטברות אבנית וחיזוק החניכיים דג סלמון עשיר בחומצות שומן חיוניות לתמיכה בבריאות העור וברק הפרווה מתאים במיוחד כפינוק מעסיק וממושך המפיג שעמום ומתח \n 📦  תכולה ומשקל:  1 ק”ג (אריזת ענק חסכונית עם חלון שקוף ורוכסן לשמירה מרבית על הטריות) \n 🌿  טעמים ומאפיינים:  טעם סלמון עשיר ובקר טבעי, רכיבים טבעיים מובחרים, ללא תוספים מזיקים, דל בשומן. \n 🎯  יתרון מרכזי:  אריזת חיסכון גדולה במיוחד המשלבת מקלות לעיסה עמידים עם יתרונות תזונתיים ובריאותיים של דג סלמון אמיתי.",
+   "link": "https://closetonature.co.il/product/foodies-salmon-rawhide-wraps-sticks-dog-treat-1kg/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Foodies-Salmon-and-Rawhide-Wraps-Sticks-premium-tasty-dog-treats-1kg-bag-isolated.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "89.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73820%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73820",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73820/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73820/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#73820",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73820%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73820",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73820%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73820",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%B6%20%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%A4%D7%95%D7%93%D7%99%D7%A1%20%D7%9E%D7%A7%D7%9C%D7%95%D7%AA%20%D7%A2%D7%95%D7%A8%20%D7%91%D7%A7%D7%A8%20%D7%9E%D7%9C%D7%95%D7%A4%D7%A4%D7%99%D7%9D%20%D7%91%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%201%20%D7%A7%E2%80%9D%D7%92%20Foodies%20Salmon%20Rawhide%20Wraps%20Sticks%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "73800",
+   "title": "🐶 חטיף לכלבים יאמיז מקלות עור בקר מלופפים בעוף 80 גרם Yummiz Chicken Wrap Rawhide Stick",
+   "description": "חטיף לעיסה טבעי ואיכותי המשלב עור בקר קשיח ועמיד מלופף בשכבה עשירה של נתחי חזה עוף אמיתיים ומשובחים מסייע בהסרת אבנית, שמירה על היגיינת הפה וחיזוק שרירי הלסת מעסיק את הכלב, מפיג שעמום ומשחרר מתחים בצורה בריאה דל שומן, עשיר בחלבון ומתאים לכלבים מכל הגדלים \n 📦  תכולה ומשקל:  80 גרם (באריזת שקית זיפר לשמירה על טריות) \n 🌿  טעמים ומאפיינים:  טעם עוף ובקר טבעי, ללא צבעי מאכל מלאכותיים, עשיר בחלבון מן החי. \n 🎯  יתרון מרכזי:  שילוב מושלם בין הנאה ממושכת של לעיסת עור בקר לבין טעימות מקסימלית של עוף אמיתי.",
+   "link": "https://closetonature.co.il/product/yummiz-chicken-wrap-rawhide-stick-dog-treat-80g/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Yummiz-Super-Tasty-Dog-Treats-Chicken-Wrap-Rawhide-Stick-80g-bag-isolated.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "18.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73800%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73800",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73800/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73800/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#73800",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73800%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73800",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73800%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73800",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%B6%20%D7%97%D7%98%D7%99%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%99%D7%90%D7%9E%D7%99%D7%96%20%D7%9E%D7%A7%D7%9C%D7%95%D7%AA%20%D7%A2%D7%95%D7%A8%20%D7%91%D7%A7%D7%A8%20%D7%9E%D7%9C%D7%95%D7%A4%D7%A4%D7%99%D7%9D%20%D7%91%D7%A2%D7%95%D7%A3%2080%20%D7%92%D7%A8%D7%9D%20Yummiz%20Chicken%20Wrap%20Rawhide%20Stick%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "73776",
    "title": "🐱 מזון לגורי חתולים קטאיט דאבל פיוז’ן עוף וסלמון 1.8 ק”ג בלבד Catit Recipes Double Fusion Kitten",
    "description": "אוכל לגורי חתולים  קטאיט דאבל פיוז’ן גורים עוף וסלמון מספק תזונה שלמה ומלאה תמיכה דרמטולוגית ועיכול אופטימלי לגור החתולים המתפתח עשיר ב-96% חלבון מן החי (עוף וסלמון) מועשר ב-DHA משמן סלמון להתפתחות מוחית וראייה כולל נתחי עוף וסלמון גולמיים מיובשים בהקפאה (Freeze-Dried) ללא דגנים (Grain-Free) לעיכול קל ורגוע \n 📦  תכולה מדויקת:  1.8 ק”ג בלבד (זמין רק במשקל זה עבור פורמולת הגורים) \n 🌿  רכיבים / מאפיינים עיקריים:  96% חלבון מן החי, בשר עוף טרי וסלמון אטלנטי, מועשר ב-DHA, אל-ליזין ופרה-ביוטיקה. \n  🎯   יתרון מרכזי:   טכנולוגיית Double Fusion ייחודית – גרגיר מוזן ומצופה בחלבון (Infused Kibble) המשולב בנתחי בשר גולמי מיובשים בהקפאה (Freeze-Dried Raw Bites),   המספקים הזנה עילאית,   טעימות גבוהה ותמיכה קריטית בשלבי ההתפתחות הראשונים.",
    "link": "https://closetonature.co.il/product/catit-double-fusion-kitten-chicken-salmon-cat-food-1-8kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Kitten-Chicken-and-Salmon-dry-cat-food-1.8kg-bag-isolated.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Kitten-Chicken-and-Salmon-dry-cat-food-1.8kg-bag-isolated.jpg?fit=600%2C600&ssl=1",
    "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "108.00",
@@ -53,7 +325,7 @@
    "title": "🐱 מזון לחתולים עור ופרווה קטאיט דאבל פיוז’ן דגי ים 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Skin & Coat",
    "description": "מחפשים  מזון לחתולים לעור ופרווה  שמביא תוצאות נראות לעין?  אוכל לחתולים קטאיט דאבל פיוז’ן דגי ים  מעניק טיפוח דרמטולוגי מקיף ומבוסס על שילוב גרגירים מצופים יחד עם נתחי סלמון, כבד בקלה ומולים ירוקי-שפה בייבוש בהקפאה (Freeze-Dried)  . הפורמולה מספקת  תזונה מלאה לחתול לטיפוח הפרווה , עשירה בחומצות שומן אומגה 3 ו-6, מרגיעה עור רגיש ומפחיתה נשירה מוגברת  .  \n \n \n  📦  תכולה מדויקת:  זמין לבחירה באריזות 1.8 ק”ג או 4.5 ק”ג  .  \n \n \n  🌿  רכיבים / מאפיינים עיקריים:   89% חלבון מן החי  המבוסס על דגי ים פראיים (סלמון ודגים לבנים)  , בשילוב שמן סלמון עשיר, כבד בקלה, אצות ים (קלפ) ו-4 זני פרוביוטיקה חיה  .  \n \n \n  🎯  יתרון מרכזי:  טכנולוגיית  Double Fusion  ייחודית – גרגיר מוזן ומצופה בחלבון (Infused Kibble) יחד עם נתחי סלמון ודגי ים מיובשים בהקפאה (Raw Bites) המשמרים שמנים חיוניים ונוגדי חמצון טבעיים  .  \n \n \n  🩺  התוויה / ייעוד:  מיועד עבור  חתולים הזקוקים לטיפוח העור והפרווה   , מסייע להפחתת נשירה  , מונע יובש וקשקשת  , ומעניק רכות ומגע משי לפרווה עמומה  .",
    "link": "https://closetonature.co.il/product/catit-double-fusion-skin-coat-ocean-fish-cat-food/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Skin-and-Coat-Ocean-Fish-dry-cat-food-1.8kg-and-4.5kg-lifestyle.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Skin-and-Coat-Ocean-Fish-dry-cat-food-1.8kg-and-4.5kg-lifestyle.jpg?fit=600%2C600&ssl=1",
    "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "99.00",
@@ -96,7 +368,7 @@
    "title": "🐱 מזון לחתולים מבוגרים קטאיט דאבל פיוז’ן עוף 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Senior",
    "description": "מחפשים  מזון לחתולים מבוגרים  המספק תמיכה בריאותית הוליסטית?  אוכל לחתולים קטאיט דאבל פיוז’ן סניור עוף  פותח במיוחד עבור הגיל השלישי ומשלב גרגירים מצופים יחד עם חטיפי עוף, בטטה, כבד בקלה ומולים ירוקי-שפה בייבוש בהקפאה (Freeze-Dried)  . הפורמולה מעניקה  תזונה מלאה לחתול מבוגר , מגנה על המפרקים, מקלה על מערכת העיכול ומסייעת בשימור מסת שריר ואנרגיה יומיומית  .  \n \n \n  📦  תכולה מדויקת:  זמין לבחירה באריזות 1.8 ק”ג או 4.5 ק”ג  .  \n \n \n  🌿  רכיבים / מאפיינים עיקריים:   86% חלבון מן החי  המבוסס על בשר עוף טרי ללא עצמות כמרכיב ראשון  , בתוספת מולים ירוקי-שפה מניו זילנד, כבד בקלה, אצות ים (קלפ), ל-קרניטין ו-4 זני פרוביוטיקה חיה  .  \n \n \n  🎯  יתרון מרכזי:  טכנולוגיית  Double Fusion  פורצת דרך – גרגיר מוזן ומצופה בחלבון (Infused Kibble) המשולב עם נתחי רכיבי-על מיובשים בהקפאה (Raw Bites)  , המספקים תמיכה ממוקדת בניידות מפרקים, פעילות מעיים מיטבית ושמירה על משקל מאוזן  .  \n \n \n  🩺  התוויה / ייעוד:  מיועד להזנת  חתולים מבוגרים (סניור)   , מקל על נוקשות שרירים ומפרקים  , מחזק את המערכת החיסונית   ומבטיח ספיגת רכיבים קלה ומושלמת  .",
    "link": "https://closetonature.co.il/product/catit-double-fusion-senior-chicken-cat-food/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Senior-Chicken-dry-cat-food-1.8kg-and-4.5kg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Senior-Chicken-dry-cat-food-1.8kg-and-4.5kg.jpg?fit=600%2C600&ssl=1",
    "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "99.00",
@@ -139,7 +411,7 @@
    "title": "🐱 מזון לחתולי בית ומעוקרים קטאיט דאבל פיוז’ן עוף והודו 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Indoor",
    "description": "מחפשים  מזון לחתולי בית ומעוקרים  ברמת איכות ללא פשרות?  אוכל לחתולים קטאיט דאבל פיוז’ן אינדור  מציע נוסחה ייעודית נטולת דגנים (Grain-Free) המשלבת גרגירים מצופים יחד עם נתחי הודו ועוף טריים בייבוש בהקפאה (Freeze-Dried)  . הפורמולה מעניקה  תזונה מלאה ומאוזנת לחתול בית , מסייעת בשמירה על משקל גוף תקין ומפחיתה משמעותית ריחות לא נעימים מארגז הצרכים  .  \n \n \n  📦  תכולה מדויקת:  זמין לבחירה באריזות 1.8 ק”ג או 4.5 ק”ג  .  \n \n \n  🌿  רכיבים / מאפיינים עיקריים:   80% חלבון מן החי  המבוסס על פילה עוף והודו טריים  , ללא דגנים (Grain-Free)  , בתוספת זרעי פשתן, שמן דגים, חמוציות ותמצית צמח היוקה  .  \n \n \n  🎯  יתרון מרכזי:  טכנולוגיית  Double Fusion  ייחודית – גרגיר מוזן ומצופה בחלבון בשרי (Infused Kibble) בתוספת נתחי בשר גולמי מיובשים בהקפאה (Raw Bites)  , לצד תמצית יוקה וסיבים פרה-ביוטיים לצמצום ריחות צואה ועיכול קל  .  \n \n \n  🩺  התוויה / ייעוד:  מיועד במיוחד עבור  חתולי בית (Indoor)  וחתולים  מסורסים / מעוקרים   , תומך בבניית שריר ללא שומן עודף  , מזין את העור והפרווה בחומצות אומגה 3 ו-6  , ושומר על פעילות מעיים מיטבית  .",
    "link": "https://closetonature.co.il/product/catit-double-fusion-indoor-chicken-turkey-cat-food/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Indoor-Chicken-and-Turkey-dry-cat-food-1.8kg-and-4.5kg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Indoor-Chicken-and-Turkey-dry-cat-food-1.8kg-and-4.5kg.jpg?fit=600%2C600&ssl=1",
    "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "99.00",
@@ -182,7 +454,7 @@
    "title": "🐱 מזון יבש לחתול בוגר קטאיט דאבל פיוז’ן עוף והודו 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion",
    "description": "מחפשים  מזון לחתולים בוגרים  ברמת איכות ללא פשרות?  אוכל לחתולים קטאיט דאבל פיוז’ן עוף והודו  מציע תזונת צייד מתקדמת המשלבת גרגירים מצופים בבשר יחד עם נתחי עוף והודו אמיתיים בייבוש בהקפאה (Freeze-Dried)  . הפורמולה מעניקה  תזונה מלאה ומאוזנת לחתול , מספקת רמת טעימות פנומנלית לחתולים בררנים ומבטיחה נעכלות מרבית לאנרגיה וחיוניות יומיומית  .  \n \n \n  📦  תכולה מדויקת:  זמין לבחירה באריזות 1.8 ק”ג או 4.5 ק”ג  .  \n \n \n  🌿  רכיבים / מאפיינים עיקריים:   87% חלבון מן החי  המבוסס על נתחי בשר הודו ועוף טריים כמרכיב ראשון  , בתוספת כבד איכותי, שמן דגים עשיר באומגה 3 וסיבי פסיליום טבעיים  .  \n \n \n  🎯  יתרון מרכזי:  טכנולוגיית  Double Fusion  פורצת דרך – גרגיר מוזן ומצופה בחלבוני בשר (Infused Kibble) בתוספת נתחי בשר גולמי מיובשים בהקפאה (Raw Bites) המשמרים ויטמינים, אנזימים וטעם טבעי ללא צורך בחומרים משמרים  .  \n \n \n  🩺  התוויה / ייעוד:  מיועד להזנת  חתולים בוגרים (מגיל שנה ומעלה)  פעילים  , תומך בבריאות הלב והראייה (מועשר בטאורין)  , מעודד פרווה זוהרת ומסייע למעבר תקין של כדורי שיער (Hairballs) במערכת העיכול  .",
    "link": "https://closetonature.co.il/product/catit-double-fusion-adult-chicken-turkey-cat-food/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Adult-Chicken-and-Turkey-dry-cat-food-1.8kg-and-4.5kg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Catit-Recipes-Double-Fusion-Adult-Chicken-and-Turkey-dry-cat-food-1.8kg-and-4.5kg.jpg?fit=600%2C600&ssl=1",
    "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "99.00",
@@ -225,7 +497,7 @@
    "title": "🐾 תמיסה טיפולית לניקוי וחיטוי אוזניים מנטה לכלבים וחתולים 59 מ”ל – טרופיקלין אוקסימד TropiClean OxyMed Ear Cleaner",
    "description": "תמיסה טיפולית לניקוי וחיטוי אוזניים לכלבים וחתולים  מסדרת  אוקסימד  מבית  טרופיקלין  ( TropiClean OxyMed ). המוצר מעניק מענה מקצועי של  ניקוי אוזניים טיפולי לכלבים  ולחתולים הסובלים מהצטברות לכלוך. בנוסף, הפורמולה העדינה ממיסה שעווה עקשנית ומפחיתה לחות עודפת במהירות. לכן, התכשיר מונע התפתחות דלקות ושומר על תעלת אוזן נקייה ורעננה. \n \n \n 👂  המסת שעווה והפרשות:  מפרק לכלוך קשה בעדינות ללא צורך בשפשוף או במגע חודרני. \n \n \n 💧  נוסחה מתייבשת במהירות:  מונעת הצטברות לחות ומגנה מפני התפתחות דלקות ושמרים. \n \n \n 🌿  חיטוי והרגעה במנטה:  מכיל תמציות אלוורה ומנטה להרגעת העור ולהענקת ריח נקי ורענן. \n \n \n 📦  תכולת בקבוק:  59 מ”ל (2oz) עם פיית הזלפה מדויקת לבטיחות מקסימלית.",
    "link": "https://closetonature.co.il/product/tropiclean-oxymed-mint-ear-cleaner-59ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Mint-Ear-Cleaner-59ml.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Mint-Ear-Cleaner-59ml.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -267,7 +539,7 @@
    "title": "🐾 שמפו פלוס מרכך 2 ב-1 בניחוח אבטיח וקוקוס לכלבים וחתולים 592 מ”ל – טרופיקלין TropiClean Watermelon & Coconut",
    "description": "שמפו ומרכך משולב במוצר אחד (2 ב-1) בניחוח קיצי מרענן של אבטיח וקוקוס מבית TropiClean. הפורמולה העשירה מנקה ביסודיות לכלוך ושומן עודף. בנוסף, רכיבי הריכוך מתירים קשרים ומעניקים לפרווה מגע רך ומשי. הנוסחה מבוססת על רכיבים טבעיים ובטוחה לשימוש על כלבים וחתולים. \n \n \n 🍉  ניחוח טרופי מרענן:  שילוב פירותי מתוק של אבטיח וקוקוס שנשאר לאורך זמן. \n \n \n 🌿  פעולה כפולה וחוסכת זמן:  מנקה לעומק ומרכך את הפרווה בחפיפה אחת בלבד. \n \n \n 🐾  התרת קשרים קלה:  מקל על הסירוק ומשאיר פרווה מבריקה וחלקה. \n \n \n 📦  תכולת בקבוק:  592 מ”ל (20oz) מרוכז ואיכותי.",
    "link": "https://closetonature.co.il/product/tropiclean-watermelon-coconut-2in1-shampoo-conditioner-592ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/TropiClean-Watermelon-and-Coconut-2-in-1-Pet-Shampoo-and-Conditioner-592ml.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/TropiClean-Watermelon-and-Coconut-2-in-1-Pet-Shampoo-and-Conditioner-592ml.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "75.00",
    "currency": "ILS",
@@ -309,7 +581,7 @@
    "title": "🐾 תרסיס בושם בניחוח אננס לכלבים וחתולים 236 מ”ל – טרופיקלין אוקסימד TropiClean OxyMed Pineapple Spray",
    "description": "תרסיס בושם בניחוח אננס טרופי ועמיד במיוחד מסדרת  OxyMed  של  TropiClean . המוצר פותח במיוחד כדי להעניק לפרווה ניחוח רענן ונפלא בין רחצות. בנוסף, הנוסחה העדינה מזינה את הפרווה ומעניקה לה ברק טבעי. התרסיס בטוח לשימוש יומיומי על כלבים וחתולים ואינו מכיל פראבנים. \n \n \n 🍍  ניחוח טרופי עמיד:  משאיר ריח אננס מתוק ונפלא על הפרווה לאורך זמן. \n \n \n 🌿  רכיבים מזינים:  מועשר בתמציות טבעיות המרככות את הפרווה ומעניקות לה ברק. \n \n \n 🐾  בטוח לשימוש יומיומי:  נוסחה עדינה שאינה מגרה את העור ומתאימה לכלבים ולחתולים. \n \n \n 📦  תכולת בקבוק:  236 מ”ל (8oz) חסכוני ומרוכז לשימוש ממושך.",
    "link": "https://closetonature.co.il/product/tropiclean-oxymed-pineapple-pet-cologne-spray-236ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Pineapple-Pet-Cologne-Spray-236ml.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Pineapple-Pet-Cologne-Spray-236ml.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "55.00",
    "currency": "ILS",
@@ -351,7 +623,7 @@
    "title": "🐾 מגבונים טיפוליים לכלבים וחתולים 100 יח’ – טרופיקלין אוקסימד וט TropiClean OxyMed Vet",
    "description": "מגבונים טיפוליים ברמה וטרינרית מסדרת  OxyMed  מבית  TropiClean . המוצר פותח במיוחד לחיטוי ולהרגעת עורם של כלבים וחתולים. לכן, הפורמולה מסייעת בטיפול בזיהומים חיידקיים ופטרייתיים. בנוסף, המגבונים מקלים על קפלי עור מגורים ואינם דורשים שטיפה במים. \n \n \n 🩺  2% כלורהקסידין (Chlorhexidine):  רכיב אנטי-בקטריאלי מוכח לחיטוי עמוק וללחימה בחיידקים. \n \n \n 🌿  0.5% קלימבזול (Climbazole):  מספק מענה ממוקד כנגד שגשוג פטריות ושמרים בעור. \n \n \n 🐾  אידיאלי לאזורים רגישים:  מצוין לניקוי קפלי עור, כפות רגליים לאחר טיול ומרווחי אצבעות. \n \n \n 📦  תכולת אריזה:  100 מגבונים עגולים ועבים השומרים על לחות וסטריליות.",
    "link": "https://closetonature.co.il/product/tropiclean-oxymed-vet-strength-chlorhexidine-wipes-100/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Vet-Strength-Chlorhexidine-Wipes-100.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/TropiClean-OxyMed-Vet-Strength-Chlorhexidine-Wipes-100.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "69.00",
    "currency": "ILS",
@@ -393,7 +665,7 @@
    "title": "🐱 פודיס שימורים לחתולים בוגרים 80 גרם Foodies במבחר 8 טעמים | בודד או מארז 24 יח’ – הכי זול בישראל!",
    "description": "מעדני  שימורי פודיס לחתולים 80 גרם  (Foodies) מעניקים שילוב מושלם של נתחי בשר ודגי ים איכותיים במרקמי ג’לי, רוטב ופטה חלק. המוצר משמש  מזון רטוב לחתולים  כתוספת מעוררת תיאבון מעל  אוכל יבש לחתולים  או כארוחת פינוק יומית עשירה בנוזלים התומכת בדרכי השתן. זמין כעת ביחידות בודדות או במארז חיסכון 24 יחידות מאותו טעם –  במחיר הזול ביותר בישראל!  \n \n \n 📦  תכולה ומשקל:  80 גרם לפחית | בחירה בין  פחית בודדת  לבין  מארז חיסכון 24 יחידות  מאותו טעם בלבד (ללא ערבוב). \n \n \n 🐟  8 טעמים עשירים לבחירה:  \n \n טונה פטה | טונה בג’לי עם שרימפס | טונה בג’לי עם סרדינים | טונה ברוטב עם סלמון | טונה ברוטב עם עוף | טונה בג’לי עם קוקטייל פירות | עוף פטה | סלמון בג’לי עם סרדינים \n \n \n \n 🎯  יתרון מרכזי:  רמת טעימות גבוהה במיוחד גם לחתולים בררנים, מקור לחות חיוני לתזונה היומית, ואיכות מעולה במחיר שבירת שוק. \n \n \n 🩺  ייעוד תזונתי:  מזון משלים מזין לחתולים בוגרים מכל הגזעים.",
    "link": "https://closetonature.co.il/product/foodies-adult-cat-wet-food-cans-80g-8-flavors/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/foodies-cat-wet-food-8-flavors-selection-guide-80g-single-cans.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/foodies-cat-wet-food-8-flavors-selection-guide-80g-single-cans.jpg?fit=600%2C600&ssl=1",
    "brand": "פודיס - Foodies",
    "condition": "new",
    "price": "4.00",
@@ -478,7 +750,7 @@
    "title": "🐱 שימורי הילס מזון רפואי C/D לחתול 156 גרם Hill’s Prescription Diet c/d",
    "description": "תזונה רפואית רטובה ומוכחת קלינית מבית  Hill’s , שפותחה במיוחד לניהול ולתמיכה בבריאות דרכי השתן בחתולים (FLUTD) ולהפחתת הסיכון להישנות אבני סטרוביט ואוקסלט. מרקם פטה עשיר וטעים המעודד שתייה וצריכת נוזלים חיונית לחתול. \n \n \n 📦  תכולה מדויקת:  פחית שימורים בודדת במשקל 156 גרם. \n \n \n 🌿  רכיבים / מאפיינים עיקריים:  רמות מבוקרות של מגנזיום, סידן וזרחן, מועשר בנוגדי חמצון, ציטראט אשלגן וחומצות שומן אומגה 3. \n \n \n 🎯  יתרון מרכזי:  מסייע בהמסת אבני סטרוביט בדרכי השתן תוך 7 ימים בלבד בממוצע (בשימוש עקבי) ומפחית את הסיכון להיווצרות חוזרת. \n \n \n 🩺  התוויה / ייעוד:  מיועד לחתולים בוגרים הסובלים מבעיות בדרכי השתן התחתונות (FIC, סטרוביט, אוקסלט הסידן) – בהמלצת וטרינר בלבד.",
    "link": "https://closetonature.co.il/product/hills-prescription-diet-cd-cat-wet-food-156g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/hills-prescription-diet-cd-cat-wet-food-156g-can.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/hills-prescription-diet-cd-cat-wet-food-156g-can.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -520,7 +792,7 @@
    "title": "🐾 חול מתגבש לחתולים אורבן פחם פעיל 10 ליטר בקרטון URBAN – מבצע זוגי 2 יח’ כולל משלוח",
    "description": "דיל משתלם במיוחד לארגז הצרכים:  חול אורבן מתגבש פחם 10 ליטר בקרטון  באיכות פרימיום מבית  אורבן (URBAN) . מגיע באריזת קרטון נוחה וקשיחה לאחסון ולמזיגה, עם נוסחת פחם פעיל ללכידת ריחות מיידית וחיסכון מרבי.  עכשיו במבצע זוגי: 2 יחידות ב-159 ₪ בלבד כולל משלוח עד הבית!  \n \n \n 📦  תכולה ומבצע:  מארז זוגי – 2 יחידות של 10 ליטר (סה”כ 20 ליטר) ב-159 ₪ כולל משלוח! \n \n \n 🌿  רכיבים / מאפיינים עיקריים:  בנטוניט טבעי איכותי מועשר ב פחם פעיל (Active Carbon) , ללא אבק, אריזת קרטון קשיחה לשמירה על הטריות. \n \n \n 🎯  יתרון מרכזי:   התגבשות מהירה וחזקה במיוחד  המאפשרת ניקוי נוח בלחיצה אחת ומונעת התפוררות. \n \n \n 🩺  התוויה / ייעוד:  מתאים לכל סוגי החתולים ובכל הגילאים; מומלץ במיוחד לחללים סגורים ולבתים מרובי חתולים למניעת ריחות חריפים. \n \n \n \n  העתקת קופון משלוח חינם:  \n CAT_FREE  \n הועתק",
    "link": "https://closetonature.co.il/product/urban-ultra-clumping-cat-litter-active-carbon-10l-box-pack/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/urban-ultra-clumping-cat-litter-active-carbon-10l.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/urban-ultra-clumping-cat-litter-active-carbon-10l.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "159.00",
    "currency": "ILS",
@@ -562,7 +834,7 @@
    "title": "🍄 אקווריום פטרייה שולחני מעוצב 2.5 ליטר Mushroom Aquarium",
    "description": "הוסיפו נגיעה של קסם, שלווה וצבע לכל חלל עם  אקווריום שולחני מעוצב  בצורת פטרייה. מתאים במיוחד לדגי נוי קטנים ודגי קרב, קל במיוחד לתחזוקה ומעניק מראה מרהיב על שולחן העבודה, השידה או בחדר הילדים. \n 📦 תכולה מדויקת: נפח 2.5 ליטר \n 🌿 רכיבים / מאפיינים עיקריים: גוף אקריליק שקוף וצלול בתצוגה פנורמית, מכסה עליון בדוגמת פטרייה אדומה עם נקודות לבנות ופתח האכלה ואוורור מובנה. \n 🎯 יתרון מרכזי: מבנה עמיד ובטיחותי שאינו שביר כמו זכוכית רגילה, אידיאלי לסביבת ילדים ומשרדים. \n 🩺 התוויה / ייעוד: מיועד לגידול  דג קרב , שרימפסים קטנים או כאלמנט עיצובי ימי מרגיע.",
    "link": "https://closetonature.co.il/product/mushroom-desktop-aquarium-2-5l/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/09/spongebob-and-polar-bear-mushroom-aquarium-white-background.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/09/spongebob-and-polar-bear-mushroom-aquarium-white-background.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "289.00",
    "currency": "ILS",
@@ -604,7 +876,7 @@
    "title": "🐾 דרמטו וט מגבוני אצבע טיפוליים לאוזניים ולעור 50 יח’ DermatoVet Keto Tris FingerFit",
    "description": "דרמטו וט מגבונים טיפוליים לאוזניים ולעור  DermatoVet Keto Tris מבוססים על 0.1% קטוקונזול וטכנולוגיית  Vetaclear™  לטיפול וחיטוי יעיל של  זיהומי פטריות ושמרים  בכלבים וחתולים. \n 📦  תכולה מדויקת:  50 מגבוני אצבע (50 CT) \n 🌿  רכיבים פעילים:   Ketoconazole 0.1% , דיסודיום EDTA, בנזיל אלכוהול ובניחוח עדין של מלפפון-מלון \n 🎯  יתרון מרכזי:  פעילות אנטי-פטרייתית ממוקדת לטיפול ב זיהומי שמרים (Malassezia) , חיידקים והפרשות עודפות \n 🩺  התוויה / ייעוד:  מיועד לכלבים וחתולים הסובלים מגירויים, אדמומיות ודלקות באוזניים ובקפלי העור",
    "link": "https://closetonature.co.il/product/dermatovet-keto-tris-fingerfit-ear-and-skin-wipes-50-count/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/DermatoVet-Keto-Tris-FingerFit-ear-and-skin-wipes-for-dogs-and-cats-50-count.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/DermatoVet-Keto-Tris-FingerFit-ear-and-skin-wipes-for-dogs-and-cats-50-count.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -646,7 +918,7 @@
    "title": "🦷 דרמטו וט מגבוני אצבע לניקוי שיניים לכלבים 50 יח’ DermatoVet OroCare FingerFit",
    "description": "דרמטו וט מגבוני אצבע לשיניים לכלבים  DermatoVet OroCare מיוצרים בטכנולוגיית  Vetaclear™  הייחודית, ומאפשרים ניקוי יסודי ונוח של חלל הפה להסרת  פלאק ואבן שן  ולריענון הנשימה. \n \n 📦  תכולה מדויקת:  50 מגבוני אצבע (50 CT) \n 🌿  מאפיינים עיקריים:  מבנה  FingerFit™  נלבש על האצבע במרקם רך ומחורץ לניקוי עדין ללא גירוי \n 🎯  יתרון מרכזי:  סיוע בהפחתת  הצטברות אבן שן , הסרת רובד חיידקים ונטרול ריח רע מהפה \n 🩺  התוויה / ייעוד:  מיועד לכלבים לשמירה יומיומית על  היגיינת הפה והשיניים  בקלות ובנוחות מרבית",
    "link": "https://closetonature.co.il/product/dermatovet-orocare-fingerfit-dental-wipes-dogs-50-count/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/DermatoVet-OroCare-FingerFit-dental-wipes-for-dogs-50-count.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/DermatoVet-OroCare-FingerFit-dental-wipes-for-dogs-50-count.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "123.00",
    "currency": "ILS",
@@ -688,7 +960,7 @@
    "title": "🦴 קארניס רגל טלה מיובשת לכלב 70-100 גרם Carnis",
    "description": "חטיף לעיסה טבעי והיפואלרגני מבית  Carnis , העשוי מ- 100% רגל טלה שלמה מיובשת באוויר חם . מעניק מענה אידיאלי לקטגוריית  חטיפי טלה טבעיים לכלב , מספק תעסוקה מרגיעה ושומר על  בריאות השיניים ומערכת העיכול . \n \n \n 📦  תכולה מדויקת:  70-100 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% רגל טלה טבעית, מקור חלבון יחיד (Single Protein), ללא תוספים או חומרים משמרים \n \n \n 🎯  יתרון מרכזי:  עשיר בעור, גידים וסידן טבעי, קל מאוד לעיכול ואידיאלי לכלבים בעלי אלרגיות למזון",
    "link": "https://closetonature.co.il/product/carnis-dried-lamb-foot-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-lamb-feet-dog-treats.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-lamb-feet-dog-treats.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -730,7 +1002,7 @@
    "title": "🦴 קארניס קנה נשימה בקר לכלב 80-85 גרם Carnis",
    "description": "חטיף לעיסה סחוסי מובחר מבית  Carnis , המיוצר מ- 100% קנה נשימה בקר מיובש . הבחירה המובילה בקטגוריית  חטיפי סחוס טבעיים לכלב , המשלבת מרקם לעיס מהנה, תמיכה מעולה ב בריאות המפרקים והסחוסים  וניקוי אבנית יעיל. \n \n \n 📦  תכולה מדויקת:  80-85 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% סחוס קנה נשימה בקר, ללא דגנים, ללא כימיקלים או חומרים משמרים \n \n \n 🎯  יתרון מרכזי:  מקור טבעי אדיר של גלוקוזאמין וכונדרויטין המסייע לשיקום רקמות חיבור ושיפור תנועתיות המפרקים",
    "link": "https://closetonature.co.il/product/carnis-dried-beef-trachea-dog-chews-85g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-duck-neck-segments-dog-treats.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-duck-neck-segments-dog-treats.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -772,7 +1044,7 @@
    "title": "🦴 קארניס לב בקר מיובש לכלב 70 גרם Carnis",
    "description": "חטיף בשר עשיר וטבעי מבית  Carnis , המיוצר מ- 100% לב בקר מובחר  שעבר ייבוש עדין לשמירה על חומרי ההזנה. מושלם בקטגוריית  חטיפי בשר מיובש לכלבים , מעניק חיזוק תזונתי מרוכז ומתאים ל אילוף ופינוק יומיומי . \n \n \n 📦  תכולה מדויקת:  70 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% לב בקר טבעי, ללא גלוטן, דל פחמימה, ללא צבעים או חומרים משמרים \n \n \n 🎯  יתרון מרכזי:  עשיר במיוחד בטאורין, קואנזים Q10 וברזל התומכים בתפקוד שריר הלב, הסיבולת והחיוניות",
    "link": "https://closetonature.co.il/product/carnis-dried-beef-heart-dog-treats-70g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-beef-neck-sinew-dog-chews.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-beef-neck-sinew-dog-chews.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -814,7 +1086,7 @@
    "title": "🦴 קארניס רול בקר מעושן לכלב 80-85 גרם Carnis",
    "description": "גליל לעיסה טבעי ואיכותי מבית  Carnis , העשוי מ- 100% עור בקר מגולגל ומעושן בעדינות . המוצר המוביל בקטגוריית  חטיפי לעיסה ממושכת לכלבים , שנועד לספק מענה עמיד ליצר הלעיסה ולשמור על  חניכיים חזקות ושיניים נקיות . \n \n \n 📦  תכולה מדויקת:  80-85 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% עור בקר טבעי מגולגל, עישון עדין טבעי, ללא חומרי הלבנה או כימיקלים \n \n \n 🎯  יתרון מרכזי:  מבנה קשיח ודחוס המעניק זמן לעיסה ממושך במיוחד, משחרר מתחים ומנקה אבנית ביעילות",
    "link": "https://closetonature.co.il/product/carnis-smoked-beef-skin-roll-dog-chews-85g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-pork-sinew-dog-chews.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-pork-sinew-dog-chews.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -856,7 +1128,7 @@
    "title": "🦴 קארניס צווארי ברווז מיובשים לכלב 100 גרם Carnis",
    "description": "חטיף לעיסה טבעי מבית  Carnis , עשוי מ- 100% צווארי ברווז נקיים  שיובשו באוויר חם לשמירה על פריכות מקסימלית. בחירה מצוינת למי שמחפש  חטיפי לעיסה היפואלרגניים לכלב , ומעניק מענה אידיאלי לשמירה על  שיניים וחניכיים בריאות . \n \n \n 📦  תכולה מדויקת:  100 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% צוואר ברווז מיובש, ללא גלוטן, חלבון בודד (Single Protein) ללא חומרים מלאכותיים \n \n \n 🎯  יתרון מרכזי:  עשיר בגלוקוזאמין וסידן התומכים במפרקים ובמבנה העצמות, ופועל לחיכוך והסרת אבנית",
    "link": "https://closetonature.co.il/product/carnis-dried-duck-necks-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-duck-necks-for-dogs.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-duck-necks-for-dogs.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -898,7 +1170,7 @@
    "title": "🦴 קארניס זנב בקר מיובש לכלב 100 גרם Carnis",
    "description": "חטיף לעיסה קלאסי ועמיד מבית  Carnis , העשוי מ- 100% נתחי זנב בקר מיובשים באוויר חם . המוצר המושלם בקטגוריית  עצמות לעיסה טבעיות לכלבים , המשלב בשר עשיר, סחוסים טבעיים ותרומה מוכחת ל חיזוק שרירי הלסת והסרת אבנית . \n \n \n 📦  תכולה מדויקת:  100 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% זנב בקר טבעי, ללא גלוטן, ללא חומרי שימור, חלבון יחיד עשיר \n \n \n 🎯  יתרון מרכזי:  שילוב מושלם של בשר טעים סביב חוליות סחוס ועצם עשירות בסידן, המעניק שעות של תעסוקה מהנה",
    "link": "https://closetonature.co.il/product/carnis-dried-ox-tail-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-turkey-necks-dog-chews.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-dried-turkey-necks-dog-chews.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "25.00",
    "currency": "ILS",
@@ -940,7 +1212,7 @@
    "title": "🦴 קארניס לשון בקר מיובשת לכלב 60 גרם Carnis",
    "description": "חטיף פרימיום טבעי מבית  Carnis , העשוי מ- 100% לשון בקר איכותית  שעברה ייבוש איטי ומבוקר. מעניק מענה איכותי לקטגוריית  חטיפי בקר טבעיים לכלבים , עשיר בטעם בשרי עמוק ומתאים כצ’ופר יוקרתי או  חטיף אילוף מומלץ לכלבים . \n \n \n 📦  תכולה מדויקת:  60 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% לשון בקר מיובשת, ללא דגנים, ללא סוכר וללא חומרים משמרים \n \n \n 🎯  יתרון מרכזי:  עשיר בחלבון איכותי, שומן בריא וברזל, בעל ארומה טבעית חזקה המפתה גם כלבים בררנים",
    "link": "https://closetonature.co.il/product/carnis-dried-beef-tongue-dog-treats-60g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/carnis-beef-udder-jerky-dog-treats.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/carnis-beef-udder-jerky-dog-treats.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "12.00",
    "currency": "ILS",
@@ -982,7 +1254,7 @@
    "title": "🐾 פרו-קולין פלוס משחה פרוביוטית לכלבים וחתולים 15 מ”ל Protexin Pro-Kolin+",
    "description": "פרו קולין לכלב  ולחתול בפורמולה המוכחת והמובילה מבית Protexin Veterinary, המספקת תמיכה מהירה עבור  בעיות עיכול בכלבים , הרגעת מעי מגורה, עצירת שלשולים ושיקום פלורת החיידקים הטבעית. \n 📦 תכולה מדויקת: מזרק פומי מכויל בנפח 15 מ”ל. \n 🌿 רכיבים / מאפיינים פעילים:  פרוביוטיקה ייעודית (Enterococcus faecium) , פרה-ביוטיקה (Preplex – FOS וגומי ערבי), חימר סופח קאולין (Kaolin) ופקטין להרגעת רירית המעי. \n 🎯 יתרון מרכזי:  פתרון SOS מהיר וטבעי  לספיחת רעלנים ונוזלים עודפים במערכת העיכול. \n 🩺 התוויה / ייעוד: מתאים לכלבים, גורים, חתולים וחתלתולים במצבי שלשול אקוטי, מעבר תזונתי או סטרס.",
    "link": "https://closetonature.co.il/product/pro-kolin-plus-paste-dogs-cats-15ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/1787760559769.png",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/1787760559769.png?fit=614%2C614&ssl=1",
    "condition": "new",
    "price": "69.00",
    "currency": "ILS",
@@ -1024,7 +1296,7 @@
    "title": "🐰 סט רתמה ורצועה למכרסמים וארנבים Camon Parure per Roditori",
    "description": "רתמה למכרסמים  איכותית מבד רשת נושם ואוורירי, המעניקה  אביזרים למכרסמים  ברמת בטיחות עליונה עם אחיזה מושלמת, רצועה תואמת ונוחות מירבית בטיול. \n 📦 תכולה מדויקת: סט הכולל רתמת גוף + רצועת הולכה (במידות M או L לבחירה). \n 🌿 רכיבים / מאפיינים פעילים:  בד רשת מרופד ונושם (Mesh)  עם סקוצ’ים רחבים, אבזם בטיחות וטבעת מתכת עמידה. \n 🎯 יתרון מרכזי:  חלוקת עומס אופטימלית  המונעת לחץ על קנה הנשימה ומבטיחה יציבות ללא בריחות. \n 🩺 התוויה / ייעוד: מתאים לארנבים, חמוסים, שרקנים ומכרסמים בינוניים וגדולים לטיולים ולחצר.",
    "link": "https://closetonature.co.il/product/camon-rodent-harness-and-leash-set/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/Camon-breathable-mesh-rodent-harness-and-leash-set.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/Camon-breathable-mesh-rodent-harness-and-leash-set.jpg?fit=600%2C600&ssl=1",
    "gtin": "123456789-1",
    "condition": "new",
    "price": "45.00",
@@ -1067,7 +1339,7 @@
    "title": "🦷 חטיף דנטלי עצמות בשני צבעים לכלב 80 גרם Camon Dental Snacks",
    "description": "חטיף דנטלי לכלב  בצורת עצמות דו-גוניות צמחוניות, המספק  היגיינת פה ושיניים  מעולה, מנקה פלאק ואבנית ומעניק  נשימה רעננה . \n 📦 תכולה מדויקת: 80 גרם. \n 🌿 רכיבים / מאפיינים פעילים:  נוסחה צמחונית ללא גלוטן  על בסיס בטטה, עגבניה מיובשת, מנטה וטעם BBQ. \n 🎯 יתרון מרכזי:  הפחתת אבנית ופלאק  בעזרת מבנה עצם מותאם ללעיסה אפקטיבית. \n 🩺 התוויה / ייעוד: מתאים לכלבים בוגרים מכל הגדלים לשמירה על חניכיים בריאות ושיניים נקיות.",
    "link": "https://closetonature.co.il/product/camon-dental-snacks-two-tone-bones-80g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/Camon-dental-snacks-two-tone-bones-80g-for-dogs.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/Camon-dental-snacks-two-tone-bones-80g-for-dogs.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -1109,7 +1381,7 @@
    "title": "🦷 חטיף דנטלי צמחוני לכלב בצורת חיות 155 גרם Camon Dental Snacks",
    "description": "חטיף דנטלי לכלב  צמחוני וללא גלוטן, המשלב  היגיינת פה ושיניים  עם מרקם ייחודי לעיסוי החניכיים, הפחתת פלאק והענקת  נשימה רעננה . \n 📦 תכולה מדויקת: 155 גרם (מידה S). \n 🌿 רכיבים / מאפיינים פעילים:  פורמולה צמחונית ללא גלוטן  המועשרת בבטטה, פפאיה, שמן קוקוס, עגבניה, מנטה, וניל ותמצית עשן. \n 🎯 יתרון מרכזי:  ניקוי שיניים ומניעת אבנית  באמצעות לעיסה יומיומית מהנה וטבעית. \n 🩺 התוויה / ייעוד: מתאים לכלבים בוגרים (בדגש על גזעים קטנים ובינוניים) לשמירה על בריאות חלל הפה.",
    "link": "https://closetonature.co.il/product/camon-dental-snacks-vegetal-animals-155g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/חטיף-דנטלי-צמחוני-לכלב-בצורת-חיות-קמון-155-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/%D7%97%D7%98%D7%99%D7%A3-%D7%93%D7%A0%D7%98%D7%9C%D7%99-%D7%A6%D7%9E%D7%97%D7%95%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%A6%D7%95%D7%A8%D7%AA-%D7%97%D7%99%D7%95%D7%AA-%D7%A7%D7%9E%D7%95%D7%9F-155-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "25.00",
    "currency": "ILS",
@@ -1151,7 +1423,7 @@
    "title": "🐟 מזון מקלות לדגי קוי ובריכה 10 ק”ג SISO Koi Sticks",
    "description": "אוכל לדגי קוי  מובחר בצורת מקלות צפים, המספק  תזונה מלאה לדגי בריכה  ומעודד צמיחה בריאה, חיזוק פיגמנטים ושמירה על  מים צלולים . \n 📦 תכולה מדויקת: 10 ק”ג. \n 🌿 רכיבים / מאפיינים פעילים:  42% חלבון דגים איכותי , ספירולינה טבעית (5%) ופרוביוטיקה. \n 🎯 יתרון מרכזי:  הדגשת צבעי הדגים  וחיזוק המערכת החיסונית ללא צבעי מאכל מלאכותיים. \n 🩺 התוויה / ייעוד: מיועד להזנה יומיומית של  דגי קוי ודגי זהב  בבריכות נוי.",
    "link": "https://closetonature.co.il/product/siso-koi-sticks-10kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/siso-koi-sticks-bucket-10kg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/siso-koi-sticks-bucket-10kg.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "269.00",
    "currency": "ILS",
@@ -1193,7 +1465,7 @@
    "title": "🐠 תכשיר בקטריה חיה לאקווריום 100 מ”ל / 250 מ”ל JBL Denitrol Aquarium-Starter",
    "description": "בקטריה חיה לאקווריום  מסדרת  JBL Denitrol  מעניקה פתרון ביולוגי מתקדם להקמה ותחזוקת אקווריומים. התכשיר מפרק ביולוגית אמוניה וניטריט רעילים ומאפשר אכלוס דגים בטוח ומהיר במים מתוקים ומלוחים. \n \n \n 📦  תכולה מדויקת:  100 מ”ל (מתאים ל-3,000 ליטר) / 250 מ”ל (מתאים ל-7,500 ליטר) \n \n \n 🌿  רכיבים / מאפיינים פעילים:  תרכיז בקטריות חיוביות חיות מרוכזות (8 סוגי בקטריות פעילות) ואנזימים מזרזי פירוק \n \n \n 🎯  יתרון מרכזי:  יצירת איזון ביולוגי מיידי, מניעת “תסמונת האקווריום החדש” והגנה על הדגים מפני רעלים \n \n \n 🩺  התוויה / ייעוד:  מיועד לאקווריום מים מתוקים ומלוחים – בהקמה חדשה, החלפות מים או לאחר טיפול תרופתי",
    "link": "https://closetonature.co.il/product/jbl-denitrol-aquarium-live-bacteria-starter/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/jbl-denitrol-aquarium-starter-bacteria-100ml-and-250ml.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/jbl-denitrol-aquarium-starter-bacteria-100ml-and-250ml.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "69.00",
    "currency": "ILS",
@@ -1235,7 +1507,7 @@
    "title": "🐹 מנטרל ריחות למצע אוגרים ומכרסמים מארז 3 יח’ Little Hamster Odor Blaster",
    "description": "מנטרל ריחות לכלוב אוגרים  ומכרסמים מבית  Little Hamster  מיוצר בארה”ב ומציע פתרון מהפכני לספיגת ריחות רעים ושמירה על מצע רענן. המארז מכיל 3 שפופרות/שקיות אבקה פנימיות המספקות הגנה רציפה לעד 15 שבועות בניחוח קמומיל ולבנדר מרגיע. \n \n \n 📦  תכולה מדויקת:  מארז 3 שקיות פנימיות (מספיק לעד 15 שבועות שימוש – 5 שבועות לכל שקית) \n \n \n 🌿  רכיבים / מאפיינים פעילים:  ציפוי הידרופובי בטכנולוגיית שחרור איטי (Slow-Release), אבקה טבעית בטוחה לשימוש בניחוח קמומיל ולבנדר עדין \n \n \n 🎯  יתרון מרכזי:  נטרול יעיל וטבעי של ריחות שתן לאורך זמן, בטוח למגע ישיר של החיות וללא כימיקלים מזיקים \n \n \n 🩺  התוויה / ייעוד:  מיועד לאוגרים, ארנבים, שרקנים וכל סוגי המכרסמים על גבי נסורת, שבבי עץ ומצעי נייר",
    "link": "https://closetonature.co.il/product/little-hamster-odor-blaster-bedding-deodorizer-3pack/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/little-hamster-odor-blaster-bedding-deodorizer-on-wood-shavings.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/little-hamster-odor-blaster-bedding-deodorizer-on-wood-shavings.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "85.00",
    "currency": "ILS",
@@ -1277,7 +1549,7 @@
    "title": "🐱 קטניפ עלים לחתול 20 גרם Bioline Catnip Invigorating",
    "description": "קטניפ עלים לחתול  מבית  Bioline  הוא עשב חתולים 100% טבעי ואיכותי המעורר את חוש הריח של החתול ומעניק לו חוויית משחק מלאת אנרגיה, שמחה ורוגע. מתאים לפיזור על מתקני גירוד, צעצועים ומיטות. \n \n \n 📦  תכולה מדויקת:  20 גרם \n \n \n 🌿  רכיבים / מאפיינים פעילים:  100% עלי נפית החתולים (Catnip) מיובשים ומובחרים, ללא כימיקלים או תוספים מלאכותיים \n \n \n 🎯  יתרון מרכזי:  מעודד פעילות גופנית, מפיג שעמום וחרדה, ומושך חתולים למתקני גירוד ומשחק ייעודיים \n \n \n 🩺  התוויה / ייעוד:  מיועד לחתולים מגיל 6 חודשים ומעלה לצורכי משחק, אילוף והרגעה",
    "link": "https://closetonature.co.il/product/bioline-catnip-leaves-for-cats-20g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/bioline-catnip-leaves-box-20g.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/bioline-catnip-leaves-box-20g.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -1319,7 +1591,7 @@
    "title": "🥩 בונזו בשר 7 ק”ג – מזון יבש מלא לכלבים בוגרים | Bonzo Meat 7kg",
    "description": "בונזו בשר 7 ק”ג  הוא מזון יבש, מלא ומאוזן המותאם במיוחד לצרכים התזונתיים של כלבים בוגרים מכל הגזעים. הפורמולה האהובה והמוכרת של בונזו מעניקה לכלב ארוחה טעימה, מזינה ומשביעה, העשירה בחלבון איכותי לבניית שרירים חזקים, לצד ויטמינים ומינרלים החיוניים לשמירה על אנרגיה, בריאות כללית ומערכת חיסונית חזקה. \n 🏷️  תכולה מדויקת:  שק יחיד במשקל 7 ק”ג. \n 🌿  רכיבים / מאפיינים פעילים:  22% חלבון, עשיר באומגה 3 ואומגה 6 (ממקור זרעי פשתן), ללא תוספת צבעי מאכל מלאכותיים. \n 🎯  יתרון מרכזי:  מתכון בשרי טעים במיוחד המספק תזונה יומיומית מלאה במחיר משתלם, לשמירה על פרווה מבריקה ועור בריא. \n 🩺  התוויה / ייעוד:  מיועד לכלבים בוגרים (מגיל שנה ומעלה) מכל הגזעים והגודלים.",
    "link": "https://closetonature.co.il/product/bonzo-meat-dry-dog-food-7kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/בונזו-בשר-7-קג-jpg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/%D7%91%D7%95%D7%A0%D7%96%D7%95-%D7%91%D7%A9%D7%A8-7-%D7%A7%D7%92-jpg.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "78.00",
    "currency": "ILS",
@@ -1361,7 +1633,7 @@
    "title": "🌊 רביעיית ספוג כחול לפילטר לגונה פרשור-פלו – Laguna Pressure-Flo Replacement Foams x4",
    "description": "רביעיית ספוג כחול לפילטר לגונה  פרשור-פלו מציעה פתרון סינון מכני מקורי ואיכותי במיוחד עבור בריכות נוי. הספוגים לוכדים ביעילות לכלוך, פסולת וחלקיקים מרחפים, ומבטיחים מים צלולים כקריסטל וסביבה בריאה לדגים. המארז מכיל 4 ספוגים חליפיים מקוריים מבית Laguna, הקלים להתקנה ולתחזוקה מהירה. \n 🏷️  תכולה מדויקת:  מארז של 4 ספוגים חליפיים (x4). זמין בגרסת מדיום (מתאים לדגם 6000) או לארג’ (מתאים לדגם 10000) בהתאם לבחירת הווריאציה. \n 🌿  רכיבים / מאפיינים פעילים:  ספוג סינון איכותי ועמיד בעל מבנה צפוף ללכידת פסולת, מתאים לשימוש ממושך ומים מתוקים. \n 🎯  יתרון מרכזי:  סינון מכני עוצמתי המבטיח  ציוד לבריכות נוי  ברמה הגבוהה ביותר, לשמירה על מים צלולים ולתחזוקה קלה של  פילטר לחץ לבריכת נוי . \n 🩺  התוויה / ייעוד:  מיועד להחלפה תקופתית בפילטרים מסדרת Laguna Pressure-Flo (דגמי 6000 / 10000) לשמירה על יעילות הסינון המרבית בבריכה.",
    "link": "https://closetonature.co.il/product/laguna-pressure-flo-replacement-foams-4pack/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/laguna-pressure-flo-replacement-foams-medium-and-large-4packs.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/laguna-pressure-flo-replacement-foams-medium-and-large-4packs.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "220.00",
    "currency": "ILS",
@@ -1403,7 +1675,7 @@
    "title": "🧴 דרמובט שמפו קטו-סי פרוקלין 237 מ”ל – Dermovet CEROSHIELD Keto-C Proclean Shampoo",
    "description": "דרמובט שמפו קטו-סי פרוקלין 237 מ”ל  הוא שמפו רפואי וטיפולי בעל פורמולה משופרת ומתקדמת, המיועד לכלבים, חתולים וסוסים הסובלים מזיהומי עור פטרייתיים וחיידקיים. השמפו משלב חומרים מחטאים פעילים (כלורהקסידין 2% וקטוקונזול 1%) יחד עם טכנולוגיית CEROSHIELD המכילה סראמידים, פיטוספינגוזין ואוונאנתראמידים לשיקום מחסום העור, הרגעת גירויים ומתן ניקוי עמוק בריח מלפפון-מלון מרענן. \n 🏷️  תכולה מדויקת:  בקבוק יחיד של 237 מ”ל (8 FL OZ). \n 🌿  רכיבים / מאפיינים פעילים:  2% כלורהקסידין (Chlorhexidine), 1% קטוקונזול (Ketoconazole), סראמידים, פיטוספינגוזין, תמצית שיבולת שועל (Avenanthramides). \n 🎯  יתרון מרכזי:  חיטוי עוצמתי נגד  שמפו לטיפול בפטריות לכלב  וזיהומים חיידקיים בשילוב  שמפו רפואי לכלב  ומשקם עור המונע יובש ושומר על שכבת ההגנה הטבעית. \n 🩺  התוויה / ייעוד:  מיועד לכלבים, חתולים וסוסים לטיפול ומניעה של  זיהומי עור לכלבים , פטריות (כמו סקביאס, סבוריאה פטרייתית, Ringworm), זיהומים חיידקיים (פיוסבוריאה/Pyoderma) והרגעת גירויים קשים בעור. \n     🛡️ מעבר ל- שמפו Keto-C (קטו-סי) 355 מ”ל – טיפול דרמטולוגי מתקדם נגד פטריות וחיידקים",
    "link": "https://closetonature.co.il/product/dermatovet-ceroshield-keto-c-proclean-shampoo-237ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/בקבוק-שמפו-רפואי-דרמטובט-קטו-סי-פרוקלין-237-מל-DermatoVet-Keto-C.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/%D7%91%D7%A7%D7%91%D7%95%D7%A7-%D7%A9%D7%9E%D7%A4%D7%95-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%93%D7%A8%D7%9E%D7%98%D7%95%D7%91%D7%98-%D7%A7%D7%98%D7%95-%D7%A1%D7%99-%D7%A4%D7%A8%D7%95%D7%A7%D7%9C%D7%99%D7%9F-237-%D7%9E%D7%9C-DermatoVet-Keto-C.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "109.00",
    "currency": "ILS",
@@ -1445,7 +1717,7 @@
    "title": "🐟 אוכל לכלבים ברייברי סלמון אדולט 12 ק”ג – ללא דגנים – Bravery Adult Salmon Medium/Large",
    "description": "אוכל לכלבים ברייברי סלמון אדולט  מציע תזונה מתקדמת ואיכותית במיוחד עבור כלבים בוגרים מגזעים בינוניים וגדולים. הפורמולה פותחה בקפידה כדי להעניק פתרון היפואלרגני, ללא דגנים (Grain Free), המבוסס על סלמון כחלבון יחיד, המעשיר את הכלב בחומצות שומן אומגה 3 ו-6 לפרווה בריאה, עור חיוני ותמיכה במערכת העיכול. \n 🏷️  תכולה מדויקת:  שק יחיד של 12 ק”ג או מארז חיסכון כפול של 2 שקים (בחירה בווריאציה). \n 🌿  רכיבים / מאפיינים פעילים:  100% סלמון כחלבון בעל ערך ביולוגי גבוה, ללא דגנים, עשיר באומגה 3 ו-6. \n 🎯  יתרון מרכזי:  תזונה היפואלרגנית ומאוזנת לפרווה בריאה, עור חיוני ותמיכה אופטימלית במערכת החיסון. \n 🩺  התוויה / ייעוד:  מיועד לכלבים בוגרים (Adult) מגזעים בינוניים וגדולים (Medium/Large Breeds).",
    "link": "https://closetonature.co.il/product/bravery-salmon-adult-dog-food-medium-large/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/שק-אוכל-לכלבים-ברייברי-סלמון-אדולט-12-קג-ללא-דגנים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/%D7%A9%D7%A7-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%A8%D7%99%D7%99%D7%91%D7%A8%D7%99-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%90%D7%93%D7%95%D7%9C%D7%98-12-%D7%A7%D7%92-%D7%9C%D7%9C%D7%90-%D7%93%D7%92%D7%A0%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "309.00",
    "currency": "ILS",
@@ -1485,9 +1757,9 @@
   {
    "id": "70771",
    "title": "🐱 חול לחתולים אייקט מתגבש 10 ק”ג ללא ריח – משלוח חינם – iCat Super Premium Cat Litter",
-   "description": "חול לחתולים אייקט  מתגבש 10 ק”ג ללא ריח מציע פתרון היגייני ואיכותי במיוחד לתחזוקה יומיומית נוחה של ארגז החול. החול אינו מכיל תוספי ריח מלאכותיים, מתאים במיוחד לחתולים ולבעלים הרגישים לריחות, ומתאפיין ביכולת התגבשות מהירה וחזקה בעת מגע עם נוזלים, נטרול ריחות טבעי ואפקטיבי ויצירת גושים מוצקים שקל לשלוף ולנקות. \n 🏷️  תכולה מדויקת:  שק יחיד של 10 ק”ג \n 🌿  רכיבים / מאפיינים פעילים:  בנטוניט טבעי איכותי ללא תוספת ריח, בעל כושר ספיגה גבוה ונטרול ריחות טבעי. \n 🎯  יתרון מרכזי:  התגבשות מהירה ומוצקה ללא בואישים או תוספי ריח מלאכותיים, המאפשרת ניקוי קל וחסכוני ללא התפוררות הגושים. \n 🩺  התוויה / ייעוד:  מיועד לכל סוגי החתולים (כולל חתולים הרגישים לבישום) ולכל סוגי הארגזים. \n \n  העתקת קופון משלוח חינם:  \n CAT_FREE  \n הועתק! 🐾",
+   "description": "חול לחתולים אייקט  מתגבש 10 ק”ג ללא ריח מציע פתרון היגייני ואיכותי במיוחד לתחזוקה יומיומית נוחה של ארגז החול. החול אינו מכיל תוספי ריח מלאכותיים, מתאים במיוחד לחתולים ולבעלים הרגישים לריחות, ומתאפיין ביכולת התגבשות מהירה וחזקה בעת מגע עם נוזלים, נטרול ריחות טבעי ואפקטיבי ויצירת גושים מוצקים שקל לשלוף ולנקות. \n 🏷️  תכולה מדויקת:  שק יחיד של 10 ק”ג \n 🌿  רכיבים / מאפיינים פעילים:  בנטוניט טבעי איכותי ללא תוספת ריח, בעל כושר ספיגה גבוה ונטרול ריחות טבעי. \n 🎯  יתרון מרכזי:  התגבשות מהירה ומוצקה ללא בואישים או תוספי ריח מלאכותיים, המאפשרת ניקוי קל וחסכוני ללא התפוררות הגושים. \n 🩺  התוויה / ייעוד:  מיועד לכל סוגי החתולים (כולל חתולים הרגישים לבישום) ולכל סוגי הארגזים. \n < \n p data-path-to-node=”9″> \n  העתקת קופון משלוח חינם:  \n CAT_FREE  \n הועתק! 🐾",
    "link": "https://closetonature.co.il/product/icat-clumping-cat-litter-10l/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/icat-clumping-cat-litter-10l.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/icat-clumping-cat-litter-10l.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "99.00",
    "currency": "ILS",
@@ -1529,7 +1801,7 @@
    "title": "🐕 שמפו נגד פרעושים וקרציות עוצמה מרבית 591 מ”ל טרופיקלין TropiClean Flea + Tick Max Strength",
    "description": "שמפו נגד קרציות ופרעושים לכלב  בגרסת Max Strength מציע את הפורמולה החזקה ביותר בקטגוריית  הדברה טבעית לכלבים . המוצר משלב ריכוז מוגבר של שמנים אתריים הפועלים בשיא העוצמה עבור  חיסול פרעושים וקרציות , ומתאים במיוחד לכלבים שנמצאים בסיכון גבוה או סובלים מנגיעות מסיבית. \n \n \n 📦  תכולה מדויקת:  בקבוק חיסכון 591 מ”ל (20 fl oz). \n \n \n 🌿  רכיבים פעילים:  ריכוז מוגבר של שמנים אתריים (ציפורן, קינמון, למון גראס, עץ ארז, שומשום). \n \n \n 🎯  יתרון מרכזי:  נוסחה עוצמתית המעניקה  קטילת פרעושים מהירה  ומיגור נגעים קשים ברחצה אחת. \n \n \n 🩺  התוויה רפואית:  מיועד כפתרון חירום וכחלק מכללי  הגנה מאיטפילים לכלבים  החיים בחצר או באזורים נגועים.",
    "link": "https://closetonature.co.il/product/tropiclean-natural-flea-tick-max-strength-shampoo-591ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/tropiclean-natural-flea-tick-max-strength-dog-shampoo-591ml.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/tropiclean-natural-flea-tick-max-strength-dog-shampoo-591ml.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -1571,9 +1843,9 @@
    "title": "🐕 שמפו נגד פרעושים וקרציות להרגעת העור 591 מ”ל טרופיקלין TropiClean Flea + Tick Soothing",
    "description": "שמפו נגד פרעושים וקרציות לכלב  מבית טרופיקלין (TropiClean Soothing) מציע פתרון של  הדברה טבעית לכלבים  המבוססת על שמנים אתריים, ופועל במגע ישיר לקטילת מזיקים כבר מהחפיפה הראשונה. הפורמולה המיוחדת מיועדת עבור  טיפוח לכלבים  עם עור רגיש, ומספקת הרגעה עמוקה למניעת  גירודים אצל כלבים  הנגרמים מעקיצות. \n \n \n 📦  תכולה מדויקת:  בקבוק חיסכון 591 מ”ל (20 fl oz). \n \n \n 🌿  רכיבים פעילים:  שמנים אתריים טבעיים (ציפורן, קינמון, למון גראס, עץ ארז, שומשום) וחמאת קקאו מזינה. \n \n \n 🎯  יתרון מרכזי:  קטילה מוחלטת ברחצה אחת של פרעושים, קרציות, ביצים וזחלים ללא חומרי הדברה כימיים. \n \n \n 🩺  התוויה רפואית:  מיועד עבור  טיפול בעור רגיש לכלב , מרגיע עור מודלק ומעניק הגנה בסביבת ילדים ובעלי חיים.",
    "link": "https://closetonature.co.il/product/tropiclean-natural-flea-tick-soothing-shampoo-591ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/tropiclean-natural-flea-tick-soothing-dog-shampoo-591ml.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/tropiclean-natural-flea-tick-soothing-dog-shampoo-591ml.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
-   "price": "59.00",
+   "price": "79.00",
    "currency": "ILS",
    "availability": "in_stock",
    "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70735%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70735",
@@ -1613,7 +1885,7 @@
    "title": "🐱 מזון רפואי הילס מטבוליק לחתול 8 ק”ג עוף Hill’s Prescription Diet Metabolic",
    "description": "מזון רפואי הילס מטבוליק לחתול (Hill’s Metabolic)  הינו פורמולה וטרינרית מתקדמת המוכחת קלינית לסיוע בירידה בטוחה במשקל, שמירה על משקל תקין וניהול מחלת הסוכרת. המזון פועל ישירות על ניצול האנרגיה הייחודי של החתול, ומאפשר ירידה במשקל בבית ללא הרעבה וללא תסכול. \n \n \n 📦  תכולה מדויקת:  שק חיסכון מוגדל של 8 ק”ג. \n \n \n 🍗  רכיבים פעילים:  מבוסס על בשר עוף איכותי, סיבים תזונתיים מורכבים וקומפלקס נוגדי חמצון S+OXSHIELD לשמירה על בדרכי השתן. \n \n \n 🎯  יתרון מרכזי:  88% מהחתולים הפחיתו במשקל בבית תוך שני חודשים בלבד בתנאים רגילים. \n \n \n 🩺  התוויה רפואית:  ירידה ושמירה על משקל תקין, איזון רמות הסוכר (סוכרת) ומניעת אבנים בדרכי השתן.",
    "link": "https://closetonature.co.il/product/hills-prescription-diet-metabolic-cat-8kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/hills-prescription-diet-metabolic-cat-food-8kg-bag.webp",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/hills-prescription-diet-metabolic-cat-food-8kg-bag.webp?fit=1500%2C1500&ssl=1",
    "condition": "new",
    "price": "448.00",
    "currency": "ILS",
@@ -1655,7 +1927,7 @@
    "title": "🧴 שמפו היפואלרגני אוקסימד טרופיקלין TropiClean OxyMed לטיפול בעור רגיש ולהרגעת גירויים 354 מ”ל / 592 מ”ל",
    "description": "שמפו היפואלרגני אוקסימד (TropiClean OxyMed)  הוא פתרון טיפולי ועדין המיועד לכלבים וחתולים הסובלים מאלרגיות, גירויים ויובש בעור. הפורמולה המקצועית מבוססת על  שיבולת שועל קולואידית ,  אלוורה  ו ויטמין E , ומעניקה ניקוי עמוק והרגעה מיידית ללא סבון, ללא פראבנים וללא בישום. \n \n \n 📦  תכולה מדויקת:  בקבוק 354 מ”ל או בקבוק חיסכון 592 מ”ל לבחירה. \n \n \n 🌾  רכיבים פעילים:  שיבולת שועל קולואידית, תמצית אלוורה טבעית, ויטמין E ומנקה קוקוס עדין. \n \n \n 🎯  יתרון מרכזי:  פורמולה היפואלרגנית נטולת דמעות (Tear-Free) וללא בישום המונעת התפתחות אלרגיות. \n \n \n 🩺  התוויה רפואית:  מרגיע עור מגורה, אדמומי ומגרד, ומשיב לחות עמוקה ללא פגיעה באמפולות.",
    "link": "https://closetonature.co.il/product/tropiclean-oxymed-hypoallergenic-oatmeal-shampoo/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/tropiclean-oxymed-hypoallergenic-oatmeal-shampoo-marketing-combo.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/tropiclean-oxymed-hypoallergenic-oatmeal-shampoo-marketing-combo.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "58.00",
    "currency": "ILS",
@@ -1697,7 +1969,7 @@
    "title": "💧 מזרקת מים לחתולים ולכלבים 3 ליטר AFP Purr Flow Faucet Pet Fountain פתרון שתייה מתקדם בציפוי ברז זורם 3 ליטר",
    "description": "מזרקת מים חשמלית ומתקדמת לחתולים ולכלבים המעודדת שתייה מוגברת באמצעות זרימת מים הדוקה בצורת ברז ביתי. המתקן מצויד במנוע שקט במיוחד, חיבור USB נוח, ופילטר פחם רב-שכבתי המסנן לכלוך, פרווה וריחות רעים לשמירה על מים טריים, צלולים ובריאים לאורך כל היום. \n \n \n 📦  תכולה מדויקת:  קיבולת מים גדולה של 3 ליטר. \n \n \n 🔌  חיבור וחיסכון:  חיבור חשמלי נוח באמצעות כבל USB (USB Recharging). \n \n \n 🌿  סינון מתקדם:  פילטר פחם רב-שכבתי (Multi-layer Carbon Filter) המנקה את המים באופן רציף. \n \n \n 🎯  יתרון מרכזי:  עיצוב בצורת ברז זורם המעודד חתולים וכלבים לשתות יותר מים. \n \n \n 🩺  התוויה רפואית:  שמירה על הידרוליזה תקינה ומניעת דלקות ואבנים בדרכי השתן. \n \n \n 🛡️  בקרת איכות:  מבוססת טכנולוגיה שקטה במיוחד ללא רעש או לחץ (Without Noise Or Stress). \n \n \n 🚀  שיקום מהיר:  הגברת צריכת המים היומית ושמירה על חיוניות ובריאות בעל החיים.",
    "link": "https://closetonature.co.il/product/afp-purr-flow-faucet-pet-fountain-3l/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/afp-purr-flow-faucet-pet-fountain-3l-packaging-on-white-background.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/afp-purr-flow-faucet-pet-fountain-3l-packaging-on-white-background.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "189.00",
    "currency": "ILS",
@@ -1739,7 +2011,7 @@
    "title": "🐟 פרסטיג’ מיני סלמון 2 ק”ג לכלבים קטנים Prestige Adult Mini Salmon מזון היפואלרגני מונופרוטאין",
    "description": "מזון יבש ומלא לכלבים קטנים מבית Cennamo האיטלקית. מבוסס על חלבון סלמון יחיד מן החי (Monoprotein), מועשר בחומצות שומן אומגה 3 ו-6 ומותאם במיוחד בגודל הכופתית ללסת של כלבים מגזע קטן וזעיר. \n \n \n 📦  תכולה מדויקת:  אריזת פרימיום 2 ק”ג לשמירה על טריות. \n \n \n 🛠️  מינון יומי מהיר:  45-80 גרם לכלב במשקל 2-4 ק”ג, 90-135 גרם לכלב במשקל 5-8 ק”ג. \n \n \n 🌿  רכיבים פעילים:  סלמון שעבר הידרוליזה, אורז, שמן דגים, ויטמינים חיוניים ומינרלים. \n \n \n 🎯  יתרון מרכזי:  כופתיות קטנות ומבנה פריך המונע הצטברות פלאק בשיניים של כלבים קטנים. \n \n \n 🩺  התוויה רפואית:  מענה מקיף לרגישויות עיכוליות ולבעיות נשירה ועור אצל כלבים זעירים. \n \n \n 🛡️  בקרת איכות:  מיוצר באיטליה בתקן ירוק עם אנרגיה ממקורות מתחדשים. \n \n \n 🚀  שיקום מהיר:  פרווה מבריקה ונעכלות קלה המורגשת תוך ימים ספורים.",
    "link": "https://closetonature.co.il/product/prestige-adult-mini-salmon-2kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/cennamo-prestige-adult-mini-salmon-2kg-dog-food.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/cennamo-prestige-adult-mini-salmon-2kg-dog-food.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "278.00",
    "currency": "ILS",
@@ -1781,7 +2053,7 @@
    "title": "🐟 פרסטיג’ סלמון 12 ק”ג לכלבים בוגרים Prestige Adult Salmon מזון היפואלרגני מונופרוטאין",
    "description": "מזון סופר פרימיום איטלקי המבוסס על סלמון כמקור חלבון דג יחיד מן החי (Monoprotein). הפורמולה עשירה בחומצות שומן חיוניות אומגה 3 ו-6, מעניקה מענה מושלם לכלבים בוגרים מגזע בינוני וגדול הסובלים מבעיות עור, פרווה דהויה או נשירה מוגברת. \n \n \n 📦  תכולה מדויקת:  שק חיסכון במשקל 12 ק”ג. \n \n \n 🛠️  מינון יומי מהיר:  160-230 גרם לכלב במשקל 10-20 ק”ג, 280-460 גרם לכלב במשקל 25-50 ק”ג. \n \n \n 🌿  רכיבים פעילים:  דג סלמון הידראולי, אורז, שמן דגים עשיר, נוגדי חמצון טבעיים. \n \n \n 🎯  יתרון מרכזי:  ריכוז אומגה גבוה במיוחד לשיקום מהיר של העור והברקת הפרווה. \n \n \n 🩺  התוויה רפואית:  הפחתת דלקות עוריות, גירודים ונשירה הנובעת מרגישות למזון. \n \n \n 🛡️  בקרת איכות:  מיוצר באיטליה מחומרי גלם מבוקרים בעלי ערך ביולוגי גבוה. \n \n \n 🚀  שיקום מהיר:  פרווה רכה, מלאה ומבריקה תוך מספר שבועות של הזנה עקבית.",
    "link": "https://closetonature.co.il/product/prestige-adult-salmon-12kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/cennamo-prestige-adult-salmon-12kg-dog-food.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/08/cennamo-prestige-adult-salmon-12kg-dog-food.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "278.00",
    "currency": "ILS",
@@ -1803,300 +2075,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%9F%20%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%92%E2%80%99%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%2012%20%D7%A7%E2%80%9D%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20Prestige%20Adult%20Salmon%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%9E%D7%95%D7%A0%D7%95%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "70509",
-   "title": "🐩 פרסטיג’ מיני כבש 2 ק”ג לכלבים קטנים Prestige Adult Mini Lamb מזון היפואלרגני מונופרוטאין",
-   "description": "מזון יבש איכותי מאיטליה המותאם לצרכים המטבוליים של כלבים מגזע קטן וזעיר. מבוסס על חלבון כבש יחיד מן החי (Monoprotein) המונע תגובות אלרגיות, בשילוב כופתיות קטנות ופריכות המקלות על הלעיסה ושומרות על בטיחות הכלב. \n \n \n 📦  תכולה מדויקת:  אריזה שומרת טריות במשקל 2 ק”ג. \n \n \n 🛠️  מינון יומי מהיר:  40-75 גרם לכלב במשקל 2-4 ק”ג, 85-130 גרם לכלב במשקל 5-8 ק”ג. \n \n \n 🌿  רכיבים פעילים:  בשר כבש שעבר הידרוליזה, דגנים נבחרים, שומן מן החי, ויטמינים מסוג A, D3 ו-E. \n \n \n 🎯  יתרון מרכזי:  כופתית זעירה המותאמת ללסת קטנה למניעת קשיי לעיסה וחנק. \n \n \n 🩺  התוויה רפואית:  הקלה על מערכת העיכול ומניעת אדמומיות בעור אצל כלבים קטנים ורגישים. \n \n \n 🛡️  בקרת איכות:  ייצור איטלקי קפדני ללא ניסויים בבעלי חיים (No Cruelty Test). \n \n \n 🚀  שיקום מהיר:  טעימות גבוהה המפתה כלבים בררנים יחד עם שיפור מורגש בריח הנשימה.",
-   "link": "https://closetonature.co.il/product/prestige-adult-mini-lamb-2kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/cennamo-prestige-adult-mini-lamb-2kg-dog-food.jpg",
-   "condition": "new",
-   "price": "82.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70509%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70509",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70509/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70509/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#70509",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70509%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70509",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70509%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70509",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%A9%20%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%92%E2%80%99%20%D7%9E%D7%99%D7%A0%D7%99%20%D7%9B%D7%91%D7%A9%202%20%D7%A7%E2%80%9D%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%A7%D7%98%D7%A0%D7%99%D7%9D%20Prestige%20Adult%20Mini%20Lamb%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%9E%D7%95%D7%A0%D7%95%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "70485",
-   "title": "🐶 פרסטיג’ כבש 12 ק”ג לכלבים בוגרים Prestige Adult Lamb מזון היפואלרגני מונופרוטאין",
-   "description": "מזון יבש איכותי ברמת סופר פרימיום מבית Prestige האיטלקית. הפורמולה מבוססת על בשר כבש כמקור חלבון יחיד מן החי (Monoprotein), מותאמת לכלבים בוגרים מגזע בינוני וגדול, מעניקה נעכלות גבוהה ומונעת רגישויות במערכת העיכול. \n \n \n 📦  תכולה מדויקת:  שק יחיד במשקל 12 ק”ג. \n \n \n 🛠️  מינון יומי מהיר:  150-220 גרם לכלב במשקל 10-20 ק”ג, 270-450 גרם לכלב במשקל 25-50 ק”ג. \n \n \n 🌿  רכיבים פעילים:  הידרוליזט כבש טרי, אורז, שומן מן החי, ויטמינים ומינרלים חיוניים. \n \n \n 🎯  יתרון מרכזי:  מקור חלבון יחיד מן החי המונע תגובות אלרגיות ורגישות תזונתית. \n \n \n 🩺  התוויה רפואית:  תמיכה בקיבה רגישה ומניעת גירויים בעור אצל כלבים אלרגיים. \n \n \n 🛡️  בקרת איכות:  מיוצר באיטליה לפי התקנים האירופיים המחמירים ביותר. \n \n \n 🚀  שיקום מהיר:  יציאות תקינות, הפחתת נשירה וחיזוק החיוניות היומיומית.",
-   "link": "https://closetonature.co.il/product/prestige-adult-lamb-12kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/08/cennamo-prestige-adult-lamb-12kg-dog-food.jpg",
-   "condition": "new",
-   "price": "278.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70485%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70485",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70485/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70485/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#70485",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70485%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70485",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70485%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70485",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%B6%20%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%92%E2%80%99%20%D7%9B%D7%91%D7%A9%2012%20%D7%A7%E2%80%9D%D7%92%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20Prestige%20Adult%20Lamb%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20%D7%9E%D7%95%D7%A0%D7%95%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "70166",
-   "title": "🐘 צעצוע בובה לכלב קונג קוזי פיל ורוד KONG Cozie Elephant Toy",
-   "description": "צעצוע בובה לכלב קונג קוזי פיל  מביא את הפינוק המוכר של סדרת KONG Cozie בעיצוב ייחודי של פיל ורוד בעל אוזניים רחבות וחדק ארוך שכלבים אוהבים לתפוס ולנעור. הבובה בנויה מבד קטיפתי נעים במיוחד עם שכבת חיזוק פנימית כפולה לעמידות משופרת. כוללת צפצפה מובנית המעוררת את יצר המשחק, ומתאימה במיוחד למשחקי זריקה או להתכרבלות רגועה. \n \n \n 📦  תכולה מדויקת:  יחידה אחת באריזה מקורית. \n \n \n 🛠️  מינון יומי מהיר:  מתאים למשחק יומי מבוקר, פריקת אנרגיה והפגת שעמום. \n \n \n 🌿  רכיבים פעילים:  בד קטיפתי מחוזק בשכבה כפולה, מילוי סיבים רך וצפצפה פנימית. \n \n \n 🎯  יתרון מרכזי:   צעצוע בובה לכלב קונג קוזי פיל  כולל אלמנטים בולטים כמו אוזניים וחדק המקלים על האחיזה והנשיאה בפה. \n \n \n 🩺  התוויה רפואית:  מסייע בהרגעה, הפחתת מתחים וחרדת נטישה באמצעות משחק מבוקר וכרבול.",
-   "link": "https://closetonature.co.il/product/kong-cozie-elephant-dog-toy-pink/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/kong-cozie-elephant-pink-dog-toy.jpg",
-   "condition": "new",
-   "price": "69.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70166%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70166",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70166/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70166/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#70166",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70166%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70166",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70166%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70166",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%98%20%D7%A6%D7%A2%D7%A6%D7%95%D7%A2%20%D7%91%D7%95%D7%91%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%A7%D7%95%D7%96%D7%99%20%D7%A4%D7%99%D7%9C%20%D7%95%D7%A8%D7%95%D7%93%20KONG%20Cozie%20Elephant%20Toy%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "70160",
-   "title": "🧸 צעצוע בובה לכלב קונג קוזי כלב תכלת KONG Cozie Dog Toy",
-   "description": "צעצוע בובה לכלב קונג קוזי כלב  הוא צעצוע רך, מלטף ועמיד במיוחד מבית KONG העולמית. הבובה מסדרת הקוזי מיוצרת עם שכבת בד כפולה המעניקה עמידות משופרת ללעיסה ומשחק, וכוללת צפצפה פנימית המעוררת את יצר המשחק הטבעי של הכלב. פתרון מושלם לזמן איכות, משחקי אחזור או סתם להתכרבלות נעימה בסוף היום. \n \n \n 📦  תכולה מדויקת:  יחידה אחת באריזה מקורית  מידה M  \n \n \n 🛠️  מינון יומי מהיר:  מתאים למשחק יומי מבוקר, פריקת אנרגיה והפגת שעמום. \n \n \n 🌿  רכיבים פעילים:  בד קטיפתי רך ואיכותי עם שכבת חיזוק פנימית כפולה וצפצפה. \n \n \n 🎯  יתרון מרכזי:   צעצוע בובה לכלב קונג קוזי כלב  משלב רכות מושלמת לחיבוק עם עמידות גבוהה למשחקי לעיסה. \n \n \n 🩺  התוויה רפואית:  מסייע בהפחתת חרדת נטישה, הפגת מתחים ושמירה על היגיינת פה קלה בזמן המשחק.",
-   "link": "https://closetonature.co.il/product/kong-cozie-dog-toy-blue/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/kong-cozie-dog-toy-blue.jpg",
-   "condition": "new",
-   "price": "69.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70160%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70160",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70160/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70160/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#70160",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70160%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70160",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70160%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70160",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%A7%B8%20%D7%A6%D7%A2%D7%A6%D7%95%D7%A2%20%D7%91%D7%95%D7%91%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%A7%D7%95%D7%96%D7%99%20%D7%9B%D7%9C%D7%91%20%D7%AA%D7%9B%D7%9C%D7%AA%20KONG%20Cozie%20Dog%20Toy%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "70151",
-   "title": "🦴 חטיף אילוף לכלבים אנדי בטעם בקר ENDI Chews Beef Flavor 100g",
-   "description": "חטיף אילוף לכלבים אנדי בטעם בקר  הוא חטיף איכותי מבית Endi המשלב בשר אמיתי וטעימות גבוהה. המוצר מציע גודל ומרקם מושלמים לתגמול מהיר ואפקטיבי במהלך אימונים, ומסייע בחיזוק התנהגות חיובית, רעננות הנשימה ושמירה על הבריאות. פתרון מושלם לאילוף יומיומי בריא וטעים לכלב. \n \n \n 📦  תכולה מדויקת:  100 גרם בשקית. \n \n \n 🛠️  מינון יומי מהיר:  1-2 חטיפים ביום במהלך אילוף או כפינוק בהתאם לגודל הכלב. \n \n \n 🌿  רכיבים פעילים:  בשר בקר אמיתי בנעכלות גבוהה וספיגה מיטבית. \n \n \n 🎯  יתרון מרכזי:   חטיף אילוף לכלבים אנדי בטעם בקר  מעניק תגמול מהיר ומדרבן את הכלב ללמידה בכיף. \n \n \n 🩺  התוויה רפואית:  מסייע בשמירה על היגיינת הפה, רעננות הנשימה וחיזוק הלסת בזמן הלעיסה.",
-   "link": "https://closetonature.co.il/product/endi-training-chews-beef-flavor-100g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/endi-chews-beef-flavor-100g-dog-treats-with-peeking-spaniel.jpg",
-   "condition": "new",
-   "price": "15.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70151%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70151",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70151/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/70151/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#70151",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70151%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70151",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D70151%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=70151",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%A6%B4%20%D7%97%D7%98%D7%99%D7%A3%20%D7%90%D7%99%D7%9C%D7%95%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%90%D7%A0%D7%93%D7%99%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%91%D7%A7%D7%A8%20ENDI%20Chews%20Beef%20Flavor%20100g%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "69918",
-   "title": "🔥 צעצוע קונג אאון ברז כיבוי מצפצף לכלב – KONG Eon Fire Hydrant Large",
-   "description": "צעצוע לעיסה לכלב  ומשחק סופר עמיד מבית המותג העולמי KONG, המעוצב בצורת ברז כיבוי צבעוני ומזמין. הצעצוע עשוי מחומרים חזקים במיוחד שנועדו להעניק לכלבכם שעות של הנאה, תוך מתן מענה בריא ויעיל ליצר הלעיסה הטבעי שלו, ללא אבק או חומרים רעילים. \n \n \n 📦  תכולת אריזה:  צעצוע קונג ברז כיבוי מצפצף יחיד (מידה L, גובה כ-16 ס”מ). \n \n \n 🔊  מצפצף ומאתגר:  צפצפה פנימית איכותית המעודדת את יצר המשחק של הכלב לאורך זמן. \n \n \n 💦  צף במים:  מתאים למשחקי יבשה ומשחקי מים כאחד, אידיאלי לבריכה או לים. \n \n \n 🎯  קפיצות לא צפויות:  מבנה ברז הכיבוי יוצר קפיצות משונות המגרות את יצר המרדף.",
-   "link": "https://closetonature.co.il/product/kong-eon-fire-hydrant-dog-toy/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/kong-eon-fire-hydrant-dog-toy-central-white-background.jpg",
-   "condition": "new",
-   "price": "85.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69918%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69918",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69918/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69918/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#69918",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69918%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69918",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69918%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69918",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%94%A5%20%D7%A6%D7%A2%D7%A6%D7%95%D7%A2%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%90%D7%90%D7%95%D7%9F%20%D7%91%D7%A8%D7%96%20%D7%9B%D7%99%D7%91%D7%95%D7%99%20%D7%9E%D7%A6%D7%A4%D7%A6%D7%A3%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20KONG%20Eon%20Fire%20Hydrant%20Large%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "69914",
-   "title": "🌸 חול טופו Kind Pet לחתולים בריח פרחים – קרטון חיסכון 8 שקיות (20 ק”ג) נשטף באסלה 🚽",
-   "description": "חול טופו  איכותי מבית Kind Pet בריח פרחים אביבי ומרענן, המעניק את הפתרון המושלם, הנקי והנוח ביותר להיגיינת ארגז החול של החתול שלכם. הנוסחה המתקדמת מתגבשת בשניות, מנטרלת ריחות לא נעימים באופן טבעי ומאפשרת פינוי מהיר ונוח ישירות לאסלה ללא מאמץ. \n \n \n  📦    תכולה מדויקת:    קרטון חיסכון המכיל 8 שקיות של 2.5 ק”ג כל אחת (סך הכל 20 ק”ג).  \n \n \n  🚽    ידידותי לסביבה:    מתמוסס במים ונשטף באסלה בקלות ובבטחה.  \n \n \n  🚫    ללא אבק:    99.9% נקי מאבק לשמירה על דרכי הנשימה של החתול וניקיון סביבת הארגז.  \n \n \n  🌸    ניחוח פרחים אביבי:    מנטרל ריחות אמוניה קשים ומפיץ ניחוח פרחוני עדין ונעים בבית.  \n \n \n   🚚     שימו לב:     בשל משקל המוצר (20 ק”ג) וגודלו, הוא נשלח כ”חבילה סגורה”. לא ניתן להוסיף מוצרים נוספים לאותה חבילה.",
-   "link": "https://closetonature.co.il/product/kind-pet-tofu-cat-litter-fresh-flower-bulk-carton/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/07/kind-pet-tofu-cat-litter-fresh-flower-bulk-carton-600x600-1.jpg",
-   "condition": "new",
-   "price": "200.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69914%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69914",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69914/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/69914/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#69914",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69914%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69914",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D69914%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=69914",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%8C%B8%20%D7%97%D7%95%D7%9C%20%D7%98%D7%95%D7%A4%D7%95%20Kind%20Pet%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%91%D7%A8%D7%99%D7%97%20%D7%A4%D7%A8%D7%97%D7%99%D7%9D%20%E2%80%93%20%D7%A7%D7%A8%D7%98%D7%95%D7%9F%20%D7%97%D7%99%D7%A1%D7%9B%D7%95%D7%9F%208%20%D7%A9%D7%A7%D7%99%D7%95%D7%AA%20%2820%20%D7%A7%E2%80%9D%D7%92%29%20%D7%A0%D7%A9%D7%98%D7%A3%20%D7%91%D7%90%D7%A1%D7%9C%D7%94%20%F0%9F%9A%BD%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

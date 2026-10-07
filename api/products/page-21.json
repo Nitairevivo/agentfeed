@@ -1,16 +1,310 @@
 {
  "page": 21,
- "pages": 100,
- "total": 4994,
+ "pages": 101,
+ "total": 5001,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-22.json",
  "products": [
+  {
+   "id": "4600",
+   "title": "יופ שמפו לכלבים נגד ריח 250 מ”ל – Yuup Shampoo",
+   "description": "יופ שמפו לכלבים וחתולים בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%a9%d7%9e%d7%a4%d7%95-%d7%a0%d7%92%d7%93-%d7%a8%d7%99%d7%97-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%A9%D7%9E%D7%A4%D7%95-%D7%A0%D7%92%D7%93-%D7%A8%D7%99%D7%97-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4600%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4600",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4600/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4600/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#4600",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4600%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4600",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4600%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4600",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%A0%D7%92%D7%93%20%D7%A8%D7%99%D7%97%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4599",
+   "title": "יופ שמפו לכלבים לפרווה לבנה 250-500 מ”ל – Yuup Shampoo",
+   "description": "יופ שמפו לכלבים וחתולים בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%a4%d7%a8%d7%95%d7%95%d7%94-%d7%9c%d7%91%d7%a0%d7%94-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%A4%D7%A8%D7%95%D7%95%D7%94-%D7%9C%D7%91%D7%A0%D7%94-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4599%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4599",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4599/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4599/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#4599",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4599%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4599",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4599%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4599",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9C%D7%A4%D7%A8%D7%95%D7%95%D7%94%20%D7%9C%D7%91%D7%A0%D7%94%20250-500%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4598",
+   "title": "יופ שמפו לכלבים לפרווה ארוכה 250 מ”ל – Yuup Shampoo",
+   "description": "יופ שמפו לכלבים וחתולים  בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%a4%d7%a8%d7%95%d7%95%d7%94-%d7%90%d7%a8%d7%95%d7%9b%d7%94-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%A4%D7%A8%D7%95%D7%95%D7%94-%D7%90%D7%A8%D7%95%D7%9B%D7%94-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4598%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4598",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4598/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4598/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#4598",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4598%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4598",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4598%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4598",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9C%D7%A4%D7%A8%D7%95%D7%95%D7%94%20%D7%90%D7%A8%D7%95%D7%9B%D7%94%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4597",
+   "title": "יופ שמפו לכלבים לנפח 250 מ”ל – Yuup Shampoo",
+   "description": "יופ שמפו לכלבים וחתולים בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%a0%d7%a4%d7%97-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9C%D7%A0%D7%A4%D7%97-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4597%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4597",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4597/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4597/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#4597",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4597%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4597",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4597%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4597",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9C%D7%A0%D7%A4%D7%97%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4596",
+   "title": "יופ שמפו לכל סוגי הפרווה 250 מ”ל – Yuup Shampoo",
+   "description": "יופ שמפו לכלבים וחתולים בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%9b%d7%9c-%d7%a1%d7%95%d7%92%d7%99-%d7%94%d7%a4%d7%a8%d7%95%d7%95%d7%94-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%9B%D7%9C-%D7%A1%D7%95%D7%92%D7%99-%D7%94%D7%A4%D7%A8%D7%95%D7%95%D7%94-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4596%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4596",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4596/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4596/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4596",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4596%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4596",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4596%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4596",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%20%D7%A1%D7%95%D7%92%D7%99%20%D7%94%D7%A4%D7%A8%D7%95%D7%95%D7%94%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4595",
+   "title": "יופ מרכך 250 מ”ל – Yuup Conditioner",
+   "description": "יופ מרכך לכלבים וחתולים בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%9e%d7%a8%d7%9b%d7%9a-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%9E%D7%A8%D7%9B%D7%9A-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4595%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4595",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4595/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4595/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4595",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4595%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4595",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4595%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4595",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%9E%D7%A8%D7%9B%D7%9A%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Conditioner%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4594",
+   "title": "שמפו סרג’נט לכלב חלב ודבש 532 מ”ל",
+   "description": "שמפו סרג’נט לכלב \n חלב ודבש \n 532 מ”ל",
+   "link": "https://closetonature.co.il/product/%d7%a9%d7%9e%d7%a4%d7%95-%d7%a1%d7%a8%d7%92%d7%a0%d7%98-%d7%97%d7%9c%d7%91-%d7%95%d7%93%d7%91%d7%a9-532-%d7%9e%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A9%D7%9E%D7%A4%D7%95-%D7%A1%D7%A8%D7%92%D7%A0%D7%98-%D7%97%D7%9C%D7%91-%D7%95%D7%93%D7%91%D7%A9-532-%D7%9E%D7%9C.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "59.90",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4594%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4594",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4594/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4594/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4594",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4594%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4594",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4594%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4594",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%9E%D7%A4%D7%95%20%D7%A1%D7%A8%D7%92%E2%80%99%D7%A0%D7%98%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%97%D7%9C%D7%91%20%D7%95%D7%93%D7%91%D7%A9%20532%20%D7%9E%E2%80%9D%D7%9C%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "4591",
    "title": "טרופיקלין שמפו לכלב קוקר & עץ התה TropiClean Shampoo Oatmeal & Tea Tree",
    "description": "טרופיקלין שמפו לכלב קוקר & עץ התה TropiClean Shampoo Oatmeal & Tea Tree",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%a7%d7%95%d7%a7%d7%a8-%d7%a2%d7%a5-%d7%94%d7%aa%d7%94-tropiclean-shampoo-oatmeal-tea-tree/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-קוקר-עץ-התה-TropiClean-Shampoo-Oatmeal-Tea-Tree.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%A9%D7%9E%D7%A4%D7%95-%D7%A7%D7%95%D7%A7%D7%A8-%D7%A2%D7%A5-%D7%94%D7%AA%D7%94-TropiClean-Shampoo-Oatmeal-Tea-Tree.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -52,7 +346,7 @@
    "title": "טרופיקלין שמפו פירות יער וקוקוס Tropiclean Shampoo Berry & Coconut",
    "description": "טרופיקלין שמפו לכלב פירות יער וקוקוס Tropiclean Shampoo Berry & Coconut",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%a4%d7%99%d7%a8%d7%95%d7%aa-%d7%99%d7%a2%d7%a8-%d7%95%d7%a7%d7%95%d7%a7%d7%95%d7%a1-tropiclean-shampoo-berry-coconu/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-פירות-יער-וקוקוס-Tropiclean-Shampoo-Berry-Coconut.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%A9%D7%9E%D7%A4%D7%95-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%A2%D7%A8-%D7%95%D7%A7%D7%95%D7%A7%D7%95%D7%A1-Tropiclean-Shampoo-Berry-Coconut.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -94,7 +388,7 @@
    "title": "טרופיקלין שמפו ליים וקוקוס Tropiclean Shampoo Lime & Coconut",
    "description": "טרופיקלין שמפו לכלבים ליים וקוקוס Tropiclean Shampoo Lime & Coconut",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%99%d7%99%d7%9d-%d7%95%d7%a7%d7%95%d7%a7%d7%95%d7%a1-tropiclean-shampoo-lime-coconut/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-ליים-וקוקוס-Tropiclean-Shampoo-Lime-Coconut.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%99%D7%99%D7%9D-%D7%95%D7%A7%D7%95%D7%A7%D7%95%D7%A1-Tropiclean-Shampoo-Lime-Coconut.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -136,7 +430,7 @@
    "title": "טרופיקלין שמפו לגורים קוקוס עדין Tropiclean Puppy Shampoo Gentle Coconut",
    "description": "טרופיקלין שמפו לגורים קוקוס עדין Tropiclean Puppy Shampoo Gentle Coconut",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%a7%d7%95%d7%a7%d7%95%d7%a1-%d7%a2%d7%93%d7%99%d7%9f-tropiclean-puppy-shampoo-ge/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-לגורים-קוקוס-עדין-Tropiclean-Puppy-Shampoo-Gentle-Coconut.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%A7%D7%95%D7%A7%D7%95%D7%A1-%D7%A2%D7%93%D7%99%D7%9F-Tropiclean-Puppy-Shampoo-Gentle-Coconut.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -178,7 +472,7 @@
    "title": "טרופיקלין מרכך קיווי & חמאת קקאו TropiClean Conditioner Kiwi & Cocoa Butter",
    "description": "טרופיקלין מרכך לכלבים קיווי & חמאת קקאו TropiClean Conditioner Kiwi & Cocoa Butter",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%9e%d7%a8%d7%9b%d7%9a-%d7%a7%d7%99%d7%95%d7%95%d7%99-%d7%97%d7%9e%d7%90%d7%aa-%d7%a7%d7%a7%d7%90%d7%95-tropiclean-conditioner-kiwi-cocoa-b/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-מרכך-קיווי-חמאת-קקאו-TropiClean-Conditioner-Kiwi-Cocoa-Butter.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%9E%D7%A8%D7%9B%D7%9A-%D7%A7%D7%99%D7%95%D7%95%D7%99-%D7%97%D7%9E%D7%90%D7%AA-%D7%A7%D7%A7%D7%90%D7%95-TropiClean-Conditioner-Kiwi-Cocoa-Butter.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -220,7 +514,7 @@
    "title": "טרופיקלין מרכך ליים & חמאת קקאו TropiClean Conditioner Lime & Cocoa Butter",
    "description": "טרופיקלין מרכך לכלב ליים & חמאת קקאו TropiClean Conditioner Lime & Cocoa Butter",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%9e%d7%a8%d7%9b%d7%9a-%d7%9c%d7%99%d7%99%d7%9d-%d7%97%d7%9e%d7%90%d7%aa-%d7%a7%d7%a7%d7%90%d7%95-tropiclean-conditioner-lime-cocoa-butter/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-מרכך-ליים-חמאת-קקאו-TropiClean-Conditioner-Lime-Cocoa-Butter.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%9E%D7%A8%D7%9B%D7%9A-%D7%9C%D7%99%D7%99%D7%9D-%D7%97%D7%9E%D7%90%D7%AA-%D7%A7%D7%A7%D7%90%D7%95-TropiClean-Conditioner-Lime-Cocoa-Butter.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -262,7 +556,7 @@
    "title": "טרופיקלין 2 ב-1 פאפאיה וקוקוס Tropiclean 2 in 1 Papaya & Coconut",
    "description": "טרופיקלין 2 ב-1 פאפאיה וקוקוס Tropiclean 2 in 1 Papaya & Coconut",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-2-%d7%91-1-%d7%a4%d7%90%d7%a4%d7%90%d7%99%d7%94-%d7%95%d7%a7%d7%95%d7%a7%d7%95%d7%a1-tropiclean-2-in-1-papaya-coconut/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-2-ב-1-פאפאיה-וקוקוס-Tropiclean-2-in-1-Papaya-Coconut.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-2-%D7%91-1-%D7%A4%D7%90%D7%A4%D7%90%D7%99%D7%94-%D7%95%D7%A7%D7%95%D7%A7%D7%95%D7%A1-Tropiclean-2-in-1-Papaya-Coconut.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -304,7 +598,7 @@
    "title": "טרופיקלין שמפו לכלבים אופוהי וקוקוס Tropiclean Shampoo Awapuhi & Coconut",
    "description": "טרופיקלין שמפו לכלבים אופוהי וקוקוס Tropiclean Shampoo Awapuhi & Coconut",
    "link": "https://closetonature.co.il/product/%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c%d7%99%d7%9f-%d7%a9%d7%9e%d7%a4%d7%95-%d7%90%d7%95%d7%a4%d7%95%d7%94%d7%99-%d7%95%d7%a7%d7%95%d7%a7%d7%95%d7%a1-tropiclean-shampoo-awapuhi-coconut/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טרופיקלין-שמפו-אופוהי-וקוקוס-Tropiclean-Shampoo-Awapuhi-Coconut.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-%D7%A9%D7%9E%D7%A4%D7%95-%D7%90%D7%95%D7%A4%D7%95%D7%94%D7%99-%D7%95%D7%A7%D7%95%D7%A7%D7%95%D7%A1-Tropiclean-Shampoo-Awapuhi-Coconut.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -346,7 +640,7 @@
    "title": "ביו גרום שמפו אל-דמע לכלבים בעלי פרווה שחורה / כהה",
    "description": "שמפו לכלבים  שחורים אל-דמע ברמה הגבוהה ביותר, המיועד לפרווה שחורה / כהה. על בסיס שמן קוקוס, מועשר בחלבונים. מבטיח שהפרווה תהיה נקיה, חלקה, וקלה לסידור יותר אי פעם בעבר. שמן הקוקוס והחלבון נותנים נפח וחיים לפרווה ומונעים התייבשות. \n נפח: 355 מ”ל.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%99%d7%95-%d7%92%d7%a8%d7%95%d7%9d-%d7%a9%d7%9e%d7%a4%d7%95-%d7%90%d7%9c-%d7%93%d7%9e%d7%a2-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%a2%d7%9c%d7%99-%d7%a4%d7%a8%d7%95%d7%95%d7%94-%d7%a9/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ביו-גרום-שמפו-אל-דמע-לכלבים-בעלי-פרווה-שחורה-כהה-Ultra-Black-Color-Enhanced-Shampoo-ביו-גרום-Bio-Groom.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%99%D7%95-%D7%92%D7%A8%D7%95%D7%9D-%D7%A9%D7%9E%D7%A4%D7%95-%D7%90%D7%9C-%D7%93%D7%9E%D7%A2-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%A2%D7%9C%D7%99-%D7%A4%D7%A8%D7%95%D7%95%D7%94-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%9B%D7%94%D7%94-Ultra-Black-Color-Enhanced-Shampoo-%D7%91%D7%99%D7%95-%D7%92%D7%A8%D7%95%D7%9D-Bio-Groom.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -388,7 +682,7 @@
    "title": "ביו גרום שמפו אל-דמע אקסטרה גוף לכלבים",
    "description": "שמפו טבעי מרוכז ועדין, ברמה הגבוהה ביותר, על בסיס תמציות של צמחים בוטניים מיוחדים. שמפו מיוחד לכלבים בעלי פרווה נפחית, ארוכה ופרווה כפולה. מפחית נשירה. שמפו מיוחד שנועד להחיות ולשפר את העור והפרווה.שמפו שגם ינקה, גם ירכך וגם ישאיר ריח מדהים של רעננות. מבטיח שהפרווה תהיה נקיה, חלקה, וקלה לסידור יותר מאי פעם בעבר. מונע התייבשות ומונע ריחות רעים. \n נפח: 355 מ”ל.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%99%d7%95-%d7%92%d7%a8%d7%95%d7%9d-%d7%a9%d7%9e%d7%a4%d7%95-%d7%90%d7%9c-%d7%93%d7%9e%d7%a2-%d7%90%d7%a7%d7%a1%d7%98%d7%a8%d7%94-%d7%92%d7%95%d7%a3-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-extr/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ביו-גרום-שמפו-אל-דמע-אקסטרה-גוף-לכלבים-Extra-Body-Tearless-Shampoo-ביו-גרום-Bio-Groom.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%99%D7%95-%D7%92%D7%A8%D7%95%D7%9D-%D7%A9%D7%9E%D7%A4%D7%95-%D7%90%D7%9C-%D7%93%D7%9E%D7%A2-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%94-%D7%92%D7%95%D7%A3-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-Extra-Body-Tearless-Shampoo-%D7%91%D7%99%D7%95-%D7%92%D7%A8%D7%95%D7%9D-Bio-Groom.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -430,7 +724,7 @@
    "title": "ביו גרום שמפו אל-דמע טבעי לכלבים",
    "description": "שמפו טבעי מרוכז ועדין, ברמה הגבוהה ביותר, על בסיס תמציות של צמחים בוטניים מיוחדים כגוןן: אלוורה, קמומיל, רוזמרין, למון גראס, אכילאה וצמח המנטה שנועדו להחיות ולשפר את העור והפרווה. מבטיח שהפרווה תהיה נקיה, חלקה, וקלה לסידור יותר מאי פעם בעבר. שמן הקוקוס והלנולין נותנים נפח וחיים לפרווה ומונעים התייבשות ומונעים ריחות. \n נפח:  355 מ”ל.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%99%d7%95-%d7%92%d7%a8%d7%95%d7%9d-%d7%a9%d7%9e%d7%a4%d7%95-%d7%90%d7%9c-%d7%93%d7%9e%d7%a2-%d7%98%d7%91%d7%a2%d7%99-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-herbal-groom-tear-free-shampoo/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ביו-גרום-שמפו-אל-דמע-טבעי-לכלבים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%99%D7%95-%D7%92%D7%A8%D7%95%D7%9D-%D7%A9%D7%9E%D7%A4%D7%95-%D7%90%D7%9C-%D7%93%D7%9E%D7%A2-%D7%98%D7%91%D7%A2%D7%99-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -472,7 +766,7 @@
    "title": "ביו גרום שמפו עדין ונטול סבון לכלבים Groom’n Fresh",
    "description": "Groom’n Fresh – שמפו עדין ונטול סבון, המנטרל ביעילות ריחות לא נעימים אצל חיית הבית. שומר על השמנים החיוניים לפרווה והעור, ומכיל קונדישינר המותיר פרווה חלקה, נעימה וריחנית. מבטיח שמירה על פרווה נקיה, חלקה, וקלה לסידור יותר מאי-פעם בעבר. \n נפח: 355 מ”ל",
    "link": "https://closetonature.co.il/product/%d7%91%d7%99%d7%95-%d7%92%d7%a8%d7%95%d7%9d-%d7%a9%d7%9e%d7%a4%d7%95-%d7%a2%d7%93%d7%99%d7%9f-%d7%95%d7%a0%d7%98%d7%95%d7%9c-%d7%a1%d7%91%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-groom/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ביו-גרום-שמפו-עדין-ונטול-סבון-לכלבים-Groomn-Fresh.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%99%D7%95-%D7%92%D7%A8%D7%95%D7%9D-%D7%A9%D7%9E%D7%A4%D7%95-%D7%A2%D7%93%D7%99%D7%9F-%D7%95%D7%A0%D7%98%D7%95%D7%9C-%D7%A1%D7%91%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-Groomn-Fresh.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -514,7 +808,7 @@
    "title": "פרונטליין Frontline – ספריי הדברה לכלב ולחתול נגד פרעושים וקרציות – 250 מ”ל",
    "description": "פרונטליין תרסיס לכלבים וחתולים 250 מ”ל \nספריי להדברה ומניעת פרעושים, קרציות וכינים על גוף הכלב ובסביבתו. תרסיס  פרונטליין  מיועד לכלבים וחתולים מגיל יומיים. מעניק הגנה נגד הדבקה בפרעושים של עד שלושה חודשים בכלבים וחודשיים בחתולים. הגנה בפני קרציות למשך חודש ימים. תכשירי  פרונטליין  יעילים נגד קשת רחבה של טפילים. \n   תוקף: 08/26",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%a0%d7%98%d7%9c%d7%99%d7%99%d7%9f-frontline-%d7%a1%d7%a4%d7%a8%d7%99%d7%99-%d7%94%d7%93%d7%91%d7%a8%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%95%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a0/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הדברה.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%93%D7%91%D7%A8%D7%94.jpg?fit=1080%2C1080&ssl=1",
    "condition": "new",
    "price": "139.00",
    "currency": "ILS",
@@ -556,7 +850,7 @@
    "title": "ספריי טבעי קוטל פרעושים וקרציות 946 מ”ל טרופיקלין Tropiclean",
    "description": "ספריי טבעי להדברת פרעושים וקרציות + ביצים, מתאים לכלבים וחתולים. מכיל ריכוז של למון גראס ושמן שומשום. \n המוצר הוא תרסיס סביבתי בלבד!",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%a4%d7%a8%d7%99%d7%99-%d7%98%d7%91%d7%a2%d7%99-%d7%a7%d7%95%d7%98%d7%9c-%d7%a4%d7%a8%d7%a2%d7%95%d7%a9%d7%99%d7%9d-%d7%95%d7%a7%d7%a8%d7%a6%d7%99%d7%95%d7%aa-946-%d7%9e%d7%9c-%d7%98%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ספריי-טבעי-קוטל-פרעושים-וקרציות-946-מל-טרופיקלין-Tropiclean.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%A4%D7%A8%D7%99%D7%99-%D7%98%D7%91%D7%A2%D7%99-%D7%A7%D7%95%D7%98%D7%9C-%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%95%D7%A7%D7%A8%D7%A6%D7%99%D7%95%D7%AA-946-%D7%9E%D7%9C-%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F-Tropiclean.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -598,7 +892,7 @@
    "title": "חטיף דוג-פסט מיני קלציום עוף 55 גרם",
    "description": "חטיף דוג פסט מיני קלציום ועוף \n מיועד לכלבים מגזע קטן \n 100% טבעי \n 55 גרם בשקית..בתיאבון",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%93%d7%95%d7%92-%d7%a4%d7%a1%d7%98-%d7%9e%d7%99%d7%a0%d7%99-%d7%a7%d7%9c%d7%a6%d7%99%d7%95%d7%9d-%d7%a2%d7%95%d7%a3-55-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-דוג-פסט-מיני-קלציום-עוף-55-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%93%D7%95%D7%92-%D7%A4%D7%A1%D7%98-%D7%9E%D7%99%D7%A0%D7%99-%D7%A7%D7%9C%D7%A6%D7%99%D7%95%D7%9D-%D7%A2%D7%95%D7%A3-55-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "13.00",
    "currency": "ILS",
@@ -640,7 +934,7 @@
    "title": "חטיף דוג-פסט מיני עצם ברווז לכלבים קטנים 55 גרם",
    "description": "חטיף דוג פסט מיני ברווז 100% טבעי \n מיועד לכלבים מגזע קטן ולגורים \n 55 גרם בשקית.. בתיאבון",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%93%d7%95%d7%92-%d7%a4%d7%a1%d7%98-%d7%9e%d7%99%d7%a0%d7%99-%d7%a2%d7%a6%d7%9d-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-דוג-פסט-מיני-עצם-ברווז-לכלבים-קטנים-55-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%93%D7%95%D7%92-%D7%A4%D7%A1%D7%98-%D7%9E%D7%99%D7%A0%D7%99-%D7%A2%D7%A6%D7%9D-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D-55-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "13.00",
    "currency": "ILS",
@@ -680,9 +974,9 @@
   {
    "id": "4568",
    "title": "חטיף דוג-פסט מדליוני כבש לכלב קטן 55 גרם",
-   "description": "חטיף מעולה דוג פסט מדליוני כבש \n מיועד לכלבים מגזע קטן \n 100% טבעי  \n 55 גרם בשקית.. בתיאבון",
+   "description": "חטיף מעולה דוג פסט מדליוני כבש \n מיועד לכלבים מגזע קטן \n 100% טבעי \n 55 גרם בשקית.. בתיאבון",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%93%d7%95%d7%92-%d7%a4%d7%a1%d7%98-%d7%9e%d7%93%d7%9c%d7%99%d7%95%d7%a0%d7%99-%d7%9b%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a7%d7%98%d7%9f-55-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-דוג-פסט-מדליוני-כבש-לכלב-קטן-55-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%93%D7%95%D7%92-%D7%A4%D7%A1%D7%98-%D7%9E%D7%93%D7%9C%D7%99%D7%95%D7%A0%D7%99-%D7%9B%D7%91%D7%A9-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A7%D7%98%D7%9F-55-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "13.00",
    "currency": "ILS",
@@ -724,7 +1018,7 @@
    "title": "חטיף לטס בייט-נגיסוני טונה",
    "description": "חטיף איכותי לחתולים לטס בייט בטעם טונה במשקל 80 גרם, חטיף לטס בייט עשוי מעוף וטונה, בעל טעימות מצוינת, מתאים לחתולים בשלבי החיים, מיועד לפינוק וכמזון משלים לחתולים. חטיפי לטס בייט מגיעים בשקית עם פס אטימות לשמירה על טריות המוצר.",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%98%d7%a1-%d7%91%d7%99%d7%99%d7%98-%d7%a0%d7%92%d7%99%d7%a1%d7%95%d7%a0%d7%99-%d7%98%d7%95%d7%a0%d7%94/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-לטס-בייט-נגיסוני-טונה.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%98%D7%A1-%D7%91%D7%99%D7%99%D7%98-%D7%A0%D7%92%D7%99%D7%A1%D7%95%D7%A0%D7%99-%D7%98%D7%95%D7%A0%D7%94.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "19.90",
    "currency": "ILS",
@@ -766,7 +1060,7 @@
    "title": "חטיף לטס בייט – סנדוויץ עוף לחתול",
    "description": "חטיף איכותי לחתולים לטס בייט בטעם עוף במשקל 80 גרם, חטיף לטס בייט עשוי מעוף, בעל טעימות מצוינת, מתאים לחתולים בכל בשלבי החיים, מיועד לפינוק וכמזון משלים לחתולים. חטיפי לטס בייט מגיעים בשקית עם פס אטימות לשמירה על טריות המוצר.",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9c%d7%98%d7%a1-%d7%91%d7%99%d7%99%d7%98-%d7%a1%d7%a0%d7%93%d7%95%d7%95%d7%99%d7%a5-%d7%a2%d7%95%d7%a3-%d7%9c%d7%97%d7%aa%d7%95%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-לטס-בייט-סנדוויץ-עוף-לחתול.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%98%D7%A1-%D7%91%D7%99%D7%99%D7%98-%D7%A1%D7%A0%D7%93%D7%95%D7%95%D7%99%D7%A5-%D7%A2%D7%95%D7%A3-%D7%9C%D7%97%D7%AA%D7%95%D7%9C.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "19.90",
    "currency": "ILS",
@@ -808,7 +1102,7 @@
    "title": "פרמיו בקר וכבד 15 גרם",
    "description": "פרמיו בקר וכבד 15 גרם",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%9e%d7%99%d7%95-%d7%91%d7%a7%d7%a8-%d7%95%d7%9b%d7%91%d7%93-15-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרמיו-בקר-וכבד-15-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%9E%D7%99%D7%95-%D7%91%D7%A7%D7%A8-%D7%95%D7%9B%D7%91%D7%93-15-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "10.00",
    "currency": "ILS",
@@ -850,7 +1144,7 @@
    "title": "פרמיו הודו וכבש 15 גרם",
    "description": "פרמיו הודו וכבש 15 גרם",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%9e%d7%99%d7%95-%d7%94%d7%95%d7%93%d7%95-%d7%95%d7%9b%d7%91%d7%a9-15-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרמיו-הודו-וכבש-15-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%9E%D7%99%D7%95-%D7%94%D7%95%D7%93%D7%95-%D7%95%D7%9B%D7%91%D7%A9-15-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "10.00",
    "currency": "ILS",
@@ -892,7 +1186,7 @@
    "title": "חטיף כריות לחתולים פרמיו – PREMIO במשקל 60 גר’ טעמים שונים",
    "description": "סדרת חטיפי הכריות הממולאות של פרמיו לא משאירה אף חתול אדיש, החטיף טעים מאוד ומכיל רכיבים איכותיים במיוחד שמסייעים לשפר את איכות החיים של החתול. בליין מוצרי החברה ניתן למצוא חטיפים דנטליים לחתולים, לגורים, בתופסת קטניפ, מולטי וטימין, בטעם סלמון, למניעת כדורי פרווה, לבריאות המפרקים ועוד. החטיף עשוי משתי שכבות, חלקו החיצוני פריך וקרנצ’י וחלקו הפנימי מכיל קרם עדין בטעמים מפנקים במיוחד.",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9b%d7%a8%d7%99%d7%95%d7%aa-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a4%d7%a8%d7%9e%d7%99%d7%95-premio-%d7%91%d7%9e%d7%a9%d7%a7%d7%9c-60-%d7%92%d7%a8-%d7%98%d7%a2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-כריות-לחתולים-פרמיו-PREMIO-במשקל-60-גר-טעמים-שונים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%9B%D7%A8%D7%99%D7%95%D7%AA-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A4%D7%A8%D7%9E%D7%99%D7%95-PREMIO-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-60-%D7%92%D7%A8-%D7%98%D7%A2%D7%9E%D7%99%D7%9D-%D7%A9%D7%95%D7%A0%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "15.00",
    "currency": "ILS",
@@ -934,7 +1228,7 @@
    "title": "חטיף כריות קטניפ לחתול דנטלי Premio",
    "description": "הענקת חטיפים לחתולים הם דרך מצוינת לשפר את אורח החיים של החתול מבחינה בריאותית, לעודד אותו לשנות את התנהגותו. החטיף יכול לשמש כהענקת פרס או פינוק משמח עבורו. הקטניפ הוא צמח ייחודי ממשפחת הנענע והמנטה, והוא מכיל תרכובת ארומטית שחתולים אוהבים מאוד: נפטלקטון. התרכובת חודרת לרקמת האף של החתול וגורמת לו לתחושת אופוריה נעימה.הקטניפ אינו מזיק ואינו גורם לנזק כלשהו לחתול. פרמיו חטיף לחתול מועשר בכל הרכיבים הטובים ביותר עבור חתולכם: בשר ומוצרי בשר, דגנים, טאורין ויטמינים מסוג A ו-D ובקטניפ. אין להאכיל כמזון עיקרי, אלא אך ורק כמזון משלים.",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%9b%d7%a8%d7%99%d7%95%d7%aa-%d7%a7%d7%98%d7%a0%d7%99%d7%a4-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%93%d7%a0%d7%98%d7%9c%d7%99-premio/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/חטיף-כריות-קטניפ-לחתול-דנטלי-Premio.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%97%D7%98%D7%99%D7%A3-%D7%9B%D7%A8%D7%99%D7%95%D7%AA-%D7%A7%D7%98%D7%A0%D7%99%D7%A4-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%93%D7%A0%D7%98%D7%9C%D7%99-Premio.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "15.00",
    "currency": "ILS",
@@ -976,7 +1270,7 @@
    "title": "מונג אוכל רפואי לחתולים וט סולושן דיאבטיק 1.5 ק”ג Monge",
    "description": "סוכרת (Diabetes Mellitus) אצל חתולים היא מצב רפואי הדורש ניהול מדויק, והתזונה היא המפתח להצלחה.  מונג’ וטסולושן דיאבטיק (Monge VetSolution Diabetic)  הוא מזון יבש דיאטטי, שפותח במיוחד כדי לסייע בבקרת רמות הגלוקוז בדם לאחר הארוחות, ולתמוך בהורדת המשקל במקרים של השמנת יתר המלווה את המחלה. מזון זה, המגיע באריזת 1.5 ק”ג, מכיל נוסחה מדעית ייחודית, המתבססת על עקרונות תזונתיים חיוניים.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%95%d7%98-%d7%a1%d7%95%d7%9c%d7%95%d7%a9%d7%9f-%d7%93%d7%99%d7%90%d7%91%d7%98%d7%99%d7%a7-%d7%90%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-וט-סולושן-דיאבטיק-אוכל-רפואי-לחתולים-1.5-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%98-%D7%A1%D7%95%D7%9C%D7%95%D7%A9%D7%9F-%D7%93%D7%99%D7%90%D7%91%D7%98%D7%99%D7%A7-%D7%90%D7%95%D7%9B%D7%9C-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "94.00",
    "currency": "ILS",
@@ -1018,7 +1312,7 @@
    "title": "מונג’-מזון לחתולים וט סולושן דרמטוזיס לבעיות עור 1.5 ק”ג מונג’ Monge",
    "description": "מונג וט דרמטוזיס לחתולים MONGE VETSOLUTION DERMATOSIS FELINE הוא הזנה דיאטטית מלאה לחתולים שנוסחה לתמיכה בתפקוד העור במקרה של דרמטוזיס ואובדן יתר של שיער.   \n מכיל תרכיז מיץ מלון לנטרול רדיקלים חופשיים, אלוורה לתמיכה בעור ו-Xylo-oligosaccharides (XOS) לאבטחת המיקרוביוטה של ​​המעיים.  \n הפורמולה מאופיינת ברמה גבוהה של חומצה לינולאית (LA), סכום של חומצה איקוספנטאיונית (EPA) וחומצה דוקוסהקסאונית (DHA).  \n   Fit-aroma: טכנולוגיית תהליך מתקדמת (מרכיב פיטו, אלוורה, מצופה בחומצות שומן ארומטיות)",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%95%d7%98-%d7%a1%d7%95%d7%9c%d7%95%d7%a9%d7%9f-%d7%93%d7%a8%d7%9e%d7%98%d7%95%d7%96%d7%99%d7%a1-%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-וט-סולושן-דרמטוזיס-לבעיות-עור-1.5-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%98-%D7%A1%D7%95%D7%9C%D7%95%D7%A9%D7%9F-%D7%93%D7%A8%D7%9E%D7%98%D7%95%D7%96%D7%99%D7%A1-%D7%9C%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%A2%D7%95%D7%A8-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "99.00",
    "currency": "ILS",
@@ -1060,7 +1354,7 @@
    "title": "מונג’ וט סולושן אינטסטינל לחתול 1.5 ק”ג Monge VetSolution Gastrointestinal Feline 🐱 קיבה ועיכול 🏥",
    "description": "פתרון רפואי מתקדם לחתולים עם רגישות במערכת העיכול!  🩺✨ \n מונג’ וט סולושן גסטרו-אינטסטינל הוא מזון דיאטטי מלא ורפואי, שפותח במיוחד עבור חתולים הסובלים מהפרעות ספיגה במעיים, דלקות קיבה או אי-ספיקת לבלב. הנוסחה הייחודית של Monge משלבת רכיבים קלים לעיכול יחד עם טכנולוגיות מתקדמות לשמירה על בריאות המעי. \n \n \n  שיקום מערכת העיכול:  נוסחה דלת שומן המקלה על הלבלב והקיבה. 🍃 \n \n \n  טכנולוגיית Fit-aroma:  מכילה תמצית ערמון סוס לשיפור תפקוד המעיים. 🌰 \n \n \n  פרוביוטיקה מחוזקת:  להחזרת האיזון לחיידקים הידידותיים במערכת העיכול. ✅ \n \n \n  ללא דגנים (Grain-Free):  מונע רגישויות ותגובות אלרגיות מיותרות. 🚫🌾 \n \n \n  משקל:  1.5 ק”ג  טעם:  חזיר וטפיוקה (פרוטאין ייחודי וקל לעיכול) \n למה כדאי לבחור ב-Monge VetSolution Gastrointestinal?  לחצו למידע המלא ולמרכיבים",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%95%d7%98-%d7%a1%d7%95%d7%9c%d7%95%d7%a9%d7%9f-%d7%90%d7%99%d7%a0%d7%98%d7%a1%d7%98%d7%99%d7%a0%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-וט-סולושן-אינטסטינל-לעיכול-1.5-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%98-%D7%A1%D7%95%D7%9C%D7%95%D7%A9%D7%9F-%D7%90%D7%99%D7%A0%D7%98%D7%A1%D7%98%D7%99%D7%A0%D7%9C-%D7%9C%D7%A2%D7%99%D7%9B%D7%95%D7%9C-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "87.00",
    "currency": "ILS",
@@ -1102,7 +1396,7 @@
    "title": "🐈 מזון רפואי לחתולים מונג’ וטסולושן רנל 1.5 ק”ג Monge VetSolution Renal Chicken",
    "description": "מזון רפואי לחתולים מונג’ וטסולושן רנל  הוא פורמולה רפואית מתקדמת מבית Monge לתמיכה בתפקוד הכליות במקרים של אי ספיקת כליות כרונית. התזונה הייחודית מציעה פתרון מלא המשלב חלבון איכותי מעוף עם רמות זרחן נמוכות, מסייעת בחיזוק מערכות הגוף ושמירה על הבריאות הכללית. פתרון מושלם לתמיכה יומיומית בריאה וטעימה לחתול שלכם. \n \n \n 📦  תכולה מדויקת:  1.5 ק”ג בשקית. \n \n \n 🛠️  מינון יומי מהיר:  20-60 גרם ביום בהתאם למשקל החתול ומצבו הבריאותי, כפי שמומלץ על ידי וטרינר. \n \n \n 🌿  רכיבים פעילים:  עוף טרי כחלבון מרכזי, אנשובי, ותמצית תה ירוק לתמיכה במערכת העיכול. \n \n \n 🎯  יתרון מרכזי:   מזון רפואי לחתולים מונג’ וטסולושן רנל  מציע תזונה מלאה לתמיכה בתפקוד הכליות, מונע מחסור תזונתי ומדרבן את החתול לאכילה. \n \n \n 🩺  התוויה רפואית:  פורמולה ייחודית לתמיכה במצבי אי ספיקת כליות כרונית, עם זרחן נמוך וחלבון איכותי.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%95%d7%98-%d7%a1%d7%95%d7%9c%d7%95%d7%a9%d7%9f-%d7%a8%d7%a0%d7%9c-%d7%9c%d7%91%d7%a2%d7%99%d7%95%d7%aa/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לחתולים-וט-סולושן-רנל-לבעיות-כליות-1.5-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%98-%D7%A1%D7%95%D7%9C%D7%95%D7%A9%D7%9F-%D7%A8%D7%A0%D7%9C-%D7%9C%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%9B%D7%9C%D7%99%D7%95%D7%AA-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "99.00",
    "currency": "ILS",
@@ -1144,7 +1438,7 @@
    "title": "מונג’-מזון לגורי חתולים נטורל קיטן 1.5 ק”ג מונג’ Monge",
    "description": "אוכל מלא לגורי חתולים על בסיס בשר עוף איכותי עם טעם נפלא. תכולת שומן וחלבון המתאימה לרמת ההתפתחות של גורי חתולים. מכיל כמות דגנים מופחתת וללא תפוחי אדמה. מתכון ייחודי פרי פיתוח של חוקרי מזון איטלקיים. בתוספת פרוביוטיקה מתקדמת לחיזוק חיידקי המעי וסידן וזרחן לבניית מערכת השלד והעצמות. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Kitten Rich in Chicken.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a0%d7%98%d7%95%d7%a8%d7%9c-%d7%a7%d7%99%d7%98%d7%9f-1-5-%d7%a7%d7%92-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונג-מזון-לגורי-חתולים-נטורל-קיטן-1.5-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%92-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A0%D7%98%D7%95%D7%A8%D7%9C-%D7%A7%D7%99%D7%98%D7%9F-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "75.00",
    "currency": "ILS",
@@ -1186,7 +1480,7 @@
    "title": "מונג יורינרי – מזון לחתולים לבעיות בדרכי השתן והכליות 1.5 ק”ג Monge",
    "description": "אוכל מלא לחתולים בוגרים הסובלים מבעיות בדרכי השתן והכליות על בסיס בשר עוף איכותי עם טעם נפלא. מכיל כמות דגנים מופחתת וללא תפוחי אדמה. מתכון ייחודי פרי פיתוח של חוקרי מזון איטלקיים. בתוספת פרוביוטיקה מתקדמת אשר מאזנת את רמת חומציות השתן ורמות המגנזיום. אוכל סופר פרימיום לחתול תוצרת מונג’ איטליה. Monge Urinary Rich in Chicken.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%93-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a0%d7%98%d7%95%d7%a8%d7%9c-%d7%99%d7%95%d7%a8%d7%99%d7%a0%d7%a8%d7%99-%d7%9c%d7%91%d7%a2%d7%99%d7%95-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מונד-מזון-לחתולים-נטורל-יורינרי-לבעיות-בדרכי-השתן-והכליות-1.5-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%95%D7%A0%D7%93-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A0%D7%98%D7%95%D7%A8%D7%9C-%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%A8%D7%99-%D7%9C%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-%D7%95%D7%94%D7%9B%D7%9C%D7%99%D7%95%D7%AA-1.5-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "65.00",
    "currency": "ILS",
@@ -1228,7 +1522,7 @@
    "title": "🚀 מונג’ יורינרי לטיפול בדרכי השתן לחתול עוף 10 ק”ג Monge Urinary Cats",
    "description": "מזון סופר פרימיום מקצועי ומאוזן המיועד לחתולים בוגרים לשמירה על בריאות דרכי השתן. הפורמולה הייחודית מבוססת על עוף עשיר בחלבון וכוללת רמת מינרלים מבוקרת. ההרכב המדויק מסייע במניעת היווצרות אבנים בדרכי השתן ומספק תזונה יומיומית מלאה וטעימה במיוחד. 😊 😊 \n \n \n 🚀  בריאות דרכי השתן:  שמירה על רמת חומציות (pH) אופטימלית להמסה ומניעת אבנים. \n \n \n 🍗  עשיר בעוף איכותי:  חלבון קל לעיכול התומך בשמירה על מסת שריר תקינה. \n \n \n 🛡️  פורמולת מגדלים (Breeders):  שק ענק וחסכוני של 10 ק”ג באיכות הגבוהה ביותר. \n \n \n 🌿  סיבים טבעיים (XOS):  תומך בעיכול בריא, ספיגה מרבית וחיזוק מערכת החיסון. \n \n \n ⭐  טעימות גבוהה:  כופתיות מותאמות וטעימות שחתולים אוהבים מהרגע הראשון.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%93-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a0%d7%98%d7%95%d7%a8%d7%9c-%d7%99%d7%95%d7%a8%d7%99%d7%a0%d7%a8%d7%99-%d7%9c%d7%91%d7%a2%d7%99%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-לחתולים-נטורל-יורינרי-לבעיות-בדרכי-השתן-והכליות-10-קג-מונג-Monge.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A0%D7%98%D7%95%D7%A8%D7%9C-%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%A8%D7%99-%D7%9C%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-%D7%95%D7%94%D7%9B%D7%9C%D7%99%D7%95%D7%AA-10-%D7%A7%D7%92-%D7%9E%D7%95%D7%A0%D7%92-Monge.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "275.00",
    "currency": "ILS",
@@ -1266,11 +1560,53 @@
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
   },
   {
+   "id": "4184",
+   "title": "הילס סאיינס פלן אוכל לכלבים בוגרים גודל בינוני עוף 14 ק”ג",
+   "description": "הילס סאיינס פלן HILL’S SCIENCE PLAN  אוכל לכלב בינוני למבוגרים עם עוף פותח במיוחד כדי לתדלק את צורכי האנרגיה של כלבים במהלך שיא חייהם. עשוי ממרכיבים איכותיים קלים לעיכול. \n \n אומגה 6 וויטמין E לעור ופרווה יפים \n חלבון איכותי לשרירים רזים \n  רכיבים וסיבים קלים לעיכול לעיכול בריא",
+   "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%90%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%9f-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%92%d7%95%d7%93/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%90%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%9F-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%A2%D7%95%D7%A3-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "263.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4184%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4184",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4184/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4184/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4184",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4184%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4184",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4184%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4184",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%99%D7%9C%D7%A1%20%D7%A1%D7%90%D7%99%D7%99%D7%A0%D7%A1%20%D7%A4%D7%9C%D7%9F%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%92%D7%95%D7%93%D7%9C%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%20%D7%A2%D7%95%D7%A3%2014%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
    "id": "4182",
    "title": "הילס סיינס פלאן אוכל לגורים כלבים גזע גדול עוף 14.5 ק”ג Hills",
    "description": "הילס סיינס פלאן HILL’s SCIENCE PLAN     אוכל לגורים  עם עוף מיוצר במיוחד עם רמה אופטימלית של סידן לצמיחת עצם מבוקרת, צורך התפתחותי ייחודי של גורים מגזעים גדולים.  תן להם את ההתחלה הטובה ביותר בחיים כדי שיוכלו לצמוח למיצוי הפוטנציאל שלהם. \n \n מינרלים מאוזנים עבור עצמות ושיניים חזקות \n DHA משמן דגים להתפתחות בריאה של המוח והעיניים \n חלבון איכותי לבניית שרירים רזים",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%90%d7%9f-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%92%d7%96%d7%a2-%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סיינס-פלאן-אוכל-לגורים-כלבים-גזע-גדול-עוף-14.5-קג-Hills.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%92%D7%96%D7%A2-%D7%92%D7%93%D7%95%D7%9C-%D7%A2%D7%95%D7%A3-14.5-%D7%A7%D7%92-Hills.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "329.00",
    "currency": "ILS",
@@ -1312,7 +1648,7 @@
    "title": "הילס סיינס פלאן אוכל לגורים מגזע בינוני כבש 14 ק”ג",
    "description": "הילס סיינס פלאן HILL’S SCIENCE PLAN    אוכל לגורים (כלבים) בינוניים עם כבש ואורז עשיר בטעמים ומנוסח בקפידה לצרכים ההתפתחותיים של גורים, כך שהם יקבלו את ההתחלה הטובה ביותר בחיים ויצמחו למיצוי הפוטנציאל שלהם.  \n \n \n \n \n DHA משמן דגים להתפתחות בריאה של המוח והעיניים \n חלבון איכותי לבניית שרירים רזים \n מינרלים מאוזנים עבור עצמות ושיניים חזקות",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%a1%d7%99%d7%99%d7%a0%d7%a1-%d7%a4%d7%9c%d7%90%d7%9f-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/הילס-סיינס-פלאן-אוכל-לגורים-מגזע-בינוני-כבש-14-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-%D7%9B%D7%91%D7%A9-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "338.00",
    "currency": "ILS",
@@ -1354,7 +1690,7 @@
    "title": "יורינרי לחתול 7 ק”ג רויאל קנין Royal Canin (2 שקים ב- 639 ש”ח)",
    "description": "כשמדובר בבריאות דרכי השתן של החתול שלכם, אין מקום לפשרות.  Royal Canin Urinary S/O  באריזת  7 ק”ג  הוא המזון הרפואי המומלץ ביותר על ידי וטרינרים, ועכשיו ב”קרוב לטבע” הוא מגיע עם הדירוג הגבוה ביותר גם בשירות וגם במחיר. \n   למה המוצר הזה מקבל מאיתנו 5 כוכבים?",
    "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a8%d7%99%d7%a0%d7%a8%d7%99-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-7-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/3182550711470_28012021105342-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/3182550711470_28012021105342-1.jpg?fit=700%2C700&ssl=1",
    "condition": "new",
    "price": "329.00",
    "currency": "ILS",
@@ -1396,7 +1732,7 @@
    "title": "🐈 רויאל קנין גסטרו אינטסטינל לחתול 4 ק”ג Royal Canin Feline Gastrointestinal",
    "description": "מזון דיאטטי רפואי מלא ומאוזן מבית  רויאל קנין  (Royal Canin) המיועד לחתולים בוגרים הסובלים מהפרעות, רגישויות או מחלות של מערכת העיכול. הפורמולה המדעית מתאפיינת בנעילות גבוהה במיוחד, שילוב סיבים פרה-ביוטיים ורמת אנרגיה מוגברת, המאפשרת להפחית את נפח הארוחות ולהקל על העומס בקיבה. המזון מסייע בשיקום פלורת המעיים ומבטיח ספיגת רכיבים תזונתיים אופטימלית לחתול שלכם. \n \n \n 📦 תכולה וכמות מדויקת: אריזה מקורית ואטומה לשמירה על הטריות במשקל של 4 ק”ג. \n \n \n 📋 מדריך מינון יומי מהיר: מומלץ לחלק את הכמות היומית המצוינת על גב השק ל-2 ארוחות לפחות. \n \n \n 🌿 רכיבים מרכזיים ופעילים: חלבונים בעלי נעילות גבוהה (L.I.P), פרה-ביוטיקה (FOS), שמן דגים עשיר ב-EPA/DHA. \n \n \n 🎯 יתרון תחרותי מרכזי: שילוב מדויק של אנרגיה גבוהה וסיבים תזונתיים להחלמה מהירה וקלה של מערכת העיכול.",
    "link": "https://closetonature.co.il/product/%d7%92%d7%a1%d7%98%d7%a8%d7%95-%d7%90%d7%99%d7%a0%d7%98%d7%a1%d7%98%d7%99%d7%a0%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-4-%d7%a7%d7%92-%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-royal-canin/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/royal-canin-feline-gastrointestinal-cat-food-4kg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/royal-canin-feline-gastrointestinal-cat-food-4kg.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "249.00",
    "currency": "ILS",
@@ -1438,9 +1774,9 @@
    "title": "רויאל קנין אוכל לחתולים מסורס סטרלייזד – משקל 10 ק”ג Royal Canin",
    "description": "אוכל לחתולים   רויאל קנין  \n מזון יבש לחתול מבית  רויאל קנין  הצרפתי – תזונה מלאה ומאוזנת לחתולי בית מעוקרים / מסורסים סטרלייזד במיוחד לחתולים מסורסים (מ -1 עד 7 שנים) – סטרלייזד Sterilised 37 מסייע לשמירה על בריאות מפרקים על ידי חומרים מזינים וחומצות שומן חיוניות. וכן שומר על תפקוד כליות טוב בשל ויסות פעילות פירוק הזרחן.",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%99%d7%aa-%d7%9e%d7%a1%d7%95%d7%a8%d7%a1-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-בית-מסורס-סטרלייזד-משקל-10-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%99%D7%AA-%D7%9E%D7%A1%D7%95%D7%A8%D7%A1-%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93-%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
-   "price": "359.00",
+   "price": "379.00",
    "currency": "ILS",
    "availability": "in_stock",
    "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4167%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4167",
@@ -1480,7 +1816,7 @@
    "title": "רויאל קנין גורים חתולים קיטן Kitten – משקל 10 ק”ג רויאל קנין",
    "description": "מזון יבש לחתול מבית רויאל קנין הצרפתי – תזונה מלאה ומאוזנת לאמהות מניקות וגורי חתולים. מזון יבש לחתולים הזקוקים לתזונה עשירה ומזינה. מזון יבש סופר פרימיום לחתולים אשר פותח במיוחד עבור גורי חתולים ונקבות מניקות. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a7%d7%99%d7%98%d7%9f-kitten-%d7%9e%d7%a9-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לגורי-חתולים-קיטן-Kitten-משקל-10-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A7%D7%99%D7%98%D7%9F-Kitten-%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "339.00",
    "currency": "ILS",
@@ -1522,7 +1858,7 @@
    "title": "רויאל קנין לגורי חתולים בייבי Baby cat – משקל 4 ק”ג Royal Canin (189 ₪ כולל משלוח)",
    "description": "רויאל קנין לגורי חתולים  \n מזון יבש לחתול מבית  רויאל קנין  הצרפתי – תזונה מלאה ומאוזנת לאמהות מניקות וגורי חתולים. מזון יבש לחתולים הזקוקים לתזונה עשירה ומזינה. מזון יבש סופר פרימיום לחתולים אשר פותח במיוחד עבור גורי חתולים ונקבות מניקות. התמונה להמחשה בלבד \n  לקבלת משלוח חינם העתק/י את הקוד קופון   \n   CAT_FREE",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%92%d7%95%d7%a8%d7%99-%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%99%d7%99%d7%91%d7%99-baby-cat-%d7%9e/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לגורי-חתולים-בייבי-Baby-cat-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%91%D7%99%D7%99%D7%91%D7%99-Baby-cat-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -1564,7 +1900,7 @@
    "title": "רויאל קנין אוכל לחתול – גזע בריטי British – משקל 10 ק”ג",
    "description": "רויאל קנין   אוכל לחתול  –  Royal Canin  – מגיע בשק של 4 ו-10 ק”ג -מיועד לגזע הבריטי במיוחד ומכיל קומפלקס ייחודי של חומרים מזינים ובשמירה על עור ובריאות הפרווה. נוסחה מועשרת בחומצות שומן אומגה 3 (EPA ו-DHA) וחומצות שומן אומגה 6. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%96%d7%a2-%d7%91%d7%a8%d7%99%d7%98%d7%99-british-%d7%9e%d7%a9%d7%a7%d7%9c-1/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-גזע-בריטי-British-משקל-10-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%96%D7%A2-%D7%91%D7%A8%D7%99%D7%98%D7%99-British-%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "359.00",
    "currency": "ILS",
@@ -1606,7 +1942,7 @@
    "title": "רויאל קנין אוכל לחתול – גזע פרסי Persian – משקל 10 ק”ג",
    "description": "רויאל קנין אוכל לחתול  –  Royal Canin  – פרסי מגיע בשק של 4 ו-10 ק”ג – מיועד לגזע הפרסי  במיוחד ומכיל קומפלקס ייחודי של חומרים מזינים ובשמירה על עור ובריאות הפרווה. נוסחה מועשרת בחומצות שומן אומגה 3 (EPA ו-DHA) וחומצות שומן אומגה 6. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה -ט.ל.ח",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%96%d7%a2-%d7%a4%d7%a8%d7%a1%d7%99-persian-%d7%9e%d7%a9%d7%a7%d7%9c-10/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-גזע-פרסי-Persian-משקל-10-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%96%D7%A2-%D7%A4%D7%A8%D7%A1%D7%99-Persian-%D7%9E%D7%A9%D7%A7%D7%9C-10-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "359.00",
    "currency": "ILS",
@@ -1648,7 +1984,7 @@
    "title": "רויאל קנין מזון לחתול – גזע בריטי British – משקל 4 ק”ג",
    "description": "רויאל קנין אוכל לחתול – Royal Canin – מגיע בשק של 4 ו-10 ק”ג -מיועד לגזע הבריטי במיוחד ומכיל קומפלקס ייחודי של חומרים מזינים ובשמירה על עור ובריאות הפרווה. נוסחה מועשרת בחומצות שומן אומגה 3 (EPA ו-DHA) וחומצות שומן אומגה 6.",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%96%d7%a2-%d7%91%d7%a8%d7%99%d7%98%d7%99-british-%d7%9e%d7%a9%d7%a7%d7%9c-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-גזע-בריטי-British-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%96%D7%A2-%D7%91%D7%A8%D7%99%D7%98%D7%99-British-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -1690,7 +2026,7 @@
    "title": "רויאל קנין אוכל לחתול – גזע פרסי 4 ק”ג Persian",
    "description": "רויאל קנין   אוכל לחתול  –  Royal Canin  \n פרסי מגיע בשק של 4 ק”ג -מיועד לגזע הפרסי במיוחד ומכיל קומפלקס ייחודי של חומרים מזינים ובשמירה על עור ובריאות הפרווה. נוסחה מועשרת בחומצות שומן אומגה 3 (EPA ו-DHA) וחומצות שומן אומגה 6.",
    "link": "https://closetonature.co.il/product/%d7%a8%d7%95%d7%99%d7%90%d7%9c-%d7%a7%d7%a0%d7%99%d7%9f-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%92%d7%96%d7%a2-%d7%a4%d7%a8%d7%a1%d7%99-persian-%d7%9e%d7%a9%d7%a7%d7%9c-4/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/רויאל-קנין-מזון-לחתול-גזע-פרסי-Persian-משקל-4-קג-רויאל-קנין-Royal-Canin.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%96%D7%A2-%D7%A4%D7%A8%D7%A1%D7%99-Persian-%D7%9E%D7%A9%D7%A7%D7%9C-4-%D7%A7%D7%92-%D7%A8%D7%95%D7%99%D7%90%D7%9C-%D7%A7%D7%A0%D7%99%D7%9F-Royal-Canin.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "229.00",
    "currency": "ILS",
@@ -1732,7 +2068,7 @@
    "title": "צ’יקופי Chicopee לכלב מזון לכלבים סלמון ואורז-סופט 15 ק”ג",
    "description": "אוכל לכלבים צ’יקופי סופר (מזון רך) בטעם סלמון \n משקל 15 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a6%d7%99%d7%a7%d7%95%d7%a4%d7%99-chicopee-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%95%d7%90%d7%95%d7%a8%d7%96/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/ציקופי-Chicopee-לכלב-מזון-לכלבים-סלמון-ואורז-סופט-15-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A6%D7%99%D7%A7%D7%95%D7%A4%D7%99-Chicopee-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%A1%D7%95%D7%A4%D7%98-15-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "279.00",
    "currency": "ILS",
@@ -1754,342 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A6%E2%80%99%D7%99%D7%A7%D7%95%D7%A4%D7%99%20Chicopee%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%A1%D7%95%D7%A4%D7%98%2015%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4111",
-   "title": "פיור לייף מזון יבש לחתולות מניקות וגורים – קיטן – שק 2 ק”ג PureLife",
-   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. מכיל ברווז וסרדינים. מזון מלא לגורים ולחתולות בסוף הריון ובמהלך הנקה. מתאים גם לגורי חתולים רגישים. \n  קיים שק 8 ק”ג פיור לייף גורים",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%95%d7%aa-%d7%9e%d7%a0%d7%99%d7%a7%d7%95%d7%aa-%d7%95%d7%92%d7%95%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-מזון-יבש-לחתולות-מניקות-וגורים-–-קיטן-–-PureLife.jpg",
-   "condition": "new",
-   "price": "149.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4111",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4111/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4111/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4111",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4111",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4111",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%95%D7%AA%20%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA%20%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%E2%80%93%20%D7%A7%D7%99%D7%98%D7%9F%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4110",
-   "title": "פיור לייף מזון יבש לחתול בוגר – ברווז והודו – שק 2 ק”ג PureLife",
-   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. המזון מכיל ברווז והודו – מגיע בשקים של 2 ק”ג ו-8 ק”ג. התמונה להמחשה בלבד",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%95%d7%94%d7%95-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-מזון-יבש-לחתול-בוגר-–-ברווז-והודו-–-PureLife.jpg",
-   "condition": "new",
-   "price": "149.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4110",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4110/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4110/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4110",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4110",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4110",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4109",
-   "title": "פיור לייף מזון יבש לחתול בוגר – ברווז והודו – שק 8 ק”ג PureLife",
-   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. המזון מכיל ברווז והודו – מגיע בשקים של 2 ק”ג ו-8 ק”ג. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%95%d7%94%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-מזון-יבש-לחתול-בוגר-–-ברווז-והודו-–-PureLife.jpg",
-   "condition": "new",
-   "price": "309.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4109%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4109",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4109/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4109/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4109",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4109%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4109",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4109%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4109",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%20%D7%A9%D7%A7%208%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4108",
-   "title": "פיור לייף מזון יבש סטרלייזד לחתול בוגר (עיקור-סירוס) – שק 2 ק”ג PureLife",
-   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. מזון מלא לחתולים שעברו עיקור וסירוס ו/או חתולים עם נטייה למשקל יתר. מכיל ברווז וסרדינים. מגיע בשקים של 2 ק”ג ו-8 ק”ג התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-מזון-יבש-סטרלייזד-לחתול-בוגר-סרדינים.jpg",
-   "condition": "new",
-   "price": "149.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4108%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4108",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4108/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4108/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4108",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4108%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4108",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4108%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4108",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%28%D7%A2%D7%99%D7%A7%D7%95%D7%A8-%D7%A1%D7%99%D7%A8%D7%95%D7%A1%29%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4107",
-   "title": "פיור לייף לחתולים סטרלייז 8+ במשקל 2 ק”ג Pure Life",
-   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. לייט סטרליז 8+ – מכיל ברווז ודג לבן. מזון מלא לחתולים שעברו עיקור וסירוס ו/או חתולים עם נטייה למשקל יתר, בני יותר מ-8 שנים. התמונה להמחשה בלבד",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%91%d7%95%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Untitled-design-57.png",
-   "condition": "new",
-   "price": "149.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4107%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4107",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4107/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4107/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4107",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4107%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4107",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4107%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4107",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%208%2B%20%D7%91%D7%9E%D7%A9%D7%A7%D7%9C%202%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4105",
-   "title": "פיור לייף מזון יבש לכלבות מניקות וגורים מכל הגזעים – שק 12 ק”ג Pure Life",
-   "description": "מזון מלא לכלבים מבית  Flatazor  / פלאטאזור הצרפתי. מתאים גם לכלבים רגישים. נוח לעיכול (גרגרים בגודל אידאלי ללעיסה נעימה). קל יותר לעיכול (מרכיבים קלים מאוד לעיכול, פחם שחור, חמר, שמרי בירה, סיבי פסיליום ואלוורה). גדילה נעימה והרמונית (כונדרויטין סולפט, גלוקוזמין סולפט) וחיוניות מובטחת (פרוקטואוליגוסכרידים, תמצית שמרים). עם סלמון ודג לבן מגיע בשקים של 12 ק”ג ו-2 ק”ג. התמונה להמחשה בלבד.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91%d7%95%d7%aa-%d7%9e%d7%a0%d7%99%d7%a7%d7%95%d7%aa-%d7%95%d7%92%d7%95%d7%a8%d7%99-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/PL_pm_12k.webp",
-   "condition": "new",
-   "price": "359.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4105%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4105",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4105/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4105/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4105",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4105%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4105",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4105%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4105",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA%20%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA%20%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%9E%D7%9B%D7%9C%20%D7%94%D7%92%D7%96%D7%A2%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%2012%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4103",
-   "title": "פיור לייף מזון יבש לכלב בוגר גזע קטן – אדולט מיני – שק 2 ק”ג Pure Life",
-   "description": "העניקו לחברכם הפרוותי הקטן תזונה מדויקת ומפנקת עם  Flatazor Pure Life Adult Mini  – מזון יבש מלא ואיכותי במיוחד מבית  Flatazor  הצרפתי. פורמולה ייחודית זו פותחה בקפידה עבור  כלבים בוגרים מגזע קטן (במשקל 10 ק”ג ומטה) , כדי לספק מענה מדויק לצרכיהם האנרגטיים והתזונתיים הייחודיים. \n  פיור לייף אדולט מיני  בולט בזכות הרכבו המתקדם: \n \n  100% ללא דגנים | 100% ללא גלוטן:  פורמולה היפואלרגנית, אידיאלית לכלבים רגישים או כאלה הסובלים מאלרגיות למזון, ומבטיחה עיכול קל ונוחות מרבית. \n  85% מהחלבונים ממקור חי:  עשיר בחלבונים איכותיים ממקורות נבחרים כמו  ברווז ודג לבן  (יחד עם עוף, הודו וחזיר). חלבונים אלה חיוניים לשמירה על מסת שריר אופטימלית ואספקת אנרגיה יומיומית. \n  עם ברווז ודג לבן:  שילוב טעים ומזין של מקורות חלבון מובחרים, כאשר הברווז מוסיף טעם עשיר, והדגים תורמים חומצות שומן חיוניות מסוג אומגה 3, התומכות בבריאות העור והפרווה המבריקה.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%90%d7%93%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-מזון-יבש-לכלב-בוגר-גזע-קטן-–-אדולט-מיני-–-שק-2-קג-Pure-Life.jpg",
-   "condition": "new",
-   "price": "149.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4103/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4103/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4103",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%92%D7%96%D7%A2%20%D7%A7%D7%98%D7%9F%20%E2%80%93%20%D7%90%D7%93%D7%95%D7%9C%D7%98%20%D7%9E%D7%99%D7%A0%D7%99%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "4102",
-   "title": "פיור לייף אוכל לכלב בוגר גזע בינוני – אדולט – Pure Life",
-   "description": "העניקו לכלבכם הבוגר תזונה אופטימלית עם  Flatazor Pure Life Adult Medium  – מזון יבש מלא ואיכותי במיוחד מבית Flatazor הצרפתי, שפותח במיוחד לכלבים בוגרים מגזע בינוני, במשקל של  10 עד 30 ק”ג . פורמולה זו מציעה פתרון תזונתי הוליסטי התומך בבריאות כללית, חיוניות ומשקל אידאלי. \n  Pure Life Adult Medium  מתאים במיוחד גם לכלבים רגישים, בזכות הרכבו הייחודי: \n \n  0% דגנים | 0% גלוטן:  נוסחה נקייה מדגנים וגלוטן, התורמת לעיכול קל ומפחיתה רגישויות במערכת העיכול. \n  85% מהחלבונים מקורם מהחי:  תכולת חלבון גבוהה ואיכותית ממקורות נבחרים כמו  סלמון וברווז , יחד עם עוף, הודו וחזיר. חלבונים אלה תורמים לשמירה על מסת שריר אופטימלית וסיפוק אנרגיה. \n  עם סלמון וברווז:  שילוב טעים ומזין של מקורות חלבון איכותיים. הסלמון עשיר בחומצות שומן אומגה 3 התורמות לבריאות העור והפרווה. \n   מגיע בשקים של 2 ק”ג, 12 ק”ג ו- 15 ק”ג.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-אוכל-לכלב-בוגר-גזע-בינוני-–-אדולט-–-Pure-Life.jpg",
-   "condition": "new",
-   "price": "119.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4102",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4102/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4102/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4102",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4102",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4102",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%20%E2%80%93%20%D7%90%D7%93%D7%95%D7%9C%D7%98%20%E2%80%93%20Pure%20Life%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

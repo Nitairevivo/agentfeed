@@ -1,16 +1,168 @@
 {
  "page": 34,
  "pages": 44,
- "total": 2192,
+ "total": 2195,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-35.json",
  "products": [
+  {
+   "id": "5305",
+   "title": "Vom Feinsten – מזון משלים רטוב לכלב – בוגר – עוף ועגל – 150 גרם",
+   "description": "מזון משלים רטוב איכותי לכלבים קטנים עם עוף ועגל. מעדן בעל ערך תזונתי גבוה, מתאים לכלב בוגר בגיל 1-6 שנים. בשר טרי ומובחר, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 150 גרם.",
+   "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%95%d7%a3-%d7%95%d7%a2%d7%92%d7%9c-150/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%95%D7%A3-%D7%95%D7%A2%D7%92%D7%9C-150-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "7.50",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5305%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5305",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5305/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5305/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5305",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5305%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5305",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5305%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5305",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%A9%D7%9C%D7%99%D7%9D%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%A2%D7%92%D7%9C%20%E2%80%93%20150%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "5304",
+   "title": "Vom Feinsten – מזון משלים רטוב לכלב – גור – כבד עוף – 150 גרם",
+   "description": "מזון משלים רטוב איכותי לכלבים קטנים עם כבד עוף. מעדן בעל ערך תזונתי גבוה, מותאם לגורי כלבים עד גיל שנה. מכיל חתיכות בגודל ידידותי לגורים, בשר טרי ומובחר, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 150 גרם.",
+   "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%9b%d7%9c%d7%91-%d7%92%d7%95%d7%a8-%d7%9b%d7%91%d7%93-%d7%a2%d7%95%d7%a3-150-%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%9B%D7%9C%D7%91-%D7%92%D7%95%D7%A8-%D7%9B%D7%91%D7%93-%D7%A2%D7%95%D7%A3-150-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "7.50",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5304%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5304",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5304/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5304/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5304",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5304%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5304",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5304%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5304",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%A9%D7%9C%D7%99%D7%9D%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20%D7%92%D7%95%D7%A8%20%E2%80%93%20%D7%9B%D7%91%D7%93%20%D7%A2%D7%95%D7%A3%20%E2%80%93%20150%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "5303",
+   "title": "Vom Feinsten – מזון משלים רטוב לכלב – גור – עוף ולבבות הודו – 150 גרם",
+   "description": "מזון משלים רטוב איכותי לכלבים קטנים עם עוף ולבבות הודו. מעדן בעל ערך תזונתי גבוה, מותאם לגורי כלבים עד גיל שנה. מכיל חתיכות בגודל ידידותי לגורים, בשר טרי ומובחר, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 150 גרם.",
+   "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%9b%d7%9c%d7%91-%d7%92%d7%95%d7%a8-%d7%a2%d7%95%d7%a3-%d7%95%d7%9c%d7%91%d7%91%d7%95%d7%aa/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%9B%D7%9C%D7%91-%D7%92%D7%95%D7%A8-%D7%A2%D7%95%D7%A3-%D7%95%D7%9C%D7%91%D7%91%D7%95%D7%AA-%D7%94%D7%95%D7%93%D7%95-150-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "7.50",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5303%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5303",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5303/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5303/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5303",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5303%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5303",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5303%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5303",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%A9%D7%9C%D7%99%D7%9D%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20%D7%92%D7%95%D7%A8%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%9C%D7%91%D7%91%D7%95%D7%AA%20%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%20150%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "5302",
+   "title": "Vom Feinsten – מזון משלים רטוב לכלב – גור – בקר ועוף – 150 גרם",
+   "description": "מזון משלים רטוב איכותי לכלבים קטנים עם בקר ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לגורי כלבים עד גיל שנה. מכיל חתיכות בגודל ידידותי לגורים, בשר טרי ומובחר, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 150 גרם.",
+   "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%9b%d7%9c%d7%91-%d7%92%d7%95%d7%a8-%d7%91%d7%a7%d7%a8-%d7%95%d7%a2%d7%95%d7%a3-150-%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%9B%D7%9C%D7%91-%D7%92%D7%95%D7%A8-%D7%91%D7%A7%D7%A8-%D7%95%D7%A2%D7%95%D7%A3-150-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "7.50",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5302%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5302",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5302/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5302/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5302",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5302%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5302",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5302%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5302",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%A9%D7%9C%D7%99%D7%9D%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20%D7%92%D7%95%D7%A8%20%E2%80%93%20%D7%91%D7%A7%D7%A8%20%D7%95%D7%A2%D7%95%D7%A3%20%E2%80%93%20150%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "5299",
    "title": "סימבה מעדן פטה – בטעם כבש 300 גרם",
    "description": "סימבה מעדן פטה – בטעם כבש 300 גרם",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%9b%d7%91%d7%a9-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-פטה-בטעם-כבש-300-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%9E%D7%91%D7%94-%D7%9E%D7%A2%D7%93%D7%9F-%D7%A4%D7%98%D7%94-%D7%91%D7%98%D7%A2%D7%9D-%D7%9B%D7%91%D7%A9-300-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -48,7 +200,7 @@
    "title": "סימבה מעדן פטה – בטעם בשר 300 גרם",
    "description": "סימבה מעדן פטה – בטעם בשר 300 גרם",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%91%d7%a9%d7%a8-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-פטה-בטעם-בשר-300-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%9E%D7%91%D7%94-%D7%9E%D7%A2%D7%93%D7%9F-%D7%A4%D7%98%D7%94-%D7%91%D7%98%D7%A2%D7%9D-%D7%91%D7%A9%D7%A8-300-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -86,7 +238,7 @@
    "title": "סימבה מעדן פטה – בטעם ארנבת 300 גרם",
    "description": "סימבה מעדן פטה – בטעם ארנבת 300 גרם",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%90%d7%a8%d7%a0%d7%91%d7%aa-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-פטה-בטעם-ארנבת-300-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%9E%D7%91%D7%94-%D7%9E%D7%A2%D7%93%D7%9F-%D7%A4%D7%98%D7%94-%D7%91%D7%98%D7%A2%D7%9D-%D7%90%D7%A8%D7%A0%D7%91%D7%AA-300-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -124,7 +276,7 @@
    "title": "סימבה מעדן לכלב פטה עם עוף וכבד",
    "description": "סימבה מעדן לכלב פטה עם עוף וכבד",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%98%d7%94-%d7%a2%d7%9d-%d7%a2%d7%95%d7%a3-%d7%95%d7%9b%d7%91%d7%93/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-לכלב-פטה-עם-עוף-וכבד.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%9E%D7%91%D7%94-%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%98%D7%94-%D7%A2%D7%9D-%D7%A2%D7%95%D7%A3-%D7%95%D7%9B%D7%91%D7%93.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -162,7 +314,7 @@
    "title": "סימבה מעדן פטה – בטעם עגל ואפונה 300 גרם",
    "description": "סימבה מעדן פטה – בטעם עגל ואפונה \n משקל: 300 גרם \n מבית מונג’",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%9e%d7%91%d7%94-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-%d7%91%d7%98%d7%a2%d7%9d-%d7%a2%d7%92%d7%9c-%d7%95%d7%90%d7%a4%d7%95%d7%a0%d7%94-300-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סימבה-מעדן-לכלב-פטה-עם-עגל-ואפונה.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%9E%D7%91%D7%94-%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%98%D7%94-%D7%A2%D7%9D-%D7%A2%D7%92%D7%9C-%D7%95%D7%90%D7%A4%D7%95%D7%A0%D7%94.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -200,7 +352,7 @@
    "title": "סיזר קאנטרי הודו ובקר ברוטב Cesar",
    "description": "מעדן איכותי טעים ומזין לכלב",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%96%d7%a8-%d7%a7%d7%90%d7%a0%d7%98%d7%a8%d7%99-%d7%94%d7%95%d7%93%d7%95-%d7%95%d7%91%d7%a7%d7%a8-%d7%91%d7%a8%d7%95%d7%98%d7%91-cesar/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סיזר-קאנטרי-הודו-ובקר-ברוטב-Cesar.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%96%D7%A8-%D7%A7%D7%90%D7%A0%D7%98%D7%A8%D7%99-%D7%94%D7%95%D7%93%D7%95-%D7%95%D7%91%D7%A7%D7%A8-%D7%91%D7%A8%D7%95%D7%98%D7%91-Cesar.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.50",
    "currency": "ILS",
@@ -238,7 +390,7 @@
    "title": "סיזר קאנטרי עוף וירקות ברוטב Cesar",
    "description": "מעדן איכותי טעים ומזין לכלב",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%96%d7%a8-%d7%a7%d7%90%d7%a0%d7%98%d7%a8%d7%99-%d7%a2%d7%95%d7%a3-%d7%95%d7%99%d7%a8%d7%a7%d7%95%d7%aa-%d7%91%d7%a8%d7%95%d7%98%d7%91-cesar/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סיזר-קאנטרי-עוף-וירקות-ברוטב-Cesar.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%96%D7%A8-%D7%A7%D7%90%D7%A0%D7%98%D7%A8%D7%99-%D7%A2%D7%95%D7%A3-%D7%95%D7%99%D7%A8%D7%A7%D7%95%D7%AA-%D7%91%D7%A8%D7%95%D7%98%D7%91-Cesar.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.50",
    "currency": "ILS",
@@ -276,7 +428,7 @@
    "title": "סיזר קלאסיק פטה עוף והודו Cesar",
    "description": "מעדן איכותי טעים ומזין לכלב",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%96%d7%a8-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%a4%d7%98%d7%94-%d7%a2%d7%95%d7%a3-%d7%95%d7%94%d7%95%d7%93%d7%95-cesar/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סיזר-קלאסיק-פטה-עוף-והודו-Cesar.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%96%D7%A8-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%A4%D7%98%D7%94-%D7%A2%D7%95%D7%A3-%D7%95%D7%94%D7%95%D7%93%D7%95-Cesar.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.50",
    "currency": "ILS",
@@ -314,7 +466,7 @@
    "title": "סיזר קלאסיק פטה בקר וכבד Cesar",
    "description": "מעדן איכותי טעים ומזין לכלב",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%96%d7%a8-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%a4%d7%98%d7%94-%d7%91%d7%a7%d7%a8-%d7%95%d7%9b%d7%91%d7%93-cesar/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סיזר-קלאסיק-פטה-בקר-וכבד-Cesar.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%96%D7%A8-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%A4%D7%98%D7%94-%D7%91%D7%A7%D7%A8-%D7%95%D7%9B%D7%91%D7%93-Cesar.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.50",
    "currency": "ILS",
@@ -352,7 +504,7 @@
    "title": "סיזר קאנטרי פטה כבש והודו Cesar",
    "description": "מעדן איכותי טעים ומזין לכלב",
    "link": "https://closetonature.co.il/product/%d7%a1%d7%99%d7%96%d7%a8-%d7%a7%d7%90%d7%a0%d7%98%d7%a8%d7%99-%d7%a4%d7%98%d7%94-%d7%9b%d7%91%d7%a9-%d7%95%d7%94%d7%95%d7%93%d7%95-cesar/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/סיזר-קאנטרי-פטה-כבש-והודו-Cesar.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A1%D7%99%D7%96%D7%A8-%D7%A7%D7%90%D7%A0%D7%98%D7%A8%D7%99-%D7%A4%D7%98%D7%94-%D7%9B%D7%91%D7%A9-%D7%95%D7%94%D7%95%D7%93%D7%95-Cesar.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.50",
    "currency": "ILS",
@@ -390,7 +542,7 @@
    "title": "מעדן מורנדו לכלב הודו 100 גרם",
    "description": "מעדן מורנדו בטעם הודו \n מזון מלא שימורים לכלב מבשר הודו \nמשקל: 100 גרם",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9e%d7%95%d7%a8%d7%a0%d7%93%d7%95-%d7%9c%d7%9b%d7%9c%d7%91-%d7%94%d7%95%d7%93%d7%95-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-מורנדו-לכלב-הודו-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9E%D7%95%D7%A8%D7%A0%D7%93%D7%95-%D7%9C%D7%9B%D7%9C%D7%91-%D7%94%D7%95%D7%93%D7%95-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -428,7 +580,7 @@
    "title": "מעדן מורנדו לכלב עגל 100 גרם",
    "description": "מעדן מורנדו בטעם עגל \n מזון מלא שימורים לכלב מבשר עגל \nמשקל: 100 גרם",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9e%d7%95%d7%a8%d7%a0%d7%93%d7%95-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a2%d7%92%d7%9c-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-מורנדו-לכלב-עגל-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9E%D7%95%D7%A8%D7%A0%D7%93%D7%95-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A2%D7%92%D7%9C-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -466,7 +618,7 @@
    "title": "מעדן מורנדו לכלב כבש 100 גרם",
    "description": "מעדן מורנדו בטעם כבש \n מזון מלא שימורים לכלב מבשר כבש \nמשקל: 100 גרם",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9e%d7%95%d7%a8%d7%a0%d7%93%d7%95-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9b%d7%91%d7%a9-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-מורנדו-לכלב-כבש-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9E%D7%95%D7%A8%D7%A0%D7%93%D7%95-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9B%D7%91%D7%A9-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -504,7 +656,7 @@
    "title": "פנסי פיסט צ’אנקי בשר ועוף",
    "description": "שימורי מזון מלא גורמה לחתולים.מעדן במשקל 85 גרם, מבית פורינה,ענקית מזון כלבים וחתולים.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a0%d7%a1%d7%99-%d7%a4%d7%99%d7%a1%d7%98-%d7%a6%d7%90%d7%a0%d7%a7%d7%99-%d7%91%d7%a9%d7%a8-%d7%95%d7%a2%d7%95%d7%a3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פנסי-פיסט-צאנקי-בשר-ועוף.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A0%D7%A1%D7%99-%D7%A4%D7%99%D7%A1%D7%98-%D7%A6%D7%90%D7%A0%D7%A7%D7%99-%D7%91%D7%A9%D7%A8-%D7%95%D7%A2%D7%95%D7%A3.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -542,7 +694,7 @@
    "title": "פנסי פיסט מעדן עוף צלוי",
    "description": "שימורי מזון מלא גורמה לחתולים.מעדן במשקל 85 גרם, מבית פורינה,ענקית מזון כלבים וחתולים.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a0%d7%a1%d7%99-%d7%a4%d7%99%d7%a1%d7%98-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a2%d7%95%d7%a3-%d7%a6%d7%9c%d7%95%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פנסי-פיסט-מעדן-עוף-צלוי.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A0%D7%A1%D7%99-%D7%A4%D7%99%D7%A1%D7%98-%D7%9E%D7%A2%D7%93%D7%9F-%D7%A2%D7%95%D7%A3-%D7%A6%D7%9C%D7%95%D7%99.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -580,7 +732,7 @@
    "title": "פנסי פיסט פתיתי טונה fancy feast",
    "description": "שימורי מזון מלא גורמה לחתולים.מעדן במשקל 85 גרם, מבית פורינה,ענקית מזון כלבים וחתולים.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a0%d7%a1%d7%99-%d7%a4%d7%99%d7%a1%d7%98-%d7%a4%d7%aa%d7%99%d7%aa%d7%99-%d7%98%d7%95%d7%a0%d7%94-fancy-feast/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פנסי-פיסט-פתיתי-טונה-fancy-feast.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A0%D7%A1%D7%99-%D7%A4%D7%99%D7%A1%D7%98-%D7%A4%D7%AA%D7%99%D7%AA%D7%99-%D7%98%D7%95%D7%A0%D7%94-fancy-feast.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -618,7 +770,7 @@
    "title": "פנסי פיסט פרוסות בשר עוף ברוטב",
    "description": "שימורי מזון מלא גורמה לחתולים.מעדן במשקל 85 גרם, מבית פורינה,ענקית מזון כלבים וחתולים.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a0%d7%a1%d7%99-%d7%a4%d7%99%d7%a1%d7%98-%d7%a4%d7%a8%d7%95%d7%a1%d7%95%d7%aa-%d7%91%d7%a9%d7%a8-%d7%a2%d7%95%d7%a3-%d7%91%d7%a8%d7%95%d7%98%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פנסי-פיסט-פרוסות-בשר-עוף-ברוטב.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A0%D7%A1%D7%99-%D7%A4%D7%99%D7%A1%D7%98-%D7%A4%D7%A8%D7%95%D7%A1%D7%95%D7%AA-%D7%91%D7%A9%D7%A8-%D7%A2%D7%95%D7%A3-%D7%91%D7%A8%D7%95%D7%98%D7%91.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -656,7 +808,7 @@
    "title": "פנסי פיסט מעדן הודו ועוף",
    "description": "שימורי מזון מלא גורמה fancy feats לחתולים.מעדן במשקל 85 גרם, מבית פורינה,ענקית מזון כלבים וחתולים.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a0%d7%a1%d7%99-%d7%a4%d7%99%d7%a1%d7%98-%d7%9e%d7%a2%d7%93%d7%9f-%d7%94%d7%95%d7%93%d7%95-%d7%95%d7%a2%d7%95%d7%a3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פנסי-פיסט-מעדן-הודו-ועוף.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A0%D7%A1%D7%99-%D7%A4%D7%99%D7%A1%D7%98-%D7%9E%D7%A2%D7%93%D7%9F-%D7%94%D7%95%D7%93%D7%95-%D7%95%D7%A2%D7%95%D7%A3.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -694,7 +846,7 @@
    "title": "פנסי פיסט גריל עוף ברוטב",
    "description": "שימורי מזון מלא גורמה לחתולים.מעדן במשקל 85 גרם, מבית פורינה,ענקית מזון כלבים וחתולים.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a0%d7%a1%d7%99-%d7%a4%d7%99%d7%a1%d7%98-%d7%92%d7%a8%d7%99%d7%9c-%d7%a2%d7%95%d7%a3-%d7%91%d7%a8%d7%95%d7%98%d7%91/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פנסי-פיסט-גריל-עוף-ברוטב.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A0%D7%A1%D7%99-%D7%A4%D7%99%D7%A1%D7%98-%D7%92%D7%A8%D7%99%D7%9C-%D7%A2%D7%95%D7%A3-%D7%91%D7%A8%D7%95%D7%98%D7%91.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.00",
    "currency": "ILS",
@@ -732,7 +884,7 @@
    "title": "מעדן לחתול מונג’ פתיתי הודו מונו פרוטאין",
    "description": "שימורים לחתולים 70% בשר הודו טרי,מזון מלא מבוסס חלבון הודו בלבד. \nללא דגנים וגלוטן,ללא חומרים משמרים וללא צבעי מאכל. \nכמות האכלה לחתול ממוצע 2.5 פחיות ליום.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%95%d7%a0%d7%92-%d7%a4%d7%aa%d7%99%d7%aa%d7%99-%d7%94%d7%95%d7%93%d7%95-%d7%9e%d7%95%d7%a0%d7%95-%d7%a4%d7%a8%d7%95%d7%98%d7%90%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-לחתול-מונג-פתיתי-הודו-מונו-פרוטאין.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9E%D7%95%D7%A0%D7%92-%D7%A4%D7%AA%D7%99%D7%AA%D7%99-%D7%94%D7%95%D7%93%D7%95-%D7%9E%D7%95%D7%A0%D7%95-%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -770,7 +922,7 @@
    "title": "מעדן לחתול מונג’ פתיתי ארנב מונו פרוטאין",
    "description": "שימורים לחתולים 70% בשר ארנב טרי,מזון מלא מבוסס חלבון ארנב בלבד. \nללא דגנים וגלוטן,ללא חומרים משמרים וללא צבעי מאכל. \nכמות האכלה לחתול ממוצע 2.5 פחיות ליום.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%95%d7%a0%d7%92-%d7%a4%d7%aa%d7%99%d7%aa%d7%99-%d7%90%d7%a8%d7%a0%d7%91-%d7%9e%d7%95%d7%a0%d7%95-%d7%a4%d7%a8%d7%95%d7%98%d7%90%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-לחתול-מונג-פתיתי-ארנב-מונו-פרוטאין.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9E%D7%95%D7%A0%D7%92-%D7%A4%D7%AA%D7%99%D7%AA%D7%99-%D7%90%D7%A8%D7%A0%D7%91-%D7%9E%D7%95%D7%A0%D7%95-%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -808,7 +960,7 @@
    "title": "מעדן לחתול מונג’ פתיתי עוף מונו פרוטאין",
    "description": "שימורים לחתולים 70% בשר עוף טרי,מזון מלא מבוסס חלבון עוף בלבד. \nללא דגנים וגלוטן,ללא חומרים משמרים וללא צבעי מאכל. \nכמות האכלה לחתול ממוצע 2.5 פחיות ליום.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%95%d7%a0%d7%92-%d7%a4%d7%aa%d7%99%d7%aa%d7%99-%d7%a2%d7%95%d7%a3-%d7%9e%d7%95%d7%a0%d7%95-%d7%a4%d7%a8%d7%95%d7%98%d7%90%d7%99%d7%9f/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-לחתול-מונג-פתיתי-עוף-מונו-פרוטאין.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9E%D7%95%D7%A0%D7%92-%D7%A4%D7%AA%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A3-%D7%9E%D7%95%D7%A0%D7%95-%D7%A4%D7%A8%D7%95%D7%98%D7%90%D7%99%D7%9F.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -846,7 +998,7 @@
    "title": "שימורים לחתול להשאט טונה וסלמון 80 גרם",
    "description": "שימורים לחתול  להשאט טונה וסלמון, מיוצר מחומרי גלם טריים וטבעיים בלבד, באיכות גבוהה מאוד. החתיכות בעלי מרקם רך ונעים. \nזהו מזון משלים לחתולים עם ערך תזונתי גבוה, עשירים באומגה 3, עשירים בחלבונים ועם תכולת שומן נמוכה. \n תכולה 80 גרם.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9c%d7%94%d7%a9%d7%90%d7%98-%d7%98%d7%95%d7%a0%d7%94-%d7%95%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-80-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-לחתול-להשאט-טונה-וסלמון-80-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9C%D7%94%D7%A9%D7%90%D7%98-%D7%98%D7%95%D7%A0%D7%94-%D7%95%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-80-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -884,7 +1036,7 @@
    "title": "שימורים לחתול להשאט טונה וסורימי 80 גרם",
    "description": "מעדן לחתול  להשאט טונה וסורימי, מיוצר מחומרי גלם טריים וטבעיים בלבד, באיכות גבוהה מאוד. החתיכות בעלי מרקם רך ונעים. \nזהו מזון משלים לחתולים עם ערך תזונתי גבוה, עשירים באומגה 3, עשירים בחלבונים ועם תכולת שומן נמוכה. \n תכולה 80 גרם.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9c%d7%94%d7%a9%d7%90%d7%98-%d7%98%d7%95%d7%a0%d7%94-%d7%95%d7%a1%d7%95%d7%a8%d7%99%d7%9e%d7%99-80-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מעדן-לחתול-להשאט-טונה-וסורימי-80-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%9C%D7%94%D7%A9%D7%90%D7%98-%D7%98%D7%95%D7%A0%D7%94-%D7%95%D7%A1%D7%95%D7%A8%D7%99%D7%9E%D7%99-80-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -922,7 +1074,7 @@
    "title": "מאטיס שימורי פטה מוס דג סרדין 85 גרם",
    "description": "שימורי  מאטיס  פטה מוס דג סרדין",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%90%d7%98%d7%99%d7%a1-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%a4%d7%98%d7%94-%d7%9e%d7%95%d7%a1-%d7%93%d7%92-%d7%a1%d7%a8%d7%93%d7%99%d7%9f-85-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מאטיס-שימורי-פטה-מוס-דג-סרדין-85-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%90%D7%98%D7%99%D7%A1-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%A4%D7%98%D7%94-%D7%9E%D7%95%D7%A1-%D7%93%D7%92-%D7%A1%D7%A8%D7%93%D7%99%D7%9F-85-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -960,7 +1112,7 @@
    "title": "מאטיס שימורי פטה מוס דג קוד 85 גרם",
    "description": "שימורי  מאטיס  פטה מוס דג קוד",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%90%d7%98%d7%99%d7%a1-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%a4%d7%98%d7%94-%d7%9e%d7%95%d7%a1-%d7%93%d7%92-%d7%a7%d7%95%d7%93-85-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מאטיס-שימורי-פטה-מוס-דג-קוד-85-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%90%D7%98%D7%99%D7%A1-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%A4%D7%98%D7%94-%D7%9E%D7%95%D7%A1-%D7%93%D7%92-%D7%A7%D7%95%D7%93-85-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -998,7 +1150,7 @@
    "title": "מאטיס שימורי פטה מוס סלמון 85 גרם",
    "description": "שימורי  מאטיס  פטה מוס סלמון",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%90%d7%98%d7%99%d7%a1-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%a4%d7%98%d7%94-%d7%9e%d7%95%d7%a1-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-85-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מאטיס-שימורי-פטה-מוס-סלמון-85-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%90%D7%98%D7%99%D7%A1-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%A4%D7%98%D7%94-%D7%9E%D7%95%D7%A1-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-85-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -1036,7 +1188,7 @@
    "title": "מאטיס שימורי פטה מוס עוף 85 גרם",
    "description": "שימורי  מאטיס  פטה מוס עוף",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%90%d7%98%d7%99%d7%a1-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%a4%d7%98%d7%94-%d7%9e%d7%95%d7%a1-%d7%a2%d7%95%d7%a3-85-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מאטיס-שימורי-פטה-מוס-עוף-85-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%90%D7%98%D7%99%D7%A1-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%A4%D7%98%D7%94-%D7%9E%D7%95%D7%A1-%D7%A2%D7%95%D7%A3-85-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -1074,7 +1226,7 @@
    "title": "מאטיס שימורי פטה מוס כבש 85 גרם",
    "description": "שימורי  מאטיס  פטה מוס כבש",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%90%d7%98%d7%99%d7%a1-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%a4%d7%98%d7%94-%d7%9e%d7%95%d7%a1-%d7%9b%d7%91%d7%a9-85-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מאטיס-שימורי-פטה-מוס-כבש-85-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%90%D7%98%D7%99%D7%A1-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%A4%D7%98%D7%94-%D7%9E%D7%95%D7%A1-%D7%9B%D7%91%D7%A9-85-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.50",
    "currency": "ILS",
@@ -1112,7 +1264,7 @@
    "title": "אתנה – שימורי מזון משלים מעדן דגי ים ושרימפס 100 גר’ Athena",
    "description": "מזון משלים סופר פרימיום דגי ים ושרימפס. מכיל חלבון ממקור איכותי",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%9e%d7%a2%d7%93%d7%9f-%d7%93%d7%92%d7%99-%d7%99%d7%9d-%d7%95%d7%a9%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-מעדן-דגי-ים-ושרימפס-100-גר-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%9E%D7%A2%D7%93%D7%9F-%D7%93%D7%92%D7%99-%D7%99%D7%9D-%D7%95%D7%A9%D7%A8%D7%99%D7%9E%D7%A4%D7%A1-100-%D7%92%D7%A8-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1150,7 +1302,7 @@
    "title": "אתנה – שימורי מזון משלים מעדן בקר Athena",
    "description": "שימורי מזון משלים סופר פרימיום. מכיל בשר ומוצריו. חלבון איכותי 10% ממקור מובחר.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%9e%d7%a2%d7%93%d7%9f-%d7%91%d7%a7%d7%a8-athena/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-מעדן-בקר-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%9E%D7%A2%D7%93%D7%9F-%D7%91%D7%A7%D7%A8-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1188,7 +1340,7 @@
    "title": "אתנה – שימורי מזון משלים עם ברווז והודו Athena",
    "description": "מזון משלים סופר פרימיום",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a2%d7%9d-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%95%d7%94%d7%95%d7%93%d7%95-athen/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-עם-ברווז-והודו-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%95%D7%94%D7%95%D7%93%D7%95-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1226,7 +1378,7 @@
    "title": "אתנה – שימורי מזון משלים עם ציד וברווז Athena",
    "description": "שימורי מזון משלים סופר פרימיום. מכיל חלבון ממקור איכותי במיוחד.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a2%d7%9d-%d7%a6%d7%99%d7%93-%d7%95%d7%91%d7%a8%d7%95%d7%95%d7%96-athena/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-עם-ציד-וברווז-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%A6%D7%99%D7%93-%D7%95%D7%91%D7%A8%D7%95%D7%95%D7%96-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1264,7 +1416,7 @@
    "title": "אתנה – שימורי מזון משלים וולנס פטה ואלוורה – 100 גר’ Athena",
    "description": "שימורי מזון משלים סופר פרמיום, מכיל חלבון ממקור איכותי במיוחד מכיל אלוורה",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%95%d7%95%d7%9c%d7%a0%d7%a1-%d7%a4%d7%98%d7%94-%d7%95%d7%90%d7%9c%d7%95%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-וולנס-פטה-ואלוורה-100-גר-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%95%D7%95%D7%9C%D7%A0%D7%A1-%D7%A4%D7%98%D7%94-%D7%95%D7%90%D7%9C%D7%95%D7%95%D7%A8%D7%94-100-%D7%92%D7%A8-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1302,7 +1454,7 @@
    "title": "אתנה – שימורי מזון משלים עם בשר צייד 100 גר’ Athena",
    "description": "שימורי מזון משלים, סופר פרימיום",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a2%d7%9d-%d7%91%d7%a9%d7%a8-%d7%a6%d7%99%d7%99%d7%93-100-%d7%92%d7%a8-athen/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-עם-בשר-צייד-100-גר-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%91%D7%A9%D7%A8-%D7%A6%D7%99%D7%99%D7%93-100-%D7%92%D7%A8-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1340,7 +1492,7 @@
    "title": "אתנה – שימורי מזון משלים עם כבד ותפוח Athena",
    "description": "שימורי מזון בשריים לחתול בתוספת כבד ותפוח",
    "link": "https://closetonature.co.il/product/%d7%90%d7%aa%d7%a0%d7%94-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a2%d7%9d-%d7%9b%d7%91%d7%93-%d7%95%d7%aa%d7%a4%d7%95%d7%97-athena/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אתנה-שימורי-מזון-משלים-עם-כבד-ותפוח-Athena.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%AA%D7%A0%D7%94-%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%9B%D7%91%D7%93-%D7%95%D7%AA%D7%A4%D7%95%D7%97-Athena.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "6.00",
    "currency": "ILS",
@@ -1378,7 +1530,7 @@
    "title": "פרופסקו מעדן פטה 100 גרם לחתול בטעם עוף Propesko",
    "description": "מעדן פטה איכותי לחתול בשלושה טעמים \n מזון משלים לחתולים במחיר משתלם. \n המעדן מכיל בשר אמיתי ורכיבים איכותיים ומצויין כתזונה משלימה עבור חתולך.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%a4%d7%a1%d7%a7%d7%95-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-100-%d7%92%d7%a8%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%98%d7%a2%d7%9d-%d7%a2%d7%95%d7%a3-propesko/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרופסקו-מעדן-פטה-100-גרם-לחתול-בטעם-עוף-Propesko.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%95%D7%A4%D7%A1%D7%A7%D7%95-%D7%9E%D7%A2%D7%93%D7%9F-%D7%A4%D7%98%D7%94-100-%D7%92%D7%A8%D7%9D-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%98%D7%A2%D7%9D-%D7%A2%D7%95%D7%A3-Propesko.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "4.00",
    "currency": "ILS",
@@ -1416,7 +1568,7 @@
    "title": "פרופסקו מעדן פטה 100 גרם לחתול בטעם בקר Propesko",
    "description": "מעדן פטה איכותי לחתול בשלושה טעמים \n מזון משלים לחתולים במחיר משתלם. \n המעדן מכיל בשר אמיתי ורכיבים איכותיים ומצויין כתזונה משלימה עבור חתולך.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%a4%d7%a1%d7%a7%d7%95-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-100-%d7%92%d7%a8%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%98%d7%a2%d7%9d-%d7%91%d7%a7%d7%a8-propesko/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Propesko-with-Beef-for-Cats-100-g-פרופסקו-שימור-לחתולים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Propesko-with-Beef-for-Cats-100-g-%D7%A4%D7%A8%D7%95%D7%A4%D7%A1%D7%A7%D7%95-%D7%A9%D7%99%D7%9E%D7%95%D7%A8-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "4.00",
    "currency": "ILS",
@@ -1454,7 +1606,7 @@
    "title": "פרופסקו מעדן פטה 100 גרם לחתול בטעם סלמון Propesko",
    "description": "מעדן פטה איכותי לחתול בשלושה טעמים \n מזון משלים לחתולים במחיר משתלם. \n המעדן מכיל בשר אמיתי ורכיבים איכותיים ומצויין כתזונה משלימה עבור חתולך.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%a4%d7%a1%d7%a7%d7%95-%d7%9e%d7%a2%d7%93%d7%9f-%d7%a4%d7%98%d7%94-100-%d7%92%d7%a8%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%98%d7%a2%d7%9d-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-pro/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרופסקו-מעדן-פטה-100-גרם-לחתול-בטעם-סלמון-Propesko.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%95%D7%A4%D7%A1%D7%A7%D7%95-%D7%9E%D7%A2%D7%93%D7%9F-%D7%A4%D7%98%D7%94-100-%D7%92%D7%A8%D7%9D-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%98%D7%A2%D7%9D-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-Propesko.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "4.00",
    "currency": "ILS",
@@ -1492,7 +1644,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – בקר ותפו”א – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%a7%d7%a8-%d7%95%d7%aa%d7%a4%d7%95%d7%90-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-בקר-ותפוא-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%91%D7%A7%D7%A8-%D7%95%D7%AA%D7%A4%D7%95%D7%90-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1530,7 +1682,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – עוף ופסטה – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%95%d7%a3-%d7%95%d7%a4%d7%a1%d7%98%d7%94-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-עוף-ופסטה-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%95%D7%A3-%D7%95%D7%A4%D7%A1%D7%98%D7%94-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1568,7 +1720,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – בקר ועוף – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%a7%d7%a8-%d7%95%d7%a2%d7%95%d7%a3-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-בקר-ועוף-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%91%D7%A7%D7%A8-%D7%95%D7%A2%D7%95%D7%A3-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1606,7 +1758,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – הודו וארנבת – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%94%d7%95%d7%93%d7%95-%d7%95%d7%90%d7%a8%d7%a0%d7%91%d7%aa-100-%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-הודו-וארנבת-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%94%D7%95%D7%93%D7%95-%D7%95%D7%90%D7%A8%D7%A0%D7%91%D7%AA-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1644,7 +1796,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – קוקטיל בשר – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a7%d7%95%d7%a7%d7%98%d7%99%d7%9c-%d7%91%d7%a9%d7%a8-100-%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-קוקטיל-בשר-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A7%D7%95%D7%A7%D7%98%D7%99%D7%9C-%D7%91%D7%A9%D7%A8-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1682,7 +1834,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – לבבות הודו – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%9c%d7%91%d7%91%d7%95%d7%aa-%d7%94%d7%95%d7%93%d7%95-100-%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-לבבות-הודו-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%9C%D7%91%D7%91%D7%95%D7%AA-%D7%94%D7%95%D7%93%D7%95-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1720,7 +1872,7 @@
    "title": "Vom Feinsten – מזון רטוב לחתול בוגר – סלמון ושרימפס – 100 גרם",
    "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
    "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%95%d7%a9%d7%a8%d7%99%d7%9e%d7%a4%d7%a1-1/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-סלמון-ושרימפס-100-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%95%D7%A9%D7%A8%D7%99%D7%9E%D7%A4%D7%A1-100-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -1742,158 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%95%D7%A9%D7%A8%D7%99%D7%9E%D7%A4%D7%A1%20%E2%80%93%20100%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "5240",
-   "title": "Vom Feinsten – מזון רטוב לחתול בוגר – עוף ועגל – 100 גרם",
-   "description": "מזון רטוב איכותי עם בשר עגל ועוף. מעדן בעל ערך תזונתי גבוה, מותאם לחתולים בגילאים 1-6 שנים. מכיל בשר טרי ומובחר, טאורין טבעי, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 100 גרם.",
-   "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%95%d7%a3-%d7%95%d7%a2%d7%92%d7%9c-100-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-מזון-רטוב-לחתול-בוגר-עוף-ועגל-100-גרם.jpg",
-   "condition": "new",
-   "price": "7.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5240%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5240",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5240/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5240/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5240",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5240%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5240",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5240%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5240",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%A2%D7%95%D7%A3%20%D7%95%D7%A2%D7%92%D7%9C%20%E2%80%93%20100%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "5239",
-   "title": "שיבא מעדן לחתולים פרוסות הודו ברוטב לבן Sheba",
-   "description": "מעדן לחתול מזין וטעים",
-   "link": "https://closetonature.co.il/product/%d7%a9%d7%99%d7%91%d7%90-%d7%a4%d7%a8%d7%95%d7%a1%d7%95%d7%aa-%d7%94%d7%95%d7%93%d7%95-%d7%91%d7%a8%d7%95%d7%98%d7%91-%d7%9c%d7%91%d7%9f-sheba/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/שיבא-פרוסות-הודו-ברוטב-לבן-Sheba.jpg",
-   "condition": "new",
-   "price": "5.50",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5239%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5239",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5239/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5239/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5239",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5239%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5239",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5239%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5239",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%91%D7%90%20%D7%9E%D7%A2%D7%93%D7%9F%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A4%D7%A8%D7%95%D7%A1%D7%95%D7%AA%20%D7%94%D7%95%D7%93%D7%95%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20%D7%9C%D7%91%D7%9F%20Sheba%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "5238",
-   "title": "שיבא פטה עוף לחתולים Sheba",
-   "description": "מעדן לחתול מזין וטעים",
-   "link": "https://closetonature.co.il/product/%d7%a9%d7%99%d7%91%d7%90-%d7%a4%d7%98%d7%94-%d7%a2%d7%95%d7%a3-sheba/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/שיבא-פטה-עוף-Sheba.jpg",
-   "condition": "new",
-   "price": "5.50",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5238%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5238",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5238/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5238/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5238",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5238%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5238",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5238%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5238",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%91%D7%90%20%D7%A4%D7%98%D7%94%20%D7%A2%D7%95%D7%A3%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20Sheba%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "5237",
-   "title": "שיבא טונה ברוטב Sheba",
-   "description": "מעדן לחתול מזין וטעים",
-   "link": "https://closetonature.co.il/product/%d7%a9%d7%99%d7%91%d7%90-%d7%98%d7%95%d7%a0%d7%94-%d7%91%d7%a8%d7%95%d7%98%d7%91-sheba/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/שיבא-טונה-ברוטב-Sheba.jpg",
-   "condition": "new",
-   "price": "5.50",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5237%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5237",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5237/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5237/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5237",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5237%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5237",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5237%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5237",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%99%D7%91%D7%90%20%D7%98%D7%95%D7%A0%D7%94%20%D7%91%D7%A8%D7%95%D7%98%D7%91%20Sheba%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

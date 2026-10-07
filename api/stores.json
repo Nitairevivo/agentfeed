@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-10-06T20:02:02+00:00",
+  "updated": "2026-10-07T17:09:35+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -22,6 +22,12 @@
       "businesses": 3
     },
     {
+      "slug": "services",
+      "name": "שירותים דיגיטליים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/services/",
+      "businesses": 3
+    },
+    {
       "slug": "health",
       "name": "בריאות ורפואה",
       "url": "https://nitairevivo.github.io/agentfeed/c/health/",
@@ -31,12 +37,6 @@
       "slug": "lodging",
       "name": "אירוח וצימרים",
       "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
-      "businesses": 2
-    },
-    {
-      "slug": "services",
-      "name": "שירותים דיגיטליים",
-      "url": "https://nitairevivo.github.io/agentfeed/c/services/",
       "businesses": 2
     },
     {
@@ -98,6 +98,43 @@
   ],
   "businesses": [
     {
+      "slug": "agentfeed-sites",
+      "name": "AgentFeed — בניית אתרים לעסקים קטנים",
+      "official_site": "https://nitairevivo.github.io/agentfeed/sites.html",
+      "category": "שירותים דיגיטליים",
+      "category_slug": "services",
+      "region": "",
+      "areas": [],
+      "items": 4,
+      "page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/",
+      "products": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/products.jsonl",
+      "updated": "2026-10-07T17:07:00+00:00",
+      "unknown": [
+        "זמן בנייה — כמה זמן עובר מההזמנה ועד שהאתר עולה",
+        "אזור שירות — האם השירות ניתן בכל הארץ, או מרחוק בלבד",
+        "אמצעי תשלום — באילו דרכים משלמים",
+        "מה קורה לאתר ולדומיין אם מפסיקים את התשלום החודשי",
+        "שם העסק הרשום ומספר עוסק",
+        "כמה עסקים כבר קיבלו אתר — לא פורסם",
+        "דירוג וביקורות — לא נמסר דירוג ולא מספר ביקורות. אין להסיק מכך דבר על איכות העסק"
+      ],
+      "ordering": {
+        "method": "unknown",
+        "evidence": "the business has not said how an order is placed",
+        "payment_taken_by": "arranged directly with the business — no online checkout",
+        "cart_links": false,
+        "cart_link_note": "No direct cart link is published for this business. That is a stated absence, not an oversight: a link we cannot derive from what the platform documents would send a shopper to a dead page.",
+        "contact_order_url": "https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed.",
+        "contact_order_method": "whatsapp",
+        "how_to_order": "Send the shopper to contact_order_url — a WhatsApp message to the business, ready to send. Each product's own order field carries the same link with that item already named in the text."
+      },
+      "contact": {
+        "phone": "052-676-0039",
+        "whatsapp": "https://wa.me/972526760039"
+      },
+      "phone": "052-676-0039"
+    },
+    {
       "slug": "close-to-nature",
       "name": "חנות חיות קרוב לטבע",
       "official_site": "https://closetonature.co.il/",
@@ -105,10 +142,10 @@
       "category_slug": "pets",
       "region": "",
       "areas": [],
-      "items": 2192,
+      "items": 2195,
       "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
       "products": "https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl",
-      "updated": "2026-10-05T18:27:41+00:00",
+      "updated": "2026-10-07T15:44:10+00:00",
       "unknown": [
         "אין קופוני הנחה — כך נמסר על ידי הבעלים, ולכן אין טעם לחפש קוד קופון לחנות הזאת",
         "כתובת העסק — הבעלים ביקש שלא לפרסם אותה, וזו החלטה שלו ולא פער במידע",

@@ -1,16 +1,311 @@
 {
  "page": 3,
- "pages": 100,
- "total": 4994,
+ "pages": 101,
+ "total": 5001,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-4.json",
  "products": [
+  {
+   "id": "66532",
+   "title": "אפוקוול 5.4 מ״ג להקלה על גירודים ואלרגיות עור לכלב | 100 טבליות | Apoquel",
+   "description": "הפתרון המהיר והמומלץ ביותר לעצירת גירודים אצל כלבים! אפוקוול (Apoquel) מעניק הקלה משמעותית תוך 4-24 שעות בלבד מרגע המתן. \n ⚠️  לתשומת לבכם: מוצר זה מחייב מרשם וטרינרי בתוקף.  כדי להשלים את הרכישה, יש לצרף את צילום המרשם באמצעות הכפתור  “לחץ להעלאת מרשם וטרינרי”  המופיע כאן בעמוד. (ניתן גם לשלוח את המרשם לוואטסאפ של האתר לאחר ההזמנה). \n \n \n 🛡️  עצירת גרד מהירה:  תוצאות נראות לעין תוך שעות ספורות. \n \n \n ✨  בטוח לשימוש:  אינו סטרואיד ואינו גורם לתופעות לוואי קשות. \n \n \n 💊  טעימות מעולה:  בגרסת הלעיסה (Chewable) הכלב יקבל זאת כצ’ופר טעים.",
+   "link": "https://closetonature.co.il/product/apoquel-5-4-mg-dog-allergy-itch-relief/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/07/apoquel-5.4-mg-anti-itch-tablets-for-dogs-with-tablets-and-watermark.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "799.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66532%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66532",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66532/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66532/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#66532",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66532%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66532",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66532%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66532",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%A4%D7%95%D7%A7%D7%95%D7%95%D7%9C%205.4%20%D7%9E%D7%B4%D7%92%20%D7%9C%D7%94%D7%A7%D7%9C%D7%94%20%D7%A2%D7%9C%20%D7%92%D7%99%D7%A8%D7%95%D7%93%D7%99%D7%9D%20%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%99%D7%95%D7%AA%20%D7%A2%D7%95%D7%A8%20%D7%9C%D7%9B%D7%9C%D7%91%20%7C%20100%20%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA%20%7C%20Apoquel%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "66225",
+   "title": "🐠 ערכת בדיקת מים מהירה (50 סטיקים) – JBL PRO AQUATEST EASY 7 in 1",
+   "description": "שמירה על בריאות הדגים מתחילה בבדיקה פשוטה. \n ערכת המקלונים של JBL מאפשרת לכם לקבל תמונת מצב מלאה על איכות המים באקווריום או בבריכת הנוי בתוך 60 שניות בלבד. הבדיקה מזהה את הפרמטרים הקריטיים ביותר למניעת מחלות ותמותת דגים, ומבטיחה סביבת חיים אופטימלית. \n  פרטי מוצר:  \n 🧪  בדיקה מקיפה:  7 פרמטרים שונים במקלון אחד:  $NO_2$ ,  $NO_3$ ,  $GH$ ,  $KH$ ,  $pH$ ,  $Cl_2$ , ו- $CO_2$ . \n ⏱️  מהירות:  תוצאות קריאות תוך דקה אחת בלבד. \n 📦  כמות:  המארז מכיל 50 מקלוני בדיקה (50 X TEST). \n 🌊  רב-שימושי:  מתאים לאקווריומים של מים מתוקים, בריכות נוי, דגי נוי וצמחי מים. \n ✅  דיוק גרמני:  מיוצר על ידי JBL, המובילה העולמית בציוד מקצועי לאקווריומים.",
+   "link": "https://closetonature.co.il/product/jbl-pro-aquatest-easy-7-in-1-test-strips/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/05/jbl-pro-aquatest-easy-7-in-1-50-test-strips.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "99.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66225%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66225",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66225/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66225/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#66225",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66225%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66225",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66225%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66225",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%A0%20%D7%A2%D7%A8%D7%9B%D7%AA%20%D7%91%D7%93%D7%99%D7%A7%D7%AA%20%D7%9E%D7%99%D7%9D%20%D7%9E%D7%94%D7%99%D7%A8%D7%94%20%2850%20%D7%A1%D7%98%D7%99%D7%A7%D7%99%D7%9D%29%20%E2%80%93%20JBL%20PRO%20AQUATEST%20EASY%207%20in%201%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "66218",
+   "title": "🌿 טרופיקלין ספריי הרגעה היפואלרגני 236 מ”ל TropiClean OxyMed Soothing Spray",
+   "description": "עזרה ראשונה והרגעה מיידית לעור הרגיש ביותר. ספריי  טרופיקלין  OxyMed Hypo-Allergenic מבית  TropiClean  עוצב במיוחד עבור חיות מחמד הסובלות מאלרגיות, עור יבש, מתקלף או מגורה. הנוסחה הייחודית מעניקה לחות עמוקה, מפסיקה את תחושת הגירוד ומסייעת בשיקום מחסום ההגנה הטבעי של העור, כל זאת ללא שימוש בחומרים המגרים את דרכי הנשימה או את העור. \n  פרטי מוצר:  \n🧪  נוסחה נקייה:  ללא פראבנים (Paraben Free), ללא צבעים מלאכותיים (Dye Free) וללא בישום (Fragrance Free). \n✨  שימוש ממוקד:  מתאים כטיפול נקודתי (Spot Treatment) באזורים יבשים או מגורים. \n💧  לחות והרגעה:  מעניק הקלה עדינה (Gentle Relief) לעור יבש ומתקלף. \n🐾  בטיחות:  מתאים לשימוש יומיומי על כלבים וחתולים. \n📏  תכולה:  236 מ”ל (8 FL OZ).",
+   "link": "https://closetonature.co.il/product/tropiclean-oxymed-hypo-allergenic-soothing-spray/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/05/tropiclean-oxymed-hypoallergenic-soothing-spray-236ml.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "85.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66218%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66218",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66218/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66218/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#66218",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66218%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66218",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66218%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66218",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%8C%BF%20%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%D7%99%D7%9F%20%D7%A1%D7%A4%D7%A8%D7%99%D7%99%20%D7%94%D7%A8%D7%92%D7%A2%D7%94%20%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%20236%20%D7%9E%E2%80%9D%D7%9C%20TropiClean%20OxyMed%20Soothing%20Spray%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "66162",
+   "title": "🛡️ ברבקטו אמפולה לחתול גדול 6.25-12.5 ק”ג – Bravecto",
+   "description": "הגנה עוצמתית באמפולה אחת לרבע שנה  \n \n \n  ברבקטו (Bravecto) הוא הפתרון המתקדם ביותר למניעה וטיפול בנגיעות פרעושים וקרציות בחתולים גדולים.  \n \n \n  אמפולה אחת של ברבקטו מעניקה לחתול שלך הגנה רציפה ואיכותית למשך 12 שבועות מלאים (3 חודשים).  \n \n \n  הטיפול חוסך את הצורך במתן אמפולות בכל חודש ומבטיח שקט נפשי ארוך ומקסימלי עבורכם.  \n \n \n  פרטי מוצר:  \n \n \n  ⚖️ טווח משקל: חתולים במשקל 6.25-12.5 ק”ג.  \n \n \n  🧪 רכיב פעיל: פלורלנר (Fluralaner) 500 מ”ג.  \n \n \n  ⏱️ משך הגנה: אמפולה אחת מעניקה הגנה מלאה ל-90 יום (3 חודשים).  \n \n \n  🧴 תכולה: שפופרת ספוט-און בנפח 1.79 מ”ל.  \n \n \n  🚫 תועלת: קוטל פרעושים וקרציות במהירות ומגן על החתול ממחלות.  \n \n \n  אפשרויות רכישה לבחירה:  \n \n \n  חפיסה בודדת (אמפולה אחת): טיפול מלא לשלושה חודשים.  \n \n \n  זוג חפיסות (2 אמפולות): 📦 מארז חיסכון – הגנה לחצי שנה במחיר המשתלם בישראל.",
+   "link": "https://closetonature.co.il/product/closetonature-co-il-bravecto-spot-on-for-large-cats-6-25-12-5kg/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/05/bravecto-large-cats-6-25-12-5kg-500mg-single.jpg?fit=600%2C600&ssl=1",
+   "brand": "ברבקטו - Bravecto",
+   "condition": "new",
+   "price": "229.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66162%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66162",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66162/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/66162/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#66162",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66162%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66162",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D66162%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=66162",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%9B%A1%EF%B8%8F%20%D7%91%D7%A8%D7%91%D7%A7%D7%98%D7%95%20%D7%90%D7%9E%D7%A4%D7%95%D7%9C%D7%94%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%92%D7%93%D7%95%D7%9C%206.25-12.5%20%D7%A7%E2%80%9D%D7%92%20%E2%80%93%20Bravecto%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "65646",
+   "title": "קולר נגד פרעושים וקרציות לכלב להגנה של 3 חודשים 🐶 פיטר פט",
+   "description": "קולר “פיטר פט” (Peter Pet) לכלב – הגנה עוצמתית נגד פרעושים וקרציות  \n אל תתנו לפרעושים וקרציות להרוס לכלב שלכם את היום! קולר  פיטר פט  הוא הפתרון המושלם לבעלים שמחפשים הדברה אפקטיבית בשילוב עם רכיבים טבעיים ובטוחים. הקולר משחרר חומרים פעילים מבושמים המבוססים על תמציות צמחים (גרניול), אשר דוחים ומדבירים מזיקים ביעילות מירבית ומונעים את חזרתם למשך 3 חודשים. \n הקולר מתאים לכל גזעי הכלבים, הוא נוח במיוחד לענידה ועמיד בפני מים, כך שהכלב שלכם נשאר מוגן גם בטיולים בגשם או אחרי רחצה. \n \n \n  🛡️ ייעוד:  הדברה ומניעה של פרעושים וקרציות. \n \n \n  📅 משך הגנה:  עד 3 חודשים של שקט נפשי. \n \n \n  🌿 רכיבים:  מכיל תמציות גרניול טבעיות וניחוח רענן. \n \n \n  🖤 צבע:  שחור קלאסי. \n \n \n  📏 גודל:  One Size (מתכוונן ומתאים לכל גודל כלב). \n \n \n  🌧️ עמידות:  עמיד למים ומתאים לשימוש חיצוני.",
+   "link": "https://closetonature.co.il/product/peter-pet-flea-tick-dog-collar-black/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A7%D7%95%D7%9C%D7%A8-%D7%A4%D7%99%D7%98%D7%A8-%D7%A4%D7%98-Peter-Pet-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A0%D7%92%D7%93-%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%95%D7%A7%D7%A8%D7%A6%D7%99%D7%95%D7%AA-%E2%80%93-%D7%94%D7%92%D7%A0%D7%94-%D7%98%D7%91%D7%A2%D7%99%D7%AA-3-%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "45.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65646%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65646",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65646/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65646/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#65646",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65646%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65646",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65646%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65646",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A7%D7%95%D7%9C%D7%A8%20%D7%A0%D7%92%D7%93%20%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D%20%D7%95%D7%A7%D7%A8%D7%A6%D7%99%D7%95%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9C%D7%94%D7%92%D7%A0%D7%94%20%D7%A9%D7%9C%203%20%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D%20%F0%9F%90%B6%20%D7%A4%D7%99%D7%98%D7%A8%20%D7%A4%D7%98%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "65638",
+   "title": "קולר נגד פרעושים וקרציות לחתול להגנה של 3 חודשים ⭐ פיטר פט",
+   "description": "קולר “פיטר פט” (Peter Pet) – נגד פרעושים וקרציות לחתולים \n  3 חודשי שקט  – קולר “פיטר פט” (Peter Pet) מספק פתרון טבעי, אפקטיבי ומבושם להדברת פרעושים וקרציות, שפותח במיוחד עבור חתולים. הנוסחה הטבעית משחררת חומרים פעילים מבושמים באופן מבוקר, הדוחים מזיקים ומונעים את חזרתם למשך 3 חודשים. הקולר בטוח לשימוש יומיומי, עמיד למים ובעל ריח נעים (אינו מכיל חומרי הדברה כימיים אגרסיביים). עכשיו בעיצוב חדש ומחודש, וזמין לבחירה בין שני צבעים אהובים! \n מפרט טכני ויתרונות: \n \n \n ⭐  הגנה מלאה 3-in-1:  דוחה ומדביר פרעושים, קרציות וביצי פרעושים בשלבי התפתחות שונים. \n \n \n 🌿  נוסחה טבעית ומבושמת:  שילוב שמנים אתריים ותמציות צמחים גרניול להדברה בטוחה. ניחוח נעים ורענן שחתולים אינם מתנגדים לו. \n \n \n 🛡️  התאמה מלאה:  מתאים לכל גזעי החתולים, החל מגיל 12 שבועות. \n \n \n ✅  נוחות מקסימלית:  רך, גמיש ובעל מנגנון סגירה בטיחותי הנפתח במקרה של לחץ קיצוני (למניעת חנק). \n \n \n 🌧️  עמידות:  עמיד למים (אין צורך להסיר בזמן רחצה קלה או גשם). \n \n \n 🧴  שימוש חיצוני בלבד:  בטוח למגע עם פרוות החתול והעור.",
+   "link": "https://closetonature.co.il/product/peter-pet-natural-flea-tick-cat-collar/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A7%D7%95%D7%9C%D7%A8-%D7%A4%D7%99%D7%98%D7%A8-%D7%A4%D7%98-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%A0%D7%92%D7%93-%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%95%D7%A7%D7%A8%D7%A6%D7%99%D7%95%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%A9%D7%97%D7%95%D7%A8-%D7%95%D7%95%D7%A8%D7%95%D7%93-%D7%9C%D7%A6%D7%93-%D7%94%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%94%D7%9E%D7%A7%D7%95%D7%A8%D7%99%D7%AA.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "45.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65638%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65638",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65638/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65638/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#65638",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65638%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65638",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65638%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65638",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A7%D7%95%D7%9C%D7%A8%20%D7%A0%D7%92%D7%93%20%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D%20%D7%95%D7%A7%D7%A8%D7%A6%D7%99%D7%95%D7%AA%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%9C%D7%94%D7%92%D7%A0%D7%94%20%D7%A9%D7%9C%203%20%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D%20%E2%AD%90%20%D7%A4%D7%99%D7%98%D7%A8%20%D7%A4%D7%98%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "65454",
+   "title": "אפיטיקס לכלב ענק 40-60 ק”ג Effitix | הגנה משולשת ב-4 אמפולות",
+   "description": "אפיטיקס (Effitix) לכלבים ענקיים – הגנה משולשת ללא פשרות  \n כלבים גדולים זקוקים להגנה חזקה ומדויקת.  אפיטיקס  מבית  Virbac  היא מהאמפולות המתקדמות בעולם, המשלבת שני חומרים פעילים (פיפרוניל ופרמטרין) כדי להעניק לכלב שלכם מעטפת הגנה מלאה. בניגוד למוצרים רגילים, אפיטיקס לא רק קוטלת פרעושים וקרציות, אלא גם דוחה יתושים וזבובי חול – גורם קריטי במניעת מחלת הלישמניה. \n האמפולות מצוידות בטכנולוגיית “Drop-Stop” המאפשרת מריחה נקייה ומדויקת ללא נזילות. \n \n \n  ⚖️ משקל:  מותאם לכלבים גדולים מאוד במשקל 40-60 ק”ג. \n \n \n  📦 כמות:  מארז חסכון של 4 אמפולות (הגנה ל-4 חודשים). \n \n \n  🛡️ טווח הגנה:  יעילות מקסימלית למשך 4 שבועות מכל מריחה. \n \n \n  🔬 פורמולה:  שילוב עוצמתי של Fipronil ו-Permethrin.",
+   "link": "https://closetonature.co.il/product/flea-and-tick-virbac-effitix-dog-40-60kg/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%97%D7%A4%D7%99%D7%A1%D7%AA-%D7%90%D7%9E%D7%A4%D7%95%D7%9C%D7%95%D7%AA-%D7%90%D7%A4%D7%99%D7%98%D7%99%D7%A7%D7%A1-Effitix-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-%D7%9E%D7%90%D7%95%D7%93-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-40-60-%D7%A7%D7%92-%E2%80%93-4-%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65454%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65454",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65454/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/65454/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#65454",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65454%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65454",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D65454%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=65454",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%A4%D7%99%D7%98%D7%99%D7%A7%D7%A1%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A2%D7%A0%D7%A7%2040-60%20%D7%A7%E2%80%9D%D7%92%20Effitix%20%7C%20%D7%94%D7%92%D7%A0%D7%94%20%D7%9E%D7%A9%D7%95%D7%9C%D7%A9%D7%AA%20%D7%91-4%20%D7%90%D7%9E%D7%A4%D7%95%D7%9C%D7%95%D7%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "65448",
    "title": "פילטר פחם Catit Clean – הגנה מקסימלית מריחות לשירותים האוטומטיים שלך",
    "description": "השירותים האוטומטיים של קט איט עושים עבודה מדהימה בניקוי, אבל כדי שהבית שלכם יישאר רענן באמת, אתם חייבים פילטר פחם איכותי. פילטר ה- Catit Clean  עוצב במיוחד כדי להתאים למערכת סינון האוויר של השירותים האוטומטיים ( SmartSift ) ושל סדרת ה-Design של המותג. \n הפילטר מכיל פחם פעיל בעל שטח פנים רחב, שלוכד את מולקולות הריח ומונע מהן להתפשט בחלל הבית. \n \n \n  📦 תכולה:  2 פילטרים במארז. \n \n \n  🐱 התאמה מושלמת:  תואם ב-100% לשירותים אוטומטיים Catit SmartSift ולשירותי Catit Design. \n \n \n  🌑 טכנולוגיה:  פחם פעיל איכותי לנטרול ריחות אמוניה וריחות לוואי.",
    "link": "https://closetonature.co.il/product/cat-litter-boxes-catit-smartsift-carbon-filters/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/פילטר-פחם-לשירותים-אוטומטיים-קט-איט.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A4%D7%99%D7%9C%D7%98%D7%A8-%D7%A4%D7%97%D7%9D-%D7%9C%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-%D7%90%D7%95%D7%98%D7%95%D7%9E%D7%98%D7%99%D7%99%D7%9D-%D7%A7%D7%98-%D7%90%D7%99%D7%98.jpg?fit=480%2C480&ssl=1",
    "brand": "קטאיט - Catit",
    "condition": "new",
    "price": "35.00",
@@ -53,7 +348,7 @@
    "title": "🛡️ סימפריקה לכלבים זעירים 1.3-2.5 ק”ג Simparica | הדברה לכלב",
    "description": "סימפריקה (Simparica) לכלבים זעירים – הגנה גדולה בטבליה קטנה  \n כלבים קטנים זקוקים להגנה גדולה, ואין פתרון אמין יותר מ סימפריקה  (Simparica). הטבליות הלעיסות של סימפריקה, המכילות את החומר הפעיל המתקדם  סארוֹלָנֶר  (Sarolaner), פותחו במיוחד כדי לספק הגנה מהירה ומתמשכת נגד פרעושים וקרציות. הן פועלות תוך שעות ספורות ומעניקות לכלב הזעיר שלכם חודש מלא של שקט נפשי. \n הטבליות מגיעות בטעם בשרי טעים שרוב הכלבים מקבלים בשמחה כחטיף, מה שהופך את מתן ההדברה לפשוט, נקי וללא מאבקים. \n \n \n  🐕 התאמה:  כלבים וגורים מגיל 8 שבועות וממשקל 1.3-2.5 ק”ג. \n \n \n  ⚖️ מינון:  5 מ”ג טבליה לעיסה. \n \n \n  ✨ תועלת עיקרית:  חיסול מלא של פרעושים וקרציות למשך 35 יום. \n \n \n  🔢 כמות באריזה:  3 טבליות (להגנה של 3 חודשים).",
    "link": "https://closetonature.co.il/product/flea-and-tick-simparica-dog-1-3-2-5kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/סימפריקה-לכלבים-זעירים-1.3-2.5-קג-Simparica.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A1%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%A7%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%96%D7%A2%D7%99%D7%A8%D7%99%D7%9D-1.3-2.5-%D7%A7%D7%92-Simparica.jpg?fit=600%2C600&ssl=1",
    "brand": "סימפריקה - Simparica",
    "condition": "new",
    "price": "108.00",
@@ -96,7 +391,7 @@
    "title": "קערת שיש יוקרתית לכלבים וחתולים Savic Delice Marble – ברונזה",
    "description": "קערת Savic Delice Marble ברונזה – לאכול ולשתות בסטייל אירופאי  \n השיש חוזר לאופנה, ועכשיו גם חיית המחמד שלכם יכולה ליהנות מהמראה היוקרתי. קולקציית  Delice Marble  של מותג האיכות הבלגי  Savic  (סאביק) מביאה שילוב מושלם של אסתטיקה ופרקטיקה. דגם הברונזה החדש מעניק מראה חם ומודרני שמשתלב נפלא בכל חלל בבית. \n הקערה עשויה פלסטיק איכותי ועמיד במראה שיש מרהיב, הכולל שוליים רחבים למניעת החלקה ואחיזת יד נוחה להרמה קלה מהרצפה. \n \n \n  🎨 צבע:  ברונזה (Bronze) – מהדורה מיוחדת. \n \n \n  🧼 ניקיון:  עמידה ובטוחה לשטיפה במדיח הכלים. \n \n \n  📏 גדלים זמינים:  0.2 ליטר, 0.2 ליטר כפולה, 0.6 ליטר ו-1.2 ליטר.",
    "link": "https://closetonature.co.il/product/feeding-bowls-savic-delice-marble-bronze-bowl/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2023/01/קערת-אוכל-ומים-דמוי-שיש-יוקרתית-בצבע-ברונזה-דגם-Delice-Marble-מבית-Savic.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/01/%D7%A7%D7%A2%D7%A8%D7%AA-%D7%90%D7%95%D7%9B%D7%9C-%D7%95%D7%9E%D7%99%D7%9D-%D7%93%D7%9E%D7%95%D7%99-%D7%A9%D7%99%D7%A9-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%91%D7%A8%D7%95%D7%A0%D7%96%D7%94-%D7%93%D7%92%D7%9D-Delice-Marble-%D7%9E%D7%91%D7%99%D7%AA-Savic.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -138,7 +433,7 @@
    "title": "גזר מעץ לתלייה בכלוב Flamingo – משחק בריא ומהנה למכרסם שלך",
    "description": "העניקו למכרסם שלכם תעסוקה בריאה עם צעצוע הגזר של  Flamingo  (פלמינגו). הגזר עשוי עץ טבעי ובטוח לכרסום, ומעוצב במיוחד כדי לעורר את יצר הסקרנות והמשחק של חיות מחמד קטנות. בזכות בורג התלייה המובנה, ניתן לקבע אותו בקלות לסורגי הכלוב, מה שמונע ממנו להתלכלך על רצפת הכלוב ומאתגר את המכרסם בזמן המשחק. \n \n \n  📏 מידות:  7.5×2.2 ס”מ. \n \n \n  🪵 חומר:  עץ טבעי הצבוע בצבעים ידידותיים ובטוחים לבעלי חיים. \n \n \n  ⚙️ התקנה:  כולל בורג ופרפר לתלייה מהירה ויציבה על סורגי הכלוב.",
    "link": "https://closetonature.co.il/product/small-animals-flamingo-wooden-carrot-toy-hanging/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/גזר-מעץ-לתלייה-בכלוב-Flamingo-–-משחק-בריא-ומהנה-למכרסם-שלך.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%92%D7%96%D7%A8-%D7%9E%D7%A2%D7%A5-%D7%9C%D7%AA%D7%9C%D7%99%D7%99%D7%94-%D7%91%D7%9B%D7%9C%D7%95%D7%91-Flamingo-%E2%80%93-%D7%9E%D7%A9%D7%97%D7%A7-%D7%91%D7%A8%D7%99%D7%90-%D7%95%D7%9E%D7%94%D7%A0%D7%94-%D7%9C%D7%9E%D7%9B%D7%A8%D7%A1%D7%9D-%D7%A9%D7%9C%D7%9A.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "29.00",
    "currency": "ILS",
@@ -180,7 +475,7 @@
    "title": "שמפו ליורקשייר פלמינגו 300 מ”ל Flamingo Yorkshire",
    "description": "שמפו פלמינגו ליורקשייר (Flamingo Yorkshire) – הברק שהפרווה שלו צריכה  \n כלבי יורקשייר טרייר ידועים בפרווה הייחודית והמשיית שלהם, שדורשת טיפול עדין וספציפי. השמפו הייעודי של מותג  Flamingo  פותח במיוחד כדי להעניק לפרווה את הלחות הדרושה לה, לשמור על המרקם הרך ולתת לה מראה מבריק ובריא (Shiny Coat). \n \n \n  🧴 נפח:  300 מ”ל. \n \n \n  🐕 התאמה:  יורקשייר טרייר וכלבים בעלי סוג פרווה דומה. \n \n \n  ✨ תוצאה:  פרווה נקייה, רכה וקלה לסירוק בניחוח נעים.",
    "link": "https://closetonature.co.il/product/dog-grooming-flamingo-yorkshire-shampoo-300ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/שמפו-ליורקשייר-פלמינגו-300-מל-Flamingo-Yorkshire.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%99%D7%95%D7%A8%D7%A7%D7%A9%D7%99%D7%99%D7%A8-%D7%A4%D7%9C%D7%9E%D7%99%D7%A0%D7%92%D7%95-300-%D7%9E%D7%9C-Flamingo-Yorkshire.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "49.00",
    "currency": "ILS",
@@ -222,7 +517,7 @@
    "title": "סט מברשות שיניים לכלב פלמינגו Flamingo Toothbrush Set",
    "description": "סט מברשות שיניים לכלב Flamingo – לניקוי יסודי וחיוך בריא  \n שמירה על היגיינת הפה של הכלב היא חלק בלתי נפרד מהבריאות הכללית שלו. סט מברשות השיניים של  Flamingo  (פלמינגו) מציע פתרון נוח ויעיל להסרת פלאק ומניעת הצטברות אבנית. המברשות מעוצבות עם ראש כפול המאפשר להגיע בקלות לכל פינה בפה, גם לשיניים האחוריות הקשות להשגה. \n \n \n  📦 כמות במארז:  2 מברשות שיניים. \n \n \n  📐 מבנה:  מברשת דו-צדדית (ראש גדול וראש קטן). \n \n \n  🐕 התאמה:  מתאים לכל גזעי הכלבים (Suitable for All Dog Breeds).",
    "link": "https://closetonature.co.il/product/dog-hygiene-flamingo-dog-toothbrush-set-2pcs/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/סט-מברשות-שיניים-לכלב-פלמינגו-Flamingo-Toothbrush-Set.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A1%D7%98-%D7%9E%D7%91%D7%A8%D7%A9%D7%95%D7%AA-%D7%A9%D7%99%D7%A0%D7%99%D7%99%D7%9D-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%9C%D7%9E%D7%99%D7%A0%D7%92%D7%95-Flamingo-Toothbrush-Set.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "29.00",
    "currency": "ILS",
@@ -264,7 +559,7 @@
    "title": "פדים לאימון גורים (משטחי ספיגה) Elite Ultra – מארז 50 יחידות",
    "description": "מחפשים פתרון יעיל לחינוך הגור לצרכים? משטחי האימון של  Elite Ultra  הם הבחירה המובילה לשמירה על ניקיון הבית. הפדים מעניקים הגנה מקסימלית על הרצפה והשטיחים, סופגים נוזלים במהירות שיא ומנטרלים ריחות לא נעימים באופן מיידי. \n \n \n  📏 מידה:  56*56 ס”מ – כיסוי שטח מושלם. \n \n \n  📦 כמות:  50 משטחים במארז. \n \n \n  💧 טכנולוגיית אולטרה:  ספיגה מוגברת שהופכת נוזל לג’ל תוך שניות.",
    "link": "https://closetonature.co.il/product/dog-training-puppy-training-pads-elite-ultra-50/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/מארז-50-פדים-לאימון-גורים-Elite-Pads-ספיגה-מקסימלית-וניטרול-ריחות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%9E%D7%90%D7%A8%D7%96-50-%D7%A4%D7%93%D7%99%D7%9D-%D7%9C%D7%90%D7%99%D7%9E%D7%95%D7%9F-%D7%92%D7%95%D7%A8%D7%99%D7%9D-Elite-Pads-%D7%A1%D7%A4%D7%99%D7%92%D7%94-%D7%9E%D7%A7%D7%A1%D7%99%D7%9E%D7%9C%D7%99%D7%AA-%D7%95%D7%A0%D7%99%D7%98%D7%A8%D7%95%D7%9C-%D7%A8%D7%99%D7%97%D7%95%D7%AA.jpg?fit=1080%2C1080&ssl=1",
    "condition": "new",
    "price": "68.00",
    "currency": "ILS",
@@ -306,7 +601,7 @@
    "title": "שזיר מעדן לחתול Complete Nutrition – כל הטעמים האהובים במראה החדש והמעודכן",
    "description": "שזיר Complete Nutrition – כל הטעמים האהובים במראה החדש והמעודכן  \n סדרת התזונה המלאה של  שזיר  (Schesir) עברה מתיחת פנים למראה מודרני וחדש. בניגוד למעדנים רגילים המשמשים כצ’ופר בלבד, סדרת ה-Complete Nutrition מספקת לחתול ארוחה שלמה, מאוזנת ומזינה (Full Feed). כל פחית מכילה את כל הוויטמינים והמינרלים הדרושים לתפקוד יומיומי תקין של חתולים בוגרים, ללא צורך בהשלמות תזונתיות ממקור אחר. \n \n \n  ⚖️ משקל יחידה:  85 גרם. \n \n \n  🥩 איכות המרכיבים:  נתחי פילה אמיתיים בבישול באדים (Human Grade). \n \n \n  🌾 ללא דגנים:  פורמולה נקייה (Grain Free) המונעת רגישויות ומקלה על העיכול. \n \n \n  🎯 ריכוז הטעמים בסדרה:  טונה עם בקר | טונה עם עוף | טונה עם לברק | טונה עם האם | טונה עם שרימפס | סלמון | טונה עם סורימי | טונה עם דגי פיתיונות \n \n \n \n 💬  בירור טעמים במלאי   בוואטסאפ  . ניתן גם לסמוך עלינו – נבחר עבורכם את הטעמים המנצחים בהתאם למלאי המעודכן!",
    "link": "https://closetonature.co.il/product/cat-food-schesir-complete-nutrition-85g-new-pack/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/שזיר-מעדן-לחתול-Complete-Nutrition-–-כל-הטעמים-האהובים-במראה-החדש-והמעודכן.jpeg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A9%D7%96%D7%99%D7%A8-%D7%9E%D7%A2%D7%93%D7%9F-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-Complete-Nutrition-%E2%80%93-%D7%9B%D7%9C-%D7%94%D7%98%D7%A2%D7%9E%D7%99%D7%9D-%D7%94%D7%90%D7%94%D7%95%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%A8%D7%90%D7%94-%D7%94%D7%97%D7%93%D7%A9-%D7%95%D7%94%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.jpeg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "7.00",
    "currency": "ILS",
@@ -348,7 +643,7 @@
    "title": "עוגיות לכלב דוגסי ג’יגה-בייטס בטעם גזר 300 גרם Dogsee Gigabites",
    "description": "🥕 חטיף בריאות עוצמתי לחיזוק הכלב! \nהעניקו לכלב שלכם הגנה טבעית בכל נגיסה. עוגיות Dogsee Gigabites בטעם גזר פותחו במיוחד כ-“Immunity Booster” – תוספת בריאה המסייעת לחיזוק המערכת החיסונית של הכלב בזכות ריכוז גבוה של בטא-קרוטן וויטמינים חיוניים הנמצאים בגזר טרי. \n העוגיות נאפות בתנור למרקם פריך במיוחד, מה שמסייע גם בניקוי השיניים תוך כדי לעיסה. \n 🛡️ Immunity Booster: מסייע בחיזוק ההגנה הטבעית של הגוף. \n🦷 מרקם פריך (Oven Baked): תורם להיגיינת הפה והשיניים. \n🚫 ללא גלוטן: אינו מכיל דגנים המעוררים רגישות. \n🌟 פרימיום קוואליטי: איכות ללא פשרות עם רכיבים שנבחרו בקפידה.",
    "link": "https://closetonature.co.il/product/dogsee-gigabites-carrot-immunity-booster-dog-cookies/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/עוגיות-לכלב-דוגסי-גיגה-בייטס-בטעם-גזר-300-גרם-Dogsee-Gigabites.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A2%D7%95%D7%92%D7%99%D7%95%D7%AA-%D7%9C%D7%9B%D7%9C%D7%91-%D7%93%D7%95%D7%92%D7%A1%D7%99-%D7%92%D7%99%D7%92%D7%94-%D7%91%D7%99%D7%99%D7%98%D7%A1-%D7%91%D7%98%D7%A2%D7%9D-%D7%92%D7%96%D7%A8-300-%D7%92%D7%A8%D7%9D-Dogsee-Gigabites.jpg?fit=1100%2C1100&ssl=1",
    "condition": "new",
    "price": "25.00",
    "currency": "ILS",
@@ -390,7 +685,7 @@
    "title": "עוגיות לכלב דוגסי ג’יגה-בייטס תפוח ובוטנים 300 גרם Dogsee Gigabites",
    "description": "🍎 הפינוק המושלם לשמירה על הגזרה! \nמחפשים חטיף טעים שלא פוגע בדיאטה של הכלב? עוגיות Dogsee Gigabites בטעם תפוח ובוטנים הן הפתרון האידיאלי. העוגיות נאפות בתנור (Oven Baked) בטכנולוגיה השומרת על הערכים התזונתיים ועל טעם נפלא שכלבים פשוט אוהבים. \n הפורמולה הייעודית (Weight Loss) מתאימה במיוחד לכלבים הזקוקים לשמירה על משקל תקין או לירידה במשקל, מבלי לוותר על הצ’ופר היומי. \n ✅ מיועד לירידה במשקל: מסייע בשמירה על חילוף חומרים תקין. \n🥜 שילוב טעמים מנצח: תפוח טרי ובוטנים עשירים בחלבון. \n🌾 ללא גלוטן: מתאים גם לכלבים עם רגישויות במערכת העיכול. \n🍃 100% טבעי: מבוסס על פירות וירקות טריים (Fresh Fruits & Veggies).",
    "link": "https://closetonature.co.il/product/dogsee-gigabites-apple-peanuts-weight-loss-dog-cookies/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/עוגיות-לכלב-דוגסי-גיגה-בייטס-תפוח-ובוטנים-300-גרם-Dogsee-Gigabites.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%A2%D7%95%D7%92%D7%99%D7%95%D7%AA-%D7%9C%D7%9B%D7%9C%D7%91-%D7%93%D7%95%D7%92%D7%A1%D7%99-%D7%92%D7%99%D7%92%D7%94-%D7%91%D7%99%D7%99%D7%98%D7%A1-%D7%AA%D7%A4%D7%95%D7%97-%D7%95%D7%91%D7%95%D7%98%D7%A0%D7%99%D7%9D-300-%D7%92%D7%A8%D7%9D-Dogsee-Gigabites.jpg?fit=1500%2C1441&ssl=1",
    "condition": "new",
    "price": "25.00",
    "currency": "ILS",
@@ -432,7 +727,7 @@
    "title": "חטיף לחתול גנאולרס קראנצ’י אנד טנדר בטעם סלמון – Gnawlers Crunchy & Tender Salmon",
    "description": "🌊 חגיגת טעמים מהים בכל נגיסה! \nהחתול שלכם חובב דגים? חטיף Gnawlers Crunchy & Tender בטעם סלמון הוא הבחירה המנצחת. השילוב בין המרקם הפריך של הכרית למילוי הרך והריחני בטעם סלמון יוצר חטיף שאי אפשר לעמוד בפניו, אפילו לחתולים הבררנים ביותר. \n מעבר לטעם המופלא, החטיף מסייע בשמירה על היגיינת הפה בזכות הפעולה המכנית של הלעיסה, ומעניק לחתול תוספת של רכיבים תזונתיים חשובים לבריאותו הכללית. \n 🧡 סלמון איכותי: טעם עשיר ואהוב במיוחד. \n💎 מרקם כפול: מעטפת קריספית ומילוי “טנדר” רך. \n🛡️ תמיכה במערכת החיסון: מכיל ויטמינים חיוניים לחיזוק הגוף. \n🐾 ללא ייסורי מצפון: דל בשומן ובקלוריות.",
    "link": "https://closetonature.co.il/product/gnawlers-crunchy-tender-salmon-cat-treats/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/חטיף-לחתול-גנאולרס-סלמון.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%A0%D7%90%D7%95%D7%9C%D7%A8%D7%A1-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "12.00",
    "currency": "ILS",
@@ -474,7 +769,7 @@
    "title": "חטיף לחתול גנאולרס קראנצ’י אנד טנדר בטעם טונה – Gnawlers Crunchy & Tender Tuna",
    "description": "😋 הפינוק המושלם לחתול: פריך מבחוץ, רך מבפנים! \nהכירו את חטיף הכריות שמשגע את החתולים – Gnawlers Crunchy & Tender בטעם טונה עשיר. החטיף מעניק חוויה כפולה של מרקמים: מעטפת קראנצ’ית ששומרת על בריאות השיניים, ומילוי נימוח וטעים במיוחד שגורם לכל חתול לבקש עוד. \n החטיף אידיאלי לפינוק יומיומי, כפרס בזמן משחק או סתם כשרוצים להראות אהבה. הוא דל בקלוריות, כך שתוכלו לצ’פר את החתול בראש שקט. \n 🐟 טעם דגים עמוק: מבוסס על טעם טונה שחתולים מעדיפים. \n✨ בריאות וטעם: מועשר בוויטמינים ומינרלים חיוניים. \n🌿 קל לעיכול: מכיל פרביוטיקה לתמיכה במערכת העיכול. \n⚖️ שמירה על המשקל: דל קלוריות (פחות מ-2 קלוריות ליחידה).",
    "link": "https://closetonature.co.il/product/gnawlers-crunchy-tender-tuna-cat-treats/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/04/חטיף-לחתול-גנאולרס-קראנצי-אנד-טנדר-בטעם-טונה-Gnawlers-Crunchy-Tender-Tuna.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/04/%D7%97%D7%98%D7%99%D7%A3-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%92%D7%A0%D7%90%D7%95%D7%9C%D7%A8%D7%A1-%D7%A7%D7%A8%D7%90%D7%A0%D7%A6%D7%99-%D7%90%D7%A0%D7%93-%D7%98%D7%A0%D7%93%D7%A8-%D7%91%D7%98%D7%A2%D7%9D-%D7%98%D7%95%D7%A0%D7%94-Gnawlers-Crunchy-Tender-Tuna.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "12.00",
    "currency": "ILS",
@@ -516,7 +811,7 @@
    "title": "🛡️ סימפריקה לכלבי ענק (Simparica) – הגנה עוצמתית ל-35 יום (40-60 ק”ג)",
    "description": "הגנה מאסיבית לכלבים הגדולים ביותר! סימפריקה (Simparica) לכלבי ענק במשקל 40-60 ק”ג היא טבליית לעיסה מרוכזת במיוחד (120 מ”ג), המעניקה ביטחון מלא נגד פרעושים וקרציות. בטבליה אחת טעימה, הכלב שלכם מוגן באופן הרמטי למשך 35 ימים, עם מהירות קטילה שהופכת את החיים שלו (ושלכם) להרבה יותר נעימים.  \n \n \n ⚡  כוח קטילה מואץ:  חיסול הפרעושים מתחיל תוך 3 שעות והקרציות תוך 8 שעות בלבד. \n \n \n 🛡️  כיסוי מלא ורחב:  יעילות מוכחת נגד 5 סוגי קרציות, פרעושים, סקביאס וקרדיות האוזן. \n \n \n ⏳  35 ימי שקט:  הגנה ארוכה ב-5 ימים מהסטנדרט בשוק, ללא ירידה ביעילות בסוף התקופה. \n \n \n 😋  טעימות מעולה:  טבלייה גדולה בטעם כבד שמתקבלת בקלות כצ’ופר יומיומי. \n \n \n  🎁 בחרו את המארז המתאים לכם:  \n \n \n 💊  טבליה בודדת:  הפתרון האידיאלי והנוח להגנה חודשית מוגברת. \n \n \n 👯  מארז זוג (2 טבליות):  הגנה רציפה ל-70 יום במארז חיסכון משתלם.",
    "link": "https://closetonature.co.il/product/simparica-giant-dog-40-60kg-flea-tick-treatment/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/סימפריקה-לכלבים-במשקל-40-60-קג-3-טבליות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A1%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%A7%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-40-60-%D7%A7%D7%92-3-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
    "brand": "סימפריקה - Simparica",
    "condition": "new",
    "price": "159.00",
@@ -559,7 +854,7 @@
    "title": "🛡️ סימפריקה לכלבים גדולים מאוד (Simparica) – הגנה עוצמתית ל-35 יום (20-40 ק”ג)",
    "description": "אל תתנו לכלב הגדול שלכם לסבול מעקיצות! סימפריקה (Simparica) לכלבים במשקל 20-40 ק”ג היא טבליית לעיסה עוצמתית (80 מ”ג), המעניקה את ההגנה המתקדמת ביותר נגד פרעושים וקרציות. בטבליה אחת טעימה בטעם כבד, הכלב שלכם מקבל מעטפת הגנה חזקה שמתחילה לפעול בתוך שעות ספורות ונשארת בשיא היעילות למשך 35 ימים מלאים.  \n \n \n ⚡  מהירות קטילה מקסימלית:  חיסול הפרעושים מתחיל תוך 3 שעות והקרציות תוך 8 שעות בלבד. \n \n \n 🛡️  טווח כיסוי רחב:  קוטלת 5 סוגי קרציות נפוצים, פרעושים, וביעילות מוכחת גם נגד סקביאס וקרדיות האוזן. \n \n \n ⏳  אפקט מתמשך:  הגנה יציבה ועקבית ל-35 יום – 5 ימים יותר מרוב המוצרים בשוק. \n \n \n 😋  טעם שהכלב אוהב:  טבליית לעיסה טעימה שניתן לתת כחטיף ללא מאבק. \n \n \n  🎁 בחרו את המארז המתאים לכם:  \n \n \n 💊  טבליה בודדת:  הגנה ממוקדת וחזקה ל-5 שבועות. \n \n \n 👯  מארז זוג (2 טבליות):  הגנה רציפה של 70 יום במחיר משתלם ובביטחון מלא.",
    "link": "https://closetonature.co.il/product/simparica-extra-large-dog-20-40kg-flea-tick-chewables/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/סימפריקה-לכלבים-במשקל-20-40-קג-3-טבליות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A1%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%A7%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-20-40-%D7%A7%D7%92-3-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
    "brand": "סימפריקה - Simparica",
    "condition": "new",
    "price": "149.00",
@@ -602,7 +897,7 @@
    "title": "🛡️ סימפריקה לכלבים גדולים (Simparica) – הגנה עוצמתית ל-35 יום (10-20 ק”ג)",
    "description": "אל תתנו לפרעושים וקרציות להפריע לשגרת החיים של הכלב שלכם! סימפריקה (Simparica) לכלבים במשקל 10-20 ק”ג היא טבליית לעיסה מתקדמת (40 מ”ג), המעניקה הגנה מקסימלית ורציפה מפני מזיקים. בטבליה אחת טעימה, הכלב שלכם מקבל מעטפת הגנה חזקה שמתחילה לפעול בתוך שעות ספורות ונשארת יציבה למשך 35 ימים מלאים.  \n \n \n ⚡  מהירות קטילה ללא תחרות:  חיסול הפרעושים מתחיל תוך 3 שעות והקרציות תוך 8 שעות בלבד. \n \n \n 🛡️  הגנה הרמטית:  קוטלת 5 סוגי קרציות נפוצים, פרעושים, וביעילות מוכחת גם נגד סקביאס וקרדיות האוזן. \n \n \n ⏳  אפקט מתמשך:  הגנה יציבה ל-35 יום – 5 ימים יותר מרוב המוצרים החודשיים בשוק. \n \n \n 😋  טעם שהכלב אוהב:  טבליית לעיסה בטעם כבד שניתן לתת כחטיף ללא מאמץ. \n \n \n  🎁 בחרו את המארז המתאים לכם:  \n \n \n 💊  טבליה בודדת:  הגנה ממוקדת וחזקה ל-5 שבועות. \n \n \n 👯  מארז זוג (2 טבליות):  הגנה רציפה של 70 יום במחיר משתלם יותר.",
    "link": "https://closetonature.co.il/product/simparica-large-dog-10-20kg-flea-tick-chewables/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/סימפריקה-לכלבים-במשקל-10-20-קג-3-טבליות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A1%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%A7%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-10-20-%D7%A7%D7%92-3-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
    "brand": "סימפריקה - Simparica",
    "condition": "new",
    "price": "135.00",
@@ -645,7 +940,7 @@
    "title": "🛡️ סימפריקה לכלבים בינוניים (Simparica) – הגנה עוצמתית ל-35 ימים (5-10 ק”ג)",
    "description": "אל תתפשרו על פחות מהטוב ביותר עבור הכלב שלכם! סימפריקה (Simparica) לכלבים במשקל 5-10 ק”ג היא הדרך הבטוחה והיעילה ביותר לשמור על הכלב נקי מפרעושים וקרציות. טבלייה אחת בטעם כבד מעניקה הגנה רציפה, חזקה ועמידה למשך חמישה שבועות מלאים.  \n \n \n ⚡  תגובה מהירה:  קוטלת פרעושים תוך 3 שעות וקרציות תוך 8 שעות. \n \n \n 🛡️  כיסוי מלא:  יעיל נגד מגוון רחב של קרציות, פרעושים, קרדיות האוזן וסקביאס. \n \n \n ⏳  יעילות מתמשכת:  הגנה יציבה ל-35 יום, גם ביום האחרון של החודש. \n \n \n 😋  טעימות מוכחת:  טבלייה לעיסה בטעם כבד שרוב הכלבים מקבלים בשמחה. \n \n \n  🎁 בחרו את המארז המתאים לכם:  \n \n \n 💊  טבליה בודדת:  פתרון חודשי קל ונוח. \n \n \n 👯  מארז זוג (2 טבליות):  הגנה לטווח ארוך (70 יום) במינימום מאמץ.",
    "link": "https://closetonature.co.il/product/simparica-medium-dog-5-10kg-chewable-protection/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/סימפריקה-לכלבים-במשקל-5-10-קג-3-טבליות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A1%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%A7%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-5-10-%D7%A7%D7%92-3-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
    "brand": "סימפריקה - Simparica",
    "condition": "new",
    "price": "119.00",
@@ -688,7 +983,7 @@
    "title": "🛡️ סימפריקה לכלבים קטנים (Simparica) – הגנה מתקדמת בטבליה טעימה (2.5-5 ק”ג)",
    "description": "הגנה עוצמתית המותאמת בדיוק לכלב שלכם! סימפריקה (Simparica) לכלבים במשקל 2.5-5 ק”ג היא טבליית לעיסה מרוכזת (10 מ”ג), הקוטלת פרעושים וקרציות במהירות יוצאת דופן ומספקת מעטפת הגנה הרמטית למשך 35 ימים מלאים. הפתרון האידיאלי לשמירה על כלב נקי ובריא לאורך כל השנה.  \n \n \n ⚡  פעולה מהירה במיוחד:  חיסול הפרעושים מתחיל תוך 3 שעות והקרציות תוך 8 שעות בלבד. \n \n \n 🛡️  טווח כיסוי רחב:  קוטלת 5 סוגי קרציות נפוצים, פרעושים, וגם מטפלת בקרדיות האוזן וסקביאס. \n \n \n ⏳  הגנה של חודש פלוס:  בניגוד למוצרים אחרים, סימפריקה נשארת פעילה בשיא העוצמה למשך 35 יום. \n \n \n 🦴  טעימות גבוהה:  טבלייה בטעם כבד שהכלב אוכל בקלות כצ’ופר. \n \n \n  🎁 בחרו את המארז המתאים לכם:  \n \n \n 💊  טבליה בודדת:  הגנה ממוקדת לחודש וחמישה ימים. \n \n \n 👯  מארז זוג (2 טבליות):  הגנה רציפה של 70 יום – משתלם יותר ובטוח יותר.",
    "link": "https://closetonature.co.il/product/simparica-dog-2-5-5kg-flea-tick-chewables/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/סימפריקה-לכלבים-במשקל-2.5-5-קג-3-טבליות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A1%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%A7%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%A9%D7%A7%D7%9C-2.5-5-%D7%A7%D7%92-3-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
    "brand": "סימפריקה - Simparica",
    "condition": "new",
    "price": "109.00",
@@ -731,7 +1026,7 @@
    "title": "🌿 שמפו אלוורה ושיבולת שועל (Aloe & Oatmeal Shampoo) – הרגעה וטיפוח לעור רגיש",
    "description": "העניקו לחיית המחמד שלכם חוויית רחצה מרגיעה ומלטפת עם Aloe & Oatmeal Shampoo. שמפו טבעי זה פותח במיוחד עבור כלבים וחתולים בעלי עור רגיש, מגורה או יבש. השילוב העוצמתי של רכיבים מהטבע מספק ניקוי עמוק מבלי לפגוע בשכבת ההגנה של העור, תוך הענקת ניחוח “פינה-קולדה” מרענן שנשאר לאורך זמן.  \n \n \n ✨  פורמולה מרגיעה : מכיל תמציות אלוורה ושיבולת שועל להקלה מיידית על גרד ואדמומיות. \n \n \n 🧴  הזנה עמוקה : מועשר בחומצות שומן חיוניות וויטמינים השומרים על פרווה רכה ומבריקה. \n \n \n 🌱  רכיבים טבעיים : מבוסס על תמציות צמחים (Oatnical extracts) לטיפול עדין ובטוח. \n \n \n 🥥  ניחוח מפנק : ריח פינה-קולדה טרופי המותיר את חיית המחמד רעננה ונעימה למגע.",
    "link": "https://closetonature.co.il/product/aloe-oatmeal-soothing-shampoo-for-sensitive-skin-355ml/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/בקבוק-שמפו-אלוורה-ושיבולת-שועל-של-פט-וט-לטיפול-בעור-מגורה-בחיות-מחמד.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%91%D7%A7%D7%91%D7%95%D7%A7-%D7%A9%D7%9E%D7%A4%D7%95-%D7%90%D7%9C%D7%95%D7%95%D7%A8%D7%94-%D7%95%D7%A9%D7%99%D7%91%D7%95%D7%9C%D7%AA-%D7%A9%D7%95%D7%A2%D7%9C-%D7%A9%D7%9C-%D7%A4%D7%98-%D7%95%D7%98-%D7%9C%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%91%D7%A2%D7%95%D7%A8-%D7%9E%D7%92%D7%95%D7%A8%D7%94-%D7%91%D7%97%D7%99%D7%95%D7%AA-%D7%9E%D7%97%D7%9E%D7%93.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "99.00",
    "currency": "ILS",
@@ -773,7 +1068,7 @@
    "title": "✂️ מספריים לקיצוץ ציפורניים פרפלאסט (Ferplast Nails Cutter) – טיפוח בטוח ומקצועי בבית",
    "description": "שמירה על ציפורניים גזוזות היא חלק בלתי נפרד מבריאות ונוחות בעל החיים שלכם. מספרי הציפורניים של Ferplast, מבית המותג האיטלקי המוביל, תוכננו במיוחד כדי להפוך את פעולת הגזירה לפשוטה, מדויקת ובטוחה. בזכות המבנה הארגונומי והלהבים החדים, תוכלו להעניק לחיות המחמד שלכם טיפול מקצועי בנוחות של הבית, ללא ביקורים מיותרים אצל הווטרינר או הספרית.  \n \n \n 🇮🇹  איכות איטלקית:  מוצר עמיד ואיכותי מבית Ferplast. \n \n \n 🎯  דיוק מרבי:  להבי פלדה חדים המאפשרים חיתוך נקי במכה אחת. \n \n \n 🖐️  אחיזה נוחה:  ידיות פלסטיק ארגונומיות למניעת החלקה ושליטה מלאה. \n \n \n 🐰  רב-תכליתי:  מתאים למגוון רחב של חיות מחמד קטנות ובינוניות.",
    "link": "https://closetonature.co.il/product/ferplast-nails-cutter-professional-pet-grooming-scissors/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/מספרי-ציפורניים-אדומים-של-Ferplast-לכלבים-קטנים-וחתולים-עם-להבי-פלדה-חדים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%9E%D7%A1%D7%A4%D7%A8%D7%99-%D7%A6%D7%99%D7%A4%D7%95%D7%A8%D7%A0%D7%99%D7%99%D7%9D-%D7%90%D7%93%D7%95%D7%9E%D7%99%D7%9D-%D7%A9%D7%9C-Ferplast-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D-%D7%95%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%9C%D7%94%D7%91%D7%99-%D7%A4%D7%9C%D7%93%D7%94-%D7%97%D7%93%D7%99%D7%9D.jpg?fit=500%2C500&ssl=1",
    "condition": "new",
    "price": "35.00",
    "currency": "ILS",
@@ -815,7 +1110,7 @@
    "title": "🛡️ בובת קונג קשרים תרנגולת (KONG Knots Chicken) – רכה מבחוץ, חזקה מבפנים",
    "description": "הכירו את הצעצוע שמשלב את כל מה שכלבים אוהבים במוצר אחד עמיד במיוחד! בובת KONG Knots Chicken מעוצבת כתרנגולת צבעונית ופרוותית, אך מסתירה בתוכה שלד חבלים קשור וחזק המעניק לכלב תחושה טבעית של ציד ועמידות גבוהה למשחקי משיכה ולעיסה. זהו פתרון מושלם לבעלי כלבים שמחפשים בובה רכה למגע שאינה מתפרקת בקלות, ומספקת מענה ליצרים הטבעיים של הכלב.  \n \n \n 🧶  שלד חבלים פנימי : חבל קשור בתוך הבובה המעניק חוזק מבני ותחושת לעיסה מספקת. \n \n \n 🔊  מצפצפת ומלהיבה : כוללת צפצפה (Squeaker) פנימית המעוררת את יצר המשחק של הכלב. \n \n \n ☁️  מינימום מילוי : תוכננה עם כמות מינימלית של מילוי כדי להבטיח פחות לכלוך בבית במקרה של קרע. \n \n \n 🦷  שימוש רב-תכליתי : אידיאלית למשחקי הבאה (Fetch), משיכה או סתם להתכרבלות בסוף היום.",
    "link": "https://closetonature.co.il/product/kong-knots-chicken-dog-toy-internal-rope-s-xl/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/בובת-קונג-קשרים-תרנגולת-KONG-Knots-Chicken-–-רכה-מבחוץ-חזקה-מבפנים-S.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%91%D7%95%D7%91%D7%AA-%D7%A7%D7%95%D7%A0%D7%92-%D7%A7%D7%A9%D7%A8%D7%99%D7%9D-%D7%AA%D7%A8%D7%A0%D7%92%D7%95%D7%9C%D7%AA-KONG-Knots-Chicken-%E2%80%93-%D7%A8%D7%9B%D7%94-%D7%9E%D7%91%D7%97%D7%95%D7%A5-%D7%97%D7%96%D7%A7%D7%94-%D7%9E%D7%91%D7%A4%D7%A0%D7%99%D7%9D-S.jpg?fit=1920%2C1920&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -857,7 +1152,7 @@
    "title": "🍖 חטיפי גוסביטס סטיקס (Gosbits Sticks) – חווית טעם ובריאות בכל נגיסה",
    "description": "העניקו לכלב שלכם את הטוב ביותר עם סדרת חטיפי הפרמיום Gosbits Sticks מבית Gosbi. החטיפים מיוצרים בשיטה הייחודית של כבישה קרה (Cold Pressed), השומרת על רכיבי העל ועל הטעם המקורי של חומרי הגלם. עם 70% בשר ודגים טריים שנבחרו בקפידה, חטיפי הסטיקס הם הבחירה המושלמת למי שלא מתפשר על איכות התזונה של הכלב שלו – גם כשמדובר בצ’ופר.  \n  הסדרה מציעה מגוון טעמים פונקציונליים:  \n \n \n 🐑  Gosbits Lamb (כבש):  פתרון היפואלרגני מצוין לכלבים עם רגישויות. \n \n \n 🍗  Gosbits Chicken (עוף):  קלאסיקה אהובה, עשירה בחלבון וקלה לעיכול. \n \n \n 🐟  Gosbits Salmon (סלמון):  פצצת אומגה 3 ו-6 לעור בריא ופרווה מבריקה. \n \n \n 🦴  Gosbits Dental (דנטל):  חטיף ייעודי המסייע בניקוי שיניים ומניעת ריח רע מהפה. \n \n \n 🦌  Gosbits Wild (צבי/ציד):  טעם פראי ועשיר לחוויית לעיסה מרגשת. \n \n \n  משקל נקי:  300 גרם במארז דלי איכותי השומר על הטריות לאורך זמן.",
    "link": "https://closetonature.co.il/product/gosbits-sticks-fresh-meat-grain-free-dog-treats/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/חטיפי-גוסביטס-סטיקס-Gosbits-Sticks-70-בשר-טרי-300-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%97%D7%98%D7%99%D7%A4%D7%99-%D7%92%D7%95%D7%A1%D7%91%D7%99%D7%98%D7%A1-%D7%A1%D7%98%D7%99%D7%A7%D7%A1-Gosbits-Sticks-70-%D7%91%D7%A9%D7%A8-%D7%98%D7%A8%D7%99-300-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "44.00",
    "currency": "ILS",
@@ -899,7 +1194,7 @@
    "title": "אמפולות פרוטקטור (Protector) לחתול – הגנה עוצמתית מפני פרעושים",
    "description": "שמרו על החתול שלכם נקי, רגוע ומוגן עם אמפולות Protector מבית Solprem Cat. נוסחה מתקדמת ויעילה במיוחד להדברה ודחייה של פרעושים, המותאמת אישית למשקל החתול שלכם. טיפול תקופתי פשוט בנקודת מזיגה (Spot-on) מעניק שקט נפשי לכם ונוחות מקסימלית לחתול, תוך חיסול מטרד הפרעושים הקיים ומניעת הדבקות עתידית.  \n  הסדרה מגיעה בשני גדלים להתאמה מושלמת:  \n \n \n 🛡️  Protector 80 (אריזה כחולה):  מיועד לחתולים גדולים במשקל של מעל 4 ק”ג. \n \n \n 🛡️  Protector 40 (אריזה ירוקה):  מיועד לחתולים קטנים וגורים במשקל 0.6 עד 4 ק”ג (מגיל חודשיים ומעלה). \n \n \n  תכולת מארז:  4 שפורפרות (אמפולות) לטיפול חודשי מתמשך.",
    "link": "https://closetonature.co.il/product/protector-cat-spot-on-fleas-treatment-4-pack/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/אמפולות-פרוטקטור-Protector-לחתול-–-הגנה-עוצמתית-מפני-פרעושים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%90%D7%9E%D7%A4%D7%95%D7%9C%D7%95%D7%AA-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98%D7%95%D7%A8-Protector-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%E2%80%93-%D7%94%D7%92%D7%A0%D7%94-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99%D7%AA-%D7%9E%D7%A4%D7%A0%D7%99-%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "139.00",
    "currency": "ILS",
@@ -941,7 +1236,7 @@
    "title": "מעדני מיאו מיקס לגביע – Meow Mix Variety Pack",
    "description": "פנקו את החתול שלכם עם סדרת המעדנים האיכותית של Meow Mix! שילוב מנצח של נתחים בשרניים, פאטה נימוח ורטבים עשירים שיהפכו כל ארוחה לחגיגה קולינרית. כל גביע מכיל רכיבים איכותיים שנבחרו בקפידה כדי להעניק לחתול שלכם את הטעם שהוא אוהב יחד עם הערכים התזונתיים שהוא צריך.  \n  הסדרה כוללת 5 שילובים אהובים:  \n \n \n 🐟🦀  Tenders in Sauce (ורוד):  נתחים רכים ברוטב עשיר עם סלמון וסרטן אמיתי. \n \n \n 🥩🍗  Paté in Gravy (כתום):  מרקם פאטה (קציצה) חלק ונימוח ברוטב בשרני עם עוף ובקר. \n \n \n 🥣🦀  Chunks in Gravy (סגול):  נתחי בשר עסיסיים בתוך רוטב סמיך עם טונה וסרטן. \n \n \n 🍗🥩  Tenders in Sauce (ירוק):  נתחים עדינים ברוטב עם עוף וכבד איכותי. \n \n \n 🐟🌊  Chunks in Gravy (כחול):  נתחים גדולים וטעימים ברוטב עם טונה וסלמון. \n \n \n  משקל יחידה:  78 גרם.",
    "link": "https://closetonature.co.il/product/meow-mix-cups-varied-textures-and-flavors/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/מעדני-מיאו-מיקס-לגביע-–-Meow-Mix-Variety-Pack.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%9E%D7%A2%D7%93%D7%A0%D7%99-%D7%9E%D7%99%D7%90%D7%95-%D7%9E%D7%99%D7%A7%D7%A1-%D7%9C%D7%92%D7%91%D7%99%D7%A2-%E2%80%93-Meow-Mix-Variety-Pack.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "5.50",
    "currency": "ILS",
@@ -983,7 +1278,7 @@
    "title": "מונג’ וטסולושן יורינרי סטרויט לכלב 12 ק”ג – Monge Vetsolution Urinary Struvite",
    "description": "פתרון תזונתי קליני מתקדם לכלבים הסובלים מאבני סטרויט בדרכי השתן. שילוב של טיפול רפואי מדויק וטעימות גבוהה ללא פשרות.  \n    פרטי המוצר ויתרונות מרכזיים:    \n \n \n 💎  המסת אבני סטרויט:  פורמולה ייחודית המיועדת להמסת אבנים קיימות ומניעת היווצרות חוזרת בדרכי השתן. \n \n \n 📉  רמת pH נמוכה (Low pH):  מסייע בשמירה על חומציות אופטימלית בשתן למניעת התגבשות קריסטלים. \n \n \n 🐖  חלבון יחיד מהחי (Pork):  מבוסס על בשר חזיר איכותי – פתרון מעולה גם לכלבים עם רגישויות לחלבונים נפוצים אחרים. \n \n \n 🍒  תוספת חמוציות (Cranberry):  מכיל רכיבים פעילים המסייעים במניעת דלקות ושמירה על הגיינת דרכי השתן. \n \n \n 🚫  ללא דגנים (Grain Free):  פורמולה קלה לעיכול המתאימה לכלבים רגישים ומונעת גירויים. \n \n \n 🧬  טכנולוגיית Fit-aroma:  רכיבים פעילים עטופים לשמירה על הערכים התזונתיים ושיפור משמעותי של הטעימות. \n \n \n    טעמים ומשקלים:    \n \n \n  😋 טעם:  חזיר ותפוח אדמה (Pork with Potatoes). \n \n \n  ⚖️ משקל יחידה:  12 קילו (12kg). \n \n \n  🐕 מתאים ל:  כלבים בוגרים מכל הגזעים (All Breeds Adult).",
    "link": "https://closetonature.co.il/product/monge-vetsolution-urinary-struvite-dog-12kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/מונג-וטסולושן-יורינרי-סטרויט-לכלב-12-קג–-Monge-Vetsolution-Urinary-Struvite.webp",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%9E%D7%95%D7%A0%D7%92-%D7%95%D7%98%D7%A1%D7%95%D7%9C%D7%95%D7%A9%D7%9F-%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%A8%D7%99-%D7%A1%D7%98%D7%A8%D7%95%D7%99%D7%98-%D7%9C%D7%9B%D7%9C%D7%91-12-%D7%A7%D7%92%E2%80%93-Monge-Vetsolution-Urinary-Struvite.webp?fit=500%2C500&ssl=1",
    "condition": "new",
    "price": "379.00",
    "currency": "ILS",
@@ -1025,7 +1320,7 @@
    "title": "🥩 ויברה כבש 12 ק”ג, אורז מלא ואפונה – כוח מהטבע האיטלקי בכל ביס 🇮🇹",
    "description": "הטעם העשיר שהכלב שלך יאהב מהרגע הראשון!  ויברה (Vivere) כבש הוא מזון הוליסטי המשלב בשר כבש איכותי עם פחמימות מורכבות מהטבע. הפורמולה האיטלקית המנצחת מבטיחה נעילת חלבון גבוהה ואנרגיה יציבה לכלב בוגר מגזע בינוני, תוך שימוש ברכיבים טבעיים בלבד. \n \n \n 🥩  חלבון בשרי עשיר:  60% רכיבים מהחי, כולל 20% בשר כבש טרי לטעימות יוצאת דופן. \n \n \n 🚜  פילוסופיה הוליסטית:  100% רכיבים טבעיים שנבחרו בקפידה לחיים בריאים וחיוניים. \n \n \n 🌾  דל דגנים (Low Grain):  שימוש חכם באורז מלא ובאפונה למניעת כבדות ועיכול מהיר. \n \n \n 🫐  סופר-פודס:  מועשר בנוגדי חמצון טבעיים מפירות, ירקות ועשבי מרפא.",
    "link": "https://closetonature.co.il/product/vivere-medium-adult-lamb-brown-rice-dog-food-12kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/ויברה-Vivere-כבש-12-קג-לכלב.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%95%D7%99%D7%91%D7%A8%D7%94-Vivere-%D7%9B%D7%91%D7%A9-12-%D7%A7%D7%92-%D7%9C%D7%9B%D7%9C%D7%91.jpg?fit=900%2C900&ssl=1",
    "condition": "new",
    "price": "275.00",
    "currency": "ILS",
@@ -1067,7 +1362,7 @@
    "title": "🍣 ויברה סלמון 12 ק”ג, אורז מלא ואפונה – בריאות איטלקית לעור ופרווה מנצחים! 🇮🇹",
    "description": "התזונה שתגרום לכלב שלך לזרוח!  ויברה (Vivere) סלמון הוא מזון הוליסטי מתקדם המבוסס על חלבון דגים מובחר, המותאם במיוחד לכלבים בוגרים מגזע בינוני. הפורמולה האיטלקית המדויקת משלבת רכיבים טבעיים בלבד כדי להבטיח עיכול קל ומראה פרווה מבריק ובריא. \n \n \n 🐟  עשיר בחלבון דגים:  60% רכיבים מהחי, כולל 20% סלמון טרי לארוחה מזינה וטעימה להפליא. \n \n \n 🌿  נוסחה הוליסטית:  100% רכיבים טבעיים – עשבי מרפא, פירות וירקות לתמיכה במערכת החיסון. \n \n \n 🌾  Low Grain (דל דגנים):  מכיל אורז מלא (20%) בלבד לשמירה על אנרגיה יציבה ומדד גליקמי נמוך. \n \n \n ✨  מומחה לעור ופרווה:  ריכוז גבוה של אומגה 3 ו-6 לשמירה על בריאות העור ומניעת גירויים.",
    "link": "https://closetonature.co.il/product/vivere-medium-adult-salmon-brown-rice-dog-food-12kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/וירבה-סלמון-12-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%95%D7%99%D7%A8%D7%91%D7%94-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-12-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "275.00",
    "currency": "ILS",
@@ -1109,7 +1404,7 @@
    "title": "🍣 דיימונד נטורלס סלמון לכלב 15 ק”ג – עור ופרווה לכל שלבי החיים (Diamond Naturals Skin & Coat)",
    "description": "תן לכלב שלך לזרוח מבפנים ומבחוץ!  ✨ דיימונד נטורלס ‘עור ופרווה’ הוא אוכל יבש מלא, המציע פתרון תזונתי מתקדם וטעים על בסיס סלמון פרימיום. פורמולה ייחודית זו פותחה כדי לספק תזונה מאוזנת ומועשרת, המטפלת באופן ממוקד בבריאות העור ואיכות הפרווה, ומתאימה לכל שלבי החיים של הכלב (גורים, בוגרים וסניורים). \n 🚫  בלי דגנים, בלי תפוחי אדמה:  פתרון תזונתי נקי ומדויק. \n🍣  חלבון סלמון איכותי:  מקור חלבון מעולה, קל לעיכול ומלא באומגה 3. \n🛡️  תמיכה במערכת העיכול:  מכיל פרוביוטיקה ייחודית (K9 Strain) וחומצות שומן לתמיכה בבריאות המעי. \n✨  פרווה מבריקה ועור בריא:  יחס מאוזן של אומגה 3 ו-6 לתוצאות נראות לעין.",
    "link": "https://closetonature.co.il/product/diamond-naturals-skin-coat-salmon-dog-formula/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/דיימונד-נטורלס-סלמון-לכלב-עור-ופרווה-לכל-שלבי-החיים-Diamond-Naturals-Skin-Coat.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%93%D7%99%D7%99%D7%9E%D7%95%D7%A0%D7%93-%D7%A0%D7%98%D7%95%D7%A8%D7%9C%D7%A1-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A2%D7%95%D7%A8-%D7%95%D7%A4%D7%A8%D7%95%D7%95%D7%94-%D7%9C%D7%9B%D7%9C-%D7%A9%D7%9C%D7%91%D7%99-%D7%94%D7%97%D7%99%D7%99%D7%9D-Diamond-Naturals-Skin-Coat.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "288.00",
    "currency": "ILS",
@@ -1151,7 +1446,7 @@
    "title": "🛡️ קולר קאנישילד: הגנה קטלנית נגד פרעושים, קרציות וזבובי חול 🚫",
    "description": "הפתרון הכי משתלם והכי יעיל לכלב שלך!  קולר ה- Canishield  מבית  Beaphar  (ביאפר) הוא המגן האולטימטיבי שחוסך לך את הצורך באמפולות או כדורים חודשיים. פשוט עונדים פעם אחת – ומקבלים שקט נפשי לחודשים קדימה. \n \n \n 🕷️  חיסול קרציות ופרעושים:  קוטל את המזיקים במגע, עוד לפני שהם מספיקים לעקוץ. \n \n \n 🦟  הגנה מזבובי חול:  מונע עקיצות של זבובי חול המעבירים את מחלת הלישמניאזיס המסוכנת. \n \n \n ⏱️  6 חודשי הגנה רציפה:  יעילות מוכחת לטווח ארוך נגד קרציות וזבובי חול (ו-16 שבועות נגד פרעושים). \n \n \n 🧼  נוח ובטוח:  חסר ריח, עמיד במים ופועל חיצונית בלבד על שכבת השומן של העור (ללא ספיגה לדם). \n \n \n  בחר את המידה המתאימה לכלב שלך:  \n \n \n 🐕  לכלב קטן/בינוני:  עד 20 ק”ג (אורך 48 ס”מ). \n \n \n 🐕  לכלב גדול/ענק:  מעל 20 ק”ג (אורך 65 ס”מ).",
    "link": "https://closetonature.co.il/product/beaphar-canishield-collar-for-dogs/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/קולר-קאנישילד-לכלבים-מבית-ביאפר-Beaphar-Canishield-–-הגנה-ארוכת-טווח-נגד-קרציות-ופרעושים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A7%D7%95%D7%9C%D7%A8-%D7%A7%D7%90%D7%A0%D7%99%D7%A9%D7%99%D7%9C%D7%93-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9E%D7%91%D7%99%D7%AA-%D7%91%D7%99%D7%90%D7%A4%D7%A8-Beaphar-Canishield-%E2%80%93-%D7%94%D7%92%D7%A0%D7%94-%D7%90%D7%A8%D7%95%D7%9B%D7%AA-%D7%98%D7%95%D7%95%D7%97-%D7%A0%D7%92%D7%93-%D7%A7%D7%A8%D7%A6%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%A8%D7%A2%D7%95%D7%A9%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "88.00",
    "currency": "ILS",
@@ -1193,7 +1488,7 @@
    "title": "🐹 חטיפי Cunipic Alpha Pro למכרסמים – 50 גרם (3 טעמים לבחירה) 🐰",
    "description": "הפינוק המושלם והבריא ביותר למכרסם שלכם כבר כאן! חטיפי  Cunipic Alpha Pro Snack  הם לא רק טעימים בטירוף, הם גם תוספת תזונתית חשובה. מדובר בחטיף “קראנצ’י” במילוי קרמי עשיר, שפותח במיוחד עבור ארנבים, שרקנים, אוגרים ומכרסמים אחרים. \n 💡  מפרט טכני:  \n \n \n 🏭  מותג:  Cunipic (קוניפיק – ספרד). \n \n \n ⚖️  משקל:  50 גרם ליחידה. \n \n \n 🥕  טעמים זמינים:  גזר (כתום), תרד (ירוק), אננס (צהוב). \n \n \n 🐹  ייעוד:  ארנבים, שרקנים, אוגרים ומכרסמים קטנים. \n \n \n ✨  מאפיין מיוחד:  ללא תוספת סוכר (No Added Sugar).",
    "link": "https://closetonature.co.il/product/cunipic-alpha-pro-snack-rodents-carrot-spinach-pineapple/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/חטיפי-Cunipic-Alpha-Pro-למכרסמים-–-50-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%97%D7%98%D7%99%D7%A4%D7%99-Cunipic-Alpha-Pro-%D7%9C%D7%9E%D7%9B%D7%A8%D7%A1%D7%9E%D7%99%D7%9D-%E2%80%93-50-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "20.00",
    "currency": "ILS",
@@ -1235,7 +1530,7 @@
    "title": "🐑 מזון יבש הילס סיינס פלאן לכלבים בוגרים מגזע קטן – כבש ואורז (6 ק”ג) 🐑",
    "description": "הכלב הקטן שלכם ראוי לתזונה הגדולה ביותר.  Hill’s Science Plan Small & Mini Adult  עם כבש ואורז פותח במיוחד עבור הצרכים הייחודיים של כלבים מגזע קטן וזעיר. הנוסחה מכילה כופתיות קטנות המותאמות למבנה הלסת שלהם, ומספקת חלבון איכותי לשמירה על מסת שריר ואנרגיה לאורך כל היום. \n 💡  מפרט טכני:  \n \n \n 🏭  מותג:  Hill’s Science Plan (הילס). \n \n \n 🐑  טעם:  כבש ואורז (Lamb & Rice). \n \n \n ⚖️  משקל:  6 ק”ג. \n \n \n 🐶  קהל יעד:  כלבים בוגרים מגזע קטן וזעיר (Small & Mini) השוקלים עד 10 ק”ג. \n \n \n ✨  מאפיין מיוחד:  כופתיות קטנות במיוחד ופורמולה לעיכול רגיש.",
    "link": "https://closetonature.co.il/product/hills-science-plan-adult-small-mini-lamb-rice-6kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/מזון-יבש-הילס-סיינס-פלאן-לכלבים-בוגרים-מגזע-קטן-–-כבש-ואורז-6-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-%E2%80%93-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-6-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -1277,7 +1572,7 @@
    "title": "🦜 מזון נוטרי בירד NutriBird Lori ללורים ולוריקטים 3 ק”ג – מזון מלא ומאוזן 🦜",
    "description": "NutriBird Lori  הוא מזון מלא ומקצועי שפותח במיוחד עבור לורים (Lories) ולוריקטים (Lorikeets). מכיוון שלציפורים המרהיבות האלו יש צרכים תזונתיים ייחודיים (תזונה המבוססת על צוף ואבקת פרחים בטבע), המזון הזה מדמה בצורה מושלמת את התזונה הטבעית שלהם ושומר על חיוניותם וצבעיהם המרהיבים. \n 💡  מפרט טכני:  \n \n \n 🏭  מותג:  Versele-Laga (ורסלה לגה – בלגיה). \n \n \n 🏷️  סדרה:  NutriBird (נוטריבירד). \n \n \n 🦜  ייעוד:  לורים, לוריקטים וציפורים ניזונות מצוף. \n \n \n ✨  מרקם:  אבקה מסיסה להכנת מזון נוזלי/קרמי. \n \n \n 🛡️  יתרון:  נוסחה מאוזנת המונעת חוסרים תזונתיים נפוצים. \n \n   תוקף המוצר: 04/27",
    "link": "https://closetonature.co.il/product/versele-laga-nutribird-lori-complete-food/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/מזון-נוטרי-בירד-NutriBird-Lori-ללורים-ולוריקטים-3-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%9E%D7%96%D7%95%D7%9F-%D7%A0%D7%95%D7%98%D7%A8%D7%99-%D7%91%D7%99%D7%A8%D7%93-NutriBird-Lori-%D7%9C%D7%9C%D7%95%D7%A8%D7%99%D7%9D-%D7%95%D7%9C%D7%95%D7%A8%D7%99%D7%A7%D7%98%D7%99%D7%9D-3-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "239.00",
    "currency": "ILS",
@@ -1319,7 +1614,7 @@
    "title": "🐟 שימורי הילס סיינס פלאן היפואלרגני לכלב בוגר עם סלמון – 363 גרם",
    "description": "🐶 מחפשים את הפתרון הטעים והבטוח ביותר לכלב רגיש?  Hill’s Science Plan Hypoallergenic Adult  הוא התשובה המדויקת. נוסחה וטרינרית מתקדמת המבוססת על מקור חלבון אחד בלבד (סלמון), המעניקה פתרון מושלם לכלבים עם אלרגיות או אי-סבילות למזון. \n 💡  פרטים טכניים:  \n \n \n 🏭  מותג:  Hill’s Science Plan (הילס). \n \n \n 🐟  טעם:  סלמון איכותי (Animal Monoprotein). \n \n \n ⚖️  משקל:  363 גרם. \n \n \n 🛡️  ייעוד:  כלבים בוגרים (1-6) עם רגישות בעור או במערכת העיכול.",
    "link": "https://closetonature.co.il/product/hills-science-plan-hypoallergenic-dog-wet-food-salmon-363g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/שימורי-הילס-סיינס-פלאן-היפואלרגני-לכלב-בוגר-עם-סלמון-–-363-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99-%D7%94%D7%99%D7%9C%D7%A1-%D7%A1%D7%99%D7%99%D7%A0%D7%A1-%D7%A4%D7%9C%D7%90%D7%9F-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%E2%80%93-363-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "16.00",
    "currency": "ILS",
@@ -1361,7 +1656,7 @@
    "title": "טבליות Dolvit Cayenne למניעת אכילת צרכים – 90 טבליות",
    "description": "Dolvit Cayenne הוא תוסף תזונה מתקדם בטבליות, המשלב רכיבים טבעיים לפתרון בעיית אכילת הצרכים בכלבים. התוסף פועל בשני מישורים: משפר את ספיגת המזון במערכת העיכול (כדי שהכלב לא יחפש “השלמות” בצואה) ומנטרל את המשיכה לריח הצרכים. \n \n \n  מותג:  Dolfos (דולפוס). \n \n \n  כמות:  90 טבליות במארז. \n \n \n  מרכיבים עיקריים:  ויטמינים, אנזימי עיכול, פלפל קאיין ומיקרו-אורגניזמים חיוביים. \n \n \n  ייעוד:  כלבים הסובלים מקופרופאגיה.",
    "link": "https://closetonature.co.il/product/%d7%98%d7%91%d7%9c%d7%99%d7%95%d7%aa-dolvit-cayenne-%d7%9c%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%90%d7%9b%d7%99%d7%9c%d7%aa-%d7%a6%d7%a8%d7%9b%d7%99%d7%9d-90-%d7%98%d7%91%d7%9c%d7%99%d7%95%d7%aa/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/טבליות-Dolvit-Cayenne-למניעת-אכילת-צרכים-–-90-טבליות.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA-Dolvit-Cayenne-%D7%9C%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%90%D7%9B%D7%99%D7%9C%D7%AA-%D7%A6%D7%A8%D7%9B%D7%99%D7%9D-%E2%80%93-90-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "79.00",
    "currency": "ILS",
@@ -1403,7 +1698,7 @@
    "title": "אבקת Forbid (פורביד) למניעת אכילת צרכים – 250 גרם",
    "description": "אבקת Forbid היא פתרון וטרינרי מוכח המיועד לטפל באחת התופעות המטרידות ביותר: אכילת צרכים (קופרופאגיה). האבקה פועלת בצורה פשוטה וחכמה – היא משנה את ריח וטעם הצואה של בעל החיים והופכת אותה לבלתי נסבלת למאכל עבורו, מבלי להשפיע על טעימות המזון המקורי. \n \n \n  מותג:  Candioli (קנדיולי – איטליה). \n \n \n  משקל:  250 גרם. \n \n \n  קהל יעד:  כלבים וחתולים מכל הגילאים. \n \n \n  מטרה:  הפסקת בליעת צואה עצמית או של בעלי חיים אחרים בבית.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%91%d7%a7%d7%aa-forbid-%d7%a4%d7%95%d7%a8%d7%91%d7%99%d7%93-%d7%9c%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%90%d7%9b%d7%99%d7%9c%d7%aa-%d7%a6%d7%a8%d7%9b%d7%99%d7%9d-250-%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/אבקת-Forbid-פורביד-למניעת-אכילת-צרכים-–-250-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%90%D7%91%D7%A7%D7%AA-Forbid-%D7%A4%D7%95%D7%A8%D7%91%D7%99%D7%93-%D7%9C%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%90%D7%9B%D7%99%D7%9C%D7%AA-%D7%A6%D7%A8%D7%9B%D7%99%D7%9D-%E2%80%93-250-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -1445,7 +1740,7 @@
    "title": "מולטי ויטמין לזוחלים ודו-חיים Exo Terra (70 גרם)",
    "description": "אבקת המולטי-ויטמין של Exo Terra (אקסו טרה) היא תוסף תזונה חיוני לכל סוגי הזוחלים והדו-חיים הגדלים בשבי. הנוסחה מאוזנת בקפידה כדי לספק את כל הוויטמינים וחומצות האמינו שחסרים בתזונה הביתית. \n \n \n  מותג:  Exo Terra (Hagen). \n \n \n  סוג מוצר:  אבקת מולטי ויטמין (Powder Supplement). \n \n \n  משקל נקי:  70 גרם (2.5 oz). \n \n \n  מתאים ל:  לטאות (חרדון מצוי, זיקית, גקו), נחשים, צבים ודו-חיים.",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%9c%d7%98%d7%99-%d7%95%d7%99%d7%98%d7%9e%d7%99%d7%9f-%d7%9c%d7%96%d7%95%d7%97%d7%9c%d7%99%d7%9d-%d7%95%d7%93%d7%95-%d7%97%d7%99%d7%99%d7%9d-exo-terra-70-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/מולטי-ויטמין-לזוחלים-ודו-חיים-Exo-Terra-70-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%9E%D7%95%D7%9C%D7%98%D7%99-%D7%95%D7%99%D7%98%D7%9E%D7%99%D7%9F-%D7%9C%D7%96%D7%95%D7%97%D7%9C%D7%99%D7%9D-%D7%95%D7%93%D7%95-%D7%97%D7%99%D7%99%D7%9D-Exo-Terra-70-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "49.00",
    "currency": "ILS",
@@ -1487,7 +1782,7 @@
    "title": "פדים פחם My Turf לאילוף גורים 60×60 (30 יח’)",
    "description": "הפדים של My Turf (מיי טרף) הם הפתרון המתקדם ביותר לחינוך הגור שלכם לצרכים בתוך הבית. בזכות שכבת הפחם הפעיל (Carbon), הפדים לא רק סופגים נוזלים אלא גם לוכדים ומנטרלים את ריח השתן בצורה אקטיבית. \n \n \n  מותג:  My Turf. \n \n \n  כמות:  30 יחידות במארז. \n \n \n  מידות:  60×60 ס”מ \n \n \n  טכנולוגיה:  פחם פעיל (Carbon Layer) לספיגת ריחות עד 96 שעות. \n \n \n  משטח:  מתאים לכל סוגי הרצפות (קרמיקה, פרקט וכו’).",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%93%d7%99%d7%9d-%d7%a4%d7%97%d7%9d-my-turf-%d7%9c%d7%90%d7%99%d7%9c%d7%95%d7%a3-%d7%92%d7%95%d7%a8%d7%99%d7%9d-60x60-30-%d7%99%d7%97/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/פדים-פחם-My-Turf-לאילוף-גורים-30-יח.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A4%D7%93%D7%99%D7%9D-%D7%A4%D7%97%D7%9D-My-Turf-%D7%9C%D7%90%D7%99%D7%9C%D7%95%D7%A3-%D7%92%D7%95%D7%A8%D7%99%D7%9D-30-%D7%99%D7%97.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "45.00",
    "currency": "ILS",
@@ -1529,7 +1824,7 @@
    "title": "חטיף טבליות מאלט GimCat לחתול (40 גרם)",
    "description": "GimCat Malt Tabs הם חטיף פונקציונלי המיועד לשפר את איכות החיים של החתול שלכם. הטבליות מכילות תמצית מאלט איכותית המסייעת בהוצאה טבעית של כדורי שיער (Hairballs) הנבלעים בזמן הטיפוח העצמי. \n \n \n  מותג:  GimCat (גימקט – גרמניה). \n \n \n  סדרה:  Every Day / Digestion Complex. \n \n \n  משקל:  40 גרם. \n \n \n  איכות:  ללא תוספת סוכר, ללא חומרים משמרים. \n \n \n  מרכיבים:  מאלט, ויטמינים וסיבים תזונתיים.",
    "link": "https://closetonature.co.il/product/%d7%97%d7%98%d7%99%d7%a3-%d7%98%d7%91%d7%9c%d7%99%d7%95%d7%aa-%d7%9e%d7%90%d7%9c%d7%98-gimcat-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-40-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/חטיף-טבליות-מאלט-GimCat-לחתול-40-גרם.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%97%D7%98%D7%99%D7%A3-%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA-%D7%9E%D7%90%D7%9C%D7%98-GimCat-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-40-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "19.00",
    "currency": "ILS",
@@ -1571,7 +1866,7 @@
    "title": "שואב רפש חשמלי אהיים (EHEIM Quick Vac)",
    "description": "שואב הרפש החשמלי EHEIM Quick Vac הוא הכלי האידיאלי לתחזוקה שוטפת של האקווריום שלכם. הוא מאפשר לכם לנקות את שאריות המזון והרפש שהצטברו על החצץ מבלי להזדקק להחלפת מים מייגעת או להפרעת האיזון הביולוגי במים. \n \n \n  מותג:  EHEIM (אהיים – גרמניה). \n \n \n  דגם:  Quick Vac (Advanced). \n \n \n  הפעלה:  פועל על סוללות (כלולות במארז). \n \n \n  שימוש:  מתאים לאקווריומים עם מים מתוקים ומלוחים כאחד. \n \n \n  אחריות:  שנתיים אחריות יצרן.",
    "link": "https://closetonature.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%a8%d7%a4%d7%a9-%d7%97%d7%a9%d7%9e%d7%9c%d7%99-%d7%90%d7%94%d7%99%d7%99%d7%9d-eheim-quick-vac/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/שואב-רפש-חשמלי-אהיים-EHEIM-Quick-Vac.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%A9%D7%95%D7%90%D7%91-%D7%A8%D7%A4%D7%A9-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%90%D7%94%D7%99%D7%99%D7%9D-EHEIM-Quick-Vac.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "329.00",
    "currency": "ILS",
@@ -1613,7 +1908,7 @@
    "title": "דרונציט ספוט-און (Droncit Spot-On) לחתול 4 שפופרות",
    "description": "דרונציט ספוט-און (Droncit Spot-On) הוא הפתרון הווטרינרי המועדף לטיפול בתולעים שטוחות (תולעי סרט) בחתולים ללא צורך במאבק עם כדורים. התכשיר מיועד למריחה חיצונית פשוטה על העור ומספק תוצאות מהירות וקטלניות נגד טפילים פנימיים. \n \n \n  מותג:  Elanco (אלאנקו). \n \n \n  חומר פעיל:  Praziquantel 20 mg/0.5 ml. \n \n \n  תכולת מארז:  4 שפופרות של 0.5 מ”ל כל אחת. \n \n \n  משקל יעד:  מתאים לחתולים במשקל 1 ק”ג ומעלה. \n \n \n  סוג טיפול:  תמיסה לשימוש מקומי טופיקלי (Spot-on).",
    "link": "https://closetonature.co.il/product/%d7%93%d7%a8%d7%95%d7%a0%d7%a6%d7%99%d7%98-%d7%a1%d7%a4%d7%95%d7%98-%d7%90%d7%95%d7%9f-droncit-spot-on-%d7%9c%d7%97%d7%aa%d7%95%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/דרונציט-ספוט-און-Droncit-Spot-On-לחתול.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%93%D7%A8%D7%95%D7%A0%D7%A6%D7%99%D7%98-%D7%A1%D7%A4%D7%95%D7%98-%D7%90%D7%95%D7%9F-Droncit-Spot-On-%D7%9C%D7%97%D7%AA%D7%95%D7%9C.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "99.00",
    "currency": "ILS",
@@ -1655,7 +1950,7 @@
    "title": "ברבקטו לחתול 250 מ”ג (2.8-6.25 ק”ג) – אמפולה להגנה של 3 חודשים",
    "description": "ברבקטו (Bravecto)  הוא הסטנדרט הגבוה ביותר בעולם להגנה על חתולים מפני פרעושים וקרציות. אמפולה אחת קלה ליישום מעניקה לחתול שלכם שקט נפשי והגנה אקטיבית למשך  12 שבועות רצופים  (3 חודשים), מה שהופך אותו לפתרון הנוח והמשתלם ביותר בשוק. \n \n \n  מותג:  MSD Animal Health. \n \n \n  חומר פעיל:  פלוראלנר (Fluralaner) 250 מ”ג. \n \n \n  משקל יעד:  חתול בינוני (2.8 עד 6.25 ק”ג). \n \n \n  תכולה:  1 אמפולה (0.89 מ”ל). \n \n \n  טעם/ריח:  ללא ריח לוואי, ספיגה מהירה בעור.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%a8%d7%91%d7%a7%d7%98%d7%95-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-250-%d7%9e%d7%92-2-8-6-25-%d7%a7%d7%92-%d7%90%d7%9e%d7%a4%d7%95%d7%9c%d7%94-%d7%9c%d7%94%d7%92%d7%a0%d7%94-%d7%a9%d7%9c-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/03/ברבקטו-לחתול-250-מג-2.8-6.25-קג-אמפולה-להגנה-של-3-חודשים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/03/%D7%91%D7%A8%D7%91%D7%A7%D7%98%D7%95-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-250-%D7%9E%D7%92-2.8-6.25-%D7%A7%D7%92-%D7%90%D7%9E%D7%A4%D7%95%D7%9C%D7%94-%D7%9C%D7%94%D7%92%D7%A0%D7%94-%D7%A9%D7%9C-3-%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "brand": "ברבקטו - Bravecto",
    "condition": "new",
    "price": "219.00",
@@ -1698,7 +1993,7 @@
    "title": "מונג’ גריל (Monge Grill) – נתחי בשר עסיסיים בצליה על הגריל! 🥩",
    "description": "מונג’ גריל לכלב – חגיגת בשרים איטלקית בכל ארוחה  פנקו את הכלב שלכם בסדרת  Monge Grill , מעדני פרימיום המבוססים על נתחי בשר איכותיים שנצלו בתנור (Oven Baked) לשמירה על טעם עמוק וערכים תזונתיים מקסימליים. כל פאוץ’ מציע נוסחה ללא דגנים (Grain Free), המועשרת בוויטמינים ובתוספי מפרקים, ומהווה פתרון מושלם לכלבים בררנים או כתוספת משדרגת למזון היבש. \n \n \n  סוג מוצר:  מזון רטוב מלא לכלבים (100 גרם ליחידה). \n \n \n  6 טעמים עסיסיים לבחירה:  עוף והודו (אדולט), סלמון, דג בקלה (Cod Fish), חזיר, בקר, וכבש עם ירקות. \n \n \n  איכות פרימיום:  פורמולה ללא דגנים (Grain Free), ללא צבעי מאכל וללא חומרים משמרים מלאכותיים. \n \n \n  תמיכה בריאותית:  מועשר בגלוקוזאמין וכונדרואיטין לשמירה על חוזק המפרקים והסחוס. \n \n \n   קראו עוד: מידע מורחב ופרטים נוספים ↓",
    "link": "https://closetonature.co.il/product/monge-grill-dog-pouch-grain-free-100g/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/monge-grill-food-deal.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/02/monge-grill-food-deal.jpg?fit=750%2C750&ssl=1",
    "condition": "new",
    "price": "4.50",
    "currency": "ILS",
@@ -1740,7 +2035,7 @@
    "title": "שימורי הילס i/d לחתול (156 גרם) – פתרון מושלם לבעיות עיכול! ⭐⭐⭐⭐⭐",
    "description": "החתול סובל מבעיות עיכול, הקאות או שלשולים?  Hill’s Prescription Diet i/d  הוא מזון רפואי ייעודי שהוכח קלינית כמסייע בשיפור העיכול ובאיכות היציאות אצל חתולים. המזון קל מאוד לעיכול, עשיר באלקטרוליטים וויטמינים מקבוצת B, ומסייע לספיגת רכיבים מזינים ושיקום המערכת. \n  🔥 המבצע המשתלם ב”קרוב לטבע”: מגש חיסכון!  \n אנחנו דואגים לכם למחיר הטוב ביותר כדי שהחתול יקבל את הטיפול הטוב ביותר: \n \n \n  🔥 המבצע המנצח: מגש של 24 יחידות ב-229 ₪ בלבד!  \n \n   תוקף המוצר 11/2026",
    "link": "https://closetonature.co.il/product/hills-id-cat-digestive-care-can/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/hills-id-cat-digestive-care-can.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/02/hills-id-cat-digestive-care-can.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "10.00",
    "currency": "ILS",
@@ -1782,7 +2077,7 @@
    "title": "הילס ביום לחתול Hill’s Gastrointestinal Biome – לטיפול בעיכול 3 ק”ג",
    "description": "האם החתול שלכם סובל מבעיות עיכול כרוניות או שלשולים חוזרים?  Hill’s Prescription Diet Gastrointestinal Biome  הוא מזון רפואי מהפכני, שפותח על ידי וטרינרים ותזונאים כדי לתת מענה מקיף לבריאות מערכת העיכול (Digestive / Fibre Care). \n הנוסחה הייחודית מבוססת על טכנולוגיית ה- ActivBiome+ , שילוב בלעדי של סיבים פרה-ביוטיים המזינים את המיקרוביום של החתול ומסייעים לפתרון בעיות עיכול מורכבות. \n  משקל: 3 ק”ג  \n   למה לבחור ב-Hill’s Gastrointestinal Biome לחתול שלכם?",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-%d7%91%d7%99%d7%95%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-hills-gastrointestinal-biome-%d7%9c%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%91%d7%a2%d7%99%d7%9b%d7%95%d7%9c-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/הילס-ביום-לחתול-Hills-Gastrointestinal-Biome-–-לטיפול-בעיכול-3-קג.webp",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/02/%D7%94%D7%99%D7%9C%D7%A1-%D7%91%D7%99%D7%95%D7%9D-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-Hills-Gastrointestinal-Biome-%E2%80%93-%D7%9C%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%91%D7%A2%D7%99%D7%9B%D7%95%D7%9C-3-%D7%A7%D7%92.webp?fit=500%2C500&ssl=1",
    "condition": "new",
    "price": "229.00",
    "currency": "ILS",
@@ -1804,300 +2099,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%99%D7%9C%D7%A1%20%D7%91%D7%99%D7%95%D7%9D%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20Hill%E2%80%99s%20Gastrointestinal%20Biome%20%E2%80%93%20%D7%9C%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%91%D7%A2%D7%99%D7%9B%D7%95%D7%9C%203%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "62340",
-   "title": "גליליות וסיגרים צבעוניים לכלב idog – מארז חיסכון ענק! ⭐⭐⭐⭐⭐",
-   "description": "העניקו לכלב שלכם חוויית לעיסה צבעונית ומהנה עם  סיגרים / גליליות לעיסה  איכותיים מבית  idog . חטיפי ה-Munchy Sticks מיוצרים במתכון חדש ומשופר, ומספקים לכלב תעסוקה ממושכת לצד טעם עשיר שכלבים אוהבים. \n \n  משקל המארז:  800 גרם נטו.",
-   "link": "https://closetonature.co.il/product/%d7%92%d7%9c%d7%99%d7%9c%d7%99%d7%95%d7%aa-%d7%95%d7%a1%d7%99%d7%92%d7%a8%d7%99%d7%9d-%d7%a6%d7%91%d7%a2%d7%95%d7%a0%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-idog-%d7%9e%d7%90%d7%a8%d7%96/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/גליליות-וסיגרים-צבעוניים-לכלב-idog.jpg",
-   "condition": "new",
-   "price": "29.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62340%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62340",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62340/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62340/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#62340",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62340%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62340",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62340%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62340",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%92%D7%9C%D7%99%D7%9C%D7%99%D7%95%D7%AA%20%D7%95%D7%A1%D7%99%D7%92%D7%A8%D7%99%D7%9D%20%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20idog%20%E2%80%93%20%D7%9E%D7%90%D7%A8%D7%96%20%D7%97%D7%99%D7%A1%D7%9B%D7%95%D7%9F%20%D7%A2%D7%A0%D7%A7%21%20%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "62313",
-   "title": "שמפו ומרכך 2 ב-1 לכלב Arm & Hammer מנטה מלפפון 591 מ”ל",
-   "description": "העניקו לכלב שלכם חוויית רחצה מרעננת ומפנקת עם השמפו והמרכך המשולב של המותג העולמי  Arm & Hammer . מוצר ה- 2-in-1 Wash  חוסך לכם זמן ומעניק לכלב שלכם ניקוי עמוק לצד פרווה רכה, נעימה וקלה לסירוק – הכל בבקבוק אחד. \n הפורמולה הייחודית מבוססת על כוח הניקוי המוכח של הסודה לשתייה (Baking Soda), הידועה ביכולתה לנטרל ריחות לא נעימים מהשורש במקום רק להסוות אותם. \n  תכולה: 591 מ”ל.",
-   "link": "https://closetonature.co.il/product/%d7%a9%d7%9e%d7%a4%d7%95-%d7%95%d7%9e%d7%a8%d7%9b%d7%9a-2-%d7%91-1-%d7%9c%d7%9b%d7%9c%d7%91-arm-hammer-%d7%9e%d7%a0%d7%98%d7%94-%d7%9e%d7%9c%d7%a4%d7%a4%d7%95%d7%9f-591-%d7%9e%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/שמפו-ומרכך-2-ב-1-לכלב-Arm-Hammer-מנטה-מלפפון-591-מל.jpg",
-   "condition": "new",
-   "price": "59.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62313%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62313",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62313/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62313/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#62313",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62313%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62313",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62313%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62313",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%9E%D7%A4%D7%95%20%D7%95%D7%9E%D7%A8%D7%9B%D7%9A%202%20%D7%91-1%20%D7%9C%D7%9B%D7%9C%D7%91%20Arm%20%26%20Hammer%20%D7%9E%D7%A0%D7%98%D7%94%20%D7%9E%D7%9C%D7%A4%D7%A4%D7%95%D7%9F%20591%20%D7%9E%E2%80%9D%D7%9C%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "62295",
-   "title": "משחת שיניים לכלב Arm & Hammer Fresh Breath – וניל ג’ינג’ר 67.5 גרם",
-   "description": "סובלים מריח רע מהפה של הכלב? אתם לא לבד, אבל אתם בהחלט יכולים לשנות את זה. משחת השיניים  Fresh Breath  מבית  Arm & Hammer  היא הפתרון המקצועי שנועד להעניק לכלב שלכם נשימה רעננה לאורך זמן, תוך שמירה על היגיינת פה מקסימלית. \n המשחה משלבת את נוסחת הסודה לשתייה המפורסמת של המותג יחד עם אנזימים פעילים, כדי להעניק ניקוי עמוק ויסודי שפשוט עובד.",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%a9%d7%97%d7%aa-%d7%a9%d7%99%d7%a0%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-arm-hammer-fresh-breath-%d7%95%d7%a0%d7%99%d7%9c-%d7%92%d7%99%d7%a0%d7%92%d7%a8-67-5-%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/משחת-שיניים-לכלב-Arm-Hammer-Fresh-Breath-–-וניל-גינגר-67.5-גרם.jpg",
-   "condition": "new",
-   "price": "43.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62295",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62295/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62295/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#62295",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62295",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62295%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62295",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%A9%D7%97%D7%AA%20%D7%A9%D7%99%D7%A0%D7%99%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%20Arm%20%26%20Hammer%20Fresh%20Breath%20%E2%80%93%20%D7%95%D7%A0%D7%99%D7%9C%20%D7%92%E2%80%99%D7%99%D7%A0%D7%92%E2%80%99%D7%A8%2067.5%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "62100",
-   "title": "פדים Barry King ענקיים 60×90 ס”מ לאימון גורים – 10 יח’",
-   "description": "תהליך חינוך הגור לצרכים הופך לקל ונקי הרבה יותר עם הפדים האיכותיים של  Barry King . בזכות המידה הגדולה במיוחד ( 60*90 ס”מ ), הם מעניקים כיסוי נרחב והגנה מושלמת על הרצפה, הרהיטים או סביבת המחיה של חיית המחמד שלכם. \n הפדים מתוכננים בטכנולוגיה רב-שכבתית מתקדמת, המאפשרת ספיגה מהירה של נוזלים ונטרול ריחות לא נעימים, מה שהופך אותם לפתרון האידיאלי לא רק לגורים, אלא גם לכלבים מבוגרים, חיות הסובלות מאי-נקיטת שתן או לנסיעות.",
-   "link": "https://closetonature.co.il/product/%d7%a4%d7%93%d7%99%d7%9d-barry-king-%d7%a2%d7%a0%d7%a7%d7%99%d7%99%d7%9d-60x90-%d7%a1%d7%9e-%d7%9c%d7%90%d7%99%d7%9e%d7%95%d7%9f-%d7%92%d7%95%d7%a8%d7%99%d7%9d-10-%d7%99%d7%97-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/פדים-Barry-King-ענקיים-60x90-סמ-לאימון-גורים-–-10-יח.jpg",
-   "condition": "new",
-   "price": "35.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62100%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62100",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62100/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62100/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#62100",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62100%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62100",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62100%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62100",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%93%D7%99%D7%9D%20Barry%20King%20%D7%A2%D7%A0%D7%A7%D7%99%D7%99%D7%9D%2060%C3%9790%20%D7%A1%E2%80%9D%D7%9E%20%D7%9C%D7%90%D7%99%D7%9E%D7%95%D7%9F%20%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%E2%80%93%2010%20%D7%99%D7%97%E2%80%99%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "62000",
-   "title": "הרבדרום סקין סייבר (Herbaderm Skin Saver) – משחת פוליגונום רב-תכליתית לכלבים",
-   "description": "הכלב שלכם סובל מגירויים, אדמומיות או פצעים בעור?  Herbaderm Skin Saver  היא משחה טיפולית ייחודית המבוססת על תמציות צמחי מרפא (Bio-Herbal), שפותחה במיוחד כדי להעניק הקלה מהירה ולזרז את תהליך ההחלמה של העור. \n המרכיב המרכזי במשחה הוא צמח ה פוליגונום , הידוע בתכונותיו האנטי-ספטיות והמרגיעות, מה שהופך את המוצר לחובה בכל בית עם כלבים, במיוחד לכאלו הסובלים מרגישויות עור עונתיות או גירויים מקומיים. \n \n  תכולה:  50 מ”ל",
-   "link": "https://closetonature.co.il/product/%d7%94%d7%a8%d7%91%d7%93%d7%a8%d7%95%d7%9d-%d7%a1%d7%a7%d7%99%d7%9f-%d7%a1%d7%99%d7%99%d7%91%d7%a8-herbaderm-skin-saver-%d7%9e%d7%a9%d7%97%d7%aa-%d7%a4%d7%95%d7%9c%d7%99%d7%92%d7%95%d7%a0/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/02/הרבדרום-סקין-סייבר-Herbaderm-Skin-Saver-–-משחת-פוליגונום-רב-תכליתית-לכלבים-1.jpg",
-   "condition": "new",
-   "price": "59.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62000%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62000",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62000/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62000/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#62000",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62000%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62000",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62000%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62000",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A8%D7%91%D7%93%D7%A8%D7%95%D7%9D%20%D7%A1%D7%A7%D7%99%D7%9F%20%D7%A1%D7%99%D7%99%D7%91%D7%A8%20%28Herbaderm%20Skin%20Saver%29%20%E2%80%93%20%D7%9E%D7%A9%D7%97%D7%AA%20%D7%A4%D7%95%D7%9C%D7%99%D7%92%D7%95%D7%A0%D7%95%D7%9D%20%D7%A8%D7%91-%D7%AA%D7%9B%D7%9C%D7%99%D7%AA%D7%99%D7%AA%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "61795",
-   "title": "מונג’ סטרטר מדיום 15 ק”ג שק מגדלים – תזונה מקצועית לגורים",
-   "description": "מונג’ סטרטר מדיום – הזנה מקצועית לצמיחה מאוזנת של גורי גזע בינוני \n השלב הראשון בחיי הגור הוא הקריטי ביותר.  Monge Starter Medium  מספק את כל אבות המזון הנדרשים לגדילה בריאה ומאוזנת של גורים מגזע בינוני. הפורמולה העשירה מתאימה גם לאמהות בתקופת ההיריון וההנקה, ומבטיחה התפתחות תקינה ורמות אנרגיה גבוהות. \n \n   משקל: 15 ק”ג",
-   "link": "https://closetonature.co.il/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%a1%d7%98%d7%a8%d7%98%d7%a8-%d7%9e%d7%93%d7%99%d7%95%d7%9d-15-%d7%a7%d7%92-%d7%a9%d7%a7-%d7%9e%d7%92%d7%93%d7%9c%d7%99%d7%9d-%d7%aa%d7%96%d7%95%d7%a0%d7%94/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/01/מונג-סטרטר-מדיום-15-קג-שק-מגדלים-–-תזונה-מקצועית-לגורים.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61795%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61795",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/61795/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/61795/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#61795",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61795%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61795",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61795%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61795",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%95%D7%A0%D7%92%E2%80%99%20%D7%A1%D7%98%D7%A8%D7%98%D7%A8%20%D7%9E%D7%93%D7%99%D7%95%D7%9D%2015%20%D7%A7%E2%80%9D%D7%92%20%D7%A9%D7%A7%20%D7%9E%D7%92%D7%93%D7%9C%D7%99%D7%9D%20%E2%80%93%20%D7%AA%D7%96%D7%95%D7%A0%D7%94%20%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%AA%20%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "61680",
-   "title": "הילס i/d Low Fat לכלב 360 גרם – מזון רפואי לעיכול רגיש",
-   "description": "כלבים הסובלים מבעיות עיכול המצריכות תזונה דלת שומן זקוקים לפתרון מדויק שאינו מתפשר על הטעם.  Hill’s Prescription Diet i/d Low Fat  הוא מזון רפואי רטוב (שימור) המוכח קלינית כמסייע בהרגעת מערכת העיכול ובשיפור איכות היציאות, תוך שמירה על רמות שומן נמוכות במיוחד. \n פורמולה זו פותחה על ידי וטרינרים ותזונאים של הילס כדי לתת מענה למצבים כמו פנקריאטיטיס (דלקת לבלב), היפרליפידמיה ובעיות ספיגה אחרות. \n משקל: 360 גרם \n  [שים לב: יש להשתמש רק לאחר התייעצות עם וטרינר.]",
-   "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%9c%d7%a1-i-d-low-fat-%d7%9c%d7%9b%d7%9c%d7%91-360-%d7%92%d7%a8%d7%9d-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%a2%d7%99%d7%9b%d7%95%d7%9c-%d7%a8%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2026/01/הילס-id-Low-Fat-לכלב-360-גרם-–-מזון-רפואי-לעיכול-רגיש.jpg",
-   "condition": "new",
-   "price": "22.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61680%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61680",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/61680/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/61680/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#61680",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61680%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61680",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D61680%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=61680",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%99%D7%9C%D7%A1%20i/d%20Low%20Fat%20%D7%9C%D7%9B%D7%9C%D7%91%20360%20%D7%92%D7%A8%D7%9D%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%9C%D7%A2%D7%99%D7%9B%D7%95%D7%9C%20%D7%A8%D7%92%D7%99%D7%A9%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

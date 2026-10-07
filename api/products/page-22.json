@@ -1,16 +1,352 @@
 {
  "page": 22,
- "pages": 100,
- "total": 4994,
+ "pages": 101,
+ "total": 5001,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-23.json",
  "products": [
+  {
+   "id": "4111",
+   "title": "פיור לייף מזון יבש לחתולות מניקות וגורים – קיטן – שק 2 ק”ג PureLife",
+   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. מכיל ברווז וסרדינים. מזון מלא לגורים ולחתולות בסוף הריון ובמהלך הנקה. מתאים גם לגורי חתולים רגישים. \n  קיים שק 8 ק”ג פיור לייף גורים",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%95%d7%aa-%d7%9e%d7%a0%d7%99%d7%a7%d7%95%d7%aa-%d7%95%d7%92%d7%95%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%95%D7%AA-%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA-%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D-%E2%80%93-%D7%A7%D7%99%D7%98%D7%9F-%E2%80%93-PureLife.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4111",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4111/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4111/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4111",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4111",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4111",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%95%D7%AA%20%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA%20%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%E2%80%93%20%D7%A7%D7%99%D7%98%D7%9F%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4110",
+   "title": "פיור לייף מזון יבש לחתול בוגר – ברווז והודו – שק 2 ק”ג PureLife",
+   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. המזון מכיל ברווז והודו – מגיע בשקים של 2 ק”ג ו-8 ק”ג. התמונה להמחשה בלבד",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%95%d7%94%d7%95-2/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%E2%80%93-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%95%D7%94%D7%95%D7%93%D7%95-%E2%80%93-PureLife.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4110",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4110/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4110/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4110",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4110",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4110%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4110",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4109",
+   "title": "פיור לייף מזון יבש לחתול בוגר – ברווז והודו – שק 8 ק”ג PureLife",
+   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. המזון מכיל ברווז והודו – מגיע בשקים של 2 ק”ג ו-8 ק”ג. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%95%d7%94%d7%95/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%E2%80%93-%D7%91%D7%A8%D7%95%D7%95%D7%96-%D7%95%D7%94%D7%95%D7%93%D7%95-%E2%80%93-PureLife.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "309.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4109%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4109",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4109/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4109/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4109",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4109%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4109",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4109%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4109",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%95%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%20%D7%A9%D7%A7%208%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4108",
+   "title": "פיור לייף מזון יבש סטרלייזד לחתול בוגר (עיקור-סירוס) – שק 2 ק”ג PureLife",
+   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. מזון מלא לחתולים שעברו עיקור וסירוס ו/או חתולים עם נטייה למשקל יתר. מכיל ברווז וסרדינים. מגיע בשקים של 2 ק”ג ו-8 ק”ג התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%91%d7%95%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93-%D7%9C%D7%97%D7%AA%D7%95%D7%9C-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%A8%D7%93%D7%99%D7%A0%D7%99%D7%9D.jpg?fit=1000%2C1000&ssl=1",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4108%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4108",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4108/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4108/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4108",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4108%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4108",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4108%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4108",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%D7%93%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%91%D7%95%D7%92%D7%A8%20%28%D7%A2%D7%99%D7%A7%D7%95%D7%A8-%D7%A1%D7%99%D7%A8%D7%95%D7%A1%29%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20PureLife%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4107",
+   "title": "פיור לייף לחתולים סטרלייז 8+ במשקל 2 ק”ג Pure Life",
+   "description": "פיור לייף אוכל לחתולים     \n \n מזון מלא לחתולים בוגרים מבית  Flatazor  /  פלטזור  הצרפתי. מזון מתאים גם לחתולים רגישים. לייט סטרליז 8+ – מכיל ברווז ודג לבן. מזון מלא לחתולים שעברו עיקור וסירוס ו/או חתולים עם נטייה למשקל יתר, בני יותר מ-8 שנים. התמונה להמחשה בלבד",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%9e%d7%91%d7%95%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Untitled-design-57.png?fit=813%2C813&ssl=1",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4107%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4107",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4107/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4107/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4107",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4107%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4107",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4107%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4107",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%208%2B%20%D7%91%D7%9E%D7%A9%D7%A7%D7%9C%202%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4105",
+   "title": "פיור לייף מזון יבש לכלבות מניקות וגורים מכל הגזעים – שק 12 ק”ג Pure Life",
+   "description": "מזון מלא לכלבים מבית  Flatazor  / פלאטאזור הצרפתי. מתאים גם לכלבים רגישים. נוח לעיכול (גרגרים בגודל אידאלי ללעיסה נעימה). קל יותר לעיכול (מרכיבים קלים מאוד לעיכול, פחם שחור, חמר, שמרי בירה, סיבי פסיליום ואלוורה). גדילה נעימה והרמונית (כונדרויטין סולפט, גלוקוזמין סולפט) וחיוניות מובטחת (פרוקטואוליגוסכרידים, תמצית שמרים). עם סלמון ודג לבן מגיע בשקים של 12 ק”ג ו-2 ק”ג. התמונה להמחשה בלבד.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91%d7%95%d7%aa-%d7%9e%d7%a0%d7%99%d7%a7%d7%95%d7%aa-%d7%95%d7%92%d7%95%d7%a8%d7%99-2/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/PL_pm_12k.webp?fit=1000%2C1000&ssl=1",
+   "condition": "new",
+   "price": "359.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4105%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4105",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4105/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4105/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4105",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4105%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4105",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4105%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4105",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA%20%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA%20%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%9E%D7%9B%D7%9C%20%D7%94%D7%92%D7%96%D7%A2%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%2012%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4103",
+   "title": "פיור לייף מזון יבש לכלב בוגר גזע קטן – אדולט מיני – שק 2 ק”ג Pure Life",
+   "description": "העניקו לחברכם הפרוותי הקטן תזונה מדויקת ומפנקת עם  Flatazor Pure Life Adult Mini  – מזון יבש מלא ואיכותי במיוחד מבית  Flatazor  הצרפתי. פורמולה ייחודית זו פותחה בקפידה עבור  כלבים בוגרים מגזע קטן (במשקל 10 ק”ג ומטה) , כדי לספק מענה מדויק לצרכיהם האנרגטיים והתזונתיים הייחודיים. \n  פיור לייף אדולט מיני  בולט בזכות הרכבו המתקדם: \n \n  100% ללא דגנים | 100% ללא גלוטן:  פורמולה היפואלרגנית, אידיאלית לכלבים רגישים או כאלה הסובלים מאלרגיות למזון, ומבטיחה עיכול קל ונוחות מרבית. \n  85% מהחלבונים ממקור חי:  עשיר בחלבונים איכותיים ממקורות נבחרים כמו  ברווז ודג לבן  (יחד עם עוף, הודו וחזיר). חלבונים אלה חיוניים לשמירה על מסת שריר אופטימלית ואספקת אנרגיה יומיומית. \n  עם ברווז ודג לבן:  שילוב טעים ומזין של מקורות חלבון מובחרים, כאשר הברווז מוסיף טעם עשיר, והדגים תורמים חומצות שומן חיוניות מסוג אומגה 3, התומכות בבריאות העור והפרווה המבריקה.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%90%d7%93%d7%95/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-%E2%80%93-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%9E%D7%99%D7%A0%D7%99-%E2%80%93-%D7%A9%D7%A7-2-%D7%A7%D7%92-Pure-Life.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "149.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4103/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4103/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4103",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4103%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4103",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%99%D7%91%D7%A9%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%92%D7%96%D7%A2%20%D7%A7%D7%98%D7%9F%20%E2%80%93%20%D7%90%D7%93%D7%95%D7%9C%D7%98%20%D7%9E%D7%99%D7%A0%D7%99%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
+  {
+   "id": "4102",
+   "title": "פיור לייף אוכל לכלב בוגר גזע בינוני – אדולט – Pure Life",
+   "description": "העניקו לכלבכם הבוגר תזונה אופטימלית עם  Flatazor Pure Life Adult Medium  – מזון יבש מלא ואיכותי במיוחד מבית Flatazor הצרפתי, שפותח במיוחד לכלבים בוגרים מגזע בינוני, במשקל של  10 עד 30 ק”ג . פורמולה זו מציעה פתרון תזונתי הוליסטי התומך בבריאות כללית, חיוניות ומשקל אידאלי. \n  Pure Life Adult Medium  מתאים במיוחד גם לכלבים רגישים, בזכות הרכבו הייחודי: \n \n  0% דגנים | 0% גלוטן:  נוסחה נקייה מדגנים וגלוטן, התורמת לעיכול קל ומפחיתה רגישויות במערכת העיכול. \n  85% מהחלבונים מקורם מהחי:  תכולת חלבון גבוהה ואיכותית ממקורות נבחרים כמו  סלמון וברווז , יחד עם עוף, הודו וחזיר. חלבונים אלה תורמים לשמירה על מסת שריר אופטימלית וסיפוק אנרגיה. \n  עם סלמון וברווז:  שילוב טעים ומזין של מקורות חלבון איכותיים. הסלמון עשיר בחומצות שומן אומגה 3 התורמות לבריאות העור והפרווה. \n   מגיע בשקים של 2 ק”ג, 12 ק”ג ו- 15 ק”ג.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-%E2%80%93-%D7%90%D7%93%D7%95%D7%9C%D7%98-%E2%80%93-Pure-Life.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "119.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4102",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4102/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4102/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#4102",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4102",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4102",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%95%D7%A8%20%D7%9C%D7%99%D7%99%D7%A3%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%92%D7%96%D7%A2%20%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99%20%E2%80%93%20%D7%90%D7%93%D7%95%D7%9C%D7%98%20%E2%80%93%20Pure%20Life%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
+  },
   {
    "id": "4101",
    "title": "פיור לייף אוכל לכלבות מניקות וגורים מכל הגזעים – שק 2 ק”ג  Pure Life",
    "description": "מזון מלא לכלבים  מבית  Flatazor  /  פלטזור  הצרפתי. מתאים גם לכלבים רגישים. נוח לעיכול (גרגרים בגודל אידאלי ללעיסה נעימה). קל יותר לעיכול (מרכיבים קלים מאוד לעיכול, פחם שחור, חמר, שמרי בירה, סיבי פסיליום ואלוורה). גדילה נעימה והרמונית (כונדרויטין סולפט, גלוקוזמין סולפט) וחיוניות מובטחת (פרוקטואוליגוסכרידים, תמצית שמרים). עם סלמון ודג לבן מגיע בשקים של 12 ק”ג ו-2 ק”ג.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%95%d7%a8%d7%9c%d7%99%d7%99%d7%a3-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91%d7%95%d7%aa-%d7%9e%d7%a0%d7%99%d7%a7%d7%95%d7%aa-%d7%95%d7%92%d7%95%d7%a8%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פיור-לייף-אוכל-לכלבות-מניקות-וגורים-מכל-הגזעים-–-שק-2-קג-Pure-Life.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%95%D7%A8-%D7%9C%D7%99%D7%99%D7%A3-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA-%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA-%D7%95%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%9B%D7%9C-%D7%94%D7%92%D7%96%D7%A2%D7%99%D7%9D-%E2%80%93-%D7%A9%D7%A7-2-%D7%A7%D7%92-Pure-Life.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -52,7 +388,7 @@
    "title": "מזון לכלב פרימייר קלאב 21 ק”ג",
    "description": "מזון לכלבים בוגרים מכל הגזעים,מרכיב ראשון בשר. \nמזון לכלבים בוגרים בעל כופתיות קטנות ומתאים גם לכלבים קטנים. מרכיב ראשון בשר עוף, 60% חלבון מן החי. שק המזון במשקל 22.6 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%a8%d7%99%d7%9e%d7%99%d7%99%d7%a8-%d7%a7%d7%9c%d7%90%d7%91-premier-club22-6-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/מזון-לכלב-פרימייר-קלאב-Premier-Club.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%99%D7%A8-%D7%A7%D7%9C%D7%90%D7%91-Premier-Club.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "89.00",
    "currency": "ILS",
@@ -94,7 +430,7 @@
    "title": "פירסט צ’ויס סטרילייזד אוכל לחתולים מסורסים 10 ק”ג",
    "description": "פירסט צ’ויס  –  First Choice  \n \n  פירסט צ`ויס  סטרילייזד  אוכל לחתולים  מסורסים וחתולות מעוקרות, כמות השומן הופחתה בכ25% על מנת לסייע לחתול לשמור על משקל תקין ובריא, כמות החלבון נשארה גבוהה בכדי שהחתול ישמור על מסת השריר. \n משקל: 10 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%a8%d7%a1%d7%98-%d7%a6%d7%95%d7%99%d7%a1-%d7%a1%d7%98%d7%a8%d7%99%d7%9c%d7%99%d7%99%d7%96%d7%93-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%9e%d7%a1%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-סטרילייזד-אוכל-לחתולים-מסורסים-5.4-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%A8%D7%A1%D7%98-%D7%A6%D7%95%D7%99%D7%A1-%D7%A1%D7%98%D7%A8%D7%99%D7%9C%D7%99%D7%99%D7%96%D7%93-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%9E%D7%A1%D7%95%D7%A8%D7%A1%D7%99%D7%9D-5.4-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "349.00",
    "currency": "ILS",
@@ -136,7 +472,7 @@
    "title": "פירסט צ’ויס / 1st Choice היפואלרגני לכלב 11 ק”ג",
    "description": "פירסט צ’ויס  /  1 st  Choice  היפואלרגני ללא דגנים מזון לכלבים רגישים ואלרגים אשר סובלים מבעיות עיכול או בעיות עור ופרווה, מתכון על בסיס ברווז ותפוחי אדמה – רכיבים טעימים ביותר ובעלי אלרגניות נמוכה. אוכל ברמת טעימות גבוהה ביותר שהכלב שלכם יהנה לזלול. \n אוכל כלבים ברמת סופר פרימיום תוצרת קנדה.",
    "link": "https://closetonature.co.il/product/%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-12-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-היפואלרגני-לכלב.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%A8%D7%A1%D7%98-%D7%A6%D7%95%D7%99%D7%A1-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "349.00",
    "currency": "ILS",
@@ -178,7 +514,7 @@
    "title": "פירסט צ’ויס / First Choice בוגר גזע בינוני 14 ק”ג",
    "description": "פירסט צ’ויס  /  1 st  Choice  עוף  מזון לכלבים  מגזע בינוני וגדול ששוקלים 10 ק”ג ומעלה, מתכון טעים במיוחד שמותאם לכלבים בוגרים צעירים בגילאי 14 חודשים ועד 6 שנים. פורמולה על בסיס עוף, אורז וגריסים. \nאוכל כלבים ברמת סופר פרמיום תוצרת קנדה.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%a8%d7%a1%d7%98-%d7%a6%d7%95%d7%99%d7%a1-%d7%91%d7%95%d7%92%d7%a8-%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-15-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פירסט-צויס-First-Choice-בוגר-גזע-בינוני-14-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%99%D7%A8%D7%A1%D7%98-%D7%A6%D7%95%D7%99%D7%A1-First-Choice-%D7%91%D7%95%D7%92%D7%A8-%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "269.00",
    "currency": "ILS",
@@ -220,7 +556,7 @@
    "title": "אוונט – ownat קלאסיק דיילי קר אוכל לחתולים בוגרים 15 ק”ג",
    "description": "אוונט  –  ownat  \n OWNAT CLASSIC DAILY CARE. אוונט דיילי קר הוא ללא ספק המזון הנמכר ביותר מכל מזונות אוונט לחתולים הוא מבוסס על בשר עוף אמיתי כרכיב ראשון ועיקרי ללא תוצרי לוואי או חומרים מלאכותיים כלשהם, הוא מספק הזנה מושלמת לחתולים בוגרים החל מגיל שנה. המזון מכיל פירות, קטניות וצמחי מרפא חיוניים אשר משפרים את איכות החיים של החתול ומפחיתים את תדירות הביקורים אצל הוטרינר.",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%93%d7%99%d7%99%d7%9c%d7%99-%d7%a7%d7%a8-%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%91%d7%95%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-דיילי-קר-אוכל-לחתולים-בוגרים-15-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%93%D7%99%D7%99%D7%9C%D7%99-%D7%A7%D7%A8-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-15-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "289.00",
    "currency": "ILS",
@@ -262,7 +598,7 @@
    "title": "אוונט קלאסיק דגים אוכל לכלבים 20 ק”ג",
    "description": "OWNAT CLASSIC FISH. בעולם המודרני שאנו חיים בו תופעה של כלבים שרגישים למקורות חלבון מסוימים הפכה לשכיחה ביותר, הרכיבים האלרגנים הבולטים ביותר הם כמובן עוף אבל גם בקר נחשב לחלבון אלרגני ברמה די גבוהה. דגים לעומת זאת נחשבים לחלבון אלרגני ברמה פחותה, הם מזינים, קלים לעיכול ורוב הכלבים מאוד אוהבים את טעמם. המזון מתאים לכלבים בוגרים מכל הגזעים החל מגיל 12 חודשים",
    "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%95%d7%a0%d7%98-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7-%d7%93%d7%92%d7%99%d7%9d-%d7%90%d7%95%d7%9b%d7%9c-%d7%94%d7%99%d7%a4%d7%95%d7%90%d7%9c%d7%a8%d7%92%d7%a0%d7%99-%d7%9c%d7%9b%d7%9c-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוונט-קלאסיק-דגים-אוכל-היפואלרגני-לכלבים-20-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%95%D7%A0%D7%98-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%93%D7%92%D7%99%D7%9D-%D7%90%D7%95%D7%9B%D7%9C-%D7%94%D7%99%D7%A4%D7%95%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-20-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "319.00",
    "currency": "ILS",
@@ -304,7 +640,7 @@
    "title": "אוכל לכלב פרוטקט אוביסיטי 2 ק”ג OBESITE PROTECT",
    "description": "משלוח חינם!  \n אוכל לכלב פרוטקט אוביסיטי Protect Obésité הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “הפחתת משקל גוף מופרז”. \n “וויסות אספקת הגלוקוז (סוכרת)”. \n \n משקל: 2 ק”ג \n \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%95%d7%91%d7%99%d7%a1%d7%98-obesite-%d7%9c%d7%94%d7%a4%d7%97%d7%aa%d7%aa-%d7%9e-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-אוביסיטי-2-קג-OBESITE-PROTECT-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%90%D7%95%D7%91%D7%99%D7%A1%D7%99%D7%98%D7%99-2-%D7%A7%D7%92-OBESITE-PROTECT-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -346,7 +682,7 @@
    "title": "אוכל לכלב פרוטקט דיג’סט 2 ק”ג PROTECT DIGEST",
    "description": "משלוח חינם!  \n אוכל לכלב פרוטקט דיג’סט Protect Digest הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “הפחתת אי סבילות למרכיבים ולמרכיבים תזונתיים”. « תמיכה במטבוליזם של שומנים במקרה של היפרליפידמיה . \n \n \n משקל: 2 ק”ג \n \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%93%d7%99%d7%92%d7%a1%d7%98-digest-%d7%9c%d7%a1%d7%99%d7%95%d7%a2-%d7%91%d7%91%d7%a2-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-דיגסט-2-קג-PROTECT-DIGEST-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%93%D7%99%D7%92%D7%A1%D7%98-2-%D7%A7%D7%92-PROTECT-DIGEST-1.jpg?fit=1200%2C1200&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -388,7 +724,7 @@
    "title": "אוכל לכלב מבוגר פרוטקט סניור 2 ק”ג PROTECT SENIOR",
    "description": "משלוח חינם!  \n אוכל לכלב מבוגר פרוטקט סניור + Protect Senior + הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בתפקוד הלב במקרה של אי ספיקת לב כרונית”. “שיקום תזונתי, הבראה”. מזון זה מתאים גם כ”תמיכה בתפקוד העור במקרה של דרמטוזיס ואובדן יתר של שיער”. \n \n משקל: 2 ק”ג \n \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%a0%d7%99%d7%95%d7%a8-senior-%d7%a9%d7%a7-2-%d7%a7/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-מבוגר-פרוטקט-סניור-2-קג-PROTECT-SENIOR-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9E%D7%91%D7%95%D7%92%D7%A8-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%A1%D7%A0%D7%99%D7%95%D7%A8-2-%D7%A7%D7%92-PROTECT-SENIOR-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -430,7 +766,7 @@
    "title": "אוכל לכלב פרוטקט דרמטו DERMATO לרגישות בעור 2 ק”ג",
    "description": "משלוח חינם!  \n פרוטקט דרמטו Protect Dermato הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בתפקוד העור במקרה של דרמטוזיס ואובדן יתר של שיער”. “הפחתת אי סבילות למרכיבים ולרכיבים תזונתיים”. מזון זה מתאים גם כתמיכה ל”שיקום תזונתי, הבראה”. \n   משקל : 2 ק”ג    \n \n  \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%93%d7%a8%d7%9e%d7%98%d7%95-dermato-%d7%9c%d7%a8%d7%92%d7%99%d7%a9%d7%95%d7%aa-%d7%91-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-דרמטו-DERMATO-לרגישות-בעור-2-קג-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%93%D7%A8%D7%9E%D7%98%D7%95-DERMATO-%D7%9C%D7%A8%D7%92%D7%99%D7%A9%D7%95%D7%AA-%D7%91%D7%A2%D7%95%D7%A8-2-%D7%A7%D7%92-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "149.00",
    "currency": "ILS",
@@ -472,7 +808,7 @@
    "title": "אוכל לכלב פרוטקט אוביסיטי 12 ק”ג PROTECT OBESITE",
    "description": "אוכל לכלב פרוטקט אוביסיטי Protect Obésité הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “הפחתת משקל גוף מופרז”. \n “וויסות אספקת הגלוקוז (סוכרת)”. \n \n משקל: 12 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%95%d7%91%d7%99%d7%a1%d7%98-obesite-%d7%9c%d7%94%d7%a4%d7%97%d7%aa%d7%aa-%d7%9e%d7%a9/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-אוביסט-12-קג-OBESITE.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%90%D7%95%D7%91%D7%99%D7%A1%D7%98-12-%D7%A7%D7%92-OBESITE.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "379.00",
    "currency": "ILS",
@@ -514,7 +850,7 @@
    "title": "אוכל לכלב פרוטקט דיג’סט 12 ק”ג PROTECT DIGEST",
    "description": "אוכל לכלב פרוטקט דיג’סט Protect Digest הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “הפחתת אי סבילות למרכיבים ולמרכיבים תזונתיים”. « תמיכה במטבוליזם של שומנים במקרה של היפרליפידמיה . \n \n \n משקל: 12 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%93%d7%99%d7%92%d7%a1%d7%98-digest-%d7%9c%d7%a1%d7%99%d7%95%d7%a2-%d7%91%d7%91%d7%a2%d7%99/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-דיגסט-12-קג-PROTECT-DIGEST-1.webp",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%93%D7%99%D7%92%D7%A1%D7%98-12-%D7%A7%D7%92-PROTECT-DIGEST-1.webp?fit=720%2C720&ssl=1",
    "condition": "new",
    "price": "379.00",
    "currency": "ILS",
@@ -556,7 +892,7 @@
    "title": "אוכל לכלב פרוטקט אוסטאו 12 ק”ג PROTECT OSTEO",
    "description": "אוכל לכלב פרוטקט אוסטאו Protect Osteo הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בחילוף החומרים של המפרקים במקרה של דלקת מפרקים ניוונית”. \n \n משקל: 12 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%90%d7%95%d7%a1%d7%98%d7%90%d7%95-osteo-%d7%9c%d7%a1%d7%99%d7%95%d7%a2-%d7%91%d7%91%d7%a2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-אוסטאו-12-קג-PROTECT-OSTEO-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%90%D7%95%D7%A1%D7%98%D7%90%D7%95-12-%D7%A7%D7%92-PROTECT-OSTEO-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "379.00",
    "currency": "ILS",
@@ -598,7 +934,7 @@
    "title": "אוכל לכלב מבוגר פרוטקט סניור 12 ק”ג PROTECT SENIOR",
    "description": "אוכל לכלב מבוגר פרוטקט סניור + Protect Senior + הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בתפקוד הלב במקרה של אי ספיקת לב כרונית”. “שיקום תזונתי, הבראה”. מזון זה מתאים גם כ”תמיכה בתפקוד העור במקרה של דרמטוזיס ואובדן יתר של שיער”. \n \n משקל: 12 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%a0%d7%99%d7%95%d7%a8-senior-%d7%a9%d7%a7-12/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-מבוגר-פרוטקט-סניור-12-קג-PROTECT-SENIOR-2.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9E%D7%91%D7%95%D7%92%D7%A8-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%A1%D7%A0%D7%99%D7%95%D7%A8-12-%D7%A7%D7%92-PROTECT-SENIOR-2.jpg?fit=1000%2C1000&ssl=1",
    "condition": "new",
    "price": "379.00",
    "currency": "ILS",
@@ -640,9 +976,9 @@
    "title": "אוכל לכלב פרוטקט דרמטו DERMATO לרגישות בעור 12 ק”ג",
    "description": "פרוטקט דרמטו לכלבים  – Protect Dermato הוא מזון דיאטטי מלא לכלבים עם צרכים תזונתיים מיוחדים “תמיכה בתפקוד העור במקרה של דרמטוזיס ואובדן יתר של שיער”. “הפחתת אי סבילות למרכיבים ולרכיבים תזונתיים”. מזון זה מתאים גם כתמיכה ל”שיקום תזונתי, הבראה”. \n   משקל : 12 ק”ג / 2 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%93%d7%a8%d7%9e%d7%98%d7%95-dermato-%d7%9c%d7%a8%d7%92%d7%99%d7%a9%d7%95%d7%aa-%d7%91%d7%a2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/אוכל-לכלב-פרוטקט-דרמטו-DERMATO-לרגישות-בעור-12-קג-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%93%D7%A8%D7%9E%D7%98%D7%95-DERMATO-%D7%9C%D7%A8%D7%92%D7%99%D7%A9%D7%95%D7%AA-%D7%91%D7%A2%D7%95%D7%A8-12-%D7%A7%D7%92-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
-   "price": "359.00",
+   "price": "340.00",
    "currency": "ILS",
    "availability": "in_stock",
    "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3652%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3652",
@@ -682,7 +1018,7 @@
    "title": "Crocktail קרוקטל / פרסטיז’ קיטן 2 ק”ג",
    "description": "מזון מלא לגורים ולחתולות בסוף הריון ובמהלך הנקה. \n   אריזה חדשה",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%a7%d7%99%d7%98%d7%9f-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Crocktail-קרוקטל-פרסטיז-קיטן-2-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Crocktail-%D7%A7%D7%A8%D7%95%D7%A7%D7%98%D7%9C-%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%A7%D7%99%D7%98%D7%9F-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "120.00",
    "currency": "ILS",
@@ -724,7 +1060,7 @@
    "title": "Crocktail קרוקטל / פרסטיז’ לייט מעוקרים 8+ 2 ק”ג",
    "description": "מזון מלא לחתולים שעברו עיקור וסירוס בני יותר מ-8 שנים. \nמתאים גם לחתולים עם נטייה למשקל יתר.",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%9c%d7%99%d7%99%d7%98-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8%d7%99%d7%9d-8-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Crocktail-קרוקטל-פרסטיז-לייט-מעוקרים-8-2-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Crocktail-%D7%A7%D7%A8%D7%95%D7%A7%D7%98%D7%9C-%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D-8-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "120.00",
    "currency": "ILS",
@@ -766,7 +1102,7 @@
    "title": "Crocktail קרוקטל מעוקרים עוף 10 ק”ג",
    "description": "מכיל דגים מזון מלא לחתולים שעברו עיקור וסירוס. \nמתאים גם לחתולים עם נטייה למשקל יתר.",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%9c%d7%99%d7%99%d7%98-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8%d7%99%d7%9d-%d7%a2%d7%95%d7%a3-10-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Crocktail-קרוקטל-מעוקרים-עוף-10-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Crocktail-%D7%A7%D7%A8%D7%95%D7%A7%D7%98%D7%9C-%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D-%D7%A2%D7%95%D7%A3-10-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "289.00",
    "currency": "ILS",
@@ -808,7 +1144,7 @@
    "title": "Crocktail Flatazor קרוקטל / פרסטיז’ מעוקרים עוף 2 ק”ג",
    "description": "מכיל עוף מזון מלא לחתולים שעברו עיקור וסירוס. \nמתאים גם לחתולים עם נטייה למשקל יתר.",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%9c%d7%99%d7%99%d7%98-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8%d7%99%d7%9d-%d7%a2%d7%95%d7%a3-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Crocktail-Flatazor-קרוקטל-פרסטיז-מעוקרים-עוף-2-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Crocktail-Flatazor-%D7%A7%D7%A8%D7%95%D7%A7%D7%98%D7%9C-%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D-%D7%A2%D7%95%D7%A3-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "120.00",
    "currency": "ILS",
@@ -850,7 +1186,7 @@
    "title": "Crocktail Flatazor מעוקרים דגים 2 ק”ג / 10 ק”ג",
    "description": "Crocktail Flatazor מעוקרים דגים – מזון איכותי וטעים במיוחד, המותאם לצרכים התזונתיים של חתולים מעוקרים על בסיס דגים. מסייע בשמירה על משקל תקין ובריאות דרכי השתן. זמין באריזות 2 ק”ג ו-10 ק”ג. \n מכיל דגים מזון מלא לחתולים שעברו עיקור וסירוס. \nמתאים גם לחתולים עם נטייה למשקל יתר.",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8%d7%99%d7%9d-%d7%93%d7%92%d7%99%d7%9d-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/Crocktail-Flatazor-מעוקרים-דגים.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Crocktail-Flatazor-%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D-%D7%93%D7%92%D7%99%D7%9D.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "120.00",
    "currency": "ILS",
@@ -892,7 +1228,7 @@
    "title": "קרוקטל Crocktail / פרסטיז’ אדולט הודו 10 ק”ג",
    "description": "מזון מלא לחתולים בוגרים. \n גזע Crocktail Adult Large הוא מזון מלא לחתולים בוגרים מגזע גדול. מתאים גם לחתולים מעוקרים. \n   אריזה חדשה",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%94%d7%95%d7%93%d7%95-10-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/קרוקטל-Crocktail-פרסטיז-אדולט-הודו-10-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A7%D7%A8%D7%95%D7%A7%D7%98%D7%9C-Crocktail-%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%94%D7%95%D7%93%D7%95-10-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "289.00",
    "currency": "ILS",
@@ -934,7 +1270,7 @@
    "title": "קרוקטל Croktail Flatazor אדולט עוף הודו 2 ק”ג",
    "description": "גזע Crocktail Adult Large הוא מזון מלא לחתולים בוגרים מגזע גדול. מתאים גם לחתולים מעוקרים.",
    "link": "https://closetonature.co.il/product/croktail-flatazor-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%a2%d7%95%d7%a3-%d7%94%d7%95%d7%93%d7%95-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/קרוקטל-Crocktail-פרסטיז-אדולט-הודו-2-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A7%D7%A8%D7%95%D7%A7%D7%98%D7%9C-Crocktail-%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%94%D7%95%D7%93%D7%95-2-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "120.00",
    "currency": "ILS",
@@ -976,7 +1312,7 @@
    "title": "פרסטיז’ אוכל לגורים מגזע בינוני ולכלבות מניקות 12 ק”ג",
    "description": "אוכל לגורי כלבים  אשר ישקלו בבגרותם 10-26 ק”ג . לכלבות מניקות . מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח העץ עשירים בפוליפנולים, המגנים על התא של האורגניזם. מכיל שילוב של תמציות צמחים ופרוקטו-אוליגוסכרידים המבטיחים עיכול בריא, ומערכת חיסונית חזקה ויציבה. מכיל רכיבים קלים לעיכול כמו ביצים, שבבי תירס ועמילן שטרם בושל, המסייעים בהגנה על מערכת העיכול של הגור.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%92%d7%95%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-%d7%95%d7%9c%d7%9b%d7%9c%d7%91%d7%95%d7%aa-%d7%9e%d7%a0-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אוכל-לגורים-מגזע-בינוני-ולכלבות-מניקות-12-קג-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-%D7%95%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA-%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA-12-%D7%A7%D7%92-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1018,7 +1354,7 @@
    "title": "פרסטיז’ סנסטיב כבש ואורז לכלב בוגר 3 ק”ג Flatazor",
    "description": "היפואלרגני (ללא חיטה וסויה)  אוכל לכלבים בוגרים  הסובלים מרגישות במערכת העיכול ואלרגיות בעור . מכיל מרכיבים בעלי נעכלות גבוהה (שיבול שועל מקולפת, כבש ואורז) תורם לתפקוד אופטימלי של מערכת העיכול ומסייע לצמצם את הסיכון לאלרגיה. מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח העץ עשירים בפוליפנולים, המגנים על התא של האורגניזם. היפולרגני- המזון אינו מכיל סויה וחיטה מכיל חלבונים אן אלרגנים כגון ביצים וכבש. מכיל אורז להפחתת הסיכונים באלרגיה . מכיל ארטישוק הידוע בתכונותיו וסגולותיו הרפואיות ובגנה על הכבד.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%a1%d7%a0%d7%a1%d7%98%d7%99%d7%91-%d7%9b%d7%91%d7%a9-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-3-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-סנסטיב-כבש-ואורז-לכלב-בוגר-12-קג-Flatazor-2.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%A1%D7%A0%D7%A1%D7%98%D7%99%D7%91-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-12-%D7%A7%D7%92-Flatazor-2.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -1060,7 +1396,7 @@
    "title": "פרסטיז’ סנסטיב כבש ואורז לכלב בוגר 12 ק”ג Flatazor",
    "description": "היפואלרגני (ללא חיטה וסויה)  אוכל לכלבים  בוגרים הסובלים מרגישות במערכת העיכול ואלרגיות בעור . מכיל מרכיבים בעלי נעכלות גבוהה (שיבול שועל מקולפת, כבש ואורז) תורם לתפקוד אופטימלי של מערכת העיכול ומסייע לצמצם את הסיכון לאלרגיה. מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח העץ עשירים בפוליפנולים, המגנים על התא של האורגניזם. היפולרגני- המזון אינו מכיל סויה וחיטה מכיל חלבונים אן אלרגנים כגון ביצים וכבש. מכיל אורז להפחתת הסיכונים באלרגיה . מכיל ארטישוק הידוע בתכונותיו וסגולותיו הרפואיות ובגנה על הכבד.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%a1%d7%a0%d7%a1%d7%98%d7%99%d7%91-%d7%9b%d7%91%d7%a9-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-12-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-סנסטיב-כבש-ואורז-לכלב-בוגר-12-קג-Flatazor-2.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%A1%D7%A0%D7%A1%D7%98%D7%99%D7%91-%D7%9B%D7%91%D7%A9-%D7%95%D7%90%D7%95%D7%A8%D7%96-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-12-%D7%A7%D7%92-Flatazor-2.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1102,7 +1438,7 @@
    "title": "פרסטיז’ אוכל לגורי כלבים מגזע גדול – מקסי 15 ק”ג Flatazor",
    "description": "אוכל לגורי כלבים  מגזע גדול לגורי גזעים גדולים – מזון לגורים מגזע גדול – החל מגיל חודשיים ( שק ראשון יש לתת גורים רגיל ) \nמכיל נוגדי חמצון טבעיים המופקים סיבי תפוח העץ עשירים בפוליפנולים, נוגדני חמצון טבעיים, המגנים על התא של האורגניזם מכיל רכיבים קלים לעיכול כמו ביצים, שבבי תירס ועמילן שטרם בושל, מסייעים בהגנה על מערכת העיכול של גורי הכלבים. מכיל כונדרואיטין, גלוקוזמין סולפט וסחוס שעבר הידרוליזה תוספת המחזקת את המפרקים והעצמות של הגור הנמצא בשלבים הקירטיים של ההתפתחות ובניית השלד.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%92%d7%95%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%92%d7%93%d7%95%d7%9c-%d7%9e%d7%a7%d7%a1%d7%99-15-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אוכל-לגורי-כלבים-מגזע-גדול-מקסי-15-קג-Flatazor-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%92%D7%93%D7%95%D7%9C-%D7%9E%D7%A7%D7%A1%D7%99-15-%D7%A7%D7%92-Flatazor-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1144,7 +1480,7 @@
    "title": "פרסטיז’ לגורי כלבים מגזע בינוני ולכלבות מניקות 3 ק”ג Flatazor",
    "description": "פרסטיז’ מזון לגורים מגזע בינוני ולכלבות מניקות   \n מזון יבש מלא לגורים כלבים אשר ישקלו בבגרותם 10-26 ק”ג . לכלבות מניקות . מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח העץ עשירים בפוליפנולים, המגנים על התא של האורגניזם. מכיל שילוב של תמציות צמחים ופרוקטו-אוליגוסכרידים המבטיחים עיכול בריא, ומערכת חיסונית חזקה ויציבה. מכיל רכיבים קלים לעיכול כמו ביצים, שבבי תירס ועמילן שטרם בושל, המסייעים בהגנה על מערכת העיכול של הגור .",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%92%d7%95%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-%d7%95%d7%9c%d7%9b%d7%9c%d7%91%d7%95%d7%aa-%d7%9e%d7%a0/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אוכל-לגורים-מגזע-בינוני-ולכלבות-מניקות-12-קג-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-%D7%95%D7%9C%D7%9B%D7%9C%D7%91%D7%95%D7%AA-%D7%9E%D7%A0%D7%99%D7%A7%D7%95%D7%AA-12-%D7%A7%D7%92-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -1186,7 +1522,7 @@
    "title": "פרסטיז’ אוכל לכלבים אדולט 14 ק”ג Flatazor",
    "description": "מזון יבש מלא לכלבים מכל הגזעים. שק של 14 ק”ג מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח עץ העשירים בפוליפנולים, , המגנים על התא של האורגניזם ושומרים על חיוניות כלבך . משקל אופטימלי מתאפשר בזכות איזון בין רמת החלבון והכמות הקלורית הנדרשת לכלב .",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%90%d7%93%d7%95%d7%9c%d7%98-153-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אוכל-לכלבים-אדולט-2.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%90%D7%93%D7%95%D7%9C%D7%98-2.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1228,7 +1564,7 @@
    "title": "פרסטיז’ מזון יבש לכלב לייט/מעוקר 14 ק”ג Flatazor",
    "description": "פרסטיז’ מזון יבש לכלב לייט/מעוקר 14 ק”ג Flatazor  \n מזון יבש מלא מופחת קלוריות לכלבים הנוטים להשמנה ו/או מעוקרים, מסורסים. נוכחותם של סיבים (נוסחה מופחתת קלוריות) מסייעת לשמור על משקל אידאלי מבלי להקטין את נפח המנה (20% פחות אנרגיה בהשוואה למזון Adult של Prestige). מכיל נוגדי חמצון טבעיים עשוי סיבי תפוח עץ העשיר בפוליפנולים המגנים על התא של האורגניזם. תרומתם של פרוקטו אוליגוסכרידים והאיזון הטוב בין סיבים מסיסים לבלתי מסיסים תורמת למעבר מעיים מסודר ומאפשרת לווסת את המעבר במערכת העיכול.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9c%d7%99%d7%99%d7%98-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8-15-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-מזון-יבש-לכלב-לייטמעוקר-153-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9C%D7%99%D7%99%D7%98%D7%9E%D7%A2%D7%95%D7%A7%D7%A8-153-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "289.00",
    "currency": "ILS",
@@ -1270,7 +1606,7 @@
    "title": "פרסטיז’ מזון יבש לכלב לייט/מעוקר 3 ק”ג Flatazor",
    "description": "פרסטיז’ מזון יבש לכלב לייט/מעוקר 3 ק”ג Flatazor  \n מזון יבש מלא מופחת קלוריות לכלבים הנוטים להשמנה ו/או מעוקרים, מסורסים. נוכחותם של סיבים (נוסחה מופחתת קלוריות) מסייעת לשמור על משקל אידאלי מבלי להקטין את נפח המנה (20% פחות אנרגיה בהשוואה למזון Adult של Prestige). מכיל נוגדי חמצון טבעיים עשוי סיבי תפוח עץ העשיר בפוליפנולים המגנים על התא של האורגניזם. תרומתם של פרוקטו אוליגוסכרידים והאיזון הטוב בין סיבים מסיסים לבלתי מסיסים תורמת למעבר מעיים מסודר ומאפשרת לווסת את המעבר במערכת העיכול.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9e%d7%96%d7%95%d7%9f-%d7%99%d7%91%d7%a9-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9c%d7%99%d7%99%d7%98-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8-3-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-מזון-יבש-לכלב-לייטמעוקר-153-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%9E%D7%96%D7%95%D7%9F-%D7%99%D7%91%D7%A9-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9C%D7%99%D7%99%D7%98%D7%9E%D7%A2%D7%95%D7%A7%D7%A8-153-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -1312,7 +1648,7 @@
    "title": "פרסטיז’ אדולט מיני 3 ק”ג Flatazor",
    "description": "מבצע מטורף בקרוב לטבע!   \n  פרסטיז’ אדולט מיני 3 ק”ג Flatazor  \n  מזון יבש מלא לכלבים  מגזע קטן. מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח עץ העשירים בפוליפנולים, , המגנים על התא של האורגניזם ושומרים על חיוניות כלבך . משקל אופטימלי מתאפשר בזכות איזון בין רמת החלבון והכמות הקלורית הנדרשת לכלב . מכיל תוספת של פרוקטו-אוליגוסכרידים מעודדת התפתחות חיידקי המעיים המסייעים לבריאות ולתפקוד תקין של מערכת העיכול.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%9e%d7%99%d7%a0%d7%99-3-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אדולט-מיני-3-קג-Flatazor-2.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%9E%D7%99%D7%A0%D7%99-3-%D7%A7%D7%92-Flatazor-2.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -1354,7 +1690,7 @@
    "title": "פרסטיז’ אדולט מיני 8 ק”ג Flatazor",
    "description": "מזון יבש מלא לכלבים מגזע קטן.  מכיל נוגדי חימצון טבעיים עשויים מסיבי תפוח עץ העשירים בפוליפנולים, , המגנים על התא של האורגניזם ושומרים על חיוניות כלבך . משקל אופטימלי מתאפשר בזכות איזון בין רמת החלבון והכמות הקלורית הנדרשת לכלב . מכיל תוספת של פרוקטו-אוליגוסכרידים מעודדת התפתחות חיידקי המעיים המסייעים לבריאות ולתפקוד תקין של מערכת העיכול. \n   חסר זמנית במלאי – חוזר יום רביעי 3.6   \n   קיים גם ב 3 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%90%d7%93%d7%95%d7%9c%d7%98-%d7%9e%d7%99%d7%a0%d7%99-8-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אדולט-מיני-3-קג-Flatazor-1.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%93%D7%95%D7%9C%D7%98-%D7%9E%D7%99%D7%A0%D7%99-3-%D7%A7%D7%92-Flatazor-1.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "249.00",
    "currency": "ILS",
@@ -1396,7 +1732,7 @@
    "title": "פרסטיז’ אדולט 7+ לכלב מבוגר 14 ק”ג Flatazor",
    "description": "אוכל לכלבים  מבוגרים מכיל נוגדי חמצון טבעיים מסיבי תפוח העץ עשירים בפוליפנולים, נוגדני חמצון טבעיים, המגנים על התא של האורגניזם איו מכיל מלח מה שעוזר לשמור על בריאות הלב ומונע הצטברות נוזלים מכיל כמות החלבונים האידיאלית לשמירה על מסת השריר הדרושה, מבלי להעמיס על הכליות והכבד.",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-%d7%9e%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%a0%d7%99%d7%95%d7%a8-15-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אדולט-7-לכלב-מבוגר-14-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%93%D7%95%D7%9C%D7%98-7-%D7%9C%D7%9B%D7%9C%D7%91-%D7%9E%D7%91%D7%95%D7%92%D7%A8-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1438,7 +1774,7 @@
    "title": "פרסטיז’ אוכל לגורי כלבים מגזע קטן 3 ק”ג Flatazor",
    "description": "מבצע מטורף בקרוב לטבע!   \n   קונים 2 יח’ מזון פרסטיז’ 3 ק”ג לכלבים השלישי ב-30 ₪!   \n  פרסטיז אוכל לגורי כלבים  מגזע קטן ולאם המניקה. מכיל נוגדי חמצון טבעיים העשויים מסיבי תפוח העץ עשירים בפוליפנולים, נוגדני חמצון טבעיים, המגנים על התא של האורגניזם שילוב של תמציות צמחים ופרוקטו-אוליגוסכרידים מבטיח עיכול בריא, כמו גם מערכת חיסון חזקה מכיל רכיבים קלים לעיכול כמו ביצים, שבבי תירס ועמילן שטרם בושל, מסייעים בהגנה על מערכת העיכול של גורי הכלבים",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%a1%d7%98%d7%99%d7%96-%d7%9c%d7%92%d7%95%d7%a8-%d7%9e%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-3-%d7%a7%d7%92-flatazor/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרסטיז-אוכל-לגורי-כלבים-מגזע-קטן-3-קג-Flatazor.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%A1%D7%98%D7%99%D7%96-%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%92%D7%95%D7%A8%D7%99-%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-3-%D7%A7%D7%92-Flatazor.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "119.00",
    "currency": "ILS",
@@ -1480,7 +1816,7 @@
    "title": "פורינה פרו פלאן בוגר סלמון 10 ק”ג Pro Plan",
    "description": "פרו פלאן סלמון  \n על מנת להעניק את התזונה הטובה ביותר לחתול, חברת פורינה  פרו פלאן  עם צוות המדענים, וטרינרים ותזונאים הביאו למצוי הידע והחידושים בתחום התזונה של חתולים. \n פרו פלאן OPTISENSES, מזון יבש מלא המסייע לשיפור התפקוד הקוגניטיבי אצל חתולים בוגרים. מכיל נוסחת OPTIRENAL לשמירה והגנה על בריאות הכליות ומסייע לבריאות מערכת חיסונית חזקה. \n  תכונות ויתרונות  \n \n מכיל נוסחת OPTISENSES המסייע לשיפור התפקוד הקוגניטיבי \n מכיל נוסחת OPTIRENAL המוכח מחקרית לשמירה על בריאות הכליות בחתולים \n בעל נוסחת תזונה עם רמת חלבון גבוהה לשמירה על תפקוד שרירים תקין",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-purina-%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-pro-plan-%d7%91%d7%95%d7%92%d7%a8-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-10-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פורינה-Purina-פרו-פלאן-Pro-Plan-בוגר-סלמון-10-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94-Purina-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-10-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "319.00",
    "currency": "ILS",
@@ -1522,7 +1858,7 @@
    "title": "🐟 אוכל לכלב בוגר גזע קטן נאו פרש דגים 10 ק”ג Now Fresh Adult Small Breed Fish – ללא דגנים",
    "description": "אוכל לכלבים  NOW FRESH  לכלב בוגר מגזע קטן עשוי 100% בשר כבש, חזיר ובשר בקרי. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס \n מזון יבש סופר פרימיום מבית  נאו פרש  (Now Fresh) המותאם במיוחד לכלבים בוגרים מגזע קטן. הפורמולה מבוססת על דגי שמיר, סלמון ופורל מובחרים כמקור חלבון איכותי וקליל, והיא נקייה לחלוטין מדגנים (Grain Free). פתרון היפואלרגני מושלם לשמירה על עיכול שקט, חיוניות גבוהה ומניעת רגישויות בעור או בקיבה. \n \n \n 📦 משקל ואריזה: שק חיסכון במשקל מדויק של 10 ק”ג. \n \n \n 🐟 פרווה ועור בריאים: עשיר באומגה 3 ו-6 המעניקים פרווה מבריקה ועור בריא. \n \n \n 🌾 100% ללא דגנים: היפואלרגני, קל לעיכול ומונע אי-נוחות בבטן. \n \n \n 🦷 כופתיות מותאמות: גודל כופתית ייחודי המותאם ללסת קטנה ומסייע בשמירה על שיניים נקיות מאבנית.",
    "link": "https://closetonature.co.il/product/now-fresh-adult-small-breed-fish-10kg/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/now-fresh-adult-small-breed-dog-food-fish-10kg.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/now-fresh-adult-small-breed-dog-food-fish-10kg.jpg?fit=500%2C500&ssl=1",
    "condition": "new",
    "price": "349.00",
    "currency": "ILS",
@@ -1564,7 +1900,7 @@
    "title": "פרו פלאן לכלבים בוגרים מגזע בינוני לעור רגיש סלמון ואורז – 14 ק”ג",
    "description": "פרו פלאן סלמון  ואורז \n  PRO PLAN  OPTINUTRITION התזונה האופטימלית לחיים בריאים! מבית  פורינה  –  Purina . הסדרה המתקדמת והיעילה ביותר שפותחה במעבדות פורינה, תוך שימוש בטכנולוגיות חדשניות במטרה להעניק לכלבך תזונה אופטימלית",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-pro-plan-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0%d7%95%d7%a0%d7%99-%d7%9c/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פרו-פלאן-Pro-Plan-לכלבים-בוגרים-מגזע-בינוני-לעור-רגיש-סלמון-ואורז-14-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-%D7%9C%D7%A2%D7%95%D7%A8-%D7%A8%D7%92%D7%99%D7%A9-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-%D7%95%D7%90%D7%95%D7%A8%D7%96-14-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1606,7 +1942,7 @@
    "title": "פרו פלאן – לכלבים בוגרים מגזע בינוני – 14 ק”ג Pro Plan",
    "description": "פורינה   פרו פלאן  \n  PRO PLAN  OPTINUTRITION התזונה האופטימלית לחיים בריאים! הסדרה המתקדמת והיעילה ביותר שפותחה במעבדות  פורינה , תוך שימוש בטכנולוגיות חדשניות במטרה להעניק לכלבך תזונה אופטימלית",
    "link": "https://closetonature.co.il/product/%d7%a4%d7%95%d7%a8%d7%99%d7%a0%d7%94-%d7%a4%d7%a8%d7%95-%d7%a4%d7%9c%d7%90%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9e%d7%92%d7%96%d7%a2-%d7%91%d7%99%d7%a0-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/פורינה-פרו-פלאן-לכלבים-בוגרים-מגזע-בינוני-14-קג-פרו-פלאן-Pro-Plan.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%95%D7%A8%D7%99%D7%A0%D7%94-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%96%D7%A2-%D7%91%D7%99%D7%A0%D7%95%D7%A0%D7%99-14-%D7%A7%D7%92-%D7%A4%D7%A8%D7%95-%D7%A4%D7%9C%D7%90%D7%9F-Pro-Plan.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "299.00",
    "currency": "ILS",
@@ -1648,7 +1984,7 @@
    "title": "בונזו גזע קטן 3 ק”ג",
    "description": "מכיל 100% מכמות הוויטמינים והמינרלים היומית הדרושה לכלב בוגר. \nבּונזו גזע קטן הינו מזון בשרי, מלא, מאוזן וטעים המותאם לצרכים התזונתיים של כלבים מגזעים קטנים. \n בונזו גזע קטן פותח בשיתוף וטרינרים, על בסיס מחקרים מדעיים ובהתאם לדרישת התקן האמריקאי למזון כלבים A.A.F.C.O לפיכך, כאשר אתה נותן לכלבך בּונזו, אתה יכול להיות שקט שכלבך מקבל תזונה יומית, הממלאת את כל צרכיו התזונתיים. כופתיות המותאמות לשיניים ולחניכיים של כלבים בוגרים מגזעים קטנים. \n ללא חומרים משמרים וללא צבעי מאכל! \n מכיל זרעי פשתן התורמים לפרווה עשירה ומבריקה ולבריאות העור. \n מועשר בסיבים תזונתיים המסייעים לתהליך העיכול.",
    "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%a0%d7%96%d7%95-%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-3-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בונזו-גזע-קטן-3-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%A0%D7%96%D7%95-%D7%92%D7%96%D7%A2-%D7%A7%D7%98%D7%9F-3-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "59.00",
    "currency": "ILS",
@@ -1690,7 +2026,7 @@
    "title": "בונזו בשר אוכל לכלבים 17 ק”ג",
    "description": "בּונזו בשר: מזון בשרי, מלא מאוזן וטעים במיוחד. מכיל 100% מכמות הוויטמינים והמינרלים היומית הדרושה לכלב בוגר. \nבּונזו בשר הינו מזון בשרי, מלא, מאוזן וטעים במיוחד, אשר פותח בשיתוף וטרינרים, על בסיס מחקרים מדעיים ובהתאם לדרישת התקן האמריקאי למזון כלבים A.A.F.C.O. \nלפיכך, כאשר אתה נותן לכלבך בּונזו, אתה יכול להיות שקט שכלבך מקבל תזונה יומית, הממלאת את כל צרכיו התזונתיים. \nמכיל 22% חלבון – לבנייה ולחיזוק מסת השריר. \nללא חומרים משמרים וללא צבעי מאכל! \nמכיל זרעי פשתן התורמים לפרווה עשירה ומבריקה ולבריאות העור. \nמועשר בסיבים תזונתיים המסייעים לתהליך העיכול. \n חלבון: 22 | שומן: 15 | סידן: 1.2 | סיבים תזונתיים: | מגנזיום: \nמשקל: 17 ק”ג",
    "link": "https://closetonature.co.il/product/%d7%91%d7%95%d7%a0%d7%96%d7%95-%d7%91%d7%a9%d7%a8-20-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בונזו-בשר-20-קג.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%91%D7%95%D7%A0%D7%96%D7%95-%D7%91%D7%A9%D7%A8-20-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "199.00",
    "currency": "ILS",
@@ -1732,7 +2068,7 @@
    "title": "בונזו ארוחת בריאות 15 ק”ג BONZO",
    "description": "בונזו  ארוחת בריאות HEALTHY CHOICE \n \n  בונזו  ארוחת בריאות עשיר בסיבים תזונתיים מסוג FOS התורמים לעיכול קל ולצואות מוצקות. \n  בונזו  ארוחת בריאות מכיל גזר, פטרוזליה, זרעי פשתן ועולש ואינו מכיל צבעי מאכל, חומרים משמרים או תוספת סוכר. \n רכיב ראשון בשר עוף מיובש. \n מכיל 27% חלבון- חלבון – לבנייה ולחיזוק מסת השריר. \n  בונזו  ארוחת בריאות מכיל כופתיות ב3 צורות (עצם, משולש חישוק) \n  בּונזו  ארוחת בריאות הינו מזון בשרי, מלא, מאוזן וטעים במיוחד, אשר פותח בשיתוף וטרינרים, על בסיס מחקרים מדעיים ובהתאם לדרישת התקן האמריקאי למזון כלבים A.A.F.C.O. \n לפיכך, כאשר אתה נותן לכלבך בּונזו, אתה יכול להיות שקט שכלבך מקבל תזונה יומית, הממלאת את כל צרכיו התזונתיים.",
    "link": "https://closetonature.co.il/product/%ef%ac%b1%d7%95%d7%a0%d7%96%d7%95-%d7%90%d7%a8%d7%95%d7%97%d7%aa-%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa-15-%d7%a7%d7%92-%d7%91%d7%95%d7%a0%d7%96%d7%95/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/בּונזו-ארוחת-בריאות-15-קג-בונזו.jpg",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%EF%AC%B1%D7%95%D7%A0%D7%96%D7%95-%D7%90%D7%A8%D7%95%D7%97%D7%AA-%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-15-%D7%A7%D7%92-%D7%91%D7%95%D7%A0%D7%96%D7%95.jpg?fit=600%2C600&ssl=1",
    "condition": "new",
    "price": "239.00",
    "currency": "ILS",
@@ -1754,342 +2090,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%95%D7%A0%D7%96%D7%95%20%D7%90%D7%A8%D7%95%D7%97%D7%AA%20%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA%2015%20%D7%A7%E2%80%9D%D7%92%20BONZO%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2772",
-   "title": "טייסט אוף דה ווילד אוכל לחתולים צבי וסלמון 2 ק”ג",
-   "description": "Taste of the Wild  \n  אוכל לחתולים  ללא דגנים עם 42 אחוז חלבון לדימוי תזונה של חתול פרא. מיוצר מבשר קלוי אמיתי ותערובת מקורות חלבון היוצרים אוכל איכותי טעים. ירקות ופירות כמו בטטה ואפונה כמקור לאנרגיה בתוספת נוגדי החמצון לתמיכה בסגנון חיים בריא. פחמימות מורכבת עשירות בסיבים תזונתיים מסייעות לשמירה על המשקל, יציאות קלות והבריאות הכללית. מכיל פרוביוטיקה פרי פיתוח של שנות מחקר לחיזוק מערכת החיסון וחיידקי העיכול. מכיל כמויות גבוהות של אומגה 3 ו 6 להזנת תאי הגוף, שמירה על חדות המחשבה וטיפוח הפרווה ועור החתול. מזון לחתול סופר פרימיום תוצרת ארה”ב.Rocky Mountain Feline Recipe with Roasted Venison & Smoked Salmon",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%a6%d7%91%d7%99-%d7%95%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-2/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-לחתולים-צבי-וסלמון-2-קג.jpg",
-   "condition": "new",
-   "price": "125.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2772%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2772",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2772/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2772/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2772",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2772%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2772",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2772%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2772",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%A6%D7%91%D7%99%20%D7%95%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%202%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2769",
-   "title": "טייסט אוף דה ווילד לחתולים דגים 2 ק”ג | Taste Of The Wild",
-   "description": "Taste of the Wild  \n  אוכל לחתולים  ללא דגנים המספק אנרגיה קלה לעיכול ותזונה איכותית. מיוצר מתערובת דגים, בטטה, תפוחי אדמה ואפונה היוצרים מזון בעל טעימות גבוהה. עשיר במרכיבים תזונתיים איכותיים. מקור חלבון יחיד מדגים בלבד (פורל, דגי אוקיאנוס, סלמון מעושן) מתאים לחתולים אשר אלרגיים למקורות חלבון אחרים. מכיל ירקות כמקור לנוגדי חמצון לתמיכה בסגנון חיים בריא. מזון לחתול סופר ברמת פרימיום תוצרת ארה”ב. Canyon River Feline Recipe with Trout & Smoked Salmon",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%9c%d7%97%d7%aa%d7%95%d7%9c%d7%99%d7%9d-%d7%93%d7%92%d7%99%d7%9d-2-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-לחתולים-דגים-2-קג.jpg",
-   "condition": "new",
-   "price": "125.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2769%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2769",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2769/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2769/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2769",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2769%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2769",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2769%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2769",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%D7%99%D7%9D%20%D7%93%D7%92%D7%99%D7%9D%202%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2768",
-   "title": "🌲 טייסט אוף דה ווילד צבי ועדשים לכלב 12.2 ק”ג | Taste Of The Wild Pine Forest",
-   "description": "תזונה עשירה ומאוזנת עם  טייסט אוף דה ווילד צבי ועדשים לכלב , המשלבת בשר צבי מובחר לצד עדשים מזינות עשירות בחלבון וסיבים מסיסים. מתכון ייחודי ונטול דגנים המיועד לכלבים בוגרים מכל הגזעים, המספק מענה אידיאלי בתור  מזון לכלבים בעלי קיבה רגישה  ומשפר את בריאות העור, הפרווה והחיוניות הכללית. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר צבי, קמח כבש, עדשים, חומוס, אפונה, שמן קנולה, חלבון ביצה, קמח דגי ים, שמן סלמון, עגבניות, פטל ואוכמניות. \n \n \n 🎯  יתרון מרכזי:  מקור חלבון ייחודי והיפואלרגני בשילוב עדשים התומכות בעיכול קל, שחרור אנרגיה רציף ואיזון רמות הסוכר בדם. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מכל הגזעים, כלבים עם רגישויות לעוף או לדגנים, וכלבים הסובלים מבעיות גרד בעור או רגישויות במערכת העיכול.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%a6%d7%91%d7%99-%d7%95%d7%a2%d7%93%d7%a9%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c%d7%91-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-צבי-ועדשים-לכלב-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2768%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2768",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2768/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2768/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2768",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2768%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2768",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2768%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2768",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%8C%B2%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A6%D7%91%D7%99%20%D7%95%D7%A2%D7%93%D7%A9%D7%99%D7%9D%20%D7%9C%D7%9B%D7%9C%D7%91%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Pine%20Forest%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2767",
-   "title": "🦌 טייסט אוף דה ווילד גזע קטן צבי 12.2 ק”ג | Taste Of The Wild Appalachian Valley",
-   "description": "תזונה טבעית ומותאמת ביולוגית עם  טייסט אוף דה ווילד גזע קטן צבי , המספקת אנרגיה זמינה ומרוכזת לכלבים קטנים ונמרצים. פורמולה ייחודית ללא דגנים המבוססת על בשר צבי מובחר, שפותחה במיוחד בתור  מזון מומלץ לכלבים מגזע קטן  הזקוקים לכופתיות מותאמות ורכיבים מזינים לשמירה על חיוניות שיא. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר צבי אמיתי, קמח כבש, חומוס, אפונה, עדשים, שומן קנולה, חלבון ביצה, שמן סלמון, תמצית יוקה ופירות יער. \n \n \n 🎯  יתרון מרכזי:  כופתיות זעירות ודחוסות באנרגיה המותאמות בדיוק למבנה הלסת של כלבים קטנים, יחד עם חלבון צבי קל לעיכול המפחית עומס ממערכת העיכול. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מגזע קטן (עד 12 ק”ג), כלבים פעילים, וכלבים בעלי נטייה לרגישויות עיכול או אלרגיות לדגנים.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%92%d7%96%d7%a2-%d7%a7%d7%98%d7%9f-%d7%a6%d7%91%d7%99-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-גזע-קטן-צבי-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2767%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2767",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2767/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2767/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2767",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2767%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2767",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2767%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2767",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%A6%8C%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%92%D7%96%D7%A2%20%D7%A7%D7%98%D7%9F%20%D7%A6%D7%91%D7%99%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Appalachian%20Valley%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2763",
-   "title": "🌊 טייסט אוף דה ווילד סלמון לכלב 12.2 ק”ג | Taste Of The Wild Pacific Stream Adult",
-   "description": "תזונה ימית מנצחת וטהורה עם  טייסט אוף דה ווילד סלמון לכלב , המבוססת על סלמון אמיתי וסלמון מעושן כחלבון יחיד מן החי. פורמולה ללא דגנים הנחשבת לבחירה המובילה בתור  מזון היפואלרגני מומלץ לכלבים , המעניקה פתרון מושלם לכלבים הסובלים מרגישויות עור, נשירה מוגברת או קיבה רגישה. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  סלמון, קמח דגי ים, בטטות, תפוחי אדמה, אפונה, שמן קנולה, חלבון ביצה, סלמון מעושן, סיבי תפוחי אדמה, שמן סלמון, עגבניות, אוכמניות ופטל. \n \n \n 🎯  יתרון מרכזי:  מקור חלבון דגים בלבד ללא שום רכיבי עוף או בקר, עשיר בחומצות שומן אומגה 3 ו-6 המעניקות ברק מרהיב לפרווה ושומרות על עור רגוע ללא גירודים. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מכל הגזעים, כלבים הסובלים מאלרגיות לעוף, בעיות עור ופרווה, גירודים כרוניים או רגישויות עיכול.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-סלמון-לכלב-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2763%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2763",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2763/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2763/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2763",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2763%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2763",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2763%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2763",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%8C%8A%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%9C%D7%9B%D7%9C%D7%91%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Pacific%20Stream%20Adult%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2761",
-   "title": "🐑 טייסט אוף דה ווילד כבש 12.2 ק”ג | Taste Of The Wild Sierra Mountain",
-   "description": "תזונה טהורה ומאוזנת עם  טייסט אוף דה ווילד כבש 12.2 ק”ג , המבוססת על בשר כבש אמיתי ואיכותי כמקור חלבון עיקרי. מתכון ללא דגנים המהווה  מזון מומלץ לכלבים בעלי קיבה עדינה , המספק עיכול רגוע וקל, תמיכה אופטימלית במפרקים ושמירה על פרווה מבריקה ובריאה. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר כבש, קמח כבש, בטטות, אפונה, תפוחי אדמה, שמן קנולה, חלבון ביצה, כבש צלוי, קמח דגי ים, שמן סלמון, עגבניות, פירות יער ותמצית יוקה. \n \n \n 🎯  יתרון מרכזי:  חלבון כבש מובחר וקל במיוחד לפירוק במערכת העיכול, המתאים במיוחד לכלבים הסובלים מבעיות עיכול, גזים או רגישויות לעוף ובקר. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מכל הגזעים, כלבים עם רגישות במערכת העיכול, וכלבים הזקוקים לחלבון כבש עדין ומרגיע.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%9b%d7%91%d7%a9-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-כבש-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2761%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2761",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2761/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2761/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2761",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2761%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2761",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2761%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2761",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%91%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%9B%D7%91%D7%A9%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Sierra%20Mountain%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2759",
-   "title": "🐗 טייסט אוף דה ווילד חזיר לכלב 12.2 ק”ג | Taste Of The Wild Southwest Canyon",
-   "description": "תזונה פראית ומלאה בחלבון מובחר עם  טייסט אוף דה ווילד חזיר לכלב , המשלבת בשר בקר עסיסי עם בשר חזיר בר פראי בטעימות יוצאת דופן. מתכון נטול דגנים המשמש כפתרון אופטימלי בתור  מזון לכלבים פעילים ובררנים , המעניק אנרגיה יומיומית זמינה, עיכול קל ותמיכה מקיפה במבנה השריר ובמערכת החיסון. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר בקר, אפונה, חומוס, קמח כבש, שמן קנולה, חלבון ביצה, בשר חזיר בר, קמח דגי ים, שמן סלמון, עגבניות, פטל שחור ואוכמניות. \n \n \n 🎯  יתרון מרכזי:  שילוב ייחודי של בקר וחזיר בר המעניק טעימות פנומנלית לכלבים בררנים, יחד עם נעכלות גבוהה במיוחד ופרופיל חומצות אמינו מלא לשמירה על שרירים חזקים. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מכל הגזעים, כלבים פעילים, כלבים בעלי בררנות באוכל, וכלבים הרגישים לעוף, לסויה או לדגנים.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%97%d7%96%d7%99%d7%a8-%d7%9c%d7%9b%d7%9c%d7%91-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-חזיר-לכלב-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2759%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2759",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2759/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2759/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2759",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2759%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2759",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2759%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2759",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%90%97%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%97%D7%96%D7%99%D7%A8%20%D7%9C%D7%9B%D7%9C%D7%91%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Southwest%20Canyon%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/"
-  },
-  {
-   "id": "2757",
-   "title": "🦆 טייסט אוף דה ווילד ברווז לכלב 12.2 ק”ג | Taste Of The Wild Wetlands",
-   "description": "תזונה עשירה בטעמים טבעיים עם  טייסט אוף דה ווילד ברווז לכלב , המשלבת ברווז צלוי, שליו והודו מעושן לרמת נעכלות וטעימות שאין שנייה לה. פורמולה ללא דגנים שנבחרה במיוחד בתור  מזון מומלץ לכלבים בעלי רגישות , המספקת אנרגיה מאוזנת ופרופיל תזונתי עשיר לשמירה על בריאות מושלמת. \n \n \n 📦  תכולה מדויקת:  12.2 ק”ג. \n \n \n 🌿  רכיבים עיקריים:  בשר ברווז, קמח ברווז, קמח עוף, בטטות, אפונה, תפוחי אדמה, שומן עוף, חלבון ביצה, ברווז צלוי, שליו צלוי, הודו מעושן, קמח דגי ים, שמן סלמון, עגבניות ופירות יער. \n \n \n 🎯  יתרון מרכזי:  מגוון עשיר של עופות צלויים ומעושנים המספקים חלבון איכותי וקל ביותר לעיכול עם טעם עשיר במיוחד שמרתק כלבים. \n \n \n 🩺  התוויה / ייעוד:  כלבים בוגרים מכל הגזעים, כלבים פעילים ברמת אנרגיה גבוהה, וכלבים הרגישים לבשר בקר או דגנים.",
-   "link": "https://closetonature.co.il/product/%d7%98%d7%99%d7%99%d7%a1%d7%98-%d7%90%d7%95%d7%a3-%d7%93%d7%94-%d7%95%d7%95%d7%99%d7%9c%d7%93-%d7%91%d7%a8%d7%95%d7%95%d7%96-%d7%9c%d7%9b%d7%9c%d7%91-13-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://closetonature.co.il/wp-content/uploads/2019/11/טייסט-אוף-דה-ווילד-ברווז-לכלב-13-קג.jpg",
-   "condition": "new",
-   "price": "299.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2757%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2757",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2757/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2757/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/10/#2757",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2757%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2757",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2757%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2757",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%F0%9F%A6%86%20%D7%98%D7%99%D7%99%D7%A1%D7%98%20%D7%90%D7%95%D7%A3%20%D7%93%D7%94%20%D7%95%D7%95%D7%99%D7%9C%D7%93%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20%D7%9C%D7%9B%D7%9C%D7%91%2012.2%20%D7%A7%E2%80%9D%D7%92%20%7C%20Taste%20Of%20The%20Wild%20Wetlands%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

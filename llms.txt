@@ -2,7 +2,7 @@
 
 > Israeli businesses in a format AI agents can read. Every business here joined with its own explicit written consent.
 
-**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 20 businesses, 174 declared gaps.
+**Each page also declares, in its structured data, the facts the business has *not* published** — so an assistant asked about one of them refers the shopper to the business instead of inventing an answer. That convention is defined at [https://nitairevivo.github.io/agentfeed/ns](https://nitairevivo.github.io/agentfeed/ns), and this site is its reference implementation: 21 businesses, 181 declared gaps.
 
 Why it matters, measured: asked about one shop's returns policy, a leading assistant stated a rule the shop does not have, omitted its actual return fee, and cited a domain that does not exist — assembling an answer from two competitors. An absent fact and an unstated fact look identical in markup, and a model cannot tell them apart unless the page says which it is.
 
@@ -25,9 +25,17 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 קטגוריה: https://nitairevivo.github.io/agentfeed/c/pets/
 
-- [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/) — 2192 פריטים · ☎ 054-640-4788
+- [חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/) — 2195 פריטים · ☎ 054-640-4788
 - [מארלי — מזון וציוד לחיות מחמד](https://nitairevivo.github.io/agentfeed/marleypetshop/) — 2229 פריטים · מרכז · ☎ 050-235-2985
 - [נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/) — 8 פריטים · רמת הגולן · ☎ +972586789778
+
+## שירותים דיגיטליים
+
+קטגוריה: https://nitairevivo.github.io/agentfeed/c/services/
+
+- [AgentFeed — בניית אתרים לעסקים קטנים](https://nitairevivo.github.io/agentfeed/agentfeed-sites/) — 4 פריטים · ☎ 052-676-0039
+- [GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/) — 8 פריטים
+- [טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/) — 60 פריטים
 
 ## בריאות ורפואה
 
@@ -42,13 +50,6 @@ Why it matters, measured: asked about one shop's returns policy, a leading assis
 
 - [אירוח כפרי אצל תמי](https://nitairevivo.github.io/agentfeed/tami-zimmer/) — 5 פריטים · רמת הגולן · ☎ 050-2693989
 - [צוקייה](https://nitairevivo.github.io/agentfeed/tsukia/) — 1 פריטים · רמת הגולן · ☎ 050-659-5838
-
-## שירותים דיגיטליים
-
-קטגוריה: https://nitairevivo.github.io/agentfeed/c/services/
-
-- [GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/) — 8 פריטים
-- [טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/) — 60 פריטים
 
 ## בעלי מקצוע לבית
 

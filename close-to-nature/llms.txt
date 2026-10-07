@@ -1,6 +1,6 @@
 # חנות חיות קרוב לטבע
 
-> Online store. 2192 products in this feed. Prices in ILS.
+> Online store. 2195 products in this feed. Prices in ILS.
 
 Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפריקה - Simparica, ערבה - Arava, פודיס - Foodies, פיטמין פור לייף - Fitmin For life, קטאיט - Catit
 
@@ -8,6 +8,9 @@ Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפרי�
 
 Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
+- [🐱 מטליות לחות לגוף החתול ארם אנד האמר לנטרול ריחות וקשקשים 100 יחידות Arm & Hammer Odor & Dander Wipes](https://closetonature.co.il/product/arm-and-hammer-odor-dander-cat-wipes-100-count/?utm_source=agentfeed&utm_medium=ai) — 65.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73826/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73826/item.json
+- [🐶 חטיף לכלבים פודיס מקלות עור בקר מלופפים בסלמון 1 ק”ג Foodies Salmon Rawhide Wraps Sticks](https://closetonature.co.il/product/foodies-salmon-rawhide-wraps-sticks-dog-treat-1kg/?utm_source=agentfeed&utm_medium=ai) — 89.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73820/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73820/item.json
+- [🐶 חטיף לכלבים יאמיז מקלות עור בקר מלופפים בעוף 80 גרם Yummiz Chicken Wrap Rawhide Stick](https://closetonature.co.il/product/yummiz-chicken-wrap-rawhide-stick-dog-treat-80g/?utm_source=agentfeed&utm_medium=ai) — 18.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73800/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73800/item.json
 - [🐱 מזון לגורי חתולים קטאיט דאבל פיוז’ן עוף וסלמון 1.8 ק”ג בלבד Catit Recipes Double Fusion Kitten](https://closetonature.co.il/product/catit-double-fusion-kitten-chicken-salmon-cat-food-1-8kg/?utm_source=agentfeed&utm_medium=ai) — 108.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73776/item.json
 - [🐱 מזון לחתולים עור ופרווה קטאיט דאבל פיוז’ן דגי ים 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Skin & Coat](https://closetonature.co.il/product/catit-double-fusion-skin-coat-ocean-fish-cat-food/?utm_source=agentfeed&utm_medium=ai) — 99.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73767/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73767/item.json
 - [🐱 מזון לחתולים מבוגרים קטאיט דאבל פיוז’ן עוף 1.8 ק”ג / 4.5 ק”ג Catit Recipes Double Fusion Senior](https://closetonature.co.il/product/catit-double-fusion-senior-chicken-cat-food/?utm_source=agentfeed&utm_medium=ai) — 99.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73758/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73758/item.json
@@ -30,10 +33,7 @@ Each line carries three addresses: the merchant's own product page; `page:` — 
 - [🦴 קארניס רול בקר מעושן לכלב 80-85 גרם Carnis](https://closetonature.co.il/product/carnis-smoked-beef-skin-roll-dog-chews-85g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71573/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71573/item.json
 - [🦴 קארניס צווארי ברווז מיובשים לכלב 100 גרם Carnis](https://closetonature.co.il/product/carnis-dried-duck-necks-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71570/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71570/item.json
 - [🦴 קארניס זנב בקר מיובש לכלב 100 גרם Carnis](https://closetonature.co.il/product/carnis-dried-ox-tail-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai) — 25.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71568/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71568/item.json
-- [🦴 קארניס לשון בקר מיובשת לכלב 60 גרם Carnis](https://closetonature.co.il/product/carnis-dried-beef-tongue-dog-treats-60g/?utm_source=agentfeed&utm_medium=ai) — 12.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71553/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71553/item.json
-- [🐾 פרו-קולין פלוס משחה פרוביוטית לכלבים וחתולים 15 מ”ל Protexin Pro-Kolin+](https://closetonature.co.il/product/pro-kolin-plus-paste-dogs-cats-15ml/?utm_source=agentfeed&utm_medium=ai) — 69.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71491/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71491/item.json
-- [🐰 סט רתמה ורצועה למכרסמים וארנבים Camon Parure per Roditori](https://closetonature.co.il/product/camon-rodent-harness-and-leash-set/?utm_source=agentfeed&utm_medium=ai) — 45.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71453/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71453/item.json
-- …and 2167 more, not listed here. Every one of the 2192 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
+- …and 2170 more, not listed here. Every one of the 2195 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
 
 ## Not published by this business
 
