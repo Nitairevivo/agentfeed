@@ -58,6 +58,19 @@ display:inline-block;font-style:normal}
 .nav a{font-size:.87rem;text-decoration:none;color:var(--muted);font-weight:600}
 .nav a:hover{color:var(--brand-ink)}
 .nav a[aria-current]{color:var(--ink)}
+.nav a.cta{color:#fff;background:linear-gradient(135deg,#b8862b,#8a5a12);padding:5px 13px;
+border-radius:99px;box-shadow:0 4px 12px -6px #8a5a12}
+.nav a.cta:hover{color:#fff;filter:brightness(1.08)}
+.promo{display:grid;grid-template-columns:1fr;gap:16px;align-items:center;margin:26px 0 8px;
+padding:20px;border-radius:18px;text-decoration:none;color:var(--ink);
+background:linear-gradient(135deg,var(--brand-bg),var(--card));border:1px solid var(--brand)}
+.promo img{width:100%;max-height:280px;object-fit:cover;object-position:top;border-radius:12px;border:1px solid var(--line);display:block}
+.promo b{display:block;font-size:1.3rem;margin-bottom:6px}
+.promo p{margin:0 0 12px;color:var(--muted)}
+.promo .go{display:inline-block;background:linear-gradient(135deg,#b8862b,#8a5a12);color:#fff;
+font-weight:700;padding:9px 18px;border-radius:99px}
+.promo .own{display:block;font-size:.8rem;color:var(--muted);margin-top:10px}
+@media(min-width:660px){.promo{grid-template-columns:1.1fr 1fr}}
 
 h1{font-size:clamp(1.9rem,5.5vw,2.85rem);line-height:1.08;margin:44px 0 12px;
 letter-spacing:-.035em;font-weight:800}
@@ -130,7 +143,7 @@ border:1px solid var(--line);text-decoration:none;font-variant-numeric:tabular-n
 .nums span{background:var(--brand-bg);color:var(--brand-ink);font-weight:700;
 border-color:var(--brand)}
 </style>
-</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a></nav></div></header><main>
+</head><body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="https://nitairevivo.github.io/agentfeed/">עסקים</a><a href="https://nitairevivo.github.io/agentfeed/compare/">השוואות</a><a href="https://nitairevivo.github.io/agentfeed/api/index.json">API</a><a href="https://nitairevivo.github.io/agentfeed/join.html">הצטרפות</a><a href="https://nitairevivo.github.io/agentfeed/sites.html" class="cta">לבניית אתרים</a></nav></div></header><main>
 <a class="up" href="https://nitairevivo.github.io/agentfeed/marleypetshop/">← מארלי — מזון וציוד לחיות מחמד</a>
 <h1>קטלוג · עמוד 6</h1>
 <p class="lead">2,229 פריטים בקטלוג של מארלי — מזון וציוד לחיות מחמד. עמוד 6 מתוך 22, 100 פריטים בעמוד הזה, עם מחיר וקישור ישיר לכל אחד. המחירים נלקחים מהקטלוג של העסק ומתעדכנים
@@ -238,7 +251,7 @@ border-color:var(--brand)}
 <li class="item" id="32425"><div><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/item/32425/">סופרים טוויסט עור מצופה ברווז 400 גרם</a><br><b>55.00 ILS</b> <a class="cart" href="https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32425%26utm_source%3Dagentfeed%26utm_medium%3Dai&amp;p=32425">לעגלה ←</a></div></li>
 </ul>
 <div class="pager"><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/5/">→ הקודם</a><span class="at">עמוד 6 מתוך 22</span><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/7/">הבא ←</a></div><div class="nums"><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/">1</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/2/">2</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/3/">3</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/4/">4</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/5/">5</a><span>6</span><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/7/">7</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/8/">8</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/9/">9</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/10/">10</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/11/">11</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/12/">12</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/13/">13</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/14/">14</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/15/">15</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/16/">16</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/17/">17</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/18/">18</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/19/">19</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/20/">20</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/21/">21</a><a href="https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/">22</a></div>
-<footer>עודכן 2026-10-07 17:09 UTC ·
+<footer>עודכן 2026-10-07 17:16 UTC ·
 <a href="https://nitairevivo.github.io/agentfeed/marleypetshop/">מארלי — מזון וציוד לחיות מחמד</a> ·
 <a href="https://nitairevivo.github.io/agentfeed/">כל העסקים</a></footer>
 </main></body></html>

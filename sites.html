@@ -81,6 +81,19 @@ display:inline-block;font-style:normal}
 .nav a{font-size:.87rem;text-decoration:none;color:var(--muted);font-weight:600}
 .nav a:hover{color:var(--brand-ink)}
 .nav a[aria-current]{color:var(--ink)}
+.nav a.cta{color:#fff;background:linear-gradient(135deg,#b8862b,#8a5a12);padding:5px 13px;
+border-radius:99px;box-shadow:0 4px 12px -6px #8a5a12}
+.nav a.cta:hover{color:#fff;filter:brightness(1.08)}
+.promo{display:grid;grid-template-columns:1fr;gap:16px;align-items:center;margin:26px 0 8px;
+padding:20px;border-radius:18px;text-decoration:none;color:var(--ink);
+background:linear-gradient(135deg,var(--brand-bg),var(--card));border:1px solid var(--brand)}
+.promo img{width:100%;max-height:280px;object-fit:cover;object-position:top;border-radius:12px;border:1px solid var(--line);display:block}
+.promo b{display:block;font-size:1.3rem;margin-bottom:6px}
+.promo p{margin:0 0 12px;color:var(--muted)}
+.promo .go{display:inline-block;background:linear-gradient(135deg,#b8862b,#8a5a12);color:#fff;
+font-weight:700;padding:9px 18px;border-radius:99px}
+.promo .own{display:block;font-size:.8rem;color:var(--muted);margin-top:10px}
+@media(min-width:660px){.promo{grid-template-columns:1.1fr 1fr}}
 
 h1{font-size:clamp(1.9rem,5.5vw,2.85rem);line-height:1.08;margin:44px 0 12px;
 letter-spacing:-.035em;font-weight:800}
