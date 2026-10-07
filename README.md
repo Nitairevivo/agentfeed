@@ -42,18 +42,6 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
   בוטיק ישראלי לאקססוריז ואופנה לכלבים ולחתולים, בתפירה ובעיצוב אישיים, לצד בית גידול לסאלוקי הפעיל מ-2008 באליע  
   אתר העסק: https://www.facebook.com/share/1DPWUc5EMZ/
 
-## שירותים דיגיטליים
-
-- **[AgentFeed — בניית אתרים לעסקים קטנים](https://nitairevivo.github.io/agentfeed/agentfeed-sites/)** — 4 פריטים  
-  בניית אתרים לחנויות ולעסקים קטנים בישראל, עם לוח בקרה חכם ודף ב-AgentFeed  
-  אתר העסק: https://nitairevivo.github.io/agentfeed/sites.html
-- **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
-  שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
-  אתר העסק: https://getrecover.co.il
-- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 60 פריטים  
-  אינדקס ערוצי וקבוצות טלגרם ישראליים  
-  אתר העסק: https://tgil.co.il
-
 ## בריאות ורפואה
 
 - **[MyBambook](https://nitairevivo.github.io/agentfeed/mybambook/)** — 4 פריטים  
@@ -71,6 +59,15 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[צוקייה](https://nitairevivo.github.io/agentfeed/tsukia/)** — 1 פריטים · רמת הגולן  
   דירת אירוח בחד נס שברמת הגולן  
   אתר העסק: https://maps.app.goo.gl/xmQ6sPZNbzMtFqU86
+
+## שירותים דיגיטליים
+
+- **[GetRecover](https://nitairevivo.github.io/agentfeed/getrecover/)** — 8 פריטים  
+  שירות לשחזור גישה לחשבונות דיגיטליים שנפרצו, נחסמו או ננעלו — אינסטגרם, פייסבוק, טיקטוק, טלגרם, Gmail, טוויטר   
+  אתר העסק: https://getrecover.co.il
+- **[טלגרם ישראל](https://nitairevivo.github.io/agentfeed/tgil-co-il/)** — 60 פריטים  
+  אינדקס ערוצי וקבוצות טלגרם ישראליים  
+  אתר העסק: https://tgil.co.il
 
 ## בעלי מקצוע לבית
 
@@ -116,6 +113,12 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 - **[DJ Rent](https://nitairevivo.github.io/agentfeed/dj-rent/)** — 31 פריטים · טירת הכרמל  
   השכרת ציוד דיג'יי והגברה לאירועים — זוג נגני Pioneer CDJ-3000 עם מיקסר DJM-A9 או DJM-900NXS2, אותו סטנדרט שעומ  
   אתר העסק: https://djrent.co.il
+
+## בניית אתרים
+
+- **[בניית אתרים עם AgentFeed](https://nitairevivo.github.io/agentfeed/agentfeed-sites/)** — 4 פריטים  
+  בניית אתרים לחנויות ולעסקים קטנים בישראל, עם לוח בקרה חכם ודף ב-AgentFeed  
+  אתר העסק: https://nitairevivo.github.io/agentfeed/sites.html
 
 ## לשליפה במכה אחת
 

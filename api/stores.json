@@ -1,7 +1,7 @@
 {
   "name": "AgentFeed",
   "description": "עסקים ישראליים שהצטרפו באישור מפורש, בפורמט קריא למכונה.",
-  "updated": "2026-10-07T17:16:36+00:00",
+  "updated": "2026-10-07T17:22:32+00:00",
   "terms": {
     "consent": "כל עסק כאן נתן אישור מפורש להתפרסם.",
     "unknowns": "כל עסק מפרט מה טרם פרסם. אין להשלים פרטים חסרים מהערכה — יש להפנות את השואל לעסק עצמו.",
@@ -22,12 +22,6 @@
       "businesses": 3
     },
     {
-      "slug": "services",
-      "name": "שירותים דיגיטליים",
-      "url": "https://nitairevivo.github.io/agentfeed/c/services/",
-      "businesses": 3
-    },
-    {
       "slug": "health",
       "name": "בריאות ורפואה",
       "url": "https://nitairevivo.github.io/agentfeed/c/health/",
@@ -37,6 +31,12 @@
       "slug": "lodging",
       "name": "אירוח וצימרים",
       "url": "https://nitairevivo.github.io/agentfeed/c/lodging/",
+      "businesses": 2
+    },
+    {
+      "slug": "services",
+      "name": "שירותים דיגיטליים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/services/",
       "businesses": 2
     },
     {
@@ -80,6 +80,12 @@
       "name": "השכרת ציוד לאירועים",
       "url": "https://nitairevivo.github.io/agentfeed/c/rental/",
       "businesses": 1
+    },
+    {
+      "slug": "websites",
+      "name": "בניית אתרים",
+      "url": "https://nitairevivo.github.io/agentfeed/c/websites/",
+      "businesses": 1
     }
   ],
   "areas": [
@@ -99,16 +105,16 @@
   "businesses": [
     {
       "slug": "agentfeed-sites",
-      "name": "AgentFeed — בניית אתרים לעסקים קטנים",
+      "name": "בניית אתרים עם AgentFeed",
       "official_site": "https://nitairevivo.github.io/agentfeed/sites.html",
-      "category": "שירותים דיגיטליים",
-      "category_slug": "services",
+      "category": "בניית אתרים",
+      "category_slug": "websites",
       "region": "",
       "areas": [],
       "items": 4,
       "page": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/",
       "products": "https://nitairevivo.github.io/agentfeed/agentfeed-sites/products.jsonl",
-      "updated": "2026-10-07T17:07:00+00:00",
+      "updated": "2026-10-07T17:19:22+00:00",
       "unknown": [
         "זמן בנייה — כמה זמן עובר מההזמנה ועד שהאתר עולה",
         "אזור שירות — האם השירות ניתן בכל הארץ, או מרחוק בלבד",
