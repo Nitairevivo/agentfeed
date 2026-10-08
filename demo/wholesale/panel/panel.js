@@ -23,6 +23,15 @@
   // ?demo=wholesale shows the demo of that kind of shop
   var dk = (new URLSearchParams(location.search).get('demo') || '').toLowerCase().replace(/[^a-z]/g, '');
   var DEMO = dk ? 'demo-' + dk : 'demo';
+  // The example data is a shop's, so the header names an example shop: a
+  // prospect opening ?demo on our own landing page's panel read "AgentFeed ·
+  // דף הנחיתה" above a pet shop's dog food.
+  if (demo) {
+    cfg.name = dk === 'wholesale' ? 'סחר פלוס (חנות לדוגמה)' : 'חנות לדוגמה';
+    var dsm = document.querySelector('.pn-top small'); if (dsm) dsm.textContent = cfg.name + ' · 30 הימים האחרונים';
+    document.title = 'לוח הבקרה | ' + cfg.name;
+    var hn = document.getElementById('hud-name'); if (hn) hn.textContent = '30 ימים · ' + cfg.name;
+  }
   var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var $ = function (id) { return document.getElementById(id); };
   var nf = function (n) { return Number(n || 0).toLocaleString('he-IL'); };
@@ -145,7 +154,9 @@
   };
   var ICON = { alert: '⚠️', warn: '👀', good: '🚀', info: '💡' };
 
+  var shown = null;
   function render(d) {
+    shown = d;
     var k = d.kpis, mo = d.money, s = d.series;
     $('demo').hidden = !d.demo;
     // a young site has little to draw; the owner can see the full picture
@@ -209,7 +220,7 @@
     $('products').innerHTML = prod.length ? prod.slice(0, 8).map(function (p) {
       return '<li><span>' + esc(p.name) + '</span><span><b>' + nf(p.actions) + '</b> פניות' + (p.wa ? ' · ' + nf(p.wa) + ' בוואטסאפ' : '') + '</span></li>'; }).join('') :
       '<li>כשמישהו ילחץ על הזמנה מתוך כרטיס של מוצר, הוא יופיע כאן.</li>';
-    $('when').textContent = 'עודכן ' + new Date().toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' });
+    $('when').textContent = 'עודכן ' + new Date().toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short', timeZone: 'Asia/Jerusalem' });
     document.querySelectorAll('[data-to]').forEach(countUp);
   }
   // Orders paid by card on the shop's own pages. Shown only for a shop that takes
@@ -324,6 +335,8 @@
   var VERDICT = { good: ['good', 'עובד טוב'], mixed: ['warn', 'חלק עובד, חלק לא'], weak: ['alert', 'צריך תשומת לב'], too_early: ['info', 'מוקדם לשפוט'] };
   var catalog = null;
   function readCatalog() {
+    // the example has no product file beside it; asking for one is a 404 in every console
+    if (demo) return Promise.resolve(null);
     return fetch('../products.jsonl').then(function (r) { return r.ok ? r.text() : ''; }).then(function (t) {
       var c = { total: 0, noImage: 0, noPrice: 0, outOfStock: 0, noCategory: 0 };
       t.split('\n').forEach(function (line) {
@@ -520,6 +533,32 @@
       rec.start();
     });
   }
+  // The example answers from the example's own numbers, the way the real
+  // analyst answers from a shop's. A prospect who asks "which product sells"
+  // and is told "in a real panel this would answer" has just watched the
+  // product not work. Anything outside these questions says what the real one does.
+  function demoAnswer(q, d) {
+    var note = '<p class="sub" style="font-size:12px;opacity:.75;margin:8px 0 0">בדוגמה התשובה נבנית מתבנית. בלוח אמיתי עונה המנתח, מהמספרים של האתר שלכם.</p>';
+    if (!d) return '<p>הנתונים עוד נטענים. נסו שוב בעוד רגע.</p>';
+    var src = (d.sources || [])[0], prod = (d.products || [])[0], k = d.kpis || {};
+    if (/מאיפה|מקור|מגיעים|תנועה|גוגל/.test(q) && src) {
+      var two = (d.sources || [])[1];
+      return '<p>הכי הרבה מבקרים מגיעים מ<b>' + esc(src.label) + '</b>: ' + nf(src.value) + ' ב-30 יום, ' + src.share + '% מכל המבקרים.' +
+        (two ? ' אחריו ' + esc(two.label) + ', ' + two.share + '%.' : '') + ' כשמקור אחד מחזיק יותר משליש מהתנועה, כדאי לחזק מקור שני.</p>' +
+        chip(['מבקרים מ' + src.label + ': ' + nf(src.value)]) + note;
+    }
+    if (/מוצר|מבוקש|נמכר|שואלים/.test(q) && prod) {
+      return '<p>המוצר שהכי שואלים עליו הוא <b>' + esc(prod.name) + '</b>: ' + nf(prod.actions) + ' פניות ב-30 יום' +
+        (prod.wa ? ', מתוכן ' + nf(prod.wa) + ' בוואטסאפ' : '') + '. שווה לשים אותו בראש עמוד הבית ולוודא שהמחיר והמלאי מעודכנים.</p>' +
+        chip(['פניות על ' + prod.name + ': ' + nf(prod.actions)]) + note;
+    }
+    if (/לשפר|כדאי|השבוע|לעשות/.test(q)) {
+      var conv = (k.conversion || {}).now;
+      return '<p>מי שנכנס כבר פונה: ' + conv + ' פניות על כל 100 מבקרים, וזה טוב. לכן הצעד שהכי שווה השבוע הוא להביא עוד מבקרים: פוסט אחד עם קישור לאתר, או בקשה מלקוחות קבועים לשתף.</p>' +
+        chip(['פניות על כל 100 מבקרים' + ': ' + conv + '%']) + note;
+    }
+    return '<p>בלוח אמיתי, המנתח עונה כאן על כל שאלה מהמספרים של האתר שלכם, ומראה על איזה מספר נשענה כל תשובה. בדוגמה אפשר לנסות את שלוש השאלות שלמעלה.</p>';
+  }
   function tipsHtml(list) {
     return (list || []).length ? '<ol class="tips">' + list.map(function (t) {
       return '<li><span class="kind ' + t.kind + '">' + (t.kind === 'data' ? 'מהנתונים שלכם' : 'עצה כללית') + '</span><b>' + esc(t.tip) + '</b>' +
@@ -531,7 +570,7 @@
     input.value = ''; logBox.hidden = true;
     bubble(esc(q), 'me'); record('me', esc(q));
     if (demo) {
-      var dh = '<p>בלוח אמיתי, המנתח עונה כאן מהמספרים של האתר שלכם ומוסיף עצות מעשיות, ומראה על איזה מספר נשענה כל עצה.</p>';
+      var dh = demoAnswer(q, shown);
       tools(bubble(dh, 'ai')); record('ai', dh); return;
     }
     asking = true; $('askf').classList.add('busy');
