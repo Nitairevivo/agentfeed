@@ -1,54 +1,10 @@
 {
  "page": 19,
  "pages": 101,
- "total": 5001,
+ "total": 5002,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-20.json",
  "products": [
-  {
-   "id": "13106",
-   "title": "רצועת אילוף 6+4 מטר לכלבים",
-   "description": "רצועה לכלב | רצועת אילוף  מיועדת לאילוף בלבד. \nמגיעה במגוון צבעים: כחול, שחור ואדום",
-   "link": "https://closetonature.co.il/product/%d7%a8%d7%a6%d7%95%d7%a2%d7%aa-%d7%90%d7%99%d7%9c%d7%95%d7%a3-64-%d7%9e%d7%98%d7%a8-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2021/08/%D7%A8%D7%A6%D7%95%D7%A2%D7%AA-%D7%90%D7%99%D7%9C%D7%95%D7%A3-64-%D7%9E%D7%98%D7%A8.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "70.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D13106%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=13106",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/13106/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/13106/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/8/#13106",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D13106%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=13106",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D13106%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=13106",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A8%D7%A6%D7%95%D7%A2%D7%AA%20%D7%90%D7%99%D7%9C%D7%95%D7%A3%206%2B4%20%D7%9E%D7%98%D7%A8%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
-   "ref": "close-to-nature:13106",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
-  },
   {
    "id": "13105",
    "title": "רצועת אילוף לכלב 10 מטר",
@@ -91,7 +47,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13105",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13104",
@@ -135,7 +91,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13104",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13103",
@@ -179,7 +135,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13103",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13102",
@@ -194,7 +150,7 @@
    "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D13102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=13102",
    "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/13102/",
    "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/13102/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#13102",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/8/#13102",
    "order": {
     "method": "cart",
     "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D13102%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=13102",
@@ -223,7 +179,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13102",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13101",
@@ -267,7 +223,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13101",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13022",
@@ -312,7 +268,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13022",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13012",
@@ -356,7 +312,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13012",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13011",
@@ -400,7 +356,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13011",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13010",
@@ -444,7 +400,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13010",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13009",
@@ -488,7 +444,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13009",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13008",
@@ -532,7 +488,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13008",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13007",
@@ -576,7 +532,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13007",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "13006",
@@ -620,7 +576,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:13006",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12834",
@@ -664,7 +620,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12834",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12833",
@@ -708,7 +664,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12833",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12832",
@@ -752,7 +708,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12832",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12804",
@@ -797,7 +753,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12804",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12796",
@@ -841,7 +797,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12796",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12509",
@@ -885,7 +841,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12509",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12508",
@@ -929,7 +885,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12508",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12507",
@@ -973,7 +929,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12507",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12504",
@@ -1018,7 +974,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12504",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12502",
@@ -1062,7 +1018,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12502",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12501",
@@ -1106,7 +1062,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12501",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12500",
@@ -1150,7 +1106,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12500",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12420",
@@ -1194,7 +1150,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12420",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12418",
@@ -1238,7 +1194,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12418",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12417",
@@ -1282,7 +1238,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12417",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12415",
@@ -1326,7 +1282,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12415",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12414",
@@ -1370,7 +1326,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12414",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12410",
@@ -1414,7 +1370,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12410",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12409",
@@ -1458,7 +1414,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12409",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12408",
@@ -1502,7 +1458,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12408",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12407",
@@ -1546,7 +1502,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12407",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12406",
@@ -1590,7 +1546,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12406",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12405",
@@ -1634,7 +1590,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12405",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12404",
@@ -1678,7 +1634,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12404",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12403",
@@ -1722,7 +1678,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12403",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12401",
@@ -1766,7 +1722,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12401",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "12400",
@@ -1810,7 +1766,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:12400",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "11272",
@@ -1855,7 +1811,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:11272",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "11269",
@@ -1900,7 +1856,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:11269",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "11154",
@@ -1945,7 +1901,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:11154",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "11144",
@@ -1990,7 +1946,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:11144",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "11064",
@@ -2035,7 +1991,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:11064",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "5905",
@@ -2080,7 +2036,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:5905",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "5866",
@@ -2125,7 +2081,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:5866",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "5865",
@@ -2169,7 +2125,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:5865",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   },
   {
    "id": "5864",
@@ -2213,7 +2169,51 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:5864",
-   "catalog_changed_at": "2026-10-07T15:44:10+00:00"
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
+  },
+  {
+   "id": "5863",
+   "title": "Halti Dog Head Collar – הלטי רתמה ראש לכלב מידה 3",
+   "description": "רתמת ראש לכלבים מושכים . רתמה הומנית ועדינה בעזרת אימון קל כל אחד יכול לגרום לכלבו להפסיק למשוך .הרתמה עובדת כמו מחסום והטיה של הכלב לכיוון ההליכה הרצוי וכל זאת בכבוד ועדינות כלפי הכלב .",
+   "link": "https://closetonature.co.il/product/halti-dog-head-collar-%d7%94%d7%9c%d7%98%d7%99-%d7%a8%d7%99%d7%aa%d7%9e%d7%aa-%d7%a8%d7%90%d7%a9-%d7%9e%d7%99%d7%93%d7%94-3/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/12/Halti-Dog-Head-Collar-%D7%94%D7%9C%D7%98%D7%99-%D7%A8%D7%99%D7%AA%D7%9E%D7%AA-%D7%A8%D7%90%D7%A9-%D7%9E%D7%99%D7%93%D7%94-3.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "110.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5863%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5863",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5863/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5863/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#5863",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5863%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5863",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5863%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5863",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Halti%20Dog%20Head%20Collar%20%E2%80%93%20%D7%94%D7%9C%D7%98%D7%99%20%D7%A8%D7%AA%D7%9E%D7%94%20%D7%A8%D7%90%D7%A9%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%9E%D7%99%D7%93%D7%94%203%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+   "ref": "close-to-nature:5863",
+   "catalog_changed_at": "2026-10-08T12:46:41+00:00"
   }
  ]
 }

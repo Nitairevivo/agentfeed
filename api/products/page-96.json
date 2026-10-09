@@ -1,10 +1,60 @@
 {
  "page": 96,
  "pages": 101,
- "total": 5001,
+ "total": 5002,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-97.json",
  "products": [
+  {
+   "id": "29336",
+   "title": "כף איסוף צרכים גדולה",
+   "description": "כף איסוף צרכים גדולה הוא כף גדולה לאיסוף צרכים. מיועדת לפינוי פסולת מארגז או מאזור מתאים. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%9b%d7%a3-%d7%90%d7%99%d7%a1%d7%95%d7%a3-%d7%a6%d7%a8%d7%9b%d7%99%d7%9d-%d7%92%d7%93%d7%95%d7%9c%d7%94-%d7%9c%d7%97%d7%aa%d7%95%d7%9c?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/dOPMO.jpg",
+   "gtin": "847922024994",
+   "condition": "new",
+   "price": "16.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29336",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29336/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29336/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29336",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29336",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29336",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9B%D7%A3%20%D7%90%D7%99%D7%A1%D7%95%D7%A3%20%D7%A6%D7%A8%D7%9B%D7%99%D7%9D%20%D7%92%D7%93%D7%95%D7%9C%D7%94%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9B%D7%A3%20%D7%90%D7%99%D7%A1%D7%95%D7%A3%20%D7%A6%D7%A8%D7%9B%D7%99%D7%9D%20%D7%92%D7%93%D7%95%D7%9C%D7%94",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:29336",
+   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+  },
   {
    "id": "29334",
    "title": "דנטלייט דנטל בון מדיום 30 יח 540 גרם",
@@ -2685,54 +2735,6 @@
    "business_site": "https://mashkanta.online",
    "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
    "ref": "mashkanta-online:formula",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "by-payment",
-   "title": "מאיזה החזר חודשי מתחילים: החישוב ההפוך שקובע כמה דירה",
-   "description": "תשובה קצרה: החישוב ההפוך קובע את סכום המשכנתא האפשרי על בסיס תקציב חודשי מוגדר מראש, במקום להתחיל ממחיר הנכס. עם זאת, יש להיזהר מהארכת תקופת ההלוואה ל-30 שנה; אמנם היא מאפשרת להגדיל את סכום המשכנתא באותו החזר חודשי, אך היא מייקרת משמעותית את העלות הכוללת של הריבית.",
-   "link": "https://mashkanta.online/calculator/by-payment?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/76c59b3be_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 724,
-   "quote": "תשובה קצרה: החישוב ההפוך קובע את סכום המשכנתא האפשרי על בסיס תקציב חודשי מוגדר מראש, במקום להתחיל ממחיר הנכס. עם זאת, יש להיזהר מהארכת תקופת ההלוואה ל-30 שנה; אמנם היא מאפשרת להגדיל את סכום המשכנתא באותו החזר חודשי, אך היא מייקרת משמעותית את העלות הכוללת של הריבית.\n\nרוב האנשים מתחילים מהשאלה ההפוכה: לא \"כמה אני משלם על הלוואה של מיליון\", אלא \"אני יכול לשלם 6,000 ₪ בחודש — כמה משכנתא זה אומר\". זו שאלה נכונה יותר, כי היא מתחילה מהתקציב האמיתי ולא ממחיר הנכס.\n\nמהחזר חודשי ידוע, תקופה וריבית אפשר לגזור את סכום הקרן. במחשבון באתר אפשר להזין סכום ולראות החזר; לחישוב ההפוך מזינים סכום משוער ומתאימים אותו עד שההחזר תואם את התקציב.\n\nהטבלה מראה שהארכה מ‑20 ל‑30 שנה מגדילה את הסכום שאפשר לקחת בכ‑23%. אבל סך הריבית גדל הרבה יותר. בהחזר של 5,000 ₪, המעבר ל‑30 שנה מוסיף עשרות אלפי שקלים לעלות הכוללת ומאריך את החוב בעשור.\n\nהבנק לא מסתכל רק על מה שאתם מוכנים לשלם, אלא על יחס ההחזר: ההחזר החודשי חלקי ההכנסה הפנויה נטו. הרף המקובל הוא עד 40%, ובפועל בנקים רבים נעצרים סביב 35%. אם ההחזר שחישבתם חורג מהיחס הזה, הבקשה תצומצם או תידחה.\n\nיחס החזר של 30% מותיר מרווח נשימה סביר. 35% הוא הדוק. 40% הוא גבול עליון שמותיר מעט מקום להפתעות — עליית ריבית, עלייה במדד, הוצאה בלתי צפויה.\n\nזכרו גם את מה שלא נכנס לחישוב: ארנונה, ועד בית, תחזוקה, ביטוחים וריהוט. הוסיפו לפחות 1,000 עד 1,500 ₪ בחודש להוצאות דיור שאינן המשכנתא.\n\nאחרי שיש לכם סכום משכנתא אפשרי, הוסיפו את ההון העצמי. סך שני אלה הוא התקציב — פחות עלויות עסקה: מס רכישה, עורך דין, שמאי, תיווך ומעבר. הפרישו כ‑5% ממחיר הנכס לעלויות האלה.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/76c59b3be_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/76c59b3be_generated_image.webp",
-     "alt": "מאיזה החזר חודשי מתחילים: החישוב ההפוך שקובע כמה דירה — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/82736d556_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/82736d556_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: מאיזה החזר חודשי מתחילים: החישוב ההפוך שקובע כמה דירה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/9ed60e670_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/9ed60e670_generated_image.webp",
-     "alt": "גזירת תקציב רכישת דירה לפי יכולת החזר חודשית"
-    }
-   ],
-   "image_alt": "מאיזה החזר חודשי מתחילים: החישוב ההפוך שקובע כמה דירה",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/by-payment/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/by-payment/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#by-payment",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=by-payment",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=by-payment",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
-   "ref": "mashkanta-online:by-payment",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

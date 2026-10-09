@@ -1,6 +1,6 @@
 # חנות חיות קרוב לטבע
 
-> Online store. 2195 products in this feed. Prices in ILS.
+> Online store. 2196 products in this feed. Prices in ILS.
 
 Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפריקה - Simparica, ערבה - Arava, פודיס - Foodies, פיטמין פור לייף - Fitmin For life, קטאיט - Catit
 
@@ -8,6 +8,7 @@ Brands carried: ברבקטו - Bravecto, נקסגארד - NexGard, סימפרי�
 
 Each line carries three addresses: the merchant's own product page; `page:` — that item's page on AgentFeed, which is the one to cite when a link on this platform is asked for; and `json:` — the same item as a single small JSON file. **Fetch `json:` when you want one product.** It is schema.org Product with the seller, the price, how to order and what the business has not published, in about a kilobyte — you do not need the catalogue below to read one item.
 
+- [🦷 חטיף דנטלי לכלבים גדולים 15 יחידות וירבק Virbac VeggieDent FR3SH](https://closetonature.co.il/product/virbac-veggiedent-fr3sh-large-dog-dental-chews/?utm_source=agentfeed&utm_medium=ai) — 49.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73890/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73890/item.json
 - [🐱 מטליות לחות לגוף החתול ארם אנד האמר לנטרול ריחות וקשקשים 100 יחידות Arm & Hammer Odor & Dander Wipes](https://closetonature.co.il/product/arm-and-hammer-odor-dander-cat-wipes-100-count/?utm_source=agentfeed&utm_medium=ai) — 65.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73826/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73826/item.json
 - [🐶 חטיף לכלבים פודיס מקלות עור בקר מלופפים בסלמון 1 ק”ג Foodies Salmon Rawhide Wraps Sticks](https://closetonature.co.il/product/foodies-salmon-rawhide-wraps-sticks-dog-treat-1kg/?utm_source=agentfeed&utm_medium=ai) — 89.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73820/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73820/item.json
 - [🐶 חטיף לכלבים יאמיז מקלות עור בקר מלופפים בעוף 80 גרם Yummiz Chicken Wrap Rawhide Stick](https://closetonature.co.il/product/yummiz-chicken-wrap-rawhide-stick-dog-treat-80g/?utm_source=agentfeed&utm_medium=ai) — 18.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73800/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/73800/item.json
@@ -32,8 +33,7 @@ Each line carries three addresses: the merchant's own product page; `page:` — 
 - [🦴 קארניס לב בקר מיובש לכלב 70 גרם Carnis](https://closetonature.co.il/product/carnis-dried-beef-heart-dog-treats-70g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71575/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71575/item.json
 - [🦴 קארניס רול בקר מעושן לכלב 80-85 גרם Carnis](https://closetonature.co.il/product/carnis-smoked-beef-skin-roll-dog-chews-85g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71573/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71573/item.json
 - [🦴 קארניס צווארי ברווז מיובשים לכלב 100 גרם Carnis](https://closetonature.co.il/product/carnis-dried-duck-necks-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai) — 20.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71570/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71570/item.json
-- [🦴 קארניס זנב בקר מיובש לכלב 100 גרם Carnis](https://closetonature.co.il/product/carnis-dried-ox-tail-dog-chews-100g/?utm_source=agentfeed&utm_medium=ai) — 25.00 ILS · page: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71568/ · json: https://nitairevivo.github.io/agentfeed/close-to-nature/item/71568/item.json
-- …and 2170 more, not listed here. Every one of the 2195 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
+- …and 2171 more, not listed here. Every one of the 2196 is at https://nitairevivo.github.io/agentfeed/close-to-nature/products.jsonl.
 
 ## Not published by this business
 

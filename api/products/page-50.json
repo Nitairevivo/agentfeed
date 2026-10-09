@@ -1,10 +1,140 @@
 {
  "page": 50,
  "pages": 101,
- "total": 5001,
+ "total": 5002,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-51.json",
  "products": [
+  {
+   "id": "torts-accidents",
+   "title": "נזיקין ותאונות",
+   "description": "תאונות דרכים, תאונות עבודה ונזקי גוף – הזכויות, הפיצויים והדרך לממש אותם.",
+   "link": "https://lawinisrael.com/category/torts-accidents?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+   "brand": "העולם המשפטי בישראל",
+   "condition": "new",
+   "words": 881,
+   "listed": [
+    {
+     "title": "נפצעתם בחדר כושר? למה כתב הוויתור לא תמיד מגן על המכון",
+     "description": "נפצעתם בחדר כושר? דעו כי כתב ויתור אינו מגן על המכון במקרה של רשלנות. מדריך משפטי מקיף להבנת הזכויות שלכם וכיצד לפעול לאחר תאונה בחדר כושר."
+    },
+    {
+     "title": "חוות דעת רפואית לתביעה: למה היא קריטית וכמה היא עולה",
+     "description": "מדריך מקיף על חשיבות חוות דעת רפואית בתביעות נזיקין. למדו מהו התפקיד המכריע של המומחה הרפואי, כיצד מוכיחים נזק גופני ומהן העלויות הצפויות בהליך משפטי."
+    },
+    {
+     "title": "תביעת ביטוח חיים: זכויות המוטבים וסיבות דחייה נפוצות",
+     "description": "הגשת ביטוח חיים תביעה היא הליך מורכב הדורש דיוק משפטי. מדריך זה יסייע לכם להבין את זכויות המוטבים, סיבות דחייה נפוצות ודרכי התמודדות מול חברות הביטוח."
+    },
+    {
+     "title": "התיישנות בנזיקין: המועדים שאסור לפספס",
+     "description": "התיישנות תביעת נזיקין היא מחסום משפטי שעלול למנוע מכם לקבל פיצוי. הכירו את המועדים הקריטיים, החריגים בחוק וכיצד תוכלו לוודא שהתביעה שלכם מוגשת בזמן בטרם יחלפו השנים."
+    },
+    {
+     "title": "ביטוח תאונות אישיות: הפיצוי שרוב המבוטחים שוכחים לדרוש",
+     "description": "גלו את הזכויות שלכם מתוקף פוליסת תאונות אישיות. מאמר מקיף המסביר כיצד לדרוש פיצוי על פציעות יומיומיות, ללא צורך בהוכחת אשם, וכיצד למקסם את סכומי הפיצוי המגיעים לכם."
+    },
+    {
+     "title": "נשיכת כלב: אחריות מוחלטת של הבעלים ופיצוי לנפגע",
+     "description": "נפגעתם מנשיכת כלב? הכירו את זכויותיכם. סעיף 41א לפקודת הנזיקין מטיל אחריות מוחלטת על בעלי כלבים, מה שמקל על קבלת פיצוי ללא צורך בהוכחת רשלנות."
+    },
+    {
+     "title": "ראשי הנזק בתביעת נזיקין: כאב וסבל, הפסדי שכר, עזרת זולת",
+     "description": "מדריך מקיף על ראשי הנזק בתביעות נזיקין. למדו כיצד מחושב פיצוי על כאב וסבל, הפסדי שכר ועזרת זולת וכיצד למקסם את הפיצוי הכספי המגיע לכם על פי חוק."
+    },
+    {
+     "title": "החלקה בסופר, בקניון או בעסק: מי אחראי וכמה מפצים",
+     "description": "נפגעתם בתאונת החלקה במקום ציבורי? גלו את זכויותיכם המשפטיות, אילו פיצויים מגיעים לכם וכיצד להוכיח רשלנות בעל העסק כדי למקסם את סכום הפיצוי הכספי בבית המשפט."
+    },
+    {
+     "title": "ילד נפצע בבית הספר או בחוג? כך ממשים את ביטוח תאונות התלמידים",
+     "description": "הילד נפצע בבית הספר או בחוג? מדריך מקיף להורים על מימוש זכויות במסגרת ביטוח תאונות תלמידים, החל מהגשת התביעה ועד לקבלת הפיצוי הכספי המגיע לכם על פי חוק."
+    },
+    {
+     "title": "עצמאי שנפגע בעבודה: הזכויות והמלכודת של אי-רישום",
+     "description": "גלה מהן הזכויות המשפטיות שלך כעצמאי שנפגע בעבודה וכיצד תאונת עבודה לעצמאי עלולה להפוך למלכודת כלכלית אם אינך רשום ומדווח כחוק למוסד לביטוח לאומי."
+    },
+    {
+     "title": "הפוגע נהג בלי ביטוח? עדיין מגיע לכם פיצוי מלא",
+     "description": "נפגעתם בתאונה מרכב ללא ביטוח? אל דאגה, החוק בישראל מגן עליכם. גלו כיצד קרנית מבטיחה לכם פיצוי מלא ומהן הפעולות הדחופות שעליכם לבצע מיד לאחר התאונה."
+    },
+    {
+     "title": "מחלת מקצוע ומיקרוטראומה: כשהנזק מצטבר לאט – והפיצוי גדול",
+     "description": "מרגישים כאבים כרוניים בגלל עבודה ממושכת? גלו כיצד מחלת מקצוע ודוקטרינת המיקרוטראומה מעניקות לכם זכויות בביטוח הלאומי ופיצויים כספיים על נזקים שהצטברו לאורך זמן."
+    },
+    {
+     "title": "נפגעתם בתאונת פגע וברח? קרנית תפצה אתכם – כך תובעים",
+     "description": "נפגעתם בתאונת פגע וברח? גלו כיצד קרנית מעניקה לכם פיצוי כספי, מהם שלבי הפעולה הנדרשים להוכחת תביעתכם וכיצד תתמודדו מול הקרן בהצלחה מקצועית."
+    },
+    {
+     "title": "ילד שנפגע בתאונת דרכים: כך מחושב פיצוי לקטינים",
+     "description": "ילד שנפגע בתאונת דרכים זכאי לפיצויים מכוח חוק הפלת\"ד. מדריך זה מסביר כיצד מחושב הפיצוי, אילו מסמכים נדרשים וכיצד מבטיחים את עתידו הכלכלי והבריאותי של הקטין הנפגע."
+    },
+    {
+     "title": "הולך רגל שנפגע מרכב: זכויות, פיצויים והליך התביעה",
+     "description": "נפגעתם בתאונת דרכים? מדריך זה מפרט את כל הזכויות של הולך רגל שנפגע מרכב, עקרון האחריות המוחלטת, אופן הגשת התביעה וכיצד למקסם את הפיצוי הכספי המגיע לכם."
+    },
+    {
+     "title": "תביעת ביטוח סיעודי: מבחן התלות והדרך לקצבה",
+     "description": "נתקלתם בקושי במימוש זכויות בביטוח סיעודי? במאמר זה תלמדו איך לעבור את מבחן התלות, אילו מסמכים להכין ואיך להתנהל נכון מול חברת הביטוח כדי לקבל את הקצבה."
+    },
+    {
+     "title": "חוק הפלת\"ד למתחילים: למה לא משנה מי אשם בתאונה",
+     "description": "חוק הפלת\"ד קובע אחריות מוחלטת בנזיקין. גלו מדוע לא צריך להוכיח אשם בתאונת דרכים, כיצד מחושבים הפיצויים ומה עליכם לעשות כדי למצות את זכויותיכם הרפואיות והכספיות."
+    }
+   ],
+   "quote": "האם התקף לב או אירוע מוחי בעבודה מוכרים כפגיעה בעבודה? מדריך מקיף על תנאי הסף, חשיבות האירוע החריג והדרכים להגשת תביעה מוצלחת לביטוח הלאומי.",
+   "images": [
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/5ba9d3fd1_generated_image.png/v1/fill/w_615,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/5ba9d3fd1_generated_image.webp",
+     "alt": "אדם אוחז בחזהו במקום עבודה המייצג מקרה של התקף לב כתאונת עבודה"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/2415f659f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/2415f659f_generated_image.webp",
+     "alt": "מתאמן עובר תאונה בחדר כושר עקב מכשיר לא תקין"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/73aaf9ee0_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/73aaf9ee0_generated_image.webp",
+     "alt": "מומחה רפואי בוחן מסמכים לצורך הגשת חוות דעת רפואית בתביעת נזיקין"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/21c5205bc_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/21c5205bc_generated_image.webp",
+     "alt": "משפחה מגישה ביטוח חיים תביעה בליווי מסמכים משפטיים מול חברת ביטוח ישראלית"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/e5ee7e9f5_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e5ee7e9f5_generated_image.webp",
+     "alt": "עורך דין בוחן מסמכים משפטיים בנושא התיישנות תביעת נזיקין בבית המשפט"
+    },
+    {
+     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/8b29764e3_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/8b29764e3_generated_image.webp",
+     "alt": "אדם בוחן מסמכים של פוליסת תאונות אישיות לאחר פציעה"
+    }
+   ],
+   "image_alt": "נזיקין ותאונות",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/torts-accidents/",
+   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/torts-accidents/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#torts-accidents",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=torts-accidents",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=torts-accidents",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "העולם המשפטי בישראל",
+   "business_slug": "lawinisrael-com",
+   "business_site": "https://lawinisrael.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
+   "ref": "lawinisrael-com:torts-accidents",
+   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
+  },
   {
    "id": "medical-malpractice",
    "title": "רשלנות רפואית",
@@ -3311,59 +3441,6 @@
    "business_site": "https://lawinisrael.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
    "ref": "lawinisrael-com:career-assets-and-reputation-divorce",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "mezonot-min-haizavon",
-   "title": "מזונות מן העיזבון: ההגנה על בן זוג וילדים שנותרו מאחור",
-   "description": "מזונות מן העיזבון הם כלי משפטי קריטי להבטחת ביטחון כלכלי לבני משפחה לאחר פטירה. למד כיצד לממש זכות זו מול העיזבון ומהם הקריטריונים המשפטיים לקבלת תמיכה כספית.",
-   "link": "https://lawinisrael.com/article/mezonot-min-haizavon?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/7856a0822_generated_image.png",
-   "brand": "העולם המשפטי בישראל",
-   "condition": "new",
-   "updated": "2026-08-13",
-   "words": 2013,
-   "quote": "מזונות מן העיזבון הם כלי משפטי קריטי להבטחת ביטחון כלכלי לבני משפחה לאחר פטירה. למד כיצד לממש זכות זו מול העיזבון ומהם הקריטריונים המשפטיים לקבלת תמיכה כספית.\n\nמזונות מן העיזבון הם מנגנון משפטי על פי חוק הירושה, המיועד להבטיח את מחייתם של בן זוג וילדי המנוח הזקוקים לתמיכה כלכלית לאחר פטירתו. זכות זו אינה תלויה בצוואה, ובית המשפט לענייני משפחה מוסמך להורות על תשלום סכום כספי מתוך העיזבון כדי למנוע מצב שבו התלויים ייוותרו ללא אמצעי קיום בסיסיים, וזאת בעדיפות על פני זכויות היורשים.\n\nמזונות מן העיזבון הם חיוב משפטי הרובץ על נכסי המנוח במטרה לספק צרכי מחיה לאלו שנסמכו עליו בחייו. בניגוד לירושה רגילה המבוססת על רצון המנוח או על דין היורשים, כאן מדובר בחוב מוגן המבטיח קיום אנושי הולם. המשפט הישראלי מגן על עיקרון ה'סולידריות המשפחתית', לפיו חובה על אדם לדאוג לתלויים בו גם לאחר לכתו מהעולם.\n\nהחוק נועד למנוע מצב שבו בן זוג או ילד קטין נותר ללא קורת גג או יכולת לרכוש מזון בשל צוואה מדירה או מחסור במשאבים. מדובר בפתרון נקודתי הבוחן את האיזון העדין שבין רצון המנוח לבין חובתו המוסרית והחוקית כלפי בני משפחתו הקרובים ביותר.\n\nבית המשפט פועל מתוך תפיסה כי צרכי המחיה של התלויים קודמים לחלוקת הרכוש ליורשים. אם העיזבון אינו מספיק כדי לספק את שני הצרכים, התמיכה במזונות תגבר על צוואת המנוח או על חלוקת הירושה על פי דין.\n\nהחוק מגדיר במפורש את הזכאים למזונות. חשוב להבדיל בין בן זוג לבין ילדים, שכן לכל קבוצה מבחני זכאות ספציפיים. להלן טבלה המסכמת את תנאי הסף והיקף הזכאות:\n\nלעניין מזונות מן העיזבון, החוק הישראלי מעניק הגנה שווה לבני זוג נשואים ולידועים בציבור. התנאי המרכזי הוא הוכחת קיומו של משק בית משותף בחיי המנוח, וכי בן הזוג הנותר לא קיבל מספיק משאבים אחרים מהעיזבון כדי לקיים את עצמו.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/7856a0822_generated_image.png/v1/fill/w_1280,h_516,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/7856a0822_generated_image.webp",
-     "alt": "אישה וילד מסתכלים על מסמכים משפטיים בנושא מזונות מן העיזבון"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/778af69b6_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/778af69b6_generated_image.webp",
-     "alt": "מומחה הבוחן מסמך משפטי עם זכוכית מגדלת לצורך הוכחת זיוף צוואה בבית המשפט"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/f4135951f_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/f4135951f_generated_image.webp",
-     "alt": "אדם מבצע הפקדת צוואה אצל הרשם לענייני ירושה במשרד ממשלתי מסודר"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/e5f9a8c24_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e5f9a8c24_generated_image.webp",
-     "alt": "תכנון ירושה מקצועי מסייע בהגנה על נכסים ומונע סכסוכי ירושה משפחתיים."
-    }
-   ],
-   "image_alt": "מזונות מן העיזבון: ההגנה על בן זוג וילדים שנותרו מאחור",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/mezonot-min-haizavon/",
-   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/mezonot-min-haizavon/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#mezonot-min-haizavon",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=mezonot-min-haizavon",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=mezonot-min-haizavon",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "העולם המשפטי בישראל",
-   "business_slug": "lawinisrael-com",
-   "business_site": "https://lawinisrael.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
-   "ref": "lawinisrael-com:mezonot-min-haizavon",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

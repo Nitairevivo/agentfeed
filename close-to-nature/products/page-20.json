@@ -1,48 +1,10 @@
 {
  "page": 20,
  "pages": 44,
- "total": 2195,
+ "total": 2196,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-21.json",
  "products": [
-  {
-   "id": "5471",
-   "title": "תערובת מזון לשרקנים פרימוס בנלוקס 2.5 ק”ג",
-   "description": "פרימוס   בנלוקס  הוא אוכל מומלץ לשרקנים ברמת סופר פרימיום. המזון מספק תזונה מלאה ובריאה לכל סוגי השרקנים מגיל גמילה ואילך. המזון מסייע לעיכול קל על ידי הוספה של פירות וירקות יבשים (גזר, פירות יער, סלק ותפוח עץ) מכיל רכיבים דנטליים לשמירה על היגיינת פה. מעניק לפרווה ברק ומכיל ויטמין C וסיבים תזונתיים. בנלוקס מזון פרימיום למכרסמים תוצרת בלגיה. \nPRIMUS CAVIA.",
-   "link": "https://closetonature.co.il/product/%d7%aa%d7%a2%d7%a8%d7%95%d7%91%d7%aa-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%a9%d7%a8%d7%a7%d7%a0%d7%99%d7%9d-%d7%a4%d7%a8%d7%99%d7%9e%d7%95%d7%a1-%d7%91%d7%a0%d7%9c%d7%95%d7%a7%d7%a1-2-5-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%AA%D7%A2%D7%A8%D7%95%D7%91%D7%AA-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%A9%D7%A8%D7%A7%D7%A0%D7%99%D7%9D-%D7%A4%D7%A8%D7%99%D7%9E%D7%95%D7%A1-%D7%91%D7%A0%D7%9C%D7%95%D7%A7%D7%A1-2.5-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "75.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5471%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5471",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5471/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5471/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#5471",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5471%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5471",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5471%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5471",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%AA%D7%A2%D7%A8%D7%95%D7%91%D7%AA%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%A9%D7%A8%D7%A7%D7%A0%D7%99%D7%9D%20%D7%A4%D7%A8%D7%99%D7%9E%D7%95%D7%A1%20%D7%91%D7%A0%D7%9C%D7%95%D7%A7%D7%A1%202.5%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
   {
    "id": "5470",
    "title": "פרימוס בנלוקס תערובת מזון לארנבים 750 גר’",
@@ -1893,6 +1855,44 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%9C%D7%A0%D7%A4%D7%97%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
+  {
+   "id": "4596",
+   "title": "יופ שמפו לכל סוגי הפרווה 250 מ”ל – Yuup Shampoo",
+   "description": "יופ שמפו לכלבים וחתולים בעלי פרווה מקורזלת או בעלת נפח. \n שומר על נפח וצורת הפרווה ולא מרככת אותה. \n מכיל קרטין, ויטמין C, ויטמין E, פנטנול, תמצית אלוורה טבעית, סרפד ושמן הליקריסום",
+   "link": "https://closetonature.co.il/product/%d7%99%d7%95%d7%a4-%d7%a9%d7%9e%d7%a4%d7%95-%d7%9c%d7%9b%d7%9c-%d7%a1%d7%95%d7%92%d7%99-%d7%94%d7%a4%d7%a8%d7%95%d7%95%d7%94-250-%d7%9e%d7%9c-yuup-shampoo/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%99%D7%95%D7%A4-%D7%A9%D7%9E%D7%A4%D7%95-%D7%9C%D7%9B%D7%9C-%D7%A1%D7%95%D7%92%D7%99-%D7%94%D7%A4%D7%A8%D7%95%D7%95%D7%94-250-%D7%9E%D7%9C-%E2%80%93-Yuup-Shampoo.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "69.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4596%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4596",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4596/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/4596/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/9/#4596",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4596%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4596",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D4596%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=4596",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%99%D7%95%D7%A4%20%D7%A9%D7%9E%D7%A4%D7%95%20%D7%9C%D7%9B%D7%9C%20%D7%A1%D7%95%D7%92%D7%99%20%D7%94%D7%A4%D7%A8%D7%95%D7%95%D7%94%20250%20%D7%9E%E2%80%9D%D7%9C%20%E2%80%93%20Yuup%20Shampoo%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

@@ -1,6 +1,6 @@
 {
   "name": "AgentFeed API",
-  "updated": "2026-10-08T05:43:03+00:00",
+  "updated": "2026-10-09T13:56:31+00:00",
   "language": "he-IL",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "auth": "none",
@@ -21,14 +21,14 @@
       "url": "https://nitairevivo.github.io/agentfeed/api/products/index.json",
       "format": "application/json",
       "returns": "כל הפריטים מכל העסקים, בעמודים שאפשר לקרוא בבקשה אחת",
-      "rows": 5001,
+      "rows": 5002,
       "note": "התחילו כאן. כל עמוד מצביע על הבא."
     },
     {
       "url": "https://nitairevivo.github.io/agentfeed/api/catalog.jsonl",
       "format": "application/x-ndjson",
       "returns": "אותו קטלוג כזרם אחד, שורה לפריט",
-      "rows": 5001,
+      "rows": 5002,
       "note": "גדול, ומוגש כזרם בייטים אצל רוב המארחים. עדיף להוריד ולא לשלוף."
     },
     {

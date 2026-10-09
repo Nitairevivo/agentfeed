@@ -1,10 +1,48 @@
 {
  "page": 33,
  "pages": 44,
- "total": 2195,
+ "total": 2196,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-34.json",
  "products": [
+  {
+   "id": "5363",
+   "title": "לה קט כבד 400 גרם",
+   "description": "לה קט כבד 400 גרם",
+   "link": "https://closetonature.co.il/product/%d7%9c%d7%94-%d7%a7%d7%98-%d7%9b%d7%91%d7%93-400-%d7%92%d7%a8%d7%9d/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9C%D7%94-%D7%A7%D7%98-%D7%9B%D7%91%D7%93-400-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "6.50",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5363%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5363",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5363/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5363/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5363",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5363%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5363",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5363%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5363",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9C%D7%94%20%D7%A7%D7%98%20%D7%9B%D7%91%D7%93%20400%20%D7%92%D7%A8%D7%9D%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "5362",
    "title": "גטולינו דגים 410 גרם",
@@ -1841,44 +1879,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%A9%D7%9C%D7%99%D7%9D%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%91%D7%A7%D7%A8%20%D7%95%D7%9C%D7%91%D7%91%D7%95%D7%AA%20%D7%94%D7%95%D7%93%D7%95%20%E2%80%93%20150%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "5306",
-   "title": "Vom Feinsten – מזון משלים רטוב לכלב – בוגר – הודו וכבש – 150 גרם",
-   "description": "מזון משלים רטוב איכותי לכלבים קטנים עם הודו וכבש. מעדן בעל ערך תזונתי גבוה, מתאים לכלב בוגר בגיל 1-6 שנים. בשר טרי ומובחר, ללא דגנים, ללא סויה, ללא חומרים משמרים וצבעי מאכל. זמין במשקל 150 גרם.",
-   "link": "https://closetonature.co.il/product/vom-feinsten-%d7%9e%d7%96%d7%95%d7%9f-%d7%9e%d7%a9%d7%9c%d7%99%d7%9d-%d7%a8%d7%98%d7%95%d7%91-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%94%d7%95%d7%93%d7%95-%d7%95%d7%9b%d7%91%d7%a9/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/Vom-Feinsten-%D7%9E%D7%96%D7%95%D7%9F-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-%D7%A8%D7%98%D7%95%D7%91-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%94%D7%95%D7%93%D7%95-%D7%95%D7%9B%D7%91%D7%A9-150-%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "7.50",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5306%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5306",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5306/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/5306/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/16/#5306",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5306%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5306",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D5306%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=5306",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4Vom%20Feinsten%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9E%D7%A9%D7%9C%D7%99%D7%9D%20%D7%A8%D7%98%D7%95%D7%91%20%D7%9C%D7%9B%D7%9C%D7%91%20%E2%80%93%20%D7%91%D7%95%D7%92%D7%A8%20%E2%80%93%20%D7%94%D7%95%D7%93%D7%95%20%D7%95%D7%9B%D7%91%D7%A9%20%E2%80%93%20150%20%D7%92%D7%A8%D7%9D%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

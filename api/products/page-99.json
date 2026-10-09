@@ -1,10 +1,43 @@
 {
  "page": 99,
  "pages": 101,
- "total": 5001,
+ "total": 5002,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-100.json",
  "products": [
+  {
+   "id": "baznews9",
+   "title": "רגע חדשות - צבא וביטחון בטלגרם — ערוץ טלגרם",
+   "description": "רגע חדשות - צבא וביטחון בטלגרם הוא ערוץ ציבורי בטלגרם בשפת עברית עם 120,150 מנויים. אינדקס טלגרם ישראל אוסף ומרכז את כל הערוצים והקבוצות הטובות ביותר בטלגרם בישראל, כדי שתוכל למצוא בקלות תוכן איכותי בכל נושא.",
+   "link": "https://tgil.co.il/channel/baznews9?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/1d6ae1238_photo.jpg",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 246,
+   "images": [
+    {
+     "src": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/1d6ae1238_photo.jpg",
+     "alt": "רגע חדשות - צבא וביטחון בטלגרם — תמונת פרופיל"
+    }
+   ],
+   "image_alt": "רגע חדשות - צבא וביטחון בטלגרם — ערוץ טלגרם",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/baznews9/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/baznews9/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#baznews9",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+   "ref": "tgil-co-il:baznews9",
+   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
+  },
   {
    "id": "raknetooooo",
    "title": "רק נטו חדשות בטלגרם — ערוץ טלגרם",
@@ -2332,40 +2365,6 @@
    "business_site": "https://transplant-israel.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
    "ref": "transplant-israel-com:editorial-policy",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "medical-disclaimer",
-   "title": "הבהרה רפואית",
-   "description": "המידע באתר נכתב בהתבסס על מקורות פומביים ועדכניים למועד הכתיבה, אך רפואה היא תחום משתנה. ייתכנו פערים בין המידע באתר לבין המצב העדכני.",
-   "link": "https://transplant-israel.com/medical-disclaimer?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "words": 96,
-   "quote": "המידע באתר נכתב בהתבסס על מקורות פומביים ועדכניים למועד הכתיבה, אך רפואה היא תחום משתנה. ייתכנו פערים בין המידע באתר לבין המצב העדכני.",
-   "image_alt": "הבהרה רפואית",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/medical-disclaimer/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/medical-disclaimer/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#medical-disclaimer",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=medical-disclaimer",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=medical-disclaimer",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
-   "ref": "transplant-israel-com:medical-disclaimer",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

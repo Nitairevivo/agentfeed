@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🦷 חטיף דנטלי לכלבים גדולים 15 יחידות וירבק Virbac VeggieDent FR3SH",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/73890/",
+ "description": "טיפול דנטלי יומיומי עוצמתי המותאם ללסת של כלבים גדולים: מקלות לעיסה צמחיים בעלי מבנה Z המסייעים במניעת אבן שן ורובד חיידקים, לצד טכנולוגיה ממוקדת לנשימה רעננה במיוחד. \n \n \n 📦  תכולה מדויקת:  15 מקלות לעיסה באריזת רוכסן לשמירה על הטריות (מיועד למשקל מעל 30 ק״ג). \n \n \n 🌿  רכיבים / מאפיינים עיקריים:  100% רכיבים צמחיים, ללא חלבון מהחי, ללא גלוטן חיטה, מועשר באריתריטול, אינולין ומיצוי רימונים. \n \n \n 🎯  יתרון מרכזי:  פעולת צחצוח מכנית יעילה בזכות צורת ה-Z המגיעה לחריצים העמוקים של השיניים הטוחנות ומעודדת לעיסה ממושכת. \n \n \n 🩺  התוויה / ייעוד:  מיועד לכלבים מגזע גדול (מעל 30 ק”ג) לשמירה על היגיינת הפה, הפחתת הצטברות אבנית ונטרול ריחות פה לא נעימים. \n \n   תוקף המוצר 3/27",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/Virbac-VeggieDent-FR3SH-Large-Dogs-15-Chews-Product.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/virbac-veggiedent-fr3sh-large-dog-dental-chews/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "49.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "73890",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D73890%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=73890",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-10-09",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}
