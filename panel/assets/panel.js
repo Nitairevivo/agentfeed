@@ -648,7 +648,7 @@
     var h = '<p>' + esc(a.answer).replace(/\n/g, '<br>') + '</p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     if (a.request && a.request.status === 'draft') {
-      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"><button type="button" class="btn btn-brand btn-s" data-yes>✓ כן, לעדכן</button> ' +
+      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
     return h;
@@ -780,9 +780,9 @@
     else if (ch.kind === 'story') sum = 'להחליף את הטקסט של "עלינו" ל: ' + ch.value;
     else if (ch.kind === 'contact') sum = 'לשנות את מספר הוואטסאפ באתר ל-' + ch.value;
     else if (ch.kind === 'new' && ch.name) sum = 'להוסיף מוצר חדש: "' + ch.name + '" ב-' + money(ch.price);
-    else if (ch.kind === 'new') return { demo: true, kind: 'change', answer: 'כדי להוסיף מוצר כתבו שם ומחיר, למשל: "תוסיף מוצר: קערת מים ב-35". את התמונה שולחים לנו בוואטסאפ.' };
-    else if (ch.kind === 'photo') return { demo: true, kind: 'change', answer: 'תמונה חדשה שולחים לנו בוואטסאפ, ואנחנו מעלים אותה לאתר, בדרך כלל באותו יום. (בלוח אמיתי הבקשה נרשמת כאן ומגיעה אלינו.)' };
-    else return { demo: true, kind: 'change', answer: 'לא בטוח שהבנתי מה לשנות. נסו למשל: "תעדכן את המחיר של ' + shopItems()[0].name + ' ל-' + Math.round((shopItems()[0].price || 100) * 1.1) + '". בלוח אמיתי, בקשה לא ברורה עוברת לאדם מאיתנו.' };
+    else if (ch.kind === 'new') return ticketOffer(q, 'כדי שאוסיף מוצר לבד, כתבו שם ומחיר, למשל: "תוסיף מוצר: קערת מים ב-35". או שאפתח פנייה לצוות, והם יוסיפו אותו עם תמונה.');
+    else if (ch.kind === 'photo') return ticketOffer(q, 'החלפת תמונה עושה איש צוות. לפתוח פנייה? אחרי זה שלחו את התמונה בוואטסאפ, והיא תצורף לפנייה.');
+    else return ticketOffer(q, 'את זה עדיף שיעשה איש צוות. לפתוח פנייה לצוות, עם מה שכתבתם?');
     if (!sum && !why) return { demo: true, kind: 'change', answer: '"' + it.name + '" כבר מוסתר.' };
     if (why) return { demo: true, kind: 'change', answer: why };
     var id = 'D' + Date.now().toString(36); dreqs[id] = { ch: ch, sum: sum };
@@ -802,13 +802,14 @@
       .then(function (b) {
         if (tm) clearTimeout(tm);
         if (!b || !b.answer) return null;
-        var all = demoCat(), list = [];
+        var all = demoCat(), list = [], tkSubject = '';
         (b.changes || []).forEach(function (c) {
           var it = c.item ? all.filter(function (x) { return x.id === c.item; })[0] : null;
           var ch = { kind: c.kind, item: it, value: c.value, name: c.name, price: c.kind === 'new' ? c.value : undefined };
-          if (ch.kind === 'photo') return;
+          if (ch.kind === 'photo' || ch.kind === 'ticket') { tkSubject = c.value || q; return; }
           var s = sumOf(ch); if (s) list.push({ ch: ch, sum: s });
         });
+        if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
         if (!list.length) return { demo: true, kind: 'brain', answer: b.answer };
         var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
         return { demo: true, kind: 'change', answer: b.answer, request: { id: id, status: 'draft' },
@@ -839,10 +840,15 @@
     if (ch.kind === 'contact') dwa = ch.value;
     if (ch.kind === 'new') all.push({ id: 'n' + Date.now().toString(36) + Math.random().toString(36).slice(2, 4), name: ch.name, price: ch.price, desc: '', changed: 'new' });
   }
+  function ticketOffer(q, answer) {
+    var id = 'D' + Date.now().toString(36); dreqs[id] = { ticket: { subject: q.slice(0, 90), body: q } };
+    return { demo: true, kind: 'change', request: { id: id, status: 'draft' }, answer: answer, yesLabel: '📨 כן, לפתוח פנייה' };
+  }
   function demoDecide(id, yes) {
     var r = dreqs[id]; if (!r) return { note: 'הבקשה כבר טופלה.' };
     delete dreqs[id];
     if (!yes) return { note: 'בוטל. שום דבר לא השתנה.' };
+    if (r.ticket) { var tk = openTicket(r.ticket.subject, r.ticket.body, 'רגילה'); tickets(); return { note: '✓ נפתחה פנייה ' + tk.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות" למעלה, ותקבלו הודעה כשהיא מטופלת.' }; }
     demoCat().forEach(function (x) { delete x.changed; });
     var list = r.list || [{ ch: r.ch, sum: r.sum }];
     list.forEach(function (x) { demoApply(x.ch); dlog.unshift({ summary: x.sum, status: 'applied', at: new Date().toISOString() }); });
@@ -863,7 +869,7 @@
       '</ul><p class="sub">וואטסאפ באתר: ' + esc(dwa) + ' · <button type="button" class="btn btn-s" id="demoreset">איפוס הדוגמה</button></p>';
   }
   document.addEventListener('click', function (e) {
-    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; try { localStorage.removeItem(DCK); } catch (x) {} keeper(); }
+    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); } catch (x) {} keeper(); tickets(); }
   });
   $('answer').addEventListener('click', function (e) {
     var yes = e.target.closest('[data-yes]'), no = e.target.closest('[data-no]');
@@ -888,6 +894,83 @@
   });
   var STATUS = { ok: ['good', 'האתר עולה ותקין'], slow: ['warn', 'האתר עולה, אבל לאט'], broken: ['alert', 'משהו לא תקין באתר'],
                  down: ['alert', 'האתר לא עולה כרגע'], unknown: ['info', 'עוד לא נבדק'] };
+  // ── Tickets: what the owner cannot change alone goes to the team ─────────
+  // The owner opens a ticket (from the chat, or here); the agency sees every
+  // client's tickets on one desk, assigns each to someone on the team, moves
+  // it through new → in progress → waiting for the client → done, and the
+  // owner sees each step. In the demo it all lives on this device, with an
+  // example team and example clients, and says so.
+  var TKK = 'demotickets:' + DEMO, tks = null, deskOn = false;
+  var TEAM = ['נועם', 'דנה', 'אבי'];
+  var TST = { new: ['info', 'חדשה'], doing: ['warn', 'בטיפול'], waiting: ['warn', 'מחכה לתשובה שלכם'], done: ['good', 'טופלה'] };
+  function tkList() {
+    if (tks) return tks;
+    try { tks = JSON.parse(localStorage.getItem(TKK) || 'null'); } catch (x) {}
+    if (!tks) {
+      var h = function (n) { return new Date(Date.now() - n * 3600e3).toISOString(); };
+      tks = [
+        { no: '#1043', client: 'פרחי השרון', subject: 'להחליף את התמונה הראשית בעמוד הבית', prio: 'רגילה', status: 'doing', who: 'דנה', at: h(5), log: [{ w: 'client', t: 'שלחתי תמונה חדשה בוואטסאפ', at: h(5) }, { w: 'team', t: 'קיבלתי, מעלה היום', at: h(3) }] },
+        { no: '#1042', client: 'מאפיית אורן', subject: 'להוסיף עמוד "הזמנות לאירועים"', prio: 'רגילה', status: 'waiting', who: 'אבי', at: h(26), log: [{ w: 'team', t: 'איזה מוצרים להציג בעמוד?', at: h(20) }] },
+        { no: '#1041', client: 'סטודיו לי', subject: 'הטופס בעמוד צור קשר לא שולח', prio: 'דחופה', status: 'done', who: 'נועם', at: h(50), log: [{ w: 'team', t: 'תוקן ונבדק', at: h(47) }] }
+      ];
+    }
+    return tks;
+  }
+  function tkSave() { try { localStorage.setItem(TKK, JSON.stringify(tks)); } catch (x) {} }
+  function openTicket(subject, body, prio) {
+    var l = tkList(), n = 1044 + l.filter(function (x) { return x.mine; }).length;
+    var tk = { no: '#' + n, client: cfg.name, mine: true, subject: subject, prio: prio || 'רגילה', status: 'new', who: '', at: new Date().toISOString(),
+               log: body && body !== subject ? [{ w: 'client', t: body, at: new Date().toISOString() }] : [] };
+    l.unshift(tk); tkSave(); return tk;
+  }
+  function tickets() {
+    var card = $('tks');
+    if (!card) {
+      card = document.createElement('section'); card.className = 'cardp glass tks'; card.id = 'tks';
+      var anchor = $('keep') || document.querySelector('.brain'); if (!anchor) return;
+      anchor.parentNode.insertBefore(card, anchor.nextSibling);
+      card.addEventListener('click', tkClick); card.addEventListener('change', tkChange); card.addEventListener('submit', tkSubmit);
+    }
+    if (!demo) { card.hidden = true; return; }   // the real one arrives with the agency's own setup
+    var l = tkList(), mine = l.filter(function (x) { return x.mine; });
+    var pill = function (s) { var v = TST[s] || TST.new; return '<span class="pill ' + v[0] + '"><i></i>' + v[1] + '</span>'; };
+    var thread = function (x) { return (x.log || []).map(function (m) { return '<p class="tkmsg ' + m.w + '"><b>' + (m.w === 'team' ? esc(x.who || 'הצוות') : (x.mine ? 'אתם' : esc(x.client))) + ':</b> ' + esc(m.t) + ' <small>' + esc(hhmm(m.at)) + '</small></p>'; }).join(''); };
+    var head = '<div class="tkhead"><h2>📨 פניות לצוות</h2><span class="tktabs"><button type="button" data-tab="me" class="' + (deskOn ? '' : 'on') + '">הפניות שלי</button>' +
+               '<button type="button" data-tab="desk" class="' + (deskOn ? 'on' : '') + '">מסך הסוכנות</button></span></div>';
+    if (!deskOn) {
+      card.innerHTML = head + '<p class="sub">מה שלא משתנה לבד בצ\'אט, פותחים כאן פנייה, וצוות בניית האתרים מטפל. רואים כל שלב.</p>' +
+        '<form class="tkform" id="tkform"><input name="s" maxlength="90" required placeholder="מה צריך? למשל: עמוד חדש למבצעי החג"><textarea name="b" rows="2" maxlength="600" placeholder="פרטים (לא חובה)"></textarea>' +
+        '<label><input type="checkbox" name="u"> דחוף</label><button class="btn btn-brand btn-s" type="submit">📨 לפתוח פנייה</button></form>' +
+        (mine.length ? '<ul class="tklist">' + mine.map(function (x) { return '<li><div class="tkrow"><b>' + esc(x.no) + ' · ' + esc(x.subject) + '</b>' + pill(x.status) + '</div>' +
+          '<small class="sub">' + (x.who ? 'מטפל/ת: ' + esc(x.who) + ' · ' : '') + (x.prio === 'דחופה' ? '🔴 דחוף · ' : '') + 'נפתחה ' + esc(hhmm(x.at)) + '</small>' + thread(x) + '</li>'; }).join('') + '</ul>'
+          : '<p class="sub">עוד אין פניות. אפשר לפתוח כאן, או פשוט לכתוב לעוזר בצ\'אט.</p>');
+      return;
+    }
+    var count = function (s) { return l.filter(function (x) { return x.status === s; }).length; };
+    card.innerHTML = head + '<p class="sub">כך הסוכנות רואה את הפניות של כל הלקוחות שלה במקום אחד. בדוגמה: צוות ולקוחות לדוגמה.</p>' +
+      '<div class="meter"><span>חדשות: <b>' + count('new') + '</b></span><span>בטיפול: <b>' + count('doing') + '</b></span><span>מחכות ללקוח: <b>' + count('waiting') + '</b></span><span>טופלו: <b>' + count('done') + '</b></span></div>' +
+      '<ul class="tklist desk">' + l.map(function (x, i) {
+        return '<li class="' + (x.prio === 'דחופה' ? 'urgent' : '') + '"><div class="tkrow"><b>' + esc(x.no) + ' · ' + esc(x.client) + '</b>' + pill(x.status) + '</div><span>' + esc(x.subject) + (x.prio === 'דחופה' ? ' 🔴' : '') + '</span>' +
+          '<div class="tkctl"><select data-i="' + i + '" data-f="status" aria-label="סטטוס">' + Object.keys(TST).map(function (k) { return '<option value="' + k + '"' + (x.status === k ? ' selected' : '') + '>' + TST[k][1] + '</option>'; }).join('') + '</select>' +
+          '<select data-i="' + i + '" data-f="who" aria-label="משויך ל"><option value="">לא משויך</option>' + TEAM.map(function (n) { return '<option' + (x.who === n ? ' selected' : '') + '>' + n + '</option>'; }).join('') + '</select></div>' +
+          thread(x) + '<form class="tkreply" data-i="' + i + '"><input name="r" maxlength="300" placeholder="תשובה ללקוח…"><button class="btn btn-s" type="submit">שליחה</button></form></li>'; }).join('') + '</ul>';
+  }
+  function tkClick(e) { var b = e.target.closest('[data-tab]'); if (b) { deskOn = b.dataset.tab === 'desk'; tickets(); } }
+  function tkChange(e) {
+    var s = e.target.closest('select[data-i]'); if (!s) return;
+    var x = tkList()[+s.dataset.i]; x[s.dataset.f] = s.value;
+    if (s.dataset.f === 'who' && s.value && x.status === 'new') x.status = 'doing';
+    tkSave(); tickets();
+  }
+  function tkSubmit(e) {
+    e.preventDefault();
+    var f = e.target;
+    if (f.id === 'tkform') { openTicket(f.s.value.trim(), f.b.value.trim(), f.u.checked ? 'דחופה' : 'רגילה'); tickets(); return; }
+    if (f.classList.contains('tkreply') && f.r.value.trim()) {
+      var x = tkList()[+f.dataset.i]; x.log = (x.log || []).concat([{ w: 'team', t: f.r.value.trim(), at: new Date().toISOString() }]);
+      if (x.status === 'new') x.status = 'doing'; tkSave(); tickets();
+    }
+  }
   function keeper() {
     var card = $('keep');
     if (!card) {
@@ -920,6 +1003,7 @@
   pushUI();
   brain();
   keeper();
+  tickets();
   // a suggestion that shows the owner the chat can change the site, not only answer
   (function () { var c = $('chips'); if (!c) return; var b = document.createElement('button'); b.type = 'button'; b.textContent = 'איך משנים מחיר באתר?';
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });

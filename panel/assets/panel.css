@@ -509,3 +509,24 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .chatfab:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 .chatfab.away { opacity: 0; transform: translateY(20px); pointer-events: none; }
 @media (prefers-reduced-motion: reduce) { .chatfab { transition: none; } }
+
+/* tickets: the owner's, and the agency's desk */
+.tkhead { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.tkhead h2 { margin: 0; }
+.tktabs { display: flex; gap: 6px; }
+.tktabs button, .tkctl select { font: inherit; font-size: 13px; color: var(--txt); background: rgba(255,255,255,.05); border: 1px solid var(--edge); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.tktabs button.on { border-color: var(--violet); background: rgba(139,108,255,.2); }
+.tkctl select option { color: #111; }
+.tkform { display: grid; gap: 8px; margin: 12px 0; }
+.tkform input, .tkform textarea, .tkreply input { font: inherit; color: var(--txt); background: rgba(255,255,255,.06); border: 1px solid var(--edge); border-radius: 12px; padding: 10px 12px; }
+.tkform label { font-size: 14px; display: flex; gap: 6px; align-items: center; }
+.tklist { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.tklist li { border: 1px solid var(--edge); border-radius: 14px; padding: 12px; background: rgba(10,12,28,.5); display: grid; gap: 6px; }
+.tklist li.urgent { border-color: rgba(255,90,95,.6); }
+.tkrow { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.tkctl { display: flex; gap: 6px; flex-wrap: wrap; }
+.tkmsg { margin: 0; font-size: 14px; padding: 6px 10px; border-radius: 10px; background: rgba(255,255,255,.04); }
+.tkmsg.team { background: rgba(62,230,255,.08); }
+.tkmsg small { color: var(--dim); }
+.tkreply { display: flex; gap: 6px; }
+.tkreply input { flex: 1; min-width: 0; padding: 7px 10px; }
