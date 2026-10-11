@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>מסך הצוות</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/desk/desk.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <span class="brand"><img id="logo" alt="לוגו" hidden><b id="bname">מסך הצוות</b></span>
+    <span class="who" id="who"></span>
+    <button type="button" class="bell" id="bell">🔔 התראות לטלפון</button>
+  </div>
+</header>
+<p class="demo" id="demo" hidden>מסך לדוגמה: צוות, לקוחות ופניות לדוגמה. שום דבר לא נשמר בשרת.</p>
+<main class="wrap">
+  <nav class="tabs" role="tablist">
+    <button type="button" role="tab" data-view="tickets" class="on">📨 פניות</button>
+    <button type="button" role="tab" data-view="sites">🌐 אתרים</button>
+  </nav>
+  <section id="tickets">
+    <div class="counts" id="counts"></div>
+    <div class="filters">
+      <input id="q" type="search" placeholder="חיפוש לפי לקוח, נושא או מספר" aria-label="חיפוש">
+      <div class="chips" id="chips"></div>
+    </div>
+    <ul class="list" id="list"></ul>
+  </section>
+  <section id="sites" hidden>
+    <ul class="list" id="slist"></ul>
+  </section>
+  <p class="err" id="err" hidden></p>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="https://nitairevivo.github.io/agentfeed/desk/desk.js"></script>
+</body>
+</html>
