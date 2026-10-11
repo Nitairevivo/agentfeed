@@ -848,7 +848,7 @@
     var r = dreqs[id]; if (!r) return { note: 'הבקשה כבר טופלה.' };
     delete dreqs[id];
     if (!yes) return { note: 'בוטל. שום דבר לא השתנה.' };
-    if (r.ticket) { var tk = openTicket(r.ticket.subject, r.ticket.body, 'רגילה'); tickets(); return { note: '✓ נפתחה פנייה ' + tk.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות" למעלה, ותקבלו הודעה כשהיא מטופלת.' }; }
+    if (r.ticket) { var tk = openTicket(r.ticket.subject, r.ticket.body, 'רגילה'); tickets(); return { note: '✓ נפתחה פנייה ' + tk.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות", מתחת לצ\'אט, ותקבלו הודעה כשהיא מטופלת.' }; }
     demoCat().forEach(function (x) { delete x.changed; });
     var list = r.list || [{ ch: r.ch, sum: r.sum }];
     list.forEach(function (x) { demoApply(x.ch); dlog.unshift({ summary: x.sum, status: 'applied', at: new Date().toISOString() }); });
@@ -928,7 +928,8 @@
     var card = $('tks');
     if (!card) {
       card = document.createElement('section'); card.className = 'cardp glass tks'; card.id = 'tks';
-      var anchor = $('keep') || document.querySelector('.brain'); if (!anchor) return;
+      // after the assistant: asking comes first, a ticket is for what it could not do
+      var anchor = document.querySelector('.brain') || $('keep'); if (!anchor) return;
       anchor.parentNode.insertBefore(card, anchor.nextSibling);
       card.addEventListener('click', tkClick); card.addEventListener('change', tkChange); card.addEventListener('submit', tkSubmit);
     }
@@ -984,7 +985,7 @@
           var ag = x.agent || {};
           return '<li><div class="tkrow"><b>#' + esc(x.no) + ' · ' + esc(x.subject) + '</b>' + pill(x.status) + '</div>' +
             '<small class="sub">' + (x.whoName ? 'מטפל/ת: ' + esc(x.whoName) + ' · ' : '') + (x.prio === 'urgent' ? '🔴 דחוף · ' : '') + 'נפתחה ' + esc(hhmm(x.at)) + '</small>' + thread(x) +
-            (x.status === 'review' && ag.pr ? '<p class="sub">🤖 השינוי מוכן ומחכה לאישור' + (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">צילומי לפני ואחרי</a>' : '') +
+            (x.status === 'review' && ag.state === 'preview' ? '<p class="sub">🤖 השינוי מוכן ומחכה לאישור' +
               ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">✓ לאשר</button></p>' : '') +
             (x.status !== 'done' ? '<form class="tkreply" data-no="' + esc(x.no) + '"><input name="r" maxlength="2000" placeholder="לענות לצוות…"><button class="btn btn-s" type="submit">שליחה</button></form>' : '') + '</li>'; }).join('') + '</ul>'
           : '<p class="sub">עוד אין פניות. אפשר לפתוח כאן, או פשוט לכתוב לעוזר בצ\'אט.</p>');
