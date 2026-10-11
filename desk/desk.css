@@ -88,3 +88,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
 @media (prefers-reduced-motion: reduce) { .tk { transition: none; } }
 
 @media (max-width: 560px) { .counts { grid-template-columns: repeat(3, 1fr); } .counts button { padding: 8px 10px; } .counts button b { font-size: 20px; } }
+
+/* the check-in: three times a day, read-only advice */
+.brief { background: var(--card); border: 1px solid var(--line); border-inline-start: 4px solid var(--accent); border-radius: 14px; padding: 12px 14px; margin-bottom: 10px; }
+.brief .bhead { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.brief .bhead span { color: var(--dim); font-size: 14px; }
+.brief ul { margin: 8px 0 0; padding-inline-start: 18px; display: grid; gap: 6px; font-size: 14px; }
+.brief .rule { margin: 10px 0 0; font-size: 12.5px; color: var(--dim); }

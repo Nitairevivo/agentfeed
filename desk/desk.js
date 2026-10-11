@@ -183,8 +183,33 @@
         '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' +
         '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר' : '') + '</span></li>'; }).join('') : '<li class="empty">עוד אין אתרים.</li>';
   }
+  // The check-in: three times a day the system looks over the desk and every
+  // site, and writes what to do. It reads and advises; it never changes a site.
+  function lastSlot() {
+    var d = new Date(), slots = [18, 13, 8];
+    for (var i = 0; i < slots.length; i++) if (d.getHours() > slots[i] || (d.getHours() === slots[i] && d.getMinutes() >= 13)) { d.setHours(slots[i], 13, 0, 0); return d; }
+    d.setDate(d.getDate() - 1); d.setHours(18, 13, 0, 0); return d;
+  }
+  function demoBrief() {
+    var open = state.tickets.filter(function (t) { return t.status !== 'done'; }).length;
+    var slow = state.sites.filter(function (s) { return (s.health || {}).status === 'slow'; });
+    return { at: lastSlot().toISOString(), line: 'כל ' + state.sites.length + ' האתרים עובדים · ' + open + ' פניות פתוחות',
+      tips: [(slow[0] ? 'האתר של ' + slow[0].name + ' נטען לאט כבר כמה בדיקות. בדרך כלל זו תמונה גדולה מדי בראש העמוד, ושווה לבדוק לפני שהלקוח ישים לב.' : ''),
+             'פרחי השרון פתחו 3 פניות החודש. שיחה קצרה איתם עכשיו יכולה לחסוך את הרביעית, וגם לשמור אותם מרוצים.',
+             'שינוי שמחכה לאישור הוא הדבר הכי מהיר לסגור היום: לקוח שרואה שהבקשה שלו עלתה תוך יום ממליץ עליכם.'].filter(Boolean) };
+  }
+  function briefCard(b) {
+    var el = $('brief'); if (!el) return;
+    if (!b) { el.hidden = true; return; }
+    var t = ''; try { t = new Date(b.at).toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit' }); } catch (x) {}
+    el.hidden = false;
+    el.innerHTML = '<div class="bhead"><b>🔎 הבדיקה של ' + esc(t) + '</b><span>' + esc(b.line) + '</span></div>' +
+      ((b.tips || []).length ? '<ul>' + b.tips.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
+      '<p class="rule">הבדיקה רצה שלוש פעמים ביום, רק קוראת ומייעצת. Claude משנה אתר רק כשמישהו מהצוות לוחץ על פנייה, והשינוי עולה רק אחרי אישור.</p>';
+  }
   function apply(d) {
     state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me;
+    briefCard(demo ? demoBrief() : d.brief);
     brand(d.brand); $('who').textContent = d.me ? 'מחובר/ת: ' + d.me.name : ''; render();
   }
   function load() {
