@@ -747,6 +747,20 @@
       return { demo: true, kind: 'problem', answer: 'בדקתי עכשיו: האתר עולה (200), נטען ב-0.6 שניות, והתמונות נטענות. אם אצלכם הוא עדיין לא נפתח, נסו לרענן או רשת אחרת, וכתבו מה בדיוק רואים. (בלוח אמיתי הבדיקה רצה על האתר שלכם באותו רגע.)' };
     if (!CHANGE_RE.test(q)) return h ? { demo: true, kind: 'help', answer: h[1] } : null;
     var all = demoCat(), ch = demoParse(q, shopItems(), all), it = ch.item, sum = '', why = '';
+    // "which products should I discount?": the ones people ask about least,
+    // by the panel's own numbers, 10% off, ready to approve
+    if (ch.kind === 'other' && /(ממליץ|תמליץ|המלצה|כדאי|איזה|אילו)/.test(q) && /(להוריד|להוזיל|הוזל|הנחה|מבצע|מחיר)/.test(q)) {
+      var asked = {}; ((shown && shown.products) || []).forEach(function (x) { asked[norm(x.name)] = x.actions || 0; });
+      var rank = shopItems().filter(function (x) { return x.price; }).map(function (x) { return { p: x, n: asked[norm(x.name)] || 0 }; })
+        .sort(function (a, b) { return a.n - b.n || b.p.price - a.p.price; }).slice(0, 2);
+      var rl = rank.map(function (x) { var c = { kind: 'price', item: x.p, value: Math.max(1, Math.round(x.p.price * 0.9)) }; return { ch: c, sum: sumOf(c) }; });
+      if (rl.length) {
+        var rid = 'D' + Date.now().toString(36); dreqs[rid] = { list: rl };
+        return { demo: true, kind: 'change', request: { id: rid, status: 'draft' }, changes: rl.map(function (x) { return x.sum; }),
+                 answer: 'הייתי מתחיל מ' + rank.map(function (x) { return x.p.name; }).join(' ו') + ': הם מקבלים הכי מעט פניות באתר, ושם הנחה קטנה יכולה להזיז מכירות. ' +
+                         'את המוצר המבוקש לא הייתי מוריד, הוא כבר נמכר טוב. הצעה של 10% הנחה:' };
+      }
+    }
     if (ch.kind === 'bulk') {
       var bl = ch.list.map(function (c) { return { ch: c, sum: sumOf(c) }; });
       if (!bl.length) return { demo: true, kind: 'change', answer: 'אין באתר מוצרים עם מחיר לשנות.' };
@@ -781,7 +795,7 @@
   // (no key, a busy quota, no network) the rules above answer instead.
   function demoBrain(q) {
     var hist = (cur && cur.msgs || []).slice(-9, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 400) }; });
-    var ctl = window.AbortController ? new AbortController() : null, tm = ctl && setTimeout(function () { ctl.abort(); }, 40000);
+    var ctl = window.AbortController ? new AbortController() : null, tm = ctl && setTimeout(function () { ctl.abort(); }, 58000);
     return fetch(keepApi + 'demo-brain', { method: 'POST', headers: { 'content-type': 'application/json' }, signal: ctl ? ctl.signal : undefined,
       body: JSON.stringify({ message: q, history: hist, items: demoCat() }) })
       .then(function (r) { return r.ok ? r.json() : null; })
