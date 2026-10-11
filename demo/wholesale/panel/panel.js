@@ -924,6 +924,19 @@
   (function () { var c = $('chips'); if (!c) return; var b = document.createElement('button'); b.type = 'button'; b.textContent = 'איך משנים מחיר באתר?';
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
     c.appendChild(b); })();
+  // a button on the side that goes straight to the conversation, from anywhere
+  // on the panel; it steps aside while the conversation is on screen
+  (function () {
+    if (!askNode) return;
+    var fab = document.createElement('button'); fab.type = 'button'; fab.className = 'chatfab'; fab.setAttribute('aria-label', 'מעבר לשיחה עם העוזר');
+    fab.innerHTML = '<span aria-hidden="true">💬</span><b>לשיחה</b>';
+    document.body.appendChild(fab);
+    fab.addEventListener('click', function () {
+      askNode.scrollIntoView({ block: 'start', behavior: still ? 'auto' : 'smooth' });
+      setTimeout(function () { $('askq').focus({ preventScroll: true }); }, still ? 0 : 450);
+    });
+    if (window.IntersectionObserver) new IntersectionObserver(function (es) { fab.classList.toggle('away', es[0].isIntersecting); }, { threshold: 0.25 }).observe(askNode);
+  })();
   var ph = $('askq'); if (ph) ph.placeholder = 'שאלו, או בקשו שינוי: "תעדכן את המחיר של… ל-120"';
 })();
 
