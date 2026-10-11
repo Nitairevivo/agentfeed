@@ -1,10 +1,60 @@
 {
  "page": 96,
  "pages": 101,
- "total": 5002,
+ "total": 5003,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-97.json",
  "products": [
+  {
+   "id": "29338",
+   "title": "קערת סיליקון מתקפלת לחיות מחמד*",
+   "description": "קערת סיליקון מתקפלת לחיות מחמד* הוא קערת סיליקון מתקפלת. מיועדת להגשת מים או מזון בזמן טיול ונסיעה. לפני השימוש בודקים התאמה, תקינות ובטיחות.",
+   "link": "https://marleypetshop.com/product/%d7%a7%d7%a2%d7%a8%d7%aa-%d7%a1%d7%99%d7%9c%d7%99%d7%a7%d7%95%d7%9f-%d7%9e%d7%aa%d7%a7%d7%a4%d7%9c%d7%aa-%d7%9c%d7%97%d7%99%d7%95%d7%aa-%d7%9e%d7%97%d7%9e%d7%93?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a7-d7-a2-d7-a8-d7-aa-d7-a1-d7-99-d7-9c-d7-99-d7-a7-d7-95-d7-9f-d7-9e-d7-aa-d7-a7-d7-a4-d7-9c-d7-aa-d7-9c-d7-97-d7-99-d7-95-d7-aa-d7-9e-d7-97-d7-9e-d7-93-1200x1200-1.jpg",
+   "gtin": "8886467510281",
+   "condition": "new",
+   "price": "29.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29338%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29338",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29338/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/29338/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/22/#29338",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29338%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29338",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D29338%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=29338",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A7%D7%A2%D7%A8%D7%AA%20%D7%A1%D7%99%D7%9C%D7%99%D7%A7%D7%95%D7%9F%20%D7%9E%D7%AA%D7%A7%D7%A4%D7%9C%D7%AA%20%D7%9C%D7%97%D7%99%D7%95%D7%AA%20%D7%9E%D7%97%D7%9E%D7%93%2A%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A7%D7%A2%D7%A8%D7%AA%20%D7%A1%D7%99%D7%9C%D7%99%D7%A7%D7%95%D7%9F%20%D7%9E%D7%AA%D7%A7%D7%A4%D7%9C%D7%AA%20%D7%9C%D7%97%D7%99%D7%95%D7%AA%20%D7%9E%D7%97%D7%9E%D7%93%2A",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:29338",
+   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+  },
   {
    "id": "29336",
    "title": "כף איסוף צרכים גדולה",
@@ -2687,54 +2737,6 @@
    "business_site": "https://mashkanta.online",
    "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
    "ref": "mashkanta-online:equal-principal",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "formula",
-   "title": "הנוסחה מאחורי ההחזר: איך מחשבים משכנתא ביד ובאקסל",
-   "description": "תשובה קצרה: נוסחת שפיצר מחשבת את ההחזר החודשי הקבוע על בסיס סכום הקרן, הריבית החודשית ומספר התשלומים. בתחילת תקופת ההלוואה, מרבית ההחזר מופנה לתשלום ריבית ורק חלק קטן לקרן, מה שגורם לכך שיתרת החוב יורדת באיטיות רבה בשנים הראשונות.",
-   "link": "https://mashkanta.online/calculator/formula?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/e7b383d1d_generated_image.png",
-   "brand": "משכנתא אונליין",
-   "condition": "new",
-   "words": 702,
-   "quote": "תשובה קצרה: נוסחת שפיצר מחשבת את ההחזר החודשי הקבוע על בסיס סכום הקרן, הריבית החודשית ומספר התשלומים. בתחילת תקופת ההלוואה, מרבית ההחזר מופנה לתשלום ריבית ורק חלק קטן לקרן, מה שגורם לכך שיתרת החוב יורדת באיטיות רבה בשנים הראשונות.\n\nכל מחשבון משכנתא בעולם מסתמך על נוסחה אחת. הכרתה מאפשרת לכם לבדוק כל מספר שהבנק נותן לכם ולהבין למה מחשבונים שונים מציגים תוצאות שונות.\n\nM הוא ההחזר החודשי, P הוא סכום הקרן, i היא הריבית החודשית (הריבית השנתית חלקי 12), ו‑n הוא מספר התשלומים הכולל (שנים כפול 12).\n\nהריבית החודשית: 0.05 חלקי 12 שווה 0.004167. מספר התשלומים: 25 כפול 12 שווה 300. הצבה בנוסחה נותנת החזר חודשי של כ‑5,846 ₪. סך התשלומים לאורך התקופה: כ‑1,753,800 ₪, מתוכם כ‑753,800 ₪ ריבית.\n\nבכל חודש, רכיב הריבית שווה ליתרת הקרן כפול הריבית החודשית. ההפרש בין ההחזר לרכיב הריבית הוא החזר הקרן. בחודש הראשון בדוגמה: ריבית של כ‑4,167 ₪ וקרן של כ‑1,679 ₪ בלבד. זו הסיבה שבשנים הראשונות היתרה כמעט לא זזה.\n\nהנוסחה זהה בכולם. ההבדלים נובעים מהנחות: ריבית ברירת מחדל שונה, התייחסות או התעלמות מהצמדה, עיגול, ובעיקר האם המחשבון מחשב תמהיל של כמה מסלולים או מסלול יחיד. משכנתא אמיתית היא תמיד סכום של כמה חישובים כאלה.\n\nבלוח קרן שווה החישוב פשוט יותר: החזר הקרן החודשי שווה לקרן חלקי מספר החודשים, והריבית מחושבת כל חודש על היתרה. סך התשלום יורד בהדרגה.\n\nקחו את יתרת הקרן, הכפילו בריבית השנתית וחלקו ב‑12. זה רכיב הריבית בתשלום הקרוב. אם הנתון בדוח הבנק שונה מהותית — בקשו הסבר.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/e7b383d1d_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e7b383d1d_generated_image.webp",
-     "alt": "הנוסחה מאחורי ההחזר: איך מחשבים משכנתא ביד ובאקסל — המחשה"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/8427cc9b8_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/8427cc9b8_generated_image.webp",
-     "alt": "המחשה חזותית לנושא: הנוסחה מאחורי ההחזר: איך מחשבים משכנתא ביד ובאקסל"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a7466e569ab016210a0cfbc/4f496d446_generated_image.png/v1/fill/w_712,h_401,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/4f496d446_generated_image.webp",
-     "alt": "זוג מעיין בנתוני החזר משכנתא על מסך מחשב בביתם."
-    }
-   ],
-   "image_alt": "הנוסחה מאחורי ההחזר: איך מחשבים משכנתא ביד ובאקסל",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/formula/",
-   "json": "https://nitairevivo.github.io/agentfeed/mashkanta-online/item/formula/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/mashkanta-online/#formula",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=formula",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/mashkanta-online?to=https%3A%2F%2Fmashkanta.online%2F&p=formula",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "משכנתא אונליין",
-   "business_slug": "mashkanta-online",
-   "business_site": "https://mashkanta.online",
-   "business_page": "https://nitairevivo.github.io/agentfeed/mashkanta-online/",
-   "ref": "mashkanta-online:formula",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

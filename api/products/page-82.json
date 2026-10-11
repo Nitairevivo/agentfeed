@@ -1,10 +1,60 @@
 {
  "page": 82,
  "pages": 101,
- "total": 5002,
+ "total": 5003,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-83.json",
  "products": [
+  {
+   "id": "30815",
+   "title": "צעצוע כדור חבל קטן",
+   "description": "כדור חבל קטן וקלוע לכלבים, המתאים לגלגול, נשיאה ומשחקי הבאה. נמכר כיחידה אחת בשילוב צבעים משתנה ודורש התאמת גודל והשגחה.",
+   "link": "https://marleypetshop.com/product/%d7%a6%d7%a2%d7%a6%d7%95%d7%a2-%d7%9b%d7%93%d7%95%d7%a8-%d7%97%d7%91%d7%9c-%d7%a7%d7%98%d7%9f?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/1596ea374_Sf55c5c0c840e4a7980112940ee5b7470U.webp",
+   "gtin": "0218991880999",
+   "condition": "new",
+   "price": "15.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30815%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30815",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30815/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30815/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/15/#30815",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30815%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30815",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30815%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30815",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A6%D7%A2%D7%A6%D7%95%D7%A2%20%D7%9B%D7%93%D7%95%D7%A8%20%D7%97%D7%91%D7%9C%20%D7%A7%D7%98%D7%9F%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A6%D7%A2%D7%A6%D7%95%D7%A2%20%D7%9B%D7%93%D7%95%D7%A8%20%D7%97%D7%91%D7%9C%20%D7%A7%D7%98%D7%9F",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:30815",
+   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+  },
   {
    "id": "30813",
    "title": "מארז 4 כדורי משחק לחתולים",
@@ -2464,56 +2514,6 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:30712",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "30710",
-   "title": "חטיף בטטה עטוף ברווז 100 גרם Kelly's",
-   "description": "חטיף בטטה עטוף ברווז 100 גרם Kelly's הוא בטטה עטופה של Kelly’s לכלבים בטעם ברווז, באריזת 100 גרם. זהו פינוק משלים שיש להגיש במידה ובהשגחה.",
-   "link": "https://marleypetshop.com/product/%d7%97%d7%98%d7%99%d7%a3-%d7%91%d7%98%d7%98%d7%94-%d7%a2%d7%98%d7%95%d7%a3-%d7%91%d7%a8%d7%95%d7%95%d7%96-100-%d7%92%d7%a8%d7%9d-kellys?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/02/vwdEPE.png",
-   "gtin": "1938601000091",
-   "condition": "new",
-   "price": "14.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30710%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30710",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30710/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30710/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/15/#30710",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30710%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30710",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30710%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30710",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%97%D7%98%D7%99%D7%A3%20%D7%91%D7%98%D7%98%D7%94%20%D7%A2%D7%98%D7%95%D7%A3%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20100%20%D7%92%D7%A8%D7%9D%20Kelly%27s%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%97%D7%98%D7%99%D7%A3%20%D7%91%D7%98%D7%98%D7%94%20%D7%A2%D7%98%D7%95%D7%A3%20%D7%91%D7%A8%D7%95%D7%95%D7%96%20100%20%D7%92%D7%A8%D7%9D%20Kelly%27s",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:30710",
    "catalog_changed_at": "2026-10-05T12:19:46+00:00"
   }
  ]

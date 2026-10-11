@@ -1,10 +1,44 @@
 {
  "page": 100,
  "pages": 101,
- "total": 5002,
+ "total": 5003,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-101.json",
  "products": [
+  {
+   "id": "editorial-policy",
+   "title": "מדיניות עריכה ובקרה רפואית",
+   "description": "מאמרים רפואיים עוברים בדיקה של בודק רפואי מוסמך לפני פרסום. כאשר מאמר נבדק, שם הבודק ותוארו מופיעים בראש המאמר. אם מאמר טרם עבר בדיקה רפואית, השדה אינו מוצג. אנחנו לא מציגים שמות בדויים.",
+   "link": "https://transplant-israel.com/editorial-policy?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
+   "brand": "מגזין ההשתלות של ישראל",
+   "condition": "new",
+   "words": 180,
+   "quote": "מאמרים רפואיים עוברים בדיקה של בודק רפואי מוסמך לפני פרסום. כאשר מאמר נבדק, שם הבודק ותוארו מופיעים בראש המאמר. אם מאמר טרם עבר בדיקה רפואית, השדה אינו מוצג. אנחנו לא מציגים שמות בדויים.\n\nמאמרי מחירים נבדקים אחת לרבעון לפחות. מאמרים רפואיים נבדקים אחת לשנה או בכל שינוי רגולטורי רלוונטי. תאריך העדכון האחרון מופיע בכל מאמר.\n\nהמקורות המרכזיים שלנו: משרד הבריאות, המרכז הלאומי להשתלות, ההסתדרות הרפואית בישראל, וכתבי עת רפואיים בינלאומיים מבוקרי עמיתים.",
+   "image_alt": "מדיניות עריכה ובקרה רפואית",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/editorial-policy/",
+   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/editorial-policy/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#editorial-policy",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=editorial-policy",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=editorial-policy",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "מגזין ההשתלות של ישראל",
+   "business_slug": "transplant-israel-com",
+   "business_site": "https://transplant-israel.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
+   "ref": "transplant-israel-com:editorial-policy",
+   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
+  },
   {
    "id": "medical-disclaimer",
    "title": "הבהרה רפואית",
@@ -2936,48 +2970,6 @@
    "business_site": "https://www.facebook.com/zivmasgrot/",
    "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/",
    "ref": "ziv-misgarot:ziv-storage-sheds",
-   "catalog_changed_at": "2026-09-14T16:05:57+00:00"
-  },
-  {
-   "id": "ziv-shelves",
-   "title": "מדפים",
-   "description": "מדפים — שירות שהעסק מציין במקטע 'בקצרה' בעמוד שלו. אם מדובר במדפי ברזל לבית, למחסן או לעסק, ובאילו מידות — לא פורט, ואין לשער. התמחור לפי עבודה.",
-   "link": "https://wa.me/972523973975",
-   "brand": "זיו מסגרות",
-   "product_type": "מדפים > מדף > מדפי ברזל > אחסון > מסגרות > ברזל > רמת הגולן",
-   "condition": "new",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-shelves/",
-   "json": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/item/ziv-shelves/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/#ziv-shelves",
-   "order": {
-    "method": "whatsapp",
-    "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%93%D7%A4%D7%99%D7%9D%D7%B4.",
-    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
-    "routes": [
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972523973975?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%93%D7%A4%D7%99%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0523973975",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:zivpeleg28@gmail.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%93%D7%A4%D7%99%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "זיו מסגרות",
-   "business_slug": "ziv-misgarot",
-   "business_site": "https://www.facebook.com/zivmasgrot/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/ziv-misgarot/",
-   "ref": "ziv-misgarot:ziv-shelves",
    "catalog_changed_at": "2026-09-14T16:05:57+00:00"
   }
  ]

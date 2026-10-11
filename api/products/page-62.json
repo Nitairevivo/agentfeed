@@ -1,10 +1,60 @@
 {
  "page": 62,
  "pages": 101,
- "total": 5002,
+ "total": 5003,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-63.json",
  "products": [
+  {
+   "id": "32780",
+   "title": "קולר הרגעה לכלב רילקסול",
+   "description": "קולר הרגעה לכלב רילקסול הוא פתרון יעיל לעזרה לכלב להרגיש רגוע ונינוח במצבים מלחיצים כמו רעשים חזקים או נסיעות. הקולר מתאים לכלבים שמתקשים להתמודד עם מצבי מתח ומעניק להם תחושת ביטחון ונוחות לאורך כל היום. \n הקולר קל לשימוש ומיוצר מחומר עמיד המתאים לשימוש יומיומי. הוא אינו מפריע לכלב במהלך הפעילות השגרתית, ולכן מתאים גם לטיולים וגם לשהייה בבית. עם רילקסול תוכלו להפחית את הלחץ על הכלב ולשפר את איכות חייו בצורה פשוטה ויעילה.",
+   "link": "https://marleypetshop.com/product/%d7%a7%d7%95%d7%9c%d7%a8-%d7%94%d7%a8%d7%92%d7%a2%d7%94-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a8%d7%99%d7%9c%d7%a7%d7%a1%d7%95%d7%9c?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-a7-d7-95-d7-9c-d7-a8-d7-94-d7-a8-d7-92-d7-a2-d7-94-d7-9c-d7-9b-d7-9c-d7-91-d7-a8-d7-99-d7-9c-d7-a7-d7-a1-d7-95-d7-9c-1200x1200-1.jpg",
+   "gtin": "7290016238280",
+   "condition": "new",
+   "price": "129.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32780%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32780",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32780/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32780/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/5/#32780",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32780%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32780",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32780%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32780",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A7%D7%95%D7%9C%D7%A8%20%D7%94%D7%A8%D7%92%D7%A2%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A8%D7%99%D7%9C%D7%A7%D7%A1%D7%95%D7%9C%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A7%D7%95%D7%9C%D7%A8%20%D7%94%D7%A8%D7%92%D7%A2%D7%94%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A8%D7%99%D7%9C%D7%A7%D7%A1%D7%95%D7%9C",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:32780",
+   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+  },
   {
    "id": "32778",
    "title": "קולר הרגעה לכלב אמיתיי",
@@ -2447,56 +2497,6 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:32682",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "32680",
-   "title": "פרלון 1000 גרם לפילטרים סרה",
-   "description": "Sera Filter Wool Fine היא צמר סינון עדין לאקווריומים באריזת 1,000 גרם. גוזרים או מתאימים לתא הפילטר לפי היצרן, מניחים אחרי שלבי הסינון הגסים ומחליפים או שוטפים כשהזרימה נחלשת.",
-   "link": "https://marleypetshop.com/product/%d7%a4%d7%a8%d7%9c%d7%95%d7%9f-1000-%d7%92%d7%a8%d7%9d-%d7%9c%d7%a4%d7%99%d7%9c%d7%98%d7%a8%d7%99%d7%9d-%d7%a1%d7%a8%d7%94?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/875960adc9cf908723ff9e2fa493faa1.png",
-   "gtin": "4001942541589",
-   "condition": "new",
-   "price": "159.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32680%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32680",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32680/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32680/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/5/#32680",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32680%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32680",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32680%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32680",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%9C%D7%95%D7%9F%201000%20%D7%92%D7%A8%D7%9D%20%D7%9C%D7%A4%D7%99%D7%9C%D7%98%D7%A8%D7%99%D7%9D%20%D7%A1%D7%A8%D7%94%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%A8%D7%9C%D7%95%D7%9F%201000%20%D7%92%D7%A8%D7%9D%20%D7%9C%D7%A4%D7%99%D7%9C%D7%98%D7%A8%D7%99%D7%9D%20%D7%A1%D7%A8%D7%94",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:32680",
    "catalog_changed_at": "2026-10-05T12:19:46+00:00"
   }
  ]

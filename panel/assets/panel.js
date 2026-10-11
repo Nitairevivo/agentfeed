@@ -333,7 +333,7 @@
   var CERT = { measured: 'נמדד', likely: 'סביר', guess: 'השערה לבדיקה' };
   var EFFORT = { low: 'כמה דקות', medium: 'שעה-שעתיים', high: 'יום ומעלה' };
   var VERDICT = { good: ['good', 'עובד טוב'], mixed: ['warn', 'חלק עובד, חלק לא'], weak: ['alert', 'צריך תשומת לב'], too_early: ['info', 'מוקדם לשפוט'] };
-  var catalog = null;
+  var catalog = null, items = [];
   function readCatalog() {
     // the example has no product file beside it; asking for one is a 404 in every console
     if (demo) return Promise.resolve(null);
@@ -343,6 +343,7 @@
         if (!line.trim()) return;
         try { var p = JSON.parse(line); } catch (x) { return; }
         c.total++;
+        if (p.id && p.title && items.length < 2000) items.push({ id: p.id, name: p.title, price: Number(p.price) > 0 ? Number(p.price) : null });
         if (!p.image) c.noImage++;
         if (!(Number(p.price) > 0)) c.noPrice++;
         if (p.availability === 'out_of_stock') c.outOfStock++;
@@ -459,7 +460,7 @@
   try { chats = JSON.parse(localStorage.getItem(CKEY) || '[]') || []; } catch (x) { chats = []; }
   function saveChats() { try { localStorage.setItem(CKEY, JSON.stringify(chats.slice(0, 30))); } catch (x) {} }
   var bar = document.createElement('div'); bar.className = 'askbar';
-  bar.innerHTML = '<b>💬 שיחה עם המנתח</b><span><button type="button" id="chnew">＋ שיחה חדשה</button><button type="button" id="chlog">🕘 יומן שיחות</button></span>';
+  bar.innerHTML = '<b>💬 העוזר של האתר <small style="font-weight:400;opacity:.75">שאלות, שינויים באתר ותקלות</small></b><span><button type="button" id="chnew">＋ שיחה חדשה</button><button type="button" id="chlog">🕘 יומן שיחות</button></span>';
   var logBox = document.createElement('div'); logBox.className = 'chlog'; logBox.id = 'chlogbox'; logBox.hidden = true;
   if (askNode) { askNode.insertBefore(logBox, askNode.firstChild); askNode.insertBefore(bar, askNode.firstChild); }
   function layout() {
@@ -569,12 +570,25 @@
     var input = $('askq'), q = input.value.trim(); if (!q || asking) return;
     input.value = ''; logBox.hidden = true;
     bubble(esc(q), 'me'); record('me', esc(q));
-    if (demo) {
-      var dh = demoAnswer(q, shown);
-      tools(bubble(dh, 'ai')); record('ai', dh); return;
-    }
     asking = true; $('askf').classList.add('busy');
     var wait = bubble('<div class="scan"><div class="bar"></div><p>חושב…</p></div>', 'ai');
+    // the assistant sorts the message first: a change, a problem, a how-to.
+    // Only a question about the numbers goes on to the analyst.
+    assistCall(q).then(function (a) {
+      if (a && a.kind && a.kind !== 'question' && a.answer) {
+        wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
+        asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
+        return;
+      }
+      askAnalyst(q, wait, input);
+    });
+  });
+  function askAnalyst(q, wait, input) {
+    if (demo) {
+      var dh = demoAnswer(q, shown);
+      wait.innerHTML = dh; tools(wait); record('ai', dh);
+      asking = false; $('askf').classList.remove('busy'); return;
+    }
     brainCall({ ask: q }).then(function (r) {
       if (!r.answer && !(r.tips || []).length) {
         wait.innerHTML = r.detail ? '<p>המנתח לא הצליח לענות כרגע.</p><p class="sub" dir="ltr" style="font-size:12px;opacity:.7;margin:6px 0 0">' + esc(r.detail) + '</p>' :
@@ -587,13 +601,85 @@
     }).catch(function (e2) {
       wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
     }).then(function () { asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30); });
+  }
+  // ── The assistant and the keeper ────────────────────────────────────────
+  // A change is drafted by the server and read back here; nothing reaches the
+  // site until the owner presses "כן". The keeper's card says whether the
+  // site is up, from the last real check, and what happened to each request.
+  var keepApi = cfg.api + '/panel?site=' + (demo ? DEMO : cfg.site) + '&op=';
+  function keepCall(op, body) {
+    var h = { 'content-type': 'application/json' };
+    if (!demo) h.authorization = 'Bearer ' + key;
+    return fetch(keepApi + op, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
+      .then(function (r) { if (r.status === 429) throw new Error('limit'); if (!r.ok) throw new Error('server'); return r.json(); });
+  }
+  function assistCall(q) {
+    return keepCall('assist', { message: q, catalog: items.length ? items : undefined }).catch(function () { return null; });
+  }
+  var REQ = { draft: 'מחכה לאישור שלכם', approved: 'אושר, עולה לאתר בדקות הקרובות', applied: '✓ עלה לאתר', needs_human: 'אצלנו בטיפול',
+              failed: 'לא עלה', cancelled: 'בוטל', rejected: 'לא בוצע' };
+  function assistHtml(a) {
+    var h = '<p>' + esc(a.answer) + '</p>';
+    if (a.request && a.request.status === 'draft') {
+      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"><button type="button" class="btn btn-brand btn-s" data-yes>✓ כן, לעדכן</button> ' +
+           '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
+    }
+    if (a.demo && a.request) h += '<p class="sub" style="font-size:12px;opacity:.75;margin:8px 0 0">בדוגמה שום דבר לא משתנה באמת. בלוח אמיתי השינוי עולה לאתר אחרי האישור.</p>';
+    return h;
+  }
+  $('answer').addEventListener('click', function (e) {
+    var yes = e.target.closest('[data-yes]'), no = e.target.closest('[data-no]');
+    if (!yes && !no) return;
+    var box = e.target.closest('[data-req]'), id = box.getAttribute('data-req');
+    box.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
+    keepCall(yes ? 'req-confirm' : 'req-cancel', { id: id }).then(function (r) {
+      box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.' :
+        '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.') : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
+      var last = $('answer').lastElementChild; if (last) record('ai', last.innerHTML);
+      keeper();
+    }).catch(function () {
+      box.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
+      box.insertAdjacentHTML('beforeend', '<p class="sub">לא הצלחנו לשלוח כרגע. נסו שוב.</p>');
+    });
   });
+  var STATUS = { ok: ['good', 'האתר עולה ותקין'], slow: ['warn', 'האתר עולה, אבל לאט'], broken: ['alert', 'משהו לא תקין באתר'],
+                 down: ['alert', 'האתר לא עולה כרגע'], unknown: ['info', 'עוד לא נבדק'] };
+  function keeper() {
+    var card = $('keep');
+    if (!card) {
+      card = document.createElement('section'); card.className = 'cardp glass keep'; card.id = 'keep';
+      var brainSec = document.querySelector('.brain'); if (!brainSec) return;
+      brainSec.parentNode.insertBefore(card, brainSec);
+    }
+    keepCall('site-status').then(function (s) {
+      if (!s.watched) { card.hidden = true; return; }
+      card.hidden = false;
+      var st = STATUS[s.status] || STATUS.unknown, inc = s.incident;
+      var up = function (v) { return v == null ? '—' : v.toLocaleString('he-IL') + '%'; };
+      card.innerHTML = '<h2>🛡️ שומר האתר</h2><p class="sub">בודק את האתר כל הזמן, כמו לקוח מהטלפון: שהוא עולה, שהעמוד שלם ושהתמונות נטענות. אם משהו נשבר, תקבלו הודעה, ואנחנו מטפלים.</p>' +
+        '<div class="verdict ' + st[0] + '"><span class="pill"><i></i>' + st[1] + '</span>' +
+        (s.checked ? '<small class="sub"> נבדק ב-' + esc(hhmm(s.checked)) + (s.last && s.last.ms ? ' · נטען ב-' + (s.last.ms / 1000).toFixed(1) + ' שניות' : '') + '</small>' : '') + '</div>' +
+        (inc ? '<p><b>' + esc((inc.problems || []).join(' · ')) + '</b><br><span class="sub">התחיל ב-' + esc(hhmm(inc.opened)) + '. אנחנו כבר מטפלים.</span></p>' : '') +
+        '<div class="meter"><span>זמינות השבוע: <b>' + up(s.uptime7) + '</b></span><span>ב-30 יום: <b>' + up(s.uptime30) + '</b></span>' +
+        '<span>תקלות אחרונות: <b>' + (s.incidents || []).filter(function (i) { return i.event === 'opened'; }).length + '</b></span></div>' +
+        ((s.requests || []).length ? '<h3 class="brain-sub">הבקשות שלכם</h3><ul class="list">' + s.requests.slice(0, 5).map(function (r) {
+          return '<li><span>' + esc(r.summary) + '</span><b>' + esc(REQ[r.status] || r.status) + '</b></li>'; }).join('') + '</ul>' : '') +
+        (s.weekly && (s.weekly.lines || []).length ? '<h3 class="brain-sub">📊 הדוח השבועי</h3><ul class="list">' + s.weekly.lines.map(function (l) { return '<li><span>' + esc(l) + '</span></li>'; }).join('') + '</ul>' : '') +
+        (s.demo ? '<p class="sub">נתוני דוגמה.</p>' : '');
+    }).catch(function () { card.hidden = true; });
+  }
   document.querySelectorAll('#chips button').forEach(function (b) {
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
   });
   load();
   pushUI();
   brain();
+  keeper();
+  // a suggestion that shows the owner the chat can change the site, not only answer
+  (function () { var c = $('chips'); if (!c) return; var b = document.createElement('button'); b.type = 'button'; b.textContent = 'איך משנים מחיר באתר?';
+    b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
+    c.appendChild(b); })();
+  var ph = $('askq'); if (ph) ph.placeholder = 'שאלו, או בקשו שינוי: "תעדכן את המחיר של… ל-120"';
 })();
 
 // the clock in the status strip: the owner's time, in Israel

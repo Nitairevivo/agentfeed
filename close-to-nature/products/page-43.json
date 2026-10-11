@@ -1,10 +1,48 @@
 {
  "page": 43,
  "pages": 44,
- "total": 2196,
+ "total": 2197,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-44.json",
  "products": [
+  {
+   "id": "3336",
+   "title": "נאו NOW אוכל לכלבים בוגרים ללא דגנים – שק 2.72 ק”ג",
+   "description": "אוכל לכלבים NOW FRESH לכלב בוגר ללא דגנים עשוי 100% בשר הודו, ברווז וסלמון טרי. המזון מכיל אומגה 3 ואומגה 6 מקוקוס ושמן קנולה לשמירה על עור בריא ופרווה מבריקה. NOW FRESH אינו מכיל דגנים, חיטה, בקר, תירס או סויה.",
+   "link": "https://closetonature.co.il/product/%d7%a0%d7%90%d7%95-now-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%9b%d7%9c%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-%d7%9c%d7%9c%d7%90-%d7%93%d7%92%d7%a0%d7%99%d7%9d-%d7%a9%d7%a7-2-72/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A0%D7%90%D7%95-NOW-%D7%9E%D7%96%D7%95%D7%9F-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D-%D7%9C%D7%9C%D7%90-%D7%93%D7%92%D7%A0%D7%99%D7%9D-%D7%A9%D7%A7-2.72-%D7%A7%D7%92-%D7%A0%D7%90%D7%95-NOW.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "139.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3336",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3336/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3336/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#3336",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3336",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3336%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3336",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A0%D7%90%D7%95%20NOW%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%20%D7%9C%D7%9C%D7%90%20%D7%93%D7%92%D7%A0%D7%99%D7%9D%20%E2%80%93%20%D7%A9%D7%A7%202.72%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "3335",
    "title": "נאו NOW אוכל לכלבים בוגרים מגזע קטן ללא דגנים – שק 5.44 ק”ג",
@@ -1856,44 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%A7%D7%90%D7%A0%D7%94%20acana%20%D7%A1%D7%99%D7%A0%D7%92%D7%9C%D7%A1%20%D7%9B%D7%9C%D7%91%20%D7%9B%D7%91%D7%A9%20%D7%95%D7%AA%D7%A4%D7%95%D7%97%2011.4%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3111",
-   "title": "אקאנה acana הריטג’ כלב בוגר 11.4 ק”ג",
-   "description": "אקאנה acana  הריטג’ כלב בוגר 11.4 ק”ג \n מזון מלא יבש לכלבים בוגרים. בטבע כל גזעי הכלבים התפתחו כקרניבורים המותאמים ביולוגית ליהנות מתזונה עשירה ומגוונת של בשרים טריים עם כמויות מועטות של פירות ירקות ועלים ירוקים. זו הסיבה ש אקאנה כלבים בוגרים מכיל עוף מגידול חופש וביצי קן שלמות מחוות ערבה מקומיות דג סנדל שנידוג מהאי ונקובר ופירות וירקות טריים – כולם מסופקים וללא חומרי שימור מדי יום לתזונה מושלמת של כלבכם. מזון המיוצר מהרכיבים הטובים והטריים ביותר בקנדה במטבחינו עטורי הפרסים הוא הדרך הטעימה ביותר להבטיח שכלבכם הקטן יהיה בריא מאושר וחזק. רשימת הרכיבים תגרום גם לכם לחייך בסיפוק! בשרים עשירים ומגוונים: מזון אולטימטיבי זה מחקה את התזונה שאימא טבע ייעדה לכלבכם! המזון המכיל 60% עוף דגים וביצים הותאם במיוחד ע”י בהתאם להסתגלות האבולוציונית של כלבכם לתזונה עשירה בבשר ובחלבונים. המבחר העשיר של בשרים במזון משקף תזונה מגוונת וטרייה בדיוק כמו שהטבע התכוון.",
-   "link": "https://closetonature.co.il/product/%d7%90%d7%a7%d7%90%d7%a0%d7%94-%d7%94%d7%a8%d7%99%d7%98%d7%92-%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%A7%D7%90%D7%A0%D7%94-%D7%94%D7%A8%D7%99%D7%98%D7%92-%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "279.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3111",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3111/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3111/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#3111",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3111",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3111%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3111",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%A7%D7%90%D7%A0%D7%94%20acana%20%D7%94%D7%A8%D7%99%D7%98%D7%92%E2%80%99%20%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%2011.4%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

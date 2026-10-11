@@ -1,10 +1,57 @@
 {
  "page": 46,
  "pages": 101,
- "total": 5002,
+ "total": 5003,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-47.json",
  "products": [
+  {
+   "id": "9733151785317",
+   "title": "נטלה פרספקס מהודרת שקופה עם אותיות בולטות",
+   "description": "נטלה אקרילית מהודרת ושקופה בגובה 13 ס\"מ, משלבת יופי ונוחות. עם כיתוב \"נטילת ידיים\" ואותיות בולטות בזהב, ועיטור פרחים עדין, היא מוסיפה טאץ' יוקרתי לכל כיור. בסיס נצנצים מוזהב משלים את המראה הנוצץ. אידיאלית לשימוש יומיומי או כפריט נוי.",
+   "link": "https://judaicail.co.il/products/נטלה-פרספקס-מהודרת-שקופה-עם-אותיות-בולטות?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/UK42477.jpg?v=1787456238",
+   "brand": "יודאיקה ישראל",
+   "product_type": "נטלות > אקססוריז לבית > יודאיקה > יודאיקה לבית > יודאיקה מודרנית > כלי לנטילת ידיים > מתנה לבית > מתנה לבית חדש > מתנה לחג > מתנה למארחים > מתנה לשבת > נטילת ידיים > נטלה > נטלה 13 סמ > נטלה UK42477 > נטלה אקריליק > נטלה אקרילית > נטלה לכיור > נטלה מהודרת > נטלה מעוטרת > נטלה מעוצבת > נטלה עם אותיות בולטות > נטלה עם זהב > נטלה עם שתי ידיות > נטלה עמידה > נטלה פרחים > נטלה שקוף וזהב > נטלה שקופה > תשמישי קדושה",
+   "condition": "new",
+   "variant": "50321659789669",
+   "price": "100.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321659789669%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
+   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733151785317/",
+   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733151785317/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733151785317",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321659789669%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321659789669%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733151785317",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0504443385",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A0%D7%98%D7%9C%D7%94%20%D7%A4%D7%A8%D7%A1%D7%A4%D7%A7%D7%A1%20%D7%9E%D7%94%D7%95%D7%93%D7%A8%D7%AA%20%D7%A9%D7%A7%D7%95%D7%A4%D7%94%20%D7%A2%D7%9D%20%D7%90%D7%95%D7%AA%D7%99%D7%95%D7%AA%20%D7%91%D7%95%D7%9C%D7%98%D7%95%D7%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
+   },
+   "business": "יודאיקה ישראל",
+   "business_slug": "judaicail",
+   "business_site": "https://judaicail.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/",
+   "ref": "judaicail:50321659789669",
+   "catalog_changed_at": "2026-10-05T12:19:14+00:00"
+  },
   {
    "id": "9733151621477",
    "title": "נטלה מהודרת פותח את ידיך",
@@ -2304,53 +2351,6 @@
    "business_site": "https://judaicail.co.il",
    "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/",
    "ref": "judaicail:50104034066789",
-   "catalog_changed_at": "2026-10-05T12:19:14+00:00"
-  },
-  {
-   "id": "9662249992549",
-   "title": "סט כיסוי לטלית ותפילין מפואר דמוי עור שחור אותיות בולטות “האש שלי” כסף",
-   "description": "סט כיסוי לטלית ותפילין מפואר דמוי עור שחור אותיות בולטות “האש שלי” כסף \n \n  סט כיסוי  לטלית ותפילין האש שלי   מפואר וייחודי דמוי עור  , בשילוב ידית ורצועה נוחה בכיסוי הטלית בלבד. כיסוי התפילין בשילוב ריץ’-רץ’ ותיק-תק מגנט.   הסט בגוון שחור בשילוב     טקסטורה עם   אותיות בולטות “האש שלי” כסף  .  \n \n התיק מתאים לשימוש יומיומי בבית הכנסת, לשבתות וחגים, ומאפשר נשיאה נוחה ומסודרת של הטלית והתפילין. שילוב הידית ורצועת הכתף מעניק נוחות שימוש, והופך את התיק לבחירה מצוינת גם כמתנה מסורתית ומכובדת לבר מצווה, לחתן או לכל אדם המחפש איכות וקדושה. \n \n \n דמוי עור איכותי ועמיד בגוון שחור קלאסי \n הבלטה מעודנת של הכיתוב \"האש שלי\" \n ידית נשיאה ורצועת כתף לנוחות מרבית \n מבנה מרווח לאחסון טלית ותפילין בצורה מסודרת \n עיצוב אלגנטי ומסורתי עם גימור מוקפד \n \n \n  המוצר נארז בקפידה ונשלח בצורה בטוחה עד לבית הלקוח.  \n \n הוסיפו עכשיו את התיק לסל ושמרו על הטלית והתפילין בכבוד, סדר והדר \n \n מידות התיק \n \n אורך: 38 ס\"מ \n רוחב: 31 ס\"מ \n חומר: דמוי עור \n צבע: שחור \n משקל: 0.58 ק\"ג",
-   "link": "https://judaicail.co.il/products/תיק-מפואר-לטלית-תפילין-דמוי-עור-גוון-שחור-עם-הבלטה-האש-שלי?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/UK66583.jpg?v=1766058747",
-   "brand": "יודאיקה ישראל",
-   "product_type": "סט טלית תפילין > אביזרי תפילה > האש שלי > יודאיקה מסורתית > מוצרי תפילה > מתנה לבר מצווה > מתנה לחתן > תיק טלית דמוי עור שחור > תיק טלית ותפילין > תיק טלית לבית הכנסת > תיק טלית תפילין > תיק טלית תפילין שחור > תיק תפילה מהודר > תיק תפילין דמוי עור > תיק תפילין מסורתי",
-   "condition": "new",
-   "variant": "50104026268005",
-   "price": "250.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50104026268005%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9662249992549",
-   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9662249992549/",
-   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9662249992549/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9662249992549",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50104026268005%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9662249992549",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50104026268005%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9662249992549",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0504443385",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A1%D7%98%20%D7%9B%D7%99%D7%A1%D7%95%D7%99%20%D7%9C%D7%98%D7%9C%D7%99%D7%AA%20%D7%95%D7%AA%D7%A4%D7%99%D7%9C%D7%99%D7%9F%20%D7%9E%D7%A4%D7%95%D7%90%D7%A8%20%D7%93%D7%9E%D7%95%D7%99%20%D7%A2%D7%95%D7%A8%20%D7%A9%D7%97%D7%95%D7%A8%20%D7%90%D7%95%D7%AA%D7%99%D7%95%D7%AA%20%D7%91%D7%95%D7%9C%D7%98%D7%95%D7%AA%20%E2%80%9C%D7%94%D7%90%D7%A9%20%D7%A9%D7%9C%D7%99%E2%80%9D%20%D7%9B%D7%A1%D7%A3",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
-   },
-   "business": "יודאיקה ישראל",
-   "business_slug": "judaicail",
-   "business_site": "https://judaicail.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/",
-   "ref": "judaicail:50104026268005",
    "catalog_changed_at": "2026-10-05T12:19:14+00:00"
   }
  ]

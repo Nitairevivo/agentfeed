@@ -1,10 +1,43 @@
 {
  "page": 99,
  "pages": 101,
- "total": 5002,
+ "total": 5003,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-100.json",
  "products": [
+  {
+   "id": "iltoday",
+   "title": "Israel Today — ערוץ טלגרם",
+   "description": "See Israel from the inside through Israeli, Jewish, Messianic and Christian viewpoints. Biblical, Zionistic journalism from Jerusalem. israeltoday.co.il",
+   "link": "https://tgil.co.il/channel/iltoday?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/6707eb40a_photo.jpg",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 232,
+   "images": [
+    {
+     "src": "https://base44.app/api/apps/69cbeccb4a796ae2baa1488d/files/mp/public/69cbeccb4a796ae2baa1488d/6707eb40a_photo.jpg",
+     "alt": "Israel Today — תמונת פרופיל"
+    }
+   ],
+   "image_alt": "Israel Today — ערוץ טלגרם",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/iltoday/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/iltoday/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#iltoday",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+   "ref": "tgil-co-il:iltoday",
+   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
+  },
   {
    "id": "baznews9",
    "title": "רגע חדשות - צבא וביטחון בטלגרם — ערוץ טלגרם",
@@ -2331,40 +2364,6 @@
    "business_site": "https://transplant-israel.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
    "ref": "transplant-israel-com:alopecia-areata",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "editorial-policy",
-   "title": "מדיניות עריכה ובקרה רפואית",
-   "description": "מאמרים רפואיים עוברים בדיקה של בודק רפואי מוסמך לפני פרסום. כאשר מאמר נבדק, שם הבודק ותוארו מופיעים בראש המאמר. אם מאמר טרם עבר בדיקה רפואית, השדה אינו מוצג. אנחנו לא מציגים שמות בדויים.",
-   "link": "https://transplant-israel.com/editorial-policy?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/6cdf6d9ab_generated_0409e4ab.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "words": 180,
-   "quote": "מאמרים רפואיים עוברים בדיקה של בודק רפואי מוסמך לפני פרסום. כאשר מאמר נבדק, שם הבודק ותוארו מופיעים בראש המאמר. אם מאמר טרם עבר בדיקה רפואית, השדה אינו מוצג. אנחנו לא מציגים שמות בדויים.\n\nמאמרי מחירים נבדקים אחת לרבעון לפחות. מאמרים רפואיים נבדקים אחת לשנה או בכל שינוי רגולטורי רלוונטי. תאריך העדכון האחרון מופיע בכל מאמר.\n\nהמקורות המרכזיים שלנו: משרד הבריאות, המרכז הלאומי להשתלות, ההסתדרות הרפואית בישראל, וכתבי עת רפואיים בינלאומיים מבוקרי עמיתים.",
-   "image_alt": "מדיניות עריכה ובקרה רפואית",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/editorial-policy/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/editorial-policy/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#editorial-policy",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=editorial-policy",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=editorial-policy",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
-   "ref": "transplant-israel-com:editorial-policy",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]
