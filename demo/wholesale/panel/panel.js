@@ -458,18 +458,32 @@
   // device (never on our server), so yesterday's answer is one tap away.
   var CKEY = 'chats:' + (demo ? DEMO : cfg.site), chats = [], cur = null;
   try { chats = JSON.parse(localStorage.getItem(CKEY) || '[]') || []; } catch (x) { chats = []; }
-  function saveChats() { try { localStorage.setItem(CKEY, JSON.stringify(chats.slice(0, 30))); } catch (x) {} }
+  function saveChats() { try { localStorage.setItem(CKEY, JSON.stringify(chats.slice(0, 30))); } catch (x) {} drawRecent(); }
   var bar = document.createElement('div'); bar.className = 'askbar';
   bar.innerHTML = '<b>💬 העוזר של האתר <small style="font-weight:400;opacity:.75">שאלות, שינויים באתר ותקלות</small></b><span><button type="button" id="chnew">＋ שיחה חדשה</button><button type="button" id="chlog">🕘 יומן שיחות</button></span>';
   var logBox = document.createElement('div'); logBox.className = 'chlog'; logBox.id = 'chlogbox'; logBox.hidden = true;
-  if (askNode) { askNode.insertBefore(logBox, askNode.firstChild); askNode.insertBefore(bar, askNode.firstChild); }
+  // the last conversations, always in view: one tap back to yesterday's answer
+  var recent = document.createElement('div'); recent.className = 'chrecent';
+  if (askNode) { askNode.insertBefore(recent, askNode.firstChild); askNode.insertBefore(logBox, askNode.firstChild); askNode.insertBefore(bar, askNode.firstChild); }
+  function drawRecent() {
+    var list = chats.slice(0, 6);
+    recent.hidden = !list.length;
+    recent.innerHTML = list.length ? '<small>שיחות קודמות:</small>' + list.map(function (c, i) {
+      return '<button type="button" data-i="' + i + '" class="' + (c === cur ? 'on' : '') + '" title="' + esc(when(c.at)) + '">' + esc((c.title || 'שיחה').slice(0, 28)) + '</button>'; }).join('') : '';
+  }
+  recent.addEventListener('click', function (e) { var o = e.target.closest('[data-i]'); if (o) openChat(chats[+o.dataset.i]); });
   function layout() {
     var talking = $('answer').children.length > 0;
     if (talking) askNode.insertBefore($('answer'), $('chips'));      // the conversation on top, the field under it
     else askNode.appendChild($('answer'));                            // nothing yet: the field on top
     askNode.classList.toggle('talking', talking);
   }
-  function follow() { $('askf').scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' }); }
+  // the conversation scrolls inside its own frame; the page stays where it is
+  function follow() {
+    var ans = $('answer');
+    if (ans.scrollTo) ans.scrollTo({ top: ans.scrollHeight, behavior: still ? 'auto' : 'smooth' }); else ans.scrollTop = ans.scrollHeight;
+    $('askf').scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
+  }
   function plain(html) { var d = document.createElement('div'); d.innerHTML = html; return (d.textContent || '').trim(); }
   function tools(el) {
     if (!el.classList.contains('ai') || el.querySelector('.qtools')) return;
@@ -489,10 +503,18 @@
     if (cur.msgs.length > 60) cur.msgs = cur.msgs.slice(-60);
     chats = [cur].concat(chats.filter(function (c) { return c !== cur; })); saveChats();
   }
+  // A draft that was answered "כן" or "לא" is saved as answered, in its place.
+  function resave(id, bub) {
+    if (!cur || !bub) return;
+    var html = bub.innerHTML.replace(/<div class="qtools">[\s\S]*$/, '');
+    for (var i = cur.msgs.length - 1; i >= 0; i--) if (cur.msgs[i].h.indexOf('data-req="' + id + '"') >= 0) { cur.msgs[i].h = html; break; }
+    saveChats();
+  }
   function openChat(c) {
     $('answer').innerHTML = ''; cur = c || null;
     (c ? c.msgs : []).forEach(function (m) { var el = bubble(m.h, m.w === 'me' ? 'me' : 'ai', true); tools(el); });
-    layout(); logBox.hidden = true;
+    layout(); logBox.hidden = true; drawRecent();
+    var ans = $('answer'); ans.scrollTop = ans.scrollHeight;
   }
   function when(iso) { try { return new Date(iso).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }); } catch (x) { return ''; } }
   function drawLog() {
@@ -548,7 +570,8 @@
         (two ? ' אחריו ' + esc(two.label) + ', ' + two.share + '%.' : '') + ' כשמקור אחד מחזיק יותר משליש מהתנועה, כדאי לחזק מקור שני.</p>' +
         chip(['מבקרים מ' + src.label + ': ' + nf(src.value)]) + note;
     }
-    if (/מוצר|מבוקש|נמכר|שואלים/.test(q) && prod) {
+    if (/מבוקש|נמכר|הכי (שואלים|פונים|פופולרי)|פופולרי|איזה מוצר (הכי|מוביל)/.test(q) && prod) {
+      lastItem = findItem(prod.name, shopItems()) || lastItem;
       return '<p>המוצר שהכי שואלים עליו הוא <b>' + esc(prod.name) + '</b>: ' + nf(prod.actions) + ' פניות ב-30 יום' +
         (prod.wa ? ', מתוכן ' + nf(prod.wa) + ' בוואטסאפ' : '') + '. שווה לשים אותו בראש עמוד הבית ולוודא שהמחיר והמלאי מעודכנים.</p>' +
         chip(['פניות על ' + prod.name + ': ' + nf(prod.actions)]) + note;
@@ -574,7 +597,9 @@
     var wait = bubble('<div class="scan"><div class="bar"></div><p>חושב…</p></div>', 'ai');
     // the assistant sorts the message first: a change, a problem, a how-to.
     // Only a question about the numbers goes on to the analyst.
-    assistCall(q).then(function (a) {
+    var local = localAnswer(q);
+    var ask = local ? Promise.resolve(local) : demo ? Promise.resolve(demoAssist(q)) : assistCall(q);
+    ask.then(function (a) {
       if (a && a.kind && a.kind !== 'question' && a.answer) {
         wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
         asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
@@ -624,19 +649,165 @@
       h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"><button type="button" class="btn btn-brand btn-s" data-yes>✓ כן, לעדכן</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
-    if (a.demo && a.request) h += '<p class="sub" style="font-size:12px;opacity:.75;margin:8px 0 0">בדוגמה שום דבר לא משתנה באמת. בלוח אמיתי השינוי עולה לאתר אחרי האישור.</p>';
     return h;
   }
+  // ── Prices and products, answered from the shop's own list ─────────────
+  // "כמה עולה X" is not a question for the analyst, which reads visits and
+  // clicks, not prices: it answered with the most-asked product. The panel
+  // reads the product file the site is built from, and answers from it.
+  var lastItem = null;
+  function norm(s) { return String(s || '').toLowerCase().replace(/["'״׳`]/g, '').replace(/[-–—_,.:;!?()]/g, ' ').replace(/\s+/g, ' ').trim(); }
+  function findItem(text, list) {
+    var tx = ' ' + norm(text) + ' ', best = null, score = 0;
+    (list || []).forEach(function (p) {
+      var n = norm(p.name); if (!n) return;
+      if (tx.indexOf(n) >= 0) { if (1000 + n.length > score) { best = p; score = 1000 + n.length; } return; }
+      var w = n.split(' ').filter(function (x) { return x.length > 1; }), hit = w.filter(function (x) { return tx.indexOf(x) >= 0; }).length;
+      if (w.length && hit / w.length >= 0.6 && hit > score) { best = p; score = hit; }
+    });
+    return best;
+  }
+  function money(n) { return '₪' + Number(n).toLocaleString('he-IL', { maximumFractionDigits: 2 }); }
+  function shopItems() { return demo ? demoCat().filter(function (p) { return !p.hidden; }) : items; }
+  var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש)/;
+  function localAnswer(q) {
+    if (CHANGE_RE.test(q)) return null;
+    var list = shopItems();
+    if (!list.length) return null;
+    var priceQ = /(כמה .{0,20}עול|מה המחיר|מחיר של|המחיר של|מה עולה|עלות)/.test(q);
+    var listQ = /(אילו מוצרים|איזה מוצרים|מה יש (באתר|בחנות)|רשימת (ה)?מוצרים|כל המוצרים|מה אתם מוכרים)/.test(q);
+    if (listQ) return { kind: 'catalog', answer: 'באתר יש ' + list.length + ' מוצרים: ' + list.slice(0, 8).map(function (p) { return p.name + (p.price ? ' (' + money(p.price) + ')' : ''); }).join(', ') + (list.length > 8 ? ' ועוד.' : '.') };
+    if (!priceQ) return null;
+    var it = findItem(q, list) || (/(הזה|הזאת|הזו|שלו|שלה|המוצר)/.test(q) ? lastItem : null);
+    if (!it) return { kind: 'catalog', answer: 'על איזה מוצר? למשל: ' + list.slice(0, 4).map(function (p) { return p.name + (p.price ? ' ' + money(p.price) : ''); }).join(' · ') + '.' };
+    lastItem = it;
+    return { kind: 'catalog', answer: it.price ? it.name + ' עולה באתר ' + money(it.price) + '. רוצים לשנות? כתבו למשל: "תעדכן את המחיר של ' + it.name + ' ל-' + Math.round(it.price * 1.1) + '".' : 'ל' + it.name + ' אין מחיר באתר: הוא מוצג "לפי הזמנה".' };
+  }
+
+  // ── The demo shop: a catalogue the demo can really change ───────────────
+  // Example products of an example shop, labelled as such. Every change the
+  // visitor approves is made here, on this device, and shown in the table, so
+  // a prospect sees what an owner sees: ask, read it back, press yes, done.
+  var DEMO_SEED = {
+    demo: [{ id: 'd1', name: 'מזון לכלב בוגר 12 ק"ג', price: 189, desc: 'מזון יבש מלא לכלבים בוגרים' },
+           { id: 'd2', name: 'רצועה מתכווננת', price: 59, desc: '' }, { id: 'd3', name: 'חול מתגבש לחתולים', price: 45, desc: '' },
+           { id: 'd4', name: 'צעצוע לעיסה', price: 29, desc: '' }, { id: 'd5', name: 'מיטה לכלב', price: 149, desc: '' }],
+    'demo-wholesale': [{ id: 'c1', name: 'ספריי ניקוי רב תכליתי', price: 9.9, desc: '' }, { id: 'd1', name: 'כוסות חד פעמיות', price: 79, desc: '' },
+           { id: 'k1', name: 'סכין שף נירוסטה', price: 49, desc: '' }, { id: 'p1', name: 'מגבות נייר תעשייתיות', price: 39, desc: '' },
+           { id: 'b1', name: 'שקיות זבל עבות', price: 35, desc: '' }]
+  };
+  var DCK = 'democat:' + DEMO, dcat = null, dreqs = {}, dlog = [], dwa = '050-0000000';
+  function demoCat() {
+    if (!dcat) { try { dcat = JSON.parse(localStorage.getItem(DCK) || 'null'); } catch (x) {} }
+    if (!dcat) dcat = JSON.parse(JSON.stringify(DEMO_SEED[DEMO] || DEMO_SEED.demo));
+    return dcat;
+  }
+  function demoSave() { try { localStorage.setItem(DCK, JSON.stringify(dcat)); } catch (x) {} }
+  var HELP = [
+    [/דומיין|כתובת (האתר|משלי|משלך)|co\.il/, 'הדומיין נקנה על שמכם ושייך לכם. אנחנו מחברים אותו לאתר ומחדשים אותו כל שנה כחלק מהתשלום החודשי.'],
+    [/סליקה|אשראי|תשלום באתר/, 'התשלום באשראי עובר דרך חברת סליקה, בחשבון על שמכם. הכסף נכנס ישר אליכם, ואנחנו לא רואים את פרטי הכרטיס.'],
+    [/הזמנ(ה|ות)|איפה רואים/, 'כל ההזמנות מופיעות בלוח הזה. הזמנה בוואטסאפ מגיעה ישר לוואטסאפ שלכם, עם כל המוצרים והכמויות.'],
+    [/לבטל|ביטול|להפסיק/, 'אפשר להפסיק בכל רגע, בהודעה של 30 יום מראש. הדומיין נשאר שלכם.'],
+    [/איך (משנים|מעדכנים|מוסיפים)|מה אפשר (לבקש|לשנות)|מה אתה יודע/, 'פשוט כותבים כאן מה לשנות, למשל: "תעדכן את המחיר של רצועה מתכווננת ל-65", "צעצוע לעיסה אזל, תסתיר אותו", "תשנה את התיאור של מיטה לכלב: מיטה רכה ורחיצה", "תוסיף מוצר: קערת מים ב-35" או "תחליף את מספר הוואטסאפ ל-052-1234567". אני מראה מה הבנתי, ורק אחרי "כן" זה משתנה.']
+  ];
+  function demoParse(q, list, all) {
+    var it = findItem(q, all) || null, value = '';
+    var c = q.indexOf(':'); if (c >= 0) value = q.slice(c + 1).trim().replace(/^["״“]|["״”]$/g, '').trim();
+    else { var m = q.match(/["“]([^"”]{2,300})["”]/); if (m) value = m[1].trim(); }
+    if (/תמונ|צילום/.test(q)) return { kind: 'photo', item: it };
+    var add = q.match(/(?:תוסיף|תוסיפי|להוסיף|הוסף)\s+(?:מוצר|פריט)?\s*(?:חדש)?\s*:?\s*(.+?)\s+(?:ב|במחיר|ב-|ב־)\s*-?\s*₪?\s*(\d+(?:\.\d{1,2})?)/);
+    if (add) return { kind: 'new', name: add[1].replace(/^["“]|["”]$/g, '').trim(), price: Number(add[2]) };
+    if (/(תוסיף|להוסיף|הוסף|תוסיפי)\s+(מוצר|פריט)|מוצר חדש/.test(q)) return { kind: 'new' };
+    var ph = q.replace(/[\s-]/g, '').match(/(?:\+?972|0)5\d{8}/);
+    if (ph && /(מספר|טלפון|וואטסאפ|ווטסאפ)/.test(q)) { var d0 = ph[0].replace(/^\+?972/, '0'); return { kind: 'contact', value: d0.slice(0, 3) + '-' + d0.slice(3) }; }
+    if (it && /(אזל|נגמר|תוריד|תורידי|להוריד|תסתיר|להסתיר|תמחק|למחוק|הורד|מחק|לא במלאי)/.test(q) && !/(תחזיר|להחזיר|חזר|יש שוב)/.test(q)) return { kind: 'hide', item: it };
+    if (it && /(תחזיר|להחזיר|חזר למלאי|יש שוב|תציג|להציג)/.test(q)) return { kind: 'show', item: it };
+    if (/(תיאור|הסבר)/.test(q) && it && value) return { kind: 'desc', item: it, value: value };
+    if (/(שם|כותרת) (של|ה)/.test(q) && it && value) return { kind: 'name', item: it, value: value };
+    if (/(עלינו|אודות|הסיפור)/.test(q) && value) return { kind: 'story', value: value };
+    var nums = (q.replace(/(?:\+?972|0)5\d[\d-]{7,}/g, '').match(/\d+(?:\.\d{1,2})?/g) || []);
+    var n = nums.length ? Number(nums[nums.length - 1]) : null;
+    if (it && n !== null && /(מחיר|עולה|₪|שקל|ש"ח|שח|ל-?\d|ל־\d)/.test(q)) return { kind: 'price', item: it, value: n };
+    return { kind: 'other' };
+  }
+  function demoAssist(q) {
+    var NOTE = { demo: true };
+    var h = HELP.filter(function (x) { return x[0].test(q); })[0];
+    if (/(לא עובד|לא נפתח|לא עולה|לא נטען|קרס|נפל|תקוע|שגיאה|באג|תקלה|שבור|נשבר)/.test(q))
+      return { demo: true, kind: 'problem', answer: 'בדקתי עכשיו: האתר עולה (200), נטען ב-0.6 שניות, והתמונות נטענות. אם אצלכם הוא עדיין לא נפתח, נסו לרענן או רשת אחרת, וכתבו מה בדיוק רואים. (בלוח אמיתי הבדיקה רצה על האתר שלכם באותו רגע.)' };
+    if (!CHANGE_RE.test(q)) return h ? { demo: true, kind: 'help', answer: h[1] } : null;
+    var all = demoCat(), ch = demoParse(q, shopItems(), all), it = ch.item, sum = '', why = '';
+    if (ch.kind === 'price') {
+      if (!(ch.value > 0)) why = 'המחיר לא נראה תקין. כתבו מספר, למשל 120.';
+      else if (it.price && !/בטוח/.test(q) && (ch.value > it.price * 10 || ch.value < it.price / 10)) why = 'המחיר החדש רחוק מאוד מהמחיר הנוכחי (' + money(it.price) + '). אם זה נכון, כתבו שוב עם המילה "בטוח".';
+      sum = 'לשנות את המחיר של "' + (it && it.name) + '" מ-' + money(it && it.price) + ' ל-' + money(ch.value);
+    }
+    else if (ch.kind === 'hide') sum = it.hidden ? '' : 'להסתיר מהאתר את "' + it.name + '"';
+    else if (ch.kind === 'show') sum = 'להחזיר לאתר את "' + it.name + '"';
+    else if (ch.kind === 'desc') sum = 'לשנות את התיאור של "' + it.name + '" ל: ' + ch.value;
+    else if (ch.kind === 'name') sum = 'לשנות את השם של "' + it.name + '" ל: ' + ch.value;
+    else if (ch.kind === 'story') sum = 'להחליף את הטקסט של "עלינו" ל: ' + ch.value;
+    else if (ch.kind === 'contact') sum = 'לשנות את מספר הוואטסאפ באתר ל-' + ch.value;
+    else if (ch.kind === 'new' && ch.name) sum = 'להוסיף מוצר חדש: "' + ch.name + '" ב-' + money(ch.price);
+    else if (ch.kind === 'new') return { demo: true, kind: 'change', answer: 'כדי להוסיף מוצר כתבו שם ומחיר, למשל: "תוסיף מוצר: קערת מים ב-35". את התמונה שולחים לנו בוואטסאפ.' };
+    else if (ch.kind === 'photo') return { demo: true, kind: 'change', answer: 'תמונה חדשה שולחים לנו בוואטסאפ, ואנחנו מעלים אותה לאתר, בדרך כלל באותו יום. (בלוח אמיתי הבקשה נרשמת כאן ומגיעה אלינו.)' };
+    else return { demo: true, kind: 'change', answer: 'לא בטוח שהבנתי מה לשנות. נסו למשל: "תעדכן את המחיר של ' + shopItems()[0].name + ' ל-' + Math.round((shopItems()[0].price || 100) * 1.1) + '". בלוח אמיתי, בקשה לא ברורה עוברת לאדם מאיתנו.' };
+    if (!sum && !why) return { demo: true, kind: 'change', answer: '"' + it.name + '" כבר מוסתר.' };
+    if (why) return { demo: true, kind: 'change', answer: why };
+    var id = 'D' + Date.now().toString(36); dreqs[id] = { ch: ch, sum: sum };
+    if (it) lastItem = it;
+    return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, answer: 'הבנתי: ' + sum + '. לאשר?' };
+  }
+  function demoDecide(id, yes) {
+    var r = dreqs[id]; if (!r) return { note: 'הבקשה כבר טופלה.' };
+    delete dreqs[id];
+    if (!yes) return { note: 'בוטל. שום דבר לא השתנה.' };
+    var ch = r.ch, it = ch.item, all = demoCat();
+    var p = it && all.filter(function (x) { return x.id === it.id; })[0];
+    if (ch.kind === 'price') { p.price = ch.value; p.changed = 'price'; }
+    if (ch.kind === 'hide') { p.hidden = true; p.changed = 'hide'; }
+    if (ch.kind === 'show') { p.hidden = false; p.changed = 'show'; }
+    if (ch.kind === 'desc') { p.desc = ch.value; p.changed = 'desc'; }
+    if (ch.kind === 'name') { p.name = ch.value; p.changed = 'name'; }
+    if (ch.kind === 'contact') dwa = ch.value;
+    if (ch.kind === 'new') all.push({ id: 'n' + Date.now().toString(36), name: ch.name, price: ch.price, desc: '', changed: 'new' });
+    all.forEach(function (x) { if (x !== p && ch.kind !== 'new') delete x.changed; });
+    demoSave();
+    dlog.unshift({ summary: r.sum, status: 'applied', at: new Date().toISOString() });
+    return { note: '✓ עודכן. ככה זה נראה עכשיו בטבלת המוצרים למעלה. באתר אמיתי השינוי עולה לאתר תוך כמה דקות, ומגיעה הודעה כשהוא באוויר.' };
+  }
+  function demoStatus() {
+    var now = Date.now(), ago = function (m) { return new Date(now - m * 60000).toISOString(); };
+    return { watched: true, demo: true, status: 'ok', checked: ago(7), last: { ms: 640 }, incident: null, uptime7: 100, uptime30: 99.8,
+             incidents: [{ event: 'opened' }], requests: dlog.concat([{ summary: 'לשנות את המחיר של "רצועה מתכווננת" מ-₪55 ל-₪59', status: 'applied' }]),
+             weekly: { lines: ['412 מבקרים השבוע (+18% מהשבוע שלפני).', 'המוצר שהכי פנו עליו: ' + shopItems()[0].name + '.', 'האתר היה זמין 100% מהזמן השבוע, בלי תקלות.'] } };
+  }
+  function demoTable() {
+    var all = demoCat();
+    return '<h3 class="brain-sub">🛍️ המוצרים באתר <small>(חנות לדוגמה. נסו לשנות מהצ\'אט)</small></h3><ul class="list">' + all.map(function (p) {
+      return '<li style="' + (p.hidden ? 'opacity:.45;text-decoration:line-through' : '') + (p.changed ? ';background:rgba(46,204,113,.12);border-radius:8px' : '') + '"><span>' + esc(p.name) +
+        (p.desc ? '<br><small class="sub">' + esc(p.desc) + '</small>' : '') + (p.hidden ? ' <small>(מוסתר)</small>' : '') + '</span><b>' + money(p.price) + (p.changed ? ' ✓' : '') + '</b></li>'; }).join('') +
+      '</ul><p class="sub">וואטסאפ באתר: ' + esc(dwa) + ' · <button type="button" class="btn btn-s" id="demoreset">איפוס הדוגמה</button></p>';
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; try { localStorage.removeItem(DCK); } catch (x) {} keeper(); }
+  });
   $('answer').addEventListener('click', function (e) {
     var yes = e.target.closest('[data-yes]'), no = e.target.closest('[data-no]');
     if (!yes && !no) return;
     var box = e.target.closest('[data-req]'), id = box.getAttribute('data-req');
     box.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
-    keepCall(yes ? 'req-confirm' : 'req-cancel', { id: id }).then(function (r) {
+    var go = demo ? Promise.resolve(demoDecide(id, !!yes)) : keepCall(yes ? 'req-confirm' : 'req-cancel', { id: id });
+    var bub2 = box.closest('.qa');
+    go.then(function (r) {
+      if (demo) {
+        var bub = box.closest('.qa');
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b></p>';
+        resave(id, bub); keeper(); return;
+      }
       box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.' :
         '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.') : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
-      var last = $('answer').lastElementChild; if (last) record('ai', last.innerHTML);
-      keeper();
+      resave(id, bub2); keeper();
     }).catch(function () {
       box.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
       box.insertAdjacentHTML('beforeend', '<p class="sub">לא הצלחנו לשלוח כרגע. נסו שוב.</p>');
@@ -651,7 +822,7 @@
       var brainSec = document.querySelector('.brain'); if (!brainSec) return;
       brainSec.parentNode.insertBefore(card, brainSec);
     }
-    keepCall('site-status').then(function (s) {
+    (demo ? Promise.resolve(demoStatus()) : keepCall('site-status')).then(function (s) {
       if (!s.watched) { card.hidden = true; return; }
       card.hidden = false;
       var st = STATUS[s.status] || STATUS.unknown, inc = s.incident;
@@ -662,10 +833,11 @@
         (inc ? '<p><b>' + esc((inc.problems || []).join(' · ')) + '</b><br><span class="sub">התחיל ב-' + esc(hhmm(inc.opened)) + '. אנחנו כבר מטפלים.</span></p>' : '') +
         '<div class="meter"><span>זמינות השבוע: <b>' + up(s.uptime7) + '</b></span><span>ב-30 יום: <b>' + up(s.uptime30) + '</b></span>' +
         '<span>תקלות אחרונות: <b>' + (s.incidents || []).filter(function (i) { return i.event === 'opened'; }).length + '</b></span></div>' +
+        (s.demo ? demoTable() : '') +
         ((s.requests || []).length ? '<h3 class="brain-sub">הבקשות שלכם</h3><ul class="list">' + s.requests.slice(0, 5).map(function (r) {
           return '<li><span>' + esc(r.summary) + '</span><b>' + esc(REQ[r.status] || r.status) + '</b></li>'; }).join('') + '</ul>' : '') +
         (s.weekly && (s.weekly.lines || []).length ? '<h3 class="brain-sub">📊 הדוח השבועי</h3><ul class="list">' + s.weekly.lines.map(function (l) { return '<li><span>' + esc(l) + '</span></li>'; }).join('') + '</ul>' : '') +
-        (s.demo ? '<p class="sub">נתוני דוגמה.</p>' : '');
+        '';
     }).catch(function () { card.hidden = true; });
   }
   document.querySelectorAll('#chips button').forEach(function (b) {
