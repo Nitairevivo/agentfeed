@@ -671,7 +671,7 @@
   }
   function money(n) { return '₪' + Number(n).toLocaleString('he-IL', { maximumFractionDigits: 2 }); }
   function shopItems() { return demo ? demoCat().filter(function (p) { return !p.hidden; }) : items; }
-  var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש)/;
+  var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש|להוזיל|תוזיל|הוזל|הנחה|מבצע|להעלות|תעלה|תייקר|לייקר|\d+\s*%|אחוז)/;
   function localAnswer(q) {
     if (CHANGE_RE.test(q)) return null;
     var list = shopItems();
@@ -717,6 +717,14 @@
     var c = q.indexOf(':'); if (c >= 0) value = q.slice(c + 1).trim().replace(/^["״“]|["״”]$/g, '').trim();
     else { var m = q.match(/["“]([^"”]{2,300})["”]/); if (m) value = m[1].trim(); }
     if (/תמונ|צילום/.test(q)) return { kind: 'photo', item: it };
+    var pc = q.match(/(\d+(?:\.\d+)?)\s*(?:%|אחוז)/);
+    if (pc) {
+      var up = /(להעלות|תעלה|תייקר|לייקר|יקר יותר|העלאה)/.test(q), f = 1 + (up ? 1 : -1) * Number(pc[1]) / 100;
+      var scope = /(כל|הכל|הכול|כולם|החנות|האתר)/.test(q) || !it ? list : [it];
+      if (!(f > 0) || Number(pc[1]) > 90) return { kind: 'other' };
+      return { kind: 'bulk', pct: (up ? '+' : '-') + pc[1] + '%', list: scope.filter(function (x) { return x.price; }).map(function (x) {
+        return { kind: 'price', item: x, value: Math.max(1, Math.round(x.price * f)) }; }) };
+    }
     var add = q.match(/(?:תוסיף|תוסיפי|להוסיף|הוסף)\s+(?:מוצר|פריט)?\s*(?:חדש)?\s*:?\s*(.+?)\s+(?:ב|במחיר|ב-|ב־)\s*-?\s*₪?\s*(\d+(?:\.\d{1,2})?)/);
     if (add) return { kind: 'new', name: add[1].replace(/^["“]|["”]$/g, '').trim(), price: Number(add[2]) };
     if (/(תוסיף|להוסיף|הוסף|תוסיפי)\s+(מוצר|פריט)|מוצר חדש/.test(q)) return { kind: 'new' };
@@ -739,6 +747,13 @@
       return { demo: true, kind: 'problem', answer: 'בדקתי עכשיו: האתר עולה (200), נטען ב-0.6 שניות, והתמונות נטענות. אם אצלכם הוא עדיין לא נפתח, נסו לרענן או רשת אחרת, וכתבו מה בדיוק רואים. (בלוח אמיתי הבדיקה רצה על האתר שלכם באותו רגע.)' };
     if (!CHANGE_RE.test(q)) return h ? { demo: true, kind: 'help', answer: h[1] } : null;
     var all = demoCat(), ch = demoParse(q, shopItems(), all), it = ch.item, sum = '', why = '';
+    if (ch.kind === 'bulk') {
+      var bl = ch.list.map(function (c) { return { ch: c, sum: sumOf(c) }; });
+      if (!bl.length) return { demo: true, kind: 'change', answer: 'אין באתר מוצרים עם מחיר לשנות.' };
+      var bid = 'D' + Date.now().toString(36); dreqs[bid] = { list: bl };
+      return { demo: true, kind: 'change', request: { id: bid, status: 'draft' }, changes: bl.map(function (x) { return x.sum; }),
+               answer: 'הבנתי: ' + (ch.pct.charAt(0) === '-' ? 'להוריד' : 'להעלות') + ' ' + ch.pct.slice(1) + ' ' + (bl.length > 1 ? 'מכל ' + bl.length + ' המוצרים' : 'מהמוצר') + ', מעוגל לשקל. ככה זה ייראה. לאשר?' };
+    }
     if (ch.kind === 'price') {
       if (!(ch.value > 0)) why = 'המחיר לא נראה תקין. כתבו מספר, למשל 120.';
       else if (it.price && !/בטוח/.test(q) && (ch.value > it.price * 10 || ch.value < it.price / 10)) why = 'המחיר החדש רחוק מאוד מהמחיר הנוכחי (' + money(it.price) + '). אם זה נכון, כתבו שוב עם המילה "בטוח".';
