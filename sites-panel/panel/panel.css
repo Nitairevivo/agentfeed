@@ -494,3 +494,5 @@ form.add[aria-disabled="true"] { opacity: .5; }
                    border-radius: 999px; padding: 5px 11px; cursor: pointer; white-space: nowrap; }
 .chrecent button:hover, .chrecent button.on { border-color: var(--violet); background: rgba(139,108,255,.18); }
 .chrecent[hidden] { display: none; }
+.qa ul.chg { margin: 8px 0 4px; padding: 0 18px 0 0; display: grid; gap: 4px; }
+.qa ul.chg li { font-weight: 600; }

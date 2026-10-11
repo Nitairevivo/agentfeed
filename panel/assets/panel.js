@@ -598,7 +598,8 @@
     // the assistant sorts the message first: a change, a problem, a how-to.
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
-    var ask = local ? Promise.resolve(local) : demo ? Promise.resolve(demoAssist(q)) : assistCall(q);
+    var ask = demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
+                   : local ? Promise.resolve(local) : assistCall(q);
     ask.then(function (a) {
       if (a && a.kind && a.kind !== 'question' && a.answer) {
         wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
@@ -644,7 +645,8 @@
   var REQ = { draft: 'מחכה לאישור שלכם', approved: 'אושר, עולה לאתר בדקות הקרובות', applied: '✓ עלה לאתר', needs_human: 'אצלנו בטיפול',
               failed: 'לא עלה', cancelled: 'בוטל', rejected: 'לא בוצע' };
   function assistHtml(a) {
-    var h = '<p>' + esc(a.answer) + '</p>';
+    var h = '<p>' + esc(a.answer).replace(/\n/g, '<br>') + '</p>';
+    if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     if (a.request && a.request.status === 'draft') {
       h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"><button type="button" class="btn btn-brand btn-s" data-yes>✓ כן, לעדכן</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
@@ -758,23 +760,65 @@
     if (it) lastItem = it;
     return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, answer: 'הבנתי: ' + sum + '. לאשר?' };
   }
-  function demoDecide(id, yes) {
-    var r = dreqs[id]; if (!r) return { note: 'הבקשה כבר טופלה.' };
-    delete dreqs[id];
-    if (!yes) return { note: 'בוטל. שום דבר לא השתנה.' };
-    var ch = r.ch, it = ch.item, all = demoCat();
+  // The demo talks to the same model the analyst uses, with this example
+  // shop's products and numbers, so it answers anything an owner would ask.
+  // It only proposes; a change is made here, after "כן". Without the model
+  // (no key, a busy quota, no network) the rules above answer instead.
+  function demoBrain(q) {
+    var hist = (cur && cur.msgs || []).slice(-9, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 400) }; });
+    var ctl = window.AbortController ? new AbortController() : null, tm = ctl && setTimeout(function () { ctl.abort(); }, 40000);
+    return fetch(keepApi + 'demo-brain', { method: 'POST', headers: { 'content-type': 'application/json' }, signal: ctl ? ctl.signal : undefined,
+      body: JSON.stringify({ message: q, history: hist, items: demoCat() }) })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (b) {
+        if (tm) clearTimeout(tm);
+        if (!b || !b.answer) return null;
+        var all = demoCat(), list = [];
+        (b.changes || []).forEach(function (c) {
+          var it = c.item ? all.filter(function (x) { return x.id === c.item; })[0] : null;
+          var ch = { kind: c.kind, item: it, value: c.value, name: c.name, price: c.kind === 'new' ? c.value : undefined };
+          if (ch.kind === 'photo') return;
+          var s = sumOf(ch); if (s) list.push({ ch: ch, sum: s });
+        });
+        if (!list.length) return { demo: true, kind: 'brain', answer: b.answer };
+        var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
+        return { demo: true, kind: 'change', answer: b.answer, request: { id: id, status: 'draft' },
+                 changes: list.map(function (x) { return x.sum; }) };
+      }, function () { if (tm) clearTimeout(tm); return null; });
+  }
+  function sumOf(ch) {
+    var it = ch.item;
+    if (ch.kind === 'price' && it) return 'המחיר של "' + it.name + '": ' + money(it.price) + ' ← ' + money(ch.value);
+    if (ch.kind === 'hide' && it) return 'להסתיר את "' + it.name + '"';
+    if (ch.kind === 'show' && it) return 'להחזיר לאתר את "' + it.name + '"';
+    if (ch.kind === 'desc' && it) return 'התיאור של "' + it.name + '": ' + ch.value;
+    if (ch.kind === 'name' && it) return 'השם של "' + it.name + '" ← ' + ch.value;
+    if (ch.kind === 'story') return 'הטקסט של "עלינו": ' + ch.value;
+    if (ch.kind === 'contact') return 'וואטסאפ באתר ← ' + ch.value;
+    if (ch.kind === 'new' && ch.name) return 'מוצר חדש: "' + ch.name + '" ב-' + money(ch.price);
+    return '';
+  }
+  function demoApply(ch) {
+    var it = ch.item, all = demoCat();
     var p = it && all.filter(function (x) { return x.id === it.id; })[0];
+    if (!p && ['price', 'hide', 'show', 'desc', 'name'].indexOf(ch.kind) >= 0) return;
     if (ch.kind === 'price') { p.price = ch.value; p.changed = 'price'; }
     if (ch.kind === 'hide') { p.hidden = true; p.changed = 'hide'; }
     if (ch.kind === 'show') { p.hidden = false; p.changed = 'show'; }
     if (ch.kind === 'desc') { p.desc = ch.value; p.changed = 'desc'; }
     if (ch.kind === 'name') { p.name = ch.value; p.changed = 'name'; }
     if (ch.kind === 'contact') dwa = ch.value;
-    if (ch.kind === 'new') all.push({ id: 'n' + Date.now().toString(36), name: ch.name, price: ch.price, desc: '', changed: 'new' });
-    all.forEach(function (x) { if (x !== p && ch.kind !== 'new') delete x.changed; });
+    if (ch.kind === 'new') all.push({ id: 'n' + Date.now().toString(36) + Math.random().toString(36).slice(2, 4), name: ch.name, price: ch.price, desc: '', changed: 'new' });
+  }
+  function demoDecide(id, yes) {
+    var r = dreqs[id]; if (!r) return { note: 'הבקשה כבר טופלה.' };
+    delete dreqs[id];
+    if (!yes) return { note: 'בוטל. שום דבר לא השתנה.' };
+    demoCat().forEach(function (x) { delete x.changed; });
+    var list = r.list || [{ ch: r.ch, sum: r.sum }];
+    list.forEach(function (x) { demoApply(x.ch); dlog.unshift({ summary: x.sum, status: 'applied', at: new Date().toISOString() }); });
     demoSave();
-    dlog.unshift({ summary: r.sum, status: 'applied', at: new Date().toISOString() });
-    return { note: '✓ עודכן. ככה זה נראה עכשיו בטבלת המוצרים למעלה. באתר אמיתי השינוי עולה לאתר תוך כמה דקות, ומגיעה הודעה כשהוא באוויר.' };
+    return { note: (list.length > 1 ? '✓ ' + list.length + ' שינויים עודכנו.' : '✓ עודכן.') + ' ככה זה נראה עכשיו בטבלת המוצרים למעלה. באתר אמיתי השינוי עולה לאתר תוך כמה דקות, ומגיעה הודעה כשהוא באוויר.' };
   }
   function demoStatus() {
     var now = Date.now(), ago = function (m) { return new Date(now - m * 60000).toISOString(); };
