@@ -3,8 +3,9 @@
 // the key moves from the address to this tab and is sent only in a header.
 // ?demo shows the same desk with example tickets, kept on this device.
 (function () {
-  var API = 'https://agentfeed-plum.vercel.app/api/panel';
   var qs = new URLSearchParams(location.search);
+  // a local server, for testing on this machine only
+  var API = /^http:\/\/localhost:\d+$/.test(qs.get('api') || '') ? qs.get('api') + '/panel' : 'https://agentfeed-plum.vercel.app/api/panel';
   var agency = (qs.get('agency') || '').toLowerCase().replace(/[^a-z0-9-]/g, '');
   var key = '';
   try {
@@ -33,7 +34,7 @@
   function demoData() {
     var kept = null; try { kept = JSON.parse(localStorage.getItem(DK) || 'null'); } catch (x) {}
     if (kept) return kept;
-    return { me: { id: 'noam', name: 'נועם' }, brand: { name: 'newsite', color: '#5b4bdb', accent: '#00b5b8' },
+    return { me: { id: 'noam', name: 'נועם' }, brand: { name: 'סטודיו לדוגמה', color: '#5b4bdb', accent: '#00b5b8' },
       team: [{ id: 'noam', name: 'נועם' }, { id: 'dana', name: 'דנה' }],
       sites: [{ slug: 'pizza', name: 'פיצה דרור', platform: 'lovable', repo: 'studio/pizza', health: { watched: true, status: 'ok', uptime7: 100 } },
               { slug: 'flowers', name: 'פרחי השרון', platform: 'base44', repo: '', health: { watched: true, status: 'ok', uptime7: 99.6 } },
@@ -45,7 +46,10 @@
           log: [{ w: 'client', t: 'שהכפתור יהיה בחום של הלוגו', at: h(6) }, { w: 'system', t: '🤖 השינוי מוכן. אפשר לראות אותו ולאשר · שיניתי את צבע הכפתור לחום של הלוגו (#8B5E3C) בעמוד הבית ובעמוד האירועים.', at: h(5) }] },
         { no: '1002', site: 'flowers', client: 'פרחי השרון', subject: 'להחליף את התמונה הראשית', prio: 'normal', status: 'waiting', who: 'noam', whoName: 'נועם', at: h(20),
           log: [{ w: 'team', by: 'נועם', t: 'שלחי לנו את התמונה בוואטסאפ ונעלה היום', at: h(19) }, { w: 'note', by: 'נועם', t: 'אתר Base44, ידני', at: h(19) }] },
-        { no: '1001', site: 'pizza', client: 'פיצה דרור', subject: 'שעות פתיחה חדשות לחגים', prio: 'normal', status: 'done', who: 'dana', whoName: 'דנה', at: h(50), log: [{ w: 'team', by: 'דנה', t: 'עודכן ונבדק ✓', at: h(48) }] }
+        { no: '1001', site: 'pizza', client: 'פיצה דרור', subject: 'שעות פתיחה חדשות לחגים', prio: 'normal', status: 'done', who: 'dana', whoName: 'דנה', at: h(50), log: [{ w: 'team', by: 'דנה', t: 'עודכן ונבדק ✓', at: h(48) }] },
+        { no: '1000', site: 'flowers', client: 'פרחי השרון', subject: 'להוסיף באנר של מבצע ולנטיינז', prio: 'normal', status: 'doing', who: 'dana', whoName: 'דנה', at: h(30), log: [{ w: 'client', t: 'משהו אדום וחגיגי, עד יום חמישי', at: h(30) }] },
+        { no: '999', site: 'bakery', client: 'מאפיית אורן', subject: 'הכתובת בפוטר לא נכונה', prio: 'urgent', status: 'doing', who: 'dana', whoName: 'דנה', at: h(7), log: [{ w: 'client', t: 'עברנו לרחוב הרצל 12', at: h(7) }] },
+        { no: '998', site: 'flowers', client: 'פרחי השרון', subject: 'לשנות את הטקסט בעמוד אודות', prio: 'normal', status: 'new', who: '', at: h(28), log: [] }
       ] };
   }
   function demoSave(d) { try { localStorage.setItem(DK, JSON.stringify(d)); } catch (x) {} }
@@ -98,7 +102,49 @@
     $('counts').innerHTML = ['new', 'doing', 'waiting', 'review', 'done'].map(function (s) {
       return '<button type="button" data-f="' + s + '" class="' + (state.filter === s ? 'on' : '') + '"><b>' + c(s) + '</b><span>' + ST[s] + '</span></button>'; }).join('');
     var chips = [['open', 'פתוחות'], ['mine', 'שלי'], ['urgent', '🔴 דחופות'], ['all', 'הכול']];
+    var tp = tips();
+    $('tips').innerHTML = tp.length ? '<b>💡 מה הכי כדאי עכשיו</b><ul>' + tp.map(function (x) { return '<li' + (x[2] ? ' data-f="' + (x[2] === 'late' ? 'open' : x[2] === 'unassigned' ? 'new' : x[2]) + '"' : '') + '><span>' + x[0] + '</span>' + esc(x[1]) + '</li>'; }).join('') + '</ul>' : '<b>💡 הכול מטופל. יופי של עבודה.</b>';
+    $('load').innerHTML = workload();
     $('chips').innerHTML = chips.map(function (x) { return '<button type="button" data-f="' + x[0] + '" class="' + (state.filter === x[0] ? 'on' : '') + '">' + x[1] + '</button>'; }).join('');
+  }
+  // ── what makes the desk smarter than a list ──
+  var QUICK = ['קיבלנו, מטפלים בזה היום 🙏', 'אפשר לשלוח לנו את התמונה בוואטסאפ?', 'השינוי עלה לאתר. תבדקו ותגידו לנו שהכול טוב 🙂',
+               'צריכים עוד פרט קטן כדי להתקדם:', 'זה ייקח קצת יותר זמן, נעדכן עד מחר בצהריים'];
+  function ageH(t) { return (Date.now() - new Date(t.at)) / 3600e3; }
+  function age(t) {
+    if (t.status === 'done') return '';
+    var hh = ageH(t), late = t.prio === 'urgent' ? hh > 4 : hh > 24;
+    var d = Math.round(hh / 24), txt = hh < 1 ? 'נפתחה עכשיו' : hh < 2 ? 'פתוחה שעה' : hh < 24 ? 'פתוחה ' + Math.round(hh) + ' שעות' : d === 1 ? 'פתוחה יום' : d === 2 ? 'פתוחה יומיים' : 'פתוחה ' + d + ' ימים';
+    return '<span class="age' + (late ? ' late' : '') + '" title="' + (late ? 'מעבר לזמן התגובה' : '') + '">⏱ ' + txt + '</span>';
+  }
+  // Advice from the desk's own numbers: which tickets are late, who carries
+  // too much, what waits on an approval, which client keeps asking.
+  function tips() {
+    var open = state.tickets.filter(function (t) { return t.status !== 'done'; }), out = [];
+    var late = open.filter(function (t) { return t.prio === 'urgent' ? ageH(t) > 4 : ageH(t) > 24; });
+    if (late.length) out.push(['⏱', late.length === 1 ? 'פנייה אחת עברה את זמן התגובה: #' + late[0].no + ' (' + late[0].client + ')' : late.length + ' פניות עברו את זמן התגובה. כדאי להתחיל מהן', 'late']);
+    var none = open.filter(function (t) { return !t.who && t.status === 'new'; });
+    if (none.length) out.push(['👤', none.length === 1 ? 'פנייה אחת עוד לא שויכה לאף אחד' : none.length + ' פניות עוד לא שויכו לאף אחד', 'unassigned']);
+    var rev = open.filter(function (t) { return t.status === 'review'; });
+    if (rev.length) out.push(['🤖', (rev.length === 1 ? 'שינוי אחד של Claude מחכה' : rev.length + ' שינויים של Claude מחכים') + ' לאישור. זה הכי מהיר לסגור', 'review']);
+    var load = {}; open.forEach(function (t) { if (t.who) load[t.who] = (load[t.who] || 0) + 1; });
+    var ids = Object.keys(load).sort(function (a, b) { return load[b] - load[a]; });
+    if (ids.length > 1 && load[ids[0]] >= load[ids[ids.length - 1]] + 3) {
+      var nm = function (id) { return (state.team.filter(function (m) { return m.id === id; })[0] || {}).name || id; };
+      out.push(['⚖️', nm(ids[0]) + ' מחזיק/ה ' + load[ids[0]] + ' פניות פתוחות, ' + nm(ids[ids.length - 1]) + ' רק ' + load[ids[ids.length - 1]] + '. כדאי לאזן', '']);
+    }
+    var by = {}; state.tickets.forEach(function (t) { if (ageH(t) < 30 * 24) by[t.client] = (by[t.client] || 0) + 1; });
+    var busy = Object.keys(by).filter(function (c) { return by[c] >= 3; })[0];
+    if (busy) out.push(['💬', busy + ' פתח/ה ' + by[busy] + ' פניות החודש. אולי שווה שיחה קצרה: מה עוד מפריע לו באתר?', '']);
+    var canAI = open.filter(function (t) { var s = siteOf(t.site); return s.repo && t.status !== 'review' && !(t.agent && t.agent.state === 'running'); });
+    if (canAI.length) out.push(['✨', canAI.length + ' פניות באתרי Lovable: אפשר לתת ל-Claude להתחיל עליהן, ולבדוק רק את התוצאה', '']);
+    return out;
+  }
+  function workload() {
+    var open = state.tickets.filter(function (t) { return t.status !== 'done'; });
+    return state.team.map(function (m) {
+      var n = open.filter(function (t) { return t.who === m.id; }).length;
+      return '<span class="wl"><b>' + esc(m.name) + '</b> ' + n + ' פתוחות</span>'; }).join('');
   }
   function siteOf(slug) { return state.sites.filter(function (s) { return s.slug === slug; })[0] || {}; }
   function ticket(t) {
@@ -116,13 +162,14 @@
       '<button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">✕ לא לאשר</button></div>';
     if (ag.state === 'merged') agent = '<div class="agent">🚀 עלה לאתר <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולחזור לגרסה הקודמת</button></div>';
     return '<li class="tk' + (t.prio === 'urgent' ? ' urgent' : '') + '"><header><span class="no">#' + esc(t.no) + '</span><span class="client">' + esc(t.client) + '</span>' +
-      '<span class="st ' + t.status + '">' + ST[t.status] + '</span></header><div class="subj">' + (t.prio === 'urgent' ? '🔴 ' : '') + esc(t.subject) + '</div>' +
+      age(t) + '<span class="st ' + t.status + '">' + ST[t.status] + '</span></header><div class="subj">' + (t.prio === 'urgent' ? '🔴 ' : '') + esc(t.subject) + '</div>' +
       '<div class="ctl"><select data-set="status" data-no="' + t.no + '" aria-label="סטטוס">' + opts(t.status) + '</select>' +
       '<select data-set="who" data-no="' + t.no + '" aria-label="משויך ל">' + who + '</select>' +
       (canAI && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-agent" data-no="' + t.no + '">🤖 לתת ל-Claude לבצע</button>' : '') +
       (!canAI ? '<small style="color:var(--dim)">' + (s.platform === 'base44' ? 'אתר Base44: שינוי ידני' : 'אין מאגר קוד מחובר') + '</small>' : '') + '</div>' +
       agent + '<div class="thread">' + thread + '</div>' +
-      '<form class="reply" data-no="' + t.no + '"><textarea name="t" maxlength="2000" placeholder="תשובה ללקוח…"></textarea>' +
+      '<form class="reply" data-no="' + t.no + '"><div class="quick">' + QUICK.map(function (q, i) { return '<button type="button" data-q="' + i + '">' + esc(q.length > 26 ? q.slice(0, 24) + '…' : q) + '</button>'; }).join('') + '</div>' +
+      '<textarea name="t" maxlength="2000" placeholder="תשובה ללקוח…"></textarea>' +
       '<div class="row"><label><input type="checkbox" name="n"> הערה פנימית (הלקוח לא רואה)</label><button class="btn" type="submit">שליחה</button></div></form></li>';
   }
   function render() {
@@ -149,6 +196,8 @@
   document.addEventListener('click', function (e) {
     var tab = e.target.closest('[data-view]');
     if (tab) { document.querySelectorAll('[data-view]').forEach(function (b) { b.classList.toggle('on', b === tab); }); $('tickets').hidden = tab.dataset.view !== 'tickets'; $('sites').hidden = tab.dataset.view !== 'sites'; return; }
+    var qb = e.target.closest('[data-q]');
+    if (qb) { var ta = qb.closest('form').querySelector('textarea'); ta.value = QUICK[+qb.dataset.q] + (/:$/.test(QUICK[+qb.dataset.q]) ? ' ' : ''); ta.focus(); return; }
     var f = e.target.closest('[data-f]');
     if (f) { state.filter = f.dataset.f; render(); return; }
     var a = e.target.closest('[data-act]');

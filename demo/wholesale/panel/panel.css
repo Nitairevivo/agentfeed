@@ -530,3 +530,7 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .tkmsg small { color: var(--dim); }
 .tkreply { display: flex; gap: 6px; }
 .tkreply input { flex: 1; min-width: 0; padding: 7px 10px; }
+
+.pntoast { position: fixed; bottom: 84px; left: 50%; transform: translateX(-50%); z-index: 70; background: rgba(10,12,28,.95); color: #fff; border: 1px solid rgba(62,230,255,.4);
+           padding: 10px 16px; border-radius: 12px; opacity: 0; transition: opacity .2s; pointer-events: none; max-width: 90vw; text-align: center; }
+.pntoast.on { opacity: 1; }

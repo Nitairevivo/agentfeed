@@ -885,7 +885,8 @@
         resave(id, bub); keeper(); return;
       }
       box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.' :
-        '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.') : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
+        (r.ticket ? '✓ נפתחה פנייה #' + r.ticket.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות".' : '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.')) : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
+      if (r.ticket) tickets();
       resave(id, bub2); keeper();
     }).catch(function () {
       box.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
@@ -931,7 +932,7 @@
       anchor.parentNode.insertBefore(card, anchor.nextSibling);
       card.addEventListener('click', tkClick); card.addEventListener('change', tkChange); card.addEventListener('submit', tkSubmit);
     }
-    if (!demo) { card.hidden = true; return; }   // the real one arrives with the agency's own setup
+    if (!demo) return realTickets(card);
     var l = tkList(), mine = l.filter(function (x) { return x.mine; });
     var pill = function (s) { var v = TST[s] || TST.new; return '<span class="pill ' + v[0] + '"><i></i>' + v[1] + '</span>'; };
     var thread = function (x) { return (x.log || []).map(function (m) { return '<p class="tkmsg ' + m.w + '"><b>' + (m.w === 'team' ? esc(x.who || 'הצוות') : (x.mine ? 'אתם' : esc(x.client))) + ':</b> ' + esc(m.t) + ' <small>' + esc(hhmm(m.at)) + '</small></p>'; }).join(''); };
@@ -955,7 +956,44 @@
           '<select data-i="' + i + '" data-f="who" aria-label="משויך ל"><option value="">לא משויך</option>' + TEAM.map(function (n) { return '<option' + (x.who === n ? ' selected' : '') + '>' + n + '</option>'; }).join('') + '</select></div>' +
           thread(x) + '<form class="tkreply" data-i="' + i + '"><input name="r" maxlength="300" placeholder="תשובה ללקוח…"><button class="btn btn-s" type="submit">שליחה</button></form></li>'; }).join('') + '</ul>';
   }
-  function tkClick(e) { var b = e.target.closest('[data-tab]'); if (b) { deskOn = b.dataset.tab === 'desk'; tickets(); } }
+  // A real site run by an agency: its tickets live on the agency's desk, and
+  // the owner sees theirs here, answers in the thread, and opens new ones.
+  function toast(m) {
+    var el = $('pntoast'); if (!el) { el = document.createElement('div'); el.id = 'pntoast'; el.className = 'pntoast'; el.setAttribute('role', 'status'); document.body.appendChild(el); }
+    el.textContent = m; el.classList.add('on'); clearTimeout(el._t); el._t = setTimeout(function () { el.classList.remove('on'); }, 2800);
+  }
+  var RST = { new: 'חדשה', doing: 'בטיפול', waiting: 'מחכה לתשובה שלכם', review: 'מחכה לאישור שינוי', done: 'טופלה' }, rtk = [];
+  function tkCall(op, body) {
+    return fetch(cfg.api + '/panel?op=' + op + '&site=' + cfg.site, { method: body ? 'POST' : 'GET',
+      headers: { 'content-type': 'application/json', authorization: 'Bearer ' + key }, body: body ? JSON.stringify(body) : undefined })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { if (!r.ok) { var e = new Error(d.error || r.status); e.code = r.status; throw e; } return d; }); });
+  }
+  function realTickets(card) {
+    tkCall('tickets').then(function (d) {
+      card.hidden = false; rtk = d.tickets || [];
+      if (d.brand && d.brand.name) {
+        document.title = 'לוח הבקרה | ' + cfg.name + ' · ' + d.brand.name;
+        var top = document.querySelector('.pn-top small'); if (top && top.textContent.indexOf(d.brand.name) < 0) top.textContent += ' · ' + d.brand.name;
+      }
+      var pill = function (s) { return '<span class="pill ' + (s === 'done' ? 'good' : s === 'new' ? 'info' : 'warn') + '"><i></i>' + (RST[s] || s) + '</span>'; };
+      var thread = function (x) { return (x.log || []).map(function (m) { return '<p class="tkmsg ' + (m.w === 'client' ? 'client' : 'team') + '"><b>' + (m.w === 'client' ? 'אתם' : m.w === 'system' ? 'המערכת' : esc(m.by || 'הצוות')) + ':</b> ' + esc(m.t) + ' <small>' + esc(hhmm(m.at)) + '</small></p>'; }).join(''); };
+      card.innerHTML = '<div class="tkhead"><h2>📨 פניות לצוות</h2></div><p class="sub">מה שלא משתנה לבד בצ\'אט, פותחים כאן פנייה, והצוות מטפל. רואים כל שלב ועונים כאן.</p>' +
+        '<form class="tkform" id="tkform"><input name="s" maxlength="120" required placeholder="מה צריך? למשל: להגדיל את הלוגו בטלפון"><textarea name="b" rows="2" maxlength="2000" placeholder="פרטים (לא חובה)"></textarea>' +
+        '<label><input type="checkbox" name="u"> דחוף</label><button class="btn btn-brand btn-s" type="submit">📨 לפתוח פנייה</button></form>' +
+        (rtk.length ? '<ul class="tklist">' + rtk.map(function (x) {
+          var ag = x.agent || {};
+          return '<li><div class="tkrow"><b>#' + esc(x.no) + ' · ' + esc(x.subject) + '</b>' + pill(x.status) + '</div>' +
+            '<small class="sub">' + (x.whoName ? 'מטפל/ת: ' + esc(x.whoName) + ' · ' : '') + (x.prio === 'urgent' ? '🔴 דחוף · ' : '') + 'נפתחה ' + esc(hhmm(x.at)) + '</small>' + thread(x) +
+            (x.status === 'review' && ag.pr ? '<p class="sub">🤖 השינוי מוכן ומחכה לאישור' + (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">צילומי לפני ואחרי</a>' : '') +
+              ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">✓ לאשר</button></p>' : '') +
+            (x.status !== 'done' ? '<form class="tkreply" data-no="' + esc(x.no) + '"><input name="r" maxlength="2000" placeholder="לענות לצוות…"><button class="btn btn-s" type="submit">שליחה</button></form>' : '') + '</li>'; }).join('') + '</ul>'
+          : '<p class="sub">עוד אין פניות. אפשר לפתוח כאן, או פשוט לכתוב לעוזר בצ\'אט.</p>');
+    }).catch(function (e) { card.hidden = true; });   // a site with no team desk shows no card
+  }
+  function tkClick(e) {
+    var ok = e.target.closest('[data-tkok]');
+    if (ok && !demo) { ok.disabled = true; tkCall('ticket-approve', { no: ok.dataset.tkok }).then(function () { toast('🚀 אושר. השינוי עולה לאתר'); tickets(); })
+      .catch(function (er) { ok.disabled = false; toast(er.code === 403 ? 'באתר הזה הצוות מאשר שינויים. כתבו להם בפנייה.' : 'לא הצלחנו לאשר כרגע'); }); return; } var b = e.target.closest('[data-tab]'); if (b) { deskOn = b.dataset.tab === 'desk'; tickets(); } }
   function tkChange(e) {
     var s = e.target.closest('select[data-i]'); if (!s) return;
     var x = tkList()[+s.dataset.i]; x[s.dataset.f] = s.value;
@@ -965,6 +1003,13 @@
   function tkSubmit(e) {
     e.preventDefault();
     var f = e.target;
+    if (!demo) {
+      if (f.id === 'tkform') return tkCall('ticket-new', { subject: f.s.value.trim(), body: f.b.value.trim(), prio: f.u.checked ? 'urgent' : 'normal' })
+        .then(function (t) { toast('✓ נפתחה פנייה #' + t.no); tickets(); }).catch(function () { toast('לא הצלחנו לפתוח פנייה כרגע'); });
+      if (f.classList.contains('tkreply') && f.r.value.trim()) return tkCall('ticket-reply', { no: f.dataset.no, text: f.r.value.trim() })
+        .then(function () { toast('נשלח לצוות'); tickets(); }).catch(function () { toast('לא נשלח, נסו שוב'); });
+      return;
+    }
     if (f.id === 'tkform') { openTicket(f.s.value.trim(), f.b.value.trim(), f.u.checked ? 'דחופה' : 'רגילה'); tickets(); return; }
     if (f.classList.contains('tkreply') && f.r.value.trim()) {
       var x = tkList()[+f.dataset.i]; x.log = (x.log || []).concat([{ w: 'team', t: f.r.value.trim(), at: new Date().toISOString() }]);
