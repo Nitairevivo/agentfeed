@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="he" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>המערכת לסטודיו שמתחזק אתרים | AgentFeed</title>
+<title>המערכת לסטודיו שמתחזק אתרים: ההסבר | AgentFeed</title>
 <meta name="description" content="מערכת לסטודיו ולסוכנות שמתחזקים אתרים ללקוחות: כל הבקשות במקום אחד, לוח לכל לקוח עם השם שלכם, עוזר AI, שומר אתר, ו-Claude שמבצע שינויים רק אחרי אישור.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AgentFeed">
@@ -14,14 +14,6 @@
      Every line here is something the demo shows working. Nothing here promises
      traffic, a ranking or an AI answer, and Claude is described as it is:
      it changes code in a GitHub repository, and only after someone approves. -->
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "he", "mainEntity": [
-{"@type": "Question", "name": "על איזה אתרים זה עובד?", "acceptedAnswer": {"@type": "Answer", "text": "מסך הצוות, הלוח ללקוח, הפניות, העוזר ושומר האתר עובדים על כל אתר: וורדפרס, Wix, Base44, Shopify, Lovable או קוד. Claude מבצע שינויים רק באתרים שהקוד שלהם ב-GitHub, למשל אתרי Lovable."}},
-{"@type": "Question", "name": "Claude יכול לשנות משהו לבד?", "acceptedAnswer": {"@type": "Answer", "text": "לא. שינוי מתחיל רק כשמישהו מהצוות לוחץ על פנייה של לקוח, נבנה על ענף נפרד עם צילום לפני ואחרי, ועולה לאתר רק אחרי אישור. אפשר לבטל בלחיצה."}},
-{"@type": "Question", "name": "הלקוחות שלנו יראו את השם AgentFeed?", "acceptedAnswer": {"@type": "Answer", "text": "לא. הלוח של הלקוח ומסך הצוות מופיעים עם השם, הלוגו והצבעים שלכם."}},
-{"@type": "Question", "name": "כמה זה עולה?", "acceptedAnswer": {"@type": "Answer", "text": "לפי מספר האתרים ומה שצריך, החל מ-50 ₪ לאתר בחודש. בלי התחייבות, מחודש לחודש."}}
-]}
-</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap">
 <style>
 /* Photographs an owner sent us. One row that wraps on a phone,
@@ -124,34 +116,44 @@ footer{color:var(--faint);font-size:.83rem;margin-top:48px;
 border-top:1px solid var(--line);padding-top:18px}
 footer a{color:var(--faint)}
 
-/* A working room, not a poster. The page is the desk it sells: white paper,
-   one ink, and the two colours the desk itself uses for "needs you" and
-   "done". The only big moment is the desk, drawn in the hero, with a ticket
-   moving through it. */
+/* A document, not a sales page: one column a person reads top to bottom,
+   chapters with plain headings, and the desk drawn once so the words have a
+   picture to point at. No price, no buttons, no questions — only what the
+   system is and how it works. */
 :root{color-scheme:light;--paper:#f7f6f2;--card:#fff;--ink:#14171f;--soft:#4a5160;--dim:#7b8292;--line:#e3e1da;
 --accent:#3b4cca;--accent-2:#0f8a6a;--warm:#d9480f;--chip:#efede6;
 --display:"Frank Ruhl Libre",Georgia,serif;--body:"Heebo",system-ui,sans-serif}
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.65;overflow-x:clip}
-main{max-width:1080px;margin:0 auto;padding:12px 16px 80px}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.75;overflow-x:clip}
+main{max-width:760px;margin:0 auto;padding:28px 16px 80px}
 a{color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-h1,h2{font-family:var(--display);font-weight:900;line-height:1.08;margin:0;text-wrap:balance}
-h1{font-size:clamp(38px,6vw,68px);letter-spacing:-.5px}
-h2{font-size:clamp(28px,3.6vw,40px);margin-bottom:10px}
-p{margin:0 0 12px}
-.lead{font-size:clamp(17px,2vw,20px);color:var(--soft);max-width:60ch}
-section{padding:56px 0;border-top:1px solid var(--line)}
-section:first-of-type{border-top:0}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:700;text-decoration:none;border:1px solid var(--ink);color:var(--ink);background:var(--card)}
-.btn.main{background:var(--ink);color:#fff}
-.btn:hover{transform:translateY(-1px)}
-.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-
-/* hero: words on one side, the desk on the other */
-.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding-top:36px}
-.who{font-size:15px;color:var(--dim);margin-bottom:14px}
-.desk{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 30px 60px -40px rgba(20,23,31,.45);padding:16px;font-size:14px}
+h1,h2{font-family:var(--display);font-weight:900;line-height:1.12;margin:0;text-wrap:balance}
+h1{font-size:clamp(34px,5.4vw,54px)}
+h2{font-size:clamp(24px,3vw,30px);margin:0 0 10px}
+p{margin:0 0 12px;font-size:17px}
+.sub{color:var(--dim);font-size:15px;margin:0 0 10px}
+.lead{font-size:clamp(17px,2vw,20px);color:var(--soft);margin-top:14px}
+.toc{display:flex;flex-wrap:wrap;gap:8px 18px;margin:22px 0 6px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:15px}
+.toc a{text-decoration:none;color:var(--soft)} .toc a:hover{color:var(--accent)}
+section{padding:40px 0 4px}
+.ch{font-size:13px;color:var(--accent);font-weight:700;margin-bottom:4px}
+ul.plain{list-style:none;padding:0;margin:14px 0 0;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+ul.plain li{padding:14px 18px;border-top:1px solid var(--line)}
+ul.plain li:first-child{border-top:0}
+ul.plain b{display:block;font-size:17px}
+ul.plain span{color:var(--soft)}
+ol.flow{list-style:none;padding:0;margin:14px 0 0;counter-reset:s;border-inline-start:2px solid var(--line)}
+ol.flow li{counter-increment:s;position:relative;padding:4px 30px 16px 0}
+ol.flow li::before{content:counter(s);position:absolute;inset-inline-start:-15px;top:2px;width:28px;height:28px;border-radius:50%;background:var(--card);border:2px solid var(--accent);color:var(--accent);font-weight:800;display:grid;place-items:center;font-size:14px}
+ol.flow b{display:block;font-size:17px} ol.flow span{color:var(--soft)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.two div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.two h3{margin:0 0 6px;font-size:17px}
+.two ul{margin:0;padding-inline-start:18px;color:var(--soft)}
+.yes h3{color:var(--accent-2)} .no h3{color:var(--warm)}
+/* the desk, drawn once */
+.desk{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 30px 60px -44px rgba(20,23,31,.45);padding:16px;font-size:14px;margin:26px 0 0}
 .desk .bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
 .desk .bar b{font-family:var(--display);font-size:18px}
 .desk .bar span{color:var(--dim);font-size:13px}
@@ -162,132 +164,91 @@ section:first-of-type{border-top:0}
 .tk small{display:block;color:var(--dim)}
 .st{font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;background:var(--chip);white-space:nowrap}
 .st.new{color:var(--warm)} .st.rev{color:var(--accent)} .st.done{color:var(--accent-2)}
-.tk.live .st{animation:walk 9s infinite steps(1)}
-@keyframes walk{0%{color:var(--warm)}33%{color:var(--accent)}66%{color:var(--accent-2)}}
-.tk.live .st::after{content:"חדשה";animation:say 9s infinite steps(1)}
-@keyframes say{0%{content:"חדשה"}33%{content:"מחכה לאישור"}66%{content:"עלה לאתר ✓"}}
-@media (prefers-reduced-motion:reduce){.tk.live .st,.tk.live .st::after{animation:none}}
-
-/* what's in it: a list with a real hierarchy, not six equal cards */
-.parts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}
-.part{padding:20px 22px;border-bottom:1px solid var(--line)}
-.part:nth-child(odd){border-inline-end:1px solid var(--line)}
-.part h3{margin:0 0 6px;font-size:18px}
-.part p{color:var(--soft);margin:0}
-.part.big{grid-column:1/-1;background:#f5f6fd;border-inline-end:0}
-.part.big h3{font-family:var(--display);font-size:24px}
-
-/* a change, step by step: this one really is a sequence */
-ol.flow{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px;counter-reset:s}
-ol.flow li{counter-increment:s;display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
-ol.flow li::before{content:counter(s);font-family:var(--display);font-weight:900;font-size:26px;line-height:1;color:var(--accent)}
-ol.flow b{display:block}
-ol.flow span{color:var(--soft)}
-
-.demo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.demo a{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
-.demo a:hover{border-color:var(--accent)}
-.demo b{font-size:19px;display:block;margin-bottom:4px}
-.demo span{color:var(--soft)}
-.demo em{display:inline-block;margin-top:10px;font-style:normal;font-weight:700;color:var(--accent)}
-
-.price{background:var(--ink);color:#fff;border-radius:16px;padding:28px}
-.price h2{color:#fff}
-.price p{color:#c9ccd6}
-.price .n{font-family:var(--display);font-size:clamp(44px,6vw,64px);font-weight:900;color:#fff;line-height:1}
-.price .btn{border-color:#fff}
-.price .btn.main{background:#fff;color:var(--ink)}
-
-details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:10px}
-summary{font-weight:700;cursor:pointer}
-details p{color:var(--soft);margin:8px 0 0}
-.small{font-size:13px;color:var(--dim)}
-
-@media (max-width:820px){
-  .hero{grid-template-columns:1fr;gap:26px}
-  .parts{grid-template-columns:1fr}
-  .part:nth-child(odd){border-inline-end:0}
-  .demo{grid-template-columns:1fr}
-}
+.cap{font-size:13px;color:var(--dim);text-align:center;margin-top:8px}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--dim)}
+@media (max-width:640px){.two{grid-template-columns:1fr}}
 </style>
 </head>
-<body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="#what">מה יש</a><a href="#how">איך זה עובד</a><a href="#demo">דמו</a><a href="#price">מחיר</a></nav></div></header>
+<body><script>(function(){try{var M='af_me',q=location.search;if(q.indexOf('me=1')>0){localStorage.setItem(M,'1');}if(q.indexOf('me=0')>0){localStorage.removeItem(M);}var own=localStorage.getItem(M)?'1':'';var K='af_from',r=document.referrer||'';if(r){var h=new URL(r).hostname;if(!/(^|\.)github\.io$/.test(h)){sessionStorage.setItem(K,h);}}var f=sessionStorage.getItem(K)||'';document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;if(a.href.indexOf('/go/')<0)return;var u=new URL(a.href,location.href);u.searchParams.set('v','1');if(own){u.searchParams.set('own','1');}if(f&&!u.searchParams.has('from')){u.searchParams.set('from',f);}a.href=u.toString();},true);}catch(e){}})();</script><header class="top"><div class="topin"><a class="wordmark" href="https://nitairevivo.github.io/agentfeed/"><i></i>AgentFeed</a><nav class="nav"><a href="#what">מה יש</a><a href="#how">איך זה עובד</a><a href="#claude">Claude</a><a href="#where">איזה אתרים</a></nav></div></header>
 <main>
 
-<section class="hero">
-  <div>
-    <p class="who">לסטודיו ולסוכנות שמתחזקים אתרים ללקוחות</p>
-    <h1>כל הבקשות של כל הלקוחות, במקום אחד.</h1>
-    <p class="lead" style="margin-top:16px">לקוח כותב "תגדילו את הלוגו". הבקשה מגיעה למסך הצוות, מישהו לוקח אותה, והלקוח רואה בכל רגע איפה היא עומדת. בלי הודעות בוואטסאפ שהולכות לאיבוד, ובלי "שכחנו".</p>
-    <div class="row">
-      <a class="btn main" href="https://nitairevivo.github.io/agentfeed/desk/?demo">לראות את מסך הצוות</a>
-      <a class="btn" href="https://nitairevivo.github.io/agentfeed/sites-panel/panel/?demo">ואת הלוח של הלקוח</a>
-    </div>
-  </div>
-  <div class="desk" aria-label="מסך הצוות, דוגמה">
-    <div class="bar"><b>מסך הצוות</b><span>הסטודיו שלכם</span></div>
-    <div class="brief"><b>הבדיקה של 13:13:</b> כל 18 האתרים עובדים · 4 פניות פתוחות. האתר של מאפיית אורן איטי, כנראה תמונה כבדה בראש העמוד.</div>
-    <div class="tk live"><span class="no">#1004</span><div>פיצה דרור · להגדיל את הלוגו בטלפון<small>נועם מטפל</small></div><span class="st"></span></div>
-    <div class="tk"><span class="no">#1003</span><div>מאפיית אורן · כפתור בצבע של הלוגו<small>Claude הכין שינוי, צילום לפני ואחרי</small></div><span class="st rev">מחכה לאישור</span></div>
-    <div class="tk"><span class="no">#1001</span><div>פרחי השרון · שעות פתיחה לחגים<small>דנה</small></div><span class="st done">טופלה</span></div>
-  </div>
-</section>
+<p class="sub">לסטודיו ולסוכנות שמתחזקים אתרים ללקוחות</p>
+<h1>המערכת: מה היא, ואיך היא עובדת</h1>
+<p class="lead">מערכת אחת שמרכזת את כל הבקשות של כל הלקוחות, נותנת לכל לקוח לוח משלו, שומרת שהאתרים עובדים, ומבצעת שינויים רק אחרי אישור. הכול תחת השם והלוגו של הסטודיו.</p>
+
+<nav class="toc" aria-label="תוכן">
+  <a href="#what">מה יש במערכת</a><a href="#how">איך עובד שינוי</a><a href="#claude">מה Claude עושה</a><a href="#where">על איזה אתרים</a><a href="#safe">גישה ומפתחות</a>
+</nav>
+
+<div class="desk" aria-label="מסך הצוות, דוגמה">
+  <div class="bar"><b>מסך הצוות</b><span>הסטודיו שלכם</span></div>
+  <div class="brief"><b>הבדיקה של 13:13:</b> כל 18 האתרים עובדים · 4 פניות פתוחות. האתר של מאפיית אורן איטי, כנראה תמונה כבדה בראש העמוד.</div>
+  <div class="tk"><span class="no">#1004</span><div>פיצה דרור · להגדיל את הלוגו בטלפון<small>נועם מטפל</small></div><span class="st new">חדשה</span></div>
+  <div class="tk"><span class="no">#1003</span><div>מאפיית אורן · כפתור בצבע של הלוגו<small>Claude הכין שינוי, צילום לפני ואחרי</small></div><span class="st rev">מחכה לאישור</span></div>
+  <div class="tk"><span class="no">#1001</span><div>פרחי השרון · שעות פתיחה לחגים<small>דנה</small></div><span class="st done">טופלה</span></div>
+</div>
+<p class="cap">כך נראה מסך הצוות: הבדיקה של היום למעלה, והפניות מכל האתרים מתחתיה.</p>
 
 <section id="what">
+  <p class="ch">פרק 1</p>
   <h2>מה יש במערכת</h2>
-  <p class="lead">הכול עובד תחת השם, הלוגו והצבעים שלכם. הלקוחות שלכם לא רואים אותנו.</p>
-  <div class="parts" style="margin-top:22px">
-    <div class="part big"><h3>מסך צוות</h3><p>כל הפניות מכל האתרים. מי מטפל, מה חדש, מה באיחור, מי מחזיק יותר מדי. תשובה ללקוח, הערה פנימית שהוא לא רואה, ותשובות מוכנות בלחיצה.</p></div>
-    <div class="part"><h3>לוח לכל לקוח</h3><p>הלקוח פותח בקשה, רואה באיזה שלב היא, ועונה לצוות. מקבל התראה לטלפון כשמשהו זז.</p></div>
-    <div class="part"><h3>עוזר AI ללקוח</h3><p>עונה על שאלות. מה שהוא לא יכול לעשות בעצמו, הופך לפנייה מסודרת לצוות.</p></div>
-    <div class="part"><h3>שומר אתר</h3><p>בודק כל אתר כמה פעמים ביום, כמו לקוח מהטלפון. אתר נופל? אתם יודעים לפני שהלקוח מתקשר.</p></div>
-    <div class="part"><h3>בדיקה שלוש פעמים ביום</h3><p>מה המצב, מה לעשות קודם, ועד שלושה טיפים. היא רק קוראת ומייעצת, ולא משנה כלום.</p></div>
-    <div class="part"><h3>Claude שמבצע שינויים</h3><p>באתרים שהקוד שלהם ב-GitHub (למשל Lovable), שינוי עיצוב נעשה לבד. עולה רק אחרי אישור.</p></div>
-    <div class="part"><h3>דוח שבועי</h3><p>לכל לקוח, כל שבוע: מה נעשה באתר שלו, ואיך הוא עבד.</p></div>
-  </div>
+  <p>שבעה חלקים, שכולם עובדים תחת השם, הלוגו והצבעים של הסטודיו. הלקוחות לא רואים את השם שלנו.</p>
+  <ul class="plain">
+    <li><b>מסך צוות</b><span>כל הפניות מכל האתרים במקום אחד: מה חדש, מי מטפל, מה באיחור, ומי מחזיק יותר מדי. עונים ללקוח מתוך המסך, וכותבים הערה פנימית שהוא לא רואה.</span></li>
+    <li><b>לוח לכל לקוח</b><span>הלקוח פותח בקשה, רואה באיזה שלב היא, ועונה לצוות. כשמשהו זז, הוא מקבל התראה לטלפון.</span></li>
+    <li><b>עוזר AI ללקוח</b><span>עונה לשאלות של הלקוח. מה שהעוזר לא יכול לעשות בעצמו, הופך לפנייה מסודרת לצוות.</span></li>
+    <li><b>שומר אתר</b><span>בודק כל אתר כמה פעמים ביום, כמו לקוח שנכנס מהטלפון. אם אתר נופל, הצוות יודע לפני שהלקוח מתקשר.</span></li>
+    <li><b>בדיקה שלוש פעמים ביום</b><span>ב-08:13, 13:13 ו-18:13: מה המצב, מה לעשות קודם, ועד שלושה טיפים. היא רק קוראת ומייעצת.</span></li>
+    <li><b>Claude שמבצע שינויים</b><span>שינויי עיצוב באתרים שהקוד שלהם ב-GitHub. עולים לאתר רק אחרי אישור (פרק 3).</span></li>
+    <li><b>דוח שבועי</b><span>לכל לקוח, כל שבוע: מה נעשה באתר שלו, ואיך הוא עבד.</span></li>
+  </ul>
 </section>
 
 <section id="how">
-  <h2>ככה עובד שינוי</h2>
+  <p class="ch">פרק 2</p>
+  <h2>איך עובד שינוי, מהבקשה ועד האתר</h2>
   <ol class="flow">
-    <li><div><b>הלקוח מבקש</b><span>בלוח שלו, או פשוט כותב לעוזר בצ'אט.</span></div></li>
-    <li><div><b>הבקשה מגיעה למסך הצוות</b><span>מישהו לוקח אותה, והלקוח רואה שזה בטיפול.</span></div></li>
-    <li><div><b>Claude מכין את השינוי, אם זה אתר ב-GitHub</b><span>על ענף נפרד, עם בדיקה שהאתר נבנה וצילום לפני ואחרי. אחרת, הבונה שלכם מטפל כרגיל.</span></div></li>
-    <li><div><b>מישהו מאשר</b><span>מהצוות, או הלקוח עצמו, לפי מה שתבחרו.</span></div></li>
-    <li><div><b>השינוי עולה לאתר</b><span>ואם משהו לא טוב, מבטלים בלחיצה והאתר חוזר לגרסה הקודמת.</span></div></li>
+    <li><b>הלקוח מבקש</b><span>בלוח שלו, או פשוט כותב לעוזר בצ'אט.</span></li>
+    <li><b>הבקשה מגיעה למסך הצוות</b><span>מישהו מהצוות לוקח אותה, והלקוח רואה שהיא בטיפול.</span></li>
+    <li><b>השינוי מוכן</b><span>אם האתר ב-GitHub, Claude מכין אותו על ענף נפרד, בודק שהאתר נבנה, ומצלם לפני ואחרי. אחרת, הבונה מטפל כרגיל.</span></li>
+    <li><b>מישהו מאשר</b><span>מהצוות, או הלקוח עצמו, לפי מה שהסטודיו בוחר.</span></li>
+    <li><b>השינוי עולה לאתר</b><span>ואם משהו לא טוב, מבטלים בלחיצה, והאתר חוזר לגרסה הקודמת.</span></li>
   </ol>
 </section>
 
-<section id="demo">
-  <h2>לנסות בעצמכם</h2>
-  <p class="lead">שני הדמואים פועלים עם נתונים לדוגמה. אפשר ללחוץ על הכול, שום דבר לא נשמר.</p>
-  <div class="demo" style="margin-top:18px">
-    <a href="https://nitairevivo.github.io/agentfeed/desk/?demo"><b>מסך הצוות</b><span>פניות, שיוך לבונים, סטטוסים, הבדיקה של היום ו-Claude.</span><em>לפתוח את הדמו</em></a>
-    <a href="https://nitairevivo.github.io/agentfeed/sites-panel/panel/?demo"><b>הלוח של הלקוח</b><span>נתוני האתר, העוזר בצ'אט, שומר האתר והפניות לצוות.</span><em>לפתוח את הדמו</em></a>
+<section id="claude">
+  <p class="ch">פרק 3</p>
+  <h2>מה Claude עושה, ומה לא</h2>
+  <div class="two">
+    <div class="yes"><h3>עושה</h3><ul>
+      <li>שינויי עיצוב וטקסט באתר: לוגו, צבעים, כפתורים, סידור בטלפון</li>
+      <li>בודק שהאתר עדיין נבנה אחרי השינוי</li>
+      <li>מצלם לפני ואחרי, ומסביר במשפט מה שינה</li>
+    </ul></div>
+    <div class="no"><h3>לא עושה</h3><ul>
+      <li>לא מתחיל שום דבר לבד: רק כשמישהו מהצוות לוחץ</li>
+      <li>לא מעלה לאתר בלי אישור</li>
+      <li>לא נוגע בתשלומים, במפתחות או בהגדרות</li>
+      <li>לא ממציא מחיר, טלפון או ביקורת</li>
+    </ul></div>
   </div>
 </section>
 
-<section id="price">
-  <div class="price">
-    <h2>מחיר לפי מה שאתם צריכים</h2>
-    <p class="n">מ-50 ₪</p>
-    <p>לאתר בחודש. המחיר נקבע לפי מספר האתרים, וכמה שינויים של Claude צריך. בלי התחייבות, מחודש לחודש.</p>
-    <div class="row">
-      <a class="btn main" href="https://wa.me/972526760039?text=%D7%94%D7%99%D7%99%20%D7%A0%D7%99%D7%AA%D7%90%D7%99%2C%20%D7%A8%D7%90%D7%99%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA%20%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95">לדבר עם ניתאי בוואטסאפ</a>
-      <a class="btn" href="https://nitairevivo.github.io/agentfeed/desk/?demo">קודם לראות את הדמו</a>
-    </div>
-  </div>
+<section id="where">
+  <p class="ch">פרק 4</p>
+  <h2>על איזה אתרים זה עובד</h2>
+  <p>מסך הצוות, הלוח ללקוח, הפניות, העוזר, שומר האתר והבדיקה היומית עובדים על <b>כל</b> אתר: וורדפרס, Wix, Base44, Shopify, Lovable או קוד.</p>
+  <p>Claude מבצע שינויים רק באתרים שהקוד שלהם נמצא ב-GitHub, למשל אתרי Lovable. באתר בלי גישה לקוד, הבקשה מגיעה לבונה, והוא מטפל כרגיל.</p>
 </section>
 
-<section id="faq">
-  <h2>שאלות</h2>
-  <details><summary>על איזה אתרים זה עובד?</summary><p>מסך הצוות, הלוח ללקוח, הפניות, העוזר ושומר האתר עובדים על כל אתר: וורדפרס, Wix, Base44, Shopify, Lovable או קוד. Claude מבצע שינויים רק באתרים שהקוד שלהם ב-GitHub, למשל אתרי Lovable.</p></details>
-  <details><summary>Claude יכול לשנות משהו לבד?</summary><p>לא. שינוי מתחיל רק כשמישהו מהצוות לוחץ על פנייה של לקוח, ועולה לאתר רק אחרי אישור. הבדיקה של שלוש פעמים ביום רק קוראת ומייעצת.</p></details>
-  <details><summary>הלקוחות שלנו יראו את השם AgentFeed?</summary><p>לא. הלוח של הלקוח ומסך הצוות מופיעים עם השם, הלוגו והצבעים שלכם.</p></details>
-  <details><summary>מה עם הסיסמאות והגישה לאתרים?</summary><p>מפתחות נשמרים רק בהגדרות המוצפנות של GitHub ושל השרת, לא בקבצים ולא בהודעות. Claude עובד בלי גישה למפתחות, והשינוי נדחף מעותק נקי.</p></details>
-  <details><summary>ומה זה AgentFeed בכלל?</summary><p>תשתית שמחברת עסקים ישראליים לעוזרי AI כמו ChatGPT ו-Claude: קטלוג שמכונה קוראת, עמוד לכל מוצר, ושרת שרשום במרשם הרשמי של הכלים לעוזרי AI. כל לקוח שלכם יכול להצטרף אליה בחינם, באישור שלו. אנחנו לא מבטיחים שעוזר AI ימליץ עליו.</p></details>
-  <p class="small" style="margin-top:22px">AgentFeed · <a href="https://nitairevivo.github.io/agentfeed/">הספרייה לעוזרי AI</a> · <a href="https://nitairevivo.github.io/agentfeed/sites.html">אתרים לעסקים</a> · <a href="https://nitairevivo.github.io/agentfeed/terms.html">תנאים</a> · <a href="https://nitairevivo.github.io/agentfeed/privacy.html">פרטיות</a></p>
+<section id="safe">
+  <p class="ch">פרק 5</p>
+  <h2>גישה ומפתחות</h2>
+  <p>מפתחות וסיסמאות נשמרים רק בהגדרות המוצפנות של GitHub ושל השרת, לא בקבצים ולא בהודעות. Claude עובד בלי גישה אליהם, והשינוי נדחף מעותק נקי של האתר.</p>
+  <p>לכל בונה בצוות יש קישור כניסה משלו. כשמישהו עוזב, סוגרים לו את הגישה מיד.</p>
 </section>
+
+<p class="foot">AgentFeed · ניתאי · <a href="https://wa.me/972526760039">052-676-0039</a> · <a href="https://nitairevivo.github.io/agentfeed/desk/?demo">דמו של מסך הצוות</a> · <a href="https://nitairevivo.github.io/agentfeed/sites-panel/panel/?demo">דמו של הלוח ללקוח</a></p>
 
 </main>
 </body></html>
