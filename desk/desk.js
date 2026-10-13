@@ -26,7 +26,7 @@
     return fetch(API + '?op=' + op + '&agency=' + agency, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) {
         if (r.status === 401) throw new Error('הקישור לא תקין או שהמפתח הוחלף. בקשו קישור חדש.');
-        if (!r.ok) throw new Error(d.error || 'השרת לא ענה. נסו שוב בעוד דקה.'); return d; }); });
+        if (!r.ok) { var er = new Error(d.error || 'השרת לא ענה. נסו שוב בעוד דקה.'); er.data = d; throw er; } return d; }); });
   }
 
   // ── the demo: a studio, its team, its clients, on this device ──
@@ -69,6 +69,15 @@
         t.agent = { state: 'preview', pr: 'https://github.com/studio/' + t.site + '/pull/' + (20 + Number(t.no) % 7), preview: '' };
         t.status = 'review'; t.log.push({ w: 'system', t: '🤖 השינוי מוכן. אפשר לראות אותו ולאשר · (בדוגמה: השינוי מדומה)', at: new Date().toISOString() });
         demoSave(D); render(); toast('🤖 השינוי מוכן לאישור');
+      }, 2500);
+    }
+    if (op === 'ticket-patch') {
+      t.log.push({ w: 'system', t: '🎨 Claude קורא את העמוד ומכין שינוי עיצוב', at: now });
+      t.agent = { state: 'running' };
+      setTimeout(function () {
+        t.agent = { state: 'preview', patch: 'demo', preview: '' };
+        t.status = 'review'; t.log.push({ w: 'system', t: '🤖 השינוי מוכן. אפשר לראות אותו באתר ולאשר · (בדוגמה: השינוי מדומה)', at: new Date().toISOString() });
+        demoSave(D); render(); toast('🎨 השינוי מוכן לתצוגה מקדימה');
       }, 2500);
     }
     if (op === 'ticket-approve') { t.status = 'done'; t.agent.state = 'merged'; t.log.push({ w: 'system', t: '🚀 השינוי עלה לאתר', at: now }); }
@@ -157,7 +166,7 @@
     var agent = '';
     if (ag.state === 'running') agent = '<div class="agent">🤖 Claude עובד על השינוי…</div>';
     if (ag.state === 'preview' && t.status === 'review') agent = '<div class="agent">🤖 השינוי מוכן' + (ag.pr ? ' · <a href="' + esc(ag.pr) + '" target="_blank" rel="noopener">השינוי בקוד</a>' : '') +
-      (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">צילומי לפני ואחרי</a>' : '') +
+      (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">' + (ag.patch ? 'לראות את השינוי באתר' : 'צילומי לפני ואחרי') + '</a>' : '') +
       ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">✓ לאשר ולהעלות</button>' +
       '<button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">✕ לא לאשר</button></div>';
     if (ag.state === 'merged') agent = '<div class="agent">🚀 עלה לאתר <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולחזור לגרסה הקודמת</button></div>';
@@ -166,7 +175,9 @@
       '<div class="ctl"><select data-set="status" data-no="' + t.no + '" aria-label="סטטוס">' + opts(t.status) + '</select>' +
       '<select data-set="who" data-no="' + t.no + '" aria-label="משויך ל">' + who + '</select>' +
       (canAI && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-agent" data-no="' + t.no + '">🤖 לתת ל-Claude לבצע</button>' : '') +
-      (!canAI ? '<small style="color:var(--dim)">' + (s.platform === 'base44' ? 'אתר Base44: שינוי ידני' : 'אין מאגר קוד מחובר') + '</small>' : '') + '</div>' +
+      // any platform: a design patch through the site's one line (no code access needed)
+      (!canAI && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-patch" data-no="' + t.no + '">🎨 שינוי עיצוב עם Claude</button>' : '') +
+      (!canAI ? '<small style="color:var(--dim)">' + (s.line || demo ? 'השורה מותקנת באתר ✓' : 'צריך להתקין את השורה באתר') + '</small>' : '') + '</div>' +
       agent + '<div class="thread">' + thread + '</div>' +
       '<form class="reply" data-no="' + t.no + '"><div class="quick">' + QUICK.map(function (q, i) { return '<button type="button" data-q="' + i + '">' + esc(q.length > 26 ? q.slice(0, 24) + '…' : q) + '</button>'; }).join('') + '</div>' +
       '<textarea name="t" maxlength="2000" placeholder="תשובה ללקוח…"></textarea>' +
@@ -181,7 +192,7 @@
       return '<li class="site"><span class="dot ' + esc(hh.status || '') + '"></span><b>' + esc(s.name || s.slug) + '</b>' +
         (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
         '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' +
-        '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר' : '') + '</span></li>'; }).join('') : '<li class="empty">עוד אין אתרים.</li>';
+        '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span></li>'; }).join('') : '<li class="empty">עוד אין אתרים.</li>';
   }
   // The check-in: three times a day the system looks over the desk and every
   // site, and writes what to do. It reads and advises; it never changes a site.
@@ -230,8 +241,16 @@
       if (a.dataset.act === 'ticket-revert' && !confirm('לבטל את השינוי ולהחזיר את האתר לגרסה הקודמת?')) return;
       a.disabled = true;
       act(a.dataset.act, { no: a.dataset.no }).then(function () {
-        toast({ 'ticket-agent': '🤖 Claude התחיל. תקבלו עדכון כשהשינוי מוכן', 'ticket-approve': '🚀 מאשר ומעלה לאתר…', 'ticket-revert': '↩️ מבטל…' }[a.dataset.act]); load();
-      }).catch(function (err) { a.disabled = false; toast(err.message); });
+        toast({ 'ticket-patch': '🎨 השינוי מוכן. פתחו את התצוגה המקדימה ואשרו', 'ticket-agent': '🤖 Claude התחיל. תקבלו עדכון כשהשינוי מוכן', 'ticket-approve': '🚀 מאשר ומעלה לאתר…', 'ticket-revert': '↩️ מבטל…' }[a.dataset.act]); load();
+      }).catch(function (err) {
+        a.disabled = false;
+        // a site that draws itself in the browser: open it once, so Claude sees what a visitor sees
+        if (err.data && err.data.snapshotUrl) {
+          if (confirm('האתר הזה נבנה בדפדפן, ו-Claude צריך לראות אותו פעם אחת. לפתוח אותו עכשיו? אחרי כמה שניות לוחצים שוב על הכפתור.')) window.open(err.data.snapshotUrl, '_blank', 'noopener');
+          return;
+        }
+        toast(err.message);
+      });
     }
   });
   document.addEventListener('change', function (e) {
