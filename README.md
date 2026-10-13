@@ -16,7 +16,7 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 **כל עסק כאן הצטרף באישור מפורש שלו**, וכל דף אומר גם מה העסק
 *טרם פרסם*, כדי שאף סוכן לא ימלא את החסר בניחוש.
 
-21 עסקים · 5003 פריטים
+21 עסקים · 5082 פריטים
 
 ## שירותים לעסקים
 
@@ -32,10 +32,10 @@ Asked about one shop's returns policy, a leading assistant stated a rule the sho
 
 ## חיות מחמד
 
-- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2197 פריטים  
+- **[חנות חיות קרוב לטבע](https://nitairevivo.github.io/agentfeed/close-to-nature/)** — 2198 פריטים  
   חנות חיות מקוונת בלבד, ללא סניף פיזי וללא איסוף עצמי  
   אתר העסק: https://closetonature.co.il/
-- **[מארלי — מזון וציוד לחיות מחמד](https://nitairevivo.github.io/agentfeed/marleypetshop/)** — 2229 פריטים · מרכז  
+- **[מארלי — מזון וציוד לחיות מחמד](https://nitairevivo.github.io/agentfeed/marleypetshop/)** — 2307 פריטים · מרכז  
   חנות חיות שכונתית בתל אביב, ברחוב מח"ל 18, עם אתר הזמנות ומשלוחים לכל הארץ  
   אתר העסק: https://marleypetshop.com
 - **[נשמה טובה אקססוריס בוטיק לאופנת כלבים ישראלית](https://nitairevivo.github.io/agentfeed/neshama-tova/)** — 8 פריטים · רמת הגולן  

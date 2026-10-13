@@ -1,0 +1,38 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "מונג חתול סלמון ואפונה בי-ווילד 1.5 ק''ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32175/",
+ "description": "Monge BWild סלמון ואפונה לחתול, באריזת 1.5 ק״ג. מיועד לחתולים בוגרים, בהתאם לסימון Adult על האריזה. מעבירים מזון בהדרגה ומגישים לפי טבלת ההאכלה שעל השק, לצד מים טריים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/LLMOO.jpg",
+ "brand": {
+  "@type": "Brand",
+  "name": "מונג' | monge"
+ },
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%9e%d7%95%d7%a0%d7%92-%d7%97%d7%aa%d7%95%d7%9c-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%95%d7%90%d7%a4%d7%95%d7%a0%d7%94-%d7%91%d7%99-%d7%95%d7%95%d7%99%d7%9c%d7%93-1-5-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — מזון וציוד לחיות מחמד",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "99.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "32175",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — מזון וציוד לחיות מחמד"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32175%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32175",
+  "name": "cart"
+ },
+ "seller_phone": "050-235-2985",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

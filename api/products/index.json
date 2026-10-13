@@ -1,6 +1,6 @@
 {
- "total": 5003,
- "pages": 101,
+ "total": 5082,
+ "pages": 102,
  "per_page": 50,
  "note": "Every item from every business, as JSON, in pages small enough to read in one request. The same corpus as one newline-delimited stream is at ../catalog.jsonl, which is larger and is served as an octet stream by most hosts.",
  "page_urls": [
@@ -104,6 +104,7 @@
   "https://nitairevivo.github.io/agentfeed/api/products/page-98.json",
   "https://nitairevivo.github.io/agentfeed/api/products/page-99.json",
   "https://nitairevivo.github.io/agentfeed/api/products/page-100.json",
-  "https://nitairevivo.github.io/agentfeed/api/products/page-101.json"
+  "https://nitairevivo.github.io/agentfeed/api/products/page-101.json",
+  "https://nitairevivo.github.io/agentfeed/api/products/page-102.json"
  ]
 }

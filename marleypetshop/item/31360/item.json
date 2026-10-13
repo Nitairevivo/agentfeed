@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "אורבן קט קרימי עוף 70 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/31360/",
+ "description": "אורבן קט קרימי עוף 70 גרם הוא חטיף או מוצר לעיסה לחיות מחמד.  גודל האריזה או המוצר המצוין בשם הוא 70 גרם. מגישים במידה ובהשגחה בהתאם להוראות היצרן.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/03/D790D795D7A8D791D79F-D7A7D798-D7A7D7A8D799D79ED799-D7A2D795D7A3-70-D792D7A8D79D-D7A4D798D7A7D7A1.png",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%90%d7%95%d7%a8%d7%91%d7%9f-%d7%a7%d7%98-%d7%a7%d7%a8%d7%99%d7%9e%d7%99-%d7%a2%d7%95%d7%a3-70-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — מזון וציוד לחיות מחמד",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "15.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "31360",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — מזון וציוד לחיות מחמד"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D31360%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=31360",
+  "name": "cart"
+ },
+ "seller_phone": "050-235-2985",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

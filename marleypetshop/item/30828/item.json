@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "ויסקאס פאוצ עוף 85 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30828/",
+ "description": "ויסקאס פאוצ עוף 85 גרם הוא מזון רטוב של Whiskas לחתולים, במרקם פאוץ׳ ובטעם עוף, באריזת 85 גרם. יש לבדוק אם הוא מזון מלא או משלים.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/02/D795D799D7A1D7A7D790D7A1-Whiskas-D79CD797D7AAD795D79C-D7A4D790D795D7A5-D7A2D795D7A3-100-D792D7A8D79D.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%a4%d7%90%d7%95%d7%a6-%d7%a2%d7%95%d7%a3-85-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — מזון וציוד לחיות מחמד",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "7.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "30828",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — מזון וציוד לחיות מחמד"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30828%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30828",
+  "name": "cart"
+ },
+ "seller_phone": "050-235-2985",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,10 +1,54 @@
 {
  "page": 45,
- "pages": 101,
- "total": 5003,
+ "pages": 102,
+ "total": 5082,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-46.json",
  "products": [
+  {
+   "id": "2698",
+   "title": "פרו נייטיב סלמון ואורז מלא 12 ק”ג pro native",
+   "description": "pro native  מותאם לכלבים מכל הגזעים הסובלים מגירויים בעור. \n פרו נייטיב סלמון  ואורז מלא, הינו מזון מובחר לכלבים המיוצר בארה”ב מרכיבים איכותיים ביותר, אינו מכיל חיטה, סויה ותירס ולכן בעל נעכלות גבוהה במיוחד.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%a8%d7%95-%d7%a0%d7%99%d7%99%d7%98%d7%99%d7%91-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%95%d7%90%d7%95%d7%a8%d7%96-%d7%9e%d7%9c%d7%90-15-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%A4%D7%A8%D7%95%D7%A0%D7%99%D7%99%D7%98%D7%99%D7%91-K9-%D7%91%D7%95%D7%92%D7%A8-%D7%A1%D7%9C%D7%9E%D7%95%D7%9F-15-%D7%A7%D7%99%D7%9C%D7%95%D7%92%D7%A8%D7%9D.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "349.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2698%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2698",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2698/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/2698/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/21/#2698",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2698%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2698",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D2698%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=2698",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%95%20%D7%A0%D7%99%D7%99%D7%98%D7%99%D7%91%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%95%D7%90%D7%95%D7%A8%D7%96%20%D7%9E%D7%9C%D7%90%2012%20%D7%A7%E2%80%9D%D7%92%20pro%20native%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+   "ref": "close-to-nature:2698",
+   "catalog_changed_at": "2026-10-12T06:13:42+00:00"
+  },
   {
    "id": "2697",
    "title": "פרו נייטיב כבש ואורז מלא 12 ק”ג",
@@ -47,7 +91,7 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:2697",
-   "catalog_changed_at": "2026-10-11T11:17:33+00:00"
+   "catalog_changed_at": "2026-10-12T06:13:42+00:00"
   },
   {
    "id": "djrent-cdj-3000-djm-a9",
@@ -2086,53 +2130,6 @@
    "business_site": "https://judaicail.co.il",
    "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/",
    "ref": "judaicail:50321661821285",
-   "catalog_changed_at": "2026-10-05T12:19:14+00:00"
-  },
-  {
-   "id": "9733153128805",
-   "title": "סט להגשת תפוח בדבש זכוכית בלתי שבירה 19 ס\"מ - כחול",
-   "description": "חוגגים את ראש השנה עם סט להגשת תפוח בדבש בעיצוב כחול- לבן מרהיב! שדרגו את שולחן החג שלכם עם סט מעוצב ויוקרתי להגשת תפוח בדבש. \n  הסט עשוי מזכוכית מחוסמת ובלתי שבירה בקוטר 19 ס\"מ, ומעוטר באיורי רימונים ועלים בגווני כחול אלגנטיים לצד הכיתוב המסורתי \"שנה טובה\".  \n \n \n  חומר:  זכוכית בלתי שבירה, עמידה ואיכותית. \n \n \n  מידה:  קוטר 19 ס\"מ. \n \n \n  עיצוב:  כיתוב \"שנה טובה\" בולט מעוטר בעלי זית ורימונים בגווני כחול. \n \n \n  שימוש:  מתאים להגשת תפוחים, דבש וסימני החג. \n \n \n  מתאים כ:  מתנה מקסימה לחג או שדרוג לשולחן החג האישי שלכם.",
-   "link": "https://judaicail.co.il/products/סט-להגשת-תפוח-בדבש-זכוכית-בלתי-שבירה-19-סמ-כחול?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://cdn.shopify.com/s/files/1/0851/0504/9957/files/UK83547.webp?v=1787457805",
-   "brand": "יודאיקה ישראל",
-   "product_type": "ראש השנה > UK83547 > אקססוריז לשולחן החג > דבשיה לראש השנה > דבשייה > זכוכית בלתי שבירה > זכוכית מחוסמת > חג ראש השנה > יודאיקה > יודאיקה לראש השנה > כלי הגשה לראש השנה > כלי הגשה מעוצבים > כלי זכוכית לחג > מקל דבש > מתנה לחג > מתנה למארחים > מתנה לראש השנה > סט דבש שקוף וכחול > סט להגשת תפוח בדבש > סט תפוח בדבש > סט תפוח בדבש כחול > עירוכי שולחן לחג > צלחת זכוכית 19 סמ > צלחת לראש השנה > קערית דבש > ראש השנה > שנה טובה > תפוח בדבש",
-   "condition": "new",
-   "variant": "50321661133157",
-   "price": "40.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661133157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
-   "page": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153128805/",
-   "json": "https://nitairevivo.github.io/agentfeed/judaicail/item/9733153128805/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/judaicail/#9733153128805",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661133157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/judaicail?to=https%3A%2F%2Fjudaicail.co.il%2Fcart%2F50321661133157%3A1%3Futm_source%3Dagentfeed%26utm_medium%3Dai&p=9733153128805",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0504443385",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:support@judaicail.co.il?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A1%D7%98%20%D7%9C%D7%94%D7%92%D7%A9%D7%AA%20%D7%AA%D7%A4%D7%95%D7%97%20%D7%91%D7%93%D7%91%D7%A9%20%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%20%D7%91%D7%9C%D7%AA%D7%99%20%D7%A9%D7%91%D7%99%D7%A8%D7%94%2019%20%D7%A1%22%D7%9E%20-%20%D7%9B%D7%97%D7%95%D7%9C",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, טלפון, מייל."
-   },
-   "business": "יודאיקה ישראל",
-   "business_slug": "judaicail",
-   "business_site": "https://judaicail.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/judaicail/",
-   "ref": "judaicail:50321661133157",
    "catalog_changed_at": "2026-10-05T12:19:14+00:00"
   }
  ]

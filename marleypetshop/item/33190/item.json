@@ -1,0 +1,33 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "שימורים מיקי בקר חתול 400 גרם",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33190/",
+ "description": "שימורי מיקי בקר לחתולים בגודל 400 גרם. מעניקים לחתול שלך תזונה מאוזנת וטעימה. הבחירה המושלמת לפינוק יומיומי עשיר בחלבון.",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9e%d7%99%d7%a7%d7%99-%d7%91%d7%a7%d7%a8-%d7%97%d7%aa%d7%95%d7%9c-400-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — מזון וציוד לחיות מחמד",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "4.50",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "33190",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — מזון וציוד לחיות מחמד"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33190%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33190",
+  "name": "cart"
+ },
+ "seller_phone": "050-235-2985",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

@@ -1,10 +1,210 @@
 {
  "page": 55,
- "pages": 101,
- "total": 5003,
+ "pages": 102,
+ "total": 5082,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-56.json",
  "products": [
+  {
+   "id": "33644",
+   "title": "מגבונים לניקוי חיות מחמד אנטי בקטריאל 40 יחידות",
+   "description": "מגבונים לניקוי חיות מחמד אנטי בקטריאל 40 יחידות הוא מגבונים אנטי־בקטריאליים לניקוי חיות מחמד, 40 יחידות. מיועדים לניקוי חיצוני של אזורים שהיצרן מאשר. לפני השימוש בודקים התאמה, תקינות ובטיחות בהתאם להוראות היצרן.",
+   "link": "https://marleypetshop.com/product/%d7%9e%d7%92%d7%91%d7%95%d7%a0%d7%99%d7%9d-%d7%9c%d7%a0%d7%99%d7%a7%d7%95%d7%99-%d7%97%d7%99%d7%95%d7%aa-%d7%9e%d7%97%d7%9e%d7%93-%d7%90%d7%a0%d7%98%d7%99-%d7%91%d7%a7%d7%98%d7%a8%d7%99%d7%90%d7%9c-40?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/03/LMMvv.png",
+   "gtin": "6953182736837",
+   "condition": "new",
+   "price": "25.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33644%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33644",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33644/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33644/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33644",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33644%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33644",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33644%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33644",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%92%D7%91%D7%95%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A0%D7%99%D7%A7%D7%95%D7%99%20%D7%97%D7%99%D7%95%D7%AA%20%D7%9E%D7%97%D7%9E%D7%93%20%D7%90%D7%A0%D7%98%D7%99%20%D7%91%D7%A7%D7%98%D7%A8%D7%99%D7%90%D7%9C%2040%20%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%9E%D7%92%D7%91%D7%95%D7%A0%D7%99%D7%9D%20%D7%9C%D7%A0%D7%99%D7%A7%D7%95%D7%99%20%D7%97%D7%99%D7%95%D7%AA%20%D7%9E%D7%97%D7%9E%D7%93%20%D7%90%D7%A0%D7%98%D7%99%20%D7%91%D7%A7%D7%98%D7%A8%D7%99%D7%90%D7%9C%2040%20%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:33644",
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
+  },
+  {
+   "id": "33624",
+   "title": "אמיתי חתול סלמון סטרלייז 10 ק\"ג",
+   "description": "אמיתי חתול סלמון סטרלייז 10 ק\"ג הוא מזון יבש של אמיתי לחתולים, בטעם סלמון ובאריזת 10 ק״ג. מגישים לפי טבלת ההאכלה ומוודאים שהפורמולה מתאימה לבוגרים מעוקרים לפי סימון Sterilised.",
+   "link": "https://marleypetshop.com/product/%d7%90%d7%9e%d7%99%d7%aa%d7%99-%d7%97%d7%aa%d7%95%d7%9c-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%a1%d7%98%d7%a8%d7%9c%d7%99%d7%99%d7%96-10-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/amyty-htvl-slmvn-strlyyz-10-k-g-1200x1200-1.jpg",
+   "gtin": "8436538949115",
+   "condition": "new",
+   "price": "259.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33624%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33624",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33624/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33624/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33624",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33624%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33624",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33624%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33624",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%9E%D7%99%D7%AA%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%2010%20%D7%A7%22%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%9E%D7%99%D7%AA%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%A1%D7%98%D7%A8%D7%9C%D7%99%D7%99%D7%96%2010%20%D7%A7%22%D7%92",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:33624",
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
+  },
+  {
+   "id": "33622",
+   "title": "פרימורדיאל כלב באפלו ומקרל 12 ק''ג",
+   "description": "פרימורדיאל כלב באפלו ומקרל 12 ק''ג הוא מזון יבש של Primordial לכלבים, בטעם באפלו ומקרל ובאריזת 12 ק״ג. מגישים לפי טבלת ההאכלה ומוודאים שהפורמולה מתאימה לבוגרים.",
+   "link": "https://marleypetshop.com/product/%d7%a4%d7%a8%d7%99%d7%9e%d7%95%d7%a8%d7%93%d7%99%d7%90%d7%9c-%d7%9b%d7%9c%d7%91-%d7%91%d7%90%d7%a4%d7%9c%d7%95-%d7%95%d7%9e%d7%a7%d7%a8%d7%9c-12-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/03/D7A4D7A8D799D79ED795D7A8D793D799D790D79C-D791D790D7A4D79CD795.webp",
+   "gtin": "8020997011089",
+   "condition": "new",
+   "price": "329.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33622%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33622",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33622/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33622/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33622",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33622%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33622",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33622%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33622",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%A8%D7%99%D7%9E%D7%95%D7%A8%D7%93%D7%99%D7%90%D7%9C%20%D7%9B%D7%9C%D7%91%20%D7%91%D7%90%D7%A4%D7%9C%D7%95%20%D7%95%D7%9E%D7%A7%D7%A8%D7%9C%2012%20%D7%A7%27%27%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A4%D7%A8%D7%99%D7%9E%D7%95%D7%A8%D7%93%D7%99%D7%90%D7%9C%20%D7%9B%D7%9C%D7%91%20%D7%91%D7%90%D7%A4%D7%9C%D7%95%20%D7%95%D7%9E%D7%A7%D7%A8%D7%9C%2012%20%D7%A7%27%27%D7%92",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:33622",
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
+  },
+  {
+   "id": "33620",
+   "title": "שטיח לארגז החול פטקס גדול 60X70 ס\"מ",
+   "description": "שטיח פטקס גדול בגודל 60×70 ס״מ מיועד להצבה ליד ארגז החול וללכידת גרגרים היוצאים עם החתול. מנקים בקביעות ומוודאים שהשטיח מונח באופן יציב.",
+   "link": "https://marleypetshop.com/product/%d7%a9%d7%98%d7%99%d7%97-%d7%9c%d7%90%d7%a8%d7%92%d7%96-%d7%94%d7%97%d7%95%d7%9c-%d7%a4%d7%98%d7%a7%d7%a1-%d7%92%d7%93%d7%95%d7%9c-60x70-%d7%a1%d7%9e?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/03/image-3.png",
+   "gtin": "7290117442517",
+   "condition": "new",
+   "price": "109.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33620%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33620",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33620/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33620/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33620",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33620%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33620",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33620%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33620",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%98%D7%99%D7%97%20%D7%9C%D7%90%D7%A8%D7%92%D7%96%20%D7%94%D7%97%D7%95%D7%9C%20%D7%A4%D7%98%D7%A7%D7%A1%20%D7%92%D7%93%D7%95%D7%9C%2060X70%20%D7%A1%22%D7%9E%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%A9%D7%98%D7%99%D7%97%20%D7%9C%D7%90%D7%A8%D7%92%D7%96%20%D7%94%D7%97%D7%95%D7%9C%20%D7%A4%D7%98%D7%A7%D7%A1%20%D7%92%D7%93%D7%95%D7%9C%2060X70%20%D7%A1%22%D7%9E",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:33620",
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
+  },
   {
    "id": "33618",
    "title": "פטקס שטיח גומי מלבני שחור ללכידת חול חתולים 41×61",
@@ -53,7 +253,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33618",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33615",
@@ -103,7 +303,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33615",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33607",
@@ -154,7 +354,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33607",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33605",
@@ -204,7 +404,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33605",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33603",
@@ -254,7 +454,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33603",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33601",
@@ -305,7 +505,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33601",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33599",
@@ -356,7 +556,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33599",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33597",
@@ -407,7 +607,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33597",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33595",
@@ -457,7 +657,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33595",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33593",
@@ -507,7 +707,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33593",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33591",
@@ -557,7 +757,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33591",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33589",
@@ -608,7 +808,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33589",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33587",
@@ -658,7 +858,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33587",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33585",
@@ -708,7 +908,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33585",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33583",
@@ -758,7 +958,57 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33583",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
+  },
+  {
+   "id": "33581",
+   "title": "ביהפר קייר פלוס מזון לארנבים בוגרים 1.5 ק\"ג",
+   "description": "ביהפר קייר פלוס מזון לארנבים בוגרים 1.5 ק\"ג הוא מזון יבש של Beaphar לארנבים, בטעם לפי פורמולת Care Plus ובאריזת 1.5 ק״ג. מגישים לפי טבלת ההאכלה ומוודאים שהפורמולה מתאימה לבוגרים.",
+   "link": "https://marleypetshop.com/product/%d7%91%d7%99%d7%94%d7%a4%d7%a8-%d7%a7%d7%99%d7%99%d7%a8-%d7%a4%d7%9c%d7%95%d7%a1-%d7%9e%d7%96%d7%95%d7%9f-%d7%9c%d7%90%d7%a8%d7%a0%d7%91%d7%99%d7%9d-%d7%91%d7%95%d7%92%d7%a8%d7%99%d7%9d-1-5-%d7%a7quo?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/03/8711231184033.png",
+   "gtin": "8711231184033",
+   "condition": "new",
+   "price": "79.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33581%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33581",
+   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33581/",
+   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33581/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33581",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33581%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33581",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33581%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33581",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%91%D7%99%D7%94%D7%A4%D7%A8%20%D7%A7%D7%99%D7%99%D7%A8%20%D7%A4%D7%9C%D7%95%D7%A1%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%90%D7%A8%D7%A0%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%201.5%20%D7%A7%22%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0502352985",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     },
+     {
+      "method": "email",
+      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%91%D7%99%D7%94%D7%A4%D7%A8%20%D7%A7%D7%99%D7%99%D7%A8%20%D7%A4%D7%9C%D7%95%D7%A1%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%9C%D7%90%D7%A8%D7%A0%D7%91%D7%99%D7%9D%20%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D%201.5%20%D7%A7%22%D7%92",
+      "note": "העסק מקבל פניות במייל."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
+   },
+   "business": "מארלי — מזון וציוד לחיות מחמד",
+   "business_slug": "marleypetshop",
+   "business_site": "https://marleypetshop.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+   "ref": "marleypetshop:33581",
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33579",
@@ -808,7 +1058,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33579",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33577",
@@ -858,7 +1108,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33577",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33575",
@@ -908,7 +1158,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33575",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33573",
@@ -958,7 +1208,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33573",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33571",
@@ -1008,7 +1258,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33571",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33569",
@@ -1058,7 +1308,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33569",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33567",
@@ -1108,7 +1358,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33567",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33565",
@@ -1159,7 +1409,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33565",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33563",
@@ -1210,7 +1460,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33563",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33561",
@@ -1261,7 +1511,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33561",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33534",
@@ -1311,7 +1561,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33534",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33517",
@@ -1361,7 +1611,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33517",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33503",
@@ -1412,7 +1662,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33503",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33500",
@@ -1463,7 +1713,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33500",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33495",
@@ -1514,7 +1764,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33495",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33489",
@@ -1565,7 +1815,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33489",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33487",
@@ -1616,7 +1866,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33487",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33485",
@@ -1667,7 +1917,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33485",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33481",
@@ -1718,7 +1968,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33481",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33478",
@@ -1768,7 +2018,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33478",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33476",
@@ -1819,7 +2069,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33476",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33472",
@@ -1870,7 +2120,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33472",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33466",
@@ -1921,7 +2171,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33466",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33459",
@@ -1971,7 +2221,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33459",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33448",
@@ -2022,7 +2272,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33448",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33446",
@@ -2072,7 +2322,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33446",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33444",
@@ -2122,7 +2372,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33444",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33438",
@@ -2172,7 +2422,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33438",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33428",
@@ -2189,7 +2439,7 @@
    "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33428%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33428",
    "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33428/",
    "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33428/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33428",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/2/#33428",
    "order": {
     "method": "cart",
     "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33428%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33428",
@@ -2223,7 +2473,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33428",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   },
   {
    "id": "33423",
@@ -2240,7 +2490,7 @@
    "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33423%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33423",
    "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33423/",
    "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33423/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33423",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/2/#33423",
    "order": {
     "method": "cart",
     "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33423%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33423",
@@ -2274,258 +2524,7 @@
    "business_site": "https://marleypetshop.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
    "ref": "marleypetshop:33423",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "33401",
-   "title": "אליזקט שימור לחתול עוף פטה 375 גרם",
-   "description": "אליזקט שימור לחתול עוף פטה 375 גרם הוא מזון רטוב לחתולים במרקם פטה ובטעם עוף, באריזת 375 גרם. יש לבדוק אם הוא מסומן כמזון מלא או משלים ולהגיש בהתאם.",
-   "link": "https://marleypetshop.com/product/%d7%90%d7%9c%d7%99%d7%96%d7%a7%d7%98-%d7%a9%d7%99%d7%9e%d7%95%d7%a8-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a2%d7%95%d7%a3-%d7%a4%d7%98%d7%94-375-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/alyzkt-shymvr-lhtvl-avp-pth-1200x1200-1.jpg",
-   "gtin": "7290119702596",
-   "condition": "new",
-   "price": "7.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33401%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33401",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33401/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33401/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33401",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33401%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33401",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33401%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33401",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%9C%D7%99%D7%96%D7%A7%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%A2%D7%95%D7%A3%20%D7%A4%D7%98%D7%94%20375%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%9C%D7%99%D7%96%D7%A7%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%A2%D7%95%D7%A3%20%D7%A4%D7%98%D7%94%20375%20%D7%92%D7%A8%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:33401",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "33396",
-   "title": "אליזקט שימורים לחתול פטה טלה 375 גרם",
-   "description": "אליזקט שימורים לחתול פטה טלה 375 גרם הוא מזון רטוב לחתולים במרקם פטה ובטעם טלה, באריזת 375 גרם. יש לבדוק אם הוא מסומן כמזון מלא או משלים ולהגיש בהתאם.",
-   "link": "https://marleypetshop.com/product/%d7%90%d7%9c%d7%99%d7%96%d7%a7%d7%98-%d7%a9%d7%99%d7%9e%d7%95%d7%a8%d7%99%d7%9d-%d7%9c%d7%97%d7%aa%d7%95%d7%9c-%d7%a4%d7%98%d7%94-%d7%98%d7%9c%d7%94-375-%d7%92%d7%a8%d7%9d?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/03/30862.png",
-   "gtin": "7290119702626",
-   "condition": "new",
-   "price": "7.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33396%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33396",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33396/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33396/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/#33396",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33396%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33396",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33396%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33396",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%9C%D7%99%D7%96%D7%A7%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%A4%D7%98%D7%94%20%D7%98%D7%9C%D7%94%20375%20%D7%92%D7%A8%D7%9D%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%9C%D7%99%D7%96%D7%A7%D7%98%20%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D%20%D7%9C%D7%97%D7%AA%D7%95%D7%9C%20%D7%A4%D7%98%D7%94%20%D7%98%D7%9C%D7%94%20375%20%D7%92%D7%A8%D7%9D",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:33396",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "33390",
-   "title": "אדוונס כלב סלמון גור סנסיטיב סלמון 3 ק\"ג",
-   "description": "אדוונס כלב סלמון גור סנסיטיב סלמון 3 ק\"ג הוא מזון יבש של Advance לכלבים, בטעם סלמון ובאריזת 3 ק״ג. יש לוודא על גבי האריזה שהפורמולה מתאימה לגורים רגישים ולהגיש לפי טבלת ההאכלה.",
-   "link": "https://marleypetshop.com/product/%d7%90%d7%93%d7%95%d7%95%d7%a0%d7%a1-%d7%9b%d7%9c%d7%91-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-%d7%92%d7%95%d7%a8-%d7%a1%d7%a0%d7%a1%d7%99%d7%98%d7%99%d7%91-%d7%a1%d7%9c%d7%9e%d7%95%d7%9f-3-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/advvns-klb-slmvn-gvr-snsytyb-slmvn-3-k-g-1200x1200-1.jpg",
-   "brand": "Advance | אדוונס",
-   "gtin": "8410650009346",
-   "condition": "new",
-   "price": "139.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33390%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33390",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33390/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33390/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/2/#33390",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33390%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33390",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33390%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33390",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%93%D7%95%D7%95%D7%A0%D7%A1%20%D7%9B%D7%9C%D7%91%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%92%D7%95%D7%A8%20%D7%A1%D7%A0%D7%A1%D7%99%D7%98%D7%99%D7%91%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%203%20%D7%A7%22%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%93%D7%95%D7%95%D7%A0%D7%A1%20%D7%9B%D7%9C%D7%91%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%20%D7%92%D7%95%D7%A8%20%D7%A1%D7%A0%D7%A1%D7%99%D7%98%D7%99%D7%91%20%D7%A1%D7%9C%D7%9E%D7%95%D7%9F%203%20%D7%A7%22%D7%92",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:33390",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "33387",
-   "title": "אמיתי חתול עוף קיטן 1.5 ק\"ג",
-   "description": "אמיתי חתול עוף קיטן 1.5 ק\"ג הוא מזון יבש של אמיתי לחתולים, בטעם עוף ובאריזת 1.5 ק״ג. יש לוודא על גבי האריזה שהפורמולה מתאימה לחתלתולים ולהגיש לפי טבלת ההאכלה.",
-   "link": "https://marleypetshop.com/product/%d7%90%d7%9e%d7%99%d7%aa%d7%99-%d7%97%d7%aa%d7%95%d7%9c-%d7%a2%d7%95%d7%a3-%d7%a7%d7%99%d7%98%d7%9f-1-5-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/04/d7-90-d7-9e-d7-99-d7-aa-d7-99-d7-97-d7-aa-d7-95-d7-9c-d7-a2-d7-95-d7-a3-d7-a7-d7-99-d7-98-d7-9f-1-5-d7-a7-d7-92-1200x1200-1.jpg",
-   "gtin": "8436538947937",
-   "condition": "new",
-   "price": "69.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33387%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33387",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33387/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33387/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/2/#33387",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33387%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33387",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33387%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33387",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%9E%D7%99%D7%AA%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%A2%D7%95%D7%A3%20%D7%A7%D7%99%D7%98%D7%9F%201.5%20%D7%A7%22%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20%D7%90%D7%9E%D7%99%D7%AA%D7%99%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%A2%D7%95%D7%A3%20%D7%A7%D7%99%D7%98%D7%9F%201.5%20%D7%A7%22%D7%92",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:33387",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
-  },
-  {
-   "id": "33385",
-   "title": "ND חתול כבש טרופיקל חתלתול 1.5 ק\"ג",
-   "description": "ND חתול כבש טרופיקל חתלתול 1.5 ק\"ג הוא מזון יבש של N&D לחתולים, בטעם כבש מסדרת Tropical ובאריזת 1.5 ק״ג. יש לוודא על גבי האריזה שהפורמולה מתאימה לחתלתולים ולהגיש לפי טבלת ההאכלה.",
-   "link": "https://marleypetshop.com/product/nd-%d7%97%d7%aa%d7%95%d7%9c-%d7%9b%d7%91%d7%a9-%d7%98%d7%a8%d7%95%d7%a4%d7%99%d7%a7%d7%9c-%d7%97%d7%aa%d7%9c%d7%aa%d7%95%d7%9c-1-5-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://marleypetshop.com/wp-content/uploads/2026/03/5555418.jpg",
-   "gtin": "8010276045027",
-   "condition": "new",
-   "price": "129.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33385%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33385",
-   "page": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33385/",
-   "json": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/33385/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/marleypetshop/p/2/#33385",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33385%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33385",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D33385%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=33385",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972502352985?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4ND%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%9B%D7%91%D7%A9%20%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%20%D7%97%D7%AA%D7%9C%D7%AA%D7%95%D7%9C%201.5%20%D7%A7%22%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0502352985",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     },
-     {
-      "method": "email",
-      "url": "mailto:info@marleypetshop.com?subject=%D7%A4%D7%A0%D7%99%D7%99%D7%94%20%D7%93%D7%A8%D7%9A%20agentfeed%20%E2%80%94%20ND%20%D7%97%D7%AA%D7%95%D7%9C%20%D7%9B%D7%91%D7%A9%20%D7%98%D7%A8%D7%95%D7%A4%D7%99%D7%A7%D7%9C%20%D7%97%D7%AA%D7%9C%D7%AA%D7%95%D7%9C%201.5%20%D7%A7%22%D7%92",
-      "note": "העסק מקבל פניות במייל."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון, מייל."
-   },
-   "business": "מארלי — מזון וציוד לחיות מחמד",
-   "business_slug": "marleypetshop",
-   "business_site": "https://marleypetshop.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
-   "ref": "marleypetshop:33385",
-   "catalog_changed_at": "2026-10-05T12:19:46+00:00"
+   "catalog_changed_at": "2026-10-12T14:22:37+00:00"
   }
  ]
 }

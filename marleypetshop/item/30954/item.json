@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "ויסקאס חתול עוף אדולט 7 ק\"ג",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/30954/",
+ "description": "ויסקאס חתול עוף אדולט 7 ק\"ג הוא מזון יבש לחתולים.  גודל האריזה המצוין בשם המוצר הוא 7 ק\"ג. לפני ההגשה יש לבדוק את ההרכב, שלב החיים וטבלת ההאכלה שעל האריזה.",
+ "image": "https://marleypetshop.com/wp-content/uploads/2026/02/vOvPvL.jpg",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%95%d7%99%d7%a1%d7%a7%d7%90%d7%a1-%d7%97%d7%aa%d7%95%d7%9c-%d7%a2%d7%95%d7%a3-%d7%90%d7%93%d7%95%d7%9c%d7%98-7-%d7%a7%d7%92?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — מזון וציוד לחיות מחמד",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "159.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "30954",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — מזון וציוד לחיות מחמד"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D30954%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=30954",
+  "name": "cart"
+ },
+ "seller_phone": "050-235-2985",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

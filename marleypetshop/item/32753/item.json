@@ -1,0 +1,33 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "צעצוע עכבר סיקסקה עם מבחנת קטניפ לחתול פלמינגו | F",
+ "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/item/32753/",
+ "description": "צעצוע בד, לטקס או צעצוע מצפצף מתאים רק אם גודלו ועמידותו תואמים להרגלי המשחק והלעיסה של חתול. הוא אינו מיועד לבליעת בד, מילוי או צפצפה. לבעל חיים שמפרק צעצועים במהירות בוחרים דגם עמיד יותר ומשגיחים.",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://marleypetshop.com/product/%d7%a6%d7%a2%d7%a6%d7%95%d7%a2-%d7%a2%d7%9b%d7%91%d7%a8-%d7%a1%d7%99%d7%a7%d7%a1%d7%a7%d7%94-%d7%a2%d7%9d-%d7%9e%d7%91%d7%97%d7%a0%d7%aa-%d7%a7%d7%98%d7%a0%d7%99%d7%a4-%d7%9c%d7%97%d7%aa%d7%95%d7%9c?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "מארלי — מזון וציוד לחיות מחמד",
+   "url": "https://marleypetshop.com"
+  },
+  "price": "29.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "32753",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/marleypetshop/",
+  "name": "מארלי — מזון וציוד לחיות מחמד"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/marleypetshop?to=https%3A%2F%2Fmarleypetshop.com%2F%3Fadd-to-cart%3D32753%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=32753",
+  "name": "cart"
+ },
+ "seller_phone": "050-235-2985",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}

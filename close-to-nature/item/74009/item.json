@@ -1,0 +1,34 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "name": "🥩 רול מעושן מצופה בקר לכלבים 28 ס”מ (2 יח’) DeliSnack",
+ "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/74009/",
+ "description": "רול מעושן מצופה בקר 28 ס”מ  לכלבים מבית DeliSnack.  חטיף לעיסה לכלבים  איכותי ועמיד במיוחד המשלב גליל מעושן קשיח עם ציפוי עשיר של  בשר בקר אמיתי , להענקת שעות של תעסוקה והיגיינת פה מושלמת. \n \n \n 📦  תכולה מדויקת:  מארז 2 יחידות באריזת ואקום (28 ס”מ ליחידה) \n \n \n 🌿  רכיבים עיקריים:  עור בקר מעושן בציפוי  בשר בקר אמיתי  \n \n \n 🎯  יתרון מרכזי:   הפחתת אבנית ופלאק  ותעסוקה ממושכת \n \n \n 🩺  התוויה / ייעוד:  מתאים לכל הכלבים, אידיאלי לגזעים בינוניים וגדולים",
+ "image": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/10/DeliSnack-smoked-beef-rolls-dog-chew-pack-on-white-background.jpg?fit=600%2C600&ssl=1",
+ "offers": {
+  "@type": "Offer",
+  "url": "https://closetonature.co.il/product/delisnack-smoked-beef-rolls-28cm-2pack/?utm_source=agentfeed&utm_medium=ai",
+  "seller": {
+   "@type": "Organization",
+   "name": "חנות חיות קרוב לטבע",
+   "url": "https://closetonature.co.il/"
+  },
+  "price": "29.00",
+  "priceCurrency": "ILS",
+  "availability": "https://schema.org/InStock"
+ },
+ "identifier": "74009",
+ "isPartOf": {
+  "@type": "WebPage",
+  "url": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+  "name": "חנות חיות קרוב לטבע"
+ },
+ "potentialAction": {
+  "@type": "OrderAction",
+  "target": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D74009%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=74009",
+  "name": "cart"
+ },
+ "seller_phone": "054-640-4788",
+ "retrieved": "2026-10-13",
+ "_note": "AgentFeed אינו מוכר את הפריט ואינו גובה עליו תשלום. הרכישה נעשית מול העסק. פרט שאינו מופיע כאן — העסק לא פרסם אותו, ואין להשלים אותו מהערכה."
+}
