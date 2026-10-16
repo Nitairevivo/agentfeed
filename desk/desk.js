@@ -116,7 +116,7 @@
     if (!b) return;
     document.title = 'מסך הצוות · ' + (b.name || '');
     $('bname').textContent = b.name || 'מסך הצוות';
-    if (b.logo) { $('logo').src = b.logo; $('logo').hidden = false; }
+    if (b.logo) { $('logo').src = b.logo; $('logowrap').hidden = false; }
     if (b.color) document.documentElement.style.setProperty('--brand', b.color);
     if (b.accent) document.documentElement.style.setProperty('--accent', b.accent);
   }
@@ -134,10 +134,14 @@
   function counts() {
     var c = function (s) { return state.tickets.filter(function (t) { return t.status === s; }).length; };
     $('counts').innerHTML = ['new', 'doing', 'waiting', 'review', 'done'].map(function (s) {
-      return '<button type="button" data-f="' + s + '" class="' + (state.filter === s ? 'on' : '') + '"><b>' + c(s) + '</b><span>' + ST[s] + '</span></button>'; }).join('');
+      return '<button type="button" data-f="' + s + '" class="kpi glass st-' + s + (state.filter === s ? ' on' : '') + '"><span class="l">' + ST[s] + '</span><b>' + c(s) + '</b></button>'; }).join('');
     var chips = [['open', 'פתוחות'], ['mine', 'שלי'], ['urgent', '🔴 דחופות'], ['all', 'הכול']];
     var tp = tips();
-    $('tips').innerHTML = tp.length ? '<b>💡 מה הכי כדאי עכשיו</b><ul>' + tp.map(function (x) { return '<li' + (x[2] ? ' data-f="' + (x[2] === 'late' ? 'open' : x[2] === 'unassigned' ? 'new' : x[2]) + '"' : '') + '><span>' + x[0] + '</span>' + esc(x[1]) + '</li>'; }).join('') + '</ul>' : '<b>💡 הכול מטופל. יופי של עבודה.</b>';
+    // the panel's "what to do now": one tip per line, its colour by how pressing it is
+    var tone = { late: 'alert', unassigned: 'warn', review: 'info' };
+    $('tips').innerHTML = '<h2>מה הכי כדאי עכשיו</h2><p class="sub">נבנה מהפניות עצמן. לחיצה על שורה מסננת את הפניות שלה.</p>' + (tp.length ? '<div class="advice">' + tp.map(function (x) {
+      return '<div class="tip ' + (tone[x[2]] || 'good') + '"' + (x[2] ? ' data-f="' + (x[2] === 'late' ? 'open' : x[2] === 'unassigned' ? 'new' : x[2]) + '"' : '') + '><div class="ic">' + x[0] + '</div><div><p>' + esc(x[1]) + '</p></div></div>'; }).join('') + '</div>'
+      : '<div class="advice"><div class="tip good"><div class="ic">✓</div><div><p>הכול מטופל. יופי של עבודה.</p></div></div></div>');
     $('load').innerHTML = workload();
     $('chips').innerHTML = chips.map(function (x) { return '<button type="button" data-f="' + x[0] + '" class="' + (state.filter === x[0] ? 'on' : '') + '">' + x[1] + '</button>'; }).join('');
   }
@@ -178,7 +182,7 @@
     var open = state.tickets.filter(function (t) { return t.status !== 'done'; });
     return state.team.map(function (m) {
       var n = open.filter(function (t) { return t.who === m.id; }).length;
-      return '<span class="wl"><b>' + esc(m.name) + '</b> ' + n + ' פתוחות</span>'; }).join('');
+      return '<span class="ev wl"><b>' + esc(m.name) + '</b> ' + n + ' פתוחות</span>'; }).join('');
   }
   function siteOf(slug) { return state.sites.filter(function (s) { return s.slug === slug; })[0] || {}; }
   function ticket(t) {
@@ -253,7 +257,7 @@
     var el = $('season'), list = (state.seasons || []).filter(function (e) { return e.days >= 3; }).slice(0, 3);
     if (!list.length) { el.hidden = true; return; }
     el.hidden = false;
-    el.innerHTML = '<b>📅 בקרוב אצל הלקוחות</b><ul>' + list.map(function (e) {
+    el.innerHTML = '<h2>📅 בקרוב אצל הלקוחות</h2><p class="sub">מה מתקרב בלוח השנה של החנויות, עם הודעה מוכנה לכל לקוח.</p><ul class="list">' + list.map(function (e) {
       var d = ''; try { d = new Date(e.date + 'T12:00:00Z').toLocaleDateString('he-IL', { day: 'numeric', month: 'long' }); } catch (x) {}
       return '<li><span><b>' + esc(e.name) + '</b> · ' + esc(d) + ' (בעוד ' + e.days + ' ימים)<br><small>' + esc(e.idea) + '</small></span>' + copyBtn(e.ask, '📋 הודעה ללקוחות') + '</li>'; }).join('') +
       '</ul><p class="rule">שולחים ללקוח, הוא שולח את הנוסח, פותחים פנייה ו-Claude מכין פס הודעה לתצוגה מקדימה. עולה רק אחרי אישור.</p>';
@@ -344,10 +348,10 @@
     if (!b) { el.hidden = true; return; }
     var t = ''; try { t = new Date(b.at).toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit' }); } catch (x) {}
     el.hidden = false;
-    el.innerHTML = '<div class="bhead"><b>🔎 הבדיקה של ' + esc(t) + '</b><span>' + esc(b.line) + '</span></div>' +
-      ((b.todo || []).filter(function (x) { return /^(🔒|✨|📅)/.test(x); }).map(function (x) { return '<p class="bdo">' + esc(x) + '</p>'; }).join('')) +
-      ((b.tips || []).length ? '<ul>' + b.tips.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
-      '<p class="rule">הבדיקה רצה שלוש פעמים ביום, רק קוראת ומייעצת. Claude משנה אתר רק כשמישהו מהצוות לוחץ על פנייה, והשינוי עולה רק אחרי אישור.</p>';
+    el.innerHTML = '<div class="brain-top"><div class="core" aria-hidden="true"><i></i><i></i><i></i><b>AI</b></div><div><h2>הבדיקה של ' + esc(t) + '</h2><p class="sub">' + esc(b.line) + '</p></div></div>' +
+      '<div class="advice">' + (b.todo || []).filter(function (x) { return /^(🔒|✨|📅)/.test(x); }).map(function (x) {
+        return '<div class="tip ' + (/^🔒/.test(x) ? 'alert' : /^✨/.test(x) ? 'good' : 'info') + '"><div class="ic">' + x.slice(0, 2) + '</div><div><p>' + esc(x.slice(2).trim()) + '</p></div></div>'; }).join('') +
+      (b.tips || []).map(function (x) { return '<div class="tip info"><div class="ic">💡</div><div><p>' + esc(x) + '</p></div></div>'; }).join('') + '</div>';
   }
   function apply(d) {
     state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me;
@@ -443,45 +447,83 @@
   // ── the room: a status strip, and a sky of points that join when near and lean toward the pointer ──
   function hud() {
     var open = state.tickets.filter(function (t) { return t.status !== 'done'; }).length;
-    var c = $('hudclock'); if (!c) return;
+    var c = $('hud-clock'); if (!c) return;
     c.textContent = new Date().toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    $('hudsites').textContent = state.sites.length + ' אתרים';
-    $('hudopen').textContent = open + ' פניות פתוחות';
-    $('hudon').textContent = demo ? 'דוגמה' : 'מחובר';
+    $('hud-name').textContent = state.sites.length + ' אתרים · ' + open + ' פניות פתוחות';
+    var l = $('hud-link'); l.textContent = demo ? '◉ נתוני דוגמה' : '◉ מחובר · נתונים חיים'; l.className = demo ? 'hud-demo' : 'hud-ok';
   }
   setInterval(hud, 1000);
-  (function sky() {
-    var c = $('dksky');
-    if (!c || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    var g = c.getContext('2d'), dpr = Math.min(2, devicePixelRatio || 1), W, H, pts = [], mx = -999, my = -999;
+  // the room, as in the owner's panel (sitebuilder/panel/panel.js): the same sky, the same light under the pointer,
+  // the same instruments leaning toward it
+// a sky that follows the mouse, a light under it, and instruments that tilt toward it. Decoration only.
+(function () {
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = matchMedia('(pointer: fine)').matches;
+  var root = document.documentElement, mx = innerWidth / 2, my = innerHeight / 3;
+  addEventListener('pointermove', function (e) {
+    mx = e.clientX; my = e.clientY;
+    root.style.setProperty('--mx', mx + 'px'); root.style.setProperty('--my', my + 'px');
+  }, { passive: true });
+
+  // the sky: points that drift, join when near, and lean toward the pointer
+  var c = document.getElementById('pnsky');
+  if (c && !still) {
+    var g = c.getContext('2d'), dpr = Math.min(2, devicePixelRatio || 1), W, H, pts = [];
     function size() {
       W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var n = Math.round(Math.min(70, W * H / 20000));
-      pts = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .22, vy: (Math.random() - .5) * .22, r: Math.random() * 1.5 + .4 }; });
+      var n = Math.round(Math.min(90, W * H / 16000));
+      pts = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .25, vy: (Math.random() - .5) * .25, r: Math.random() * 1.6 + .4 }; });
     }
     size(); addEventListener('resize', size);
-    addEventListener('pointermove', function (e) { mx = e.clientX; my = e.clientY; }, { passive: true });
+    // a touch sends a ring out from the finger and pushes the stars away
+    var rings = [];
+    addEventListener('pointerdown', function (e) {
+      rings.push({ x: e.clientX, y: e.clientY, r: 0 });
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i], dx = p.x - e.clientX, dy = p.y - e.clientY, d = Math.sqrt(dx * dx + dy * dy) || 1;
+        if (d < 260) { p.vx += dx / d * (260 - d) / 40; p.vy += dy / d * (260 - d) / 40; }
+      }
+    }, { passive: true });
+    var brand = getComputedStyle(document.body).getPropertyValue('--glow').trim() || '#8b6cff';
     (function frame() {
-      // a hidden tab draws nothing
-      if (!document.hidden) {
-        g.clearRect(0, 0, W, H);
-        for (var i = 0; i < pts.length; i++) {
-          var p = pts[i], dx = mx - p.x, dy = my - p.y, d2 = dx * dx + dy * dy;
-          if (d2 < 40000) { p.vx += dx / 70000; p.vy += dy / 70000; }
-          p.vx *= .985; p.vy *= .985; p.x += p.vx + (Math.random() - .5) * .04; p.y += p.vy + (Math.random() - .5) * .04;
-          if (p.x < 0) p.x = W; if (p.x > W) p.x = 0; if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
-          for (var j = i + 1; j < pts.length; j++) {
-            var q = pts[j], ex = p.x - q.x, ey = p.y - q.y, e2 = ex * ex + ey * ey;
-            if (e2 < 12000) { g.strokeStyle = 'rgba(139,108,255,' + (0.2 * (1 - e2 / 12000)) + ')'; g.lineWidth = 1; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(q.x, q.y); g.stroke(); }
-          }
-          if (d2 < 26000) { g.strokeStyle = 'rgba(62,230,255,' + (0.3 * (1 - d2 / 26000)) + ')'; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(mx, my); g.stroke(); }
-          g.fillStyle = d2 < 26000 ? '#3ee6ff' : 'rgba(238,240,255,.5)';
-          g.beginPath(); g.arc(p.x, p.y, p.r, 0, 6.283); g.fill();
+      g.clearRect(0, 0, W, H);
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i], dx = mx - p.x, dy = my - p.y, d2 = dx * dx + dy * dy;
+        if (d2 < 40000) { p.vx += dx / 60000; p.vy += dy / 60000; }
+        p.vx *= .985; p.vy *= .985; p.x += p.vx + (Math.random() - .5) * .05; p.y += p.vy + (Math.random() - .5) * .05;
+        if (p.x < 0) p.x = W; if (p.x > W) p.x = 0; if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+        for (var j = i + 1; j < pts.length; j++) {
+          var q = pts[j], ex = p.x - q.x, ey = p.y - q.y, e2 = ex * ex + ey * ey;
+          if (e2 < 12000) { g.strokeStyle = 'rgba(139,108,255,' + (0.22 * (1 - e2 / 12000)) + ')'; g.lineWidth = 1; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(q.x, q.y); g.stroke(); }
         }
+        if (d2 < 26000) { g.strokeStyle = 'rgba(62,230,255,' + (0.35 * (1 - d2 / 26000)) + ')'; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(mx, my); g.stroke(); }
+        g.fillStyle = d2 < 26000 ? '#3ee6ff' : 'rgba(238,240,255,.55)';
+        g.beginPath(); g.arc(p.x, p.y, p.r, 0, 6.283); g.fill();
+      }
+      for (var k = rings.length - 1; k >= 0; k--) {
+        var rg = rings[k]; rg.r += 7; var life = 1 - rg.r / 320;
+        if (life <= 0) { rings.splice(k, 1); continue; }
+        g.strokeStyle = 'rgba(62,230,255,' + (0.6 * life) + ')'; g.lineWidth = 2;
+        g.beginPath(); g.arc(rg.x, rg.y, rg.r, 0, 6.283); g.stroke();
+        g.strokeStyle = 'rgba(139,108,255,' + (0.4 * life) + ')'; g.lineWidth = 1;
+        g.beginPath(); g.arc(rg.x, rg.y, rg.r * .6, 0, 6.283); g.stroke();
       }
       requestAnimationFrame(frame);
     })();
-  })();
+  }
+
+  // cards lean toward the pointer, with a glare where it is
+  if (fine && !still) {
+    document.addEventListener('pointermove', function (e) {
+      var t = e.target.closest && e.target.closest('.kpi, .gadget');
+      document.querySelectorAll('.kpi, .gadget').forEach(function (k) { if (k !== t) k.style.transform = ''; });
+      if (!t) return;
+      var r = t.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      t.style.transform = 'perspective(800px) rotateX(' + (-y * 6) + 'deg) rotateY(' + (x * 8) + 'deg) translateY(-2px)';
+      t.style.setProperty('--gx', (x + .5) * 100 + '%'); t.style.setProperty('--gy', (y + .5) * 100 + '%');
+    }, { passive: true });
+  }
+})();
 
   $('demo').hidden = !demo;
   load();

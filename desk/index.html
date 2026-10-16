@@ -6,45 +6,47 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#06070f">
 <title>מסך הצוות</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<!-- the same room as the owner's panel: its fonts, its three stylesheets, its scaffolding -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Heebo:wght@300;400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/panel/assets/theme.css"><link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/panel/assets/style.css"><link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/panel/assets/panel.css">
+<style>:root{--brand:#1b794f;--brand-deep:#0e3f29;--accent:#fdb9ec;--deep:#241a16;--deep-2:#3b2d27;--paper:#fffaf6;--tint:#ebfcf4;--tint-2:#daf8eb;--butter:#fccff1;--sky:#f7e3e6;--mint:#f1e1f4;--peach:#defcf6;--ink:#241a16;--ink-2:#5f524b;--line:#eaded6;--oxblood:#0d3623;--oxblood-2:#164b33;--apricot:#cdfefc;--apricot-2:#aafdf6;--pop:#9e1a6d;--sun-a:#1ffff9;--sun-b:#47f568;--font-display:"Rubik", "Rubik", system-ui, sans-serif;--font-body:"Rubik", "Assistant", system-ui, sans-serif}</style>
 <link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/desk/desk.css">
 </head>
-<body>
-<canvas id="dksky" aria-hidden="true"></canvas>
-<header class="top">
-  <div class="wrap">
-    <span class="brand"><img id="logo" alt="לוגו" hidden><b id="bname">מסך הצוות</b></span>
-    <span class="who" id="who"></span>
-    <button type="button" class="bell" id="bell">🔔 התראות לטלפון</button>
-  </div>
-</header>
-<div class="hud" aria-hidden="true"><div class="wrap"><span><i></i><span id="hudon">מחובר</span></span><span id="hudclock"></span><span id="hudsites"></span><span id="hudopen"></span></div></div>
-<p class="demo" id="demo" hidden>מסך לדוגמה: צוות, לקוחות ופניות לדוגמה. שום דבר לא נשמר בשרת.</p>
+<body class="pn desk">
+<div class="pn-aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="pn-floor" aria-hidden="true"></div>
+<canvas id="pnsky" aria-hidden="true"></canvas><div class="pn-spot" aria-hidden="true"></div>
+<div class="pn-demo" id="demo" hidden>מסך לדוגמה: צוות, לקוחות ופניות לדוגמה. שום דבר לא נשמר בשרת.</div>
+<header class="pn-top"><div class="wrap">
+  <span class="logo" id="logowrap" hidden><img id="logo" alt="לוגו"></span>
+  <div><h1 id="bname">מסך הצוות</h1><small id="who"></small></div>
+  <button type="button" class="when bell" id="bell"><span class="live" aria-hidden="true"></span>🔔 התראות לטלפון</button>
+</div></header>
+<div class="pn-hud" aria-hidden="true"><div class="wrap"><span id="hud-link">◉ מתחבר…</span><span id="hud-clock"></span><span id="hud-name"></span></div></div>
 <main class="wrap">
-  <nav class="tabs" role="tablist">
+  <nav class="tktabs dtabs" role="tablist">
     <button type="button" role="tab" data-view="tickets" class="on">📨 פניות</button>
     <button type="button" role="tab" data-view="sites">🌐 אתרים</button>
   </nav>
-  <section id="tickets">
-    <div class="brief" id="brief" hidden></div>
-    <div class="tips" id="tips"></div>
-    <div class="load" id="load"></div>
-    <div class="counts" id="counts"></div>
+  <section id="tickets" class="dsec">
+    <section class="cardp glass brain" id="brief" hidden></section>
+    <section class="cardp glass" id="tips"></section>
+    <section class="kpis dkpis" id="counts" aria-label="הפניות לפי מצב"></section>
+    <div class="wlrow" id="load"></div>
     <div class="filters">
       <input id="q" type="search" placeholder="חיפוש לפי לקוח, נושא או מספר" aria-label="חיפוש">
       <div class="chips" id="chips"></div>
     </div>
-    <ul class="list" id="list"></ul>
+    <ul class="tklist" id="list"></ul>
   </section>
-  <section id="sites" hidden>
-    <div class="season" id="season" hidden></div>
-    <ul class="list" id="slist"></ul>
+  <section id="sites" class="dsec" hidden>
+    <section class="cardp glass season" id="season" hidden></section>
+    <ul class="tklist" id="slist"></ul>
   </section>
   <p class="err" id="err" hidden></p>
+  <p class="pn-foot">הבדיקה רצה שלוש פעמים ביום, רק קוראת ומייעצת. Claude משנה אתר רק כשמישהו מהצוות לוחץ על פנייה, והשינוי עולה רק אחרי אישור.</p>
 </main>
 <dialog class="rep" id="rep" aria-label="דוח חודשי ללקוח"></dialog>
-<div class="toast" id="toast" role="status"></div>
+<div class="pntoast" id="toast" role="status"></div>
 <script src="https://nitairevivo.github.io/agentfeed/desk/desk.js"></script>
 </body>
 </html>
