@@ -18,7 +18,7 @@
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var when = function (iso) { try { return new Date(iso).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }); } catch (x) { return ''; } };
   var ST = { new: 'חדשה', doing: 'בטיפול', waiting: 'מחכה ללקוח', review: 'מחכה לאישור שינוי', done: 'טופלה' };
-  var state = { tickets: [], team: [], sites: [], me: null, filter: 'open', q: '' };
+  var state = { tickets: [], team: [], sites: [], seasons: [], me: null, filter: 'open', q: '' };
 
   function toast(t) { var el = $('toast'); el.textContent = t; el.classList.add('on'); setTimeout(function () { el.classList.remove('on'); }, 2600); }
   function call(op, body) {
@@ -30,15 +30,26 @@
   }
 
   // ── the demo: a studio, its team, its clients, on this device ──
-  var DK = 'desk-demo', h = function (n) { return new Date(Date.now() - n * 3600e3).toISOString(); };
+  // the same offers the server makes from a site's free check (server/lib/growth.mjs)
+  var DEMO_OFFERS = {
+    whatsapp: { key: 'whatsapp', offer: 'כפתור וואטסאפ קבוע בפינה', pitch: 'שמנו לב שבאתר אין כפתור וואטסאפ. בישראל הרבה קונים מעדיפים לשאול שאלה בוואטסאפ לפני שהם קונים. רוצים שנוסיף כפתור קבוע בפינת האתר?' },
+    llms: { key: 'llms', offer: 'קובץ הסבר לעוזרי AI (llms.txt)', pitch: 'יש תקן חדש, llms.txt, שמסביר לעוזרי AI מה יש באתר. מעט עסקים כבר עשו את זה. רוצים שנוסיף?' },
+    products: { key: 'products', offer: 'סימון המוצרים לגוגל ולעוזרי AI', pitch: 'המוצרים באתר לא מסומנים כך שגוגל ועוזרי AI כמו ChatGPT יודעים לקרוא מהם שם, מחיר וזמינות. רוצים שנוסיף את הסימון? במראה של האתר זה לא משנה כלום, זה רק למכונות.' },
+    share: { key: 'share', offer: 'תמונה ותיאור כשמשתפים קישור', pitch: 'כשמשתפים קישור לאתר בוואטסאפ או בפייסבוק, לא מופיעה תמונה. רוצים שנגדיר תמונה ותיאור יפים לשיתוף?' },
+    speed: { key: 'speed', offer: 'האצת האתר', pitch: 'העמוד הראשי נטען לאט. בדרך כלל אלה תמונות כבדות מדי, וזה תיקון קצר. רוצים שנטפל בזה?' }
+  };
+  var DK = 'desk-demo-2', h = function (n) { return new Date(Date.now() - n * 3600e3).toISOString(); };
   function demoData() {
     var kept = null; try { kept = JSON.parse(localStorage.getItem(DK) || 'null'); } catch (x) {}
     if (kept) return kept;
     return { me: { id: 'noam', name: 'נועם' }, brand: { name: 'סטודיו לדוגמה', color: '#5b4bdb', accent: '#00b5b8' },
       team: [{ id: 'noam', name: 'נועם' }, { id: 'dana', name: 'דנה' }],
-      sites: [{ slug: 'pizza', name: 'פיצה דרור', platform: 'lovable', repo: 'studio/pizza', health: { watched: true, status: 'ok', uptime7: 100 } },
-              { slug: 'flowers', name: 'פרחי השרון', platform: 'base44', repo: '', health: { watched: true, status: 'ok', uptime7: 99.6 } },
-              { slug: 'bakery', name: 'מאפיית אורן', platform: 'lovable', repo: 'studio/bakery', health: { watched: true, status: 'slow', uptime7: 100 } }],
+      sites: [{ slug: 'pizza', name: 'פיצה דרור', platform: 'lovable', repo: 'studio/pizza', health: { watched: true, status: 'ok', uptime7: 100 },
+                growth: { cert: { days: 64 }, audit: { score: 74, opportunities: [DEMO_OFFERS.whatsapp, DEMO_OFFERS.llms] } } },
+              { slug: 'flowers', name: 'פרחי השרון', platform: 'base44', repo: '', health: { watched: true, status: 'ok', uptime7: 99.6 },
+                growth: { cert: { days: 12 }, audit: { score: 58, opportunities: [DEMO_OFFERS.products, DEMO_OFFERS.share, DEMO_OFFERS.speed] } } },
+              { slug: 'bakery', name: 'מאפיית אורן', platform: 'lovable', repo: 'studio/bakery', health: { watched: true, status: 'slow', uptime7: 100 },
+                growth: { cert: { days: 81 }, audit: { score: 86, opportunities: [DEMO_OFFERS.share] } } }],
       tickets: [
         { no: '1004', site: 'pizza', client: 'פיצה דרור', subject: 'להגדיל את הלוגו בטלפון', prio: 'urgent', status: 'new', who: '', at: h(1), log: [{ w: 'client', t: 'בטלפון הלוגו ממש קטן, אפשר להגדיל?', at: h(1) }] },
         { no: '1003', site: 'bakery', client: 'מאפיית אורן', subject: 'כפתור "הזמנה לאירוע" בצבע של הלוגו', prio: 'normal', status: 'review', who: 'dana', whoName: 'דנה', at: h(6),
@@ -187,12 +198,98 @@
     counts();
     var list = shown();
     $('list').innerHTML = list.length ? list.map(ticket).join('') : '<li class="empty">אין פניות כאן. 🎉</li>';
-    $('slist').innerHTML = state.sites.length ? state.sites.map(function (s) {
-      var hh = s.health || {};
-      return '<li class="site"><span class="dot ' + esc(hh.status || '') + '"></span><b>' + esc(s.name || s.slug) + '</b>' +
-        (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
-        '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' +
-        '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span></li>'; }).join('') : '<li class="empty">עוד אין אתרים.</li>';
+    copies = [];
+    $('slist').innerHTML = state.sites.length ? state.sites.map(siteCard).join('') : '<li class="empty">עוד אין אתרים.</li>';
+    seasonCard();
+  }
+  // Text the studio sends a client, kept here by number: the button carries the number, not the text.
+  var copies = [];
+  function copyBtn(text, label) { copies.push(text); return '<button type="button" class="btn ghost sm" data-copy="' + (copies.length - 1) + '">' + (label || '📋 העתקת הודעה ללקוח') + '</button>'; }
+  function siteCard(s) {
+    var hh = s.health || {}, g = s.growth || {}, c = g.cert, a = g.audit;
+    var cert = c && c.days != null ? '<span class="cert' + (c.days <= 21 ? ' warn' : '') + '">🔒 ' + (c.days < 0 ? 'תעודת האבטחה פגה' : 'תעודת האבטחה בתוקף עוד ' + c.days + ' ימים') + '</span>' : '';
+    var ops = a && (a.opportunities || []).length ? '<div class="ops"><b>✨ מה אפשר להציע ללקוח</b> <small>(מהבדיקה החינמית של האתר · ציון ' + esc(a.score) + ' מ-100)</small><ul>' +
+      a.opportunities.slice(0, 3).map(function (o) { return '<li><span>' + esc(o.offer) + '</span>' + copyBtn('היי, ' + o.pitch) + '</li>'; }).join('') + '</ul></div>' :
+      a ? '<div class="ops"><b>✨ האתר עבר את הבדיקה החינמית בציון ' + esc(a.score) + '</b></div>' : '';
+    return '<li class="site"><div class="srow"><span class="dot ' + esc(hh.status || '') + '"></span><b>' + esc(s.name || s.slug) + '</b>' +
+      (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
+      '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' + cert +
+      '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span>' +
+      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + ops + '</li>';
+  }
+  // What is coming up in the shops' year, with the message to send every client.
+  function seasonCard() {
+    var el = $('season'), list = (state.seasons || []).filter(function (e) { return e.days >= 3; }).slice(0, 3);
+    if (!list.length) { el.hidden = true; return; }
+    el.hidden = false;
+    el.innerHTML = '<b>📅 בקרוב אצל הלקוחות</b><ul>' + list.map(function (e) {
+      var d = ''; try { d = new Date(e.date + 'T12:00:00Z').toLocaleDateString('he-IL', { day: 'numeric', month: 'long' }); } catch (x) {}
+      return '<li><span><b>' + esc(e.name) + '</b> · ' + esc(d) + ' (בעוד ' + e.days + ' ימים)<br><small>' + esc(e.idea) + '</small></span>' + copyBtn(e.ask, '📋 הודעה ללקוחות') + '</li>'; }).join('') +
+      '</ul><p class="rule">שולחים ללקוח, הוא שולח את הנוסח, פותחים פנייה ו-Claude מכין פס הודעה לתצוגה מקדימה. עולה רק אחרי אישור.</p>';
+  }
+
+  // ── the monthly report a studio sends each client: what the fee bought ──
+  var MON = function (m) { var p = m.split('-'); try { return new Date(Date.UTC(+p[0], +p[1] - 1, 15)).toLocaleDateString('he-IL', { month: 'long', year: 'numeric' }); } catch (x) { return m; } };
+  function monthNow(back) { var d = new Date(); d.setDate(1); d.setMonth(d.getMonth() - (back || 0)); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0'); }
+  function hrs(x) { return x < 1 ? 'פחות משעה' : x < 24 ? Math.round(x) + ' שעות' : Math.round(x / 24) + ' ימים'; }
+  function demoReport(slug, month) {
+    var s = siteOf(slug), mine = state.tickets.filter(function (t) { return t.site === slug; });
+    // the example month: this site's tickets on the demo desk, and a few done earlier in the month
+    var done = mine.filter(function (t) { return t.status === 'done'; }).map(function (t) { return { no: t.no, subject: t.subject }; })
+      .concat([{ no: '981', subject: 'עדכון שעות הפתיחה לחגים' }, { no: '975', subject: 'הוספת שלושה מוצרים חדשים' }, { no: '968', subject: 'תיקון הקישור לוואטסאפ בטלפון' }]);
+    var open = mine.filter(function (t) { return t.status !== 'done'; }).length;
+    var r = { demo: true, month: month, monthName: MON(month), site: { name: s.name, url: '' }, brand: D && D.brand,
+      watch: { checks: 2976, uptime: 99.9 }, incidents: [{ mins: 9, what: 'השרת לא ענה' }],
+      requests: { opened: done.length + open, done: done.length, open: open, list: done },
+      answerH: 1.5, changes: done.slice(0, 3), visits: { views: 1284, actions: 61 } };
+    r.text = textOf(r); return r;
+  }
+  // the same words as server/lib/report.mjs reportText, for the demo
+  function textOf(r) {
+    var L = ['📄 *סיכום ' + r.monthName + '* · ' + r.site.name, ''];
+    if (r.watch) L.push('🛡️ האתר נבדק ' + r.watch.checks.toLocaleString('he-IL') + ' פעמים החודש, ועבד ב-' + r.watch.uptime + '% מהבדיקות.');
+    if (r.incidents.length) L.push('⚠️ ' + (r.incidents.length === 1 ? 'תקלה אחת' : r.incidents.length + ' תקלות') + ': ' + r.incidents.map(function (i) { return i.mins ? i.mins + ' דקות' : 'עדיין בטיפול'; }).join(', ') + '.');
+    else if (r.watch) L.push('✅ לא היו תקלות החודש.');
+    L.push('📨 ' + (r.requests.opened === 1 ? 'בקשה אחת נפתחה' : r.requests.opened + ' בקשות נפתחו') + ', ' + (r.requests.done === 1 ? 'אחת טופלה' : r.requests.done + ' טופלו') + '.');
+    if (r.answerH != null) L.push('⏱ זמן תגובה רגיל: ' + hrs(r.answerH) + '.');
+    if (r.changes.length) { L.push('', '🚀 *מה עלה לאתר:*'); r.changes.forEach(function (c) { L.push('• ' + c.subject); }); }
+    if (r.visits) L.push('', '👀 ' + r.visits.views.toLocaleString('he-IL') + ' צפיות באתר, ' + r.visits.actions.toLocaleString('he-IL') + ' לחיצות על וואטסאפ, טלפון, טופס או סל.');
+    if (r.brand && r.brand.name) L.push('', r.brand.name);
+    return L.join('\n');
+  }
+  function repHtml(r) {
+    var b = r.brand || {}, n = function (x) { return Number(x).toLocaleString('he-IL'); };
+    var big = function (v, l) { return '<div class="kpi"><b>' + v + '</b><span>' + l + '</span></div>'; };
+    return '<div class="rhead" style="--brand:' + esc(b.color || '') + '">' + (b.logo ? '<img src="' + esc(b.logo) + '" alt="">' : '') +
+      '<div><small>' + esc(b.name || '') + '</small><h2>סיכום ' + esc(r.monthName) + '</h2><p>' + esc(r.site.name) + (r.site.url ? ' · ' + esc(r.site.url.replace(/^https?:\/\//, '')) : '') + '</p></div></div>' +
+      '<div class="kpis">' + (r.watch ? big(r.watch.uptime + '%', 'זמינות האתר (' + n(r.watch.checks) + ' בדיקות)') : '') +
+      big(n(r.requests.done), 'בקשות טופלו') + (r.answerH != null ? big(hrs(r.answerH), 'זמן תגובה רגיל') : '') +
+      (r.visits ? big(n(r.visits.views), 'צפיות באתר') : '') + '</div>' +
+      '<h3>🛡️ שמירה על האתר</h3><p>' + (r.watch ? 'האתר נבדק אוטומטית כל כמה דקות, מהטלפון כמו לקוח. ' : '') +
+      (r.incidents.length ? (r.incidents.length === 1 ? 'הייתה תקלה אחת' : 'היו ' + r.incidents.length + ' תקלות') + ': ' + r.incidents.map(function (i) { return esc(i.what || 'תקלה') + (i.mins ? ' (' + i.mins + ' דקות)' : ' (בטיפול)'); }).join(', ') + '.' : r.watch ? 'לא היו תקלות.' : 'השמירה על האתר עוד לא התחילה החודש.') + '</p>' +
+      '<h3>📨 בקשות</h3><p>' + (r.requests.opened === 1 ? 'בקשה אחת נפתחה' : r.requests.opened + ' בקשות נפתחו') + ', ' + (r.requests.done === 1 ? 'אחת טופלה' : r.requests.done + ' טופלו') + (r.requests.open ? ', ו-' + r.requests.open + ' בטיפול.' : '.') + '</p>' +
+      (r.changes.length ? '<h3>🚀 מה עלה לאתר</h3><ul>' + r.changes.map(function (c) { return '<li>' + esc(c.subject) + '</li>'; }).join('') + '</ul>' :
+        r.requests.list.length ? '<h3>✅ מה טופל</h3><ul>' + r.requests.list.map(function (c) { return '<li>' + esc(c.subject) + '</li>'; }).join('') + '</ul>' : '') +
+      (r.visits ? '<h3>👀 באתר</h3><p>' + n(r.visits.views) + ' צפיות, ו-' + n(r.visits.actions) + ' לחיצות על וואטסאפ, טלפון, טופס או סל.</p>' : '') +
+      '<p class="rfoot">' + esc(b.name || '') + (r.demo ? ' · דוח לדוגמה' : '') + '</p>';
+  }
+  var repState = { slug: '', month: '' };
+  function openReport(slug, month) {
+    repState = { slug: slug, month: month || monthNow(0) };
+    var el = $('rep');
+    el.innerHTML = '<div class="rbar"><select id="rmon" aria-label="חודש">' + [0, 1, 2].map(function (k) { var m = monthNow(k); return '<option value="' + m + '"' + (m === repState.month ? ' selected' : '') + '>' + MON(m) + '</option>'; }).join('') + '</select>' +
+      '<button type="button" class="btn" data-rep="print">🖨️ הדפסה / PDF</button><button type="button" class="btn ghost" data-rep="copy">📋 העתקה לוואטסאפ</button>' +
+      '<button type="button" class="btn ghost" data-rep="close" aria-label="סגירה">✕</button></div><div class="rbody" id="rbody">טוען…</div>';
+    if (!el.open) { if (el.showModal) el.showModal(); else el.setAttribute('open', ''); }
+    var got = demo ? Promise.resolve(demoReport(slug, repState.month)) : fetch(API + '?op=report&agency=' + agency + '&site=' + encodeURIComponent(slug) + '&month=' + repState.month, { headers: { authorization: 'Bearer ' + key } })
+      .then(function (r) { if (!r.ok) throw new Error('הדוח לא נטען. נסו שוב בעוד דקה.'); return r.json(); });
+    got.then(function (r) { repState.r = r; $('rbody').innerHTML = repHtml(r); }).catch(function (e) { $('rbody').textContent = e.message; });
+  }
+  function copy(text) {
+    var done = function () { toast('הועתק. אפשר להדביק בוואטסאפ'); };
+    if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(text).then(done, function () { fallback(); });
+    fallback();
+    function fallback() { var t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); done(); } catch (x) { toast('לא הצלחתי להעתיק'); } t.remove(); }
   }
   // The check-in: three times a day the system looks over the desk and every
   // site, and writes what to do. It reads and advises; it never changes a site.
@@ -205,6 +302,8 @@
     var open = state.tickets.filter(function (t) { return t.status !== 'done'; }).length;
     var slow = state.sites.filter(function (s) { return (s.health || {}).status === 'slow'; });
     return { at: lastSlot().toISOString(), line: 'כל ' + state.sites.length + ' האתרים עובדים · ' + open + ' פניות פתוחות',
+      todo: ['🔒 תעודת האבטחה של פרחי השרון פגה בעוד 12 ימים. לוודא שהחידוש האוטומטי עובד',
+             '✨ עבודה שאפשר להציע ללקוחות: כפתור וואטסאפ קבוע בפינה (אתר אחד), תמונה ותיאור כשמשתפים קישור (2 אתרים). הודעה מוכנה לכל לקוח בלשונית האתרים'],
       tips: [(slow[0] ? 'האתר של ' + slow[0].name + ' נטען לאט כבר כמה בדיקות. בדרך כלל זו תמונה גדולה מדי בראש העמוד, ושווה לבדוק לפני שהלקוח ישים לב.' : ''),
              'פרחי השרון פתחו 3 פניות החודש. שיחה קצרה איתם עכשיו יכולה לחסוך את הרביעית, וגם לשמור אותם מרוצים.',
              'שינוי שמחכה לאישור הוא הדבר הכי מהיר לסגור היום: לקוח שרואה שהבקשה שלו עלתה תוך יום ממליץ עליכם.'].filter(Boolean) };
@@ -215,16 +314,23 @@
     var t = ''; try { t = new Date(b.at).toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit' }); } catch (x) {}
     el.hidden = false;
     el.innerHTML = '<div class="bhead"><b>🔎 הבדיקה של ' + esc(t) + '</b><span>' + esc(b.line) + '</span></div>' +
+      ((b.todo || []).filter(function (x) { return /^(🔒|✨|📅)/.test(x); }).map(function (x) { return '<p class="bdo">' + esc(x) + '</p>'; }).join('')) +
       ((b.tips || []).length ? '<ul>' + b.tips.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
       '<p class="rule">הבדיקה רצה שלוש פעמים ביום, רק קוראת ומייעצת. Claude משנה אתר רק כשמישהו מהצוות לוחץ על פנייה, והשינוי עולה רק אחרי אישור.</p>';
   }
   function apply(d) {
     state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me;
+    if (d.seasons) state.seasons = d.seasons;
     briefCard(demo ? demoBrief() : d.brief);
     brand(d.brand); $('who').textContent = d.me ? 'מחובר/ת: ' + d.me.name : ''; render();
   }
   function load() {
-    if (demo) { D = D || demoData(); apply(D); return; }
+    if (demo) {
+      D = D || demoData(); apply(D);
+      // the calendar is real in the demo too: the same dates the desk shows a studio
+      if (!state.seasons.length) fetch(API + '?op=seasons').then(function (r) { return r.json(); }).then(function (x) { state.seasons = x.upcoming || []; render(); }).catch(function () {});
+      return;
+    }
     call('desk').then(apply).catch(function (e) { $('err').hidden = false; $('err').textContent = e.message; });
   }
 
@@ -232,6 +338,17 @@
   document.addEventListener('click', function (e) {
     var tab = e.target.closest('[data-view]');
     if (tab) { document.querySelectorAll('[data-view]').forEach(function (b) { b.classList.toggle('on', b === tab); }); $('tickets').hidden = tab.dataset.view !== 'tickets'; $('sites').hidden = tab.dataset.view !== 'sites'; return; }
+    var cp = e.target.closest('[data-copy]');
+    if (cp) { copy(copies[+cp.dataset.copy] || ''); return; }
+    var rb = e.target.closest('[data-report]');
+    if (rb) { openReport(rb.dataset.report); return; }
+    var rp = e.target.closest('[data-rep]');
+    if (rp) {
+      if (rp.dataset.rep === 'close') { var dl = $('rep'); if (dl.close) dl.close(); else dl.removeAttribute('open'); }
+      if (rp.dataset.rep === 'print') window.print();
+      if (rp.dataset.rep === 'copy' && repState.r) copy(repState.r.text);
+      return;
+    }
     var qb = e.target.closest('[data-q]');
     if (qb) { var ta = qb.closest('form').querySelector('textarea'); ta.value = QUICK[+qb.dataset.q] + (/:$/.test(QUICK[+qb.dataset.q]) ? ' ' : ''); ta.focus(); return; }
     var f = e.target.closest('[data-f]');
@@ -254,6 +371,7 @@
     }
   });
   document.addEventListener('change', function (e) {
+    if (e.target.id === 'rmon') { openReport(repState.slug, e.target.value); return; }
     var s = e.target.closest('[data-set]'); if (!s) return;
     var b = { no: s.dataset.no }; b[s.dataset.set] = s.value;
     act('ticket-set', b).then(load).catch(function (err) { toast(err.message); });

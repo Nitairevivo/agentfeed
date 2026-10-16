@@ -1,10 +1,47 @@
 {
  "page": 100,
  "pages": 102,
- "total": 5082,
+ "total": 5083,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-101.json",
  "products": [
+  {
+   "id": "tdr-production-recording",
+   "title": "הקלטות באולפן",
+   "description": "הקלטות באולפן של תדר הפקות, ברחוב החקלאי 21 במושב מנחמיה. שעות המענה שנמסרו הן 09:00–19:30. הסגנון המוזיקלי: מוסיקה אקוסטית ישראלית, עם שילוב של מוסיקה אתנית, בדגש על מוסיקה ערבית, ופלמנקו. היקף הפקה: הפקה נעה בין 8 ל-10 סשיינים, ועוד 2 סשיינים לתיקונים ושינויים. כל סשן אורך בין 4 ל-5 שעות. בתחילת התהליך נעשה אפיון של היצירה ושל הסגנון המוזיקלי, וכן כמה ובאיזה אופן האומן רואה את עצמו חלק מתהליך היצירה. לאחר מכן נקבעים תאריכים והסכם. התשלום על ההפקה מחולק לשניים — חלק בתחילת העבודה והחצי השני בסיום. המחיר לפי הזמנה ומשתנה לפי היקף היצירה ואורכה. פנייה בטלפון או בוואטסאפ, 052-645-4838.",
+   "link": "https://wa.me/972526454838",
+   "brand": "תדר הפקות TDR Production",
+   "product_type": "אולפן הקלטות > הקלטה > אולפן > מנחמיה > עמק הירדן > צפון > זמרים > שירים",
+   "condition": "new",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/",
+   "json": "https://nitairevivo.github.io/agentfeed/tdr-production/item/tdr-production-recording/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tdr-production/#tdr-production-recording",
+   "order": {
+    "method": "whatsapp",
+    "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A7%D7%9C%D7%98%D7%95%D7%AA%20%D7%91%D7%90%D7%95%D7%9C%D7%A4%D7%9F%D7%B4.",
+    "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח.",
+    "routes": [
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972526454838?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%94%D7%A7%D7%9C%D7%98%D7%95%D7%AA%20%D7%91%D7%90%D7%95%D7%9C%D7%A4%D7%9F%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0526454838",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "תדר הפקות TDR Production",
+   "business_slug": "tdr-production",
+   "business_site": "https://www.instagram.com/_shayaharoni_",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tdr-production/",
+   "ref": "tdr-production:tdr-production-recording",
+   "catalog_changed_at": "2026-09-09T11:56:18+00:00"
+  },
   {
    "id": "tdr-production-music",
    "title": "הפקה מוזיקלית",
@@ -1921,33 +1958,6 @@
    "business_site": "https://tgil.co.il",
    "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
    "ref": "tgil-co-il:kibuzot-ohvim-sports-telegram",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "terms",
-   "title": "תנאי שימוש — טלגרם ישראל",
-   "description": "טלגרם ישראל הוא אינדקס פרטי ובלתי תלוי המרכז ערוצים וקבוצות טלגרם ישראליות לנוחות המשתמשים. האתר אינו שייך לחברת Telegram ואינו מאושר על ידה.",
-   "link": "https://tgil.co.il/legal/terms?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/69cbeccb4a796ae2baa1488d/bb0b2a3ec_Gemini_Generated_Image_817jtj817jtj817j.png",
-   "brand": "טלגרם ישראל",
-   "condition": "new",
-   "words": 300,
-   "image_alt": "תנאי שימוש — טלגרם ישראל",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/terms/",
-   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/terms/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#terms",
-   "order": {
-    "method": "none",
-    "url": "",
-    "routes": [],
-    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
-   },
-   "business": "טלגרם ישראל",
-   "business_slug": "tgil-co-il",
-   "business_site": "https://tgil.co.il",
-   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
-   "ref": "tgil-co-il:terms",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

@@ -1,10 +1,37 @@
 {
  "page": 101,
  "pages": 102,
- "total": 5082,
+ "total": 5083,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-102.json",
  "products": [
+  {
+   "id": "terms",
+   "title": "תנאי שימוש — טלגרם ישראל",
+   "description": "טלגרם ישראל הוא אינדקס פרטי ובלתי תלוי המרכז ערוצים וקבוצות טלגרם ישראליות לנוחות המשתמשים. האתר אינו שייך לחברת Telegram ואינו מאושר על ידה.",
+   "link": "https://tgil.co.il/legal/terms?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/69cbeccb4a796ae2baa1488d/bb0b2a3ec_Gemini_Generated_Image_817jtj817jtj817j.png",
+   "brand": "טלגרם ישראל",
+   "condition": "new",
+   "words": 300,
+   "image_alt": "תנאי שימוש — טלגרם ישראל",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/terms/",
+   "json": "https://nitairevivo.github.io/agentfeed/tgil-co-il/item/terms/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/tgil-co-il/#terms",
+   "order": {
+    "method": "none",
+    "url": "",
+    "routes": [],
+    "note": "העסק לא פרסם דרך להזמין את הפריט הזה ישירות — יש לפנות אליו דרך העמוד שלו."
+   },
+   "business": "טלגרם ישראל",
+   "business_slug": "tgil-co-il",
+   "business_site": "https://tgil.co.il",
+   "business_page": "https://nitairevivo.github.io/agentfeed/tgil-co-il/",
+   "ref": "tgil-co-il:terms",
+   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
+  },
   {
    "id": "privacy",
    "title": "מדיניות פרטיות — טלגרם ישראל",
@@ -2643,65 +2670,6 @@
    "business_site": "https://transplant-israel.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
    "ref": "transplant-israel-com:scabs",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "transplant-risks",
-   "title": "סיכונים בהשתלת שיער — סיבוכים אפשריים ואיך למנוע",
-   "description": "השתלת שיער מוצגת לעיתים כטיפול אסתטי פשוט ונטול סיכונים, אך מדובר בהליך כירורגי פולשני הדורש מיומנות רפואית גבוהה. בישראל, ההשתלה מתבצעת תחת פיקוח רגולטורי מסוים, אך ריבוי המרפאות המציעות טיפולים במחירי מבצע דורש מהמטופל לגלות ערנות מרבית. הבנת הסיכונים אינה נועדה להפחיד, אלא להבטיח קבלת החלטות…",
-   "link": "https://transplant-israel.com/hair/transplant-risks?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/3b50eebcc_generated_image.png",
-   "brand": "מגזין ההשתלות של ישראל",
-   "condition": "new",
-   "byline": "מערכת השתלות ישראל",
-   "updated": "2026-08-09",
-   "reading_minutes": 12,
-   "words": 2114,
-   "points": [
-    "השתלת שיער היא הליך כירורגי לכל דבר הדורש ידע רפואי.",
-    "הסיבוך האסתטי החמור ביותר הוא פגיעה בלתי הפיכה באזור התורם.",
-    "בחירה במרפאה ללא רישיון משרד הבריאות מגבירה משמעותית סיכונים.",
-    "עישון ומחלות רקע מהווים גורמי סיכון קריטיים לזיהומים ונמק.",
-    "תכנון שמרני הוא המפתח לתוצאה טבעית ולמניעת השתלה כושלת.",
-    "חובה לוודא שרופא מוסמך מעורב בכל שלבי הניתוח."
-   ],
-   "quote": "השתלת שיער מוצגת לעיתים כטיפול אסתטי פשוט ונטול סיכונים, אך מדובר בהליך כירורגי פולשני הדורש מיומנות רפואית גבוהה. בישראל, ההשתלה מתבצעת תחת פיקוח רגולטורי מסוים, אך ריבוי המרפאות המציעות טיפולים במחירי מבצע דורש מהמטופל לגלות ערנות מרבית. הבנת הסיכונים אינה נועדה להפחיד, אלא להבטיח קבלת החלטות מושכלת שתמנע נזק בלתי הפיך לקרקפת.\n\nלמרות השכיחות הנמוכה של סיבוכים רפואיים קשים, המטופל הממוצע נתקל בתופעות לוואי פיזיולוגיות בימים שלאחר הניתוח. הבנת טווח הזמנים של תופעות אלו מסייעת להפחתת חרדה ולזיהוי מוקדם של סימנים חריגים הדורשים התערבות רפואית מיידית. מדובר בדרך כלל בתגובה טבעית של הגוף לטראומה הכירורגית המקומית בקרקפת במהלך ימי ההחלמה הראשונים.\n\nבעוד שחלק מהתופעות הן קוסמטיות בלבד, סיבוכים משמעותיים בהשתלת שיער עלולים להוביל לנזק תמידי בקרקפת. הסטטיסטיקה מראה כי רוב הכשלים נובעים מתכנון לקוי או מביצוע טכני רשלני שאינו עומד בסטנדרטים רפואיים מקובלים. זיהום הוא סיכון קיים בכל ניתוח, אך בזכות שימוש באנטיביוטיקה וסטריליזציה נאותה, השכיחות נמוכה מאוד במרפאות מסודרות ומפוקחות בישראל.\n\nהנזק לאזור התורם הוא ללא ספק הסיכון המדאיג ביותר. בניגוד לשיער בראש שיכול לצמוח מחדש, הזקיקים המוצאים מאזור העורף הם משאב מוגבל. אם הקליניקה שואבת יותר מדי זקיקים ללא תכנון ארוך טווח, התוצאה תהיה אזור תורם דליל ומראה 'שקוף'. תיקון של נזק זה הוא משימה כמעט בלתי אפשרית, מה שהופך אותו לסיכון הכבד ביותר להצלחת המטרה האסתטית.\n\nשאיבת יתר מתרחשת כאשר מבצעים שאיבה אגרסיבית מדי כדי להשיג כיסוי רחב בטיפול יחיד. זהו פיתוי שיווקי המכונה לעיתים 'מגה-סשן', אך התוצאה שלו בטווח הארוך היא דלדול של העורף עד לרמה של צלקות נראות לעין. הימנעות מכך דורשת רופא מנוסה שיודע להגביל את כמות הזקיקים לטווח הבטוח והמומלץ רפואית.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/3b50eebcc_generated_image.png/v1/fill/w_768,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/3b50eebcc_generated_image.webp",
-     "alt": "מנתח בוחן את אזור התורם בקרקפת של מטופל תחת תאורה ניתוחית"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/1a5e623eb_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/1a5e623eb_generated_image.webp",
-     "alt": "מומחה טריכולוגיה בוחן קרקפת של מטופל באמצעות דרמוסקופ במרפאת השתלת שיער מקצועית"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a744eaf8f651988f4c96db2/d0c03a589_generated_image.png/v1/fill/w_766,h_320,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/d0c03a589_generated_image.webp",
-     "alt": "צילום תקריב של הכנת אזור השתלה במרפאת שיער מודרנית עם דגש על דיוק רפואי ותנאים סטריליים"
-    }
-   ],
-   "image_alt": "סיכונים בהשתלת שיער — סיבוכים אפשריים ואיך למנוע",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/transplant-risks/",
-   "json": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/item/transplant-risks/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/#transplant-risks",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=transplant-risks",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/transplant-israel-com?to=https%3A%2F%2Ftransplant-israel.com%2Fcontact&p=transplant-risks",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "מגזין ההשתלות של ישראל",
-   "business_slug": "transplant-israel-com",
-   "business_site": "https://transplant-israel.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/transplant-israel-com/",
-   "ref": "transplant-israel-com:transplant-risks",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

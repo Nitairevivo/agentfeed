@@ -1,10 +1,44 @@
 {
  "page": 50,
  "pages": 102,
- "total": 5082,
+ "total": 5083,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-51.json",
  "products": [
+  {
+   "id": "about",
+   "title": "אודות",
+   "description": "\"העולם המשפטי בישראל\" הוקם מתוך אמונה פשוטה: מידע משפטי אינו צריך להיות נחלתם של משפטנים בלבד. רוב האנשים פוגשים את מערכת המשפט ברגע קשה – גירושין, פיטורים, תאונה, חקירה או ירושה – ודווקא אז הם זקוקים למידע ברור, אמין ונגיש.",
+   "link": "https://lawinisrael.com/about?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/0e10fb443_logo.png/v1/fill/w_1200,h_630/0e10fb443_logo.png",
+   "brand": "העולם המשפטי בישראל",
+   "condition": "new",
+   "words": 284,
+   "quote": "\"העולם המשפטי בישראל\" הוקם מתוך אמונה פשוטה: מידע משפטי אינו צריך להיות נחלתם של משפטנים בלבד. רוב האנשים פוגשים את מערכת המשפט ברגע קשה – גירושין, פיטורים, תאונה, חקירה או ירושה – ודווקא אז הם זקוקים למידע ברור, אמין ונגיש.\n\nהפורטל מרכז מדריכים ומאמרים ב-12 תחומי המשפט המרכזיים בישראל, מנוסחים בשפה יומיומית, עם דגש על מה שבאמת חשוב לדעת: מה הזכויות, מהם לוחות הזמנים, כמה זה עולה ומתי חובה להיוועץ בעורך דין.\n\nהתכנים באתר הם מידע כללי בלבד ואינם מהווים ייעוץ משפטי, חוות דעת או תחליף להיוועצות עם עורך דין. כל מקרה נבחן לגופו, ואין להסתמך על האמור באתר לצורך קבלת החלטות משפטיות ללא ייעוץ פרטני.",
+   "image_alt": "אודות",
+   "kind": "listing",
+   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/about/",
+   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/about/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#about",
+   "order": {
+    "method": "form",
+    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=about",
+    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
+    "routes": [
+     {
+      "method": "form",
+      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=about",
+      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
+     }
+    ]
+   },
+   "business": "העולם המשפטי בישראל",
+   "business_slug": "lawinisrael-com",
+   "business_site": "https://lawinisrael.com",
+   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
+   "ref": "lawinisrael-com:about",
+   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
+  },
   {
    "id": "contact",
    "title": "צור קשר",
@@ -3454,63 +3488,6 @@
    "business_site": "https://lawinisrael.com",
    "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
    "ref": "lawinisrael-com:combination-deal-in-real-estate",
-   "catalog_changed_at": "2026-09-22T08:01:12+00:00"
-  },
-  {
-   "id": "enforcement-of-contract-israel",
-   "title": "אכיפת חוזה: מתי בית המשפט יחייב לקיים את ההסכם",
-   "description": "מדריך משפטי מקיף על אכיפת חוזה בישראל: מתי בית המשפט יורה על קיום הסכם, מהם הסייגים המרכזיים לאכיפה וכיצד מומלץ לפעול בעת הפרת חוזה מסחרי.",
-   "link": "https://lawinisrael.com/article/enforcement-of-contract-israel?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://media.base44.com/images/public/6a786260d64141083d3658d6/c4c23f010_generated_image.png",
-   "brand": "העולם המשפטי בישראל",
-   "condition": "new",
-   "updated": "2026-08-13",
-   "words": 2020,
-   "quote": "מדריך משפטי מקיף על אכיפת חוזה בישראל: מתי בית המשפט יורה על קיום הסכם, מהם הסייגים המרכזיים לאכיפה וכיצד מומלץ לפעול בעת הפרת חוזה מסחרי.\n\nאכיפת חוזה היא התרופה המשפטית הראשונה במעלה בשיטת המשפט הישראלית, המעוגנת בחוק החוזים (תרופות בשל הפרת חוזה), תשל\"א-1970. ככלל, כאשר צד מפר הסכם, הנפגע זכאי לדרוש את קיום החוזה ככתבו וכלשונו. בית המשפט יורה על אכיפה אלא אם מתקיימים סייגים ספציפיים שהופכים את קיום ההסכם לבלתי צודק, בלתי אפשרי או דורש פיקוח משפטי בלתי סביר בנסיבות העניין.\n\nבישראל, הגישה המשפטית המקובלת היא שיש לכבד הסכמים (Pacta Sunt Servanda), ולכן תביעת אכיפת חוזה היא לרוב כלי העבודה המרכזי. בניגוד למדינות הדין המקובל שבהן פיצוי כספי הוא הסעד העיקרי, אצלנו החוק קובע במפורש כי הנפגע זכאי לאכיפת החוזה, והנתבע הוא שנושא בנטל השכנוע מדוע אין לאכוף את ההסכם.\n\nבפרקטיקה המשפטית, אנו מבקשים אכיפה כאשר הנכס או השירות הם ייחודיים ולא ניתן למצוא להם תחליף בשוק החופשי. לדוגמה, במקרה של רכישת דירה (חוזה מקרקעין), הנכס הוא ספציפי ואין לו תחליף זהה, ולכן בתי המשפט נוטים להורות על אכיפה גם אם המוכר מתחרט על המחיר שנקבע.\n\nככלל, הנפגע זכאי לאכיפת החוזה, זולת אם נתקיימה אחת מאלה: החוזה אינו בר-ביצוע, אכיפת החוזה היא כפייה לעשות, או לכאורה, לעשות או לקבל עבודה אישית או שירות אישי, ביצוע צו האכיפה דורש מידה בלתי סבירה של פיקוח מטעם בית משפט או לשכת הוצאה לפועל, או אכיפת החוזה היא בלתי צודקת בנסיבות העניין (סעיף 3 לחוק החוזים תרופות).\n\nלמרות שהחוק מעניק זכות לאכיפה, הוא מציב \"גבולות גזרה\" ברורים למניעת מצבים אבסורדיים. סייגים אלו נועדו למנוע התערבות שיפוטית במצבים שבו האכיפה תהיה בלתי אפשרית או תפגע בצדדים בצורה בלתי מידתית.",
-   "images": [
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/c4c23f010_generated_image.png/v1/fill/w_1280,h_488,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/c4c23f010_generated_image.webp",
-     "alt": "שופט בבית משפט דן בתיק אכיפת חוזה מסחרי בין צדדים"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/746d46b65_generated_image.png/v1/fill/w_856,h_440,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/746d46b65_generated_image.webp",
-     "alt": "מסמך משפטי המעיד על הסכם אכיפת חוזה מול עורך דין"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/ffbc100b0_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/ffbc100b0_generated_image.webp",
-     "alt": "איש עסקים חותם על מסמך ערבות אישית בבנק ומסכן את נכסיו האישיים"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/a3522d74d_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/a3522d74d_generated_image.webp",
-     "alt": "שני צדדים יושבים בבוררות וגישור כדי לפתור סכסוך עסקי ללא בית משפט"
-    },
-    {
-     "src": "https://media.base44.com/images/public/6a786260d64141083d3658d6/e65ff7216_generated_image.png/v1/fill/w_393,h_192,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/e65ff7216_generated_image.webp",
-     "alt": "רישום סימן מסחר להגנה על המותג והלוגו של העסק"
-    }
-   ],
-   "image_alt": "אכיפת חוזה: מתי בית המשפט יחייב לקיים את ההסכם",
-   "kind": "listing",
-   "page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/enforcement-of-contract-israel/",
-   "json": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/item/enforcement-of-contract-israel/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/#enforcement-of-contract-israel",
-   "order": {
-    "method": "form",
-    "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=enforcement-of-contract-israel",
-    "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו.",
-    "routes": [
-     {
-      "method": "form",
-      "url": "https://agentfeed-plum.vercel.app/go/lawinisrael-com?to=https%3A%2F%2Flawinisrael.com%2Fcontact&p=enforcement-of-contract-israel",
-      "note": "טופס הפנייה של העסק עצמו, באתר שלו. הפרטים נמסרים שם ולא אצלנו."
-     }
-    ]
-   },
-   "business": "העולם המשפטי בישראל",
-   "business_slug": "lawinisrael-com",
-   "business_site": "https://lawinisrael.com",
-   "business_page": "https://nitairevivo.github.io/agentfeed/lawinisrael-com/",
-   "ref": "lawinisrael-com:enforcement-of-contract-israel",
    "catalog_changed_at": "2026-09-22T08:01:12+00:00"
   }
  ]

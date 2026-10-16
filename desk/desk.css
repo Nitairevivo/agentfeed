@@ -55,7 +55,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .btn:disabled { opacity: .5; cursor: default; }
 .agent { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding: 8px 10px; border: 1px dashed var(--review); border-radius: 10px; }
 .agent a { color: var(--brand); }
-.site { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.site { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; display: grid; gap: 10px; }
+.site .srow { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .site .dot { width: 10px; height: 10px; border-radius: 50%; background: #adb5bd; }
 .site .dot.ok { background: var(--done); } .site .dot.slow { background: var(--doing); } .site .dot.broken, .site .dot.down { background: var(--urgent); }
 .site small { color: var(--dim); }
@@ -95,3 +96,41 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .brief .bhead span { color: var(--dim); font-size: 14px; }
 .brief ul { margin: 8px 0 0; padding-inline-start: 18px; display: grid; gap: 6px; font-size: 14px; }
 .brief .rule { margin: 10px 0 0; font-size: 12.5px; color: var(--dim); }
+
+/* a client site: its certificate, and the work its free check suggests */
+.btn.sm { padding: 5px 10px; font-size: 13px; }
+.site .cert { font-size: 13px; color: var(--dim); }
+.site .cert.warn { color: var(--urgent); font-weight: 700; }
+.ops { border-top: 1px dashed var(--line); padding-top: 8px; font-size: 14px; }
+.ops small { color: var(--dim); }
+.ops ul, .season ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 6px; }
+.ops li, .season li { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.season { background: var(--card); border: 1px solid var(--line); border-inline-start: 4px solid var(--brand); border-radius: 14px; padding: 12px 14px; margin-bottom: 10px; }
+.season small, .season .rule { color: var(--dim); }
+.season .rule { margin: 10px 0 0; font-size: 12.5px; }
+.brief .bdo { margin: 8px 0 0; font-size: 14px; }
+
+/* the monthly report: a sheet the studio prints or saves as PDF for its client */
+.rep { border: 0; border-radius: 16px; padding: 0; width: min(760px, calc(100vw - 24px)); max-height: calc(100vh - 24px); box-shadow: 0 24px 60px rgba(0,0,0,.25); }
+.rep::backdrop { background: rgba(20,23,31,.45); }
+.rbar { position: sticky; top: 0; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding: 10px 14px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.rbar select { border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px; background: var(--card); margin-inline-end: auto; }
+.rbody { padding: 22px 26px 26px; }
+.rhead { display: flex; gap: 14px; align-items: center; padding-bottom: 14px; border-bottom: 3px solid var(--brand); }
+.rhead img { height: 48px; width: auto; border-radius: 8px; }
+.rhead small { color: var(--brand); font-weight: 700; }
+.rhead h2 { margin: 2px 0; font-size: 24px; }
+.rhead p { margin: 0; color: var(--dim); }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 18px 0 6px; }
+.kpi { border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+.kpi b { display: block; font-size: 26px; color: var(--brand); line-height: 1.15; }
+.kpi span { color: var(--dim); font-size: 13px; }
+.rbody h3 { margin: 18px 0 4px; font-size: 16px; }
+.rbody p, .rbody li { font-size: 15px; }
+.rfoot { margin-top: 22px; color: var(--dim); font-size: 13px; }
+@media print {
+  body > *:not(.rep) { display: none !important; }
+  .rep { position: static; box-shadow: none; width: auto; max-height: none; }
+  .rbar { display: none; }
+  .kpi { break-inside: avoid; }
+}

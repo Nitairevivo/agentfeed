@@ -1,10 +1,48 @@
 {
  "page": 40,
  "pages": 44,
- "total": 2198,
+ "total": 2199,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-41.json",
  "products": [
+  {
+   "id": "3723",
+   "title": "פירסט צ’ויס / First Choice כלב מבוגר 2.72 ק”ג",
+   "description": "פירסט צ’ויס  /  1 st  Choice  סניור גזע קטן  מזון לכלבים  מבוגרים מעל גיל 8 ששוקלים פחות מ10 ק”ג. פורמולה טעימה ומזינה שמותאמת לכלבים ברמת פעילות נמוכה או כלבים מבוגרים, כמות השומן הופחתה כדי לסייע לשמור על משקל תקין ולמתכון נוספו כונדרואטין וגלוקוזמין על מנת להזין ולשמור על תקינות המפרקים של הכלב. \nאוכל כלבים ברמת סופר פרימיום תוצרת קנדה.",
+   "link": "https://closetonature.co.il/product/%d7%a4%d7%99%d7%a8%d7%a1%d7%98-%d7%a6%d7%95%d7%99%d7%a1-%d7%9b%d7%9c%d7%91-%d7%9e%d7%91%d7%95%d7%92%d7%a8-2-72-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%9B%D7%9C%D7%91-%D7%9E%D7%91%D7%95%D7%92%D7%A8-2.72-%D7%A7%D7%92.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "80.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3723%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3723",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3723/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3723/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3723",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3723%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3723",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3723%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3723",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A4%D7%99%D7%A8%D7%A1%D7%98%20%D7%A6%E2%80%99%D7%95%D7%99%D7%A1%20/%20First%20Choice%20%D7%9B%D7%9C%D7%91%20%D7%9E%D7%91%D7%95%D7%92%D7%A8%202.72%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "3722",
    "title": "פירסט צ’ויס / First Choice בוגר מגזע קטן 7 ק”ג",
@@ -1856,44 +1894,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%98%20%D7%9C%D7%99%D7%99%D7%A3%20Vet%20Life%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%91%D7%A0%D7%99%D7%9D%20%D7%91%D7%93%D7%A8%D7%9B%D7%99%20%D7%94%D7%A9%D7%AA%D7%9F%20%E2%80%93%20STRUVITE%20MANAGEMENT%20CANINE%20%E2%80%93%20%D7%A9%D7%A7%202%20%D7%A7%E2%80%9D%D7%92%20%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94%20Farmina%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "3671",
-   "title": "וט לייף – Vet Life – מזון רפואי לכלב בוגר עם אבנים בדרכי השתן – STRUVITE MANAGEMENT CANINE – שק 12 ק”ג פארמינה Farmina",
-   "description": "מזון רפואי לכלב בוגר עם אבנים/דלקת בדרכי השתן. מגיע בשקים של 2 ו-12 ק”ג. STRUVITE MANAGEMENT CANINE יש להיוועץ עם וטרינר לפני מתן המזון הרפואי לכלב. התמונה להמחשה בלבד – ייתכנו שינויים בצבע ו/או צורה – ט.ל.ח",
-   "link": "https://closetonature.co.il/product/%d7%95%d7%98-%d7%9c%d7%99%d7%99%d7%a3-vet-life-%d7%9e%d7%96%d7%95%d7%9f-%d7%a8%d7%a4%d7%95%d7%90%d7%99-%d7%9c%d7%9b%d7%9c%d7%91-%d7%91%d7%95%d7%92%d7%a8-%d7%a2%d7%9d-%d7%90%d7%91%d7%a0%d7%99%d7%9d-3/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%95%D7%98-%D7%9C%D7%99%D7%99%D7%A3-Vet-Life-%D7%9E%D7%96%D7%95%D7%9F-%D7%A8%D7%A4%D7%95%D7%90%D7%99-%D7%9C%D7%9B%D7%9C%D7%91-%D7%91%D7%95%D7%92%D7%A8-%D7%A2%D7%9D-%D7%90%D7%91%D7%A0%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%9B%D7%99-%D7%94%D7%A9%D7%AA%D7%9F-STRUVITE-MANAGEMENT-CANINE-%D7%A9%D7%A7-12-%D7%A7%D7%92-%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94-Farmina.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "369.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3671%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3671",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3671/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/3671/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/19/#3671",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3671%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3671",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D3671%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=3671",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%95%D7%98%20%D7%9C%D7%99%D7%99%D7%A3%20%E2%80%93%20Vet%20Life%20%E2%80%93%20%D7%9E%D7%96%D7%95%D7%9F%20%D7%A8%D7%A4%D7%95%D7%90%D7%99%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%91%D7%95%D7%92%D7%A8%20%D7%A2%D7%9D%20%D7%90%D7%91%D7%A0%D7%99%D7%9D%20%D7%91%D7%93%D7%A8%D7%9B%D7%99%20%D7%94%D7%A9%D7%AA%D7%9F%20%E2%80%93%20STRUVITE%20MANAGEMENT%20CANINE%20%E2%80%93%20%D7%A9%D7%A7%2012%20%D7%A7%E2%80%9D%D7%92%20%D7%A4%D7%90%D7%A8%D7%9E%D7%99%D7%A0%D7%94%20Farmina%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {

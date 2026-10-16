@@ -1,10 +1,48 @@
 {
  "page": 4,
  "pages": 44,
- "total": 2198,
+ "total": 2199,
  "count": 50,
  "next": "https://nitairevivo.github.io/agentfeed/close-to-nature/products/page-5.json",
  "products": [
+  {
+   "id": "62313",
+   "title": "שמפו ומרכך 2 ב-1 לכלב Arm & Hammer מנטה מלפפון 591 מ”ל",
+   "description": "העניקו לכלב שלכם חוויית רחצה מרעננת ומפנקת עם השמפו והמרכך המשולב של המותג העולמי  Arm & Hammer . מוצר ה- 2-in-1 Wash  חוסך לכם זמן ומעניק לכלב שלכם ניקוי עמוק לצד פרווה רכה, נעימה וקלה לסירוק – הכל בבקבוק אחד. \n הפורמולה הייחודית מבוססת על כוח הניקוי המוכח של הסודה לשתייה (Baking Soda), הידועה ביכולתה לנטרל ריחות לא נעימים מהשורש במקום רק להסוות אותם. \n  תכולה: 591 מ”ל.",
+   "link": "https://closetonature.co.il/product/%d7%a9%d7%9e%d7%a4%d7%95-%d7%95%d7%9e%d7%a8%d7%9b%d7%9a-2-%d7%91-1-%d7%9c%d7%9b%d7%9c%d7%91-arm-hammer-%d7%9e%d7%a0%d7%98%d7%94-%d7%9e%d7%9c%d7%a4%d7%a4%d7%95%d7%9f-591-%d7%9e%d7%9c/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2026/02/%D7%A9%D7%9E%D7%A4%D7%95-%D7%95%D7%9E%D7%A8%D7%9B%D7%9A-2-%D7%91-1-%D7%9C%D7%9B%D7%9C%D7%91-Arm-Hammer-%D7%9E%D7%A0%D7%98%D7%94-%D7%9E%D7%9C%D7%A4%D7%A4%D7%95%D7%9F-591-%D7%9E%D7%9C.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "59.00",
+   "currency": "ILS",
+   "availability": "in_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62313%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62313",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62313/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/62313/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#62313",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62313%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62313",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D62313%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=62313",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%A9%D7%9E%D7%A4%D7%95%20%D7%95%D7%9E%D7%A8%D7%9B%D7%9A%202%20%D7%91-1%20%D7%9C%D7%9B%D7%9C%D7%91%20Arm%20%26%20Hammer%20%D7%9E%D7%A0%D7%98%D7%94%20%D7%9E%D7%9C%D7%A4%D7%A4%D7%95%D7%9F%20591%20%D7%9E%E2%80%9D%D7%9C%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   }
+  },
   {
    "id": "62295",
    "title": "משחת שיניים לכלב Arm & Hammer Fresh Breath – וניל ג’ינג’ר 67.5 גרם",
@@ -1857,44 +1895,6 @@
      {
       "method": "whatsapp",
       "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98%20%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D%2012%20%D7%A7%E2%80%9D%D7%92%20PROTECT%20STERILISED%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   }
-  },
-  {
-   "id": "56036",
-   "title": "אוכל לכלב פרוטקט מעוקרים 2 ק”ג PROTECT STERILISED",
-   "description": "משלוח חינם!  \nהאם הכלב שלכם עבר לאחרונה עיקור או סירוס? מזל טוב! עכשיו זה הזמן לדאוג לשינוי התזונתי הנכון שיבטיח לו חיים בריאים ומאוזנים. מזון  PRO-NUTRITION PROTECT “מעוקרים” (PROTECT STERILISED)  באריזת  2 ק”ג  מבית היצרן הצרפתי המוביל Flatazor, הוא הפתרון המדויק שאתם מחפשים! פורמולה חדשנית זו פותחה במיוחד כדי להתמודד עם הצרכים הייחודיים של כלבים מעוקרים/מסורסים, המסייעת במניעת עלייה במשקל ושמירה על חיוניות ובריאות מיטבית. אריזת 2 ק”ג אידיאלית להתנסות, לכלבים קטנים, או לשמירה על טריות מירבית. תנו לחבר הפרוותי שלכם את התזונה המדויקת שמגיעה לו, והבטיחו לו עתיד בריא ופעיל! \n   משלוח חינם העתק/י קוד קופון: Free_Shipping",
-   "link": "https://closetonature.co.il/product/%d7%90%d7%95%d7%9b%d7%9c-%d7%9c%d7%9b%d7%9c%d7%91-%d7%a4%d7%a8%d7%95%d7%98%d7%a7%d7%98-%d7%9e%d7%a2%d7%95%d7%a7%d7%a8%d7%99%d7%9d-2-%d7%a7%d7%92-protect-sterilised/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2025/07/%D7%90%D7%95%D7%9B%D7%9C-%D7%9C%D7%9B%D7%9C%D7%91-%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98-%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D-2-%D7%A7%D7%92-PROTECT-STERILISED.webp?fit=720%2C720&ssl=1",
-   "condition": "new",
-   "price": "149.00",
-   "currency": "ILS",
-   "availability": "in_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D56036%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=56036",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/56036/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/56036/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/#56036",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D56036%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=56036",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D56036%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=56036",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%95%D7%9B%D7%9C%20%D7%9C%D7%9B%D7%9C%D7%91%20%D7%A4%D7%A8%D7%95%D7%98%D7%A7%D7%98%20%D7%9E%D7%A2%D7%95%D7%A7%D7%A8%D7%99%D7%9D%202%20%D7%A7%E2%80%9D%D7%92%20PROTECT%20STERILISED%D7%B4.",
       "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
      },
      {
