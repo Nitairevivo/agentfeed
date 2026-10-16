@@ -4,12 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#06070f">
 <title>מסך הצוות</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://nitairevivo.github.io/agentfeed/desk/desk.css">
 </head>
 <body>
+<canvas id="dksky" aria-hidden="true"></canvas>
 <header class="top">
   <div class="wrap">
     <span class="brand"><img id="logo" alt="לוגו" hidden><b id="bname">מסך הצוות</b></span>
@@ -17,6 +19,7 @@
     <button type="button" class="bell" id="bell">🔔 התראות לטלפון</button>
   </div>
 </header>
+<div class="hud" aria-hidden="true"><div class="wrap"><span><i></i><span id="hudon">מחובר</span></span><span id="hudclock"></span><span id="hudsites"></span><span id="hudopen"></span></div></div>
 <p class="demo" id="demo" hidden>מסך לדוגמה: צוות, לקוחות ופניות לדוגמה. שום דבר לא נשמר בשרת.</p>
 <main class="wrap">
   <nav class="tabs" role="tablist">

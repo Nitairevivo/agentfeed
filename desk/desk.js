@@ -322,7 +322,7 @@
     state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me;
     if (d.seasons) state.seasons = d.seasons;
     briefCard(demo ? demoBrief() : d.brief);
-    brand(d.brand); $('who').textContent = d.me ? 'מחובר/ת: ' + d.me.name : ''; render();
+    brand(d.brand); $('who').textContent = d.me ? 'מחובר/ת: ' + d.me.name : ''; render(); hud();
   }
   function load() {
     if (demo) {
@@ -401,6 +401,49 @@
       .then(function () { $('bell').classList.add('on'); $('bell').textContent = '🔔 התראות פועלות'; toast('מעכשיו כל פנייה חדשה מגיעה לטלפון הזה'); })
       .catch(function (e) { toast(e.message || 'משהו השתבש'); });
   });
+
+  // ── the room: a status strip, and a sky of points that join when near and lean toward the pointer ──
+  function hud() {
+    var open = state.tickets.filter(function (t) { return t.status !== 'done'; }).length;
+    var c = $('hudclock'); if (!c) return;
+    c.textContent = new Date().toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    $('hudsites').textContent = state.sites.length + ' אתרים';
+    $('hudopen').textContent = open + ' פניות פתוחות';
+    $('hudon').textContent = demo ? 'דוגמה' : 'מחובר';
+  }
+  setInterval(hud, 1000);
+  (function sky() {
+    var c = $('dksky');
+    if (!c || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var g = c.getContext('2d'), dpr = Math.min(2, devicePixelRatio || 1), W, H, pts = [], mx = -999, my = -999;
+    function size() {
+      W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.round(Math.min(70, W * H / 20000));
+      pts = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .22, vy: (Math.random() - .5) * .22, r: Math.random() * 1.5 + .4 }; });
+    }
+    size(); addEventListener('resize', size);
+    addEventListener('pointermove', function (e) { mx = e.clientX; my = e.clientY; }, { passive: true });
+    (function frame() {
+      // a hidden tab draws nothing
+      if (!document.hidden) {
+        g.clearRect(0, 0, W, H);
+        for (var i = 0; i < pts.length; i++) {
+          var p = pts[i], dx = mx - p.x, dy = my - p.y, d2 = dx * dx + dy * dy;
+          if (d2 < 40000) { p.vx += dx / 70000; p.vy += dy / 70000; }
+          p.vx *= .985; p.vy *= .985; p.x += p.vx + (Math.random() - .5) * .04; p.y += p.vy + (Math.random() - .5) * .04;
+          if (p.x < 0) p.x = W; if (p.x > W) p.x = 0; if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+          for (var j = i + 1; j < pts.length; j++) {
+            var q = pts[j], ex = p.x - q.x, ey = p.y - q.y, e2 = ex * ex + ey * ey;
+            if (e2 < 12000) { g.strokeStyle = 'rgba(139,108,255,' + (0.2 * (1 - e2 / 12000)) + ')'; g.lineWidth = 1; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(q.x, q.y); g.stroke(); }
+          }
+          if (d2 < 26000) { g.strokeStyle = 'rgba(62,230,255,' + (0.3 * (1 - d2 / 26000)) + ')'; g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(mx, my); g.stroke(); }
+          g.fillStyle = d2 < 26000 ? '#3ee6ff' : 'rgba(238,240,255,.5)';
+          g.beginPath(); g.arc(p.x, p.y, p.r, 0, 6.283); g.fill();
+        }
+      }
+      requestAnimationFrame(frame);
+    })();
+  })();
 
   $('demo').hidden = !demo;
   load();
