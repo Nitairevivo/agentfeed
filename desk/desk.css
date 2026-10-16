@@ -154,6 +154,15 @@ main.wrap { padding-bottom: 60px; }
 .ops small { color: var(--dim); }
 .ops ul, .season ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
 .ops li, .season li { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+/* the direct line to a WordPress store */
+.direct { border-top: 1px dashed var(--line); padding-top: 10px; font-size: 14px; display: grid; gap: 6px; }
+.direct.ok b { color: var(--green); text-shadow: 0 0 12px rgba(62,240,161,.4); }
+.direct p { margin: 0; }
+.direct small { color: var(--dim); }
+.direct .warn { color: var(--urgent); }
+.direct .code { font: 700 18px var(--mono); letter-spacing: .12em; color: #fff; background: rgba(62,230,255,.08); border: 1px solid rgba(62,230,255,.4);
+                border-radius: 10px; padding: 2px 10px; text-shadow: 0 0 14px rgba(62,230,255,.6); direction: ltr; unicode-bidi: isolate; }
+.direct .btn { justify-self: start; }
 .season { border-radius: 20px; padding: 14px 16px; margin-bottom: 12px; border-inline-start: 3px solid var(--brand); }
 .season > b { color: #d9d1ff; }
 .season small { color: var(--dim); }

@@ -49,8 +49,12 @@
               { slug: 'flowers', name: 'פרחי השרון', platform: 'base44', repo: '', health: { watched: true, status: 'ok', uptime7: 99.6 },
                 growth: { cert: { days: 12 }, audit: { score: 58, opportunities: [DEMO_OFFERS.products, DEMO_OFFERS.share, DEMO_OFFERS.speed] } } },
               { slug: 'bakery', name: 'מאפיית אורן', platform: 'lovable', repo: 'studio/bakery', health: { watched: true, status: 'slow', uptime7: 100 },
-                growth: { cert: { days: 81 }, audit: { score: 86, opportunities: [DEMO_OFFERS.share] } } }],
+                growth: { cert: { days: 81 }, audit: { score: 86, opportunities: [DEMO_OFFERS.share] } } },
+              { slug: 'ceramics', name: 'קרמיקה של נועה', platform: 'wordpress', repo: '', line: true, health: { watched: true, status: 'ok', uptime7: 100 },
+                wp: { connected: true, woo: true, user: 'noa-shop' },
+                growth: { cert: { days: 47 }, audit: { score: 69, opportunities: [DEMO_OFFERS.whatsapp, DEMO_OFFERS.products] } } }],
       tickets: [
+        { no: '1005', site: 'ceramics', client: 'קרמיקה של נועה', subject: 'הקערה הגדולה עולה 120 מהיום, והספל הכחול אזל', prio: 'normal', status: 'new', who: '', at: h(2), log: [{ w: 'client', t: 'הקערה הגדולה עולה 120 מהיום, והספל הכחול אזל', at: h(2) }] },
         { no: '1004', site: 'pizza', client: 'פיצה דרור', subject: 'להגדיל את הלוגו בטלפון', prio: 'urgent', status: 'new', who: '', at: h(1), log: [{ w: 'client', t: 'בטלפון הלוגו ממש קטן, אפשר להגדיל?', at: h(1) }] },
         { no: '1003', site: 'bakery', client: 'מאפיית אורן', subject: 'כפתור "הזמנה לאירוע" בצבע של הלוגו', prio: 'normal', status: 'review', who: 'dana', whoName: 'דנה', at: h(6),
           agent: { state: 'preview', pr: 'https://github.com/studio/bakery/pull/12', preview: '' },
@@ -91,6 +95,16 @@
         demoSave(D); render(); toast('🎨 השינוי מוכן לתצוגה מקדימה');
       }, 2500);
     }
+    if (op === 'ticket-wp') {
+      t.log.push({ w: 'system', t: '🛒 Claude קורא את המוצרים בחנות ומכין שינוי', at: now });
+      t.agent = { state: 'running' };
+      setTimeout(function () {
+        t.agent = { state: 'preview', wp: 'demo' };
+        t.status = 'review'; t.log.push({ w: 'system', t: '🤖 השינוי מוכן. אפשר לראות אותו ולאשר · אעלה את המחיר של הקערה ואסמן את הספל כאזל.\nמחיר של "קערה גדולה": ₪90 ← ₪120\nמלאי של "ספל כחול": במלאי ← אזל\n(בדוגמה: השינוי מדומה)', at: new Date().toISOString() });
+        demoSave(D); render(); toast('🛒 השינוי מוכן לאישור');
+      }, 2500);
+    }
+    if (op === 'wp-code') { demoSave(D); return Promise.resolve({ code: 'DEMO2345', expires: new Date(Date.now() + 3 * 864e5).toISOString() }); }
     if (op === 'ticket-approve') { t.status = 'done'; t.agent.state = 'merged'; t.log.push({ w: 'system', t: '🚀 השינוי עלה לאתר', at: now }); }
     if (op === 'ticket-revert') { t.agent.state = 'reverted'; t.status = 'doing'; t.log.push({ w: 'system', t: '↩️ השינוי בוטל והאתר חזר לגרסה הקודמת', at: now }); }
     demoSave(D); return Promise.resolve(t);
@@ -178,9 +192,10 @@
     if (ag.state === 'running') agent = '<div class="agent">🤖 Claude עובד על השינוי…</div>';
     if (ag.state === 'preview' && t.status === 'review') agent = '<div class="agent">🤖 השינוי מוכן' + (ag.pr ? ' · <a href="' + esc(ag.pr) + '" target="_blank" rel="noopener">השינוי בקוד</a>' : '') +
       (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">' + (ag.patch ? 'לראות את השינוי באתר' : 'צילומי לפני ואחרי') + '</a>' : '') +
-      ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">✓ לאשר ולהעלות</button>' +
+      ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">' + (ag.wp ? '✓ לאשר ולעדכן בחנות' : '✓ לאשר ולהעלות') + '</button>' +
       '<button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">✕ לא לאשר</button></div>';
-    if (ag.state === 'merged') agent = '<div class="agent">🚀 עלה לאתר <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולחזור לגרסה הקודמת</button></div>';
+    if (ag.state === 'merged' && ag.wp) agent = '<div class="agent">🛒 נכנס לחנות <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולהחזיר את הערכים הקודמים</button></div>';
+    else if (ag.state === 'merged') agent = '<div class="agent">🚀 עלה לאתר <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולחזור לגרסה הקודמת</button></div>';
     return '<li class="tk' + (t.prio === 'urgent' ? ' urgent' : '') + '"><header><span class="no">#' + esc(t.no) + '</span><span class="client">' + esc(t.client) + '</span>' +
       age(t) + '<span class="st ' + t.status + '">' + ST[t.status] + '</span></header><div class="subj">' + (t.prio === 'urgent' ? '🔴 ' : '') + esc(t.subject) + '</div>' +
       '<div class="ctl"><select data-set="status" data-no="' + t.no + '" aria-label="סטטוס">' + opts(t.status) + '</select>' +
@@ -188,6 +203,8 @@
       (canAI && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-agent" data-no="' + t.no + '">🤖 לתת ל-Claude לבצע</button>' : '') +
       // any platform: a design patch through the site's one line (no code access needed)
       (!canAI && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-patch" data-no="' + t.no + '">🎨 שינוי עיצוב עם Claude</button>' : '') +
+      // a WordPress store connected directly: prices, sales, stock and names of products
+      (s.wp && s.wp.connected && s.wp.woo && !s.wp.lost && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-wp" data-no="' + t.no + '">🛒 שינוי במוצרים עם Claude</button>' : '') +
       (!canAI ? '<small style="color:var(--dim)">' + (s.line || demo ? 'השורה מותקנת באתר ✓' : 'צריך להתקין את השורה באתר') + '</small>' : '') + '</div>' +
       agent + '<div class="thread">' + thread + '</div>' +
       '<form class="reply" data-no="' + t.no + '"><div class="quick">' + QUICK.map(function (q, i) { return '<button type="button" data-q="' + i + '">' + esc(q.length > 26 ? q.slice(0, 24) + '…' : q) + '</button>'; }).join('') + '</div>' +
@@ -215,8 +232,22 @@
       (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
       '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' + cert +
       '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span>' +
-      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + ops + '</li>';
+      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + direct(s) + ops + '</li>';
   }
+  // The direct line to a WordPress store (server/lib/wpdirect.mjs): connected, cut, or a code to connect with.
+  var codes = {};
+  function direct(s) {
+    // only a WordPress site carries the plugin that makes the connection
+    if (s.repo || s.platform !== 'wordpress') return '';
+    var w = s.wp || {}, c = codes[s.slug];
+    if (w.connected && !w.lost) return '<div class="direct ok"><span>🔌 <b>חיבור ישיר</b> · ' + (w.woo ? 'Claude יכול לשנות מחירים, מבצעים ומלאי בחנות, באישור' : 'מחובר, אבל לא נמצאה חנות ווקומרס') + '</span></div>';
+    var head = '<span>' + (w.lost ? '<b class="warn">⚠️ החיבור הישיר נותק</b> (הסיסמה בוטלה באתר). אפשר לחבר מחדש' : '<b>🔌 חיבור ישיר לחנות</b> <small>(וורדפרס עם ווקומרס: מחירים, מבצעים ומלאי)</small>') + '</span>';
+    if (c) return '<div class="direct">' + head + '<p>הקוד: <code class="code">' + esc(c.code) + '</code> · בתוקף שלושה ימים, לשימוש אחד.<br>' +
+      '<small>בעל האתר נכנס לוורדפרס ← כלים ← AgentFeed, מדביק את הקוד ולוחץ "אישור חיבור ישיר". צריך את התוסף AgentFeed Connect בגרסה 1.1 ומעלה.</small></p>' +
+      copyBtn('היי, כדי ש-Claude יוכל לעדכן לכם מחירים ומלאי בחנות (רק אחרי אישור, ותמיד אפשר לבטל): בוורדפרס נכנסים לכלים ← AgentFeed, מדביקים את הקוד ' + c.code + ' ולוחצים "אישור חיבור ישיר". אפשר לנתק בכל רגע מאותו מסך.', '📋 הוראות ללקוח') + '</div>';
+    return '<div class="direct">' + head + '<button type="button" class="btn ghost sm" data-wpcode="' + esc(s.slug) + '">קוד חיבור</button></div>';
+  }
+
   // What is coming up in the shops' year, with the message to send every client.
   function seasonCard() {
     var el = $('season'), list = (state.seasons || []).filter(function (e) { return e.days >= 3; }).slice(0, 3);
@@ -340,6 +371,13 @@
     if (tab) { document.querySelectorAll('[data-view]').forEach(function (b) { b.classList.toggle('on', b === tab); }); $('tickets').hidden = tab.dataset.view !== 'tickets'; $('sites').hidden = tab.dataset.view !== 'sites'; return; }
     var cp = e.target.closest('[data-copy]');
     if (cp) { copy(copies[+cp.dataset.copy] || ''); return; }
+    var wc = e.target.closest('[data-wpcode]');
+    if (wc) {
+      wc.disabled = true;
+      act('wp-code', { site: wc.dataset.wpcode }).then(function (r) { codes[wc.dataset.wpcode] = r; render(); })
+        .catch(function (err) { wc.disabled = false; toast(err.message); });
+      return;
+    }
     var rb = e.target.closest('[data-report]');
     if (rb) { openReport(rb.dataset.report); return; }
     var rp = e.target.closest('[data-rep]');
@@ -358,7 +396,7 @@
       if (a.dataset.act === 'ticket-revert' && !confirm('לבטל את השינוי ולהחזיר את האתר לגרסה הקודמת?')) return;
       a.disabled = true;
       act(a.dataset.act, { no: a.dataset.no }).then(function () {
-        toast({ 'ticket-patch': '🎨 השינוי מוכן. פתחו את התצוגה המקדימה ואשרו', 'ticket-agent': '🤖 Claude התחיל. תקבלו עדכון כשהשינוי מוכן', 'ticket-approve': '🚀 מאשר ומעלה לאתר…', 'ticket-revert': '↩️ מבטל…' }[a.dataset.act]); load();
+        toast({ 'ticket-wp': '🛒 השינוי מוכן. בדקו את הרשימה ואשרו', 'ticket-patch': '🎨 השינוי מוכן. פתחו את התצוגה המקדימה ואשרו', 'ticket-agent': '🤖 Claude התחיל. תקבלו עדכון כשהשינוי מוכן', 'ticket-approve': '🚀 מאשר ומעלה לאתר…', 'ticket-revert': '↩️ מבטל…' }[a.dataset.act]); load();
       }).catch(function (err) {
         a.disabled = false;
         // a site that draws itself in the browser: open it once, so Claude sees what a visitor sees
