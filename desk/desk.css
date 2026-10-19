@@ -146,3 +146,11 @@
   .desk .rbody .kpi { background: #fff; background-image: none; break-inside: avoid; }
   .desk .rbody .kpi b { color: var(--brand); text-shadow: none; }
 }
+
+/* the client's self-service, per site */
+.desk .selfrow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-top: 10px; padding: 8px 12px;
+  border: 1px solid var(--line, rgba(255,255,255,.08)); border-radius: 10px; }
+.desk .selfrow select { margin-inline-start: 6px; background: transparent; color: inherit; border: 1px solid var(--line, rgba(255,255,255,.18));
+  border-radius: 8px; padding: 4px 8px; font: inherit; }
+.desk .selfrow select option { color: #111; }
+.desk .selfrow small { opacity: .75; }

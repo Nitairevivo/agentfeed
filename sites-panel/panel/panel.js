@@ -977,7 +977,7 @@
     var el = $('pntoast'); if (!el) { el = document.createElement('div'); el.id = 'pntoast'; el.className = 'pntoast'; el.setAttribute('role', 'status'); document.body.appendChild(el); }
     el.textContent = m; el.classList.add('on'); clearTimeout(el._t); el._t = setTimeout(function () { el.classList.remove('on'); }, 2800);
   }
-  var RST = { new: 'חדשה', doing: 'בטיפול', waiting: 'מחכה לתשובה שלכם', review: 'מחכה לאישור שינוי', done: 'טופלה' }, rtk = [];
+  var RST = { new: 'חדשה', doing: 'בטיפול', waiting: 'מחכה לתשובה שלכם', review: 'מחכה לאישור שינוי', done: 'טופלה' }, rtk = [], rself = '', rappr = 'team';
   function tkCall(op, body) {
     return fetch(cfg.api + '/panel?op=' + op + '&site=' + cfg.site, { method: body ? 'POST' : 'GET',
       headers: { 'content-type': 'application/json', authorization: 'Bearer ' + key }, body: body ? JSON.stringify(body) : undefined })
@@ -985,7 +985,7 @@
   }
   function realTickets(card) {
     tkCall('tickets').then(function (d) {
-      card.hidden = false; rtk = d.tickets || [];
+      card.hidden = false; rtk = d.tickets || []; rself = d.self || ''; rappr = d.approver || 'team';
       if (d.brand && d.brand.name) {
         document.title = 'לוח הבקרה | ' + cfg.name + ' · ' + d.brand.name;
         var top = document.querySelector('.pn-top small'); if (top && top.textContent.indexOf(d.brand.name) < 0) top.textContent += ' · ' + d.brand.name;
@@ -994,18 +994,37 @@
       var thread = function (x) { return (x.log || []).map(function (m) { return '<p class="tkmsg ' + (m.w === 'client' ? 'client' : 'team') + '"><b>' + (m.w === 'client' ? 'אתם' : m.w === 'system' ? 'המערכת' : esc(m.by || 'הצוות')) + ':</b> ' + esc(m.t) + ' <small>' + esc(hhmm(m.at)) + '</small></p>'; }).join(''); };
       card.innerHTML = '<div class="tkhead"><h2>📨 פניות לצוות</h2></div><p class="sub">מה שלא משתנה לבד בצ\'אט, פותחים כאן פנייה, והצוות מטפל. רואים כל שלב ועונים כאן.</p>' +
         '<form class="tkform" id="tkform"><input name="s" maxlength="120" required placeholder="מה צריך? למשל: להגדיל את הלוגו בטלפון"><textarea name="b" rows="2" maxlength="2000" placeholder="פרטים (לא חובה)"></textarea>' +
+        selfChoice() +
         '<label><input type="checkbox" name="u"> דחוף</label><button class="btn btn-brand btn-s" type="submit">📨 לפתוח פנייה</button></form>' +
         (rtk.length ? '<ul class="tklist">' + rtk.map(function (x) {
           var ag = x.agent || {};
           return '<li><div class="tkrow"><b>#' + esc(x.no) + ' · ' + esc(x.subject) + '</b>' + pill(x.status) + '</div>' +
             '<small class="sub">' + (x.whoName ? 'מטפל/ת: ' + esc(x.whoName) + ' · ' : '') + (x.prio === 'urgent' ? '🔴 דחוף · ' : '') + 'נפתחה ' + esc(hhmm(x.at)) + '</small>' + thread(x) +
             (x.status === 'review' && ag.state === 'preview' ? '<p class="sub">🤖 השינוי מוכן ומחכה לאישור' +
-              ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">✓ לאשר</button></p>' : '') +
+              (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">👀 לראות איך זה ייראה באתר</a>' : '') +
+              (rappr === 'client' || ag.mine ? ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">✓ לאשר ולהעלות</button>' : '') + '</p>' : '') +
+            (ag.mine && ag.state === 'merged' ? '<p class="sub">🚀 השינוי באתר <button type="button" class="btn btn-s" data-tkundo="' + esc(x.no) + '">↩️ לבטל</button></p>' : '') +
             (x.status !== 'done' ? '<form class="tkreply" data-no="' + esc(x.no) + '"><input name="r" maxlength="2000" placeholder="לענות לצוות…"><button class="btn btn-s" type="submit">שליחה</button></form>' : '') + '</li>'; }).join('') + '</ul>'
           : '<p class="sub">עוד אין פניות. אפשר לפתוח כאן, או פשוט לכתוב לעוזר בצ\'אט.</p>');
     }).catch(function (e) { card.hidden = true; });   // a site with no team desk shows no card
   }
+  // where the studio allows it, the owner has Claude make the change now, instead of waiting for the team
+  function selfChoice() {
+    if (!rself) return '';
+    var o = [['', '📨 לשלוח לצוות']];
+    if (rself === 'design' || rself === 'both') o.push(['design', '🎨 לבצע עכשיו עם Claude: עיצוב וטקסט']);
+    if (rself === 'store' || rself === 'both') o.push(['store', '🛒 לבצע עכשיו עם Claude: מחירים, מבצעים ומלאי']);
+    return '<fieldset class="tkself"><legend>מה לעשות עם הבקשה?</legend>' + o.map(function (x, i) {
+      return '<label><input type="radio" name="m" value="' + x[0] + '"' + (i === (o.length > 1 ? 1 : 0) ? ' checked' : '') + '> ' + x[1] + '</label>'; }).join('') +
+      '<small class="sub">Claude מכין את השינוי, אתם רואים אותו ומאשרים. עד שתאשרו, שום דבר לא משתנה באתר.</small></fieldset>';
+  }
   function tkClick(e) {
+    var un = e.target.closest('[data-tkundo]');
+    if (un && !demo) {
+      if (!confirm('לבטל את השינוי ולהחזיר את מה שהיה קודם?')) return;
+      un.disabled = true; tkCall('ticket-revert', { no: un.dataset.tkundo }).then(function () { toast('↩️ בוטל. האתר חזר למה שהיה'); tickets(); })
+        .catch(function () { un.disabled = false; toast('לא הצלחנו לבטל כרגע. כתבו לצוות בפנייה'); }); return;
+    }
     var ok = e.target.closest('[data-tkok]');
     if (ok && !demo) { ok.disabled = true; tkCall('ticket-approve', { no: ok.dataset.tkok }).then(function () { toast('🚀 אושר. השינוי עולה לאתר'); tickets(); })
       .catch(function (er) { ok.disabled = false; toast(er.code === 403 ? 'באתר הזה הצוות מאשר שינויים. כתבו להם בפנייה.' : 'לא הצלחנו לאשר כרגע'); }); return; } var b = e.target.closest('[data-tab]'); if (b) { deskOn = b.dataset.tab === 'desk'; tickets(); } }
@@ -1019,8 +1038,16 @@
     e.preventDefault();
     var f = e.target;
     if (!demo) {
-      if (f.id === 'tkform') return tkCall('ticket-new', { subject: f.s.value.trim(), body: f.b.value.trim(), prio: f.u.checked ? 'urgent' : 'normal' })
-        .then(function (t) { toast('✓ נפתחה פנייה #' + t.no); tickets(); }).catch(function () { toast('לא הצלחנו לפתוח פנייה כרגע'); });
+      if (f.id === 'tkform') {
+        var mode = f.m ? (f.querySelector('input[name=m]:checked') || {}).value || '' : '';
+        var btn = f.querySelector('button[type=submit]'); btn.disabled = true;
+        return tkCall('ticket-new', { subject: f.s.value.trim(), body: f.b.value.trim(), prio: f.u.checked ? 'urgent' : 'normal' }).then(function (t) {
+          if (!mode) { toast('✓ נפתחה פנייה #' + t.no); return tickets(); }
+          toast('🤖 Claude מכין את השינוי…');
+          return tkCall('ticket-self', { no: t.no, kind: mode }).then(function () { toast('✓ השינוי מוכן. בדקו אותו ואשרו'); tickets(); })
+            .catch(function () { toast('Claude לא הצליח הפעם, והבקשה עברה לצוות #' + t.no); tickets(); });
+        }).catch(function () { toast('לא הצלחנו לפתוח פנייה כרגע'); }).then(function () { btn.disabled = false; });
+      }
       if (f.classList.contains('tkreply') && f.r.value.trim()) return tkCall('ticket-reply', { no: f.dataset.no, text: f.r.value.trim() })
         .then(function () { toast('נשלח לצוות'); tickets(); }).catch(function () { toast('לא נשלח, נסו שוב'); });
       return;

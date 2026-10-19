@@ -72,6 +72,10 @@
   function demoSave(d) { try { localStorage.setItem(DK, JSON.stringify(d)); } catch (x) {} }
   var D = null;
   function demoAct(op, b) {
+    if (op === 'site-self') {
+      var ds = D.sites.filter(function (x) { return x.slug === b.site; })[0]; if (ds) ds.self = b.self; demoSave(D);
+      return Promise.resolve({ site: ds });
+    }
     var t = D.tickets.filter(function (x) { return x.no === b.no; })[0], now = new Date().toISOString();
     if (op === 'ticket-set') {
       if (b.status) t.status = b.status;
@@ -238,7 +242,16 @@
       (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
       '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' + cert +
       '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span>' +
-      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + direct(s) + ops + '</li>';
+      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + selfRow(s) + direct(s) + ops + '</li>';
+  }
+  // What the client may have Claude change by themselves, without the team: the studio decides, per site.
+  // A change to the code itself always comes to the team.
+  var SELF = [['', 'כבוי: הכול עובר דרככם'], ['design', 'עיצוב וטקסט'], ['store', 'מוצרים: מחיר, מבצע ומלאי'], ['both', 'עיצוב וטקסט, וגם מוצרים']];
+  function selfRow(s) {
+    var v = s.self || '';
+    return '<div class="selfrow"><label>🙋 <b>הלקוח משנה בעצמו</b> <select data-self="' + esc(s.slug) + '">' +
+      SELF.map(function (o) { return '<option value="' + o[0] + '"' + (o[0] === v ? ' selected' : '') + '>' + o[1] + '</option>'; }).join('') + '</select></label>' +
+      '<small>' + (v ? 'הלקוח כותב, Claude מכין, והלקוח מאשר בעצמו. אתם מקבלים עדכון על כל שינוי ויכולים לבטל.' : 'כל בקשה מגיעה אליכם.') + '</small></div>';
   }
   // The direct line to a WordPress store (server/lib/wpdirect.mjs): connected, cut, or a code to connect with.
   var codes = {};
@@ -420,6 +433,14 @@
   });
   document.addEventListener('change', function (e) {
     if (e.target.id === 'rmon') { openReport(repState.slug, e.target.value); return; }
+    var sf = e.target.closest('[data-self]');
+    if (sf) {
+      act('site-self', { site: sf.dataset.self, self: sf.value }).then(function () {
+        toast(sf.value ? '🙋 מעכשיו הלקוח יכול לבצע בעצמו: ' + SELF.filter(function (o) { return o[0] === sf.value; })[0][1] : 'כבוי. כל בקשה מגיעה אליכם');
+        if (demo) render(); else load();
+      }).catch(function (err) { toast(err.message); });
+      return;
+    }
     var s = e.target.closest('[data-set]'); if (!s) return;
     var b = { no: s.dataset.no }; b[s.dataset.set] = s.value;
     act('ticket-set', b).then(load).catch(function (err) { toast(err.message); });

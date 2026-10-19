@@ -534,3 +534,8 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .pntoast { position: fixed; bottom: 84px; left: 50%; transform: translateX(-50%); z-index: 70; background: rgba(10,12,28,.95); color: #fff; border: 1px solid rgba(62,230,255,.4);
            padding: 10px 16px; border-radius: 12px; opacity: 0; transition: opacity .2s; pointer-events: none; max-width: 90vw; text-align: center; }
 .pntoast.on { opacity: 1; }
+
+/* the owner's choice: send to the team, or have Claude make it now (where the studio allows it) */
+.tkself { border: 1px solid var(--line, rgba(255,255,255,.12)); border-radius: 10px; padding: 8px 12px; margin: 6px 0; display: grid; gap: 4px; }
+.tkself legend { padding: 0 6px; font-weight: 600; }
+.tkself label { display: flex; gap: 8px; align-items: center; cursor: pointer; }
