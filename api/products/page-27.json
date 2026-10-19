@@ -6,6 +6,50 @@
  "next": "https://nitairevivo.github.io/agentfeed/api/products/page-28.json",
  "products": [
   {
+   "id": "25630",
+   "title": "מעדן קרם טונה ועגבניות מיאו – ME-O מארז 4 יח’ 60 גר’",
+   "description": "כל חתול שטעם את קרם טונה ועגבניות של חברת ME-O מיד התמכר לטעמו המעודן. המוצר מגיע במארז של 4 יח’ נפרדות, מכיל פרביוטיקה לעידוד מערכת עיכול בריאה וחזקה, טאורין לחיזוק הראיה, אומגה 6 לפרווה בריאה ומבריקה, אחוז גבוה של נוזלים למניעת בעיות בדרכי השתן, מתאים לגורי חתולים מגיל חודשיים ומעלה.",
+   "link": "https://closetonature.co.il/product/%d7%9e%d7%a2%d7%93%d7%9f-%d7%a7%d7%a8%d7%9d-%d7%98%d7%95%d7%a0%d7%94-%d7%95%d7%a2%d7%92%d7%91%d7%a0%d7%99%d7%95%d7%aa-%d7%9e%d7%99%d7%90%d7%95-me-o-%d7%9e%d7%90%d7%a8%d7%96-4-%d7%99%d7%97-60/?utm_source=agentfeed&utm_medium=ai",
+   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2023/01/%D7%9E%D7%A2%D7%93%D7%9F-%D7%A7%D7%A8%D7%9D-%D7%98%D7%95%D7%A0%D7%94-%D7%95%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%95%D7%AA-%D7%9E%D7%99%D7%90%D7%95-ME-O-%D7%9E%D7%90%D7%A8%D7%96-4-%D7%99%D7%97-60-%D7%92%D7%A8.jpg?fit=600%2C600&ssl=1",
+   "condition": "new",
+   "price": "15.00",
+   "currency": "ILS",
+   "availability": "out_of_stock",
+   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D25630%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=25630",
+   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/25630/",
+   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/25630/item.json",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/12/#25630",
+   "order": {
+    "method": "cart",
+    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D25630%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=25630",
+    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
+    "routes": [
+     {
+      "method": "cart",
+      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D25630%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=25630",
+      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
+     },
+     {
+      "method": "whatsapp",
+      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%9E%D7%A2%D7%93%D7%9F%20%D7%A7%D7%A8%D7%9D%20%D7%98%D7%95%D7%A0%D7%94%20%D7%95%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%95%D7%AA%20%D7%9E%D7%99%D7%90%D7%95%20%E2%80%93%20ME-O%20%D7%9E%D7%90%D7%A8%D7%96%204%20%D7%99%D7%97%E2%80%99%2060%20%D7%92%D7%A8%E2%80%99%D7%B4.",
+      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
+     },
+     {
+      "method": "phone",
+      "url": "tel:0546404788",
+      "note": "העסק מקבל הזמנות ופניות בטלפון."
+     }
+    ],
+    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
+   },
+   "business": "חנות חיות קרוב לטבע",
+   "business_slug": "close-to-nature",
+   "business_site": "https://closetonature.co.il/",
+   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
+   "ref": "close-to-nature:25630",
+   "catalog_changed_at": "2026-10-15T16:16:24+00:00"
+  },
+  {
    "id": "25565",
    "title": "חטיף לחתולים פט פרוג’קט במגוון טעמים ללא דגנים",
    "description": "זמן פינוקים! \n חטיף לחתול מבית פט פרוג’קט במגוון טעמים \n מתאים לכל סוגי החתולים \n משקל 50 גרם \n Pets Project",
@@ -150,7 +194,7 @@
    "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D24889%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=24889",
    "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/24889/",
    "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/24889/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/12/#24889",
+   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/13/#24889",
    "order": {
     "method": "cart",
     "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D24889%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=24889",
@@ -2161,50 +2205,6 @@
    "business_site": "https://closetonature.co.il/",
    "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
    "ref": "close-to-nature:20642",
-   "catalog_changed_at": "2026-10-15T16:16:24+00:00"
-  },
-  {
-   "id": "20610",
-   "title": "אקאנה acana הריטג’ גורים גזע גדול 17 ק”ג",
-   "description": "סדרת מזונות אקאנה הריטג’ עשירים בחלבון נטולי דגנים דלים בפחמימות ומכילים בשר מעופות חופש ביצי קן ודגי ים שנידוגו בצפון האי ונקובר- כולם טריים ושלמים המדמים תזונת צייד מטרף שלם המספקים לכלבכם תזונה מלאה ומותאמת ביולוגית. סדרת אקאנה הריטג’ מכילה 60%-75% בשר 1/3 בשר טרי ומגוון של 3 סוגי בשר מטרף שלם.",
-   "link": "https://closetonature.co.il/product/%d7%90%d7%a7%d7%90%d7%a0%d7%94-acana-%d7%94%d7%a8%d7%99%d7%98%d7%92-%d7%92%d7%95%d7%a8%d7%99%d7%9d-%d7%92%d7%96%d7%a2-%d7%92%d7%93%d7%95%d7%9c-17-%d7%a7%d7%92/?utm_source=agentfeed&utm_medium=ai",
-   "image_link": "https://i0.wp.com/closetonature.co.il/wp-content/uploads/2019/11/%D7%90%D7%A7%D7%90%D7%A0%D7%94-%D7%94%D7%A8%D7%99%D7%98%D7%92-%D7%92%D7%95%D7%A8%D7%99%D7%9D-%D7%92%D7%96%D7%A2-%D7%92%D7%93%D7%95%D7%9C.jpg?fit=600%2C600&ssl=1",
-   "condition": "new",
-   "price": "429.00",
-   "currency": "ILS",
-   "availability": "out_of_stock",
-   "order_url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D20610%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=20610",
-   "page": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/20610/",
-   "json": "https://nitairevivo.github.io/agentfeed/close-to-nature/item/20610/item.json",
-   "page_anchor": "https://nitairevivo.github.io/agentfeed/close-to-nature/p/13/#20610",
-   "order": {
-    "method": "cart",
-    "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D20610%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=20610",
-    "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק.",
-    "routes": [
-     {
-      "method": "cart",
-      "url": "https://agentfeed-plum.vercel.app/go/close-to-nature?to=https%3A%2F%2Fclosetonature.co.il%2F%3Fadd-to-cart%3D20610%26utm_source%3Dagentfeed%26utm_medium%3Dai&p=20610",
-      "note": "קישור ישיר שמוסיף את הפריט לעגלה באתר של העסק."
-     },
-     {
-      "method": "whatsapp",
-      "url": "https://wa.me/972546404788?text=%D7%94%D7%99%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20agentfeed%20%D7%95%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%B4%D7%90%D7%A7%D7%90%D7%A0%D7%94%20acana%20%D7%94%D7%A8%D7%99%D7%98%D7%92%E2%80%99%20%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%92%D7%96%D7%A2%20%D7%92%D7%93%D7%95%D7%9C%2017%20%D7%A7%E2%80%9D%D7%92%D7%B4.",
-      "note": "הודעת וואטסאפ שכבר נוקבת בפריט. הלקוח רואה אותה לפני שהוא שולח."
-     },
-     {
-      "method": "phone",
-      "url": "tel:0546404788",
-      "note": "העסק מקבל הזמנות ופניות בטלפון."
-     }
-    ],
-    "also": "לפריט הזה יש יותר מדרך אחת. routes מכיל את כולן — עגלה לקנייה מיידית, וואטסאפ לשאלה לפני שקונים, טלפון."
-   },
-   "business": "חנות חיות קרוב לטבע",
-   "business_slug": "close-to-nature",
-   "business_site": "https://closetonature.co.il/",
-   "business_page": "https://nitairevivo.github.io/agentfeed/close-to-nature/",
-   "ref": "close-to-nature:20610",
    "catalog_changed_at": "2026-10-15T16:16:24+00:00"
   }
  ]

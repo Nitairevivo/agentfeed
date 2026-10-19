@@ -1,8 +1,10 @@
 // The agency's desk: every client's ticket, in one place, for the builders.
-// A builder opens the link we sent them once (…/desk/?agency=newsite#k=…);
+// A builder opens the link we sent them once (…/desk/?agency=demo-studio#k=…);
 // the key moves from the address to this tab and is sent only in a header.
 // ?demo shows the same desk with example tickets, kept on this device.
 (function () {
+  // never inside someone else's frame: a page that holds a key is not a page to be clicked through a cover
+  if (window.top !== window.self) { document.documentElement.style.display = 'none'; return; }
   var qs = new URLSearchParams(location.search);
   // a local server, for testing on this machine only
   var API = /^http:\/\/localhost:\d+$/.test(qs.get('api') || '') ? qs.get('api') + '/panel' : 'https://agentfeed-plum.vercel.app/api/panel';
@@ -175,7 +177,7 @@
     var busy = Object.keys(by).filter(function (c) { return by[c] >= 3; })[0];
     if (busy) out.push(['💬', busy + ' פתח/ה ' + by[busy] + ' פניות החודש. אולי שווה שיחה קצרה: מה עוד מפריע לו באתר?', '']);
     var canAI = open.filter(function (t) { var s = siteOf(t.site); return s.repo && t.status !== 'review' && !(t.agent && t.agent.state === 'running'); });
-    if (canAI.length) out.push(['✨', canAI.length + ' פניות באתרי Lovable: אפשר לתת ל-Claude להתחיל עליהן, ולבדוק רק את התוצאה', '']);
+    if (canAI.length) out.push(['✨', canAI.length + ' פניות באתרים שהקוד שלהם מחובר: אפשר לתת ל-Claude להתחיל עליהן, ולבדוק רק את התוצאה', '']);
     return out;
   }
   function workload() {
@@ -273,7 +275,7 @@
     var done = mine.filter(function (t) { return t.status === 'done'; }).map(function (t) { return { no: t.no, subject: t.subject }; })
       .concat([{ no: '981', subject: 'עדכון שעות הפתיחה לחגים' }, { no: '975', subject: 'הוספת שלושה מוצרים חדשים' }, { no: '968', subject: 'תיקון הקישור לוואטסאפ בטלפון' }]);
     var open = mine.filter(function (t) { return t.status !== 'done'; }).length;
-    var r = { demo: true, month: month, monthName: MON(month), site: { name: s.name, url: '' }, brand: D && D.brand,
+    var r = { demo: true, month: month, monthName: MON(month), site: { name: s.name, url: '' }, brand: state.brand || (D && D.brand),
       watch: { checks: 2976, uptime: 99.9 }, incidents: [{ mins: 9, what: 'השרת לא ענה' }],
       requests: { opened: done.length + open, done: done.length, open: open, list: done },
       answerH: 1.5, changes: done.slice(0, 3), visits: { views: 1284, actions: 61 } };
@@ -354,14 +356,18 @@
       (b.tips || []).map(function (x) { return '<div class="tip info"><div class="ic">💡</div><div><p>' + esc(x) + '</p></div></div>'; }).join('') + '</div>';
   }
   function apply(d) {
-    state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me;
+    state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me; state.brand = d.brand;
     if (d.seasons) state.seasons = d.seasons;
     briefCard(demo ? demoBrief() : d.brief);
     brand(d.brand); $('who').textContent = d.me ? 'מחובר/ת: ' + d.me.name : ''; render(); hud();
   }
   function load() {
     if (demo) {
-      D = D || demoData(); apply(D);
+      D = D || demoData();
+      // a demo in the studio's own name, for the meeting: ?demo&brand=demo-studio&color=%23112233 (text and a colour only)
+      var bn = (qs.get('brand') || '').slice(0, 40), bc = qs.get('color') || '';
+      // shown, not saved: the example desk on this device keeps its own name
+      apply(bn ? Object.assign({}, D, { brand: { name: bn, color: /^#[0-9a-f]{6}$/i.test(bc) ? bc : D.brand.color, accent: D.brand.accent } }) : D);
       // the calendar is real in the demo too: the same dates the desk shows a studio
       if (!state.seasons.length) fetch(API + '?op=seasons').then(function (r) { return r.json(); }).then(function (x) { state.seasons = x.upcoming || []; render(); }).catch(function () {});
       return;

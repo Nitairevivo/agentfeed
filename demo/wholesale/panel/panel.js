@@ -2,6 +2,8 @@
 // demo when there is no key. The key arrives once in the link's fragment
 // (#k=…), which browsers never send to any server, and is kept for the tab.
 (function () {
+  // never inside someone else's frame: a page that holds a key is not a page to be clicked through a cover
+  if (window.top !== window.self) { document.documentElement.style.display = 'none'; return; }
   var ME = (document.currentScript && document.currentScript.src) || '';
   var cfg = window.PANEL;
   // the shared panel serves any connected site: ?site=<slug>&name=<name>
@@ -382,7 +384,7 @@
     $('brain').innerHTML =
       '<div class="verdict ' + v[0] + '"><span class="pill"><i></i>' + v[1] + '</span><p id="headline"></p></div>' +
       '<div class="meter" aria-hidden="true"><span>' + F.length + ' ממצאים</span><span>' + A.length + ' צעדים</span>' +
-        (a.dropped ? '<span title="משפטים עם מספר שלא קיים בנתונים">' + a.dropped + ' נמחקו בבדיקה</span>' : '<span>0 נמחקו בבדיקה</span>') + '</div>' +
+        (a.dropped ? '<span title="משפטים עם מספר שלא קיים בנתונים">' + (Number(a.dropped) || 0) + ' נמחקו בבדיקה</span>' : '<span>0 נמחקו בבדיקה</span>') + '</div>' +
       (F.length ? '<div class="fx-grid">' + F.map(function (f, i) {
         return '<article class="fx ' + f.certainty + '" style="--d:' + (i * 90) + 'ms"><header><span class="n">' + String(i + 1).padStart(2, '0') + '</span>' +
           '<span class="cert ' + f.certainty + '">' + (CERT[f.certainty] || '') + '</span></header><h3>' + esc(f.title) + '</h3><p>' + esc(f.explain) + '</p>' + chip(f.evidence) + '</article>'; }).join('') + '</div>' : '') +
@@ -391,7 +393,7 @@
         return '<li class="' + (done ? 'done' : '') + '"><label><input type="checkbox" data-do="' + esc(x.do) + '"' + (done ? ' checked' : '') + '><span class="box" aria-hidden="true"></span>' +
           '<span class="txt"><b>' + esc(x.do) + '</b><em class="eff ' + x.effort + '">' + (EFFORT[x.effort] || '') + '</em><br><span>' + esc(x.why) + '</span>' + chip(x.evidence) + '</span></label></li>'; }).join('') + '</ol>' : '') +
       ((a.ask_owner || []).length ? '<p class="sub q">❓ כדי לדייק, המנתח היה רוצה לדעת: ' + a.ask_owner.map(esc).join(' · ') + '</p>' : '') +
-      (bench ? '<div class="bench"><span>לעומת ' + bench.sites + ' חנויות אחרות שבנינו (חציון)</span><b>' + bench.conversion + '%</b> פניות ל-100 מבקרים · <b>' + bench.mobile + '%</b> מטלפון · <b>' + bench.google + '%</b> מגוגל</div>' : '') +
+      (bench ? '<div class="bench"><span>לעומת ' + (Number(bench.sites) || 0) + ' חנויות אחרות שבנינו (חציון)</span><b>' + (Number(bench.conversion) || 0) + '%</b> פניות ל-100 מבקרים · <b>' + (Number(bench.mobile) || 0) + '%</b> מטלפון · <b>' + (Number(bench.google) || 0) + '%</b> מגוגל</div>' : '') +
       (a.demo ? '<p class="sub">בדוגמה הזאת הטקסט נכתב מתבנית. באתר אמיתי כותב אותו המנתח, מהמספרים שלכם.</p>' : '');
     typeOut($('headline'), a.headline || '');
     placeAsk();
@@ -510,9 +512,21 @@
     for (var i = cur.msgs.length - 1; i >= 0; i--) if (cur.msgs[i].h.indexOf('data-req="' + id + '"') >= 0) { cur.msgs[i].h = html; break; }
     saveChats();
   }
+  // A chat kept on this device comes back as HTML, and anything else on this origin could have written it:
+  // it is read in an inert template, and what could run (scripts, frames, on… handlers, script links) is removed
+  function safeHtml(h) {
+    var t = document.createElement('template'); t.innerHTML = String(h || '');
+    [].forEach.call(t.content.querySelectorAll('script,iframe,object,embed,style,link,meta,base,form,svg,math'), function (n) { n.remove(); });
+    [].forEach.call(t.content.querySelectorAll('*'), function (el) {
+      [].slice.call(el.attributes).forEach(function (a) {
+        if (/^on/i.test(a.name) || /^(href|src|action|formaction|xlink:href|srcdoc)$/i.test(a.name) && /^\s*(javascript|data|vbscript):/i.test(a.value) || /^srcdoc$/i.test(a.name)) el.removeAttribute(a.name);
+      });
+    });
+    return t.innerHTML;
+  }
   function openChat(c) {
     $('answer').innerHTML = ''; cur = c || null;
-    (c ? c.msgs : []).forEach(function (m) { var el = bubble(m.h, m.w === 'me' ? 'me' : 'ai', true); tools(el); });
+    (c ? c.msgs : []).forEach(function (m) { var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); tools(el); });
     layout(); logBox.hidden = true; drawRecent();
     var ans = $('answer'); ans.scrollTop = ans.scrollHeight;
   }
