@@ -614,9 +614,11 @@
     // the assistant sorts the message first: a change, a problem, a how-to.
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
-    // the example panel has no site behind it: pictures of the site and changes of look are shown on a real one
-    if (demo && (LOOK_RE.test(q) || DESIGN_RE.test(q))) local = { kind: 'help', answer: 'זה לוח לדוגמה, ואין מאחוריו אתר אמיתי, אז תמונות מהאתר ושינויי עיצוב אי אפשר לראות כאן. בלוח של חנות אמיתית העוזר שולח תמונות של האתר, מציע מה לשנות, ומראה תמונה של "אחרי" לפני כל שינוי.', link: ['https://nitairevivo.github.io/agentfeed/setup/', 'לנסות על חנות הניסוי ↗'] };
-    var ask = demo && local && local.kind === 'help' ? Promise.resolve(local) : demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
+    // the example panel shows its pictures and its changes on our test shop: real, but a change stays a preview
+    var looks = demo && (ideaAsked || LOOK_RE.test(q) || DESIGN_RE.test(q)); ideaAsked = false;
+    var ask = looks ? keepCall('demo-look', { message: q }).catch(function () {
+                        return { kind: 'help', answer: 'לא הצלחתי להכין את זה כרגע. נסו שוב בעוד דקה.' }; })
+            : demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
                    : local ? Promise.resolve(local) : assistCall(q);
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
@@ -677,7 +679,7 @@
       // a change of look: the page before, and with the change (a preview only this link shows)
       if (pv) h += compare(pv);
       else if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
-      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
+      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + (a.demo && pv ? ' data-preview="' + esc(pv) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
     return h;
@@ -702,7 +704,8 @@
   function shopItems() { return demo ? demoCat().filter(function (p) { return !p.hidden; }) : items; }
   var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש|להוזיל|תוזיל|הוזל|הנחה|מבצע|להעלות|תעלה|תייקר|לייקר|\d+\s*%|אחוז)/;
   // the same words the server sorts by (server/lib/assist.mjs RE.look and RE.design)
-  var LOOK_RE = /((שלח|תשלח|תשלחי|לשלוח|תראה|תראי|להראות|לראות|תביא|תביאי)[^.?!]{0,20}(תמונ|צילום|צילומי מסך|סקרינשוט))|((תראה|תראי|להראות)( לי)? את (ה)?(אתר|חנות|עמוד הבית))|איך (ה)?(אתר|חנות|עמוד הבית) נרא/;
+  var ideaAsked = false;   // a tapped idea is a change of look, however it is worded
+  var LOOK_RE = /((שלח|תשלח|תשלחי|לשלוח|תראה|תראי|להראות|לראות|תביא|תביאי)[^.?!]{0,20}(תמונ|צילום|צילומי מסך|סקרינשוט))|((תראה|תראי|להראות)( לי)? את (ה)?(אתר|חנות|עמוד הבית))|איך (ה)?(אתר|חנות|עמוד הבית) נרא|מה (כדאי|אפשר|הייתי|צריך) (לשנות|לשפר)/;
   var DESIGN_RE = /(צבע|כחול|אדום|ירוק|רקע|פונט|גופן|כותרת|כפתור|לוגו|תגדיל|תקטין|תעצב|עיצוב|באנר|מרווח|תפריט)/;
   function localAnswer(q) {
     if (CHANGE_RE.test(q)) return null;
@@ -905,7 +908,7 @@
   });
   $('answer').addEventListener('click', function (e) {
     var idea = e.target.closest('[data-idea]');
-    if (idea) { if (asking) return; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
+    if (idea) { if (asking) return; ideaAsked = true; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
     var cb = e.target.closest('[data-cmp]');
     if (cb) { var cbox = cb.closest('.cmp'); cbox.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
       cbox.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }
@@ -913,6 +916,15 @@
     if (!yes && !no) return;
     var box = e.target.closest('[data-req]'), id = box.getAttribute('data-req');
     box.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
+    // a change of look in the example panel: "כן" shows it as made, to this visitor only; nothing is sent
+    var dpv = demo && pageUrl(box.getAttribute('data-preview'));
+    if (dpv) {
+      var bubD = box.closest('.qa'), oldD = bubD.querySelector('.cmp');
+      if (yes && oldD) oldD.remove();
+      box.outerHTML = yes ? '<p class="sub"><b>✓ ככה זה נראה עכשיו.</b> בחנות של לקוח אמיתי זה כבר באתר, לכל המבקרים. בהדגמה השינוי נשאר רק אצלכם.</p>' + shots([[dpv, 'באתר עכשיו']])
+        : '<p class="sub"><b>בוטל. שום דבר לא השתנה.</b></p>';
+      resave(id, bubD); return;
+    }
     var go = demo ? Promise.resolve(demoDecide(id, !!yes)) : keepCall(yes ? 'req-confirm' : 'req-cancel', { id: id });
     var bub2 = box.closest('.qa');
     go.then(function (r) {
@@ -1104,7 +1116,7 @@
   }
   function tkClick(e) {
     var idea = e.target.closest('[data-idea]');
-    if (idea) { if (asking) return; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
+    if (idea) { if (asking) return; ideaAsked = true; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
     var cb = e.target.closest('[data-cmp]');
     if (cb) { var box = cb.closest('.cmp'); box.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
       box.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }
