@@ -614,9 +614,12 @@
     // the assistant sorts the message first: a change, a problem, a how-to.
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
-    var ask = demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
+    // the example panel has no site behind it: pictures of the site and changes of look are shown on a real one
+    if (demo && (LOOK_RE.test(q) || DESIGN_RE.test(q))) local = { kind: 'help', answer: 'זה לוח לדוגמה, ואין מאחוריו אתר אמיתי, אז תמונות מהאתר ושינויי עיצוב אי אפשר לראות כאן. בלוח של חנות אמיתית העוזר שולח תמונות של האתר, מציע מה לשנות, ומראה תמונה של "אחרי" לפני כל שינוי.', link: ['https://nitairevivo.github.io/agentfeed/setup/', 'לנסות על חנות הניסוי ↗'] };
+    var ask = demo && local && local.kind === 'help' ? Promise.resolve(local) : demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
                    : local ? Promise.resolve(local) : assistCall(q);
     ask.then(function (a) {
+      if (a && a.meter) showMeter(a.meter);
       if (a && a.kind && a.kind !== 'question' && a.answer) {
         wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
         asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
@@ -632,6 +635,7 @@
       asking = false; $('askf').classList.remove('busy'); return;
     }
     brainCall({ ask: q }).then(function (r) {
+      if (r.meter) showMeter(r.meter);
       if (!r.answer && !(r.tips || []).length) {
         wait.innerHTML = r.detail ? '<p>המנתח לא הצליח לענות כרגע.</p><p class="sub" dir="ltr" style="font-size:12px;opacity:.7;margin:6px 0 0">' + esc(r.detail) + '</p>' :
           r.dropped ? '<p>המנתח ענה, אבל בתשובה הופיע מספר שלא קיים בנתונים שלכם, ולכן היא נמחקה. נסו לנסח את השאלה אחרת.</p>' :
@@ -662,6 +666,7 @@
               failed: 'לא עלה', cancelled: 'בוטל', rejected: 'לא בוצע' };
   function assistHtml(a) {
     var h = '<p>' + esc(a.answer).replace(/\n/g, '<br>') + '</p>';
+    if (a.link && pageUrl(a.link[0])) h += '<p><a class="btn btn-s" href="' + esc(a.link[0]) + '" target="_blank" rel="noopener">' + esc(a.link[1]) + '</a></p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     // the site itself, as every visitor sees it, and what is worth changing: each idea one tap from its own preview
     var pages = (a.pages || []).filter(function (x) { return pageUrl(x[0]); });
@@ -696,6 +701,9 @@
   function money(n) { return '₪' + Number(n).toLocaleString('he-IL', { maximumFractionDigits: 2 }); }
   function shopItems() { return demo ? demoCat().filter(function (p) { return !p.hidden; }) : items; }
   var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש|להוזיל|תוזיל|הוזל|הנחה|מבצע|להעלות|תעלה|תייקר|לייקר|\d+\s*%|אחוז)/;
+  // the same words the server sorts by (server/lib/assist.mjs RE.look and RE.design)
+  var LOOK_RE = /((שלח|תשלח|תשלחי|לשלוח|תראה|תראי|להראות|לראות|תביא|תביאי)[^.?!]{0,20}(תמונ|צילום|צילומי מסך|סקרינשוט))|((תראה|תראי|להראות)( לי)? את (ה)?(אתר|חנות|עמוד הבית))|איך (ה)?(אתר|חנות|עמוד הבית) נרא/;
+  var DESIGN_RE = /(צבע|כחול|אדום|ירוק|רקע|פונט|גופן|כותרת|כפתור|לוגו|תגדיל|תקטין|תעצב|עיצוב|באנר|מרווח|תפריט)/;
   function localAnswer(q) {
     if (CHANGE_RE.test(q)) return null;
     var list = shopItems();
@@ -1181,6 +1189,30 @@
   (function () { var c = $('chips'); if (!c) return; var b = document.createElement('button'); b.type = 'button'; b.textContent = 'איך משנים מחיר באתר?';
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
     c.appendChild(b); })();
+  // The month's package, under the chat: what share the assistant has used. Counted in tokens on the server
+  // (meter.mjs); here only the share, and, near the end, a way to ask the studio for more.
+  var meterEl = null;
+  function showMeter(m) {
+    if (!m || !askNode || typeof m.pct !== 'number') return;
+    if (!meterEl) { meterEl = document.createElement('div'); meterEl.className = 'meter-pk'; meterEl.setAttribute('aria-live', 'polite'); $('askf').insertAdjacentElement('afterend', meterEl); }
+    var lvl = m.spent ? 'out' : m.pct >= 80 ? 'low' : 'ok', day = String(m.renews || '').split('-').reverse().slice(0, 2).map(Number).join('.');
+    meterEl.className = 'meter-pk ' + lvl;
+    meterEl.innerHTML = '<div class="mrow"><span>' + (m.spent ? 'החבילה של העוזר לחודש הזה נגמרה' : 'העוזר החודש: השתמשתם ב-<b>' + m.pct + '%</b> מהחבילה') + '</span>' +
+      '<small>' + (day ? 'מתחדשת ב-' + day : '') + '</small></div>' +
+      '<div class="mbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + m.pct + '" aria-label="כמה מהחבילה נוצל"><i style="width:' + m.pct + '%"></i></div>' +
+      (lvl === 'ok' ? '' : m.asked ? '<p class="sub">✓ ביקשתם מהסטודיו להגדיל. תקבלו הודעה כשזה מוכן.</p>' :
+        '<button type="button" class="btn btn-s" id="meterask">לבקש מהסטודיו להגדיל את החבילה</button>');
+  }
+  function meterNow() { if (!demo) keepCall('meter').then(showMeter).catch(function () {}); }
+  if (askNode && !demo) {
+    meterNow();
+    askNode.addEventListener('click', function (e) {
+      if (!e.target || e.target.id !== 'meterask') return;
+      e.target.disabled = true;
+      keepCall('meter-ask', {}).then(function (r) { showMeter(r.meter && Object.assign({}, r.meter, { asked: r.meter.asked || new Date().toISOString() })); })
+        .catch(function () { e.target.disabled = false; e.target.insertAdjacentHTML('afterend', '<p class="sub">לא הצלחנו לשלוח כרגע. נסו שוב.</p>'); });
+    });
+  }
   // Two pages, one address: the numbers (the panel), and the assistant (?view=chat), a page of its own with
   // nothing else on it, opened empty and ready. A tab bar under the header moves between them; the key stays
   // in this tab, so the move needs nothing new. The conversation itself is the same one on any page.

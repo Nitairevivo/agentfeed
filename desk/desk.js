@@ -330,7 +330,7 @@
       (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
       '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' + cert +
       '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span>' +
-      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + selfRow(s) + direct(s) + ops +
+      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + selfRow(s) + meterRow(s) + direct(s) + ops +
       // a client who leaves: everything held on the site, as a file; then deleted
       (demo ? '' : '<div class="leave"><button type="button" class="btn ghost sm" data-export="' + esc(s.slug) + '">📦 ייצוא כל הנתונים</button>' +
         '<button type="button" class="btn ghost sm" data-erase="' + esc(s.slug) + '">🗑️ מחיקת כל הנתונים</button></div>') + '</li>';
@@ -344,6 +344,24 @@
       SELF.map(function (o) { return '<option value="' + o[0] + '"' + (o[0] === v ? ' selected' : '') + '>' + o[1] + '</option>'; }).join('') + '</select></label>' +
       '<small>' + (v ? 'הלקוח כותב, Claude מכין, והלקוח מאשר בעצמו. אתם מקבלים עדכון על כל שינוי ויכולים לבטל.' : 'כל בקשה מגיעה אליכם.') + '</small></div>';
   }
+  // The client's assistant this month (server/lib/meter.mjs): the share used, and a package added when it runs out.
+  // Each package added is billed to the studio; the client is told it can go on.
+  function meterRow(s) {
+    var m = s.meter; if (!m || typeof m.pct !== 'number') return '';
+    var lvl = m.spent ? 'out' : m.pct >= 80 ? 'low' : 'ok', extra = m.limit > m.plan ? Math.round(m.limit / m.plan - 1) : 0;
+    return '<div class="meterrow ' + lvl + '"><label>🤖 <b>העוזר של הלקוח החודש</b> <span>' + (m.spent ? 'החבילה נגמרה' : m.pct + '% נוצל') + '</span>' +
+      (extra ? ' <small>(' + (extra === 1 ? 'נוספה חבילה' : 'נוספו ' + extra + ' חבילות') + ' החודש)</small>' : '') + '</label>' +
+      '<div class="mbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + m.pct + '" aria-label="כמה מהחבילה נוצל"><i style="width:' + m.pct + '%"></i></div>' +
+      (m.asked ? '<small class="asked">🙋 הלקוח ביקש להגדיל</small> ' : '') +
+      (lvl !== 'ok' || m.asked ? '<button type="button" class="btn sm" data-topup="' + esc(s.slug) + '">➕ להוסיף חבילה לחודש הזה</button>' : '') + '</div>';
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-topup]'); if (!b) return;
+    if (!confirm('להוסיף ללקוח חבילה נוספת לחודש הזה? החבילה נוספת לחשבון של הסטודיו.')) return;
+    b.disabled = true;
+    act('meter-topup', { site: b.dataset.topup }).then(function (r) { toast('✓ נוספה חבילה. הלקוח קיבל הודעה שאפשר להמשיך (' + r.meter.pct + '% נוצל).'); load(); })
+      .catch(function (err) { b.disabled = false; toast(err.message); });
+  });
   // The direct line to a WordPress store (server/lib/wpdirect.mjs): connected, cut, or a code to connect with.
   var codes = {};
   function direct(s) {

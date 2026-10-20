@@ -606,3 +606,12 @@ a.chatfab { text-decoration: none; color: inherit; }
 /* what is worth changing, read off the site: each one a tap from its own before/after */
 .ideas { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin: 10px 0 4px; }
 .ideas .btn { white-space: normal; text-align: start; line-height: 1.4; }
+/* the month's package, under the chat */
+.meter-pk { margin: 8px 2px 2px; font-size: 13px; }
+.meter-pk .mrow { display: flex; justify-content: space-between; gap: 10px; opacity: .85; }
+.meter-pk .mbar { height: 6px; border-radius: 99px; background: rgba(127,127,127,.22); overflow: hidden; margin-top: 5px; }
+.meter-pk .mbar i { display: block; height: 100%; border-radius: inherit; background: #2fa36b; transition: width .4s ease; }
+.meter-pk.low .mbar i { background: #e0a020; }
+.meter-pk.out .mbar i { background: #d64545; }
+.meter-pk .btn, .meter-pk .sub { margin-top: 8px; }
+@media (prefers-reduced-motion: reduce) { .meter-pk .mbar i { transition: none; } }
