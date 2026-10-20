@@ -372,13 +372,15 @@
   // the to-do list. It lives outside the analysis, so a re-render does not
   // wipe the conversation; it is moved back out first, then placed again.
   var askNode = document.querySelector('.ask');
+  // on the assistant's own page (?view=chat) the conversation is the page, and stays where it is
+  var inRoom = function () { return Boolean(askNode && askNode.closest('.chatroom')); };
   function placeAsk() {
-    if (!askNode) return;
+    if (!askNode || inRoom()) return;
     var todo = $('brain').querySelector('.brain-sub');
     if (todo) $('brain').insertBefore(askNode, todo); else $('brain').parentNode.appendChild(askNode);
   }
   function showBrain(a, bench) {
-    if (askNode && askNode.parentNode === $('brain')) $('brain').parentNode.appendChild(askNode);
+    if (askNode && !inRoom() && askNode.parentNode === $('brain')) $('brain').parentNode.appendChild(askNode);
     if (!a) { $('brain').innerHTML = '<p class="sub">המנתח לא ענה הפעם. ההמלצות למטה עדיין מבוססות על המספרים שלכם.</p>'; return; }
     var v = VERDICT[a.verdict] || VERDICT.mixed, F = a.findings || [], A = a.actions || [];
     $('brain').innerHTML =
@@ -428,7 +430,7 @@
   }
   function retryBtn() { return ' <button type="button" class="btn btn-s" id="brainretry">לנסות שוב</button>'; }
   function brain() {
-    if (askNode && askNode.parentNode === $('brain')) $('brain').parentNode.appendChild(askNode);
+    if (askNode && !inRoom() && askNode.parentNode === $('brain')) $('brain').parentNode.appendChild(askNode);
     var kept = null; try { kept = JSON.parse(localStorage.getItem(BKEY) || 'null'); } catch (x) {}
     if (kept && kept.a) { showBrain(kept.a, kept.bench); brainNote('<span class="spin"></span> מהבדיקה האחרונה (' + esc(hhmm(kept.at)) + ') · בודק אם יש משהו חדש…'); }
     else {
