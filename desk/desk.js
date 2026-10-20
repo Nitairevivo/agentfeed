@@ -20,13 +20,18 @@
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var when = function (iso) { try { return new Date(iso).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }); } catch (x) { return ''; } };
   var ST = { new: 'חדשה', doing: 'בטיפול', waiting: 'מחכה ללקוח', review: 'מחכה לאישור שינוי', done: 'טופלה' };
-  var state = { tickets: [], team: [], sites: [], seasons: [], me: null, filter: 'open', q: '' };
+  var state = { tickets: [], team: [], sites: [], seasons: [], me: null, filter: 'open', q: '', devices: null, dev: null, devErr: '' };
 
   function toast(t) { var el = $('toast'); el.textContent = t; el.classList.add('on'); setTimeout(function () { el.classList.remove('on'); }, 2600); }
   function call(op, body) {
     var h = { 'content-type': 'application/json', authorization: 'Bearer ' + key };
-    return fetch(API + '?op=' + op + '&agency=' + agency, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
+    // the second factor: once this browser has a signing device, every request carries its signature (afsign.js)
+    var ts = Math.floor(Date.now() / 1000);
+    var proof = state.dev && window.AFSign ? AFSign.sign(state.dev, 'AF-REQ-1\n' + agency + '\n' + op + '\n' + ts).then(function (sig) {
+      h['x-af-kid'] = state.dev.kid; h['x-af-ts'] = String(ts); h['x-af-sig'] = sig; }) : Promise.resolve();
+    return proof.then(function () { return fetch(API + '?op=' + op + '&agency=' + agency, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined }); })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) {
+        if (r.status === 401 && d.device) throw new Error('המכשיר הזה עוד לא אושר. מישהו מהצוות מאשר אותו ממכשיר מאושר, בלשונית "אתרים".');
         if (r.status === 401) throw new Error('הקישור לא תקין או שהמפתח הוחלף. בקשו קישור חדש.');
         if (!r.ok) { var er = new Error(d.error || 'השרת לא ענה. נסו שוב בעוד דקה.'); er.data = d; throw er; } return d; }); });
   }
@@ -202,9 +207,11 @@
     if (ag.state === 'running') agent = '<div class="agent">🤖 Claude עובד על השינוי…</div>';
     if (ag.state === 'preview' && t.status === 'review') agent = '<div class="agent">🤖 השינוי מוכן' + (ag.pr ? ' · <a href="' + esc(ag.pr) + '" target="_blank" rel="noopener">השינוי בקוד</a>' : '') +
       (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">' + (ag.patch ? 'לראות את השינוי באתר' : 'צילומי לפני ואחרי') + '</a>' : '') +
-      ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">' + (ag.wp ? '✓ לאשר ולעדכן בחנות' : '✓ לאשר ולהעלות') + '</button>' +
+      signed(t) +
+      ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">' + (t.sign ? '🔏 לחתום ולאשר' : ag.wp ? '✓ לאשר ולעדכן בחנות' : '✓ לאשר ולהעלות') + '</button>' +
       '<button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">✕ לא לאשר</button></div>';
-    if (ag.state === 'merged' && ag.wp) agent = '<div class="agent">🛒 נכנס לחנות <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולהחזיר את הערכים הקודמים</button></div>';
+    if (ag.state === 'sent' || ag.state === 'undoing') agent = '<div class="agent">🔏 ' + (ag.state === 'sent' ? 'השינוי' : 'הביטול') + ' נחתם ונשלח לאתר. האתר בודק את החתימה ומבצע, בדרך כלל תוך דקה</div>';
+    if (ag.state === 'merged' && ag.wp) agent = '<div class="agent">🛒 נכנס לחנות <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">' + (t.sign ? '🔏 ' : '↩️ ') + 'לבטל ולהחזיר את הערכים הקודמים</button></div>';
     else if (ag.state === 'merged') agent = '<div class="agent">🚀 עלה לאתר <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולחזור לגרסה הקודמת</button></div>';
     return '<li class="tk' + (t.prio === 'urgent' ? ' urgent' : '') + '"><header><span class="no">#' + esc(t.no) + '</span><span class="client">' + esc(t.client) + '</span>' +
       age(t) + '<span class="st ' + t.status + '">' + ST[t.status] + '</span></header><div class="subj">' + (t.prio === 'urgent' ? '🔴 ' : '') + esc(t.subject) + '</div>' +
@@ -215,14 +222,85 @@
       (!canAI && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-patch" data-no="' + t.no + '">🎨 שינוי עיצוב עם Claude</button>' : '') +
       // a WordPress store connected directly: prices, sales, stock and names of products
       (s.wp && s.wp.connected && s.wp.woo && !s.wp.lost && t.status !== 'done' && ag.state !== 'running' && t.status !== 'review' ? '<button type="button" class="btn ai" data-act="ticket-wp" data-no="' + t.no + '">🛒 שינוי במוצרים עם Claude</button>' : '') +
-      (!canAI ? '<small style="color:var(--dim)">' + (s.line || demo ? 'השורה מותקנת באתר ✓' : 'צריך להתקין את השורה באתר') + '</small>' : '') + '</div>' +
+      (!canAI ? '<small style="color:var(--dim)">' + (s.wp && s.wp.connected && !s.wp.lost ? 'מחובר בחתימה ✓' : s.line || demo ? 'השורה מותקנת באתר ✓' : 'צריך להתקין את השורה באתר') + '</small>' : '') + '</div>' +
       agent + '<div class="thread">' + thread + '</div>' +
       '<form class="reply" data-no="' + t.no + '"><div class="quick">' + QUICK.map(function (q, i) { return '<button type="button" data-q="' + i + '">' + esc(q.length > 26 ? q.slice(0, 24) + '…' : q) + '</button>'; }).join('') + '</div>' +
       '<textarea name="t" maxlength="2000" placeholder="תשובה ללקוח…"></textarea>' +
       '<div class="row"><label><input type="checkbox" name="n"> הערה פנימית (הלקוח לא רואה)</label><button class="btn" type="submit">שליחה</button></div></form></li>';
   }
+  // What the approver's device will sign, drawn from the very object it signs: what is read here is what is approved.
+  var FIELD = { regular_price: 'מחיר', sale_price: 'מחיר מבצע', stock_status: 'מלאי', name: 'שם' };
+  var STOCK = { instock: 'במלאי', outofstock: 'אזל', onbackorder: 'בהזמנה מראש' };
+  function val(f, v) { return f === 'stock_status' ? (STOCK[v] || v) : /price$/.test(f) ? (v ? '₪' + v : 'בלי') : v; }
+  function signed(t) {
+    var g = t.sign; if (!g) return '';
+    if (g.kind === 'wp') return '<ul class="signs">' + (g.body.changes || []).map(function (c) {
+      return '<li>' + esc(FIELD[c.field] || c.field) + ' של "' + esc(c.name) + '": ' + esc(val(c.field, c.old)) + ' ← <b>' + esc(val(c.field, c.value)) + '</b></li>'; }).join('') + '</ul>';
+    if (g.kind === 'patch') {
+      var b = g.body, parts = [];
+      if (b.bar) parts.push('<li>פס עליון: <b>' + esc(b.bar.text) + '</b></li>');
+      (b.text || []).forEach(function (x) { parts.push('<li>טקסט חדש: <b>' + esc(x.text) + '</b></li>'); });
+      if ((b.hide || []).length) parts.push('<li>מוסתרים: ' + esc(b.hide.join(', ')) + '</li>');
+      return '<ul class="signs">' + parts.join('') + '</ul>' + (b.css ? '<details class="signs"><summary>קוד העיצוב שנחתם</summary><pre dir="ltr">' + esc(b.css) + '</pre></details>' : '');
+    }
+    return '';
+  }
+  // The studio's signing devices: this one, the trusted ones, and the ones waiting for someone to vouch for them.
+  function devCard() {
+    var el = $('devs'); if (!el) return;
+    var dv = state.devices, me = state.dev;
+    if (demo || !dv) { el.hidden = true; return; }
+    el.hidden = false;
+    var mine = me && dv.active.filter(function (d) { return d.kid === me.kid; })[0], wait = me && dv.waiting.filter(function (d) { return d.kid === me.kid; })[0];
+    var head = state.devErr ? '<p class="warn">' + esc(state.devErr) + '</p>' :
+      mine ? '<p>✅ המכשיר הזה מורשה לחתום. טביעת האצבע שלו: <code dir="ltr">' + esc(me.fp) + '</code></p>' :
+      wait ? '<p>⏳ המכשיר הזה ממתין שמישהו מהצוות יאשר אותו ממכשיר מורשה. טביעת האצבע שלו: <code dir="ltr">' + esc(me.fp) + '</code>. תנו למי שמאשר להשוות אותה.</p>' :
+      '<p>מכין מפתח חתימה למכשיר הזה…</p>';
+    var row = function (d, waiting) {
+      return '<li><span><b>' + esc(d.name) + '</b> · <code dir="ltr">' + esc(d.fp) + '</code><br><small>' + (d.scope === 'team' ? 'צוות' : 'מכשיר של לקוח · ' + esc(d.scope.split(':')[1])) +
+        (d.root ? ' · המכשיר הראשון' : d.vouched ? ' · אושר על ידי ' + esc(d.vouched) : '') + '</small></span>' +
+        (mine && waiting ? '<button type="button" class="btn ok sm" data-dev="endorse" data-kid="' + esc(d.kid) + '">לאשר</button>' : '') +
+        (mine && (waiting || d.kid !== me.kid) ? '<button type="button" class="btn ghost sm" data-dev="revoke" data-kid="' + esc(d.kid) + '">להסיר</button>' : '') + '</li>';
+    };
+    el.innerHTML = '<h2>🔏 מכשירי חתימה</h2><p class="sub">שינוי באתר וורדפרס מחובר נכנס רק אם אחד המכשירים האלה חתם עליו. המפתח נוצר בדפדפן ולא יוצא ממנו, גם לא אלינו.</p>' + head +
+      (dv.waiting.length ? '<h3>ממתינים לאישור</h3><p class="rule">לפני שמאשרים: בקשו מבעל המכשיר להקריא את טביעת האצבע שמופיעה אצלו, וודאו שהיא זהה לזו שכאן.</p><ul class="list">' + dv.waiting.map(function (d) { return row(d, true); }).join('') + '</ul>' : '') +
+      '<h3>מורשים</h3><ul class="list">' + dv.active.map(function (d) { return row(d, false); }).join('') + '</ul>';
+  }
+  function ensureDevice() {
+    if (demo || !state.me || !window.AFSign) return;
+    AFSign.device('desk:' + agency + ':' + state.me.id).then(function (d) {
+      state.dev = d; state.devErr = '';
+      var dv = state.devices || { active: [], waiting: [] }, known = dv.active.concat(dv.waiting).some(function (x) { return x.kid === d.kid; });
+      // a known device: ask again, signed this time, so an approved one opens the desk
+      if (known) return state.locked ? load() : render();
+      return call('dev-add', { pub: d.pub, name: state.me.name + ' · ' + AFSign.label() }).then(load);
+    }).catch(function (e) { state.devErr = e.message; devCard(); });
+  }
+  /** The signature an approval or an undo needs on this ticket, or nothing when the site does not check signatures. */
+  function signFor(t, op) {
+    var g = t && t.sign;
+    if (!g || (op === 'ticket-approve') === /-undo$/.test(g.kind)) return Promise.resolve(null);
+    var dv = state.devices || { active: [] };
+    if (!state.dev || !dv.active.some(function (x) { return x.kid === state.dev.kid; })) return Promise.reject(new Error('המכשיר הזה עוד לא מורשה לחתום. בקשו ממישהו בצוות לאשר אותו בלשונית "אתרים".'));
+    return AFSign.order(state.dev, { agency: agency, site: t.site, kind: g.kind, body: g.body });
+  }
+
+  function auditCard() {
+    var el = $('audit'); if (!el) return;
+    if (demo || !state.audit || !state.audit.length) { el.hidden = true; return; }
+    el.hidden = false;
+    el.innerHTML = '<h2>🗂️ יומן גישה</h2><p class="sub">מי פתח מה ומי עשה מה, כולל בעלי האתרים. נשמר 400 יום.</p><ul class="list audit">' + state.audit.slice(0, 40).map(function (e) {
+      return '<li><span><b>' + esc(e.who) + '</b> ' + esc(e.what) + (e.site ? ' · ' + esc(e.site) : '') + '</span><small>' + esc(when(e.at)) + '</small></li>'; }).join('') + '</ul>';
+  }
   function render() {
     counts();
+    devCard(); auditCard();
+    if (state.locked) {
+      // the link without an approved device: nothing of the studio's is shown, only how to get this device approved
+      $('list').innerHTML = '<li class="empty">🔒 המכשיר הזה עוד לא מאושר, ולכן הפניות והאתרים לא מוצגים בו.<br>' +
+        (state.dev ? 'טביעת האצבע שלו: <code dir="ltr">' + esc(state.dev.fp) + '</code>. מישהו מהצוות פותח את המסך במכשיר מאושר, לשונית "אתרים", משווה את הטביעה ומאשר.' : state.devErr ? esc(state.devErr) : 'מכין מפתח למכשיר…') + '</li>';
+      $('slist').innerHTML = ''; return;
+    }
     var list = shown();
     $('list').innerHTML = list.length ? list.map(ticket).join('') : '<li class="empty">אין פניות כאן. 🎉</li>';
     copies = [];
@@ -242,7 +320,10 @@
       (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener"><small>' + esc(s.url.replace(/^https:\/\//, '')) + '</small></a>' : '') +
       '<small>' + (hh.uptime7 != null ? 'זמינות השבוע ' + hh.uptime7 + '%' : 'עוד לא נבדק') + '</small>' + cert +
       '<span class="tag">' + esc(s.platform || '') + (s.repo ? ' · Claude מחובר לקוד' : s.line ? ' · השורה מותקנת' : '') + '</span>' +
-      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + selfRow(s) + direct(s) + ops + '</li>';
+      '<button type="button" class="btn ghost sm" data-report="' + esc(s.slug) + '">📄 דוח חודשי ללקוח</button></div>' + selfRow(s) + direct(s) + ops +
+      // a client who leaves: everything held on the site, as a file; then deleted
+      (demo ? '' : '<div class="leave"><button type="button" class="btn ghost sm" data-export="' + esc(s.slug) + '">📦 ייצוא כל הנתונים</button>' +
+        '<button type="button" class="btn ghost sm" data-erase="' + esc(s.slug) + '">🗑️ מחיקת כל הנתונים</button></div>') + '</li>';
   }
   // What the client may have Claude change by themselves, without the team: the studio decides, per site.
   // A change to the code itself always comes to the team.
@@ -259,11 +340,12 @@
     // only a WordPress site carries the plugin that makes the connection
     if (s.repo || s.platform !== 'wordpress') return '';
     var w = s.wp || {}, c = codes[s.slug];
-    if (w.connected && !w.lost) return '<div class="direct ok"><span>🔌 <b>חיבור ישיר</b> · ' + (w.woo ? 'Claude יכול לשנות מחירים, מבצעים ומלאי בחנות, באישור' : 'מחובר, אבל לא נמצאה חנות ווקומרס') + '</span></div>';
-    var head = '<span>' + (w.lost ? '<b class="warn">⚠️ החיבור הישיר נותק</b> (הסיסמה בוטלה באתר). אפשר לחבר מחדש' : '<b>🔌 חיבור ישיר לחנות</b> <small>(וורדפרס עם ווקומרס: מחירים, מבצעים ומלאי)</small>') + '</span>';
+    if (w.connected && !w.lost) return '<div class="direct ok"><span>🔏 <b>מחובר בחתימה</b> · האתר מבצע רק שינויים שמכשיר מורשה שלכם חתם עליהם' + (w.woo ? ': עיצוב, ומחירים, מבצעים ומלאי' : ': עיצוב (לא נמצאה חנות ווקומרס)') +
+      (w.sitekid ? ' · מפתח האתר <code dir="ltr">' + esc(window.AFSign ? AFSign.fp(w.sitekid) : w.sitekid) + '</code>' : '') + '</span></div>';
+    var head = '<span>' + (w.lost ? '<b class="warn">⚠️ התוסף באתר לא עונה</b> (נוטרל או נמחק). אפשר לחבר מחדש' : '<b>🔏 חיבור האתר בחתימה</b> <small>(וורדפרס: עיצוב, ובחנות ווקומרס גם מחירים, מבצעים ומלאי)</small>') + '</span>';
     if (c) return '<div class="direct">' + head + '<p>הקוד: <code class="code">' + esc(c.code) + '</code> · בתוקף שלושה ימים, לשימוש אחד.<br>' +
-      '<small>בעל האתר נכנס לוורדפרס ← כלים ← AgentFeed, מדביק את הקוד ולוחץ "אישור חיבור ישיר". צריך את התוסף AgentFeed Connect בגרסה 1.1 ומעלה.</small></p>' +
-      copyBtn('היי, כדי ש-Claude יוכל לעדכן לכם מחירים ומלאי בחנות (רק אחרי אישור, ותמיד אפשר לבטל): בוורדפרס נכנסים לכלים ← AgentFeed, מדביקים את הקוד ' + c.code + ' ולוחצים "אישור חיבור ישיר". אפשר לנתק בכל רגע מאותו מסך.', '📋 הוראות ללקוח') + '</div>';
+      '<small>בוורדפרס של האתר: תוספים ← התוסף AgentFeed Connect (גרסה 2), ואז כלים ← AgentFeed ← מדביקים את הקוד. התוסף יציג את מכשירי החתימה שלכם עם טביעות האצבע: משווים מול הרשימה בראש הלשונית הזאת, ומאשרים. אין סיסמה ואין גישת מנהל.</small></p>' +
+      copyBtn('היי, כדי שנוכל לעדכן לכם את האתר דרך המערכת: בוורדפרס נכנסים לכלים ← AgentFeed ומדביקים את הקוד ' + c.code + '. יופיעו שמות המכשירים שלנו עם טביעות אצבע. נשווה אותן יחד בטלפון ואז מאשרים. אין לנו סיסמה לאתר, וכל שינוי נכנס רק בחתימה שלנו. אפשר לנתק בכל רגע מאותו מסך.', '📋 הוראות ללקוח') + '</div>';
     return '<div class="direct">' + head + '<button type="button" class="btn ghost sm" data-wpcode="' + esc(s.slug) + '">קוד חיבור</button></div>';
   }
 
@@ -369,10 +451,12 @@
       (b.tips || []).map(function (x) { return '<div class="tip info"><div class="ic">💡</div><div><p>' + esc(x) + '</p></div></div>'; }).join('') + '</div>';
   }
   function apply(d) {
-    state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me; state.brand = d.brand;
+    state.tickets = d.tickets || []; state.team = d.team || []; state.sites = d.sites || []; state.me = d.me; state.brand = d.brand; state.devices = d.devices || null;
+    state.locked = !!d.locked; state.audit = d.audit || [];
     if (d.seasons) state.seasons = d.seasons;
     briefCard(demo ? demoBrief() : d.brief);
     brand(d.brand); $('who').textContent = d.me ? 'מחובר/ת: ' + d.me.name : ''; render(); hud();
+    if (!state.dev) ensureDevice();
   }
   function load() {
     if (demo) {
@@ -401,6 +485,22 @@
         .catch(function (err) { wc.disabled = false; toast(err.message); });
       return;
     }
+    var xb = e.target.closest('[data-export]');
+    if (xb) {
+      call('site-export', { site: xb.dataset.export }).then(function (r) {
+        var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(r, null, 2)], { type: 'application/json' }));
+        a.download = xb.dataset.export + '-' + r.at.slice(0, 10) + '.json'; a.click(); toast('📦 הקובץ ירד');
+      }).catch(function (err) { toast(err.message); });
+      return;
+    }
+    var eb = e.target.closest('[data-erase]');
+    if (eb) {
+      var typed = prompt('מחיקה מלאה של כל מה שנשמר על האתר: פניות, נתוני ביקורים, שינויים, החיבור והמכשירים של הלקוח. אי אפשר לשחזר.\nכדי לאשר, הקלידו את מזהה האתר: ' + eb.dataset.erase);
+      if (typed !== eb.dataset.erase) { if (typed !== null) toast('המזהה לא תאם. לא נמחק כלום'); return; }
+      call('site-erase', { site: eb.dataset.erase, confirm: typed }).then(function (r) { toast('🗑️ נמחק: ' + r.erased + ' רשומות ו-' + r.tickets + ' פניות'); load(); })
+        .catch(function (err) { toast(err.message); });
+      return;
+    }
     var rb = e.target.closest('[data-report]');
     if (rb) { openReport(rb.dataset.report); return; }
     var rp = e.target.closest('[data-rep]');
@@ -414,11 +514,28 @@
     if (qb) { var ta = qb.closest('form').querySelector('textarea'); ta.value = QUICK[+qb.dataset.q] + (/:$/.test(QUICK[+qb.dataset.q]) ? ' ' : ''); ta.focus(); return; }
     var f = e.target.closest('[data-f]');
     if (f) { state.filter = f.dataset.f; render(); return; }
+    var dvb = e.target.closest('[data-dev]');
+    if (dvb) {
+      var kid = dvb.dataset.kid, all = state.devices.active.concat(state.devices.waiting), d = all.filter(function (x) { return x.kid === kid; })[0];
+      if (!d) return;
+      if (dvb.dataset.dev === 'endorse' && !confirm('לאשר את "' + d.name + '"?\nטביעת האצבע: ' + d.fp + '\nאשרו רק אם בעל המכשיר הקריא לכם את אותה טביעה בדיוק.')) return;
+      if (dvb.dataset.dev === 'revoke' && !confirm('להסיר את "' + d.name + '"? הוא לא יוכל לחתום יותר, והאתרים יפסיקו לסמוך עליו.')) return;
+      dvb.disabled = true;
+      var at = AFSign.stamp();
+      AFSign.sign(state.dev, dvb.dataset.dev === 'endorse' ? AFSign.keyMsg(agency, d) : AFSign.revokeMsg(agency, kid, at)).then(function (sig) {
+        return call(dvb.dataset.dev === 'endorse' ? 'dev-endorse' : 'dev-revoke', { kid: kid, by: state.dev.kid, sig: sig, at: at });
+      }).then(function () { toast(dvb.dataset.dev === 'endorse' ? '✅ המכשיר אושר' : 'המכשיר הוסר'); load(); })
+        .catch(function (err) { dvb.disabled = false; toast(err.message); });
+      return;
+    }
     var a = e.target.closest('[data-act]');
     if (a) {
       if (a.dataset.act === 'ticket-revert' && !confirm('לבטל את השינוי ולהחזיר את האתר לגרסה הקודמת?')) return;
       a.disabled = true;
-      act(a.dataset.act, { no: a.dataset.no }).then(function () {
+      var tk = state.tickets.filter(function (x) { return x.no === a.dataset.no; })[0];
+      (demo ? Promise.resolve(null) : signFor(tk, a.dataset.act)).then(function (sg) {
+        return act(a.dataset.act, sg ? { no: a.dataset.no, signed: sg } : { no: a.dataset.no });
+      }).then(function () {
         toast({ 'ticket-wp': '🛒 השינוי מוכן. בדקו את הרשימה ואשרו', 'ticket-patch': '🎨 השינוי מוכן. פתחו את התצוגה המקדימה ואשרו', 'ticket-agent': '🤖 Claude התחיל. תקבלו עדכון כשהשינוי מוכן', 'ticket-approve': '🚀 מאשר ומעלה לאתר…', 'ticket-revert': '↩️ מבטל…' }[a.dataset.act]); load();
       }).catch(function (err) {
         a.disabled = false;

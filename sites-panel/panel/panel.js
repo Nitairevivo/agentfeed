@@ -978,6 +978,31 @@
     el.textContent = m; el.classList.add('on'); clearTimeout(el._t); el._t = setTimeout(function () { el.classList.remove('on'); }, 2800);
   }
   var RST = { new: 'חדשה', doing: 'בטיפול', waiting: 'מחכה לתשובה שלכם', review: 'מחכה לאישור שינוי', done: 'טופלה' }, rtk = [], rself = '', rappr = 'team';
+  // the owner's signing key, where the studio lets them approve on a site that checks signatures (afsign.js)
+  var rdev = null, rdevs = null, rdevErr = '', ragency = '';
+  function devLine() {
+    if (!rdevs || !(rappr === 'client' || rself) || !rtk.some(function (x) { return x.sign; }) && !rdevs.active.length && !rdevs.waiting.length) return '';
+    if (rdevErr) return '<p class="sub">⚠️ ' + esc(rdevErr) + '</p>';
+    if (!rdev) return '';
+    var on = rdevs.active.some(function (d) { return d.kid === rdev.kid; });
+    return '<p class="sub">🔏 ' + (on ? 'המכשיר הזה מורשה לאשר שינויים באתר. ' : 'המכשיר הזה ממתין שהסטודיו יאשר אותו. כשהם מתקשרים, הקריאו להם את טביעת האצבע: ') +
+      '<code dir="ltr">' + esc(rdev.fp) + '</code></p>';
+  }
+  function ensureOwnerDevice() {
+    if (rdev || !window.AFSign || !(rappr === 'client' || rself)) return;
+    AFSign.device('panel:' + cfg.site).then(function (d) {
+      rdev = d;
+      var known = rdevs && rdevs.active.concat(rdevs.waiting).some(function (x) { return x.kid === d.kid; });
+      if (!known) return tkCall('dev-add', { pub: d.pub, name: 'בעל האתר · ' + AFSign.label() }).then(tickets);
+      tickets();
+    }).catch(function (e) { rdevErr = e.message; tickets(); });
+  }
+  function ownerSign(x, op) {
+    var g = x && x.sign;
+    if (!g || (op === 'ticket-approve') === /-undo$/.test(g.kind)) return Promise.resolve(null);
+    if (!rdev || !rdevs || !rdevs.active.some(function (d) { return d.kid === rdev.kid; })) return Promise.reject(new Error('המכשיר הזה עוד לא אושר על ידי הסטודיו. בקשו מהם לאשר אותו, ונסו שוב.'));
+    return AFSign.order(rdev, { agency: ragency, site: cfg.site, kind: g.kind, body: g.body });
+  }
   function tkCall(op, body) {
     return fetch(cfg.api + '/panel?op=' + op + '&site=' + cfg.site, { method: body ? 'POST' : 'GET',
       headers: { 'content-type': 'application/json', authorization: 'Bearer ' + key }, body: body ? JSON.stringify(body) : undefined })
@@ -985,7 +1010,8 @@
   }
   function realTickets(card) {
     tkCall('tickets').then(function (d) {
-      card.hidden = false; rtk = d.tickets || []; rself = d.self || ''; rappr = d.approver || 'team';
+      card.hidden = false; rtk = d.tickets || []; rself = d.self || ''; rappr = d.approver || 'team'; rdevs = d.devices || null; ragency = d.agency || '';
+      if (!rdev) ensureOwnerDevice();
       if (d.brand && d.brand.name) {
         document.title = 'לוח הבקרה | ' + cfg.name + ' · ' + d.brand.name;
         var top = document.querySelector('.pn-top small'); if (top && top.textContent.indexOf(d.brand.name) < 0) top.textContent += ' · ' + d.brand.name;
@@ -995,18 +1021,26 @@
       card.innerHTML = '<div class="tkhead"><h2>📨 פניות לצוות</h2></div><p class="sub">מה שלא משתנה לבד בצ\'אט, פותחים כאן פנייה, והצוות מטפל. רואים כל שלב ועונים כאן.</p>' +
         '<form class="tkform" id="tkform"><input name="s" maxlength="120" required placeholder="מה צריך? למשל: להגדיל את הלוגו בטלפון"><textarea name="b" rows="2" maxlength="2000" placeholder="פרטים (לא חובה)"></textarea>' +
         selfChoice() +
-        '<label><input type="checkbox" name="u"> דחוף</label><button class="btn btn-brand btn-s" type="submit">📨 לפתוח פנייה</button></form>' +
+        '<label><input type="checkbox" name="u"> דחוף</label><button class="btn btn-brand btn-s" type="submit">📨 לפתוח פנייה</button></form>' + devLine() +
         (rtk.length ? '<ul class="tklist">' + rtk.map(function (x) {
           var ag = x.agent || {};
           return '<li><div class="tkrow"><b>#' + esc(x.no) + ' · ' + esc(x.subject) + '</b>' + pill(x.status) + '</div>' +
             '<small class="sub">' + (x.whoName ? 'מטפל/ת: ' + esc(x.whoName) + ' · ' : '') + (x.prio === 'urgent' ? '🔴 דחוף · ' : '') + 'נפתחה ' + esc(hhmm(x.at)) + '</small>' + thread(x) +
             (x.status === 'review' && ag.state === 'preview' ? '<p class="sub">🤖 השינוי מוכן ומחכה לאישור' +
               (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">👀 לראות איך זה ייראה באתר</a>' : '') +
-              (rappr === 'client' || ag.mine ? ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">✓ לאשר ולהעלות</button>' : '') + '</p>' : '') +
+              (rappr === 'client' || ag.mine ? ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">' + (x.sign ? '🔏 לחתום ולאשר' : '✓ לאשר ולהעלות') + '</button>' : '') + '</p>' + signedList(x) : '') +
+            (ag.state === 'sent' || ag.state === 'undoing' ? '<p class="sub">🔏 נחתם ונשלח לאתר. האתר בודק את החתימה ומבצע, בדרך כלל תוך דקה</p>' : '') +
             (ag.mine && ag.state === 'merged' ? '<p class="sub">🚀 השינוי באתר <button type="button" class="btn btn-s" data-tkundo="' + esc(x.no) + '">↩️ לבטל</button></p>' : '') +
             (x.status !== 'done' ? '<form class="tkreply" data-no="' + esc(x.no) + '"><input name="r" maxlength="2000" placeholder="לענות לצוות…"><button class="btn btn-s" type="submit">שליחה</button></form>' : '') + '</li>'; }).join('') + '</ul>'
           : '<p class="sub">עוד אין פניות. אפשר לפתוח כאן, או פשוט לכתוב לעוזר בצ\'אט.</p>');
     }).catch(function (e) { card.hidden = true; });   // a site with no team desk shows no card
+  }
+  // what the owner's device signs, drawn from the very object it signs
+  function signedList(x) {
+    var g = x.sign; if (!g || g.kind !== 'wp') return '';
+    var F = { regular_price: 'מחיר', sale_price: 'מחיר מבצע', stock_status: 'מלאי', name: 'שם' }, ST = { instock: 'במלאי', outofstock: 'אזל', onbackorder: 'בהזמנה מראש' };
+    var v = function (f, a) { return f === 'stock_status' ? (ST[a] || a) : /price$/.test(f) ? (a ? '₪' + a : 'בלי') : a; };
+    return '<ul class="sub">' + (g.body.changes || []).map(function (c) { return '<li>' + esc(F[c.field] || c.field) + ' של "' + esc(c.name) + '": ' + esc(v(c.field, c.old)) + ' ← <b>' + esc(v(c.field, c.value)) + '</b></li>'; }).join('') + '</ul>';
   }
   // where the studio allows it, the owner has Claude make the change now, instead of waiting for the team
   function selfChoice() {
@@ -1022,12 +1056,17 @@
     var un = e.target.closest('[data-tkundo]');
     if (un && !demo) {
       if (!confirm('לבטל את השינוי ולהחזיר את מה שהיה קודם?')) return;
-      un.disabled = true; tkCall('ticket-revert', { no: un.dataset.tkundo }).then(function () { toast('↩️ בוטל. האתר חזר למה שהיה'); tickets(); })
-        .catch(function () { un.disabled = false; toast('לא הצלחנו לבטל כרגע. כתבו לצוות בפנייה'); }); return;
+      var ux = rtk.filter(function (x) { return x.no === un.dataset.tkundo; })[0];
+      un.disabled = true; ownerSign(ux, 'ticket-revert').then(function (sg) { return tkCall('ticket-revert', sg ? { no: un.dataset.tkundo, signed: sg } : { no: un.dataset.tkundo }); })
+        .then(function () { toast('↩️ הביטול נשלח. האתר חוזר למה שהיה'); tickets(); })
+        .catch(function (er) { un.disabled = false; toast(/מכשיר/.test(er.message) ? er.message : 'לא הצלחנו לבטל כרגע. כתבו לצוות בפנייה'); }); return;
     }
     var ok = e.target.closest('[data-tkok]');
-    if (ok && !demo) { ok.disabled = true; tkCall('ticket-approve', { no: ok.dataset.tkok }).then(function () { toast('🚀 אושר. השינוי עולה לאתר'); tickets(); })
-      .catch(function (er) { ok.disabled = false; toast(er.code === 403 ? 'באתר הזה הצוות מאשר שינויים. כתבו להם בפנייה.' : 'לא הצלחנו לאשר כרגע'); }); return; } var b = e.target.closest('[data-tab]'); if (b) { deskOn = b.dataset.tab === 'desk'; tickets(); } }
+    if (ok && !demo) {
+      var ox = rtk.filter(function (x) { return x.no === ok.dataset.tkok; })[0];
+      ok.disabled = true; ownerSign(ox, 'ticket-approve').then(function (sg) { return tkCall('ticket-approve', sg ? { no: ok.dataset.tkok, signed: sg } : { no: ok.dataset.tkok }); })
+        .then(function () { toast('🚀 אושר. השינוי עולה לאתר'); tickets(); })
+        .catch(function (er) { ok.disabled = false; toast(/מכשיר/.test(er.message) ? er.message : er.code === 403 ? 'באתר הזה הצוות מאשר שינויים. כתבו להם בפנייה.' : 'לא הצלחנו לאשר כרגע'); }); return; } var b = e.target.closest('[data-tab]'); if (b) { deskOn = b.dataset.tab === 'desk'; tickets(); } }
   function tkChange(e) {
     var s = e.target.closest('select[data-i]'); if (!s) return;
     var x = tkList()[+s.dataset.i]; x[s.dataset.f] = s.value;

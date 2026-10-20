@@ -154,3 +154,11 @@
   border-radius: 8px; padding: 4px 8px; font: inherit; }
 .desk .selfrow select option { color: #111; }
 .desk .selfrow small { opacity: .75; }
+
+/* what is signed, shown as it is signed; and the studio's signing devices */
+.desk .signs { margin: 8px 0; padding-inline-start: 18px; font-size: .92rem; }
+.desk details.signs pre { white-space: pre-wrap; word-break: break-all; font-size: .8rem; background: rgba(0,0,0,.06); padding: 8px; border-radius: 8px; max-height: 220px; overflow: auto; }
+.desk .devs code { font-family: "JetBrains Mono", ui-monospace, monospace; letter-spacing: .04em; }
+.desk .devs h3 { margin: 14px 0 6px; font-size: 1rem; }
+.desk .devs .warn { color: #b3261e; }
+.desk .leave { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line, #ddd); }
