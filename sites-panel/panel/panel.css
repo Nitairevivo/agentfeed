@@ -582,3 +582,11 @@ body.chatmode .chatfab { display: none; }
 .chatroom .askf .prompt { display: none; }
 .chatroom .askf input { flex: 1 1 auto; }
 .chatroom .ask #answer { align-content: start; }   /* messages keep their own height; the free space stays under them */
+/* an answer is one column of text, read down, like any chat: the site's own ".ai" section (theme.css: a grid, centred)
+   is another thing with the same class name, and must not reach a message */
+.qa.ai { display: block; text-align: start; grid-template-columns: none; justify-items: initial; color: inherit; padding: 12px 16px; border-radius: 18px; }
+.qa.ai p { color: inherit; }
+.chatroom #answer { gap: 18px; }
+.chatroom .qa.ai { max-width: 100%; justify-self: stretch; background: none; border: 0; box-shadow: none; padding: 4px 2px; font-size: 16.5px; line-height: 1.75; }
+.chatroom .qa.me { max-width: 85%; }
+.chatroom .qa ul.chg { padding-inline-start: 20px; padding-inline-end: 0; }
