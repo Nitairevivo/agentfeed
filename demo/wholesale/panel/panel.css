@@ -539,3 +539,46 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .tkself { border: 1px solid var(--line, rgba(255,255,255,.12)); border-radius: 10px; padding: 8px 12px; margin: 6px 0; display: grid; gap: 4px; }
 .tkself legend { padding: 0 6px; font-weight: 600; }
 .tkself label { display: flex; gap: 8px; align-items: center; cursor: pointer; }
+
+/* before and after, phone-sized, side by side; one at a time on a phone */
+.cmp { margin: 10px 0 4px; }
+.cmpt { display: none; gap: 6px; margin-bottom: 8px; }
+.cmpt button { font: inherit; font-size: 14px; border: 1px solid var(--line, #ccc); background: none; color: inherit; border-radius: 999px; padding: 4px 14px; cursor: pointer; }
+.cmpt button.on { background: var(--brand, #1b794f); border-color: var(--brand, #1b794f); color: #fff; }
+.cmpr { display: flex; gap: 14px; flex-wrap: wrap; }
+.cmpf { margin: 0; display: grid; gap: 6px; justify-items: center; }
+.cmpf figcaption { font-size: 13px; font-weight: 700; opacity: .8; }
+.cmpw { width: 244px; height: 440px; overflow: hidden; border-radius: 18px; border: 6px solid #14171f; background: #fff; box-shadow: 0 8px 24px -10px rgba(0,0,0,.4); }
+.cmpw iframe { width: 390px; height: 704px; border: 0; transform: scale(.6256); transform-origin: top right; }
+@media (max-width: 560px) {
+  .cmpt { display: flex; }
+  .cmpf { display: none; } .cmpf.on { display: grid; }
+}
+
+/* the conversation's own room: a whole screen, quiet, the field at the bottom like any chat */
+body.chatmode { overflow: hidden; }
+body.chatmode .chatfab { display: none; }
+.chatroom { position: fixed; inset: 0; z-index: 80; display: flex; flex-direction: column; background: #070914;
+  padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(12px, env(safe-area-inset-left, 0px)); }
+.chatroom[hidden] { display: none; }
+.crtop { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; padding: 12px 4px; border-bottom: 1px solid rgba(255,255,255,.08); }
+.crtop b { font-size: 16px; text-align: center; }
+.crback { justify-self: start; font: inherit; font-size: 14px; color: inherit; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.crbody { flex: 1; min-height: 0; display: flex; flex-direction: column; max-width: 760px; width: 100%; margin: 0 auto; }
+.chatroom .ask { flex: 1; min-height: 0; display: flex; flex-direction: column; margin: 0; padding: 10px 0 12px; border: 0; background: none; border-radius: 0; }
+.chatroom .ask #answer { flex: 1; max-height: none; min-height: 0; order: 2; }
+.chatroom .ask .askf { order: 4; margin-top: 10px; }
+.chatroom .ask .chips { order: 3; margin-top: 8px; }
+.chatroom .ask .askbar { order: 0; }
+.chatroom .ask .chrecent { order: 1; }
+.chatroom .ask .chlog { order: 1; }
+.crempty { position: absolute; top: 36%; inset-inline: 16px; text-align: center; opacity: .7; line-height: 1.9; pointer-events: none; }
+.crempty[hidden] { display: none; }
+.crlaunch { margin-top: 16px; width: 100%; justify-content: center; font-size: 16px; padding: 14px; }
+.chatroom .askbar > b { display: none; }                 /* the room's own header already says whose assistant this is */
+.chatroom .askbar { border: 0; padding: 0 0 6px; justify-content: flex-start; }
+.chatroom .ask.talking .chips { display: none; }         /* suggestions are for an empty room */
+.chatroom .askf { flex-wrap: nowrap; }
+.chatroom .askf .prompt { display: none; }
+.chatroom .askf input { flex: 1 1 auto; }
+.chatroom .ask #answer { align-content: start; }   /* messages keep their own height; the free space stays under them */

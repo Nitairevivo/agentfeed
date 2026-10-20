@@ -1028,12 +1028,22 @@
             '<small class="sub">' + (x.whoName ? 'מטפל/ת: ' + esc(x.whoName) + ' · ' : '') + (x.prio === 'urgent' ? '🔴 דחוף · ' : '') + 'נפתחה ' + esc(hhmm(x.at)) + '</small>' + thread(x) +
             (x.status === 'review' && ag.state === 'preview' ? '<p class="sub">🤖 השינוי מוכן ומחכה לאישור' +
               (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">👀 לראות איך זה ייראה באתר</a>' : '') +
-              (rappr === 'client' || ag.mine ? ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">' + (x.sign ? '🔏 לחתום ולאשר' : '✓ לאשר ולהעלות') + '</button>' : '') + '</p>' + signedList(x) : '') +
+              (rappr === 'client' || ag.mine ? ' <button type="button" class="btn btn-brand btn-s" data-tkok="' + esc(x.no) + '">' + (x.sign ? '🔏 לחתום ולאשר' : '✓ לאשר ולהעלות') + '</button>' : '') + '</p>' + compare(ag.preview) + signedList(x) : '') +
             (ag.state === 'sent' || ag.state === 'undoing' ? '<p class="sub">🔏 נחתם ונשלח לאתר. האתר בודק את החתימה ומבצע, בדרך כלל תוך דקה</p>' : '') +
             (ag.mine && ag.state === 'merged' ? '<p class="sub">🚀 השינוי באתר <button type="button" class="btn btn-s" data-tkundo="' + esc(x.no) + '">↩️ לבטל</button></p>' : '') +
             (x.status !== 'done' ? '<form class="tkreply" data-no="' + esc(x.no) + '"><input name="r" maxlength="2000" placeholder="לענות לצוות…"><button class="btn btn-s" type="submit">שליחה</button></form>' : '') + '</li>'; }).join('') + '</ul>'
           : '<p class="sub">עוד אין פניות. אפשר לפתוח כאן, או פשוט לכתוב לעוזר בצ\'אט.</p>');
     }).catch(function (e) { card.hidden = true; });   // a site with no team desk shows no card
+  }
+  // Before and after, side by side, before anyone approves: the site as it is, and the same page with the change
+  // (a preview only whoever holds the link sees). In a sandbox: the page runs its own scripts, and reaches nothing of this screen.
+  function compare(preview) {
+    if (!/[?&]af-preview=[a-f0-9]{24}/.test(preview || '')) return '';
+    var before = preview.replace(/([?&])af-preview=[a-f0-9]{24}/, '$1af-before=1');
+    var frame = function (u, label, side) { return '<figure class="cmpf' + (side === 'a' ? ' on' : '') + '" data-side="' + side + '"><figcaption>' + label + '</figcaption>' +
+      '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" loading="lazy" title="' + label + '"></iframe></div></figure>'; };
+    return '<div class="cmp"><div class="cmpt" role="tablist"><button type="button" data-cmp="b">לפני</button><button type="button" data-cmp="a" class="on">אחרי</button></div>' +
+      '<div class="cmpr">' + frame(before, 'היום באתר', 'b') + frame(preview, 'אחרי השינוי', 'a') + '</div></div>';
   }
   // what the owner's device signs, drawn from the very object it signs
   function signedList(x) {
@@ -1053,6 +1063,9 @@
       '<small class="sub">Claude מכין את השינוי, אתם רואים אותו ומאשרים. עד שתאשרו, שום דבר לא משתנה באתר.</small></fieldset>';
   }
   function tkClick(e) {
+    var cb = e.target.closest('[data-cmp]');
+    if (cb) { var box = cb.closest('.cmp'); box.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
+      box.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }
     var un = e.target.closest('[data-tkundo]');
     if (un && !demo) {
       if (!confirm('לבטל את השינוי ולהחזיר את מה שהיה קודם?')) return;
@@ -1134,18 +1147,54 @@
   (function () { var c = $('chips'); if (!c) return; var b = document.createElement('button'); b.type = 'button'; b.textContent = 'איך משנים מחיר באתר?';
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
     c.appendChild(b); })();
-  // a button on the side that goes straight to the conversation, from anywhere
-  // on the panel; it steps aside while the conversation is on screen
+  // The conversation has a room of its own: a whole screen, nothing else on it, opened empty and ready.
+  // The numbers stay on the panel; the room is for asking and for changes. The same conversation, moved:
+  // what was said is kept, and "שיחה חדשה" and the log work in it as before.
   (function () {
     if (!askNode) return;
-    var fab = document.createElement('button'); fab.type = 'button'; fab.className = 'chatfab'; fab.setAttribute('aria-label', 'מעבר לשיחה עם העוזר');
+    var room = document.createElement('section'); room.className = 'chatroom'; room.id = 'chatroom'; room.hidden = true;
+    room.setAttribute('role', 'dialog'); room.setAttribute('aria-modal', 'true'); room.setAttribute('aria-label', 'שיחה עם העוזר');
+    room.innerHTML = '<header class="crtop"><button type="button" class="crback" id="crback" aria-label="חזרה ללוח">→ ללוח</button>' +
+      '<b>💬 העוזר של ' + esc(cfg.name || 'האתר') + '</b><span></span></header><div class="crbody"></div>' +
+      '<p class="crempty" id="crempty">אפשר לשאול על המספרים, או לבקש שינוי באתר:<br><b>"תעלה פס מבצע לחנוכה"</b> · <b>"תעדכן את המחיר של… ל-120"</b></p>';
+    document.body.appendChild(room);
+    // where the conversation sits on the panel when the room is closed, and the button that opens it
+    var home = document.createComment('ask'), launch = document.createElement('button');
+    askNode.parentNode.insertBefore(home, askNode);
+    launch.type = 'button'; launch.className = 'btn btn-brand crlaunch'; launch.innerHTML = '💬 לפתוח שיחה עם העוזר';
+    home.parentNode.insertBefore(launch, home);
+    var fab = document.createElement('button'); fab.type = 'button'; fab.className = 'chatfab'; fab.setAttribute('aria-label', 'פתיחת שיחה עם העוזר');
     fab.innerHTML = '<span aria-hidden="true">💬</span><b>לשיחה</b>';
     document.body.appendChild(fab);
-    fab.addEventListener('click', function () {
-      askNode.scrollIntoView({ block: 'start', behavior: still ? 'auto' : 'smooth' });
-      setTimeout(function () { $('askq').focus({ preventScroll: true }); }, still ? 0 : 450);
-    });
-    if (window.IntersectionObserver) new IntersectionObserver(function (es) { fab.classList.toggle('away', es[0].isIntersecting); }, { threshold: 0.25 }).observe(askNode);
+    var back = null;
+    function empty() { $('crempty').hidden = $('answer').children.length > 0; }
+    function open(fresh) {
+      if (!room.hidden) return;
+      back = document.activeElement;
+      room.querySelector('.crbody').appendChild(askNode);
+      // opened empty and ready; the last conversation is one tap away under "שיחות קודמות"
+      if (fresh !== false) { var nb = $('chnew'); if (nb) nb.click(); }
+      room.hidden = false; document.body.classList.add('chatmode'); empty();
+      setTimeout(function () { $('askq').focus(); }, 30);
+      try { if (location.hash !== '#chat') history.pushState({ chat: 1 }, '', '#chat'); } catch (x) {}
+    }
+    function close(fromHistory) {
+      if (room.hidden) return;
+      home.parentNode.insertBefore(askNode, home);
+      room.hidden = true; document.body.classList.remove('chatmode');
+      if (!fromHistory) try { if (location.hash === '#chat') history.back(); } catch (x) {}
+      if (back && back.focus) back.focus({ preventScroll: true });
+    }
+    launch.addEventListener('click', function () { open(); });
+    fab.addEventListener('click', function () { open(); });
+    $('crback').addEventListener('click', function () { close(); });
+    addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    // the phone's back button closes the room, not the panel
+    addEventListener('popstate', function () { if (location.hash !== '#chat') close(true); });
+    new MutationObserver(empty).observe($('answer'), { childList: true });
+    // the chips and the panel's own "ask" links open the room first
+    askNode.addEventListener('submit', function () { if (room.hidden) open(false); }, true);
+    if (location.hash === '#chat') open();
   })();
   var ph = $('askq'); if (ph) ph.placeholder = 'שאלו, או בקשו שינוי: "תעדכן את המחיר של… ל-120"';
 })();

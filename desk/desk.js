@@ -206,8 +206,8 @@
     var agent = '';
     if (ag.state === 'running') agent = '<div class="agent">🤖 Claude עובד על השינוי…</div>';
     if (ag.state === 'preview' && t.status === 'review') agent = '<div class="agent">🤖 השינוי מוכן' + (ag.pr ? ' · <a href="' + esc(ag.pr) + '" target="_blank" rel="noopener">השינוי בקוד</a>' : '') +
-      (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">' + (ag.patch ? 'לראות את השינוי באתר' : 'צילומי לפני ואחרי') + '</a>' : '') +
-      signed(t) +
+      (ag.preview ? ' · <a href="' + esc(ag.preview) + '" target="_blank" rel="noopener">' + (ag.patch ? 'לפתוח את השינוי באתר' : 'צילומי לפני ואחרי') + '</a>' : '') +
+      (ag.patch ? compare(ag.preview) : '') + signed(t) +
       ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">' + (t.sign ? '🔏 לחתום ולאשר' : ag.wp ? '✓ לאשר ולעדכן בחנות' : '✓ לאשר ולהעלות') + '</button>' +
       '<button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">✕ לא לאשר</button></div>';
     if (ag.state === 'sent' || ag.state === 'undoing') agent = '<div class="agent">🔏 ' + (ag.state === 'sent' ? 'השינוי' : 'הביטול') + ' נחתם ונשלח לאתר. האתר בודק את החתימה ומבצע, בדרך כלל תוך דקה</div>';
@@ -227,6 +227,16 @@
       '<form class="reply" data-no="' + t.no + '"><div class="quick">' + QUICK.map(function (q, i) { return '<button type="button" data-q="' + i + '">' + esc(q.length > 26 ? q.slice(0, 24) + '…' : q) + '</button>'; }).join('') + '</div>' +
       '<textarea name="t" maxlength="2000" placeholder="תשובה ללקוח…"></textarea>' +
       '<div class="row"><label><input type="checkbox" name="n"> הערה פנימית (הלקוח לא רואה)</label><button class="btn" type="submit">שליחה</button></div></form></li>';
+  }
+  // Before and after, side by side, before anyone approves: the site as it is, and the same page with the change
+  // (a preview only whoever holds the link sees). In a sandbox: the page runs its own scripts, and reaches nothing of this screen.
+  function compare(preview) {
+    if (!/[?&]af-preview=[a-f0-9]{24}/.test(preview || '')) return '';
+    var before = preview.replace(/([?&])af-preview=[a-f0-9]{24}/, '$1af-before=1');
+    var frame = function (u, label, side) { return '<figure class="cmpf' + (side === 'a' ? ' on' : '') + '" data-side="' + side + '"><figcaption>' + label + '</figcaption>' +
+      '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" loading="lazy" title="' + label + '"></iframe></div></figure>'; };
+    return '<div class="cmp"><div class="cmpt" role="tablist"><button type="button" data-cmp="b">לפני</button><button type="button" data-cmp="a" class="on">אחרי</button></div>' +
+      '<div class="cmpr">' + frame(before, 'היום באתר', 'b') + frame(preview, 'אחרי השינוי', 'a') + '</div></div>';
   }
   // What the approver's device will sign, drawn from the very object it signs: what is read here is what is approved.
   var FIELD = { regular_price: 'מחיר', sale_price: 'מחיר מבצע', stock_status: 'מלאי', name: 'שם' };
@@ -514,6 +524,9 @@
     if (qb) { var ta = qb.closest('form').querySelector('textarea'); ta.value = QUICK[+qb.dataset.q] + (/:$/.test(QUICK[+qb.dataset.q]) ? ' ' : ''); ta.focus(); return; }
     var f = e.target.closest('[data-f]');
     if (f) { state.filter = f.dataset.f; render(); return; }
+    var cb = e.target.closest('[data-cmp]');
+    if (cb) { var box = cb.closest('.cmp'); box.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
+      box.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }
     var dvb = e.target.closest('[data-dev]');
     if (dvb) {
       var kid = dvb.dataset.kid, all = state.devices.active.concat(state.devices.waiting), d = all.filter(function (x) { return x.kid === kid; })[0];
