@@ -662,7 +662,9 @@
     var h = '<p>' + esc(a.answer).replace(/\n/g, '<br>') + '</p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     if (a.request && a.request.status === 'draft') {
-      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
+      var pg = pageUrl(a.request.page);
+      if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
+      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
     return h;
@@ -886,6 +888,9 @@
     if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); } catch (x) {} keeper(); tickets(); }
   });
   $('answer').addEventListener('click', function (e) {
+    var cb = e.target.closest('[data-cmp]');
+    if (cb) { var cbox = cb.closest('.cmp'); cbox.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
+      cbox.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }
     var yes = e.target.closest('[data-yes]'), no = e.target.closest('[data-no]');
     if (!yes && !no) return;
     var box = e.target.closest('[data-req]'), id = box.getAttribute('data-req');
@@ -897,6 +902,14 @@
         var bub = box.closest('.qa');
         box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b></p>';
         resave(id, bub); keeper(); return;
+      }
+      var pg = pageUrl(box.getAttribute('data-page'));
+      if (yes && r.status === 'applied') {
+        // made: the picture is the shop itself, now, as every visitor sees it
+        var bubA = box.closest('.qa'), old = bubA.querySelector('.cmp'); if (old) old.remove();
+        box.outerHTML = '<p class="sub"><b>✓ השינוי עלה לאתר. ככה זה נראה עכשיו:</b></p>' + (pg ? shots([[pg + '?t=' + Date.now(), 'באתר עכשיו']]) +
+          '<p class="sub"><a href="' + esc(pg) + '" target="_blank" rel="noopener">לפתוח את העמוד באתר ↗</a></p>' : '');
+        resave(id, bubA); keeper(); return;
       }
       box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.' :
         (r.ticket ? '✓ נפתחה פנייה #' + r.ticket.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות".' : '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.')) : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
@@ -1013,7 +1026,7 @@
       card.hidden = false; rtk = d.tickets || []; rself = d.self || ''; rappr = d.approver || 'team'; rdevs = d.devices || null; ragency = d.agency || '';
       if (!rdev) ensureOwnerDevice();
       if (d.brand && d.brand.name) {
-        document.title = 'לוח הבקרה | ' + cfg.name + ' · ' + d.brand.name;
+        document.title = (document.body.classList.contains('chatpage') ? 'העוזר | ' : 'לוח הבקרה | ') + cfg.name + ' · ' + d.brand.name;
         var top = document.querySelector('.pn-top small'); if (top && top.textContent.indexOf(d.brand.name) < 0) top.textContent += ' · ' + d.brand.name;
       }
       var pill = function (s) { return '<span class="pill ' + (s === 'done' ? 'good' : s === 'new' ? 'info' : 'warn') + '"><i></i>' + (RST[s] || s) + '</span>'; };
@@ -1041,10 +1054,18 @@
     if (!/[?&]af-preview=[a-f0-9]{24}/.test(preview || '')) return '';
     var before = preview.replace(/([?&])af-preview=[a-f0-9]{24}/, '$1af-before=1');
     var frame = function (u, label, side) { return '<figure class="cmpf' + (side === 'a' ? ' on' : '') + '" data-side="' + side + '"><figcaption>' + label + '</figcaption>' +
-      '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" loading="lazy" title="' + label + '"></iframe></div></figure>'; };
+      '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" title="' + label + '"></iframe></div></figure>'; };
     return '<div class="cmp"><div class="cmpt" role="tablist"><button type="button" data-cmp="b">לפני</button><button type="button" data-cmp="a" class="on">אחרי</button></div>' +
       '<div class="cmpr">' + frame(before, 'היום באתר', 'b') + frame(preview, 'אחרי השינוי', 'a') + '</div></div>';
   }
+  // The product's own page, phone-sized: before a change and after it (the "after" a preview no one else sees),
+  // or only as it is now, once the change is made. Sandboxed like the before/after of a design change.
+  function shots(list) {
+    return '<div class="cmp"><div class="cmpt">' + list.map(function (x, i) { return '<button type="button" data-cmp="' + i + '"' + (i === list.length - 1 ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>' +
+      '<div class="cmpr">' + list.map(function (x, i) { return '<figure class="cmpf' + (i === list.length - 1 ? ' on' : '') + '" data-side="' + i + '"><figcaption>' + x[1] + '</figcaption>' +
+        '<div class="cmpw"><iframe src="' + esc(x[0]) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" title="' + x[1] + '"></iframe></div></figure>'; }).join('') + '</div></div>';
+  }
+  var pageUrl = function (u) { return /^https:\/\/[a-z0-9.-]+\//.test(u || '') ? u : ''; };
   // what the owner's device signs, drawn from the very object it signs
   function signedList(x) {
     var g = x.sign; if (!g || g.kind !== 'wp') return '';
@@ -1147,54 +1168,39 @@
   (function () { var c = $('chips'); if (!c) return; var b = document.createElement('button'); b.type = 'button'; b.textContent = 'איך משנים מחיר באתר?';
     b.addEventListener('click', function () { $('askq').value = b.textContent; $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); });
     c.appendChild(b); })();
-  // The conversation has a room of its own: a whole screen, nothing else on it, opened empty and ready.
-  // The numbers stay on the panel; the room is for asking and for changes. The same conversation, moved:
-  // what was said is kept, and "שיחה חדשה" and the log work in it as before.
+  // Two pages, one address: the numbers (the panel), and the assistant (?view=chat), a page of its own with
+  // nothing else on it, opened empty and ready. A tab bar under the header moves between them; the key stays
+  // in this tab, so the move needs nothing new. The conversation itself is the same one on any page.
   (function () {
     if (!askNode) return;
-    var room = document.createElement('section'); room.className = 'chatroom'; room.id = 'chatroom'; room.hidden = true;
-    room.setAttribute('role', 'dialog'); room.setAttribute('aria-modal', 'true'); room.setAttribute('aria-label', 'שיחה עם העוזר');
-    room.innerHTML = '<header class="crtop"><button type="button" class="crback" id="crback" aria-label="חזרה ללוח">→ ללוח</button>' +
-      '<b>💬 העוזר של ' + esc(cfg.name || 'האתר') + '</b><span></span></header><div class="crbody"></div>' +
-      '<p class="crempty" id="crempty">אפשר לשאול על המספרים, או לבקש שינוי באתר:<br><b>"תעלה פס מבצע לחנוכה"</b> · <b>"תעדכן את המחיר של… ל-120"</b></p>';
-    document.body.appendChild(room);
-    // where the conversation sits on the panel when the room is closed, and the button that opens it
-    var home = document.createComment('ask'), launch = document.createElement('button');
-    askNode.parentNode.insertBefore(home, askNode);
-    launch.type = 'button'; launch.className = 'btn btn-brand crlaunch'; launch.innerHTML = '💬 לפתוח שיחה עם העוזר';
-    home.parentNode.insertBefore(launch, home);
-    var fab = document.createElement('button'); fab.type = 'button'; fab.className = 'chatfab'; fab.setAttribute('aria-label', 'פתיחת שיחה עם העוזר');
-    fab.innerHTML = '<span aria-hidden="true">💬</span><b>לשיחה</b>';
-    document.body.appendChild(fab);
-    var back = null;
+    var u = new URL(location.href), chat = u.searchParams.get('view') === 'chat';
+    var to = function (v) { var x = new URL(location.href); x.hash = ''; if (v) x.searchParams.set('view', v); else x.searchParams.delete('view'); return x.pathname + x.search; };
+    var nav = document.createElement('nav'); nav.className = 'pnnav'; nav.setAttribute('aria-label', 'דפי הלוח');
+    nav.innerHTML = '<div class="wrap"><a href="' + esc(to('')) + '"' + (chat ? '' : ' class="on" aria-current="page"') + '>📊 הנתונים</a>' +
+      '<a href="' + esc(to('chat')) + '"' + (chat ? ' class="on" aria-current="page"' : '') + '>💬 העוזר</a></div>';
+    var top = document.querySelector('.pn-top'); if (top) top.parentNode.insertBefore(nav, top.nextSibling);
+    if (!chat) {
+      // the numbers' page: the conversation is not here; a button and the side button lead to its page
+      askNode.hidden = true;
+      var launch = document.createElement('a'); launch.className = 'btn btn-brand crlaunch'; launch.href = to('chat'); launch.innerHTML = '💬 לשאול את העוזר או לבקש שינוי';
+      askNode.parentNode.insertBefore(launch, askNode);
+      var fab = document.createElement('a'); fab.className = 'chatfab'; fab.href = to('chat'); fab.setAttribute('aria-label', 'לדף העוזר');
+      fab.innerHTML = '<span aria-hidden="true">💬</span><b>לעוזר</b>';
+      document.body.appendChild(fab);
+      return;
+    }
+    // the assistant's page: the conversation is the whole page
+    document.body.classList.add('chatpage');
+    var room = document.createElement('section'); room.className = 'chatroom'; room.id = 'chatroom'; room.setAttribute('aria-label', 'העוזר');
+    room.innerHTML = '<div class="crbody"></div><p class="crempty" id="crempty">אפשר לשאול על המספרים, או לבקש שינוי באתר:<br><b>"תעדכן את המחיר של… ל-120"</b> · <b>"תסתיר את…, אזל"</b></p>';
+    var main = document.querySelector('main'); main.parentNode.insertBefore(room, main);
+    room.querySelector('.crbody').appendChild(askNode); askNode.hidden = false;
+    document.title = 'העוזר | ' + (cfg.name || 'האתר');
     function empty() { $('crempty').hidden = $('answer').children.length > 0; }
-    function open(fresh) {
-      if (!room.hidden) return;
-      back = document.activeElement;
-      room.querySelector('.crbody').appendChild(askNode);
-      // opened empty and ready; the last conversation is one tap away under "שיחות קודמות"
-      if (fresh !== false) { var nb = $('chnew'); if (nb) nb.click(); }
-      room.hidden = false; document.body.classList.add('chatmode'); empty();
-      setTimeout(function () { $('askq').focus(); }, 30);
-      try { if (location.hash !== '#chat') history.pushState({ chat: 1 }, '', '#chat'); } catch (x) {}
-    }
-    function close(fromHistory) {
-      if (room.hidden) return;
-      home.parentNode.insertBefore(askNode, home);
-      room.hidden = true; document.body.classList.remove('chatmode');
-      if (!fromHistory) try { if (location.hash === '#chat') history.back(); } catch (x) {}
-      if (back && back.focus) back.focus({ preventScroll: true });
-    }
-    launch.addEventListener('click', function () { open(); });
-    fab.addEventListener('click', function () { open(); });
-    $('crback').addEventListener('click', function () { close(); });
-    addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
-    // the phone's back button closes the room, not the panel
-    addEventListener('popstate', function () { if (location.hash !== '#chat') close(true); });
-    new MutationObserver(empty).observe($('answer'), { childList: true });
-    // the chips and the panel's own "ask" links open the room first
-    askNode.addEventListener('submit', function () { if (room.hidden) open(false); }, true);
-    if (location.hash === '#chat') open();
+    // opened empty and ready; the last conversation is one tap away under "שיחות קודמות"
+    var nb = $('chnew'); if (nb) nb.click();
+    new MutationObserver(empty).observe($('answer'), { childList: true }); empty();
+    setTimeout(function () { $('askq').focus(); }, 30);
   })();
   var ph = $('askq'); if (ph) ph.placeholder = 'שאלו, או בקשו שינוי: "תעדכן את המחיר של… ל-120"';
 })();

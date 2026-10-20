@@ -4,7 +4,9 @@
 // time, the shop opens as it was built.
 (function () {
   var me = document.currentScript, store = me.getAttribute('data-store'), S = window.SHOP;
-  var API = 'https://agentfeed-plum.vercel.app/api/panel?op=live&site=lab-shop';
+  // ?af-draft=<id>: the chat's "after" picture of a change not yet approved, for this view only
+  var draft = (location.search.match(/[?&]af-draft=(R[a-z0-9]{4,20})/) || [])[1] || '';
+  var API = 'https://agentfeed-plum.vercel.app/api/panel?op=live&site=lab-shop' + (draft ? '&draft=' + draft : '');
   var done = false;
   function go() { if (done) return; done = true; var t = document.createElement('script'); t.src = store; document.body.appendChild(t); }
   var money = function (n) { var r = Math.round(n * 100) / 100; return '₪' + r.toLocaleString('he-IL', { minimumFractionDigits: r % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
@@ -39,6 +41,6 @@
     var bs = document.querySelector('.bigprice s'); if (bs && x.price != null && parseFloat(bs.textContent.replace(/[^\d.]/g, '')) <= x.price) bs.remove();
   }
   setTimeout(go, 2500);
-  fetch(API, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; })
+  fetch(API + '&t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; })
     .then(function (d) { if (!done) apply(d.items || {}); }).catch(function () {}).then(go);
 })();

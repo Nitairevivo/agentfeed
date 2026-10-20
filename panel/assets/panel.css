@@ -590,3 +590,16 @@ body.chatmode .chatfab { display: none; }
 .chatroom .qa.ai { max-width: 100%; justify-self: stretch; background: none; border: 0; box-shadow: none; padding: 4px 2px; font-size: 16.5px; line-height: 1.75; }
 .chatroom .qa.me { max-width: 85%; }
 .chatroom .qa ul.chg { padding-inline-start: 20px; padding-inline-end: 0; }
+
+/* two pages: the numbers, and the assistant */
+.pnnav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 70; background: rgba(6,7,15,.92); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,.08); }
+.pnnav .wrap { display: flex; gap: 6px; padding-block: 8px; }
+.pnnav a { flex: 1; text-align: center; text-decoration: none; color: inherit; font-weight: 700; padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.1); }
+.pnnav a.on { background: linear-gradient(135deg, rgba(139,108,255,.45), rgba(62,230,255,.3)); border-color: rgba(139,108,255,.6); }
+body.chatpage main, body.chatpage .pn-hud, body.chatpage .chatfab { display: none; }
+body.chatpage .chatroom { position: static; inset: auto; z-index: auto; min-height: calc(100dvh - 140px); padding-block: 0 env(safe-area-inset-bottom, 0px); background: none; }
+body.chatpage .chatroom .ask { min-height: calc(100dvh - 160px); }
+body.chatpage .chatroom .askf { position: sticky; bottom: env(safe-area-inset-bottom, 0px); background: #070914; padding-block: 8px; z-index: 5; }
+body.chatpage .crempty { position: fixed; top: 42%; }
+a.crlaunch { display: flex; text-decoration: none; }
+a.chatfab { text-decoration: none; color: inherit; }
