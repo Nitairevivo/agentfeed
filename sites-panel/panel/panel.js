@@ -561,13 +561,23 @@
     var mic = document.createElement('button'); mic.type = 'button'; mic.className = 'mic'; mic.setAttribute('aria-label', 'הקלטת שאלה'); mic.textContent = '🎤';
     $('askf').insertBefore(mic, $('askf').querySelector('button[type=submit]'));
     var rec = null;
+    // what was said goes into the field, and stays there: the owner reads it, fixes a word, and sends
+    // with "לשאול". Nothing is sent by letting go of the microphone (a misheard price is a wrong price)
+    var before = '', ph0 = '';
+    function micOff() {
+      mic.classList.remove('on'); mic.setAttribute('aria-pressed', 'false'); mic.setAttribute('aria-label', 'הקלטת שאלה');
+      $('askq').placeholder = ph0 || $('askq').placeholder; rec = null;
+      var q = $('askq'); q.focus(); try { q.setSelectionRange(q.value.length, q.value.length); } catch (x) {}
+    }
     mic.addEventListener('click', function () {
       if (rec) { rec.stop(); return; }
-      rec = new SR(); rec.lang = 'he-IL'; rec.interimResults = true;
-      mic.classList.add('on');
-      rec.onresult = function (ev) { var t = ''; for (var i = 0; i < ev.results.length; i++) t += ev.results[i][0].transcript; $('askq').value = t; };
-      rec.onend = function () { mic.classList.remove('on'); rec = null; if ($('askq').value.trim()) $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); };
-      rec.onerror = function () { mic.classList.remove('on'); rec = null; };
+      rec = new SR(); rec.lang = 'he-IL'; rec.interimResults = true; rec.continuous = true;
+      before = $('askq').value.trim(); ph0 = $('askq').placeholder;
+      mic.classList.add('on'); mic.setAttribute('aria-pressed', 'true'); mic.setAttribute('aria-label', 'לעצור את ההקלטה');
+      $('askq').placeholder = 'מקשיב… לחצו שוב על המיקרופון כשסיימתם';
+      rec.onresult = function (ev) { var t = ''; for (var i = 0; i < ev.results.length; i++) t += ev.results[i][0].transcript; $('askq').value = (before ? before + ' ' : '') + t.trim(); };
+      rec.onend = micOff;
+      rec.onerror = micOff;
       rec.start();
     });
   }
@@ -603,24 +613,44 @@
       return '<li><span class="kind ' + t.kind + '">' + (t.kind === 'data' ? 'מהנתונים שלכם' : 'עצה כללית') + '</span><b>' + esc(t.tip) + '</b>' +
         (t.why ? '<span class="why">' + esc(t.why) + '</span>' : '') + chip(t.evidence) + '</li>'; }).join('') + '</ol>' : '';
   }
+  // While the assistant works: what it is doing, and how long it has been at it, counted every second, until
+  // the answer takes the bubble's place. A change of look takes Claude half a minute: the count says it is working.
+  function thinking(el, q) {
+    var t0 = Date.now(), design = DESIGN_RE.test(q) || ideaAsked, look = LOOK_RE.test(q);
+    var steps = design ? [[0, 'קורא את העמוד'], [6, 'מכין את השינוי'], [16, 'מצלם לפני ואחרי'], [30, 'עוד רגע, בודק שהכול נכון']]
+      : look ? [[0, 'פותח את האתר'], [5, 'מצלם את העמודים'], [12, 'מחפש מה כדאי לשנות']]
+      : [[0, 'חושב'], [6, 'קורא את המספרים'], [16, 'בודק כל מספר בתשובה']];
+    var tick = setInterval(function () {
+      var tt = el.querySelector('.tt'), tw = el.querySelector('.tw');
+      if (!tt || !el.isConnected) { clearInterval(tick); return; }
+      var sec = Math.floor((Date.now() - t0) / 1000), now = steps.filter(function (x) { return sec >= x[0]; }).pop();
+      tt.textContent = Math.floor(sec / 60) + ':' + String(sec % 60).padStart(2, '0');
+      if (tw.textContent !== now[1]) tw.textContent = now[1];
+    }, 1000);
+  }
   $('askf').addEventListener('submit', function (e) {
     e.preventDefault();
     var input = $('askq'), q = input.value.trim(); if (!q || asking) return;
     input.value = ''; logBox.hidden = true;
     bubble(esc(q), 'me'); record('me', esc(q));
     asking = true; $('askf').classList.add('busy');
-    var wait = bubble('<div class="scan"><div class="bar"></div><p>חושב…</p></div>', 'ai');
+    var wait = bubble('<div class="scan think"><div class="bar"></div><p><span class="tdots" aria-hidden="true"><i></i><i></i><i></i></span> <span class="tw">חושב</span> <time class="tt">0:00</time></p></div>', 'ai');
+    thinking(wait, q);
     // the assistant sorts the message first: a change, a problem, a how-to.
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
     // the example panel shows its pictures and its changes on our test shop: real, but a change stays a preview
     var looks = demo && (ideaAsked || LOOK_RE.test(q) || DESIGN_RE.test(q)); ideaAsked = false;
-    var ask = looks ? keepCall('demo-look', { message: q }).catch(function () {
+    // the example's package used up: what needs the model waits for more, a price still changes (as in a real panel)
+    if (demo && !local && demoMeter().spent) local = { kind: 'help', demo: true, answer: 'החבילה של העוזר לחודש הזה נגמרה, ולכן את זה אני לא יכול להכין עכשיו. שינוי מחיר, הסתרה והחזרה של מוצר עדיין עובדים. אפשר לבקש מהסטודיו להגדיל את החבילה (הכפתור מתחת לצ\'אט).' };
+    if (demo && local && local.kind === 'help') looks = false;
+    var ask = demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }).catch(function () {
                         return { kind: 'help', answer: 'לא הצלחתי להכין את זה כרגע. נסו שוב בעוד דקה.' }; })
             : demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
                    : local ? Promise.resolve(local) : assistCall(q);
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
+      if (demo && a && (looks || a.kind === 'brain' || (a.kind === 'change' && !local))) demoMeterUse();
       if (a && a.kind && a.kind !== 'question' && a.answer) {
         wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
         asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
@@ -677,8 +707,9 @@
       var pg = pageUrl(a.request.page), pv = pageUrl(a.request.preview);
       // a change of look: the page before, and with the change (a preview only this link shows)
       if (pv) h += compare(pv);
+      else if (a.demoShots) h += shots([[a.demoShots.now, 'עכשיו באתר'], [a.demoShots.after, 'אחרי השינוי']]);
       else if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
-      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + (a.demo && pv ? ' data-preview="' + esc(pv) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
+      h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + (a.demo && pv ? ' data-preview="' + esc(pv) + '"' : '') + (a.demoShots ? ' data-after="' + esc(a.demoShots.after) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
     return h;
@@ -699,7 +730,8 @@
     });
     return best;
   }
-  function money(n) { return '₪' + Number(n).toLocaleString('he-IL', { maximumFractionDigits: 2 }); }
+  // ₪9.90, not ₪9.9: a price with agorot shows both digits, as the shop does
+  function money(n) { var r = Math.round(Number(n) * 100) / 100; return '₪' + r.toLocaleString('he-IL', { minimumFractionDigits: r % 1 ? 2 : 0, maximumFractionDigits: 2 }); }
   function shopItems() { return demo ? demoCat().filter(function (p) { return !p.hidden; }) : items; }
   var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש|להוזיל|תוזיל|הוזל|הנחה|מבצע|להעלות|תעלה|תייקר|לייקר|\d+\s*%|אחוז)/;
   // the same words the server sorts by (server/lib/assist.mjs RE.look and RE.design)
@@ -833,7 +865,7 @@
     if (why) return { demo: true, kind: 'change', answer: why };
     var id = 'D' + Date.now().toString(36); dreqs[id] = { ch: ch, sum: sum };
     if (it) lastItem = it;
-    return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, answer: 'הבנתי: ' + sum + '. לאשר?' };
+    return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, demoShots: demoShots([ch]), answer: 'הבנתי: ' + sum + '. לאשר?' };
   }
   // The demo talks to the same model the analyst uses, with this example
   // shop's products and numbers, so it answers anything an owner would ask.
@@ -858,7 +890,7 @@
         if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
         if (!list.length) return { demo: true, kind: 'brain', answer: b.answer };
         var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
-        return { demo: true, kind: 'change', answer: b.answer, request: { id: id, status: 'draft' },
+        return { demo: true, kind: 'change', answer: b.answer, request: { id: id, status: 'draft' }, demoShots: demoShots(list.map(function (x) { return x.ch; })),
                  changes: list.map(function (x) { return x.sum; }) };
       }, function () { if (tm) clearTimeout(tm); return null; });
   }
@@ -885,6 +917,28 @@
     if (ch.kind === 'name') { p.name = ch.value; p.changed = 'name'; }
     if (ch.kind === 'contact') dwa = ch.value;
     if (ch.kind === 'new') all.push({ id: 'n' + Date.now().toString(36) + Math.random().toString(36).slice(2, 4), name: ch.name, price: ch.price, desc: '', changed: 'new' });
+  }
+  // The example panel's before and after: the test shop's own page for the product, with the example's state
+  // laid over it (lab-live.js, ?af-try=), once as it is and once with the change. Several products: the shop's front.
+  var LAB = 'https://nitairevivo.github.io/agentfeed/lab/shop/';
+  function labState(p) { return { price: Number(p.price), name: p.name, desc: p.desc || '', hidden: !!p.hidden }; }
+  function demoShots(chs) {
+    var now = {}, after = {}, ids = [];
+    chs.forEach(function (ch) {
+      var it = ch.item; if (!it || ['price', 'hide', 'show', 'desc', 'name'].indexOf(ch.kind) < 0 || !/^[a-z][0-9]{1,3}$/.test(it.id)) return;
+      var cur = demoCat().filter(function (x) { return x.id === it.id; })[0] || it;
+      if (!now[it.id]) { now[it.id] = labState(cur); after[it.id] = labState(cur); ids.push(it.id); }
+      var a = after[it.id];
+      if (ch.kind === 'price') a.price = Number(ch.value);
+      if (ch.kind === 'hide') a.hidden = true;
+      if (ch.kind === 'show') a.hidden = false;
+      if (ch.kind === 'desc') a.desc = String(ch.value || '');
+      if (ch.kind === 'name') a.name = String(ch.value || '');
+    });
+    if (!ids.length) return null;
+    var page = ids.length === 1 ? LAB + 'p/' + ids[0] + '.html' : LAB;
+    var u = function (st) { return page + '?af-try=' + encodeURIComponent(JSON.stringify(st)); };
+    return { now: u(now), after: u(after) };
   }
   function ticketOffer(q, answer) {
     var id = 'D' + Date.now().toString(36); dreqs[id] = { ticket: { subject: q.slice(0, 90), body: q } };
@@ -915,7 +969,7 @@
       '</ul><p class="sub">וואטסאפ באתר: ' + esc(dwa) + ' · <button type="button" class="btn btn-s" id="demoreset">איפוס הדוגמה</button></p>';
   }
   document.addEventListener('click', function (e) {
-    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); } catch (x) {} keeper(); tickets(); }
+    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); } catch (x) {} keeper(); tickets(); meterNow(); }
   });
   $('answer').addEventListener('click', function (e) {
     var idea = e.target.closest('[data-idea]');
@@ -940,8 +994,9 @@
     var bub2 = box.closest('.qa');
     go.then(function (r) {
       if (demo) {
-        var bub = box.closest('.qa');
-        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b></p>';
+        var bub = box.closest('.qa'), aft = yes && pageUrl(box.getAttribute('data-after')), oldC = aft && bub.querySelector('.cmp');
+        if (oldC) oldC.remove();
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b></p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
         resave(id, bub); keeper(); return;
       }
       var pg = pageUrl(box.getAttribute('data-page'));
@@ -1103,7 +1158,8 @@
   // The product's own page, phone-sized: before a change and after it (the "after" a preview no one else sees),
   // or only as it is now, once the change is made. Sandboxed like the before/after of a design change.
   function shots(list) {
-    return '<div class="cmp"><div class="cmpt">' + list.map(function (x, i) { return '<button type="button" data-cmp="' + i + '"' + (i === list.length - 1 ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>' +
+    // one picture needs no tabs: its caption says what it is
+    return '<div class="cmp"><div class="cmpt"' + (list.length < 2 ? ' hidden' : '') + '>' + list.map(function (x, i) { return '<button type="button" data-cmp="' + i + '"' + (i === list.length - 1 ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>' +
       '<div class="cmpr">' + list.map(function (x, i) { return '<figure class="cmpf' + (i === list.length - 1 ? ' on' : '') + '" data-side="' + i + '"><figcaption>' + x[1] + '</figcaption>' +
         '<div class="cmpw"><iframe src="' + esc(x[0]) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" title="' + x[1] + '"></iframe></div></figure>'; }).join('') + '</div></div>';
   }
@@ -1214,23 +1270,49 @@
     c.appendChild(b); })();
   // The month's package, under the chat: what share the assistant has used. Counted in tokens on the server
   // (meter.mjs); here only the share, and, near the end, a way to ask the studio for more.
-  var meterEl = null;
+  // (the same bar on the numbers' page too, above the way to the assistant)
+  var meterEl = null, lastMeter = null;
   function showMeter(m) {
     if (!m || !askNode || typeof m.pct !== 'number') return;
-    if (!meterEl) { meterEl = document.createElement('div'); meterEl.className = 'meter-pk'; meterEl.setAttribute('aria-live', 'polite'); $('askf').insertAdjacentElement('afterend', meterEl); }
+    lastMeter = m;
+    if (!meterEl) { meterEl = document.createElement('div'); meterEl.className = 'meter-pk'; meterEl.setAttribute('aria-live', 'polite'); $('askf').insertAdjacentElement('beforebegin', meterEl); }
     var lvl = m.spent ? 'out' : m.pct >= 80 ? 'low' : 'ok', day = String(m.renews || '').split('-').reverse().slice(0, 2).map(Number).join('.');
+    var dataEl = document.querySelector('.meter-data');
     meterEl.className = 'meter-pk ' + lvl;
+    if (dataEl) dataEl.className = 'meter-pk meter-data ' + lvl;
     meterEl.innerHTML = '<div class="mrow"><span>' + (m.spent ? 'החבילה של העוזר לחודש הזה נגמרה' : 'העוזר החודש: השתמשתם ב-<b>' + m.pct + '%</b> מהחבילה') + '</span>' +
       '<small>' + (day ? 'מתחדשת ב-' + day : '') + '</small></div>' +
       '<div class="mbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + m.pct + '" aria-label="כמה מהחבילה נוצל"><i style="width:' + m.pct + '%"></i></div>' +
       (lvl === 'ok' ? '' : m.asked ? '<p class="sub">✓ ביקשתם מהסטודיו להגדיל. תקבלו הודעה כשזה מוכן.</p>' :
-        '<button type="button" class="btn btn-s" id="meterask">לבקש מהסטודיו להגדיל את החבילה</button>');
+        '<button type="button" class="btn btn-s meterask">לבקש מהסטודיו להגדיל את החבילה</button>');
+    if (dataEl) dataEl.innerHTML = meterEl.innerHTML;
   }
-  function meterNow() { if (!demo) keepCall('meter').then(showMeter).catch(function () {}); }
+  // the example panel's meter: the same bar, on this device. It starts well into its month and fills a little with
+  // each answer that needs the model, so a visitor sees the end of a package, asking for more, and the studio adding it
+  var DMK = 'demometer:' + DEMO;
+  function demoMeter() {
+    var m = null; try { m = JSON.parse(localStorage.getItem(DMK) || 'null'); } catch (x) {}
+    if (!m) m = { pct: 64, asked: '' };
+    var d = new Date(), next = new Date(d.getFullYear(), d.getMonth() + 1, 1);
+    return { pct: Math.min(100, m.pct), spent: m.pct >= 100, asked: m.asked, renews: next.getFullYear() + '-' + String(next.getMonth() + 1).padStart(2, '0') + '-01' };
+  }
+  function demoMeterSet(m) { try { localStorage.setItem(DMK, JSON.stringify({ pct: m.pct, asked: m.asked || '' })); } catch (x) {} showMeter(demoMeter()); }
+  function demoMeterUse() { var m = demoMeter(); if (!m.spent) { m.pct = Math.min(100, m.pct + 6); demoMeterSet(m); } }
+  function meterNow() { if (demo) showMeter(demoMeter()); else keepCall('meter').then(showMeter).catch(function () {}); }
+  if (askNode && demo) {
+    meterNow();
+    document.addEventListener('click', function (e) {
+      if (!e.target || !e.target.closest || !e.target.closest('.meterask')) return;
+      var m = demoMeter(); m.asked = new Date().toISOString(); demoMeterSet(m);
+      // what the studio does on its desk, played here: a package added a moment later
+      setTimeout(function () { demoMeterSet({ pct: 32, asked: '' });
+        bubble('<p><b>✓ הסטודיו הוסיף חבילה לחודש הזה.</b> אפשר להמשיך לבקש שינויים. (בהדגמה הסטודיו מאשר מיד. אצל לקוח אמיתי הבקשה נפתחת כפנייה במסך הצוות, והסטודיו מוסיף בלחיצה.)</p>', 'ai'); }, 2500);
+    });
+  }
   if (askNode && !demo) {
     meterNow();
-    askNode.addEventListener('click', function (e) {
-      if (!e.target || e.target.id !== 'meterask') return;
+    document.addEventListener('click', function (e) {
+      if (!e.target || !e.target.closest || !e.target.closest('.meterask')) return;
       e.target.disabled = true;
       keepCall('meter-ask', {}).then(function (r) { showMeter(r.meter && Object.assign({}, r.meter, { asked: r.meter.asked || new Date().toISOString() })); })
         .catch(function () { e.target.disabled = false; e.target.insertAdjacentHTML('afterend', '<p class="sub">לא הצלחנו לשלוח כרגע. נסו שוב.</p>'); });
@@ -1251,7 +1333,10 @@
       // the numbers' page: the conversation is not here; a button and the side button lead to its page
       askNode.hidden = true;
       var launch = document.createElement('a'); launch.className = 'btn btn-brand crlaunch'; launch.href = to('chat'); launch.innerHTML = '💬 לשאול את העוזר או לבקש שינוי';
-      askNode.parentNode.insertBefore(launch, askNode);
+      // beside the analysis, never inside it: a fresh analysis redraws #brain, and what was in it is gone
+      var spot = $('brain'); spot.parentNode.insertBefore(launch, spot.nextSibling);
+      var md = document.createElement('div'); md.className = 'meter-pk meter-data'; md.setAttribute('aria-live', 'polite');
+      launch.parentNode.insertBefore(md, launch); if (lastMeter) showMeter(lastMeter);
       var fab = document.createElement('a'); fab.className = 'chatfab'; fab.href = to('chat'); fab.setAttribute('aria-label', 'לדף העוזר');
       fab.innerHTML = '<span aria-hidden="true">💬</span><b>לעוזר</b>';
       document.body.appendChild(fab);

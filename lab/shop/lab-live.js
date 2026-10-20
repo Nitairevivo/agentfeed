@@ -7,6 +7,22 @@
   // ?af-draft=<id>: the chat's "after" picture of a change not yet approved, for this view only
   var draft = (location.search.match(/[?&]af-draft=(R[a-z0-9]{4,20})/) || [])[1] || '';
   var API = 'https://agentfeed-plum.vercel.app/api/panel?op=live&site=lab-shop' + (draft ? '&draft=' + draft : '');
+  // ?af-try=<products as JSON>: the example panel's before and after, for this view only. Text is set as text,
+  // and only what a product carries here (price, name, description, taken off) is read
+  var tried = {};
+  try {
+    var raw = (location.search.match(/[?&]af-try=([^&]+)/) || [])[1];
+    var t = raw ? JSON.parse(decodeURIComponent(raw)) : {};
+    Object.keys(t).slice(0, 30).forEach(function (id) {
+      var x = t[id]; if (!/^[a-z0-9_-]{1,40}$/i.test(id) || !x || typeof x !== 'object') return;
+      var y = { hidden: x.hidden === true };
+      if (typeof x.price === 'number' && x.price > 0 && x.price < 1e6) y.price = x.price;
+      if (typeof x.name === 'string' && x.name.trim()) y.name = x.name.slice(0, 120);
+      if (typeof x.desc === 'string' && x.desc.trim()) y.desc = x.desc.slice(0, 600);
+      tried[id] = y;
+    });
+  } catch (x) { tried = {}; }
+  var over = function (o) { o = o || {}; Object.keys(tried).forEach(function (id) { o[id] = Object.assign({}, o[id] || {}, tried[id]); }); return o; };
   var done = false;
   function go() { if (done) return; done = true; var t = document.createElement('script'); t.src = store; document.body.appendChild(t); }
   var money = function (n) { var r = Math.round(n * 100) / 100; return '₪' + r.toLocaleString('he-IL', { minimumFractionDigits: r % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
@@ -42,5 +58,5 @@
   }
   setTimeout(go, 2500);
   fetch(API + '&t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; })
-    .then(function (d) { if (!done) apply(d.items || {}); }).catch(function () {}).then(go);
+    .then(function (d) { if (!done) apply(over(d.items)); }, function () { if (!done) apply(over({})); }).then(go);
 })();
