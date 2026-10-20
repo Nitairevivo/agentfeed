@@ -663,9 +663,15 @@
   function assistHtml(a) {
     var h = '<p>' + esc(a.answer).replace(/\n/g, '<br>') + '</p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
+    // the site itself, as every visitor sees it, and what is worth changing: each idea one tap from its own preview
+    var pages = (a.pages || []).filter(function (x) { return pageUrl(x[0]); });
+    if (pages.length) h += shots(pages.map(function (x) { return [x[0], esc(x[1])]; }).reverse());
+    if ((a.ideas || []).length) h += '<div class="ideas">' + a.ideas.map(function (x) { return '<button type="button" class="btn btn-s" data-idea="' + esc(x) + '">✨ ' + esc(x) + '</button>'; }).join('') + '</div>';
     if (a.request && a.request.status === 'draft') {
-      var pg = pageUrl(a.request.page);
-      if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
+      var pg = pageUrl(a.request.page), pv = pageUrl(a.request.preview);
+      // a change of look: the page before, and with the change (a preview only this link shows)
+      if (pv) h += compare(pv);
+      else if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
       h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
@@ -890,6 +896,8 @@
     if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); } catch (x) {} keeper(); tickets(); }
   });
   $('answer').addEventListener('click', function (e) {
+    var idea = e.target.closest('[data-idea]');
+    if (idea) { if (asking) return; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
     var cb = e.target.closest('[data-cmp]');
     if (cb) { var cbox = cb.closest('.cmp'); cbox.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
       cbox.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }
@@ -909,7 +917,8 @@
       if (yes && r.status === 'applied') {
         // made: the picture is the shop itself, now, as every visitor sees it
         var bubA = box.closest('.qa'), old = bubA.querySelector('.cmp'); if (old) old.remove();
-        box.outerHTML = '<p class="sub"><b>✓ השינוי עלה לאתר. ככה זה נראה עכשיו:</b></p>' + (pg ? shots([[pg + '?t=' + Date.now(), 'באתר עכשיו']]) +
+        var now = pageUrl(r.now) || (pg ? pg + '?t=' + Date.now() : '');
+        box.outerHTML = '<p class="sub"><b>✓ השינוי עלה לאתר. ככה זה נראה עכשיו:</b></p>' + (pg ? shots([[now, 'באתר עכשיו']]) +
           '<p class="sub"><a href="' + esc(pg) + '" target="_blank" rel="noopener">לפתוח את העמוד באתר ↗</a></p>' : '');
         resave(id, bubA); keeper(); return;
       }
@@ -1058,7 +1067,7 @@
     var frame = function (u, label, side) { return '<figure class="cmpf' + (side === 'a' ? ' on' : '') + '" data-side="' + side + '"><figcaption>' + label + '</figcaption>' +
       '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" title="' + label + '"></iframe></div></figure>'; };
     return '<div class="cmp"><div class="cmpt" role="tablist"><button type="button" data-cmp="b">לפני</button><button type="button" data-cmp="a" class="on">אחרי</button></div>' +
-      '<div class="cmpr">' + frame(before, 'היום באתר', 'b') + frame(preview, 'אחרי השינוי', 'a') + '</div></div>';
+      '<div class="cmpr">' + frame(before, 'עכשיו באתר', 'b') + frame(preview, 'אחרי השינוי', 'a') + '</div></div>';
   }
   // The product's own page, phone-sized: before a change and after it (the "after" a preview no one else sees),
   // or only as it is now, once the change is made. Sandboxed like the before/after of a design change.
@@ -1086,6 +1095,8 @@
       '<small class="sub">Claude מכין את השינוי, אתם רואים אותו ומאשרים. עד שתאשרו, שום דבר לא משתנה באתר.</small></fieldset>';
   }
   function tkClick(e) {
+    var idea = e.target.closest('[data-idea]');
+    if (idea) { if (asking) return; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
     var cb = e.target.closest('[data-cmp]');
     if (cb) { var box = cb.closest('.cmp'); box.querySelectorAll('[data-cmp]').forEach(function (x) { x.classList.toggle('on', x === cb); });
       box.querySelectorAll('.cmpf').forEach(function (f) { f.classList.toggle('on', f.dataset.side === cb.dataset.cmp); }); return; }

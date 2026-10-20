@@ -603,3 +603,6 @@ body.chatpage .chatroom .askf { position: sticky; bottom: env(safe-area-inset-bo
 body.chatpage .crempty { position: fixed; top: 42%; }
 a.crlaunch { display: flex; text-decoration: none; }
 a.chatfab { text-decoration: none; color: inherit; }
+/* what is worth changing, read off the site: each one a tap from its own before/after */
+.ideas { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin: 10px 0 4px; }
+.ideas .btn { white-space: normal; text-align: start; line-height: 1.4; }
