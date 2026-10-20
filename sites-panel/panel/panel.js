@@ -22,14 +22,13 @@
     key = sessionStorage.getItem('pk:' + cfg.site) || '';
   } catch (e) {}
   var demo = !key || /[?&]demo/.test(location.search);
-  // ?demo=wholesale shows the demo of that kind of shop
-  var dk = (new URLSearchParams(location.search).get('demo') || '').toLowerCase().replace(/[^a-z]/g, '');
-  var DEMO = dk ? 'demo-' + dk : 'demo';
+  // every example panel is our test shop's, סחר פלוס (the pet shop it once showed is gone)
+  var DEMO = 'demo-wholesale';
   // The example data is a shop's, so the header names an example shop: a
   // prospect opening ?demo on our own landing page's panel read "AgentFeed ·
   // דף הנחיתה" above a pet shop's dog food.
   if (demo) {
-    cfg.name = dk === 'wholesale' ? 'סחר פלוס (חנות לדוגמה)' : 'חנות לדוגמה';
+    cfg.name = 'סחר פלוס (חנות לדוגמה)';
     var dsm = document.querySelector('.pn-top small'); if (dsm) dsm.textContent = cfg.name + ' · 30 הימים האחרונים';
     document.title = 'לוח הבקרה | ' + cfg.name;
     var hn = document.getElementById('hud-name'); if (hn) hn.textContent = '30 ימים · ' + cfg.name;
@@ -725,18 +724,30 @@
   // Example products of an example shop, labelled as such. Every change the
   // visitor approves is made here, on this device, and shown in the table, so
   // a prospect sees what an owner sees: ask, read it back, press yes, done.
+  // the test shop's own products (סחר פלוס, server/lib/catalogs.mjs "demo-wholesale"): the same the shop shows
   var DEMO_SEED = {
-    demo: [{ id: 'd1', name: 'מזון לכלב בוגר 12 ק"ג', price: 189, desc: 'מזון יבש מלא לכלבים בוגרים' },
-           { id: 'd2', name: 'רצועה מתכווננת', price: 59, desc: '' }, { id: 'd3', name: 'חול מתגבש לחתולים', price: 45, desc: '' },
-           { id: 'd4', name: 'צעצוע לעיסה', price: 29, desc: '' }, { id: 'd5', name: 'מיטה לכלב', price: 149, desc: '' }],
-    'demo-wholesale': [{ id: 'c1', name: 'ספריי ניקוי רב תכליתי', price: 9.9, desc: '' }, { id: 'd1', name: 'כוסות חד פעמיות', price: 79, desc: '' },
-           { id: 'k1', name: 'סכין שף נירוסטה', price: 49, desc: '' }, { id: 'p1', name: 'מגבות נייר תעשייתיות', price: 39, desc: '' },
-           { id: 'b1', name: 'שקיות זבל עבות', price: 35, desc: '' }]
+    'demo-wholesale': [
+      { id: 'c1', name: 'ספריי ניקוי רב תכליתי', price: 9.9, desc: 'בקבוק 750 מ״ל' },
+      { id: 'c2', name: 'נוזל רצפות מרוכז', price: 29, desc: 'גלון 4 ליטר' },
+      { id: 'c3', name: 'אקונומיקה', price: 19, desc: 'גלון 4 ליטר' },
+      { id: 'c4', name: 'סבון כלים מרוכז', price: 25, desc: 'גלון 4 ליטר' },
+      { id: 'c5', name: 'מגבונים לחים לניקוי', price: 6.9, desc: 'חבילה של 80' },
+      { id: 'd1', name: 'כוסות חד פעמיות', price: 79, desc: '1,000 יחידות' },
+      { id: 'd2', name: 'צלחות קרטון', price: 69, desc: '500 יחידות' },
+      { id: 'd3', name: 'סכו״ם חד פעמי', price: 55, desc: '600 יחידות' },
+      { id: 'd4', name: 'מגשי אלומיניום עם מכסה', price: 45, desc: '50 יחידות' },
+      { id: 'k1', name: 'סכין שף נירוסטה', price: 49, desc: 'להב 20 ס״מ' },
+      { id: 'k2', name: 'סט סכינים עם מעמד', price: 189, desc: '5 חלקים' },
+      { id: 'k3', name: 'קרש חיתוך מקצועי', price: 69, desc: '50×30 ס״מ' },
+      { id: 'p1', name: 'מגבות נייר תעשייתיות', price: 39, desc: '6 גלילים' },
+      { id: 'p2', name: 'נייר טואלט ג׳מבו', price: 85, desc: '12 גלילים' },
+      { id: 'b1', name: 'שקיות זבל עבות', price: 35, desc: '50 יחידות' },
+      { id: 'b2', name: 'כפפות ניטריל', price: 29, desc: '100 יחידות' }]
   };
   var DCK = 'democat:' + DEMO, dcat = null, dreqs = {}, dlog = [], dwa = '050-0000000';
   function demoCat() {
     if (!dcat) { try { dcat = JSON.parse(localStorage.getItem(DCK) || 'null'); } catch (x) {} }
-    if (!dcat) dcat = JSON.parse(JSON.stringify(DEMO_SEED[DEMO] || DEMO_SEED.demo));
+    if (!dcat) dcat = JSON.parse(JSON.stringify(DEMO_SEED['demo-wholesale']));
     return dcat;
   }
   function demoSave() { try { localStorage.setItem(DCK, JSON.stringify(dcat)); } catch (x) {} }
@@ -745,7 +756,7 @@
     [/סליקה|אשראי|תשלום באתר/, 'התשלום באשראי עובר דרך חברת סליקה, בחשבון על שמכם. הכסף נכנס ישר אליכם, ואנחנו לא רואים את פרטי הכרטיס.'],
     [/הזמנ(ה|ות)|איפה רואים/, 'כל ההזמנות מופיעות בלוח הזה. הזמנה בוואטסאפ מגיעה ישר לוואטסאפ שלכם, עם כל המוצרים והכמויות.'],
     [/לבטל|ביטול|להפסיק/, 'אפשר להפסיק בכל רגע, בהודעה של 30 יום מראש. הדומיין נשאר שלכם.'],
-    [/איך (משנים|מעדכנים|מוסיפים)|מה אפשר (לבקש|לשנות)|מה אתה יודע/, 'פשוט כותבים כאן מה לשנות, למשל: "תעדכן את המחיר של רצועה מתכווננת ל-65", "צעצוע לעיסה אזל, תסתיר אותו", "תשנה את התיאור של מיטה לכלב: מיטה רכה ורחיצה", "תוסיף מוצר: קערת מים ב-35" או "תחליף את מספר הוואטסאפ ל-052-1234567". אני מראה מה הבנתי, ורק אחרי "כן" זה משתנה.']
+    [/איך (משנים|מעדכנים|מוסיפים)|מה אפשר (לבקש|לשנות)|מה אתה יודע/, 'פשוט כותבים כאן מה לשנות, למשל: "תעדכן את המחיר של סכין שף נירוסטה ל-55", "כפפות ניטריל אזלו, תסתיר אותן", "תעשה את הכפתורים כחולים", "תוסיף מוצר: מטליות מיקרופייבר ב-25" או "תחליף את מספר הוואטסאפ ל-052-1234567". אני מראה מה הבנתי, ורק אחרי "כן" זה משתנה.']
   ];
   function demoParse(q, list, all) {
     var it = findItem(q, all) || null, value = '';
@@ -893,7 +904,7 @@
   function demoStatus() {
     var now = Date.now(), ago = function (m) { return new Date(now - m * 60000).toISOString(); };
     return { watched: true, demo: true, status: 'ok', checked: ago(7), last: { ms: 640 }, incident: null, uptime7: 100, uptime30: 99.8,
-             incidents: [{ event: 'opened' }], requests: dlog.concat([{ summary: 'לשנות את המחיר של "רצועה מתכווננת" מ-₪55 ל-₪59', status: 'applied' }]),
+             incidents: [{ event: 'opened' }], requests: dlog.concat([{ summary: 'לשנות את המחיר של "סכין שף נירוסטה" מ-₪45 ל-₪49', status: 'applied' }]),
              weekly: { lines: ['412 מבקרים השבוע (+18% מהשבוע שלפני).', 'המוצר שהכי פנו עליו: ' + shopItems()[0].name + '.', 'האתר היה זמין 100% מהזמן השבוע, בלי תקלות.'] } };
   }
   function demoTable() {
