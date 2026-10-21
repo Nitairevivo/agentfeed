@@ -1295,6 +1295,8 @@
   var meterEl = null, lastMeter = null;
   function showMeter(m) {
     if (!m || !askNode || typeof m.pct !== 'number') return;
+    // the package is not a limit right now (server/lib/meter.mjs ENFORCED): nothing to show
+    if (m.off) { if (meterEl) { meterEl.remove(); meterEl = null; } var dOff = document.querySelector('.meter-data'); if (dOff) dOff.remove(); return; }
     lastMeter = m;
     if (!meterEl) { meterEl = document.createElement('div'); meterEl.className = 'meter-pk'; meterEl.setAttribute('aria-live', 'polite'); $('askf').insertAdjacentElement('beforebegin', meterEl); }
     var lvl = m.spent ? 'out' : m.pct >= 80 ? 'low' : 'ok', day = String(m.renews || '').split('-').reverse().slice(0, 2).map(Number).join('.');
@@ -1310,11 +1312,13 @@
   }
   // the example panel's meter: the same bar, on this device. It starts well into its month and fills a little with
   // each answer that needs the model, so a visitor sees the end of a package, asking for more, and the studio adding it
-  var DMK = 'demometer:' + DEMO;
+  var DMK = 'demometer:' + DEMO, DEMO_METER = false;
   function demoMeter() {
     var m = null; try { m = JSON.parse(localStorage.getItem(DMK) || 'null'); } catch (x) {}
     if (!m) m = { pct: 64, asked: '' };
     var d = new Date(), next = new Date(d.getFullYear(), d.getMonth() + 1, 1);
+    // off while the real package is off, so the example shows what a client sees
+    if (!DEMO_METER) return { pct: 0, spent: false, off: true };
     return { pct: Math.min(100, m.pct), spent: m.pct >= 100, asked: m.asked, renews: next.getFullYear() + '-' + String(next.getMonth() + 1).padStart(2, '0') + '-01' };
   }
   function demoMeterSet(m) { try { localStorage.setItem(DMK, JSON.stringify({ pct: m.pct, asked: m.asked || '' })); } catch (x) {} showMeter(demoMeter()); }

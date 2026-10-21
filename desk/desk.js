@@ -347,7 +347,7 @@
   // The client's assistant this month (server/lib/meter.mjs): the share used, and a package added when it runs out.
   // Each package added is billed to the studio; the client is told it can go on.
   function meterRow(s) {
-    var m = s.meter; if (!m || typeof m.pct !== 'number') return '';
+    var m = s.meter; if (!m || typeof m.pct !== 'number' || m.off) return '';
     var lvl = m.spent ? 'out' : m.pct >= 80 ? 'low' : 'ok', extra = m.limit > m.plan ? Math.round(m.limit / m.plan - 1) : 0;
     return '<div class="meterrow ' + lvl + '"><label>🤖 <b>העוזר של הלקוח החודש</b> <span>' + (m.spent ? 'החבילה נגמרה' : m.pct + '% נוצל') + '</span>' +
       (extra ? ' <small>(' + (extra === 1 ? 'נוספה חבילה' : 'נוספו ' + extra + ' חבילות') + ' החודש)</small>' : '') + '</label>' +
