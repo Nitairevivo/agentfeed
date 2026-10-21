@@ -46,7 +46,7 @@
   var BAD = /<|\\|\/\*|\/\/|url\s*\(|image-set|src\s*\(|@import|@font-face|expression\s*\(|javascript:|behavio(u)?r\s*:|-moz-binding|@charset/i;
   var FONTS = ["Heebo", "Assistant", "Rubik", "Frank Ruhl Libre", "Secular One", "Varela Round", "Noto Sans Hebrew", "Noto Serif Hebrew", "Alef", "Suez One", "Amatic SC", "Bellefair", "Karantina", "IBM Plex Sans Hebrew", "David Libre", "Miriam Libre"];   // the same list as server/lib/patches.mjs FONTS
   function putLooks(list) {
-    var css = '', text = [], bar = null;
+    var css = '', text = [], pics = [], bar = null;
     list.forEach(function (d) {
       if (!d || !d.preview) return;
       (d.fonts || []).forEach(function (f) {
@@ -57,13 +57,22 @@
       });
       if (d.css && !BAD.test(d.css)) css += '\n' + d.css;
       (d.hide || []).forEach(function (h) { if (!/[<>{}\\;@]|\/\*|\*\//.test(h) && !BAD.test(h)) css += '\n' + h + '{display:none!important}'; });
-      text = text.concat(d.text || []); if (d.bar && d.bar.text) bar = d.bar;
+      text = text.concat(d.text || []); pics = pics.concat(d.images || []); if (d.bar && d.bar.text) bar = d.bar;
     });
     var st = document.getElementById('af-mine') || document.createElement('style'); st.id = 'af-mine'; st.textContent = css; (document.head || document.documentElement).appendChild(st);
     var setText = function () { text.forEach(function (t) { try { [].forEach.call(document.querySelectorAll(t.selector), function (el) {
       if (/^(SCRIPT|STYLE|TITLE|NOSCRIPT|TEMPLATE|TEXTAREA|IFRAME|OBJECT|HEAD|META|LINK|svg|SVG)$/.test(el.tagName) || el.closest('svg,head')) return;
       if (!el.children.length && el.textContent !== t.text) el.textContent = t.text; }); } catch (x) {} }); };
+    // a picture swapped for another this shop already shows: https, this same site, never anything else
+    var setPics = function () { pics.forEach(function (m) { var src = String(m && m.src || ''), host = '';
+      try { host = new URL(src).host; } catch (x) {}
+      if (!/^https:\/\/[^\s"'()<>\\]+$/i.test(src) || host !== location.host) return;
+      try { [].forEach.call(document.querySelectorAll(m.selector), function (el) {
+        if (el.closest('head')) return;
+        if (el.tagName === 'IMG') { if (el.getAttribute('src') !== src) { el.removeAttribute('srcset'); el.src = src; } }
+        else el.style.backgroundImage = 'url("' + src + '")'; }); } catch (x) {} }); };
     setText(); setTimeout(setText, 600); setTimeout(setText, 1800);
+    setPics(); setTimeout(setPics, 600); setTimeout(setPics, 1800);
     if (bar && !document.getElementById('af-mine-bar')) {
       var HEX = /^#(?:[0-9a-f]{3}){1,2}$/i, b = document.createElement('div'); b.id = 'af-mine-bar'; b.textContent = bar.text;
       b.setAttribute('style', 'text-align:center;padding:9px 16px;font:600 15px/1.4 system-ui,sans-serif;direction:rtl;background:' + (HEX.test(bar.bg) ? bar.bg : '#14171f') + ';color:' + (HEX.test(bar.fg) ? bar.fg : '#fff'));
