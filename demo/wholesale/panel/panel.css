@@ -671,3 +671,12 @@ body.chatpage .chatroom, body.chatpage .chatroom .ask { min-height: 0; }
 .pn-top { backdrop-filter: none; background: rgba(6,7,15,.9); }
 @media (pointer: coarse) { .glass { backdrop-filter: none; } }
 @media (max-width: 560px) { .joinaf { flex-wrap: nowrap; font-size: 12.5px; padding: 6px 12px; gap: 8px; } .joinaf .jwide { display: none; } }
+/* the shop's products, folded behind one line */
+.prods { margin-top: 18px; border: 1px solid var(--edge, rgba(255,255,255,.1)); border-radius: 16px; padding: 4px 14px; }
+.prods > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 0; }
+.prods > summary::-webkit-details-marker { display: none; }
+.prods > summary small { opacity: .7; font-size: 13px; }
+.prods .pgo { white-space: nowrap; font-size: 14px; font-weight: 700; padding: 7px 12px; border-radius: 10px; background: rgba(139,108,255,.18); border: 1px solid rgba(139,108,255,.45); }
+.prods[open] .pgo { display: none; }
+.prods .list a { color: inherit; text-decoration: none; border-bottom: 1px dotted rgba(255,255,255,.35); }
+.prods .list a:hover, .prods .list a:focus-visible { border-bottom-style: solid; }

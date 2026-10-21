@@ -980,13 +980,21 @@
              incidents: [{ event: 'opened' }], requests: dlog.concat([{ summary: 'לשנות את המחיר של "סכין שף נירוסטה" מ-₪45 ל-₪49', status: 'applied' }]),
              weekly: { lines: ['412 מבקרים השבוע (+18% מהשבוע שלפני).', 'המוצר שהכי פנו עליו: ' + shopItems()[0].name + '.', 'האתר היה זמין 100% מהזמן השבוע, בלי תקלות.'] } };
   }
+  // The shop's products, folded: a line that says how many there are, and opens to the list. Each product opens
+  // its own page in the shop (lab/shop), as the example has it now (a price changed here shows there too)
+  var tableOpen = false;
   function demoTable() {
-    var all = demoCat();
-    return '<h3 class="brain-sub">🛍️ המוצרים באתר <small>(חנות לדוגמה. נסו לשנות מהצ\'אט)</small></h3><ul class="list">' + all.map(function (p) {
-      return '<li style="' + (p.hidden ? 'opacity:.45;text-decoration:line-through' : '') + (p.changed ? ';background:rgba(46,204,113,.12);border-radius:8px' : '') + '"><span>' + esc(p.name) +
-        (p.desc ? '<br><small class="sub">' + esc(p.desc) + '</small>' : '') + (p.hidden ? ' <small>(מוסתר)</small>' : '') + '</span><b>' + money(p.price) + (p.changed ? ' ✓' : '') + '</b></li>'; }).join('') +
-      '</ul><p class="sub">וואטסאפ באתר: ' + esc(dwa) + ' · <button type="button" class="btn btn-s" id="demoreset">איפוס הדוגמה</button></p>';
+    var all = demoCat(), shown = all.filter(function (p) { return !p.hidden; }).length;
+    var pageOf = function (p) { return /^[a-z][0-9]{1,3}$/.test(p.id) ? LAB + 'p/' + p.id + '.html' + (p.changed ? '?af-try=' + encodeURIComponent(JSON.stringify((function () { var o = {}; o[p.id] = labState(p); return o; })())) : '') : ''; };
+    return '<details class="prods"' + (tableOpen ? ' open' : '') + '><summary><span>🛍️ <b>המוצרים בחנות</b> <small>' + all.length + ' מוצרים' + (shown < all.length ? ', ' + (all.length - shown) + ' מוסתרים' : '') + '</small></span>' +
+      '<span class="pgo">לראות את המוצרים</span></summary>' +
+      '<p class="sub">אלה המוצרים של החנות לדוגמה, עם המחירים שבה. נסו לשנות אחד מהצ\'אט, ולחצו על מוצר כדי לראות את העמוד שלו. <a href="' + LAB + '" target="_blank" rel="noopener">לחנות ↗</a></p><ul class="list">' + all.map(function (p) {
+      var u = pageOf(p), name = esc(p.name) + (p.desc ? '<br><small class="sub">' + esc(p.desc) + '</small>' : '') + (p.hidden ? ' <small>(מוסתר)</small>' : '');
+      return '<li style="' + (p.hidden ? 'opacity:.45;text-decoration:line-through' : '') + (p.changed ? ';background:rgba(46,204,113,.12);border-radius:8px' : '') + '"><span>' +
+        (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + name + '</a>' : name) + '</span><b>' + money(p.price) + (p.changed ? ' ✓' : '') + '</b></li>'; }).join('') +
+      '</ul><p class="sub">וואטסאפ באתר: ' + esc(dwa) + ' · <button type="button" class="btn btn-s" id="demoreset">איפוס הדוגמה</button></p></details>';
   }
+  document.addEventListener('toggle', function (e) { if (e.target && e.target.classList && e.target.classList.contains('prods')) tableOpen = e.target.open; }, true);
   document.addEventListener('click', function (e) {
     if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); } catch (x) {} keeper(); tickets(); meterNow(); }
   });
