@@ -1363,8 +1363,9 @@
       var joinUrl = function () { return 'https://nitairevivo.github.io/agentfeed/join.html?via=' + encodeURIComponent(/^[a-z0-9][a-z0-9-]{0,39}$/.test(ragency || '') ? ragency : 'panel'); };
       join.href = joinUrl(); join.addEventListener('click', function () { join.href = joinUrl(); });   // the studio is known once its tickets load
       join.target = '_blank'; join.rel = 'noopener';
-      join.innerHTML = '<span class="jic" aria-hidden="true">🤖</span><span><b>הצטרפות ל-AgentFeed, בחינם</b><small>הקטלוג של העסק שלכם, כתוב כך שעוזרי AI כמו ChatGPT יוכלו לקרוא אותו. ממלאים טופס אחד, ואנחנו מכינים.</small></span><span class="jgo">להצטרף ↗</span>';
-      var mn = document.querySelector('main'); if (mn) mn.insertBefore(join, mn.firstChild);
+      // a quiet line across the very top, not a card: it is an offer, not the page's news
+      join.innerHTML = '<span>🤖 <b>AgentFeed בחינם:</b> הקטלוג שלכם, קריא לעוזרי AI<span class="jwide"> כמו ChatGPT</span></span><span class="jgo">להצטרף ↗</span>';
+      document.body.insertBefore(join, document.body.firstChild);
       // the numbers' page: the conversation is not here; a button and the side button lead to its page
       askNode.hidden = true;
       var launch = document.createElement('a'); launch.className = 'btn btn-brand crlaunch'; launch.href = to('chat'); launch.innerHTML = '💬 לשאול את העוזר או לבקש שינוי';
