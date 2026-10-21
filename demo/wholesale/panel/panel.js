@@ -488,7 +488,7 @@
     if (document.body.classList.contains('chatpage')) {
       var mine = el && el.classList && el.classList.contains('me') ? el : [].slice.call($('answer').querySelectorAll('.qa.me')).pop();
       if (!mine) return;
-      var nav = document.querySelector('.pnnav'), off = (nav ? nav.getBoundingClientRect().height : 0) + 16;
+      var nav = document.querySelector('.pnnav'), off = (nav && nav.isConnected ? nav.getBoundingClientRect().height : 0) + 16;
       var top = Math.max(0, mine.getBoundingClientRect().top + window.scrollY - off);
       // a message just sent always goes up; an answer arriving leaves alone whoever scrolled away to read
       if (mine !== el && Math.abs(window.scrollY - top) > 140) return;
@@ -1349,8 +1349,18 @@
     var nav = document.createElement('nav'); nav.className = 'pnnav'; nav.setAttribute('aria-label', 'דפי הלוח');
     nav.innerHTML = '<div class="wrap"><a href="' + esc(to('')) + '"' + (chat ? '' : ' class="on" aria-current="page"') + '>📊 הנתונים</a>' +
       '<a href="' + esc(to('chat')) + '"' + (chat ? ' class="on" aria-current="page"' : '') + '>💬 העוזר</a></div>';
-    var top = document.querySelector('.pn-top'); if (top) top.parentNode.insertBefore(nav, top.nextSibling);
+    var top = document.querySelector('.pn-top');
+    // the tabs belong to the numbers' page; the assistant's page is the conversation alone, with one way back in its header
+    if (top && !chat) top.parentNode.insertBefore(nav, top.nextSibling);
     if (!chat) {
+      // AgentFeed, free for the shop: its products written so AI assistants can read them. The owner joins
+      // with their own form (an agency cannot agree for its client); the studio that sent them is named in it
+      var join = document.createElement('a'); join.className = 'joinaf';
+      var joinUrl = function () { return 'https://nitairevivo.github.io/agentfeed/join.html?via=' + encodeURIComponent(/^[a-z0-9][a-z0-9-]{0,39}$/.test(ragency || '') ? ragency : 'panel'); };
+      join.href = joinUrl(); join.addEventListener('click', function () { join.href = joinUrl(); });   // the studio is known once its tickets load
+      join.target = '_blank'; join.rel = 'noopener';
+      join.innerHTML = '<span class="jic" aria-hidden="true">🤖</span><span><b>הצטרפות ל-AgentFeed, בחינם</b><small>הקטלוג של העסק שלכם, כתוב כך שעוזרי AI כמו ChatGPT יוכלו לקרוא אותו. ממלאים טופס אחד, ואנחנו מכינים.</small></span><span class="jgo">להצטרף ↗</span>';
+      var mn = document.querySelector('main'); if (mn) mn.insertBefore(join, mn.firstChild);
       // the numbers' page: the conversation is not here; a button and the side button lead to its page
       askNode.hidden = true;
       var launch = document.createElement('a'); launch.className = 'btn btn-brand crlaunch'; launch.href = to('chat'); launch.innerHTML = '💬 לשאול את העוזר או לבקש שינוי';
@@ -1365,6 +1375,8 @@
     }
     // the assistant's page: the conversation is the whole page
     document.body.classList.add('chatpage');
+    var back = document.createElement('a'); back.className = 'crback'; back.href = to(''); back.textContent = '📊 לנתונים';
+    var tw = top && top.querySelector('.wrap'); if (tw) tw.appendChild(back);
     var room = document.createElement('section'); room.className = 'chatroom'; room.id = 'chatroom'; room.setAttribute('aria-label', 'העוזר');
     room.innerHTML = '<div class="crbody"></div><p class="crempty" id="crempty">אפשר לשאול על המספרים, או לבקש שינוי באתר:<br><b>"תעדכן את המחיר של… ל-120"</b> · <b>"תסתיר את…, אזל"</b></p>';
     var main = document.querySelector('main'); main.parentNode.insertBefore(room, main);
