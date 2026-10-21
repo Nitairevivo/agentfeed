@@ -684,6 +684,7 @@
                    : local ? Promise.resolve(local) : assistCall(q);
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
+      if (a && a.home && pageUrl(a.home)) knownHome = a.home;
       if (demo && a && (looks || a.kind === 'brain' || (a.kind === 'change' && !local))) demoMeterUse();
       if (a && a.kind && a.kind !== 'question' && a.answer) {
         wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
@@ -707,7 +708,7 @@
           '<p>לא הצלחתי לענות על זה. נסו לנסח אחרת.</p>';
         return;
       }
-      wait.innerHTML = (r.answer ? '<p>' + esc(r.answer) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips);
+      wait.innerHTML = (r.answer ? '<p>' + linkify(esc(r.answer)) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips);
       record('ai', wait.innerHTML); tools(wait);
     }).catch(function (e2) {
       wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
@@ -736,8 +737,13 @@
   }
   var REQ = { draft: 'מחכה לאישור שלכם', approved: 'אושר, עולה לאתר בדקות הקרובות', applied: '✓ עלה לאתר', needs_human: 'אצלנו בטיפול',
               failed: 'לא עלה', cancelled: 'בוטל', rejected: 'לא בוצע' };
+  // an address in an answer opens: only https, on text already escaped, the address kept as it was written
+  function linkify(html) {
+    return String(html).replace(/https:\/\/[^\s<>"']+[^\s<>"'.,:;!?)]/g, function (u) {
+      return '<a href="' + u + '" target="_blank" rel="noopener" dir="ltr">' + u + '</a>'; });
+  }
   function assistHtml(a) {
-    var h = '<p>' + esc(a.answer).replace(/\n/g, '<br>') + '</p>';
+    var h = '<p>' + linkify(esc(a.answer)).replace(/\n/g, '<br>') + '</p>';
     if (a.link && pageUrl(a.link[0])) h += '<p><a class="btn btn-s" href="' + esc(a.link[0]) + '" target="_blank" rel="noopener">' + esc(a.link[1]) + '</a></p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     // the site itself, as every visitor sees it, and what is worth changing: each idea one tap from its own preview
@@ -777,9 +783,22 @@
   var CHANGE_RE = /(תשנ[הי]|תעדכנ?[יו]?|תוריד|תורידי|תסתיר|תחזיר|תוסיף|תוסיפי|תחליף|תחליפי|תמחק|תמחקי|לשנות|לעדכן|להוריד|להסתיר|להחזיר|להוסיף|להחליף|למחוק|^\s*(שנה|עדכן|הורד|הוסף|החלף|מחק)|אזל|נגמר|חזר למלאי|יש שוב|מחיר חדש|להוזיל|תוזיל|הוזל|הנחה|מבצע|להעלות|תעלה|תייקר|לייקר|\d+\s*%|אחוז)/;
   // the same words the server sorts by (server/lib/assist.mjs RE.look and RE.design)
   var ideaAsked = false;   // a tapped idea is a change of look, however it is worded
-  var LOOK_RE = /((שלח|תשלח|תשלחי|לשלוח|תראה|תראי|להראות|לראות|תביא|תביאי)[^.?!]{0,20}(תמונ|צילום|צילומי מסך|סקרינשוט))|((תראה|תראי|להראות)( לי)? את (ה)?(אתר|חנות|עמוד הבית))|איך (ה)?(אתר|חנות|עמוד הבית) נרא|מה (כדאי|אפשר|הייתי|צריך) (לשנות|לשפר)/;
+  var LOOK_RE = /((תראה|תראי)( לי)? את (ה)?(עמוד|דף) (של )?)|((שלח|תשלח|תשלחי|לשלוח|תראה|תראי|להראות|לראות|תביא|תביאי)[^.?!]{0,20}(תמונ|צילום|צילומי מסך|סקרינשוט))|((תראה|תראי|להראות)( לי)? את (ה)?(אתר|חנות|עמוד הבית))|איך (ה)?(אתר|חנות|עמוד הבית) נרא|מה (כדאי|אפשר|הייתי|צריך) (לשנות|לשפר)/;
   var DESIGN_RE = /(צבע|כחול|אדום|ירוק|סגול|שחור|לבן|ורוד|כתום|צהוב|זהב|רקע|פונט|גופן|כותרת|כפתור|לוגו|תגדיל|תקטין|תעצב|עיצוב|באנר|מרווח|תפריט|פס הודעה|פס למעלה|פס עליון|עמוד הבית|מודרני|יוקרתי|כהה|בהיר|מסגרת|עגול|פוטר|תחתית האתר)/;
+  // "תשלח לי קישור לאתר": the site's address, as a button, and a product's own page when one is named
+  var LINK_RE = /(קישור|לינק|כתובת|link|url)/i;
+  var knownHome = '';   // the server says it with every answer (keeperapi op=assist, home)
+  function siteHome() { return demo ? LAB : (pageUrl(cfg.url) || knownHome || (cfg.site === 'lab-shop' ? LAB : '')); }
+  function homeLink(label) { var h = siteHome(); return h ? ' <a href="' + esc(h) + '" target="_blank" rel="noopener">' + (label || 'לפתוח את האתר ↗') + '</a>' : ''; }
+  function linkAnswer(q) {
+    if (!LINK_RE.test(q) || CHANGE_RE.test(q) && !/(שלח|תשלח|תן|תני|תביא|מה ה)/.test(q)) return null;
+    var home = siteHome(); if (!home) return null;
+    var it = findItem(q, shopItems()), labPage = (demo || /\/lab\/shop\/$/.test(home)) && it && /^[a-z][0-9]{1,3}$/.test(it.id) ? home + 'p/' + it.id + '.html' : '';
+    if (labPage) return { kind: 'help', answer: 'הנה העמוד של ' + it.name + ' באתר:', link: [labPage, 'לפתוח את ' + it.name + ' ↗'] };
+    return { kind: 'help', answer: 'הנה הקישור לאתר: ' + home, link: [home, 'לפתוח את האתר ↗'] };
+  }
   function localAnswer(q) {
+    var ln = linkAnswer(q); if (ln) return ln;
     if (CHANGE_RE.test(q)) return null;
     var list = shopItems();
     if (!list.length) return null;
@@ -1053,7 +1072,7 @@
         var bub = box.closest('.qa'), aft = yes && pageUrl(box.getAttribute('data-after')), oldC = aft && bub.querySelector('.cmp');
         if (oldC) oldC.remove();
         var shopPage = aft ? aft.split('?')[0] : '';
-        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : '') + '</p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (yes ? (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : homeLink('לפתוח את החנות ↗')) : '') + '</p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
         resave(id, bub); keeper(); return;
       }
       var pg = pageUrl(box.getAttribute('data-page'));
@@ -1062,10 +1081,10 @@
         var bubA = box.closest('.qa'), old = bubA.querySelector('.cmp'); if (old) old.remove();
         var now = pageUrl(r.now) || (pg ? pg + '?t=' + Date.now() : '');
         box.outerHTML = '<p class="sub"><b>✓ השינוי עלה לאתר. ככה זה נראה עכשיו:</b></p>' + (pg ? shots([[now, 'באתר עכשיו']]) +
-          '<p class="sub"><a href="' + esc(pg) + '" target="_blank" rel="noopener">לפתוח את העמוד באתר ↗</a></p>' : '');
+          '<p class="sub"><a href="' + esc(pg) + '" target="_blank" rel="noopener">לפתוח את העמוד באתר ↗</a>' + (siteHome() && siteHome() !== pg.split('?')[0] ? ' ·' + homeLink() : '') + '</p>' : (siteHome() ? '<p class="sub">' + homeLink() + '</p>' : ''));
         resave(id, bubA); keeper(); return;
       }
-      box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.' :
+      box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.</b>' + homeLink() + '<b>' :
         (r.ticket ? '✓ נפתחה פנייה #' + r.ticket.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות".' : '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.')) : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
       if (r.ticket) tickets();
       resave(id, bub2); keeper();
