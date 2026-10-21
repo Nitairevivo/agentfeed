@@ -658,7 +658,9 @@
     if (demo && local && local.kind === 'help') looks = false;
     var ask = demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }).catch(function () {
                         return { kind: 'help', answer: 'לא הצלחתי להכין את זה כרגע. נסו שוב בעוד דקה.' }; })
-            : demo ? demoBrain(q).then(function (b) { return b || local || demoAssist(q); })
+            : demo ? demoBrain(q).then(function (b) {
+                if (b && b.designNext) { looks = true; return keepCall('demo-look', { message: b.designNext }).catch(function () { return { kind: 'help', answer: 'לא הצלחתי להכין את השינוי כרגע. נסו שוב בעוד דקה.' }; }); }
+                return b || local || demoAssist(q); })
                    : local ? Promise.resolve(local) : assistCall(q);
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
@@ -756,7 +758,7 @@
   // the same words the server sorts by (server/lib/assist.mjs RE.look and RE.design)
   var ideaAsked = false;   // a tapped idea is a change of look, however it is worded
   var LOOK_RE = /((שלח|תשלח|תשלחי|לשלוח|תראה|תראי|להראות|לראות|תביא|תביאי)[^.?!]{0,20}(תמונ|צילום|צילומי מסך|סקרינשוט))|((תראה|תראי|להראות)( לי)? את (ה)?(אתר|חנות|עמוד הבית))|איך (ה)?(אתר|חנות|עמוד הבית) נרא|מה (כדאי|אפשר|הייתי|צריך) (לשנות|לשפר)/;
-  var DESIGN_RE = /(צבע|כחול|אדום|ירוק|רקע|פונט|גופן|כותרת|כפתור|לוגו|תגדיל|תקטין|תעצב|עיצוב|באנר|מרווח|תפריט)/;
+  var DESIGN_RE = /(צבע|כחול|אדום|ירוק|סגול|שחור|לבן|ורוד|כתום|צהוב|זהב|רקע|פונט|גופן|כותרת|כפתור|לוגו|תגדיל|תקטין|תעצב|עיצוב|באנר|מרווח|תפריט|פס הודעה|פס למעלה|פס עליון|עמוד הבית|מודרני|יוקרתי|כהה|בהיר|מסגרת|עגול|פוטר|תחתית האתר)/;
   function localAnswer(q) {
     if (CHANGE_RE.test(q)) return null;
     var list = shopItems();
@@ -899,13 +901,16 @@
       .then(function (b) {
         if (tm) clearTimeout(tm);
         if (!b || !b.answer) return null;
-        var all = demoCat(), list = [], tkSubject = '';
+        var all = demoCat(), list = [], tkSubject = '', design = '';
         (b.changes || []).forEach(function (c) {
+          if (c.kind === 'design') { design = design || String(c.value || q); return; }
           var it = c.item ? all.filter(function (x) { return x.id === c.item; })[0] : null;
           var ch = { kind: c.kind, item: it, value: c.value, name: c.name, price: c.kind === 'new' ? c.value : undefined };
           if (ch.kind === 'photo' || ch.kind === 'ticket') { tkSubject = c.value || q; return; }
           var s = sumOf(ch); if (s) list.push({ ch: ch, sum: s });
         });
+        // a change of look: made the way a real panel makes it, on the test shop, with its before and after
+        if (!list.length && design) return { designNext: design };
         if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
         if (!list.length) return { demo: true, kind: 'brain', answer: b.answer };
         var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
