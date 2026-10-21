@@ -556,8 +556,6 @@ form.add[aria-disabled="true"] { opacity: .5; }
 }
 
 /* the conversation's own room: a whole screen, quiet, the field at the bottom like any chat */
-body.chatmode { overflow: hidden; }
-body.chatmode .chatfab { display: none; }
 .chatroom { position: fixed; inset: 0; z-index: 80; display: flex; flex-direction: column; background: #070914;
   padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(12px, env(safe-area-inset-left, 0px)); }
 .chatroom[hidden] { display: none; }
@@ -641,3 +639,15 @@ body.chatpage .chatroom .ask .meter-pk { position: sticky; bottom: calc(var(--as
   background: #070914; margin: 0; padding: 8px 2px 4px; }
 .meter-pk .meterask { background: rgba(224,160,32,.14); color: #ffd27a; border: 1px solid rgba(224,160,32,.55); font-weight: 600; }
 .meter-pk.out .meterask { background: rgba(214,69,69,.16); color: #ffb3b3; border-color: rgba(214,69,69,.6); }
+/* the site's pictures in the chat are pictures: a finger on one scrolls the chat, and the full page opens from the link */
+.cmpw iframe { pointer-events: none; }
+.cmpopen { font-size: 13px; color: var(--cyan, #3ee6ff); text-decoration: none; opacity: .85; }
+.cmpopen:hover, .cmpopen:focus-visible { opacity: 1; text-decoration: underline; }
+/* on a phone, and on the assistant's page, the background stands still: scrolling comes first */
+@media (pointer: coarse) {
+  .pn-aurora { filter: none; opacity: .55; }
+  .pn-aurora i, .pn-floor, .pn::before { animation: none; }
+}
+body.chatpage .pn-floor { display: none; }
+body.chatpage .pn-aurora i { animation: none; }
+html { scroll-behavior: auto; }

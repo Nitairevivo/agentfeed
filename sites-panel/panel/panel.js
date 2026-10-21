@@ -489,7 +489,10 @@
       var mine = el && el.classList && el.classList.contains('me') ? el : [].slice.call($('answer').querySelectorAll('.qa.me')).pop();
       if (!mine) return;
       var nav = document.querySelector('.pnnav'), off = (nav ? nav.getBoundingClientRect().height : 0) + 16;
-      window.scrollTo({ top: Math.max(0, mine.getBoundingClientRect().top + window.scrollY - off), behavior: still ? 'auto' : 'smooth' });
+      var top = Math.max(0, mine.getBoundingClientRect().top + window.scrollY - off);
+      // a message just sent always goes up; an answer arriving leaves alone whoever scrolled away to read
+      if (mine !== el && Math.abs(window.scrollY - top) > 140) return;
+      window.scrollTo({ top: top, behavior: still ? 'auto' : 'smooth' });
       return;
     }
     var ans = $('answer');
@@ -693,14 +696,21 @@
   // site until the owner presses "כן". The keeper's card says whether the
   // site is up, from the last real check, and what happened to each request.
   var keepApi = cfg.api + '/panel?site=' + (demo ? DEMO : cfg.site) + '&op=';
+  // never wait forever: the server gives up at 60 seconds, the page a moment before
   function keepCall(op, body) {
     var h = { 'content-type': 'application/json' };
     if (!demo) h.authorization = 'Bearer ' + key;
-    return fetch(keepApi + op, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined })
-      .then(function (r) { if (r.status === 429) throw new Error('limit'); if (!r.ok) throw new Error('server'); return r.json(); });
+    var ctl = window.AbortController ? new AbortController() : null, t = ctl && setTimeout(function () { ctl.abort(); }, 58000);
+    return fetch(keepApi + op, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined })
+      .then(function (r) { if (t) clearTimeout(t); if (r.status === 429) throw new Error('limit'); if (!r.ok) throw new Error('server'); return r.json(); },
+            function (e) { if (t) clearTimeout(t); throw e; });
   }
+  // a request the assistant could not take is said so, here: it is not handed to the analyst, who reads numbers
   function assistCall(q) {
-    return keepCall('assist', { message: q, catalog: items.length ? items : undefined }).catch(function () { return null; });
+    return keepCall('assist', { message: q, catalog: items.length ? items : undefined }).catch(function (e) {
+      return { kind: 'help', answer: e && e.name === 'AbortError' ? 'זה לקח יותר מדי זמן, ולא השתנה כלום. נסו שוב בעוד דקה, או נסחו את הבקשה קצר יותר.'
+        : e && e.message === 'limit' ? 'הגעתם למספר הבקשות להיום. אפשר להמשיך מחר.' : 'לא הצלחתי להתחבר כרגע, ולא השתנה כלום. נסו שוב בעוד דקה.' };
+    });
   }
   var REQ = { draft: 'מחכה לאישור שלכם', approved: 'אושר, עולה לאתר בדקות הקרובות', applied: '✓ עלה לאתר', needs_human: 'אצלנו בטיפול',
               failed: 'לא עלה', cancelled: 'בוטל', rejected: 'לא בוצע' };
@@ -1160,7 +1170,8 @@
     if (!/[?&]af-preview=[a-f0-9]{24}/.test(preview || '')) return '';
     var before = preview.replace(/([?&])af-preview=[a-f0-9]{24}/, '$1af-before=1');
     var frame = function (u, label, side) { return '<figure class="cmpf' + (side === 'a' ? ' on' : '') + '" data-side="' + side + '"><figcaption>' + label + '</figcaption>' +
-      '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" title="' + label + '"></iframe></div></figure>'; };
+      '<div class="cmpw"><iframe src="' + esc(u) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" tabindex="-1" title="' + label + '"></iframe></div>' +
+      '<a class="cmpopen" href="' + esc(u) + '" target="_blank" rel="noopener">לפתוח בגודל מלא ↗</a></figure>'; };
     return '<div class="cmp"><div class="cmpt" role="tablist"><button type="button" data-cmp="b">לפני</button><button type="button" data-cmp="a" class="on">אחרי</button></div>' +
       '<div class="cmpr">' + frame(before, 'עכשיו באתר', 'b') + frame(preview, 'אחרי השינוי', 'a') + '</div></div>';
   }
@@ -1170,7 +1181,8 @@
     // one picture needs no tabs: its caption says what it is
     return '<div class="cmp"><div class="cmpt"' + (list.length < 2 ? ' hidden' : '') + '>' + list.map(function (x, i) { return '<button type="button" data-cmp="' + i + '"' + (i === list.length - 1 ? ' class="on"' : '') + '>' + x[1] + '</button>'; }).join('') + '</div>' +
       '<div class="cmpr">' + list.map(function (x, i) { return '<figure class="cmpf' + (i === list.length - 1 ? ' on' : '') + '" data-side="' + i + '"><figcaption>' + x[1] + '</figcaption>' +
-        '<div class="cmpw"><iframe src="' + esc(x[0]) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" title="' + x[1] + '"></iframe></div></figure>'; }).join('') + '</div></div>';
+        '<div class="cmpw"><iframe src="' + esc(x[0]) + '" sandbox="allow-scripts" referrerpolicy="no-referrer" tabindex="-1" title="' + x[1] + '"></iframe></div>' +
+        '<a class="cmpopen" href="' + esc(x[0]) + '" target="_blank" rel="noopener">לפתוח בגודל מלא ↗</a></figure>'; }).join('') + '</div></div>';
   }
   var pageUrl = function (u) { return /^https:\/\/[a-z0-9.-]+\//.test(u || '') ? u : ''; };
   // what the owner's device signs, drawn from the very object it signs
@@ -1383,10 +1395,16 @@
   var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var fine = matchMedia('(pointer: fine)').matches;
   var root = document.documentElement, mx = innerWidth / 2, my = innerHeight / 3;
+  // the light follows a mouse, once a frame; a finger moves the page, and nothing here should slow that down
+  var lit = 0;
   addEventListener('pointermove', function (e) {
     mx = e.clientX; my = e.clientY;
-    root.style.setProperty('--mx', mx + 'px'); root.style.setProperty('--my', my + 'px');
+    if (!fine || lit) return;
+    lit = requestAnimationFrame(function () { lit = 0; root.style.setProperty('--mx', mx + 'px'); root.style.setProperty('--my', my + 'px'); });
   }, { passive: true });
+  // while the page scrolls, and while it is not on screen, the sky rests
+  var moving = 0;
+  addEventListener('scroll', function () { moving = Date.now(); }, { passive: true });
 
   // the sky: points that drift, join when near, and lean toward the pointer
   var c = document.getElementById('pnsky');
@@ -1394,7 +1412,7 @@
     var g = c.getContext('2d'), dpr = Math.min(2, devicePixelRatio || 1), W, H, pts = [];
     function size() {
       W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var n = Math.round(Math.min(90, W * H / 16000));
+      var n = Math.round(Math.min(fine ? 90 : 36, W * H / (fine ? 16000 : 22000)));
       pts = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .25, vy: (Math.random() - .5) * .25, r: Math.random() * 1.6 + .4 }; });
     }
     size(); addEventListener('resize', size);
@@ -1408,7 +1426,11 @@
       }
     }, { passive: true });
     var brand = getComputedStyle(document.body).getPropertyValue('--glow').trim() || '#8b6cff';
+    var tick = 0;
     (function frame() {
+      requestAnimationFrame(frame);
+      // a phone draws every other frame; nothing is drawn while scrolling or in the background
+      if (document.hidden || Date.now() - moving < 180 || (!fine && (tick++ & 1))) return;
       g.clearRect(0, 0, W, H);
       for (var i = 0; i < pts.length; i++) {
         var p = pts[i], dx = mx - p.x, dy = my - p.y, d2 = dx * dx + dy * dy;
@@ -1431,7 +1453,6 @@
         g.strokeStyle = 'rgba(139,108,255,' + (0.4 * life) + ')'; g.lineWidth = 1;
         g.beginPath(); g.arc(rg.x, rg.y, rg.r * .6, 0, 6.283); g.stroke();
       }
-      requestAnimationFrame(frame);
     })();
   }
 
