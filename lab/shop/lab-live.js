@@ -44,10 +44,17 @@
   // the changes of look: each fetched as the preview it is (checked on the server), and put on this page the way the line
   // does it (patches.mjs): CSS that cannot load or run anything, text as text, hidden parts, the line across the top
   var BAD = /<|\\|\/\*|\/\/|url\s*\(|image-set|src\s*\(|@import|@font-face|expression\s*\(|javascript:|behavio(u)?r\s*:|-moz-binding|@charset/i;
+  var FONTS = ["Heebo", "Assistant", "Rubik", "Frank Ruhl Libre", "Secular One", "Varela Round", "Noto Sans Hebrew", "Noto Serif Hebrew", "Alef", "Suez One", "Amatic SC", "Bellefair", "Karantina", "IBM Plex Sans Hebrew", "David Libre", "Miriam Libre"];   // the same list as server/lib/patches.mjs FONTS
   function putLooks(list) {
     var css = '', text = [], bar = null;
     list.forEach(function (d) {
       if (!d || !d.preview) return;
+      (d.fonts || []).forEach(function (f) {
+        if (FONTS.indexOf(f) < 0 || document.querySelector('link[data-af-font="' + f + '"]')) return;
+        var l = document.createElement('link'); l.rel = 'stylesheet'; l.setAttribute('data-af-font', f);
+        l.href = 'https://fonts.googleapis.com/css2?family=' + f.replace(/ /g, '+') + ':wght@400;500;700;800&display=swap';
+        (document.head || document.documentElement).appendChild(l);
+      });
       if (d.css && !BAD.test(d.css)) css += '\n' + d.css;
       (d.hide || []).forEach(function (h) { if (!/[<>{}\\;@]|\/\*|\*\//.test(h) && !BAD.test(h)) css += '\n' + h + '{display:none!important}'; });
       text = text.concat(d.text || []); if (d.bar && d.bar.text) bar = d.bar;

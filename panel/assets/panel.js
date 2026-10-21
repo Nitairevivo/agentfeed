@@ -527,8 +527,19 @@
   }
   // A chat kept on this device comes back as HTML, and anything else on this origin could have written it:
   // it is read in an inert template, and what could run (scripts, frames, on… handlers, script links) is removed
+  // The pictures of the site are the one frame a kept chat may bring back: only from the shop's own address or ours,
+  // only https, and rebuilt here from scratch (sandboxed, no same-origin), never taken as written
+  var frameHosts = ['nitairevivo.github.io'];
+  try { if (cfg && cfg.url) frameHosts.push(new URL(cfg.url).host); } catch (x) {}
+  function frameOk(u) { try { var x = new URL(u); return x.protocol === 'https:' && frameHosts.indexOf(x.host) >= 0; } catch (e) { return false; } }
   function safeHtml(h) {
     var t = document.createElement('template'); t.innerHTML = String(h || '');
+    [].forEach.call(t.content.querySelectorAll('.cmpw iframe'), function (f) {
+      var u = f.getAttribute('src') || '', ph = document.createElement('span');
+      if (!frameOk(u)) return;
+      ph.className = 'cmpframe'; ph.setAttribute('data-src', u); ph.setAttribute('data-title', (f.getAttribute('title') || '').slice(0, 40));
+      f.parentNode.replaceChild(ph, f);
+    });
     [].forEach.call(t.content.querySelectorAll('script,iframe,object,embed,style,link,meta,base,form,svg,math'), function (n) { n.remove(); });
     [].forEach.call(t.content.querySelectorAll('*'), function (el) {
       [].slice.call(el.attributes).forEach(function (a) {
@@ -537,9 +548,18 @@
     });
     return t.innerHTML;
   }
+  // the placeholders safeHtml left become pictures again
+  function refreeze(el) {
+    [].forEach.call(el.querySelectorAll('span.cmpframe'), function (ph) {
+      var u = ph.getAttribute('data-src'); if (!frameOk(u)) { ph.remove(); return; }
+      var f = document.createElement('iframe'); f.src = u; f.setAttribute('sandbox', 'allow-scripts'); f.setAttribute('referrerpolicy', 'no-referrer');
+      f.setAttribute('tabindex', '-1'); f.title = ph.getAttribute('data-title') || '';
+      ph.parentNode.replaceChild(f, ph);
+    });
+  }
   function openChat(c) {
     $('answer').innerHTML = ''; cur = c || null;
-    (c ? c.msgs : []).forEach(function (m) { var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); tools(el); });
+    (c ? c.msgs : []).forEach(function (m) { var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); tools(el); refreeze(el); });
     layout(); logBox.hidden = true; drawRecent();
     var ans = $('answer'); ans.scrollTop = ans.scrollHeight;
   }
