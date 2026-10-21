@@ -1364,7 +1364,7 @@
       join.href = joinUrl(); join.addEventListener('click', function () { join.href = joinUrl(); });   // the studio is known once its tickets load
       join.target = '_blank'; join.rel = 'noopener';
       // a quiet line across the very top, not a card: it is an offer, not the page's news
-      join.innerHTML = '<span>🤖 <b>AgentFeed בחינם:</b> הקטלוג שלכם, קריא לעוזרי AI<span class="jwide"> כמו ChatGPT</span></span><span class="jgo">להצטרף ↗</span>';
+      join.innerHTML = '<span>🤖 <b>7 ימים חינם ב-AgentFeed:</b> <span class="jwide">הקטלוג שלכם, </span>קריא לעוזרי AI<span class="jwide"> כמו ChatGPT</span></span><span class="jgo">להצטרף ↗</span>';
       document.body.insertBefore(join, document.body.firstChild);
       // the numbers' page: the conversation is not here; a button and the side button lead to its page
       askNode.hidden = true;
