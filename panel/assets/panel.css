@@ -634,3 +634,10 @@ body.pn { background-color: #070914; }
 .chatroom .ask .askf { order: 5; }
 .cmpt[hidden] { display: none !important; }
 .meter-pk.meter-data { max-width: 520px; margin: 0 auto 10px; }
+/* room under the last answer, so the message just sent can rise to the top of the screen, as in a chat */
+body.chatpage .chatroom #answer::after { content: ""; display: block; min-height: 64vh; }
+/* the meter rides just above the field, always in view on the assistant's page */
+body.chatpage .chatroom .ask .meter-pk { position: sticky; bottom: calc(var(--askh, 72px) + env(safe-area-inset-bottom, 0px)); z-index: 5;
+  background: #070914; margin: 0; padding: 8px 2px 4px; }
+.meter-pk .meterask { background: rgba(224,160,32,.14); color: #ffd27a; border: 1px solid rgba(224,160,32,.55); font-weight: 600; }
+.meter-pk.out .meterask { background: rgba(214,69,69,.16); color: #ffb3b3; border-color: rgba(214,69,69,.6); }

@@ -482,7 +482,16 @@
     askNode.classList.toggle('talking', talking);
   }
   // the conversation scrolls inside its own frame; the page stays where it is
-  function follow() {
+  // On the assistant's own page the page itself scrolls: each message the owner sends goes up to just under the
+  // tabs, and the answer grows below it, the way a chat does. Elsewhere the conversation box scrolls to its end.
+  function follow(el) {
+    if (document.body.classList.contains('chatpage')) {
+      var mine = el && el.classList && el.classList.contains('me') ? el : [].slice.call($('answer').querySelectorAll('.qa.me')).pop();
+      if (!mine) return;
+      var nav = document.querySelector('.pnnav'), off = (nav ? nav.getBoundingClientRect().height : 0) + 16;
+      window.scrollTo({ top: Math.max(0, mine.getBoundingClientRect().top + window.scrollY - off), behavior: still ? 'auto' : 'smooth' });
+      return;
+    }
     var ans = $('answer');
     if (ans.scrollTo) ans.scrollTo({ top: ans.scrollHeight, behavior: still ? 'auto' : 'smooth' }); else ans.scrollTop = ans.scrollHeight;
     $('askf').scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
@@ -496,7 +505,7 @@
   }
   function bubble(html, cls, quiet) {
     var el = document.createElement('div'); el.className = 'qa ' + cls; el.innerHTML = html;
-    $('answer').appendChild(el); layout(); if (!quiet) follow();
+    $('answer').appendChild(el); layout(); if (!quiet) follow(el);
     return el;
   }
   function record(who, html) {
@@ -865,7 +874,7 @@
     if (why) return { demo: true, kind: 'change', answer: why };
     var id = 'D' + Date.now().toString(36); dreqs[id] = { ch: ch, sum: sum };
     if (it) lastItem = it;
-    return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, demoShots: demoShots([ch]), answer: 'הבנתי: ' + sum + '. לאשר?' };
+    return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, demoShots: demoShots([ch]), answer: 'הבנתי: ' + sum + '.' + (demoShots([ch]) ? ' למטה שתי תמונות של עמוד המוצר: איך הוא נראה עכשיו, ואיך ייראה אחרי השינוי.' : '') + ' לאשר?' };
   }
   // The demo talks to the same model the analyst uses, with this example
   // shop's products and numbers, so it answers anything an owner would ask.
@@ -1348,6 +1357,9 @@
     room.innerHTML = '<div class="crbody"></div><p class="crempty" id="crempty">אפשר לשאול על המספרים, או לבקש שינוי באתר:<br><b>"תעדכן את המחיר של… ל-120"</b> · <b>"תסתיר את…, אזל"</b></p>';
     var main = document.querySelector('main'); main.parentNode.insertBefore(room, main);
     room.querySelector('.crbody').appendChild(askNode); askNode.hidden = false;
+    // the field's height, for the meter that sits right above it (panel.css --askh)
+    var setH = function () { room.style.setProperty('--askh', $('askf').offsetHeight + 'px'); };
+    setH(); if (window.ResizeObserver) new ResizeObserver(setH).observe($('askf'));
     document.title = 'העוזר | ' + (cfg.name || 'האתר');
     function empty() { $('crempty').hidden = $('answer').children.length > 0; }
     // opened empty and ready; the last conversation is one tap away under "שיחות קודמות"
