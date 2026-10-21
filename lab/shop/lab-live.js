@@ -23,6 +23,54 @@
     });
   } catch (x) { tried = {}; }
   var over = function (o) { o = o || {}; Object.keys(tried).forEach(function (id) { o[id] = Object.assign({}, o[id] || {}, tried[id]); }); return o; };
+
+  // The example panel (panel/?demo) and this shop share one address, so the changes a visitor approved there are
+  // on this shop for them: the products as their example has them, and the changes of look they said yes to.
+  // Only in this browser, only on a page opened as itself (a picture in the chat, ?af-try / ?af-draft, keeps its own).
+  var mine = {}, looks = [], solo = /[?&]af-(try|draft|preview|before)=/.test(location.search);
+  if (!solo) try {
+    (JSON.parse(localStorage.getItem('democat:demo-wholesale') || 'null') || []).forEach(function (p) {
+      if (!p || !p.changed || !/^[a-z][0-9]{1,3}$/.test(p.id)) return;
+      var y = { hidden: p.hidden === true };
+      if (typeof p.price === 'number' && p.price > 0 && p.price < 1e6) y.price = p.price;
+      if (typeof p.name === 'string' && p.name.trim()) y.name = p.name.slice(0, 120);
+      if (typeof p.desc === 'string' && p.desc.trim()) y.desc = p.desc.slice(0, 600);
+      mine[p.id] = y;
+    });
+    looks = (JSON.parse(localStorage.getItem('demolooks:demo-wholesale') || '[]') || []).filter(function (x) { return /^[a-f0-9]{24}$/.test(x); }).slice(-10);
+  } catch (x) { mine = {}; looks = []; }
+  var ours = Object.keys(mine).length || looks.length;
+  var overMine = function (o) { o = over(o); Object.keys(mine).forEach(function (id) { o[id] = Object.assign({}, o[id] || {}, mine[id]); }); return o; };
+  // the changes of look: each fetched as the preview it is (checked on the server), and put on this page the way the line
+  // does it (patches.mjs): CSS that cannot load or run anything, text as text, hidden parts, the line across the top
+  var BAD = /<|\\|\/\*|\/\/|url\s*\(|image-set|src\s*\(|@import|@font-face|expression\s*\(|javascript:|behavio(u)?r\s*:|-moz-binding|@charset/i;
+  function putLooks(list) {
+    var css = '', text = [], bar = null;
+    list.forEach(function (d) {
+      if (!d || !d.preview) return;
+      if (d.css && !BAD.test(d.css)) css += '\n' + d.css;
+      (d.hide || []).forEach(function (h) { if (!/[<>{}\\;@]|\/\*|\*\//.test(h) && !BAD.test(h)) css += '\n' + h + '{display:none!important}'; });
+      text = text.concat(d.text || []); if (d.bar && d.bar.text) bar = d.bar;
+    });
+    var st = document.getElementById('af-mine') || document.createElement('style'); st.id = 'af-mine'; st.textContent = css; (document.head || document.documentElement).appendChild(st);
+    var setText = function () { text.forEach(function (t) { try { [].forEach.call(document.querySelectorAll(t.selector), function (el) {
+      if (/^(SCRIPT|STYLE|TITLE|NOSCRIPT|TEMPLATE|TEXTAREA|IFRAME|OBJECT|HEAD|META|LINK|svg|SVG)$/.test(el.tagName) || el.closest('svg,head')) return;
+      if (!el.children.length && el.textContent !== t.text) el.textContent = t.text; }); } catch (x) {} }); };
+    setText(); setTimeout(setText, 600); setTimeout(setText, 1800);
+    if (bar && !document.getElementById('af-mine-bar')) {
+      var HEX = /^#(?:[0-9a-f]{3}){1,2}$/i, b = document.createElement('div'); b.id = 'af-mine-bar'; b.textContent = bar.text;
+      b.setAttribute('style', 'text-align:center;padding:9px 16px;font:600 15px/1.4 system-ui,sans-serif;direction:rtl;background:' + (HEX.test(bar.bg) ? bar.bg : '#14171f') + ';color:' + (HEX.test(bar.fg) ? bar.fg : '#fff'));
+      document.body.insertBefore(b, document.body.firstChild);
+    }
+  }
+  // said on the page, small: these changes are this visitor's, from the example
+  function badge() {
+    if (!ours || document.getElementById('af-mine-note') || !document.body) return;
+    var n = document.createElement('div'); n.id = 'af-mine-note';
+    n.setAttribute('style', 'position:fixed;left:12px;bottom:12px;z-index:2147483000;background:#14171f;color:#fff;font:13px/1.4 system-ui,sans-serif;padding:8px 12px;border-radius:10px;direction:rtl;max-width:70vw;box-shadow:0 6px 18px rgba(0,0,0,.25)');
+    n.textContent = '🧪 השינויים שעשיתם בהדגמה מוצגים כאן, רק בדפדפן הזה';
+    document.body.appendChild(n);
+  }
   var done = false;
   function go() { if (done) return; done = true; var t = document.createElement('script'); t.src = store; document.body.appendChild(t); }
   var money = function (n) { var r = Math.round(n * 100) / 100; return '₪' + r.toLocaleString('he-IL', { minimumFractionDigits: r % 1 ? 2 : 0, maximumFractionDigits: 2 }); };
@@ -58,5 +106,9 @@
   }
   setTimeout(go, 2500);
   fetch(API + '&t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; })
-    .then(function (d) { if (!done) apply(over(d.items)); }, function () { if (!done) apply(over({})); }).then(go);
+    .then(function (d) { if (!done) apply(overMine(d.items)); }, function () { if (!done) apply(overMine({})); }).then(go);
+  if (looks.length) Promise.all(looks.map(function (id) {
+    return fetch('https://agentfeed-plum.vercel.app/api/panel?op=patches&site=lab-shop&preview=' + id, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }, function () { return null; });
+  })).then(function (list) { var run = function () { putLooks(list); badge(); }; if (document.body) run(); else document.addEventListener('DOMContentLoaded', run); });
+  else if (ours) { if (document.body) badge(); else document.addEventListener('DOMContentLoaded', badge); }
 })();

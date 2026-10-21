@@ -944,7 +944,7 @@
   }
   // The example panel's before and after: the test shop's own page for the product, with the example's state
   // laid over it (lab-live.js, ?af-try=), once as it is and once with the change. Several products: the shop's front.
-  var LAB = 'https://nitairevivo.github.io/agentfeed/lab/shop/';
+  var LAB = 'https://nitairevivo.github.io/agentfeed/lab/shop/', DLK = 'demolooks:demo-wholesale';
   function labState(p) { return { price: Number(p.price), name: p.name, desc: p.desc || '', hidden: !!p.hidden }; }
   function demoShots(chs) {
     var now = {}, after = {}, ids = [];
@@ -977,7 +977,7 @@
     var list = r.list || [{ ch: r.ch, sum: r.sum }];
     list.forEach(function (x) { demoApply(x.ch); dlog.unshift({ summary: x.sum, status: 'applied', at: new Date().toISOString() }); });
     demoSave();
-    return { note: (list.length > 1 ? '✓ ' + list.length + ' שינויים עודכנו.' : '✓ עודכן.') + ' ככה זה נראה עכשיו בטבלת המוצרים למעלה. באתר אמיתי השינוי עולה לאתר תוך כמה דקות, ומגיעה הודעה כשהוא באוויר.' };
+    return { note: (list.length > 1 ? '✓ ' + list.length + ' שינויים עודכנו בחנות.' : '✓ עודכן בחנות.') + ' בהדגמה השינוי נשמר רק בדפדפן שלכם.' };
   }
   function demoStatus() {
     var now = Date.now(), ago = function (m) { return new Date(now - m * 60000).toISOString(); };
@@ -990,7 +990,7 @@
   var tableOpen = false;
   function demoTable() {
     var all = demoCat(), shown = all.filter(function (p) { return !p.hidden; }).length;
-    var pageOf = function (p) { return /^[a-z][0-9]{1,3}$/.test(p.id) ? LAB + 'p/' + p.id + '.html' + (p.changed ? '?af-try=' + encodeURIComponent(JSON.stringify((function () { var o = {}; o[p.id] = labState(p); return o; })())) : '') : ''; };
+    var pageOf = function (p) { return /^[a-z][0-9]{1,3}$/.test(p.id) ? LAB + 'p/' + p.id + '.html' : ''; };
     return '<details class="prods"' + (tableOpen ? ' open' : '') + '><summary><span>🛍️ <b>המוצרים בחנות</b> <small>' + all.length + ' מוצרים' + (shown < all.length ? ', ' + (all.length - shown) + ' מוסתרים' : '') + '</small></span>' +
       '<span class="pgo">לראות את המוצרים</span></summary>' +
       '<p class="sub">אלה המוצרים של החנות לדוגמה, עם המחירים שבה. נסו לשנות אחד מהצ\'אט, ולחצו על מוצר כדי לראות את העמוד שלו. <a href="' + LAB + '" target="_blank" rel="noopener">לחנות ↗</a></p><ul class="list">' + all.map(function (p) {
@@ -1001,7 +1001,7 @@
   }
   document.addEventListener('toggle', function (e) { if (e.target && e.target.classList && e.target.classList.contains('prods')) tableOpen = e.target.open; }, true);
   document.addEventListener('click', function (e) {
-    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); } catch (x) {} keeper(); tickets(); meterNow(); }
+    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); localStorage.removeItem(DLK); } catch (x) {} keeper(); tickets(); meterNow(); }
   });
   $('answer').addEventListener('click', function (e) {
     var idea = e.target.closest('[data-idea]');
@@ -1018,7 +1018,11 @@
     if (dpv) {
       var bubD = box.closest('.qa'), oldD = bubD.querySelector('.cmp');
       if (yes && oldD) oldD.remove();
-      box.outerHTML = yes ? '<p class="sub"><b>✓ ככה זה נראה עכשיו.</b> בחנות של לקוח אמיתי זה כבר באתר, לכל המבקרים. בהדגמה השינוי נשאר רק אצלכם.</p>' + shots([[dpv, 'באתר עכשיו']])
+      // the change goes onto the shop itself, for this visitor: the shop reads what was approved here (lab-live.js)
+      var pid = (dpv.match(/af-preview=([a-f0-9]{24})/) || [])[1];
+      if (yes && pid) try { var lk = JSON.parse(localStorage.getItem(DLK) || '[]'); if (lk.indexOf(pid) < 0) lk.push(pid); localStorage.setItem(DLK, JSON.stringify(lk.slice(-10))); } catch (x) {}
+      var shopAt = dpv.split('?')[0];
+      box.outerHTML = yes ? '<p class="sub"><b>✓ השינוי בחנות.</b> <a href="' + esc(shopAt) + '" target="_blank" rel="noopener">לפתוח את החנות ולראות ↗</a><br>בחנות של לקוח אמיתי הוא באתר לכל המבקרים. בהדגמה הוא נשמר רק בדפדפן שלכם.</p>' + shots([[dpv, 'באתר עכשיו']])
         : '<p class="sub"><b>בוטל. שום דבר לא השתנה.</b></p>';
       resave(id, bubD); return;
     }
@@ -1028,7 +1032,8 @@
       if (demo) {
         var bub = box.closest('.qa'), aft = yes && pageUrl(box.getAttribute('data-after')), oldC = aft && bub.querySelector('.cmp');
         if (oldC) oldC.remove();
-        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b></p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
+        var shopPage = aft ? aft.split('?')[0] : '';
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : '') + '</p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
         resave(id, bub); keeper(); return;
       }
       var pg = pageUrl(box.getAttribute('data-page'));
