@@ -45,9 +45,50 @@
   // the changes of look: each fetched as the preview it is (checked on the server), and put on this page the way the line
   // does it (patches.mjs): CSS that cannot load or run anything, text as text, hidden parts, the line across the top
   var BAD = /<|\\|\/\*|\/\/|url\s*\(|image-set|src\s*\(|@import|@font-face|expression\s*\(|javascript:|behavio(u)?r\s*:|-moz-binding|@charset/i;
-  var FONTS = ["Heebo", "Assistant", "Rubik", "Frank Ruhl Libre", "Secular One", "Varela Round", "Noto Sans Hebrew", "Noto Serif Hebrew", "Alef", "Suez One", "Amatic SC", "Bellefair", "Karantina", "IBM Plex Sans Hebrew", "David Libre", "Miriam Libre"];   // the same list as server/lib/patches.mjs FONTS
+  var FONTS = ["Heebo", "Assistant", "Rubik", "Frank Ruhl Libre", "Secular One", "Varela Round", "Noto Sans Hebrew", "Noto Serif Hebrew", "Alef", "Suez One", "Amatic SC", "Bellefair", "Karantina", "IBM Plex Sans Hebrew", "David Libre", "Miriam Libre", "Fredoka", "Bona Nova", "Arimo", "Tinos", "Playpen Sans Hebrew"];   // the same list as server/lib/patches.mjs FONTS
+
+  // the art Claude drew: an SVG shown as a picture (a CSS variable the patch's CSS uses), checked again here
+  var SVGBAD = /<\s*\/?\s*(script|foreignobject|image|use|iframe|object|embed|a|style|animate\w*|set|feimage|handler|listener)\b|\son\w+\s*=|(xlink:)?href\s*=|javascript:|data:|url\(\s*['"]?(?!#)|<!|<\?/i;
+  function artOn(list) {
+    (list || []).forEach(function (a) {
+      var n = String(a && a.name || ''), v = String(a && a.svg || '');
+      if (!/^[a-z0-9]{1,24}$/.test(n) || !/^<svg[\s>]/i.test(v) || v.length > 16000 || SVGBAD.test(v)) return;
+      document.documentElement.style.setProperty('--af-' + n, 'url("data:image/svg+xml,' + encodeURIComponent(v) + '")');
+    });
+  }
+  // a picture's address: this site's own, or a free photo the server offered for this change
+  function okSrc(src, allow) {
+    var host = ''; try { host = new URL(src).host; } catch (x) {}
+    return /^https:\/\/[^\s"'()<>\\]+$/i.test(src) && (host === location.host || (allow || []).indexOf(src) >= 0);
+  }
+  // a link from a new part of the page: this site, or the shop's own WhatsApp or phone
+  function okHref(h) {
+    h = String(h || '');
+    if (/^\/(?!\/)[^\s"'<>\\]*$/.test(h) || /^#[a-z][\w-]*$/i.test(h) || /^tel:\+?\d{9,15}$/.test(h)) return true;
+    try { var u = new URL(h); return u.protocol === 'https:' && (u.host === location.host || u.host === 'wa.me' || u.host === 'api.whatsapp.com'); } catch (x) { return false; }
+  }
+  // new parts of the page, built element by element with text as text: each once, by its key
+  function blocksOn(list, allow) {
+    (list || []).forEach(function (b) {
+      if (!b || !/^[a-z0-9-]{1,40}$/.test(String(b.key || '')) || document.querySelector('[data-af-b="' + b.key + '"]')) return;
+      var at = null; try { at = document.querySelector(b.selector); } catch (x) {}
+      if (!at || !at.parentNode || at.closest('head')) return;
+      var el = document.createElement('section'); el.setAttribute('data-af-b', b.key);
+      el.className = 'af-block' + (/^af-[a-z0-9-]{1,30}$/.test(b.cls || '') && b.cls !== 'af-block' ? ' ' + b.cls : '');
+      var add = function (tag, txt, cls) { if (!txt) return; var x = document.createElement(tag); x.textContent = String(txt); x.className = cls; el.appendChild(x); };
+      if (b.image && okSrc(String(b.image), allow)) { var im = document.createElement('img'); im.src = b.image; im.alt = String(b.alt || ''); im.loading = 'lazy'; im.className = 'af-img'; el.appendChild(im); }
+      add('h2', b.title, 'af-title'); add('p', b.text, 'af-text');
+      if ((b.items || []).length) { var ul = document.createElement('ul'); ul.className = 'af-items';
+        b.items.slice(0, 8).forEach(function (t) { var li = document.createElement('li'); li.textContent = String(t); ul.appendChild(li); }); el.appendChild(ul); }
+      if (b.button && b.button.text && okHref(b.button.href)) { var ln = document.createElement('a'); ln.className = 'af-btn'; ln.textContent = String(b.button.text); ln.href = b.button.href; el.appendChild(ln); }
+      if (b.where === 'before') at.parentNode.insertBefore(el, at);
+      else if (b.where === 'prepend') at.insertBefore(el, at.firstChild);
+      else if (b.where === 'append') at.appendChild(el);
+      else at.parentNode.insertBefore(el, at.nextSibling);
+    });
+  }
   function putLooks(list) {
-    var css = '', text = [], pics = [], bar = null;
+    var css = '', text = [], pics = [], bar = null, art = [], blocks = [], allow = [];
     list.forEach(function (d) {
       if (!d || !d.preview) return;
       (d.fonts || []).forEach(function (f) {
@@ -59,21 +100,24 @@
       if (d.css && !BAD.test(d.css)) css += '\n' + d.css;
       (d.hide || []).forEach(function (h) { if (!/[<>{}\\;@]|\/\*|\*\//.test(h) && !BAD.test(h)) css += '\n' + h + '{display:none!important}'; });
       text = text.concat(d.text || []); pics = pics.concat(d.images || []); if (d.bar && d.bar.text) bar = d.bar;
+      art = art.concat(d.art || []); blocks = blocks.concat(d.blocks || []); allow = allow.concat(d.allow || []);
     });
     var st = document.getElementById('af-mine') || document.createElement('style'); st.id = 'af-mine'; st.textContent = css; (document.head || document.documentElement).appendChild(st);
     var setText = function () { text.forEach(function (t) { try { [].forEach.call(document.querySelectorAll(t.selector), function (el) {
       if (/^(SCRIPT|STYLE|TITLE|NOSCRIPT|TEMPLATE|TEXTAREA|IFRAME|OBJECT|HEAD|META|LINK|svg|SVG)$/.test(el.tagName) || el.closest('svg,head')) return;
       if (!el.children.length && el.textContent !== t.text) el.textContent = t.text; }); } catch (x) {} }); };
     // a picture swapped for another this shop already shows: https, this same site, never anything else
-    var setPics = function () { pics.forEach(function (m) { var src = String(m && m.src || ''), host = '';
-      try { host = new URL(src).host; } catch (x) {}
-      if (!/^https:\/\/[^\s"'()<>\\]+$/i.test(src) || host !== location.host) return;
+    artOn(art);
+    var setBlocks = function () { blocksOn(blocks, allow); };
+    var setPics = function () { pics.forEach(function (m) { var src = String(m && m.src || '');
+      if (!okSrc(src, allow)) return;
       try { [].forEach.call(document.querySelectorAll(m.selector), function (el) {
         if (el.closest('head')) return;
         if (el.tagName === 'IMG') { if (el.getAttribute('src') !== src) { el.removeAttribute('srcset'); el.src = src; } }
         else el.style.backgroundImage = 'url("' + src + '")'; }); } catch (x) {} }); };
     setText(); setTimeout(setText, 600); setTimeout(setText, 1800);
     setPics(); setTimeout(setPics, 600); setTimeout(setPics, 1800);
+    setBlocks(); setTimeout(setBlocks, 600); setTimeout(setBlocks, 1800);
     var shopBar = document.getElementById('af-bar'); if (bar && shopBar) shopBar.style.display = 'none';
     if (bar && !document.getElementById('af-mine-bar')) {
       var HEX = /^#(?:[0-9a-f]{3}){1,2}$/i, b = document.createElement('div'); b.id = 'af-mine-bar'; b.textContent = bar.text;
