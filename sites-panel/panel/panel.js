@@ -672,7 +672,7 @@
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
     // the example panel shows its pictures and its changes on our test shop: real, but a change stays a preview
-    var looks = demo && (ideaAsked || LOOK_RE.test(q) || DESIGN_RE.test(q)); ideaAsked = false;
+    var looks = demo && (ideaAsked || LOOK_RE.test(q) || DESIGN_RE.test(q) || (/תמונ|צילום/.test(q) && !/(חדשה|חדשות|אשלח|שלחתי|אעלה|להעלות|צילמתי)/.test(q))); ideaAsked = false;
     // the example's package used up: what needs the model waits for more, a price still changes (as in a real panel)
     if (demo && !local && demoMeter().spent) local = { kind: 'help', demo: true, answer: 'החבילה של העוזר לחודש הזה נגמרה, ולכן את זה אני לא יכול להכין עכשיו. שינוי מחיר, הסתרה והחזרה של מוצר עדיין עובדים. אפשר לבקש מהסטודיו להגדיל את החבילה (הכפתור מתחת לצ\'אט).' };
     if (demo && local && local.kind === 'help') looks = false;
@@ -725,7 +725,7 @@
     if (!demo) h.authorization = 'Bearer ' + key;
     var ctl = window.AbortController ? new AbortController() : null, t = ctl && setTimeout(function () { ctl.abort(); }, 58000);
     return fetch(keepApi + op, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined })
-      .then(function (r) { if (t) clearTimeout(t); if (r.status === 429) throw new Error('limit'); if (!r.ok) throw new Error('server'); return r.json(); },
+      .then(function (r) { if (t) clearTimeout(t); if (r.status === 429) throw new Error('limit'); if (r.status === 404 && /^req-/.test(op)) throw new Error('gone'); if (!r.ok) throw new Error('server'); return r.json(); },
             function (e) { if (t) clearTimeout(t); throw e; });
   }
   // a request the assistant could not take is said so, here: it is not handed to the analyst, who reads numbers
@@ -836,7 +836,10 @@
       { id: 'b1', name: 'שקיות זבל עבות', price: 35, desc: '50 יחידות' },
       { id: 'b2', name: 'כפפות ניטריל', price: 29, desc: '100 יחידות' }]
   };
-  var DCK = 'democat:' + DEMO, dcat = null, dreqs = {}, dlog = [], dwa = '050-0000000';
+  var DCK = 'democat:' + DEMO, DRK = 'demoreqs:' + DEMO, DWK = 'demowa:' + DEMO, dcat = null, dreqs = {}, dlog = [], dwa = '050-0000000';
+  // the drafts of this example and its WhatsApp number outlive a refresh, as a chat kept in "שיחות קודמות" does
+  try { dreqs = JSON.parse(localStorage.getItem(DRK) || '{}') || {}; dwa = localStorage.getItem(DWK) || dwa; } catch (x) { dreqs = {}; }
+  function draftsSave() { try { var k = Object.keys(dreqs).slice(-30), o = {}; k.forEach(function (i) { o[i] = dreqs[i]; }); dreqs = o; localStorage.setItem(DRK, JSON.stringify(o)); } catch (x) {} }
   function demoCat() {
     if (!dcat) { try { dcat = JSON.parse(localStorage.getItem(DCK) || 'null'); } catch (x) {} }
     if (!dcat) dcat = JSON.parse(JSON.stringify(DEMO_SEED['demo-wholesale']));
@@ -893,7 +896,7 @@
         .sort(function (a, b) { return a.n - b.n || b.p.price - a.p.price; }).slice(0, 2);
       var rl = rank.map(function (x) { var c = { kind: 'price', item: x.p, value: Math.max(1, Math.round(x.p.price * 0.9)) }; return { ch: c, sum: sumOf(c) }; });
       if (rl.length) {
-        var rid = 'D' + Date.now().toString(36); dreqs[rid] = { list: rl };
+        var rid = 'D' + Date.now().toString(36); dreqs[rid] = { list: rl }; draftsSave();
         return { demo: true, kind: 'change', request: { id: rid, status: 'draft' }, changes: rl.map(function (x) { return x.sum; }),
                  answer: 'הייתי מתחיל מ' + rank.map(function (x) { return x.p.name; }).join(' ו') + ': הם מקבלים הכי מעט פניות באתר, ושם הנחה קטנה יכולה להזיז מכירות. ' +
                          'את המוצר המבוקש לא הייתי מוריד, הוא כבר נמכר טוב. הצעה של 10% הנחה:' };
@@ -902,8 +905,8 @@
     if (ch.kind === 'bulk') {
       var bl = ch.list.map(function (c) { return { ch: c, sum: sumOf(c) }; });
       if (!bl.length) return { demo: true, kind: 'change', answer: 'אין באתר מוצרים עם מחיר לשנות.' };
-      var bid = 'D' + Date.now().toString(36); dreqs[bid] = { list: bl };
-      return { demo: true, kind: 'change', request: { id: bid, status: 'draft' }, changes: bl.map(function (x) { return x.sum; }),
+      var bid = 'D' + Date.now().toString(36); dreqs[bid] = { list: bl }; draftsSave();
+      return { demo: true, kind: 'change', request: { id: bid, status: 'draft' }, changes: bl.map(function (x) { return x.sum; }), demoShots: demoShots(bl.map(function (x) { return x.ch; })),
                answer: 'הבנתי: ' + (ch.pct.charAt(0) === '-' ? 'להוריד' : 'להעלות') + ' ' + ch.pct.slice(1) + ' ' + (bl.length > 1 ? 'מכל ' + bl.length + ' המוצרים' : 'מהמוצר') + ', מעוגל לשקל. ככה זה ייראה. לאשר?' };
     }
     if (ch.kind === 'price') {
@@ -923,7 +926,7 @@
     else return ticketOffer(q, 'את זה עדיף שיעשה איש צוות. לפתוח פנייה לצוות, עם מה שכתבתם?');
     if (!sum && !why) return { demo: true, kind: 'change', answer: '"' + it.name + '" כבר מוסתר.' };
     if (why) return { demo: true, kind: 'change', answer: why };
-    var id = 'D' + Date.now().toString(36); dreqs[id] = { ch: ch, sum: sum };
+    var id = 'D' + Date.now().toString(36); dreqs[id] = { ch: ch, sum: sum }; draftsSave();
     if (it) lastItem = it;
     return { demo: true, kind: 'change', request: { id: id, status: 'draft', summary: sum }, demoShots: demoShots([ch]), answer: 'הבנתי: ' + sum + '.' + (demoShots([ch]) ? ' למטה שתי תמונות של עמוד המוצר: איך הוא נראה עכשיו, ואיך ייראה אחרי השינוי.' : '') + ' לאשר?' };
   }
@@ -973,12 +976,12 @@
     var it = ch.item, all = demoCat();
     var p = it && all.filter(function (x) { return x.id === it.id; })[0];
     if (!p && ['price', 'hide', 'show', 'desc', 'name'].indexOf(ch.kind) >= 0) return;
-    if (ch.kind === 'price') { p.price = ch.value; p.changed = 'price'; }
-    if (ch.kind === 'hide') { p.hidden = true; p.changed = 'hide'; }
-    if (ch.kind === 'show') { p.hidden = false; p.changed = 'show'; }
-    if (ch.kind === 'desc') { p.desc = ch.value; p.changed = 'desc'; }
-    if (ch.kind === 'name') { p.name = ch.value; p.changed = 'name'; }
-    if (ch.kind === 'contact') dwa = ch.value;
+    if (ch.kind === 'price') { p.price = ch.value; p.changed = 'price'; p.mine = true; }
+    if (ch.kind === 'hide') { p.hidden = true; p.changed = 'hide'; p.mine = true; }
+    if (ch.kind === 'show') { p.hidden = false; p.changed = 'show'; p.mine = true; }
+    if (ch.kind === 'desc') { p.desc = ch.value; p.changed = 'desc'; p.mine = true; }
+    if (ch.kind === 'name') { p.name = ch.value; p.changed = 'name'; p.mine = true; }
+    if (ch.kind === 'contact') { dwa = ch.value; try { localStorage.setItem(DWK, dwa); } catch (x) {} }
     if (ch.kind === 'new') all.push({ id: 'n' + Date.now().toString(36) + Math.random().toString(36).slice(2, 4), name: ch.name, price: ch.price, desc: '', changed: 'new' });
   }
   // The example panel's before and after: the test shop's own page for the product, with the example's state
@@ -1004,18 +1007,23 @@
     return { now: u(now), after: u(after) };
   }
   function ticketOffer(q, answer) {
-    var id = 'D' + Date.now().toString(36); dreqs[id] = { ticket: { subject: q.slice(0, 90), body: q } };
+    var id = 'D' + Date.now().toString(36); dreqs[id] = { ticket: { subject: q.slice(0, 90), body: q } }; draftsSave();
     return { demo: true, kind: 'change', request: { id: id, status: 'draft' }, answer: answer, yesLabel: '📨 כן, לפתוח פנייה' };
   }
   function demoDecide(id, yes) {
-    var r = dreqs[id]; if (!r) return { note: 'הבקשה כבר טופלה.' };
-    delete dreqs[id];
+    var r = dreqs[id]; if (!r) return { note: 'הבקשה הזאת כבר טופלה או פגה. כתבו אותה שוב ואכין אותה מחדש.' };
+    delete dreqs[id]; draftsSave();
+    // another tab of this example may have changed the shop since: read it as it is now, then change it
+    dcat = null;
     if (!yes) return { note: 'בוטל. שום דבר לא השתנה.' };
     if (r.ticket) { var tk = openTicket(r.ticket.subject, r.ticket.body, 'רגילה'); tickets(); return { note: '✓ נפתחה פנייה ' + tk.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות", מתחת לצ\'אט, ותקבלו הודעה כשהיא מטופלת.' }; }
     demoCat().forEach(function (x) { delete x.changed; });
     var list = r.list || [{ ch: r.ch, sum: r.sum }];
     list.forEach(function (x) { demoApply(x.ch); dlog.unshift({ summary: x.sum, status: 'applied', at: new Date().toISOString() }); });
     demoSave();
+    // a new product, the WhatsApp number and "עלינו" are kept in this example's table, not drawn on the test shop: said so
+    var onShop = list.some(function (x) { return ['price', 'hide', 'show', 'desc', 'name'].indexOf(x.ch.kind) >= 0; });
+    if (!onShop) return { note: '✓ עודכן בהדגמה, ומופיע כאן בטבלה של הלוח. בחנות לדוגמה אנחנו לא מוסיפים את זה, אבל בחנות של לקוח אמיתי זה עולה לאתר.', offShop: true };
     return { note: (list.length > 1 ? '✓ ' + list.length + ' שינויים עודכנו בחנות.' : '✓ עודכן בחנות.') + ' בהדגמה השינוי נשמר רק בדפדפן שלכם.' };
   }
   function demoStatus() {
@@ -1040,7 +1048,7 @@
   }
   document.addEventListener('toggle', function (e) { if (e.target && e.target.classList && e.target.classList.contains('prods')) tableOpen = e.target.open; }, true);
   document.addEventListener('click', function (e) {
-    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); localStorage.removeItem(DLK); } catch (x) {} keeper(); tickets(); meterNow(); }
+    if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); localStorage.removeItem(DLK); localStorage.removeItem(DLK + ':sum'); localStorage.removeItem(DRK); localStorage.removeItem(DWK); dreqs = {}; } catch (x) {} keeper(); tickets(); meterNow(); }
   });
   $('answer').addEventListener('click', function (e) {
     var idea = e.target.closest('[data-idea]');
@@ -1059,7 +1067,14 @@
       if (yes && oldD) oldD.remove();
       // the change goes onto the shop itself, for this visitor: the shop reads what was approved here (lab-live.js)
       var pid = (dpv.match(/af-preview=([a-f0-9]{24})/) || [])[1];
-      if (yes && pid) try { var lk = JSON.parse(localStorage.getItem(DLK) || '[]'); if (lk.indexOf(pid) < 0) lk.push(pid); localStorage.setItem(DLK, JSON.stringify(lk.slice(-10))); } catch (x) {}
+      if (yes && pid) try {
+        // the same change asked twice is kept once: the newer replaces the older with the same summary
+        var lk = JSON.parse(localStorage.getItem(DLK) || '[]'), sums = JSON.parse(localStorage.getItem(DLK + ':sum') || '{}'), sm = (box.closest('.qa').querySelector('p') || {}).textContent || '';
+        sm = sm.replace(/^הכנתי את השינוי:\s*/, '').split('\n')[0].slice(0, 200);
+        lk = lk.filter(function (x) { return x !== pid && !(sm && sums[x] === sm); }); lk.push(pid); sums[pid] = sm;
+        lk = lk.slice(-10); var keep = {}; lk.forEach(function (x) { if (sums[x]) keep[x] = sums[x]; });
+        localStorage.setItem(DLK, JSON.stringify(lk)); localStorage.setItem(DLK + ':sum', JSON.stringify(keep));
+      } catch (x) {}
       var shopAt = dpv.split('?')[0];
       box.outerHTML = yes ? '<p class="sub"><b>✓ השינוי בחנות.</b> <a href="' + esc(shopAt) + '" target="_blank" rel="noopener">לפתוח את החנות ולראות ↗</a><br>בחנות של לקוח אמיתי הוא באתר לכל המבקרים. בהדגמה הוא נשמר רק בדפדפן שלכם.</p>' + shots([[dpv, 'באתר עכשיו']])
         : '<p class="sub"><b>בוטל. שום דבר לא השתנה.</b></p>';
@@ -1072,10 +1087,17 @@
         var bub = box.closest('.qa'), aft = yes && pageUrl(box.getAttribute('data-after')), oldC = aft && bub.querySelector('.cmp');
         if (oldC) oldC.remove();
         var shopPage = aft ? aft.split('?')[0] : '';
-        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (yes ? (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : homeLink('לפתוח את החנות ↗')) : '') + '</p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (yes && !r.offShop ? (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : homeLink('לפתוח את החנות ↗')) : '') + '</p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
         resave(id, bub); keeper(); return;
       }
       var pg = pageUrl(box.getAttribute('data-page'));
+      // answered before (another tab, a retry) or no longer valid: what happened to it, with nothing done again
+      if (r.already && !(yes && r.status === 'applied')) {
+        var ST = { applied: '✓ השינוי הזה כבר עלה לאתר.', approved: '✓ השינוי הזה כבר אושר, והוא בדרך לאתר.', needs_human: '✓ הבקשה הזאת כבר נשלחה לצוות.',
+                   cancelled: 'הבקשה הזאת בוטלה, ושום דבר לא השתנה.', draft: 'הבקשה הזאת פגה. כתבו אותה שוב ואכין אותה מחדש.' };
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note && /stale|failed/.test(r.status) ? r.note : (ST[r.status] || 'הבקשה הזאת כבר טופלה.')) + '</b></p>';
+        resave(id, bub2); keeper(); return;
+      }
       if (yes && r.status === 'applied') {
         // made: the picture is the shop itself, now, as every visitor sees it
         var bubA = box.closest('.qa'), old = bubA.querySelector('.cmp'); if (old) old.remove();
@@ -1088,9 +1110,11 @@
         (r.ticket ? '✓ נפתחה פנייה #' + r.ticket.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות".' : '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.')) : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
       if (r.ticket) tickets();
       resave(id, bub2); keeper();
-    }).catch(function () {
+    }).catch(function (e) {
+      // a draft no longer kept (it expires after two days): said once, without a "try again" that cannot work
+      if (e && e.message === 'gone') { box.outerHTML = '<p class="sub"><b>הבקשה הזאת פגה. כתבו אותה שוב ואכין אותה מחדש.</b></p>'; resave(id, bub2); return; }
       box.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
-      box.insertAdjacentHTML('beforeend', '<p class="sub">לא הצלחנו לשלוח כרגע. נסו שוב.</p>');
+      if (!box.querySelector('.reqerr')) box.insertAdjacentHTML('beforeend', '<p class="sub reqerr">לא הצלחנו לשלוח כרגע. נסו שוב.</p>');
     });
   });
   var STATUS = { ok: ['good', 'האתר עולה ותקין'], slow: ['warn', 'האתר עולה, אבל לאט'], broken: ['alert', 'משהו לא תקין באתר'],

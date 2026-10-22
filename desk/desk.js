@@ -210,6 +210,7 @@
       (ag.patch ? compare(ag.preview) : '') + signed(t) +
       ' <button type="button" class="btn ok" data-act="ticket-approve" data-no="' + t.no + '">' + (t.sign ? '🔏 לחתום ולאשר' : ag.wp ? '✓ לאשר ולעדכן בחנות' : '✓ לאשר ולהעלות') + '</button>' +
       '<button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">✕ לא לאשר</button></div>';
+    if (ag.state === 'merging' || ag.state === 'reverting') agent = '<div class="agent">⏳ ' + (ag.state === 'merging' ? 'השינוי אושר ובדרך לאתר' : 'הביטול בדרך לאתר') + '. זה לוקח בדרך כלל כמה דקות</div>';
     if (ag.state === 'sent' || ag.state === 'undoing') agent = '<div class="agent">🔏 ' + (ag.state === 'sent' ? 'השינוי' : 'הביטול') + ' נחתם ונשלח לאתר. האתר בודק את החתימה ומבצע, בדרך כלל תוך דקה</div>';
     if (ag.state === 'merged' && ag.wp) agent = '<div class="agent">🛒 נכנס לחנות <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">' + (t.sign ? '🔏 ' : '↩️ ') + 'לבטל ולהחזיר את הערכים הקודמים</button></div>';
     else if (ag.state === 'merged') agent = '<div class="agent">🚀 עלה לאתר <button type="button" class="btn ghost" data-act="ticket-revert" data-no="' + t.no + '">↩️ לבטל ולחזור לגרסה הקודמת</button></div>';

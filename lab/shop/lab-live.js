@@ -30,7 +30,8 @@
   var mine = {}, looks = [], solo = /[?&]af-(try|draft|preview|before)=/.test(location.search);
   if (!solo) try {
     (JSON.parse(localStorage.getItem('democat:demo-wholesale') || 'null') || []).forEach(function (p) {
-      if (!p || !p.changed || !/^[a-z][0-9]{1,3}$/.test(p.id)) return;
+      // p.mine: changed by this visitor at some point (p.changed only marks the latest change, for the panel's table)
+      if (!p || !(p.changed || p.mine) || !/^[a-z][0-9]{1,3}$/.test(p.id)) return;
       var y = { hidden: p.hidden === true };
       if (typeof p.price === 'number' && p.price > 0 && p.price < 1e6) y.price = p.price;
       if (typeof p.name === 'string' && p.name.trim()) y.name = p.name.slice(0, 120);
@@ -73,6 +74,7 @@
         else el.style.backgroundImage = 'url("' + src + '")'; }); } catch (x) {} }); };
     setText(); setTimeout(setText, 600); setTimeout(setText, 1800);
     setPics(); setTimeout(setPics, 600); setTimeout(setPics, 1800);
+    var shopBar = document.getElementById('af-bar'); if (bar && shopBar) shopBar.style.display = 'none';
     if (bar && !document.getElementById('af-mine-bar')) {
       var HEX = /^#(?:[0-9a-f]{3}){1,2}$/i, b = document.createElement('div'); b.id = 'af-mine-bar'; b.textContent = bar.text;
       b.setAttribute('style', 'text-align:center;padding:9px 16px;font:600 15px/1.4 system-ui,sans-serif;direction:rtl;background:' + (HEX.test(bar.bg) ? bar.bg : '#14171f') + ';color:' + (HEX.test(bar.fg) ? bar.fg : '#fff'));
@@ -83,8 +85,12 @@
   function badge() {
     if (!ours || document.getElementById('af-mine-note') || !document.body) return;
     var n = document.createElement('div'); n.id = 'af-mine-note';
-    n.setAttribute('style', 'position:fixed;left:12px;bottom:12px;z-index:2147483000;background:#14171f;color:#fff;font:13px/1.4 system-ui,sans-serif;padding:8px 12px;border-radius:10px;direction:rtl;max-width:70vw;box-shadow:0 6px 18px rgba(0,0,0,.25)');
-    n.textContent = '🧪 השינויים שעשיתם בהדגמה מוצגים כאן, רק בדפדפן הזה';
+    try { if (sessionStorage.getItem('af-mine-note-x')) return; } catch (x) {}
+    n.setAttribute('style', 'position:fixed;left:12px;right:12px;top:calc(8px + env(safe-area-inset-top,0px));margin:0 auto;width:max-content;max-width:calc(100vw - 24px);z-index:2147483000;background:#14171f;color:#fff;font:13px/1.4 system-ui,sans-serif;padding:7px 10px 7px 12px;border-radius:10px;direction:rtl;box-shadow:0 6px 18px rgba(0,0,0,.25);display:flex;gap:8px;align-items:center');
+    var tx = document.createElement('span'); tx.textContent = '🧪 השינויים שעשיתם בהדגמה מוצגים כאן, רק בדפדפן הזה'; n.appendChild(tx);
+    var x = document.createElement('button'); x.type = 'button'; x.textContent = '✕'; x.setAttribute('aria-label', 'לסגור');
+    x.setAttribute('style', 'background:none;border:0;color:#fff;font:15px system-ui;cursor:pointer;padding:0 4px');
+    x.onclick = function () { try { sessionStorage.setItem('af-mine-note-x', '1'); } catch (e) {} n.remove(); }; n.appendChild(x);
     document.body.appendChild(n);
   }
   var done = false;
@@ -120,11 +126,14 @@
     var d = document.querySelector('p.desc'); if (d && x.desc) d.textContent = x.desc;
     var bs = document.querySelector('.bigprice s'); if (bs && x.price != null && parseFloat(bs.textContent.replace(/[^\d.]/g, '')) <= x.price) bs.remove();
   }
+  // what this visitor changed is in this browser: put on the page now, whatever the server does
+  if (Object.keys(mine).length || Object.keys(tried).length) apply(overMine({}));
   setTimeout(go, 2500);
   fetch(API + '&t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; })
     .then(function (d) { if (!done) apply(overMine(d.items)); }, function () { if (!done) apply(overMine({})); }).then(go);
   if (looks.length) Promise.all(looks.map(function (id) {
-    return fetch('https://agentfeed-plum.vercel.app/api/panel?op=patches&site=lab-shop&preview=' + id, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }, function () { return null; });
+    // only the visitor's own change: the shop's live changes are already on the page, through its own line
+    return fetch('https://agentfeed-plum.vercel.app/api/panel?op=patches&site=lab-shop&only=1&preview=' + id, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }, function () { return null; });
   })).then(function (list) { var run = function () { putLooks(list); badge(); }; if (document.body) run(); else document.addEventListener('DOMContentLoaded', run); });
   else if (ours) { if (document.body) badge(); else document.addEventListener('DOMContentLoaded', badge); }
 })();
