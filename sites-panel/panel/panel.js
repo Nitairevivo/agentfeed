@@ -649,22 +649,30 @@
   // the answer takes the bubble's place. A change of look takes Claude half a minute: the count says it is working.
   function thinking(el, q) {
     var t0 = Date.now(), design = DESIGN_RE.test(q) || ideaAsked, look = LOOK_RE.test(q);
-    var steps = design ? [[0, 'קורא את העמוד'], [6, 'מכין את השינוי'], [16, 'מצלם לפני ואחרי'], [30, 'עוד רגע, בודק שהכול נכון']]
+    var steps = isResearch(q) ? RSTEPS : design ? [[0, 'קורא את העמוד'], [6, 'מכין את השינוי'], [16, 'מצלם לפני ואחרי'], [30, 'עוד רגע, בודק שהכול נכון']]
       : look ? [[0, 'פותח את האתר'], [5, 'מצלם את העמודים'], [12, 'מחפש מה כדאי לשנות']]
       : [[0, 'חושב'], [6, 'קורא את המספרים'], [16, 'בודק כל מספר בתשובה']];
     var tick = setInterval(function () {
       var tt = el.querySelector('.tt'), tw = el.querySelector('.tw');
       if (!tt || !el.isConnected) { clearInterval(tick); return; }
-      var sec = Math.floor((Date.now() - t0) / 1000), now = steps.filter(function (x) { return sec >= x[0]; }).pop();
+      // the brain handed the question to the web: the steps say so, counted from then
+      if (el._web && steps !== RSTEPS) { steps = RSTEPS; el._s0 = Math.floor((Date.now() - t0) / 1000); }
+      var sec = Math.floor((Date.now() - t0) / 1000), now = steps.filter(function (x) { return sec - (el._s0 || 0) >= x[0]; }).pop() || steps[0];
       tt.textContent = Math.floor(sec / 60) + ':' + String(sec % 60).padStart(2, '0');
       if (tw.textContent !== now[1]) tw.textContent = now[1];
     }, 1000);
   }
   $('askf').addEventListener('submit', function (e) {
     e.preventDefault();
-    var input = $('askq'), q = input.value.trim(); if (!q || asking) return;
+    var input = $('askq'), shown0 = input.value.trim(); if (!shown0 || asking) return;
     input.value = ''; logBox.hidden = true;
-    bubble(esc(q), 'me'); record('me', esc(q));
+    bubble(esc(shown0), 'me'); record('me', esc(shown0));
+    // "כן" after the assistant offered something: that offer, as the command it is. A message pressed from
+    // "כן, להכין" is a command too. Anything else written as a question is answered first, and only offered
+    var go = goNext, q = shown0; goNext = false;
+    if (lastOffer && YES_RE.test(q)) { q = lastOffer; go = true; }
+    lastOffer = '';
+    var question = !go && isQuestion(q);
     asking = true; $('askf').classList.add('busy');
     var wait = bubble('<div class="scan think"><div class="bar"></div><p><span class="tdots" aria-hidden="true"><i></i><i></i><i></i></span> <span class="tw">חושב</span> <time class="tt">0:00</time></p></div>', 'ai');
     thinking(wait, q);
@@ -672,31 +680,36 @@
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
     // the example panel shows its pictures and its changes on our test shop: real, but a change stays a preview
-    var looks = demo && (ideaAsked || LOOK_RE.test(q) || DESIGN_RE.test(q) || (/תמונ|צילום/.test(q) && !/(חדשה|חדשות|אשלח|שלחתי|אעלה|להעלות|צילמתי)/.test(q))); ideaAsked = false;
+    var looks = demo && (ideaAsked || LOOK_RE.test(q) || (!question && (DESIGN_RE.test(q) || (/תמונ|צילום/.test(q) && !/(חדשה|חדשות|אשלח|שלחתי|אעלה|להעלות|צילמתי)/.test(q))))); ideaAsked = false;
+    var web = !looks && isResearch(q);
     // the example's package used up: what needs the model waits for more, a price still changes (as in a real panel)
     if (demo && !local && demoMeter().spent) local = { kind: 'help', demo: true, answer: 'החבילה של העוזר לחודש הזה נגמרה, ולכן את זה אני לא יכול להכין עכשיו. שינוי מחיר, הסתרה והחזרה של מוצר עדיין עובדים. אפשר לבקש מהסטודיו להגדיל את החבילה (הכפתור מתחת לצ\'אט).' };
     if (demo && local && local.kind === 'help') looks = false;
-    var ask = demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }).catch(function () {
+    if (web) local = null;
+    var ask = web ? webCall(q, wait) : demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }).catch(function () {
                         return { kind: 'help', answer: 'לא הצלחתי להכין את זה כרגע. נסו שוב בעוד דקה.' }; })
             : demo ? demoBrain(q).then(function (b) {
+                if (b && b.research) return webCall(b.research, wait, b.answer);
                 if (b && b.designNext) { looks = true; return keepCall('demo-look', { message: b.designNext }).catch(function () { return { kind: 'help', answer: 'לא הצלחתי להכין את השינוי כרגע. נסו שוב בעוד דקה.' }; }); }
-                return b || local || demoAssist(q); })
-                   : local ? Promise.resolve(local) : assistCall(q);
+                // without the model: a question is still only answered and offered, never done
+                return b || local || (question && CHANGE_RE.test(q) ? { demo: true, kind: 'help', answer: 'אפשר. להכין את זה ולהראות לפני ואחרי? שום דבר לא ישתנה בלי שתאשרו.', offer: q } : demoAssist(q)); })
+                   : local ? Promise.resolve(local) : assistCall(q, go);
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
       if (a && a.home && pageUrl(a.home)) knownHome = a.home;
       if (demo && a && (looks || a.kind === 'brain' || (a.kind === 'change' && !local))) demoMeterUse();
+      if (a && a.kind === 'question' && a.offer && DESIGN_RE.test(q)) a = { kind: 'help', answer: 'אפשר. אכין את זה ואראה לכם תמונה של לפני ואחרי, ושום דבר לא ישתנה באתר בלי שתאשרו. להכין?', offer: a.offer };
       if (a && a.kind && a.kind !== 'question' && a.answer) {
         wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
         asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
         return;
       }
-      askAnalyst(q, wait, input);
+      askAnalyst(q, wait, input, a && a.offer);
     });
   });
-  function askAnalyst(q, wait, input) {
+  function askAnalyst(q, wait, input, offer) {
     if (demo) {
-      var dh = demoAnswer(q, shown);
+      var dh = demoAnswer(q, shown) + offerHtml(offer);
       wait.innerHTML = dh; tools(wait); record('ai', dh);
       asking = false; $('askf').classList.remove('busy'); return;
     }
@@ -708,7 +721,7 @@
           '<p>לא הצלחתי לענות על זה. נסו לנסח אחרת.</p>';
         return;
       }
-      wait.innerHTML = (r.answer ? '<p>' + linkify(esc(r.answer)) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips);
+      wait.innerHTML = (r.answer ? '<p>' + linkify(esc(r.answer)) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips) + offerHtml(offer);
       record('ai', wait.innerHTML); tools(wait);
     }).catch(function (e2) {
       wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
@@ -729,8 +742,8 @@
             function (e) { if (t) clearTimeout(t); throw e; });
   }
   // a request the assistant could not take is said so, here: it is not handed to the analyst, who reads numbers
-  function assistCall(q) {
-    return keepCall('assist', { message: q, catalog: items.length ? items : undefined }).catch(function (e) {
+  function assistCall(q, go) {
+    return keepCall('assist', { message: q, catalog: items.length ? items : undefined, go: !!go }).catch(function (e) {
       return { kind: 'help', answer: e && e.name === 'AbortError' ? 'זה לקח יותר מדי זמן, ולא השתנה כלום. נסו שוב בעוד דקה, או נסחו את הבקשה קצר יותר.'
         : e && e.message === 'limit' ? 'הגעתם למספר הבקשות להיום. אפשר להמשיך מחר.' : 'לא הצלחתי להתחבר כרגע, ולא השתנה כלום. נסו שוב בעוד דקה.' };
     });
@@ -744,6 +757,10 @@
   }
   function assistHtml(a) {
     var h = '<p>' + linkify(esc(a.answer)).replace(/\n/g, '<br>') + '</p>';
+    // a look-up on the web: every source it used, to open and check
+    var src = (a.sources || []).filter(function (x) { return /^https?:\/\//.test(String(x.url || '')); });
+    if (src.length) h += '<p class="sub srch">מקורות:</p><ol class="srcs">' + src.map(function (x) { var host = ''; try { host = new URL(x.url).host.replace(/^www\./, ''); } catch (e) {}
+      return '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title || host) + '</a> <span class="sub">' + esc(host) + '</span></li>'; }).join('') + '</ol>';
     if (a.link && pageUrl(a.link[0])) h += '<p><a class="btn btn-s" href="' + esc(a.link[0]) + '" target="_blank" rel="noopener">' + esc(a.link[1]) + '</a></p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     // the site itself, as every visitor sees it, and what is worth changing: each idea one tap from its own preview
@@ -756,10 +773,40 @@
       if (pv) h += compare(pv);
       else if (a.demoShots) h += shots([[a.demoShots.now, 'עכשיו באתר'], [a.demoShots.after, 'אחרי השינוי']]);
       else if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
+      lastOffer = '';
       h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + (a.demo && pv ? ' data-preview="' + esc(pv) + '"' : '') + (a.demoShots ? ' data-after="' + esc(a.demoShots.after) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
-    return h;
+    return h + offerHtml(a.offer);
+  }
+  // ── Answer first, act on "כן" ───────────────────────────────────────────
+  // A question ("מה דעתך על כחול?", "כדאי להוזיל?") is answered, and the change that follows from it is offered:
+  // a button, or a "כן" written back, runs it as the command it is. Nothing changes because a question was asked.
+  var goNext = false, lastOffer = '';
+  var YES_RE = /^\s*(כן|כן בבקשה|כן תעשה|כן תכין|יאללה|סבבה|קדימה|תעשה את זה|תעשה|תכין|תכין את זה|בוא נעשה|בוא|אוקיי|אוקי|ok|בטח|לגמרי|מאשר|מאשרת|נשמע טוב|למה לא)[\s!.,]*$/i;
+  var QUESTION_RE = /\?\s*$|^\s*(האם|אפשר|אפשרי|כדאי|מה דעתך|מה אתה חושב|מה את חושבת|איך|למה|מדוע|מה עדיף|שווה|יש מצב|זה רעיון|נראה לך|לדעתך|מה יקרה אם)/;
+  function isQuestion(q) { return QUESTION_RE.test(q) && !/^\s*(תעש|תשנ|תעדכ|תוריד|תסתיר|תחזיר|תוסיף|תחליף|תמחק|תבטל|כן\b)/.test(q); }
+  // what is not in the shop's own numbers: competitors, the market, the season, suppliers, rules — looked up on the web
+  var RESEARCH_RE = /(ברשת|באינטרנט|בגוגל|תחפש|תחפשי|חפש לי|לחפש|תבדוק (לי )?(כמה|את המחירים|מחירים|ברשת|באינטרנט|אצל)|סקר|סקירת שוק|סקירה של|מתחרים|המתחרים|השוואת מחירים|מחירי שוק|מחיר בשוק|מה מקובל|מגמות|טרנד|ספקים|מה אומרים על|ביקורות על|תמצא לי|חוק |תקנות|רישיון)/;
+  function isResearch(q) { return RESEARCH_RE.test(q) && !LOOK_RE.test(q); }
+  var RSTEPS = [[0, 'מחפש ברשת'], [8, 'פותח את המקורות'], [20, 'בודק את המספרים'], [34, 'מסכם']];
+  function offerHtml(offer) {
+    if (!offer) return '';
+    lastOffer = String(offer).slice(0, 300);
+    return '<div class="offer"><button type="button" class="btn btn-brand btn-s" data-offer="' + esc(lastOffer) + '">✓ כן, להכין את זה</button></div>';
+  }
+  // a web look-up: the owner's own (counted against the package) or the example's (limited per visitor)
+  function webCall(question, wait, lead) {
+    if (wait) wait._web = true;
+    var hist = (cur && cur.msgs || []).slice(-7, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 300) }; });
+    var body = demo ? { question: question, history: hist, items: demoCat() } : { question: question, history: hist, catalog: items.length ? items : undefined };
+    return keepCall(demo ? 'demo-research' : 'research', body).then(function (r) {
+      if (!r || !r.answer) throw new Error('empty');
+      if (r.meter) showMeter(r.meter);
+      return { kind: 'research', answer: r.answer, sources: r.sources || [], offer: r.offer || '', demo: demo };
+    }).catch(function (e) {
+      return { kind: 'help', answer: (lead ? lead + '\n' : '') + (e && e.message === 'limit' ? 'הגעתם למספר הבדיקות ברשת להיום. אפשר להמשיך מחר.' : 'לא הצלחתי לבדוק ברשת כרגע. נסו שוב בעוד דקה.') };
+    });
   }
   // ── Prices and products, answered from the shop's own list ─────────────
   // "כמה עולה X" is not a question for the analyst, which reads visits and
@@ -943,6 +990,7 @@
       .then(function (b) {
         if (tm) clearTimeout(tm);
         if (!b || !b.answer) return null;
+        if (b.research) return { research: b.research, answer: b.answer };
         var all = demoCat(), list = [], tkSubject = '', design = '';
         (b.changes || []).forEach(function (c) {
           if (c.kind === 'design') { design = design || String(c.value || q); return; }
@@ -954,7 +1002,7 @@
         // a change of look: made the way a real panel makes it, on the test shop, with its before and after
         if (!list.length && design) return { designNext: design };
         if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
-        if (!list.length) return { demo: true, kind: 'brain', answer: b.answer };
+        if (!list.length) return { demo: true, kind: 'brain', answer: b.answer, offer: b.offer || '' };
         var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
         return { demo: true, kind: 'change', answer: b.answer, request: { id: id, status: 'draft' }, demoShots: demoShots(list.map(function (x) { return x.ch; })),
                  changes: list.map(function (x) { return x.sum; }) };
@@ -1051,6 +1099,8 @@
     if (e.target && e.target.id === 'demoreset') { dcat = null; dlog = []; dwa = '050-0000000'; tks = null; try { localStorage.removeItem(DCK); localStorage.removeItem(TKK); localStorage.removeItem(DMK); localStorage.removeItem(DLK); localStorage.removeItem(DLK + ':sum'); localStorage.removeItem(DRK); localStorage.removeItem(DWK); dreqs = {}; } catch (x) {} keeper(); tickets(); meterNow(); }
   });
   $('answer').addEventListener('click', function (e) {
+    var ofr = e.target.closest('[data-offer]');
+    if (ofr) { if (asking) return; goNext = true; ofr.disabled = true; $('askq').value = ofr.getAttribute('data-offer'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
     var idea = e.target.closest('[data-idea]');
     if (idea) { if (asking) return; ideaAsked = true; $('askq').value = idea.getAttribute('data-idea'); $('askf').requestSubmit ? $('askf').requestSubmit() : $('askf').dispatchEvent(new Event('submit')); return; }
     var cb = e.target.closest('[data-cmp]');

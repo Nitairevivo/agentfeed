@@ -602,6 +602,10 @@ body.chatpage .crempty { position: fixed; top: 42%; }
 a.crlaunch { display: flex; text-decoration: none; }
 a.chatfab { text-decoration: none; color: inherit; }
 /* what is worth changing, read off the site: each one a tap from its own before/after */
+.offer { margin: 10px 0 2px; }
+.srch { margin: 10px 0 2px; }
+.srcs { margin: 0; padding-inline-start: 20px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+.srcs a { overflow-wrap: anywhere; }
 .ideas { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin: 10px 0 4px; }
 .ideas .btn { white-space: normal; text-align: start; line-height: 1.4; }
 /* the month's package, under the chat */
