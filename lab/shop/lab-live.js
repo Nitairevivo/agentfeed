@@ -103,9 +103,11 @@
       art = art.concat(d.art || []); blocks = blocks.concat(d.blocks || []); allow = allow.concat(d.allow || []);
     });
     var st = document.getElementById('af-mine') || document.createElement('style'); st.id = 'af-mine'; st.textContent = css; (document.head || document.documentElement).appendChild(st);
-    var setText = function () { text.forEach(function (t) { try { [].forEach.call(document.querySelectorAll(t.selector), function (el) {
+    // each element's final text, then one write each (two changes naming the same element: the later wins)
+    var setText = function () { var last = new Map(); text.forEach(function (t) { try { [].forEach.call(document.querySelectorAll(t.selector), function (el) {
       if (/^(SCRIPT|STYLE|TITLE|NOSCRIPT|TEMPLATE|TEXTAREA|IFRAME|OBJECT|HEAD|META|LINK|svg|SVG)$/.test(el.tagName) || el.closest('svg,head')) return;
-      if (!el.children.length && el.textContent !== t.text) el.textContent = t.text; }); } catch (x) {} }); };
+      if (!el.children.length) last.set(el, t.text); }); } catch (x) {} });
+      last.forEach(function (txt, el) { if (el.textContent !== txt) el.textContent = txt; }); };
     // a picture swapped for another this shop already shows: https, this same site, never anything else
     artOn(art);
     var setBlocks = function () { blocksOn(blocks, allow); };

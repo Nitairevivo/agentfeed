@@ -558,7 +558,8 @@
     });
   }
   function openChat(c) {
-    $('answer').innerHTML = ''; cur = c || null;
+    // an offer belongs to the chat it was made in: a "כן" in another one never runs it
+    $('answer').innerHTML = ''; cur = c || null; lastOffer = '';
     (c ? c.msgs : []).forEach(function (m) { var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); tools(el); refreeze(el); });
     layout(); logBox.hidden = true; drawRecent();
     var ans = $('answer'); ans.scrollTop = ans.scrollHeight;
@@ -649,7 +650,7 @@
   // the answer takes the bubble's place. A change of look takes Claude half a minute: the count says it is working.
   function thinking(el, q) {
     var t0 = Date.now(), design = DESIGN_RE.test(q) || ideaAsked, look = LOOK_RE.test(q);
-    var steps = isResearch(q) ? RSTEPS : design ? [[0, 'קורא את העמוד'], [6, 'מכין את השינוי'], [16, 'מצלם לפני ואחרי'], [30, 'עוד רגע, בודק שהכול נכון']]
+    var steps = isResearch(q) ? RSTEPS : design ? [[0, 'קורא את העמוד'], [5, 'מתכנן את העיצוב'], [20, 'בוחר צבעים, גופנים ותמונות'], [45, 'מתכנן לעומק, עוד רגע']]
       : look ? [[0, 'פותח את האתר'], [5, 'מצלם את העמודים'], [12, 'מחפש מה כדאי לשנות']]
       : [[0, 'חושב'], [6, 'קורא את המספרים'], [16, 'בודק כל מספר בתשובה']];
     var tick = setInterval(function () {
@@ -659,7 +660,8 @@
       if (el._web && steps !== RSTEPS) { steps = RSTEPS; el._s0 = Math.floor((Date.now() - t0) / 1000); }
       var sec = Math.floor((Date.now() - t0) / 1000), now = steps.filter(function (x) { return sec - (el._s0 || 0) >= x[0]; }).pop() || steps[0];
       tt.textContent = Math.floor(sec / 60) + ':' + String(sec % 60).padStart(2, '0');
-      if (tw.textContent !== now[1]) tw.textContent = now[1];
+      var say = el._note || now[1];
+      if (tw.textContent !== say) tw.textContent = say;
     }, 1000);
   }
   $('askf').addEventListener('submit', function (e) {
@@ -686,14 +688,15 @@
     if (demo && !local && demoMeter().spent) local = { kind: 'help', demo: true, answer: 'החבילה של העוזר לחודש הזה נגמרה, ולכן את זה אני לא יכול להכין עכשיו. שינוי מחיר, הסתרה והחזרה של מוצר עדיין עובדים. אפשר לבקש מהסטודיו להגדיל את החבילה (הכפתור מתחת לצ\'אט).' };
     if (demo && local && local.kind === 'help') looks = false;
     if (web) local = null;
-    var ask = web ? webCall(q, wait) : demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }).catch(function () {
+    var ask = web ? webCall(q, wait) : demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }, DESIGN_MS).catch(function () {
                         return { kind: 'help', answer: 'לא הצלחתי להכין את זה כרגע. נסו שוב בעוד דקה.' }; })
             : demo ? demoBrain(q).then(function (b) {
                 if (b && b.research) return webCall(b.research, wait, b.answer);
-                if (b && b.designNext) { looks = true; return keepCall('demo-look', { message: b.designNext }).catch(function () { return { kind: 'help', answer: 'לא הצלחתי להכין את השינוי כרגע. נסו שוב בעוד דקה.' }; }); }
+                if (b && b.designNext) { looks = true; return keepCall('demo-look', { message: b.designNext }, DESIGN_MS).catch(function () { return { kind: 'help', answer: 'לא הצלחתי להכין את השינוי כרגע. נסו שוב בעוד דקה.' }; }); }
                 // without the model: a question is still only answered and offered, never done
                 return b || local || (question && CHANGE_RE.test(q) ? { demo: true, kind: 'help', answer: 'אפשר. להכין את זה ולהראות לפני ואחרי? שום דבר לא ישתנה בלי שתאשרו.', offer: q } : demoAssist(q)); })
                    : local ? Promise.resolve(local) : assistCall(q, go);
+    ask = ask.then(function (a) { return a && a.kind === 'design-job' ? designLoop(a, wait, 0) : a; });
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
       if (a && a.home && pageUrl(a.home)) knownHome = a.home;
@@ -733,17 +736,18 @@
   // site is up, from the last real check, and what happened to each request.
   var keepApi = cfg.api + '/panel?site=' + (demo ? DEMO : cfg.site) + '&op=';
   // never wait forever: the server gives up at 60 seconds, the page a moment before
-  function keepCall(op, body) {
+  // {ms}: how long to wait. A change of look is made in passes of up to a few minutes each (the server allows five)
+  function keepCall(op, body, ms) {
     var h = { 'content-type': 'application/json' };
     if (!demo) h.authorization = 'Bearer ' + key;
-    var ctl = window.AbortController ? new AbortController() : null, t = ctl && setTimeout(function () { ctl.abort(); }, 58000);
+    var ctl = window.AbortController ? new AbortController() : null, t = ctl && setTimeout(function () { ctl.abort(); }, ms || 58000);
     return fetch(keepApi + op, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined })
       .then(function (r) { if (t) clearTimeout(t); if (r.status === 429) throw new Error('limit'); if (r.status === 404 && /^req-/.test(op)) throw new Error('gone'); if (!r.ok) throw new Error('server'); return r.json(); },
             function (e) { if (t) clearTimeout(t); throw e; });
   }
   // a request the assistant could not take is said so, here: it is not handed to the analyst, who reads numbers
   function assistCall(q, go) {
-    return keepCall('assist', { message: q, catalog: items.length ? items : undefined, go: !!go }).catch(function (e) {
+    return keepCall('assist', { message: q, catalog: items.length ? items : undefined, go: !!go }, DESIGN_MS).catch(function (e) {
       return { kind: 'help', answer: e && e.name === 'AbortError' ? 'זה לקח יותר מדי זמן, ולא השתנה כלום. נסו שוב בעוד דקה, או נסחו את הבקשה קצר יותר.'
         : e && e.message === 'limit' ? 'הגעתם למספר הבקשות להיום. אפשר להמשיך מחר.' : 'לא הצלחתי להתחבר כרגע, ולא השתנה כלום. נסו שוב בעוד דקה.' };
     });
@@ -779,13 +783,23 @@
     }
     return h + offerHtml(a.offer);
   }
+  // ── A change of look, in passes: planned, built, then checked and improved, each its own request ──
+  var DESIGN_MS = 290000;
+  function designLoop(a, wait, n) {
+    if (!a || a.kind !== 'design-job') return a;
+    if (n > 4) return { kind: 'help', answer: 'העיצוב לא הסתיים, ולא השתנה כלום. נסו שוב בעוד דקה.' };
+    // what is being done now, said in the bubble while the clock runs
+    wait._note = a.next === 'build' ? (a.note ? 'מעצב: ' + a.note : 'מעצב את השינוי') : a.next === 'review' ? 'בודק את העיצוב ומשפר' : '';
+    return keepCall(demo ? 'demo-design' : 'design', { job: a.job, step: a.next }, DESIGN_MS).then(function (r) { return designLoop(r, wait, n + 1); },
+      function () { return { kind: 'help', answer: 'העיצוב לקח יותר מדי זמן, ולא השתנה כלום. נסו שוב, או בקשה קטנה יותר.' }; });
+  }
   // ── Answer first, act on "כן" ───────────────────────────────────────────
   // A question ("מה דעתך על כחול?", "כדאי להוזיל?") is answered, and the change that follows from it is offered:
   // a button, or a "כן" written back, runs it as the command it is. Nothing changes because a question was asked.
   var goNext = false, lastOffer = '';
   var YES_RE = /^\s*(כן|כן בבקשה|כן תעשה|כן תכין|יאללה|סבבה|קדימה|תעשה את זה|תעשה|תכין|תכין את זה|בוא נעשה|בוא|אוקיי|אוקי|ok|בטח|לגמרי|מאשר|מאשרת|נשמע טוב|למה לא)[\s!.,]*$/i;
   var QUESTION_RE = /\?\s*$|^\s*(האם|אפשר|אפשרי|כדאי|מה דעתך|מה אתה חושב|מה את חושבת|איך|למה|מדוע|מה עדיף|שווה|יש מצב|זה רעיון|נראה לך|לדעתך|מה יקרה אם)/;
-  function isQuestion(q) { return QUESTION_RE.test(q) && !/^\s*(תעש|תשנ|תעדכ|תוריד|תסתיר|תחזיר|תוסיף|תחליף|תמחק|תבטל|כן\b)/.test(q); }
+  function isQuestion(q) { return QUESTION_RE.test(q) && !/^\s*(תעש|תשנ|תעדכ|תוריד|תסתיר|תחזיר|תוסיף|תחליף|תמחק|תבטל|כן(?=[\s,.!?]|$))/.test(q); }
   // what is not in the shop's own numbers: competitors, the market, the season, suppliers, rules — looked up on the web
   var RESEARCH_RE = /(ברשת|באינטרנט|בגוגל|תחפש|תחפשי|חפש לי|לחפש|תבדוק (לי )?(כמה|את המחירים|מחירים|ברשת|באינטרנט|אצל)|סקר|סקירת שוק|סקירה של|מתחרים|המתחרים|השוואת מחירים|מחירי שוק|מחיר בשוק|מה מקובל|מגמות|טרנד|ספקים|מה אומרים על|ביקורות על|תמצא לי|חוק |תקנות|רישיון)/;
   function isResearch(q) { return RESEARCH_RE.test(q) && !LOOK_RE.test(q); }
