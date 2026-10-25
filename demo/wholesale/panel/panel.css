@@ -602,7 +602,7 @@ body.chatpage .crempty { position: fixed; top: 42%; }
 a.crlaunch { display: flex; text-decoration: none; }
 a.chatfab { text-decoration: none; color: inherit; }
 /* what is worth changing, read off the site: each one a tap from its own before/after */
-.offer { margin: 10px 0 2px; }
+.offer { margin: 10px 0 2px; display: flex; flex-wrap: wrap; gap: 6px; }
 .srch { margin: 10px 0 2px; }
 .srcs { margin: 0; padding-inline-start: 20px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
 .srcs a { overflow-wrap: anywhere; }

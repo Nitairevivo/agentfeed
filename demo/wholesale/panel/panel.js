@@ -652,7 +652,7 @@
     var t0 = Date.now(), design = DESIGN_RE.test(q) || ideaAsked, look = LOOK_RE.test(q);
     var steps = isResearch(q) ? RSTEPS : design ? [[0, 'קורא את העמוד'], [5, 'מתכנן את העיצוב'], [20, 'בוחר צבעים, גופנים ותמונות'], [45, 'מתכנן לעומק, עוד רגע']]
       : look ? [[0, 'פותח את האתר'], [5, 'מצלם את העמודים'], [12, 'מחפש מה כדאי לשנות']]
-      : [[0, 'חושב'], [6, 'קורא את המספרים'], [16, 'בודק כל מספר בתשובה']];
+      : demo ? [[0, 'חושב'], [6, 'בודק'], [18, 'מחפש ופותח מקורות'], [40, 'מסכם']] : [[0, 'חושב'], [6, 'קורא את המספרים'], [16, 'בודק כל מספר בתשובה']];
     var tick = setInterval(function () {
       var tt = el.querySelector('.tt'), tw = el.querySelector('.tw');
       if (!tt || !el.isConnected) { clearInterval(tick); return; }
@@ -683,7 +683,7 @@
     var local = localAnswer(q);
     // the example panel shows its pictures and its changes on our test shop: real, but a change stays a preview
     var looks = demo && (ideaAsked || LOOK_RE.test(q) || (!question && (DESIGN_RE.test(q) || (/תמונ|צילום/.test(q) && !/(חדשה|חדשות|אשלח|שלחתי|אעלה|להעלות|צילמתי)/.test(q))))); ideaAsked = false;
-    var web = !looks && isResearch(q);
+    var web = false;   // a look-up on the web is the agent's to make (brain.mjs), in the example and in a real panel
     // the example's package used up: what needs the model waits for more, a price still changes (as in a real panel)
     if (demo && !local && demoMeter().spent) local = { kind: 'help', demo: true, answer: 'החבילה של העוזר לחודש הזה נגמרה, ולכן את זה אני לא יכול להכין עכשיו. שינוי מחיר, הסתרה והחזרה של מוצר עדיין עובדים. אפשר לבקש מהסטודיו להגדיל את החבילה (הכפתור מתחת לצ\'אט).' };
     if (demo && local && local.kind === 'help') looks = false;
@@ -697,6 +697,9 @@
                 return b || local || (question && CHANGE_RE.test(q) ? { demo: true, kind: 'help', answer: 'אפשר. להכין את זה ולהראות לפני ואחרי? שום דבר לא ישתנה בלי שתאשרו.', offer: q } : demoAssist(q)); })
                    : local ? Promise.resolve(local) : assistCall(q, go);
     ask = ask.then(function (a) { return a && a.kind === 'design-job' ? designLoop(a, wait, 0) : a; });
+    // a question for the owner's own assistant: the agent answers (it looks things up, and proposes); the analyst only
+    // when the agent is not available
+    if (!demo) ask = ask.then(function (a) { return a && a.kind === 'question' ? ownerBrain(q, wait).then(function (b) { return b || a; }) : a; });
     ask.then(function (a) {
       if (a && a.meter) showMeter(a.meter);
       if (a && a.home && pageUrl(a.home)) knownHome = a.home;
@@ -742,7 +745,10 @@
     if (!demo) h.authorization = 'Bearer ' + key;
     var ctl = window.AbortController ? new AbortController() : null, t = ctl && setTimeout(function () { ctl.abort(); }, ms || 58000);
     return fetch(keepApi + op, { method: body ? 'POST' : 'GET', headers: h, body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined })
-      .then(function (r) { if (t) clearTimeout(t); if (r.status === 429) throw new Error('limit'); if (r.status === 404 && /^req-/.test(op)) throw new Error('gone'); if (!r.ok) throw new Error('server'); return r.json(); },
+      .then(function (r) { if (t) clearTimeout(t); if (r.status === 429) throw new Error('limit'); if (r.status === 404 && /^req-/.test(op)) throw new Error('gone');
+        // the server's own reason travels with the error, so a failure can say what failed
+        if (!r.ok) return r.json().catch(function () { return {}; }).then(function (b) { var er = new Error('server'); er.detail = String((b && (b.detail || b.error)) || r.status).slice(0, 200); throw er; });
+        return r.json(); },
             function (e) { if (t) clearTimeout(t); throw e; });
   }
   // a request the assistant could not take is said so, here: it is not handed to the analyst, who reads numbers
@@ -781,7 +787,25 @@
       h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + (a.demo && pv ? ' data-preview="' + esc(pv) + '"' : '') + (a.demoShots ? ' data-after="' + esc(a.demoShots.after) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
     }
-    return h + offerHtml(a.offer);
+    return h + offerHtml(a.offers && a.offers.length ? a.offers : a.offer);
+  }
+  // the owner's assistant as an agent (op=brain). A change it was asked for runs at once, through the same path as one
+  // written by hand (its checks, its before and after, its "כן"); several become one button each
+  function ownerBrain(q, wait) {
+    var hist = (cur && cur.msgs || []).slice(-9, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 400) }; });
+    return keepCall('brain', { message: q, history: hist, catalog: items.length ? items : undefined, name: cfg.name }, DESIGN_MS).then(function (b) {
+      if (!b || (!b.answer && !b.run)) return null;
+      if (b.meter) showMeter(b.meter);
+      if (!b.run) return b;
+      return assistCall(b.run, true).then(function (a2) { return a2 && a2.kind === 'design-job' ? designLoop(a2, wait, 0) : a2; }).then(function (a2) {
+        if (!a2 || !a2.answer) return b;
+        a2.answer = (b.answer ? b.answer + '\n\n' : '') + a2.answer; a2.sources = b.sources; return a2;
+      });
+    }, function (e) {
+      // no model behind it here: the analyst answers instead, quietly
+      if (e && /not_configured|503/.test(e.detail || '')) return null;
+      return { kind: 'help', answer: 'לא הצלחתי לענות על זה כרגע. נסו שוב בעוד דקה.' + (e && e.detail ? '\n(פרט טכני: ' + e.detail + ')' : '') };
+    });
   }
   // ── A change of look, in passes: planned, built, then checked and improved, each its own request ──
   var DESIGN_MS = 290000;
@@ -805,21 +829,24 @@
   function isResearch(q) { return RESEARCH_RE.test(q) && !LOOK_RE.test(q); }
   var RSTEPS = [[0, 'מחפש ברשת'], [8, 'פותח את המקורות'], [20, 'בודק את המספרים'], [34, 'מסכם']];
   function offerHtml(offer) {
-    if (!offer) return '';
-    lastOffer = String(offer).slice(0, 300);
-    return '<div class="offer"><button type="button" class="btn btn-brand btn-s" data-offer="' + esc(lastOffer) + '">✓ כן, להכין את זה</button></div>';
+    var list = (Array.isArray(offer) ? offer : [offer]).filter(Boolean).map(function (x) { return String(x).slice(0, 300); });
+    if (!list.length) return '';
+    lastOffer = list[0];
+    // one offer: "כן, להכין"; several: each says what it makes
+    return '<div class="offer">' + list.map(function (x) { return '<button type="button" class="btn btn-brand btn-s" data-offer="' + esc(x) + '">✓ ' + esc(list.length > 1 ? x : 'כן, להכין את זה') + '</button>'; }).join(' ') + '</div>';
   }
   // a web look-up: the owner's own (counted against the package) or the example's (limited per visitor)
   function webCall(question, wait, lead) {
     if (wait) wait._web = true;
     var hist = (cur && cur.msgs || []).slice(-7, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 300) }; });
     var body = demo ? { question: question, history: hist, items: demoCat() } : { question: question, history: hist, catalog: items.length ? items : undefined };
-    return keepCall(demo ? 'demo-research' : 'research', body).then(function (r) {
+    return keepCall(demo ? 'demo-research' : 'research', body, DESIGN_MS).then(function (r) {
       if (!r || !r.answer) throw new Error('empty');
       if (r.meter) showMeter(r.meter);
       return { kind: 'research', answer: r.answer, sources: r.sources || [], offer: r.offer || '', demo: demo };
     }).catch(function (e) {
-      return { kind: 'help', answer: (lead ? lead + '\n' : '') + (e && e.message === 'limit' ? 'הגעתם למספר הבדיקות ברשת להיום. אפשר להמשיך מחר.' : 'לא הצלחתי לבדוק ברשת כרגע. נסו שוב בעוד דקה.') };
+      return { kind: 'help', answer: (lead ? lead + '\n' : '') + (e && e.message === 'limit' ? 'הגעתם למספר הבדיקות ברשת להיום. אפשר להמשיך מחר.' : 'לא הצלחתי לבדוק ברשת כרגע. נסו שוב בעוד דקה.') +
+        (e && e.detail ? '\n(פרט טכני: ' + e.detail + ')' : e && e.name === 'AbortError' ? '\n(פרט טכני: עבר הזמן)' : '') };
     });
   }
   // ── Prices and products, answered from the shop's own list ─────────────
@@ -997,12 +1024,14 @@
   // (no key, a busy quota, no network) the rules above answer instead.
   function demoBrain(q) {
     var hist = (cur && cur.msgs || []).slice(-9, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 400) }; });
-    var ctl = window.AbortController ? new AbortController() : null, tm = ctl && setTimeout(function () { ctl.abort(); }, 58000);
+    var ctl = window.AbortController ? new AbortController() : null, tm = ctl && setTimeout(function () { ctl.abort(); }, DESIGN_MS);
     return fetch(keepApi + 'demo-brain', { method: 'POST', headers: { 'content-type': 'application/json' }, signal: ctl ? ctl.signal : undefined,
       body: JSON.stringify({ message: q, history: hist, items: demoCat() }) })
-      .then(function (r) { return r.ok ? r.json() : null; })
+      // a failure of the assistant itself says what failed (no model configured: the rules answer instead, quietly)
+      .then(function (r) { return r.ok ? r.json() : r.status === 502 ? r.json().then(function (e) { return { failed: true, detail: e && (e.detail || e.error) }; }, function () { return null; }) : null; })
       .then(function (b) {
         if (tm) clearTimeout(tm);
+        if (b && b.failed) return { demo: true, kind: 'help', answer: 'לא הצלחתי לענות על זה כרגע. נסו שוב בעוד דקה.' + (b.detail ? '\n(פרט טכני: ' + String(b.detail).slice(0, 200) + ')' : '') };
         if (!b || !b.answer) return null;
         if (b.research) return { research: b.research, answer: b.answer };
         var all = demoCat(), list = [], tkSubject = '', design = '';
@@ -1016,9 +1045,9 @@
         // a change of look: made the way a real panel makes it, on the test shop, with its before and after
         if (!list.length && design) return { designNext: design };
         if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
-        if (!list.length) return { demo: true, kind: 'brain', answer: b.answer, offer: b.offer || '' };
+        if (!list.length) return { demo: true, kind: 'brain', answer: b.answer, offer: b.offer || '', sources: b.sources || [] };
         var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
-        return { demo: true, kind: 'change', answer: b.answer, request: { id: id, status: 'draft' }, demoShots: demoShots(list.map(function (x) { return x.ch; })),
+        return { demo: true, kind: 'change', answer: b.answer, sources: b.sources || [], request: { id: id, status: 'draft' }, demoShots: demoShots(list.map(function (x) { return x.ch; })),
                  changes: list.map(function (x) { return x.sum; }) };
       }, function () { if (tm) clearTimeout(tm); return null; });
   }
