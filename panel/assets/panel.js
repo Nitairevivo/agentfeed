@@ -563,6 +563,7 @@
     (c ? c.msgs : []).forEach(function (m) { var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); tools(el); refreeze(el); });
     layout(); logBox.hidden = true; drawRecent();
     var ans = $('answer'); ans.scrollTop = ans.scrollHeight;
+    if (c && c.pend) setTimeout(function () { resumePend(c); }, 0);
   }
   function when(iso) { try { return new Date(iso).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' }); } catch (x) { return ''; } }
   function drawLog() {
@@ -677,7 +678,7 @@
     var question = !go && isQuestion(q);
     asking = true; $('askf').classList.add('busy');
     var wait = bubble('<div class="scan think"><div class="bar"></div><p><span class="tdots" aria-hidden="true"><i></i><i></i><i></i></span> <span class="tw">חושב</span> <time class="tt">0:00</time></p></div>', 'ai');
-    thinking(wait, q);
+    thinking(wait, q); curWait = wait;
     // the assistant sorts the message first: a change, a problem, a how-to.
     // Only a question about the numbers goes on to the analyst.
     var local = localAnswer(q);
@@ -688,11 +689,11 @@
     if (demo && !local && demoMeter().spent) local = { kind: 'help', demo: true, answer: 'החבילה של העוזר לחודש הזה נגמרה, ולכן את זה אני לא יכול להכין עכשיו. שינוי מחיר, הסתרה והחזרה של מוצר עדיין עובדים. אפשר לבקש מהסטודיו להגדיל את החבילה (הכפתור מתחת לצ\'אט).' };
     if (demo && local && local.kind === 'help') looks = false;
     if (web) local = null;
-    var ask = web ? webCall(q, wait) : demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? keepCall('demo-look', { message: q }, DESIGN_MS).catch(function () {
+    var ask = web ? webCall(q, wait) : demo && local && local.kind === 'help' ? Promise.resolve(local) : looks ? callRun('demo-look', { message: q }, q).catch(function () {
                         return { kind: 'help', answer: 'לא הצלחתי להכין את זה כרגע. נסו שוב בעוד דקה.' }; })
             : demo ? demoBrain(q).then(function (b) {
                 if (b && b.research) return webCall(b.research, wait, b.answer);
-                if (b && b.designNext) { looks = true; return keepCall('demo-look', { message: b.designNext }, DESIGN_MS).catch(function () { return { kind: 'help', answer: 'לא הצלחתי להכין את השינוי כרגע. נסו שוב בעוד דקה.' }; }); }
+                if (b && b.designNext) { looks = true; return callRun('demo-look', { message: b.designNext }, q).catch(function () { return { kind: 'help', answer: 'לא הצלחתי להכין את השינוי כרגע. נסו שוב בעוד דקה.' }; }); }
                 // without the model: a question is still only answered and offered, never done
                 return b || local || (question && CHANGE_RE.test(q) ? { demo: true, kind: 'help', answer: 'אפשר. להכין את זה ולהראות לפני ואחרי? שום דבר לא ישתנה בלי שתאשרו.', offer: q } : demoAssist(q)); })
                    : local ? Promise.resolve(local) : assistCall(q, go);
@@ -700,19 +701,23 @@
     // a question for the owner's own assistant: the agent answers (it looks things up, and proposes); the analyst only
     // when the agent is not available
     if (!demo) ask = ask.then(function (a) { return a && a.kind === 'question' ? ownerBrain(q, wait).then(function (b) { return b || a; }) : a; });
-    ask.then(function (a) {
-      if (a && a.meter) showMeter(a.meter);
-      if (a && a.home && pageUrl(a.home)) knownHome = a.home;
-      if (demo && a && (looks || a.kind === 'brain' || (a.kind === 'change' && !local))) demoMeterUse();
-      if (a && a.kind === 'question' && a.offer && DESIGN_RE.test(q)) a = { kind: 'help', answer: 'אפשר. אכין את זה ואראה לכם תמונה של לפני ואחרי, ושום דבר לא ישתנה באתר בלי שתאשרו. להכין?', offer: a.offer };
-      if (a && a.kind && a.kind !== 'question' && a.answer) {
-        wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait);
-        asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
-        return;
-      }
-      askAnalyst(q, wait, input, a && a.offer);
-    });
+    ask.then(function (a) { finish(a, q, wait, input, local, looks); });
   });
+  function finish(a, q, wait, input, local, looks) {
+    curWait = null;
+    if (a && a.kind === 'design-job') a = { kind: 'help', answer: 'העיצוב עוד לא הסתיים. נסו שוב בעוד דקה.' };
+    if (a && a.meter) showMeter(a.meter);
+    if (a && a.home && pageUrl(a.home)) knownHome = a.home;
+    if (demo && a && (looks || a.kind === 'brain' || (a.kind === 'change' && !local))) demoMeterUse();
+    if (a && a.kind === 'question' && a.offer && DESIGN_RE.test(q)) a = { kind: 'help', answer: 'אפשר. אכין את זה ואראה לכם תמונה של לפני ואחרי, ושום דבר לא ישתנה באתר בלי שתאשרו. להכין?', offer: a.offer };
+    if (a && a.kind && a.kind !== 'question' && a.answer) {
+      wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait); clearPend();
+      asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
+      return;
+    }
+    clearPend();
+    askAnalyst(q, wait, input, a && a.offer);
+  }
   function askAnalyst(q, wait, input, offer) {
     if (demo) {
       var dh = demoAnswer(q, shown) + offerHtml(offer);
@@ -753,7 +758,7 @@
   }
   // a request the assistant could not take is said so, here: it is not handed to the analyst, who reads numbers
   function assistCall(q, go) {
-    return keepCall('assist', { message: q, catalog: items.length ? items : undefined, go: !!go }, DESIGN_MS).catch(function (e) {
+    return callRun('assist', { message: q, catalog: items.length ? items : undefined, go: !!go }, q).catch(function (e) {
       return { kind: 'help', answer: e && e.name === 'AbortError' ? 'זה לקח יותר מדי זמן, ולא השתנה כלום. נסו שוב בעוד דקה, או נסחו את הבקשה קצר יותר.'
         : e && e.message === 'limit' ? 'הגעתם למספר הבקשות להיום. אפשר להמשיך מחר.' : 'לא הצלחתי להתחבר כרגע, ולא השתנה כלום. נסו שוב בעוד דקה.' };
     });
@@ -793,9 +798,11 @@
   // written by hand (its checks, its before and after, its "כן"); several become one button each
   function ownerBrain(q, wait) {
     var hist = (cur && cur.msgs || []).slice(-9, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 400) }; });
-    return keepCall('brain', { message: q, history: hist, catalog: items.length ? items : undefined, name: cfg.name }, DESIGN_MS).then(function (b) {
+    return callRun('brain', { message: q, history: hist, catalog: items.length ? items : undefined, name: cfg.name }, q).then(function (b) {
       if (!b || (!b.answer && !b.run)) return null;
       if (b.meter) showMeter(b.meter);
+      // the change it was asked for was made on the server: its own words first
+      if (b.lead && b.answer && b.answer.indexOf(b.lead) !== 0) b.answer = b.lead + '\n\n' + b.answer;
       if (!b.run) return b;
       return assistCall(b.run, true).then(function (a2) { return a2 && a2.kind === 'design-job' ? designLoop(a2, wait, 0) : a2; }).then(function (a2) {
         if (!a2 || !a2.answer) return b;
@@ -807,6 +814,49 @@
       return { kind: 'help', answer: 'לא הצלחתי לענות על זה כרגע. נסו שוב בעוד דקה.' + (e && e.detail ? '\n(פרט טכני: ' + e.detail + ')' : '') };
     });
   }
+  // ── A long request keeps going when the owner leaves (server: runs.mjs) ──
+  // Each one is named with a random run id, and the chat notes it as open. The answer comes back on the request, or,
+  // when the page lost it (it was away, the phone locked, the page reloaded), by the id: the server keeps it for a day.
+  // A design's later passes the server runs by itself; the page only asks how far it got.
+  var curWait = null;
+  function rid() { var a = new Uint8Array(16); (window.crypto || window.msCrypto).getRandomValues(a); return [].map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join(''); }
+  function setPend(run, op, q) { if (!cur) return; cur.pend = { run: run, op: op, q: String(q || '').slice(0, 300), at: Date.now() }; saveChats(); }
+  function clearPend() { if (cur && cur.pend) { delete cur.pend; saveChats(); } }
+  function callRun(op, body, q) {
+    var run = rid(); body.run = run; setPend(run, op, q);
+    return keepCall(op, body, DESIGN_MS).then(function (r) { return r && r.auto && r.run ? pollRun(r.run, op, q) : r && r.kind === 'run-wait' ? pollRun(run, op, q) : r; },
+      // a refusal with a reason is the answer; a lost answer (the page was away, the network dropped) is asked for again
+      function (e) { if (e && (e.message === 'limit' || (e.message === 'server' && e.detail && !/no such run/.test(e.detail)))) throw e; return pollRun(run, op, q); });
+  }
+  function pollRun(run, op, q) {
+    var t0 = Date.now(), misses = 0;
+    return new Promise(function (done) {
+      (function tick() {
+        keepCall('run', { id: run }).then(function (st) {
+          if (st && st.state === 'done') return done(op === 'demo-brain' ? mapBrain(st.body, q) : st.body);
+          if (curWait && st && st.note) curWait._note = 'מעצב: ' + st.note;
+          if (Date.now() - t0 > 25 * 60e3) return done({ kind: 'help', answer: 'זה לוקח יותר מדי זמן, ולא השתנה כלום. נסו שוב.' });
+          setTimeout(tick, 2500);
+        }, function () {
+          // the server never got it (the page left before it was sent): said, with the request ready to send again
+          if (++misses >= 6) return done({ kind: 'help', answer: 'הבקשה לא הגיעה לשרת, ולא השתנה כלום. לשלוח אותה שוב?', offer: q });
+          setTimeout(tick, 2500);
+        });
+      })();
+    });
+  }
+  // back to a chat with a request still open: the answer is picked up, or still being worked on
+  function resumePend(c) {
+    if (!c || !c.pend || asking || c !== cur) return;
+    if (Date.now() - c.pend.at > 24 * 3600e3) { clearPend(); return; }
+    var p = c.pend;
+    asking = true; $('askf').classList.add('busy');
+    var wait = bubble('<div class="scan think"><div class="bar"></div><p><span class="tdots" aria-hidden="true"><i></i><i></i><i></i></span> <span class="tw">ממשיך לעבוד על הבקשה</span> <time class="tt">0:00</time></p></div>', 'ai');
+    thinking(wait, p.q); curWait = wait; wait._note = 'ממשיך לעבוד על הבקשה';
+    pollRun(p.run, p.op, p.q).then(function (a) { finish(a, p.q, wait, $('askq'), null, false); });
+  }
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) resumePend(cur); });
+
   // ── A change of look, in passes: planned, built, then checked and improved, each its own request ──
   var DESIGN_MS = 290000;
   function designLoop(a, wait, n) {
@@ -1024,33 +1074,36 @@
   // (no key, a busy quota, no network) the rules above answer instead.
   function demoBrain(q) {
     var hist = (cur && cur.msgs || []).slice(-9, -1).map(function (m) { return { w: m.w, t: plain(m.h).slice(0, 400) }; });
-    var ctl = window.AbortController ? new AbortController() : null, tm = ctl && setTimeout(function () { ctl.abort(); }, DESIGN_MS);
-    return fetch(keepApi + 'demo-brain', { method: 'POST', headers: { 'content-type': 'application/json' }, signal: ctl ? ctl.signal : undefined,
-      body: JSON.stringify({ message: q, history: hist, items: demoCat() }) })
-      // a failure of the assistant itself says what failed (no model configured: the rules answer instead, quietly)
-      .then(function (r) { return r.ok ? r.json() : r.status === 502 ? r.json().then(function (e) { return { failed: true, detail: e && (e.detail || e.error) }; }, function () { return null; }) : null; })
-      .then(function (b) {
-        if (tm) clearTimeout(tm);
-        if (b && b.failed) return { demo: true, kind: 'help', answer: 'לא הצלחתי לענות על זה כרגע. נסו שוב בעוד דקה.' + (b.detail ? '\n(פרט טכני: ' + String(b.detail).slice(0, 200) + ')' : '') };
-        if (!b || !b.answer) return null;
-        if (b.research) return { research: b.research, answer: b.answer };
-        var all = demoCat(), list = [], tkSubject = '', design = '';
-        (b.changes || []).forEach(function (c) {
-          if (c.kind === 'design') { design = design || String(c.value || q); return; }
-          var it = c.item ? all.filter(function (x) { return x.id === c.item; })[0] : null;
-          var ch = { kind: c.kind, item: it, value: c.value, name: c.name, price: c.kind === 'new' ? c.value : undefined };
-          if (ch.kind === 'photo' || ch.kind === 'ticket') { tkSubject = c.value || q; return; }
-          var s = sumOf(ch); if (s) list.push({ ch: ch, sum: s });
-        });
-        // a change of look: made the way a real panel makes it, on the test shop, with its before and after
-        if (!list.length && design) return { designNext: design };
-        if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
-        if (!list.length) return { demo: true, kind: 'brain', answer: b.answer, offer: b.offer || '', sources: b.sources || [] };
-        var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list };
-        return { demo: true, kind: 'change', answer: b.answer, sources: b.sources || [], request: { id: id, status: 'draft' }, demoShots: demoShots(list.map(function (x) { return x.ch; })),
-                 changes: list.map(function (x) { return x.sum; }) };
-      }, function () { if (tm) clearTimeout(tm); return null; });
+    return callRun('demo-brain', { message: q, history: hist, items: demoCat() }, q).then(function (b) { return mapBrain(b, q); }, function (e) {
+      // no model behind it here: the rules answer instead, quietly. Anything else says what failed
+      if (!e || e.message !== 'server' || /not_configured|503/.test(e.detail || '')) return null;
+      return { demo: true, kind: 'help', answer: 'לא הצלחתי לענות על זה כרגע. נסו שוב בעוד דקה.' + (e.detail ? '\n(פרט טכני: ' + String(e.detail).slice(0, 200) + ')' : '') };
+    });
   }
+  // what the example's agent answered, as the page shows it. An answer the server already shaped (a design it started,
+  // a run picked up later) passes as it is
+  function mapBrain(b, q) {
+    if (!b) return null;
+    if (b.kind) { if (b.lead && b.answer && b.answer.indexOf(b.lead) !== 0) b.answer = b.lead + '\n\n' + b.answer; return b; }
+    if (!b.answer) return null;
+    if (b.research) return { research: b.research, answer: b.answer };
+    var all = demoCat(), list = [], tkSubject = '', design = '';
+    (b.changes || []).forEach(function (c) {
+      if (c.kind === 'design') { design = design || String(c.value || q); return; }
+      var it = c.item ? all.filter(function (x) { return x.id === c.item; })[0] : null;
+      var ch = { kind: c.kind, item: it, value: c.value, name: c.name, price: c.kind === 'new' ? c.value : undefined };
+      if (ch.kind === 'photo' || ch.kind === 'ticket') { tkSubject = c.value || q; return; }
+      var s = sumOf(ch); if (s) list.push({ ch: ch, sum: s });
+    });
+    // a change of look: made the way a real panel makes it, on the test shop, with its before and after
+    if (!list.length && design) return { designNext: design };
+    if (!list.length && tkSubject) return ticketOffer(tkSubject, b.answer);
+    if (!list.length) return { demo: true, kind: 'brain', answer: b.answer, offer: b.offer || '', sources: b.sources || [] };
+    var id = 'D' + Date.now().toString(36); dreqs[id] = { list: list }; draftsSave();
+    return { demo: true, kind: 'change', answer: b.answer, sources: b.sources || [], request: { id: id, status: 'draft' }, demoShots: demoShots(list.map(function (x) { return x.ch; })),
+             changes: list.map(function (x) { return x.sum; }) };
+  }
+
   function sumOf(ch) {
     var it = ch.item;
     if (ch.kind === 'price' && it) return 'המחיר של "' + it.name + '": ' + money(it.price) + ' ← ' + money(ch.value);
