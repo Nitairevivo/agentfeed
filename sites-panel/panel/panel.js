@@ -770,12 +770,50 @@
     return String(html).replace(/https:\/\/[^\s<>"']+[^\s<>"'.,:;!?)]/g, function (u) {
       return '<a href="' + u + '" target="_blank" rel="noopener" dir="ltr">' + u + '</a>'; });
   }
+  // the assistant's words, laid out: a bold first line, points, a small table, short headings. Escaped first, so the
+  // only markup is what is made here
+  function fmt(text) {
+    var lines = String(text || '').split('\n'), out = [], list = null, tbl = null;
+    var inl = function (t) { return linkify(esc(t)).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>'); };
+    var close = function () {
+      if (list) { out.push('<' + list.tag + ' class="fmtl">' + list.items.join('') + '</' + list.tag + '>'); list = null; }
+      if (tbl) { out.push('<div class="fmtt"><table>' + tbl.map(function (r, i) { return '<tr>' + r.map(function (c) { return i ? '<td>' + inl(c) + '</td>' : '<th>' + inl(c) + '</th>'; }).join('') + '</tr>'; }).join('') + '</table></div>'); tbl = null; }
+    };
+    lines.forEach(function (raw) {
+      var l = raw.trim(), m;
+      if (/^\|.*\|$/.test(l)) {
+        if (list) close();
+        if (/^\|[\s:|-]+\|$/.test(l)) return;
+        (tbl = tbl || []).push(l.slice(1, -1).split('|').map(function (c) { return c.trim(); })); return;
+      }
+      if (tbl) close();
+      if ((m = l.match(/^(?:[-•*])\s+(.+)/)) || (m = l.match(/^(\d+)[.)]\s+(.+)/))) {
+        var tag = m.length > 2 ? 'ol' : 'ul', body = m.length > 2 ? m[2] : m[1];
+        if (list && list.tag !== tag) close();
+        (list = list || { tag: tag, items: [] }).items.push('<li>' + inl(body) + '</li>'); return;
+      }
+      close();
+      if (!l) return;
+      if ((m = l.match(/^#{1,4}\s+(.+)/))) { out.push('<h4 class="fmth">' + inl(m[1].replace(/\*\*/g, '')) + '</h4>'); return; }
+      out.push('<p>' + inl(l) + '</p>');
+    });
+    close();
+    return '<div class="fmt">' + out.join('') + '</div>';
+  }
+  // the sources of a look-up, each with its picture: the page's own, or a screenshot of it; a picture that does not
+  // load leaves the card with its name
+  document.addEventListener('error', function (e) { var t = e.target; if (t && t.tagName === 'IMG' && t.closest && t.closest('.srccard')) t.remove(); }, true);
+  function srcCards(list) {
+    var src = (list || []).filter(function (x) { return /^https?:\/\//.test(String(x.url || '')); });
+    if (!src.length) return '';
+    return '<p class="sub srch">מה מצאתי ברשת:</p><div class="srcc">' + src.map(function (x) { var host = ''; try { host = new URL(x.url).host.replace(/^www\./, ''); } catch (e) {}
+      var img = /^https:\/\//.test(String(x.image || '')) ? '<img src="' + esc(x.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '';
+      return '<a class="srccard" href="' + esc(x.url) + '" target="_blank" rel="noopener">' + img + '<span class="srct">' + esc(x.title || host) + '</span><span class="sub">' + esc(host) + '</span></a>'; }).join('') + '</div>';
+  }
   function assistHtml(a) {
-    var h = '<p>' + linkify(esc(a.answer)).replace(/\n/g, '<br>') + '</p>';
-    // a look-up on the web: every source it used, to open and check
-    var src = (a.sources || []).filter(function (x) { return /^https?:\/\//.test(String(x.url || '')); });
-    if (src.length) h += '<p class="sub srch">מקורות:</p><ol class="srcs">' + src.map(function (x) { var host = ''; try { host = new URL(x.url).host.replace(/^www\./, ''); } catch (e) {}
-      return '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title || host) + '</a> <span class="sub">' + esc(host) + '</span></li>'; }).join('') + '</ol>';
+    var h = fmt(a.answer);
+    // a look-up on the web: every source it used, to open and check, with a picture of each
+    h += srcCards(a.sources);
     if (a.link && pageUrl(a.link[0])) h += '<p><a class="btn btn-s" href="' + esc(a.link[0]) + '" target="_blank" rel="noopener">' + esc(a.link[1]) + '</a></p>';
     if ((a.changes || []).length) h += '<ul class="chg">' + a.changes.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ul>';
     // the site itself, as every visitor sees it, and what is worth changing: each idea one tap from its own preview
@@ -783,11 +821,12 @@
     if (pages.length) h += shots(pages.map(function (x) { return [x[0], esc(x[1])]; }).reverse());
     if ((a.ideas || []).length) h += '<div class="ideas">' + a.ideas.map(function (x) { return '<button type="button" class="btn btn-s" data-idea="' + esc(x) + '">✨ ' + esc(x) + '</button>'; }).join('') + '</div>';
     if (a.request && a.request.status === 'draft') {
-      var pg = pageUrl(a.request.page), pv = pageUrl(a.request.preview);
-      // a change of look: the page before, and with the change (a preview only this link shows)
+      // the page the change is on; a change with no page of its own (the WhatsApp number, "about") on the home page
+      var pg = pageUrl(a.request.page) || siteHome(), pv = pageUrl(a.request.preview);
+      // every change comes with its picture: before, and with the change (a preview only this link shows)
       if (pv) h += compare(pv);
       else if (a.demoShots) h += shots([[a.demoShots.now, 'עכשיו באתר'], [a.demoShots.after, 'אחרי השינוי']]);
-      else if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + '?af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
+      else if (pg) h += shots([[pg, 'עכשיו באתר'], [pg + (pg.indexOf('?') < 0 ? '?' : '&') + 'af-draft=' + encodeURIComponent(a.request.id), 'אחרי השינוי']]);
       lastOffer = '';
       h += '<div class="reqbtns" data-req="' + esc(a.request.id) + '"' + (pg ? ' data-page="' + esc(pg) + '"' : '') + (a.demo && pv ? ' data-preview="' + esc(pv) + '"' : '') + (a.demoShots ? ' data-after="' + esc(a.demoShots.after) + '"' : '') + '><button type="button" class="btn btn-brand btn-s" data-yes>' + esc(a.yesLabel || '✓ כן, לעדכן') + '</button> ' +
            '<button type="button" class="btn btn-s" data-no>✕ לא</button></div>';
@@ -1233,10 +1272,12 @@
         var bub = box.closest('.qa'), aft = yes && pageUrl(box.getAttribute('data-after')), oldC = aft && bub.querySelector('.cmp');
         if (oldC) oldC.remove();
         var shopPage = aft ? aft.split('?')[0] : '';
-        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (yes && !r.offShop ? (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : homeLink('לפתוח את החנות ↗')) : '') + '</p>' + (aft ? shots([[aft, 'באתר עכשיו']]) : '');
+        // after "כן", always the picture of how it looks now
+        var nowPic = aft || (yes && !r.offShop && siteHome() ? siteHome() + '?t=' + Date.now() : '');
+        box.outerHTML = '<p class="sub"><b>' + esc(r.note) + '</b>' + (yes && !r.offShop ? (shopPage ? ' <a href="' + esc(shopPage) + '" target="_blank" rel="noopener">לפתוח בחנות ↗</a>' : homeLink('לפתוח את החנות ↗')) : '') + '</p>' + (nowPic ? shots([[nowPic, 'באתר עכשיו']]) : '');
         resave(id, bub); keeper(); return;
       }
-      var pg = pageUrl(box.getAttribute('data-page'));
+      var pg = pageUrl(box.getAttribute('data-page')) || siteHome();
       // answered before (another tab, a retry) or no longer valid: what happened to it, with nothing done again
       if (r.already && !(yes && r.status === 'applied')) {
         var ST = { applied: '✓ השינוי הזה כבר עלה לאתר.', approved: '✓ השינוי הזה כבר אושר, והוא בדרך לאתר.', needs_human: '✓ הבקשה הזאת כבר נשלחה לצוות.',
@@ -1252,8 +1293,10 @@
           '<p class="sub"><a href="' + esc(pg) + '" target="_blank" rel="noopener">לפתוח את העמוד באתר ↗</a>' + (siteHome() && siteHome() !== pg.split('?')[0] ? ' ·' + homeLink() : '') + '</p>' : (siteHome() ? '<p class="sub">' + homeLink() + '</p>' : ''));
         resave(id, bubA); keeper(); return;
       }
+      // approved, on its way (a WordPress shop takes it in a few minutes): the picture of how it will look
+      var soon = yes && r.status === 'approved' && pg ? shots([[pg + (pg.indexOf('?') < 0 ? '?' : '&') + 'af-draft=' + encodeURIComponent(id), 'ככה זה ייראה']]) : '';
       box.outerHTML = '<p class="sub"><b>' + (yes ? (r.status === 'approved' ? '✓ אושר. השינוי יעלה לאתר תוך כמה דקות, ותקבלו הודעה כשהוא באוויר.</b>' + homeLink() + '<b>' :
-        (r.ticket ? '✓ נפתחה פנייה #' + r.ticket.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות".' : '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.')) : 'בוטל. שום דבר לא השתנה.') + '</b></p>';
+        (r.ticket ? '✓ נפתחה פנייה #' + r.ticket.no + ' לצוות. אפשר לעקוב אחריה ב"פניות לצוות".' : '✓ נשלח אלינו. אדם מאיתנו יטפל בזה ויעדכן אתכם.')) : 'בוטל. שום דבר לא השתנה.') + '</b></p>' + soon;
       if (r.ticket) tickets();
       resave(id, bub2); keeper();
     }).catch(function (e) {

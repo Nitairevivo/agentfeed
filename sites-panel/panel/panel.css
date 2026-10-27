@@ -606,6 +606,25 @@ a.chatfab { text-decoration: none; color: inherit; }
 .srch { margin: 10px 0 2px; }
 .srcs { margin: 0; padding-inline-start: 20px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
 .srcs a { overflow-wrap: anywhere; }
+/* the assistant's words, laid out: a first line that answers, points, a small table, short headings */
+.fmt { display: flex; flex-direction: column; gap: 6px; }
+.fmt p { margin: 0; }
+.fmt > p:first-child { font-size: 1.05em; }
+.fmt b { font-weight: 700; }
+.fmth { margin: 8px 0 0; font-size: 15px; font-weight: 700; color: #8fe9ff; letter-spacing: .01em; }
+.fmtl { margin: 0; padding-inline-start: 22px; display: flex; flex-direction: column; gap: 3px; }
+.fmtl li::marker { color: #8b6cff; }
+.fmtt { overflow-x: auto; margin: 4px 0; }
+.fmtt table { border-collapse: collapse; font-size: 14.5px; min-width: 60%; }
+.fmtt th, .fmtt td { text-align: start; padding: 6px 10px; border-bottom: 1px solid rgba(255,255,255,.12); vertical-align: top; }
+.fmtt th { color: #a9b3d6; font-weight: 600; font-size: 13px; background: rgba(139,108,255,.12); }
+/* what a look-up found: a card for each source, with its picture */
+.srcc { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 4px 0 6px; }
+.srccard { display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: inherit; border: 1px solid rgba(255,255,255,.12); border-radius: 12px; overflow: hidden; background: rgba(255,255,255,.03); padding-bottom: 8px; }
+.srccard img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: rgba(255,255,255,.06); display: block; }
+.srccard .srct { padding: 0 10px; font-size: 14px; font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+.srccard .sub { padding: 0 10px; font-size: 12.5px; }
+.srccard:hover, .srccard:focus-visible { border-color: rgba(62,230,255,.5); }
 .ideas { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin: 10px 0 4px; }
 .ideas .btn { white-space: normal; text-align: start; line-height: 1.4; }
 /* the month's package, under the chat */
