@@ -471,6 +471,11 @@ form.add[aria-disabled="true"] { opacity: .5; }
 .chlog .del { font: inherit; background: none; border: 0; color: var(--dim); cursor: pointer; padding: 0 8px; }
 .chlog .sub { margin: 8px 4px 0; font-size: 12px; }
 .qtools { display: flex; gap: 6px; margin-top: 8px; }
+.qa.me .qtools { justify-content: flex-end; margin-top: 4px; }
+.qa.me .qtools button { padding: 2px 8px; opacity: .55; }
+.qa.me .qtools button:hover, .qa.me .qtools button:focus-visible { opacity: 1; }
+.qa.gone { opacity: .7; }
+.qa.gone button, .chlog .delall { font: inherit; font-size: 13px; color: inherit; background: none; border: 1px solid var(--edge); border-radius: 8px; padding: 2px 8px; cursor: pointer; }
 .ask.talking #answer { margin: 0 0 14px; }
 .askf .mic { font-size: 18px; background: rgba(255,255,255,.06); border: 1px solid var(--edge); border-radius: 12px; padding: 7px 10px; cursor: pointer; }
 .askf .mic.on { background: rgba(255,90,95,.2); border-color: #ff5a5f; animation: micpulse 1s ease-in-out infinite; }

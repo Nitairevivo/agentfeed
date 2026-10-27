@@ -463,12 +463,13 @@
   try { chats = JSON.parse(localStorage.getItem(CKEY) || '[]') || []; } catch (x) { chats = []; }
   function saveChats() { try { localStorage.setItem(CKEY, JSON.stringify(chats.slice(0, 30))); } catch (x) {} drawRecent(); }
   var bar = document.createElement('div'); bar.className = 'askbar';
-  bar.innerHTML = '<b>💬 העוזר של האתר <small style="font-weight:400;opacity:.75">שאלות, שינויים באתר ותקלות</small></b><span><button type="button" id="chnew">＋ שיחה חדשה</button><button type="button" id="chlog">🕘 יומן שיחות</button></span>';
+  bar.innerHTML = '<b>💬 העוזר של האתר <small style="font-weight:400;opacity:.75">שאלות, שינויים באתר ותקלות</small></b><span><button type="button" id="chnew">＋ שיחה חדשה</button><button type="button" id="chlog">🕘 יומן שיחות</button><button type="button" id="chdel" hidden>🗑 מחיקת השיחה</button></span>';
   var logBox = document.createElement('div'); logBox.className = 'chlog'; logBox.id = 'chlogbox'; logBox.hidden = true;
   // the last conversations, always in view: one tap back to yesterday's answer
   var recent = document.createElement('div'); recent.className = 'chrecent';
   if (askNode) { askNode.insertBefore(recent, askNode.firstChild); askNode.insertBefore(logBox, askNode.firstChild); askNode.insertBefore(bar, askNode.firstChild); }
   function drawRecent() {
+    var cd = document.getElementById('chdel'); if (cd) cd.hidden = !cur;
     var list = chats.slice(0, 6);
     recent.hidden = !list.length;
     recent.innerHTML = list.length ? '<small>שיחות קודמות:</small>' + list.map(function (c, i) {
@@ -500,10 +501,11 @@
     $('askf').scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
   }
   function plain(html) { var d = document.createElement('div'); d.innerHTML = html; return (d.textContent || '').trim(); }
+  // under each kept message: copy (an answer) and delete (any message)
   function tools(el) {
-    if (!el.classList.contains('ai') || el.querySelector('.qtools')) return;
+    if (el.querySelector('.qtools') || !el.getAttribute('data-k')) return;
     var t = document.createElement('div'); t.className = 'qtools';
-    t.innerHTML = '<button type="button" data-copy>📋 העתקה</button>';
+    t.innerHTML = (el.classList.contains('ai') ? '<button type="button" data-copy>📋 העתקה</button>' : '') + '<button type="button" data-delmsg aria-label="מחיקת ההודעה">🗑</button>';
     el.appendChild(t);
   }
   function bubble(html, cls, quiet) {
@@ -511,10 +513,13 @@
     $('answer').appendChild(el); layout(); if (!quiet) follow(el);
     return el;
   }
-  function record(who, html) {
+  // {el}: the message's bubble, marked with the message's own key, so it can be deleted later
+  function msgKey() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+  function record(who, html, el) {
     if (!cur) { cur = { id: Date.now().toString(36), at: new Date().toISOString(), title: '', msgs: [] }; chats.unshift(cur); }
     if (!cur.title && who === 'me') cur.title = plain(html).slice(0, 60);
-    cur.msgs.push({ w: who, h: html }); cur.at = new Date().toISOString();
+    var k = msgKey(); if (el) el.setAttribute('data-k', k);
+    cur.msgs.push({ w: who, h: html, k: k }); cur.at = new Date().toISOString();
     if (cur.msgs.length > 60) cur.msgs = cur.msgs.slice(-60);
     chats = [cur].concat(chats.filter(function (c) { return c !== cur; })); saveChats();
   }
@@ -560,7 +565,7 @@
   function openChat(c) {
     // an offer belongs to the chat it was made in: a "כן" in another one never runs it
     $('answer').innerHTML = ''; cur = c || null; lastOffer = '';
-    (c ? c.msgs : []).forEach(function (m) { var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); tools(el); refreeze(el); });
+    (c ? c.msgs : []).forEach(function (m) { if (!m.k) m.k = msgKey(); var el = bubble(safeHtml(m.h), m.w === 'me' ? 'me' : 'ai', true); el.setAttribute('data-k', m.k); tools(el); refreeze(el); });
     layout(); logBox.hidden = true; drawRecent();
     var ans = $('answer'); ans.scrollTop = ans.scrollHeight;
     if (c && c.pend) setTimeout(function () { resumePend(c); }, 0);
@@ -570,20 +575,36 @@
     logBox.innerHTML = chats.length ? '<ul>' + chats.map(function (c, i) {
       return '<li><button type="button" class="open" data-i="' + i + '"><b>' + esc(c.title || 'שיחה') + '</b><small>' + esc(when(c.at)) + ' · ' + c.msgs.length + ' הודעות</small></button>' +
         '<button type="button" class="del" data-del="' + i + '" aria-label="מחיקת השיחה">✕</button></li>'; }).join('') + '</ul>' +
-      '<p class="sub">השיחות נשמרות רק במכשיר הזה.</p>' : '<p class="sub">עוד אין שיחות. שאלו את המנתח משהו, והשיחה תישמר כאן.</p>';
+      '<p class="sub">השיחות נשמרות רק במכשיר הזה. <button type="button" class="delall" data-delall>🗑 מחיקת כל השיחות</button></p>' : '<p class="sub">עוד אין שיחות. שאלו את המנתח משהו, והשיחה תישמר כאן.</p>';
   }
   bar.addEventListener('click', function (e) {
     if (e.target.id === 'chnew') { openChat(null); $('askq').focus(); }
     if (e.target.id === 'chlog') { drawLog(); logBox.hidden = !logBox.hidden; }
+    if (e.target.id === 'chdel' && cur && !asking && confirm('למחוק את השיחה הזאת?')) { var gone = cur; chats = chats.filter(function (c) { return c !== gone; }); cur = null; saveChats(); openChat(null); }
   });
   logBox.addEventListener('click', function (e) {
     var o = e.target.closest('[data-i]'), d = e.target.closest('[data-del]');
     if (o) openChat(chats[+o.dataset.i]);
-    if (d && confirm('למחוק את השיחה?')) { var gone = chats.splice(+d.dataset.del, 1)[0]; saveChats(); if (gone === cur) openChat(null); drawLog(); }
+    if (d && !(asking && chats[+d.dataset.del] === cur) && confirm('למחוק את השיחה?')) { var gone = chats.splice(+d.dataset.del, 1)[0]; if (gone === cur) cur = null; saveChats(); if (!cur) openChat(null); drawLog(); }
+    if (e.target.closest('[data-delall]') && !asking && confirm('למחוק את כל השיחות במכשיר הזה?')) { chats = []; cur = null; saveChats(); openChat(null); drawLog(); }
   });
+  // a message deleted: gone from the chat at once, with a moment to take it back
   $('answer').addEventListener('click', function (e) {
+    var dm = e.target.closest('[data-delmsg]'), un = e.target.closest('[data-undel]');
+    if (dm) {
+      var el = dm.closest('.qa'), k = el.getAttribute('data-k'), chat = cur, at = chat ? chat.msgs.findIndex(function (m) { return m.k === k; }) : -1;
+      if (at < 0) return;
+      var m = chat.msgs.splice(at, 1)[0], keep = el.innerHTML;
+      if (!chat.msgs.length) chats = chats.filter(function (c) { return c !== chat; });
+      saveChats();
+      el.classList.add('gone'); el.innerHTML = '<p class="sub">ההודעה נמחקה. <button type="button" data-undel>↩ להחזיר</button></p>';
+      el._undo = function () { chat.msgs.splice(Math.min(at, chat.msgs.length), 0, m); if (chats.indexOf(chat) < 0) chats.unshift(chat); saveChats(); el.innerHTML = keep; el.classList.remove('gone'); el._undo = null; };
+      setTimeout(function () { if (el._undo) { el._undo = null; el.remove(); layout(); if (!chat.msgs.length && chat === cur) { cur = null; drawRecent(); } } }, 6000);
+      return;
+    }
+    if (un) { var ue = un.closest('.qa'); if (ue && ue._undo) ue._undo(); return; }
     var c = e.target.closest('[data-copy]'); if (!c) return;
-    var txt = plain(c.closest('.qa').innerHTML).replace('📋 העתקה', '').trim();
+    var txt = plain(c.closest('.qa').innerHTML.replace(/<div class="qtools">[\s\S]*$/, '')).trim();
     (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { c.textContent = '✓ הועתק'; setTimeout(function () { c.textContent = '📋 העתקה'; }, 1500); }, function () {});
   });
   // the last conversation comes back if it is from the last twelve hours
@@ -669,7 +690,7 @@
     e.preventDefault();
     var input = $('askq'), shown0 = input.value.trim(); if (!shown0 || asking) return;
     input.value = ''; logBox.hidden = true;
-    bubble(esc(shown0), 'me'); record('me', esc(shown0));
+    var meB = bubble(esc(shown0), 'me'); record('me', esc(shown0), meB); tools(meB);
     // "כן" after the assistant offered something: that offer, as the command it is. A message pressed from
     // "כן, להכין" is a command too. Anything else written as a question is answered first, and only offered
     var go = goNext, q = shown0; goNext = false;
@@ -711,7 +732,7 @@
     if (demo && a && (looks || a.kind === 'brain' || (a.kind === 'change' && !local))) demoMeterUse();
     if (a && a.kind === 'question' && a.offer && DESIGN_RE.test(q)) a = { kind: 'help', answer: 'אפשר. אכין את זה ואראה לכם תמונה של לפני ואחרי, ושום דבר לא ישתנה באתר בלי שתאשרו. להכין?', offer: a.offer };
     if (a && a.kind && a.kind !== 'question' && a.answer) {
-      wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML); tools(wait); clearPend();
+      wait.innerHTML = assistHtml(a); record('ai', wait.innerHTML, wait); tools(wait); clearPend();
       asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30);
       return;
     }
@@ -721,7 +742,7 @@
   function askAnalyst(q, wait, input, offer) {
     if (demo) {
       var dh = demoAnswer(q, shown) + offerHtml(offer);
-      wait.innerHTML = dh; tools(wait); record('ai', dh);
+      wait.innerHTML = dh; record('ai', dh, wait); tools(wait);
       asking = false; $('askf').classList.remove('busy'); return;
     }
     brainCall({ ask: q }).then(function (r) {
@@ -733,7 +754,7 @@
         return;
       }
       wait.innerHTML = (r.answer ? '<p>' + linkify(esc(r.answer)) + ' <small class="cert ' + r.certainty + '">' + (CERT[r.certainty] || '') + '</small></p>' + chip(r.evidence) : '') + tipsHtml(r.tips) + offerHtml(offer);
-      record('ai', wait.innerHTML); tools(wait);
+      record('ai', wait.innerHTML, wait); tools(wait);
     }).catch(function (e2) {
       wait.innerHTML = '<p>' + esc(/[֐-׿]/.test(e2.message) ? e2.message : 'המנתח לא זמין כרגע.') + '</p>';
     }).then(function () { asking = false; $('askf').classList.remove('busy'); input.focus({ preventScroll: true }); setTimeout(follow, 30); });
