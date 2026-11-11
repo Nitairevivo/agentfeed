@@ -121,6 +121,8 @@
     demoSave(D); return Promise.resolve(t);
   }
   function act(op, b) { return demo ? demoAct(op, b) : call(op, b); }
+  // the billing tab (billing-desk.js) reaches the server through the same door, with the same key and device proof
+  window.AFDesk = { call: call, toast: toast, esc: esc, isDemo: function () { return demo; }, sites: function () { return state.sites || []; } };
 
   // ── drawing ──
   function brand(b) {
@@ -504,7 +506,7 @@
   // ── acting ──
   document.addEventListener('click', function (e) {
     var tab = e.target.closest('[data-view]');
-    if (tab) { document.querySelectorAll('[data-view]').forEach(function (b) { b.classList.toggle('on', b === tab); }); $('tickets').hidden = tab.dataset.view !== 'tickets'; $('sites').hidden = tab.dataset.view !== 'sites'; return; }
+    if (tab) { document.querySelectorAll('[data-view]').forEach(function (b) { b.classList.toggle('on', b === tab); }); document.querySelectorAll('.dsec').forEach(function (x) { x.hidden = x.id !== tab.dataset.view; }); if (tab.dataset.view === 'billing' && window.AFBilling) AFBilling.show(); return; }
     var cp = e.target.closest('[data-copy]');
     if (cp) { copy(copies[+cp.dataset.copy] || ''); return; }
     var wc = e.target.closest('[data-wpcode]');

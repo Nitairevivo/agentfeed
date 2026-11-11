@@ -26,6 +26,7 @@
   <nav class="tktabs dtabs" role="tablist">
     <button type="button" role="tab" data-view="tickets" class="on">📨 פניות</button>
     <button type="button" role="tab" data-view="sites">🌐 אתרים</button>
+    <button type="button" role="tab" data-view="billing">💳 חיובים</button>
   </nav>
   <section id="tickets" class="dsec">
     <section class="cardp glass brain" id="brief" hidden></section>
@@ -44,6 +45,7 @@
     <section class="cardp glass" id="audit" hidden></section>
     <ul class="tklist" id="slist"></ul>
   </section>
+  <section id="billing" class="dsec" hidden></section>
   <p class="err" id="err" hidden></p>
   <p class="pn-foot">הבדיקה רצה שלוש פעמים ביום, רק קוראת ומייעצת. Claude משנה אתר רק כשמישהו מהצוות לוחץ על פנייה, והשינוי עולה רק אחרי אישור. באתר וורדפרס מחובר: רק אחרי חתימה של מכשיר מורשה.</p>
 </main>
@@ -51,5 +53,6 @@
 <div class="pntoast" id="toast" role="status"></div>
 <script src="https://nitairevivo.github.io/agentfeed/panel/assets/afsign.js"></script>
 <script src="https://nitairevivo.github.io/agentfeed/desk/desk.js"></script>
+<script src="https://nitairevivo.github.io/agentfeed/desk/billing-desk.js"></script>
 </body>
 </html>
