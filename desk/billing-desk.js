@@ -17,7 +17,7 @@
       { site: 'flowers', client: 'פרחי השרון (דוגמה)', price: 19900, active: true, day: 1, collect: 'invoice', bill: { state: 'issued', total: 23482, at: at(16), late: 16, reminders: ['7', '14'] } },
       { site: 'yoga-tal', client: 'יוגה עם טל (דוגמה)', price: 14900, active: true, day: 15, collect: 'link', bill: null }];
     var plans = rows.map(function (r) { return { site: r.site, client: { name: r.client, emails: ['example@example.co.il'], phone: '' }, price: r.price, vat: 'plus', collect: r.collect, day: r.day, includes: { changes: 5 }, extraPrice: 15000 }; });
-    return { demo: true, connected: true, env: 'sandbox', vault: true, month: m, monthly: 64700, issued: 58764, paid: 35282, open: 23482, late: ['flowers'], rows: rows, plans: plans };
+    return { demo: true, connected: true, env: 'sandbox', vault: true, month: m, monthly: 64700, issued: 58764, paid: 35282, open: 23482, late: ['flowers'], rows: rows, plans: plans, once: [{ id: 'aaaaaaaaaaaa', client: { name: 'עסק לדוגמה' }, description: 'הקמת אתר (דוגמה)', total: 413000, state: 'sent', payUrl: 'https://example.com', allocation: false }] };
   }
   function load() {
     if (D.isDemo()) { data = demoData(); draw(); return; }
@@ -72,6 +72,24 @@
       (b && b.error ? ' <span class="pill alert">' + esc(b.error) + '</span>' : '') + '</div>' +
       '<div class="bacts">' + acts + '</div>' + (open === r.site ? planForm(r.site, (data.plans || []).filter(function (p) { return p.site === r.site; })[0]) : '') + '</li>';
   }
+  // a one-off: anyone, any amount — a quote that was accepted, a setup fee, a site that was built
+  function onceCard() {
+    var list = (data.once || []).slice(0, 10).map(function (o) {
+      var st = STATE[o.state] || [o.state, ''];
+      return '<li class="tk brow"><div class="bhead"><b>' + esc(o.client && o.client.name) + '</b> <span class="sub">' + esc(o.description) + ' · ' + ils(o.total) + '</span> <span class="pill ' + st[1] + '">' + st[0] + '</span>' +
+        (o.allocation ? ' <span class="pill info">צריך מספר הקצאה</span>' : '') + '</div><div class="bacts">' +
+        (o.payUrl || o.docUrl ? '<a class="btn ghost sm" target="_blank" rel="noopener" href="' + esc(o.payUrl || o.docUrl) + '">' + (o.payUrl ? 'הקישור לתשלום' : 'החשבונית') + '</a>' : '') +
+        (o.state !== 'paid' ? '<button type="button" class="btn ok sm" data-bill="once-paid" data-id="' + esc(o.id) + '">שולם</button>' : '') + '</div></li>';
+    }).join('');
+    return '<section class="cardp glass"><h2>חיוב חד־פעמי</h2><p class="sub">לכל אחד, בכל סכום: הצעת מחיר שאושרה, דמי הקמה, אתר שנבנה. יוצא מהחשבון שלכם ב-Morning.</p>' +
+      '<form class="bform" data-bform="once"><label>שם בחשבונית<input name="name" id="once-name" required maxlength="80"></label>' +
+      '<label>מייל<input name="email" id="once-email" type="email" dir="ltr"></label>' +
+      '<label>על מה<input name="desc" id="once-desc" required maxlength="120" placeholder="למשל: הקמת אתר"></label>' +
+      '<label>סכום (₪)<input name="amount" id="once-amount" inputmode="decimal" required></label>' +
+      '<label>מע"מ<select name="vat" id="once-vat"><option value="plus">הסכום לפני מע"מ</option><option value="included">הסכום כולל מע"מ</option><option value="exempt">עוסק פטור</option></select></label>' +
+      '<label>איך משלמים<select name="collect" id="once-collect"><option value="link">קישור לתשלום באשראי</option><option value="invoice">חשבונית במייל</option></select></label>' +
+      '<button type="submit" class="btn sm">להוציא</button></form>' + (list ? '<ul class="tklist">' + list + '</ul>' : '') + '</section>';
+  }
   function draw() {
     var have = {}; data.rows.forEach(function (r) { have[r.site] = 1; });
     var noPlan = D.sites().filter(function (s) { return !have[s.slug]; });
@@ -80,12 +98,13 @@
       (noPlan.length ? '<section class="cardp glass"><h2>אתרים בלי חבילה</h2><ul class="tklist">' + noPlan.map(function (s) {
         return '<li class="tk brow"><div class="bhead"><b>' + esc(s.name || s.slug) + '</b></div><div class="bacts"><button type="button" class="btn ghost sm" data-bill="edit" data-site="' + esc(s.slug) + '">להגדיר חבילה</button></div>' +
           (open === s.slug ? planForm(s.slug) : '') + '</li>'; }).join('') + '</ul></section>' : '') +
+      onceCard() +
       '<p class="pn-foot">החשבוניות יוצאות מהחשבון שלכם, והכסף נכנס ישר אליכם — לא דרכנו. חיוב יוצא פעם אחת בחודש, ביום שנקבע. תזכורת נשלחת רק מהוואטסאפ שלכם, בלחיצה שלכם.</p>';
   }
 
   function run(op, body, done) {
     if (busy) return; busy = true;
-    if (D.isDemo()) { busy = false; D.toast('בדוגמה לא נשלח כלום. במסך אמיתי: ' + ({ 'billing-issue': 'החיוב היה יוצא מ-Morning', 'billing-paid': 'החודש היה מסומן כשולם', 'billing-remind': 'הייתה נפתחת הודעה מוכנה בוואטסאפ', 'billing-plan': 'החבילה הייתה נשמרת', 'billing-connect': 'החשבון היה נבדק ונשמר מוצפן' }[op] || '')); return; }
+    if (D.isDemo()) { busy = false; D.toast('בדוגמה לא נשלח כלום. במסך אמיתי: ' + ({ 'billing-issue': 'החיוב היה יוצא מ-Morning', 'billing-paid': 'החודש היה מסומן כשולם', 'billing-remind': 'הייתה נפתחת הודעה מוכנה בוואטסאפ', 'billing-plan': 'החבילה הייתה נשמרת', 'billing-connect': 'החשבון היה נבדק ונשמר מוצפן', 'billing-once': 'החיוב היה יוצא מ-Morning', 'billing-once-paid': 'החיוב היה מסומן כשולם' }[op] || '')); return; }
     D.call(op, body).then(function (r) { busy = false; done(r); }).catch(function (e) { busy = false; D.toast(e.message); });
   }
   box.addEventListener('click', function (e) {
@@ -97,6 +116,7 @@
       D.toast('ייצא: ' + ils(Math.round(r.total)) + (r.doc.type === 320 ? ' — קישור לתשלום' : ' — חשבונית מס במייל') + (r.allocation ? '. צריך מספר הקצאה' : ''));
     });
     if (what === 'issue') return run('billing-issue', { site: site, month: m }, function (r) { D.toast(r.ok ? '✓ החיוב יצא' : r.why); load(); });
+    if (what === 'once-paid') return run('billing-once-paid', { id: b.dataset.id }, function () { D.toast('✓ סומן כשולם'); load(); });
     if (what === 'paid') return run('billing-paid', { site: site, month: m }, function () { D.toast('✓ סומן כשולם'); load(); });
     if (what === 'remind') return run('billing-remind', { site: site, month: m }, function (r) {
       if (r.wa) window.open(r.wa, '_blank', 'noopener'); else { navigator.clipboard && navigator.clipboard.writeText(r.text).catch(function () {}); }
@@ -106,6 +126,8 @@
   box.addEventListener('submit', function (e) {
     var f = e.target.closest('[data-bform]'); if (!f) return; e.preventDefault();
     var v = function (n) { var x = f.elements[n]; return x ? (x.type === 'checkbox' ? x.checked : x.value) : ''; };
+    if (f.dataset.bform === 'once') return run('billing-once', { name: v('name'), emails: v('email') ? [v('email')] : [], description: v('desc'), amount: v('amount'), vat: v('vat'), collect: v('collect') },
+      function (r) { D.toast(r.once && r.once.payUrl ? '✓ נוצר קישור לתשלום. אפשר לשלוח אותו ללקוח.' : '✓ החשבונית יצאה במייל'); load(); });
     if (f.dataset.bform === 'connect') return run('billing-connect', { id: v('id'), secret: v('secret'), sandbox: v('sandbox') }, function () { D.toast('✓ החשבון מחובר'); load(); });
     run('billing-plan', { site: f.dataset.site, plan: { client: { name: v('name'), emails: v('email') ? [v('email')] : [], phone: v('phone') }, price: v('price'), vat: v('vat'),
       collect: v('collect'), day: v('day'), includes: { changes: v('changes') }, extraPrice: v('extra') } }, function () { open = ''; D.toast('✓ החבילה נשמרה'); load(); });
